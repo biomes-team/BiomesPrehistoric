@@ -1,4 +1,4 @@
-How big is it? At least 2x the size 
+How big is it? At least 2x the size of thrumbo?
 What does it eat? (is it a predator?) Eats trees primarily, will decrease their growth % rather than eat it entirely.
 Where does it live? Warmer forested biomes, and arid shrubland maybe.
 Does it spawn in packs? Yes, small to medium sized herds. 
