@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
+BMT_Oviraptor - arid shrubland
+
+
+-->
+<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
@@ -29,15 +34,16 @@
 			<Placeholder>99999999</Placeholder>
 		</value>
 	</Operation>
-
+-->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
-			<Placeholder>99999999</Placeholder>
+			<BMT_Oviraptor>0.2</BMT_Oviraptor>
 		</value>
 	</Operation>
 	
+	<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
 		<value>
