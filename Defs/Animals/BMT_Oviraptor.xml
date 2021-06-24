@@ -113,7 +113,7 @@
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
+          <texPath>BMT_Prehistoric/Animals/Oviraptor/Dessicated_Oviraptor</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -127,7 +127,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
+          <texPath>BMT_Prehistoric/Animals/Oviraptor/Dessicated_Oviraptor</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -141,7 +141,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
+          <texPath>BMT_Prehistoric/Animals/Oviraptor/Dessicated_Oviraptor</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
