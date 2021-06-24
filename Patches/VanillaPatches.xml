@@ -2,21 +2,21 @@
 <Patch>
 <!--
 BMT_Oviraptor - arid shrubland
-
+BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 
 -->
-<!--
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
-			<Placeholder>99999999</Placeholder>
+			<BMT_Brachiosaurus>0.1</BMT_Brachiosaurus>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>
-			<Placeholder>99999999</Placeholder>
+			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		</value>
 	</Operation>
 
@@ -24,22 +24,23 @@ BMT_Oviraptor - arid shrubland
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
-			<Placeholder>99999999</Placeholder>
+			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
-			<Placeholder>99999999</Placeholder>
+			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		</value>
 	</Operation>
--->
+
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
+			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
 		</value>
 	</Operation>
 	
