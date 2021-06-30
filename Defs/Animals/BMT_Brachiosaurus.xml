@@ -17,7 +17,7 @@
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
       <leatherDef>BMT_DinoHideHeavy</leatherDef>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>7.0</baseBodySize>
+      <baseBodySize>9.5</baseBodySize>
       <baseHealthScale>3.0</baseHealthScale>
       <baseHungerRate>4.0</baseHungerRate>
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
