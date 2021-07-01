@@ -1,0 +1,5 @@
+How big is it? 3x-ish pawn size?
+What does it eat? (is it a predator?) Predator, will "wrap" prey and swallow it? (Will at least have the swallow thing via Sarg's code)
+Where does it live? Tropical jungles.
+Does it spawn in packs? Nope, spawns alone.
+Other info-- good pets? shearable? do you want it to have a specific type of leather? etc. Gives snakeskin if that's a vanilla thing, if not it gives medium leather.
