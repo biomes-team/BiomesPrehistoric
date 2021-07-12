@@ -14,7 +14,7 @@
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
     </statBases>
     <race>
-	  <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+	  <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideFeathery</leatherDef>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.7</baseBodySize>
@@ -27,7 +27,7 @@
       <lifeExpectancy>9</lifeExpectancy>
       <manhunterOnTameFailChance>0.015</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.015</manhunterOnDamageChance>
-      <trainability>Simple</trainability>
+      <trainability>Intermediate</trainability>
 	  <lifeStageAges>
         <li>
           <def>AnimalBabyTiny</def>
