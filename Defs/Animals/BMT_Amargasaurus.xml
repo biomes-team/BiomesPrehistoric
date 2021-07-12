@@ -4,22 +4,22 @@
 
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Brachiosaurus</defName>
-    <label>brachiosaurus</label>
-    <description>A huge herbivorous dinosaur. Their long necks are better suited to being held upright than those of other sauropods, making them efficient defoliators of trees.</description>
+    <defName>BMT_Amargasaurus</defName>
+    <label>amargasaurus</label>
+    <description>A large solitary herbivore with a striking double crest of spines along its neck. Despite reaching almost 10m in length they are small for sauropods, relying on their spiked necks rather than sheer size for defence from predators. Each of the spines is coated in a keratinous sheath, like the horns of an ibex.\n\nWhile not the easiest animals to manage their impressive appearance means they command a high price.</description>
     <statBases>
-      <MoveSpeed>5.5</MoveSpeed>
+      <MoveSpeed>5</MoveSpeed>
       <MarketValue>1220</MarketValue>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
-      <ComfyTemperatureMax>50</ComfyTemperatureMax>
-      <FilthRate>16</FilthRate>	  
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
+      <FilthRate>16</FilthRate>	 	  
     </statBases>
     <race>
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
       <leatherDef>BMT_DinoHideHeavy</leatherDef>
-      <herdAnimal>true</herdAnimal>
-      <baseBodySize>9.5</baseBodySize>
-      <baseHealthScale>3.0</baseHealthScale>
+      <herdAnimal>false</herdAnimal>
+      <baseBodySize>3.5</baseBodySize>
+      <baseHealthScale>2.25</baseHealthScale>
       <baseHungerRate>0.535</baseHungerRate>
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 	  <predator>false</predator>
@@ -49,7 +49,7 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_BrachiosaurusEggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_AmargasaurusEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>45</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -62,7 +62,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>22</power>
+        <power>15</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
       </li>
@@ -71,7 +71,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>22</power>
+        <power>15</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
@@ -79,7 +79,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>26</power>
+        <power>18</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
@@ -89,7 +89,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>18</power>
+        <power>25</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -102,15 +102,15 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Brachiosaurus</defName>
-    <label>brachiosaurus</label>
-    <race>BMT_Brachiosaurus</race>
-    <combatPower>85</combatPower>
-    <wildGroupSize>2~4</wildGroupSize>
+    <defName>BMT_Amargasaurus</defName>
+    <label>amargasaurus</label>
+    <race>BMT_Amargasaurus</race>
+    <combatPower>100</combatPower>
+    <wildGroupSize>1</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
           <drawSize>6.5</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
@@ -119,13 +119,13 @@
         </bodyGraphicData>
 		
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Dessicated_Amargasaurus</texPath>
           <drawSize>6.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
           <drawSize>10.5</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
@@ -133,13 +133,13 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Dessicated_Amargasaurus</texPath>
           <drawSize>10.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
           <drawSize>12.0</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
@@ -147,7 +147,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Dessicated_Amargasaurus</texPath>
           <drawSize>12.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -157,9 +157,9 @@
 
 
  <ThingDef ParentName="EggFertBase">
-    <defName>BMT_BrachiosaurusEggFertilized</defName>
-    <label>brachiosaurus egg (fert.)</label>
-    <description>A fertilized brachiosaurus egg. If all goes well, it should hatch into a baby brachiosaurus. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_AmargasaurusEggFertilized</defName>
+    <label>Amargasaurus egg (fert.)</label>
+    <description>A fertilized Amargasaurus egg. If all goes well, it should hatch into a baby amargasaurus. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(230,212,193)</color>
       <drawSize>2.7</drawSize>
@@ -169,8 +169,8 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>17</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Brachiosaurus</hatcherPawn>
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Amargasaurus</hatcherPawn>
       </li>
     </comps>
   </ThingDef>

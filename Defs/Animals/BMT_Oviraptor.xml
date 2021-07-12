@@ -12,6 +12,7 @@
       <MarketValue>220</MarketValue>
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <FilthRate>6</FilthRate>		  
     </statBases>
     <race>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
