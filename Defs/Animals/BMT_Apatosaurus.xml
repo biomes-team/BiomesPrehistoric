@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>BMT_Apatosaurus</defName>
+    <label>apatosaurus</label>
+    <description>A giant grazing animal with a long neck and a dangerous whip-like tail. When using their tail as a weapon they can produce cracking sounds as loud as a cannon firing.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <MarketValue>1220</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <FilthRate>15</FilthRate>	 	  
+    </statBases>
+    <race>
+	  <body>QuadrupedAnimalWithPawsAndTail</body>
+      <leatherDef>BMT_DinoHideHeavy</leatherDef>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>4.8</baseBodySize>
+      <baseHealthScale>3</baseHealthScale>
+      <baseHungerRate>0.755</baseHungerRate>
+      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+	  <predator>false</predator>
+      <wildness>0.60</wildness>
+      <roamMtbDays>2.5</roamMtbDays>	  
+      <lifeExpectancy>80</lifeExpectancy>
+      <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.70</manhunterOnDamageChance>
+      <trainability>None</trainability>
+	  <lifeStageAges>
+        <li>
+          <def>AnimalBabyTiny</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>BMT_ApatosaurusEggFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>45</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1~1</eggCountRange>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>front left foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>front right foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+     <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>BMT_Apatosaurus</defName>
+    <label>apatosaurus</label>
+    <race>BMT_Apatosaurus</race>
+    <combatPower>90</combatPower>
+    <wildGroupSize>3~5</wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
+          <drawSize>4</drawSize>
+		  <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Apatosaurus/Dessicated_Apatosaurus</texPath>
+          <drawSize>4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
+          <drawSize>6</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Apatosaurus/Dessicated_Apatosaurus</texPath>
+          <drawSize>6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
+          <drawSize>7.5</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Apatosaurus/Dessicated_Apatosaurus</texPath>
+          <drawSize>7.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+ <ThingDef ParentName="EggFertBase">
+    <defName>BMT_ApatosaurusEggFertilized</defName>
+    <label>Apatosaurus egg (fert.)</label>
+    <description>A fertilized Apatosaurus egg. If all goes well, it should hatch into a baby apatosaurus. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(230,212,193)</color>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>55</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Apatosaurus</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  </Defs>

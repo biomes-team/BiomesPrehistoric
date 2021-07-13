@@ -9,6 +9,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
+			<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.1</BMT_Brachiosaurus>
 		</value>
 	</Operation>
@@ -16,6 +17,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus> 
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		</value>
 	</Operation>
@@ -31,6 +33,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		</value>
 	</Operation>
@@ -39,8 +42,23 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
+			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
 			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+		<value>
+			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+		<value>
+			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 		</value>
 	</Operation>
 	
@@ -59,14 +77,6 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 		</value>
 	</Operation>
 	
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
-		<value>
-			<Placeholder>99999999</Placeholder>
-		</value>
-	</Operation>
-	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
 		<value>
@@ -74,12 +84,6 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 		</value>
 	</Operation>	
 	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
-		<value>
-			<Placeholder>99999999</Placeholder>
-		</value>
-	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
