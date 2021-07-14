@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Arthropleura</defName>
     <label>arthropleura</label>
-    <description>Arthropleura, a millipede arthropod, are one of the largest land invertibrates of all time. Once thought to be a predator like modern centipedes, it was discovered that it was largely an herbivore.</description>
+    <description>Arthropleura, a millipede arthropod, is one of the largest land invertebrates of all time. Once thought to be a predator like modern centipedes, it was discovered that it was largely an herbivore.</description>
     <statBases>
       <MoveSpeed>6.5</MoveSpeed>
       <MarketValue>300</MarketValue>
