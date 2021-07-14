@@ -6,12 +6,12 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Titanboa</defName>
     <label>titanboa</label>
-    <description>A giant grazing animal with a long neck and a dangerous whip-like tail. When using their tail as a weapon they can produce cracking sounds as loud as a cannon firing.</description>
+    <description>A large snake that can wrap around its prey and swallow it alive.</description>
     <statBases>
-      <MoveSpeed>6.5</MoveSpeed>
+      <MoveSpeed>5</MoveSpeed>
       <MarketValue>1534</MarketValue>
-      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
-      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
       <FilthRate>10</FilthRate>	 	  
     </statBases>
 	
