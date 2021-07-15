@@ -43,6 +43,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>1</minAge>
+		  <soundWounded>Arthropleura_Injured</soundWounded>
+		  <soundCall>Arthropleura_Call</soundCall>
+		  <soundDeath>Arthropleura_Death</soundDeath>
+		  <soundAngry>Arthropleura_Aggresive</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
