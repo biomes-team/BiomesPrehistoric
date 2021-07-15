@@ -8,17 +8,12 @@
     <label>titanboa</label>
     <description>A large snake that can wrap around its prey and swallow it alive.</description>
     <statBases>
-      <MoveSpeed>6.5</MoveSpeed>
-      <MarketValue>1534</MarketValue>
-      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
-      <ComfyTemperatureMax>50</ComfyTemperatureMax>
-    <statBases>
       <MoveSpeed>5</MoveSpeed>
       <MarketValue>1534</MarketValue>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
-      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <FilthRate>10</FilthRate>	 	  
-    </statBases>
+    </statBases> 
 	
     <race>
 	  <body>Snake</body>
