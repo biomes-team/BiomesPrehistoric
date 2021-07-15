@@ -159,7 +159,7 @@
  <ThingDef ParentName="EggFertBase">
     <defName>BMT_ApatosaurusEggFertilized</defName>
     <label>Apatosaurus egg (fert.)</label>
-    <description>A fertilized Apatosaurus egg. If all goes well, it should hatch into a baby apatosaurus. It can be eaten raw, but it's much better cooked.</description>
+    <description>A fertilized apatosaurus egg. If all goes well, it should hatch into a baby apatosaurus. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(230,212,193)</color>
       <drawSize>2</drawSize>
