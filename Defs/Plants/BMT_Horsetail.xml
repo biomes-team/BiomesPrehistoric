@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>BMT_Horsetail</defName>
-    <label>horsetails</label>
-    <description>Wild horsetails, while nutritionally comparable to grasses their high silicon content makes them difficult for animals to digest. Slows down anyone moving over them.</description>
+    <label>horsetail</label>
+    <description>Wild horsetail, while nutritionally comparable to grasses, their high silicon content makes them difficult to digest. Slows down anyone moving over them.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Flammability>1.3</Flammability>

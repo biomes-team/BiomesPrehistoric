@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>BMT_Clubmoss</defName>
     <label>clubmoss</label>
-    <description>Shruby stands of clubmoss. These grow in clusters and slow down movement.</description>
+    <description>Shrubby stands of clubmoss. They grow in clusters and slow down movement.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Nutrition>0.25</Nutrition>
