@@ -9,6 +9,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.1</BMT_Brachiosaurus>
@@ -18,6 +19,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus> 
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
@@ -28,6 +30,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
 		</value>
@@ -36,6 +39,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
+     		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
@@ -46,6 +50,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.2</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.2</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
@@ -56,6 +61,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 		</value>
 	</Operation>
