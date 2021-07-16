@@ -85,6 +85,7 @@
       </li>
     </tools>
     <tradeTags>
+	  <li>AnimalInsect</li>
       <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
