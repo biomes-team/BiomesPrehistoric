@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
-BMT_Oviraptor - arid shrubland
+BMT_Amargasaurus - warmer to temperate forested biomes, including swamps, spawns more near water
+BMT_Apatosaurus - Swampy areas and along rivers predominantly
+BMT_Arthropleura - Warmer forested biomes.
 BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
-
+BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warmer.
+BMT_Oviraptor - arid shrubland
+BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles
+BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle. 
+BMT_Titanboa - Tropical jungles.
 -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.1</BMT_Brachiosaurus>
+			<BMT_Amargasaurus>0.3</BMT_Amargasaurus>
+			<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus> 
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+			<BMT_Amargasaurus>0.8</BMT_Amargasaurus>
+			<BMT_Spinosaurus>0.3</BMT_Spinosaurus>
 		</value>
 	</Operation>
 
@@ -28,17 +40,24 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
+			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
+			<BMT_Spinosaurus>0.2</BMT_Spinosaurus>
+			<BMT_Titanboa>0.1</BMT_Titanboa>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
+     		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+			<BMT_Amargasaurus>0.7</BMT_Amargasaurus>
+			<BMT_Spinosaurus>0.7</BMT_Spinosaurus>
 		</value>
 	</Operation>
 
@@ -46,6 +65,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.2</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.2</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
@@ -56,7 +76,9 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+			<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 		</value>
 	</Operation>
 	
@@ -64,6 +86,7 @@ BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
 		<value>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+			<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
 		</value>
 	</Operation>
 	

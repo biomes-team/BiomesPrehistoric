@@ -12,6 +12,8 @@
       <MarketValue>300</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>57</ComfyTemperatureMax>
+      <MeatAmount>35</MeatAmount>
+      <LeatherAmount>25</LeatherAmount>
       <FilthRate>19</FilthRate>	 	  
     </statBases>
 	
@@ -43,10 +45,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>1</minAge>
-		  <soundWounded>Arthropleura_Injured</soundWounded>
-		  <soundCall>Arthropleura_Call</soundCall>
-		  <soundDeath>Arthropleura_Death</soundDeath>
-		  <soundAngry>Arthropleura_Aggresive</soundAngry>
+		  <soundWounded>Pawn_Arthropleura_Wounded</soundWounded>
+		  <soundCall>Pawn_Arthropleura_Call</soundCall>
+		  <soundDeath>Pawn_Arthropleura_Death</soundDeath>
+		  <soundAngry>Pawn_Arthropleura_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -85,6 +87,7 @@
       </li>
     </tools>
     <tradeTags>
+	  <li>AnimalInsect</li>
       <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
