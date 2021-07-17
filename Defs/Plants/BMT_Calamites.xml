@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="DeciduousTreeBase">
+  <ThingDef ParentName="TreeBase">
     <defName>BMT_Calamites</defName>
     <label>horsetail tree</label>
     <description>A fast growing giant horsetail. It doesn't yield as much usable wood as other trees.</description>
