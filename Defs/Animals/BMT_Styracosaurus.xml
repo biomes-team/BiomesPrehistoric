@@ -4,30 +4,30 @@
 
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Chungkingosaurus</defName>
-    <label>chungkingosaurus</label>
-    <description>A small grazing animal with distinctive plates along its back and a dangerous spiked tail. These dinosaurs are often found in family groups.</description>
+    <defName>BMT_Styracosaurus</defName>
+    <label>styracosaurus</label>
+    <description>A big grazing animal with armored leather along its dangerous spiked head. These dinosaurs are often found in big family groups.</description>
     <statBases>
-      <MoveSpeed>5.4</MoveSpeed>
-      <MarketValue>570</MarketValue>
-      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <MoveSpeed>5</MoveSpeed>
+      <MarketValue>880</MarketValue>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <FilthRate>10</FilthRate>	 	  
     </statBases>
     <race>
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
-      <leatherDef>BMT_DinoHideThin</leatherDef>
+      <leatherDef>BMT_DinoHideArmored</leatherDef>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>1.8</baseBodySize>
-      <baseHealthScale>1.8</baseHealthScale>
-      <baseHungerRate>0.55</baseHungerRate>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHealthScale>3</baseHealthScale>
+      <baseHungerRate>0.60</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
 	  <predator>false</predator>
-      <wildness>0.20</wildness>
+      <wildness>0.45</wildness>
       <roamMtbDays>2</roamMtbDays>	  
-      <lifeExpectancy>80</lifeExpectancy>
-      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
+      <lifeExpectancy>72</lifeExpectancy>
+      <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
       <trainability>None</trainability>
       <ageGenerationCurve>
         <points>
@@ -46,22 +46,22 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.4</minAge>
+          <minAge>1</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.8</minAge>
+          <minAge>2</minAge>
         </li>
       </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>BMT_ChungkingosaurusEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggLayIntervalDays>25</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1~1</eggCountRange>
       </li>
@@ -72,8 +72,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.7</cooldownTime>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
       </li>
       <li>
@@ -81,8 +81,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.7</cooldownTime>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
      <li>
@@ -99,8 +99,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14</power>
-        <cooldownTime>2</cooldownTime>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -113,16 +113,16 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Chungkingosaurus</defName>
-    <label>chungkingosaurus</label>
-    <race>BMT_Chungkingosaurus</race>
-    <combatPower>60</combatPower>
-    <wildGroupSize>2~5</wildGroupSize>
+    <defName>BMT_Styracosaurus</defName>
+    <label>styracosaurus</label>
+    <race>BMT_Styracosaurus</race>
+    <combatPower>70</combatPower>
+    <wildGroupSize>5~10</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
-          <drawSize>0.8</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+          <drawSize>3</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -132,8 +132,8 @@
 	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
-          <drawSize>1</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+          <drawSize>5</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -143,8 +143,8 @@
 	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
-          <drawSize>2</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+          <drawSize>7.5</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
@@ -157,20 +157,20 @@
 
 
  <ThingDef ParentName="EggFertBase">
-    <defName>BMT_ChungkingosaurusEggFertilized</defName>
-    <label>Chungkingosaurus egg (fert.)</label>
-    <description>A fertilized Chungkingosaurus egg. If all goes well, it should hatch into a baby chungkingosaurus. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_StyracosaurusEggFertilized</defName>
+    <label>Styracosaurus egg (fert.)</label>
+    <description>A fertilized Styracosaurus egg. If all goes well, it should hatch into a baby styracosaurus. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(195,123,197)</color>
-      <drawSize>0.5</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>55</MarketValue>
+      <MarketValue>70</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>14</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Chungkingosaurus</hatcherPawn>
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Styracosaurus</hatcherPawn>
       </li>
     </comps>
   </ThingDef>

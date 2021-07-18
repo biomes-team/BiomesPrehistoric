@@ -15,6 +15,7 @@ BMT_Titanboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
@@ -27,6 +28,7 @@ BMT_Titanboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus> 
@@ -40,6 +42,7 @@ BMT_Titanboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
@@ -52,6 +55,7 @@ BMT_Titanboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
      		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus>
@@ -65,6 +69,7 @@ BMT_Titanboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.2</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.2</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
@@ -76,6 +81,7 @@ BMT_Titanboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
