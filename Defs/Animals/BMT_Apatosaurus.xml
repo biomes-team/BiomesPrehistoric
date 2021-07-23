@@ -140,7 +140,7 @@
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
-          <drawSize>7.5</drawSize>
+          <drawSize>9.0</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
@@ -148,7 +148,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Apatosaurus/Dessicated_Apatosaurus</texPath>
-          <drawSize>7.5</drawSize>
+          <drawSize>9.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

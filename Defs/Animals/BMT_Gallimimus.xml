@@ -4,30 +4,31 @@
 
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Amargasaurus</defName>
-    <label>amargasaurus</label>
-    <description>A large solitary herbivore with a striking double crest of spines along its neck. Despite reaching almost 10m in length they are small for sauropods, relying on their spiked necks rather than sheer size for defence from predators. Each of the spines is coated in a keratinous sheath, like the horns of an ibex.\n\nWhile not the easiest animals to manage their impressive appearance means they command a high price.</description>
+    <defName>BMT_Gallimimus</defName>
+    <label>gallimimus</label>
+    <description>Gallimimus bullatus. A midsized dinosaur usually found in small herds. Can be used as a swift pack animal on caravans.</description>
     <statBases>
-      <MoveSpeed>5</MoveSpeed>
-      <MarketValue>1220</MarketValue>
-      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <MoveSpeed>5.2</MoveSpeed>
+      <MarketValue>620</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <FilthRate>16</FilthRate>	 	  
     </statBases>
     <race>
-	  <body>QuadrupedAnimalWithPawsAndTail</body>
-      <leatherDef>BMT_DinoHideHeavy</leatherDef>
-      <herdAnimal>false</herdAnimal>
-      <baseBodySize>3.5</baseBodySize>
-      <baseHealthScale>2.25</baseHealthScale>
+	  <body>BMT_BipedWithClawsTeethAndTail</body>
+      <leatherDef>BMT_DinoHideThin</leatherDef>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHealthScale>1.5</baseHealthScale>
       <baseHungerRate>0.535</baseHungerRate>
-      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+      <foodType>OmnivoreRoughAnimal, OvivoreAnimal</foodType>
 	  <predator>false</predator>
-      <wildness>0.70</wildness>
+      <packAnimal>true</packAnimal>
+      <wildness>0.50</wildness>
       <roamMtbDays>2</roamMtbDays>	  
-      <lifeExpectancy>90</lifeExpectancy>
-      <manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+      <lifeExpectancy>34</lifeExpectancy>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <trainability>None</trainability>
 	  <lifeStageAges>
         <li>
@@ -36,11 +37,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>1.5</minAge>
+          <minAge>0.25</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>3.0</minAge>
+          <minAge>0.6</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -49,37 +50,37 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_AmargasaurusEggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_GallimimusEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>45</eggLayIntervalDays>
+        <eggLayIntervalDays>24</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1~1</eggCountRange>
       </li>
     </comps>
     <tools>
       <li>
-        <label>front left foot</label>
+        <label>front left claws</label>
         <capacities>
-          <li>Blunt</li>
+          <li>Scratch</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <power>9.6</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
       <li>
-        <label>front right foot</label>
+        <label>front right claws</label>
         <capacities>
-          <li>Blunt</li>
+          <li>Scratch</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <power>9.6</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
      <li>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>18</power>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
@@ -89,7 +90,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>25</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -102,16 +103,22 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Amargasaurus</defName>
-    <label>amargasaurus</label>
-    <race>BMT_Amargasaurus</race>
+    <defName>BMT_Gallimimus</defName>
+    <label>gallimimus</label>
+    <race>BMT_Gallimimus</race>
     <combatPower>100</combatPower>
-    <wildGroupSize>1</wildGroupSize>
+    <wildGroupSize>2~3</wildGroupSize>
+	<alternateGraphicChance>0.5</alternateGraphicChance>
+	<alternateGraphics>
+		<li>
+			  <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus_b</texPath>
+		</li>
+	</alternateGraphics>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
-          <drawSize>3.5</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
+          <drawSize>1.7</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -120,19 +127,18 @@
      </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
-          <drawSize>4.5</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
+          <drawSize>3.0</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
             <offset>(0,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
-
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
-          <drawSize>6.3</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
+          <drawSize>4.0</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
@@ -145,9 +151,9 @@
 
 
  <ThingDef ParentName="EggFertBase">
-    <defName>BMT_AmargasaurusEggFertilized</defName>
-    <label>Amargasaurus egg (fert.)</label>
-    <description>A fertilized Amargasaurus egg. If all goes well, it should hatch into a baby amargasaurus. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_GallimimusEggFertilized</defName>
+    <label>Gallimimus egg (fert.)</label>
+    <description>A fertilized Gallimimus egg. If all goes well, it should hatch into a baby Gallimimus. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(230,212,193)</color>
       <drawSize>2.7</drawSize>
@@ -158,7 +164,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>16</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Amargasaurus</hatcherPawn>
+        <hatcherPawn>BMT_Gallimimus</hatcherPawn>
       </li>
     </comps>
   </ThingDef>

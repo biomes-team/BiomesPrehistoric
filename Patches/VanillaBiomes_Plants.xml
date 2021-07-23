@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+Plant patches. Uncomment as needed.
+
+Plants added:
+BMT_Clubmoss - bushlike?
+BMT_Horsetail - grasslike, tough
+BMT_Calamites - treelike, gives little wood
+-->
+
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+		<value>
+			<BMT_Calamites>0.5</BMT_Calamites>
+			<BMT_Horsetail>2.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+		<value>
+			<BMT_Calamites>0.7</BMT_Calamites>
+			<BMT_Clubmoss>1.0</BMT_Clubmoss>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+		<value>
+			<BMT_Calamites>0.1</BMT_Calamites>
+			<BMT_Clubmoss>0.5</BMT_Clubmoss>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+		<value>
+			<BMT_Calamites>0.3</BMT_Calamites>
+			<BMT_Clubmoss>1.0</BMT_Clubmoss>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
+		<value>
+			<BMT_Horsetail>3.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<BMT_Calamites>0.5</BMT_Calamites>
+			<BMT_Horsetail>2.0</BMT_Horsetail>
+		</value>
+	</Operation>
+	<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+		<value>
+			<BMT_Horsetail>1.0</BMT_Horsetail>
+		</value>
+	</Operation>
+	<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>	
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="IceSheet"]/wildPlants</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="SeaIce"]/wildPlants</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	-->
+</Patch>
