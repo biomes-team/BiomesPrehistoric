@@ -8,8 +8,8 @@
     <label>arthropleura</label>
     <description>Arthropleura, a millipede arthropod, is one of the largest land invertebrates of all time. Once thought to be a predator like modern centipedes, it was discovered that it was largely an herbivore.</description>
     <statBases>
-      <MoveSpeed>6.5</MoveSpeed>
-      <MarketValue>300</MarketValue>
+      <MoveSpeed>4.8</MoveSpeed>
+      <MarketValue>200</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>57</ComfyTemperatureMax>
       <MeatAmount>35</MeatAmount>
@@ -18,15 +18,13 @@
     </statBases>
 	
     <race>
-	  <body>BMT_BeetleLike</body>
+	    <body>BMT_BeetleLike</body>
       <leatherDef>Leather_Lizard</leatherDef>
       <herdAnimal>false</herdAnimal>
       <baseBodySize>2.18</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
-      <baseHungerRate>0.70</baseHungerRate>
-      <foodType>OmnivoreAnimal</foodType>
-	  <predator>true</predator>
-	  <maxPreyBodySize>1</maxPreyBodySize>
+      <baseHungerRate>0.425</baseHungerRate>
+      <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.75</wildness>
       <roamMtbDays>3</roamMtbDays>	  
       <lifeExpectancy>15</lifeExpectancy>
@@ -69,7 +67,7 @@
         <capacities>
          <li>Bite</li>
         </capacities>
-        <power>15</power>
+        <power>8.8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
@@ -79,7 +77,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
+        <power>7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -87,7 +85,7 @@
       </li>
     </tools>
     <tradeTags>
-	  <li>AnimalInsect</li>
+	    <li>AnimalInsect</li>
       <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
@@ -138,8 +136,8 @@
 
  <ThingDef ParentName="EggFertBase">
     <defName>BMT_ArthropleuraEggFertilized</defName>
-    <label>Arthropleura egg (fert.)</label>
-    <description>A fertilized Arthropleura egg. If all goes well, it should hatch into a baby arthropleura. It can be eaten raw, but it's much better cooked.</description>
+    <label>arthropleura egg (fert.)</label>
+    <description>A fertilized arthropleura egg. If all goes well, it should hatch into a baby arthropleura. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(230,212,193)</color>
       <drawSize>0.8</drawSize>
