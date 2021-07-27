@@ -4,8 +4,8 @@
 
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Titanboa</defName>
-    <label>titanboa</label>
+    <defName>BMT_Titanoboa</defName>
+    <label>titanoboa</label>
     <description>A large snake that can wrap around its prey and swallow it alive.</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
@@ -51,7 +51,7 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_TitanboaEggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_TitanoboaEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>3</eggFertilizationCountMax>
         <eggLayIntervalDays>25</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -86,9 +86,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Titanboa</defName>
-    <label>titanboa</label>
-    <race>BMT_Titanboa</race>
+    <defName>BMT_Titanoboa</defName>
+    <label>titanoboa</label>
+    <race>BMT_Titanoboa</race>
     <combatPower>95</combatPower>
     <wildGroupSize>1</wildGroupSize>
     <lifeStages>
@@ -130,9 +130,9 @@
 
 
  <ThingDef ParentName="EggFertBase">
-    <defName>BMT_TitanboaEggFertilized</defName>
-    <label>Titanboa egg (fert.)</label>
-    <description>A fertilized Titanboa egg. If all goes well, it should hatch into a baby titanboa. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_TitanoboaEggFertilized</defName>
+    <label>Titanoboa egg (fert.)</label>
+    <description>A fertilized Titanoboa egg. If all goes well, it should hatch into a baby titanoboa. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(230,212,193)</color>
       <drawSize>1</drawSize>
@@ -143,7 +143,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>12</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Titanboa</hatcherPawn>
+        <hatcherPawn>BMT_Titanoboa</hatcherPawn>
       </li>
     </comps>
   </ThingDef>

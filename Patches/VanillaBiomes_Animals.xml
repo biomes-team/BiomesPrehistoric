@@ -10,7 +10,7 @@ BMT_Oviraptor - arid shrubland
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle. 
 BMT_Styracosaurus - From shrubland to boreal forests.
-BMT_Titanboa - Tropical jungles.
+BMT_Titanoboa - Tropical jungles.
 -->
 
 	<Operation Class="PatchOperationAdd">
@@ -49,7 +49,7 @@ BMT_Titanboa - Tropical jungles.
 			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
 			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.2</BMT_Spinosaurus>
-			<BMT_Titanboa>0.1</BMT_Titanboa>
+			<BMT_Titanoboa>0.1</BMT_Titanoboa>
 		</value>
 	</Operation>
 	
