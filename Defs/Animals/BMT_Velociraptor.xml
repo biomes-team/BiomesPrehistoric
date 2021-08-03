@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Velociraptor</defName>
     <label>velociraptor</label>
-    <description>A small raptor with downy hide. Eats plants and small prey.</description>
+    <description>A small raptor with downy hide. It eats plants and small prey its also a good hunting pet, its down can be shed once a year. </description>
     <statBases>
       <MoveSpeed>5.5</MoveSpeed>
       <MarketValue>220</MarketValue>
@@ -14,6 +14,13 @@
       <ComfyTemperatureMax>65</ComfyTemperatureMax>
       <FilthRate>6</FilthRate>		  
     </statBases>
+	    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>BMT_DinoHideFeathery</woolDef>
+        <shearIntervalDays>60</shearIntervalDays>
+        <woolAmount>5</woolAmount>
+      </li>
+    </comps>
     <race>
 	  <petness>1</petness>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
