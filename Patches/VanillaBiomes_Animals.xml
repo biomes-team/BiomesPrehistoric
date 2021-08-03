@@ -70,12 +70,20 @@ BMT_Titanoboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Velociraptor>0.5</BMT_Velociraptor>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.2</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.2</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
 			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Velociraptor>0.5</BMT_Velociraptor>
 		</value>
 	</Operation>
 	
@@ -97,14 +105,9 @@ BMT_Titanoboa - Tropical jungles.
 		</value>
 	</Operation>
 	
-	<!--
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
-		<value>
-			<Placeholder>99999999</Placeholder>
-		</value>
-	</Operation>
-	
+
+
+		<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
 		<value>
