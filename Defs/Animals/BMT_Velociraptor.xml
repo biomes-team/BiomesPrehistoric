@@ -9,18 +9,12 @@
     <description>A small raptor with downy hide. It eats plants and small prey its also a good hunting pet, its down can be shed once a year. </description>
     <statBases>
       <MoveSpeed>5.5</MoveSpeed>
-      <MarketValue>220</MarketValue>
+      <MarketValue>450</MarketValue>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>65</ComfyTemperatureMax>
       <FilthRate>6</FilthRate>		  
     </statBases>
-	    <comps>
-      <li Class="CompProperties_Shearable">
-        <woolDef>BMT_DinoHideFeathery</woolDef>
-        <shearIntervalDays>60</shearIntervalDays>
-        <woolAmount>5</woolAmount>
-      </li>
-    </comps>
+
     <race>
 	  <petness>1</petness>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
@@ -58,6 +52,13 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <comps>
+	  
+      <li Class="CompProperties_Shearable">
+        <woolDef>BMT_DinoHideFeathery</woolDef>
+        <shearIntervalDays>60</shearIntervalDays>
+        <woolAmount>5</woolAmount>
+      </li>
+    
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>BMT_VelociraptorEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>3</eggFertilizationCountMax>
