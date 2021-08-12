@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>BMT_Protoceratops</defName>
+    <label>protoceratops</label>
+    <description>A small grazing animal. These dinosaurs are often found in medium to big family groups.</description> <!-- Need better description! --> 
+    <statBases>
+      <MoveSpeed>4</MoveSpeed>
+      <MarketValue>570</MarketValue>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <FilthRate>10</FilthRate>	 	  
+    </statBases>
+    <race>
+	  <petness>1</petness>
+	  <body>QuadrupedAnimalWithPawsAndTail</body>
+      <leatherDef>BMT_DinoHideThin</leatherDef>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>0.8</baseHealthScale>
+      <baseHungerRate>0.40</baseHungerRate>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <predator>false</predator>
+      <wildness>0.20</wildness>
+      <roamMtbDays>2</roamMtbDays>	  
+      <lifeExpectancy>60</lifeExpectancy>
+      <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+	  <nuzzleMtbHours>6</nuzzleMtbHours>
+	  <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Intermediate</trainability>
+      <ageGenerationCurve>
+        <points>
+          <li>(0.0,0)</li>
+          <li>(0.1,350)</li>
+          <li>(0.9,150)</li>
+          <li>(1.5,5)</li>
+		  <li>(20,4)</li>
+          <li>(65,0)</li>
+        </points>
+      </ageGenerationCurve>
+	  <lifeStageAges>
+        <li>
+          <def>AnimalBabyTiny</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+        </li>
+      </lifeStageAges>
+	  <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>BMT_ProtoceratopsEggFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1~1</eggCountRange>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>front left foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>front right foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+     <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+	  <li>AnimalPet</li>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>BMT_Protoceratops</defName>
+    <label>protoceratops</label>
+    <race>BMT_Protoceratops</race>
+    <combatPower>55</combatPower>
+    <wildGroupSize>4~10</wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Protoceratops/Protoceratops</texPath>
+          <drawSize>1</drawSize>
+		  <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Protoceratops/Dessicated_Protoceratops</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+	  
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Protoceratops/Protoceratops</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Protoceratops/Dessicated_Protoceratops</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+	  
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Protoceratops/Protoceratops</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Protoceratops/Dessicated_Protoceratops</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+ <ThingDef ParentName="EggFertBase">
+    <defName>BMT_ProtoceratopsEggFertilized</defName>
+    <label>Protoceratops egg (fert.)</label>
+    <description>A fertilized protoceratops egg. If all goes well, it should hatch into a baby protoceratops. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(195,123,197)</color>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>14</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Protoceratops</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  </Defs>

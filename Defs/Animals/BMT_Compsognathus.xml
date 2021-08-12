@@ -112,6 +112,7 @@
       </li>
     </tools>
     <tradeTags>
+	   <li>AnimalUncommon</li>
 	   <li>AnimalPet</li>
     </tradeTags>
   </ThingDef>

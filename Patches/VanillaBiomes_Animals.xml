@@ -16,6 +16,8 @@ BMT_Titanoboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
+		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
 		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		    <BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -31,6 +33,7 @@ BMT_Titanoboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>		
+		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
             <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>		
 		    <BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -47,6 +50,8 @@ BMT_Titanoboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
+		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
 		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -62,6 +67,7 @@ BMT_Titanoboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
 		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -98,6 +104,7 @@ BMT_Titanoboa - Tropical jungles.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
