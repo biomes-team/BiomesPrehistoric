@@ -4,32 +4,33 @@
 
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Styracosaurus</defName>
-    <label>styracosaurus</label>
-    <description>A big grazing animal with armored leather along its dangerous spiked head. These dinosaurs are often found in big family groups.</description>
+    <defName>BMT_Borealopelta</defName>
+    <label>borealopelta</label>
+    <description>A medium-sized grazing animal with armored leather along its dangerous spiked body. These dinosaurs are often found in small family groups. Good pack animal.</description>
     <statBases>
-      <MoveSpeed>5</MoveSpeed>
-      <MarketValue>880</MarketValue>
+      <MoveSpeed>4</MoveSpeed>
+      <MarketValue>940</MarketValue>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
-      <FilthRate>10</FilthRate>	 	  
+      <FilthRate>15</FilthRate>	 	  
     </statBases>
     <race>
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
       <leatherDef>BMT_DinoHideArmored</leatherDef>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>2.5</baseBodySize>
-      <baseHealthScale>3</baseHealthScale>
+      <baseHealthScale>4</baseHealthScale>
       <baseHungerRate>0.60</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
 	  <predator>false</predator>
       <packAnimal>true</packAnimal>	  
       <wildness>0.45</wildness>
       <roamMtbDays>2</roamMtbDays>	  
-      <lifeExpectancy>72</lifeExpectancy>
+      <lifeExpectancy>80</lifeExpectancy>
       <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
-      <trainability>None</trainability>
+	  <requiredTrainability>Advanced</requiredTrainability>
+      <trainability>Advanced</trainability>
       <ageGenerationCurve>
         <points>
           <li>(0.0,0)</li>
@@ -60,7 +61,7 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_StyracosaurusEggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_BorealopeltaEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>25</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -73,7 +74,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>18</power>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
       </li>
@@ -82,7 +83,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>18</power>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
@@ -108,61 +109,48 @@
       </li>
     </tools>
     <tradeTags>
-	  <li>AnimalFighter</li>
       <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Styracosaurus</defName>
-    <label>styracosaurus</label>
-    <race>BMT_Styracosaurus</race>
+    <defName>BMT_Borealopelta</defName>
+    <label>borealopelta</label>
+    <race>BMT_Borealopelta</race>
     <combatPower>70</combatPower>
-    <wildGroupSize>5~10</wildGroupSize>
+    <wildGroupSize>2~3</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Borealopelta/Borealopelta</texPath>
           <drawSize>3</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
-		<dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Protoceratops/Dessicated_Protoceratops</texPath>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Borealopelta/Borealopelta</texPath>
           <drawSize>5</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
             <offset>(0,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
-		<dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Dessicated_Styracosaurus</texPath>
-          <drawSize>5</drawSize>
-        </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
-          <drawSize>7.5</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Borealopelta/Borealopelta</texPath>
+          <drawSize>6</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
           </shadowData>
         </bodyGraphicData>
-		  <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Dessicated_Styracosaurus</texPath>
-          <drawSize>7.5</drawSize>
-        </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -170,20 +158,20 @@
 
 
  <ThingDef ParentName="EggFertBase">
-    <defName>BMT_StyracosaurusEggFertilized</defName>
-    <label>Styracosaurus egg (fert.)</label>
-    <description>A fertilized Styracosaurus egg. If all goes well, it should hatch into a baby styracosaurus. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_BorealopeltaEggFertilized</defName>
+    <label>Borealopelta egg (fert.)</label>
+    <description>A fertilized Borealopelta egg. If all goes well, it should hatch into a baby borealopelta. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(195,123,197)</color>
       <drawSize>3</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>70</MarketValue>
+      <MarketValue>80</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Styracosaurus</hatcherPawn>
+        <hatcherPawn>BMT_Borealopelta</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
