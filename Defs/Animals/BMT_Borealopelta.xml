@@ -29,7 +29,6 @@
       <lifeExpectancy>80</lifeExpectancy>
       <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
-	  <requiredTrainability>Advanced</requiredTrainability>
       <trainability>Advanced</trainability>
       <ageGenerationCurve>
         <points>

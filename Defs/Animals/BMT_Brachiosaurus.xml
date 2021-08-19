@@ -21,6 +21,7 @@
       <baseBodySize>9.5</baseBodySize>
       <baseHealthScale>3.0</baseHealthScale>
       <baseHungerRate>0.535</baseHungerRate>
+      <packAnimal>true</packAnimal>
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 	  <predator>false</predator>
       <wildness>0.70</wildness>
