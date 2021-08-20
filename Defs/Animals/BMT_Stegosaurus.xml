@@ -15,7 +15,7 @@
       <FilthRate>17</FilthRate>	 	  
     </statBases>
     <race>
-	  <body>QuadrupedAnimalWithPawsAndTail</body>
+	  <body>BMT_QuadrupedWithClawsAndTailWeapon</body>
       <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>2.8</baseBodySize>
@@ -75,7 +75,7 @@
         </capacities>
         <power>11</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
       <li>
         <label>front right foot</label>
@@ -84,7 +84,7 @@
         </capacities>
         <power>11</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
      <li>
         <capacities>
@@ -106,6 +106,15 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
+	  <li>
+		<label>thagomizer</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+		<power>18</power>
+		<cooldownTime>2.8</cooldownTime>
+		<linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+	  </li>
     </tools>
     <tradeTags>
       <li>AnimalUncommon</li>
