@@ -23,7 +23,7 @@
       <baseHungerRate>0.5</baseHungerRate>
       <foodType>CarnivoreAnimal</foodType>
 	  <predator>true</predator>
-	  <maxPreyBodySize>1.75</maxPreyBodySize>
+	  <maxPreyBodySize>1.0</maxPreyBodySize>
       <packAnimal>false</packAnimal>	  
       <wildness>0.30</wildness>
       <roamMtbDays>2</roamMtbDays>	  
