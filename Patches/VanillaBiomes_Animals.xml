@@ -5,8 +5,10 @@ BMT_Amargasaurus - warmer to temperate forested biomes, including swamps, spawns
 BMT_Ankylosaurus - Warmer to temperate forested biomes
 BMT_Apatosaurus - Swampy areas and along rivers predominantly
 BMT_Arthropleura - Warmer forested biomes.
+BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas. 
 BMT_Borealopelta - Plains and forests along coasts.
 BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
+BMT_Carnotaurus - Plains and along coasts
 BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warmer.
 BMT_Compsognathus - Forested biomes. 
 BMT_Dilophosaurus - Desert biome if it has a river
@@ -14,6 +16,7 @@ BMT_Dimetrodon - Warmer biomes
 BMT_Gallimimus - Temperate areas.
 BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines
 BMT_Oviraptor - arid shrubland
+BMT_Pachycepalosaurus - Warmer to temperate forested biomes.
 BMT_Protoceratops - Warmer lush biomes.
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle. 
@@ -39,6 +42,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 			<BMT_Ankylosaurus>0.3</BMT_Ankylosaurus>
 			<BMT_Gallimimus>0.3</BMT_Gallimimus>
+			<BMT_Pachycepalosaurus>0.3</BMT_Pachycepalosaurus>
 		</value>
 	</Operation>
 	
@@ -57,6 +61,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Spinosaurus>0.3</BMT_Spinosaurus>
 			<BMT_Ankylosaurus>0.5</BMT_Ankylosaurus>
 			<BMT_Gallimimus>0.6</BMT_Gallimimus>
+			<BMT_Baryonyx>0.07</BMT_Baryonyx>
 		</value>
 	</Operation>
 
@@ -77,6 +82,8 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Titanoboa>0.1</BMT_Titanoboa>
 			<BMT_Ankylosaurus>0.7</BMT_Ankylosaurus>
 			<BMT_Gallimimus>0.03</BMT_Gallimimus>
+			<BMT_Baryonyx>0.03</BMT_Baryonyx>
+			<BMT_Pachycepalosaurus>0.3</BMT_Pachycepalosaurus>
 		</value>
 	</Operation>
 	
@@ -94,6 +101,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Amargasaurus>0.7</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.7</BMT_Spinosaurus>
 			<BMT_Ankylosaurus>0.5</BMT_Ankylosaurus>
+			<BMT_Baryonyx>0.08</BMT_Baryonyx>
 		</value>
 	</Operation>
 
@@ -110,6 +118,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
 			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
 			<BMT_Dilophosaurus>0.03</BMT_Dilophosaurus>
+			<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
 		</value>
 	</Operation>
 	
@@ -118,6 +127,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		<value>
 		    <BMT_Velociraptor>0.5</BMT_Velociraptor>
 			<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
+			<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
 		</value>
 	</Operation>
 	

@@ -18,7 +18,7 @@
     <race>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideHeavy</leatherDef>
-      <herdAnimal>true</herdAnimal>
+      <herdAnimal>false</herdAnimal>
       <baseBodySize>2.4</baseBodySize>
       <baseHealthScale>3.0</baseHealthScale>
       <baseHungerRate>0.60</baseHungerRate>
@@ -109,7 +109,6 @@
 	<labelPlural>baryonyx</labelPlural>
     <race>BMT_Baryonyx</race>
     <combatPower>260</combatPower>
-    <wildGroupSize>1~4</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
