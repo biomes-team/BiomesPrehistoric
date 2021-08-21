@@ -4,32 +4,30 @@
 
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Gallimimus</defName>
-    <label>gallimimus</label>
-    <description>Gallimimus bullatus. A midsized dinosaur usually found in small herds. Can be used as a swift pack animal on caravans.</description>
+    <defName>BMT_Dilophosaurus</defName>
+    <label>dilophosaurus</label>
+    <description>A small grazing animal with distinctive plates along its back and a dangerous spiked tail. These dinosaurs are often found in family groups.</description>
     <statBases>
-      <MoveSpeed>5.2</MoveSpeed>
-      <MarketValue>620</MarketValue>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
-      <ComfyTemperatureMax>45</ComfyTemperatureMax>
-      <FilthRate>16</FilthRate>	 	  
+      <MoveSpeed>5.4</MoveSpeed>
+      <MarketValue>570</MarketValue>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>	 	  
     </statBases>
     <race>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
-      <leatherDef>BMT_DinoHideThin</leatherDef>
+      <leatherDef>BMT_DinoHideHeavy</leatherDef>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>2.5</baseBodySize>
-      <baseHealthScale>1.5</baseHealthScale>
-      <baseHungerRate>0.535</baseHungerRate>
-      <foodType>OmnivoreRoughAnimal, OvivoreAnimal</foodType>
-	  <predator>false</predator>
-      <packAnimal>true</packAnimal>
-      <wildness>0.50</wildness>
-      <roamMtbDays>2</roamMtbDays>	  
-      <lifeExpectancy>34</lifeExpectancy>
-      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
-      <trainability>None</trainability>
+      <baseBodySize>2.2</baseBodySize>
+      <baseHealthScale>2.8</baseHealthScale>
+      <baseHungerRate>0.55</baseHungerRate>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+	  <predator>true</predator>
+	  <maxPreyBodySize>1.5</maxPreyBodySize>
+      <wildness>0.65</wildness>  
+      <lifeExpectancy>20</lifeExpectancy>
+      <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.40</manhunterOnDamageChance>
+      <trainability>Intermediate</trainability>
 	  <lifeStageAges>
         <li>
           <def>AnimalBabyTiny</def>
@@ -37,11 +35,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.25</minAge>
+          <minAge>0.4</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.6</minAge>
+          <minAge>0.8</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -50,9 +48,9 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_GallimimusEggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_DilophosaurusEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>24</eggLayIntervalDays>
+        <eggLayIntervalDays>11</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1~1</eggCountRange>
       </li>
@@ -63,8 +61,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>9.6</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>18</power>
+        <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
       <li>
@@ -72,15 +70,15 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>9.6</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>18</power>
+        <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
      <li>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>10</power>
+        <power>22</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
@@ -98,63 +96,60 @@
       </li>
     </tools>
     <tradeTags>
+	  <li>AnimalFighter</li>
       <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Gallimimus</defName>
-    <label>gallimimus</label>
-    <race>BMT_Gallimimus</race>
-    <combatPower>100</combatPower>
-    <wildGroupSize>2~3</wildGroupSize>
-	<alternateGraphicChance>0.5</alternateGraphicChance>
-	<alternateGraphics>
-		<li>
-			  <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus_b</texPath>
-		</li>
-	</alternateGraphics>
+    <defName>BMT_Dilophosaurus</defName>
+    <label>dilophosaurus</label>
+    <race>BMT_Dilophosaurus</race>
+    <combatPower>260</combatPower>
+    <wildGroupSize>1~4</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
-          <drawSize>1.7</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dilophosaurus</texPath>
+          <drawSize>2.2</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Gallimimus/Dessicated_Gallimimus</texPath>
-          <drawSize>1.7</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
+          <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
-     </li>
+      </li>
+	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
-          <drawSize>3.0</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dilophosaurus</texPath>
+          <drawSize>3.3</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
             <offset>(0,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Gallimimus/Dessicated_Gallimimus</texPath>
-          <drawSize>3.0</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
+          <drawSize>3.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
+	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
-          <drawSize>4.0</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dilophosaurus</texPath>
+          <drawSize>4.4</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Gallimimus/Dessicated_Gallimimus</texPath>
-          <drawSize>4.0</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
+          <drawSize>4.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -163,23 +158,22 @@
 
 
  <ThingDef ParentName="EggFertBase">
-    <defName>BMT_GallimimusEggFertilized</defName>
-    <label>Gallimimus egg (fert.)</label>
-    <description>A fertilized Gallimimus egg. If all goes well, it should hatch into a baby Gallimimus. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_DilophosaurusEggFertilized</defName>
+    <label>Dilophosaurus egg (fert.)</label>
+    <description>A fertilized Dilophosaurus egg. If all goes well, it should hatch into a baby dilophosaurus. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <color>(230,212,193)</color>
-      <drawSize>2.7</drawSize>
+      <color>(218,218,216)</color>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>62.0</MarketValue>
+      <MarketValue>55</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>16</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Gallimimus</hatcherPawn>
+        <hatcherDaystoHatch>8</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Dilophosaurus</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
 
   </Defs>
-

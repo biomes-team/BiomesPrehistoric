@@ -116,6 +116,10 @@
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Arthropleura/Dessicated_Arthropleura</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
 		
       </li>
       <li>
@@ -127,6 +131,10 @@
             <offset>(0,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Arthropleura/Dessicated_Arthropleura</texPath>
+          <drawSize>0.95</drawSize>
+        </dessicatedBodyGraphicData>
 
       </li>
       <li>
@@ -138,6 +146,11 @@
             <offset>(0,0,-0.5)</offset>
           </shadowData>
         </bodyGraphicData>
+		
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Arthropleura/Dessicated_Arthropleura</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>

@@ -134,7 +134,7 @@
 				  </shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spinosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
 					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -156,7 +156,7 @@
 				  </shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spinosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
 					<drawSize>6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -178,7 +178,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spinosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
 					<drawSize>7.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

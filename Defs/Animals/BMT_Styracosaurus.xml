@@ -9,7 +9,7 @@
     <description>A big grazing animal with armored leather along its dangerous spiked head. These dinosaurs are often found in big family groups.</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
-      <MarketValue>880</MarketValue>
+      <MarketValue>580</MarketValue>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <FilthRate>10</FilthRate>	 	  
@@ -123,22 +123,22 @@
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
-          <drawSize>3</drawSize>
+          <drawSize>2.0</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
 		<dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Protoceratops/Dessicated_Protoceratops</texPath>
-          <drawSize>3</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Styracosaurus/Dessicated_Styracosaurus</texPath>
+          <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
-          <drawSize>5</drawSize>
+          <drawSize>2.8</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -146,14 +146,14 @@
         </bodyGraphicData>
 		<dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Styracosaurus/Dessicated_Styracosaurus</texPath>
-          <drawSize>5</drawSize>
+          <drawSize>2.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
-          <drawSize>7.5</drawSize>
+          <drawSize>3.5</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
@@ -161,7 +161,7 @@
         </bodyGraphicData>
 		  <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Styracosaurus/Dessicated_Styracosaurus</texPath>
-          <drawSize>7.5</drawSize>
+          <drawSize>3.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
