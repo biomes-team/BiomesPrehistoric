@@ -17,6 +17,7 @@ BMT_Gallimimus - Temperate areas.
 BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines
 BMT_Oviraptor - arid shrubland
 BMT_Pachycephalosaurus - Warmer to temperate forested biomes.
+BMT_Polacanthus - Plains and forests.
 BMT_Protoceratops - Warmer lush biomes.
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle. 
@@ -29,6 +30,7 @@ BMT_Velociraptor - Desert and arid shrubland
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Polacanthus>0.5</BMT_Polacanthus>
 		    <BMT_Borealopelta>0.5</BMT_Borealopelta>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
 		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
@@ -114,6 +116,7 @@ BMT_Velociraptor - Desert and arid shrubland
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Polacanthus>0.5</BMT_Polacanthus>
 		    <BMT_Borealopelta>0.5</BMT_Borealopelta>
 		    <BMT_Velociraptor>0.5</BMT_Velociraptor>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -158,6 +161,7 @@ BMT_Velociraptor - Desert and arid shrubland
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Polacanthus>0.5</BMT_Polacanthus>
 		    <BMT_Borealopelta>0.5</BMT_Borealopelta>
 		</value>
 	</Operation>	
