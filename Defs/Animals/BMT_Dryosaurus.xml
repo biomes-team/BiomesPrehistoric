@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>BMT_Dryosaurus</defName>
+    <label>dryosaurus</label>
+    <description>A grazing herd dinosaur found in many forested areas.</description>
+    <statBases>
+      <MoveSpeed>3.5</MoveSpeed>
+      <MarketValue>180</MarketValue>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+    </statBases>
+    <race>
+	  <body>BMT_BipedWithClawsTeethAndTail</body>
+      <leatherDef>BMT_DinoHideThin</leatherDef>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>1.25</baseHealthScale>
+      <baseHungerRate>0.325</baseHungerRate>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <predator>false</predator>
+      <wildness>0.30</wildness>
+      <lifeExpectancy>16</lifeExpectancy>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <trainability>None</trainability>
+	  <lifeStageAges>
+        <li>
+          <def>AnimalBabyTiny</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.27</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.51</minAge>
+        </li>
+      </lifeStageAges>
+	  <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>BMT_DryosaurusEggFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>8</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1~2</eggCountRange>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+      </li>
+     <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>BMT_Dryosaurus</defName>
+    <label>dryosaurus</label>
+    <race>BMT_Dryosaurus</race>
+    <combatPower>85</combatPower>
+    <wildGroupSize>2~6</wildGroupSize>
+    <alternateGraphicChance>0.50</alternateGraphicChance>
+	<alternateGraphics>
+      <li>
+          <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus_b</texPath>
+	  </li>
+     
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus</texPath>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dessicated_Dryosaurus</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dessicated_Dryosaurus</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus</texPath>
+          <drawSize>3.8</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dessicated_Dryosaurus</texPath>
+          <drawSize>3.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+ <ThingDef ParentName="EggFertBase">
+    <defName>BMT_DryosaurusEggFertilized</defName>
+    <label>dryosaurus egg (fert.)</label>
+    <description>A fertilized dryosaurus egg. If all goes well, it should hatch into a baby dryosaurus. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+      <color>(216,193,142)</color>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>23.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Dryosaurus</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  </Defs>
+

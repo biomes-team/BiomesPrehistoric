@@ -13,6 +13,7 @@ BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warm
 BMT_Compsognathus - Forested biomes. 
 BMT_Dilophosaurus - Desert biome if it has a river
 BMT_Dimetrodon - Warmer biomes
+BMT_Dryosaurus - Warmer forested biomes, and arid shrubland maybe.
 BMT_Gallimimus - Temperate areas.
 BMT_Homalocephale - Cooler forests, especially common in higher elevations/mountains
 BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines
@@ -42,6 +43,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.1</BMT_Brachiosaurus>
+			<BMT_Dryosaurus>0.1</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.3</BMT_Amargasaurus>
 			<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 			<BMT_Ankylosaurus>0.3</BMT_Ankylosaurus>
@@ -63,6 +65,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus> 
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+			<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.8</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.3</BMT_Spinosaurus>
 			<BMT_Ankylosaurus>0.5</BMT_Ankylosaurus>
@@ -84,6 +87,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
+			<BMT_Dryosaurus>0.5</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.2</BMT_Spinosaurus>
 			<BMT_Titanoboa>0.1</BMT_Titanoboa>
@@ -106,6 +110,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+			<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.7</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.7</BMT_Spinosaurus>
 			<BMT_Ankylosaurus>0.5</BMT_Ankylosaurus>
@@ -127,6 +132,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
 			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
+			<BMT_Dryosaurus>0.02</BMT_Dryosaurus>
 			<BMT_Dilophosaurus>0.03</BMT_Dilophosaurus>
 			<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
 		</value>
