@@ -19,6 +19,7 @@ BMT_Homalocephale - Cooler forests, especially common in higher elevations/mount
 BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines
 BMT_Oviraptor - arid shrubland
 BMT_Pachycephalosaurus - Warmer to temperate forested biomes.
+BMT_Parasaur - From arid shrubland to boreal forests.
 BMT_Polacanthus - Plains and forests.
 BMT_Protoceratops - Warmer lush biomes.
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles
@@ -51,6 +52,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 			<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 			<BMT_Homalocephale>0.1</BMT_Homalocephale>
+			<BMT_Parasaur>0.4</BMT_Parasaur>
 		</value>
 	</Operation>
 	
@@ -96,6 +98,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Baryonyx>0.03</BMT_Baryonyx>
 			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 			<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
+			<BMT_Parasaur>0.2</BMT_Parasaur>
 		</value>
 	</Operation>
 	
@@ -135,6 +138,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Dryosaurus>0.02</BMT_Dryosaurus>
 			<BMT_Dilophosaurus>0.03</BMT_Dilophosaurus>
 			<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
+			<BMT_Parasaur>0.4</BMT_Parasaur>
 		</value>
 	</Operation>
 	
@@ -156,6 +160,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 			<BMT_Homalocephale>0.5</BMT_Homalocephale>
+			<BMT_Parasaur>0.3</BMT_Parasaur>
 		</value>
 	</Operation>
 	
