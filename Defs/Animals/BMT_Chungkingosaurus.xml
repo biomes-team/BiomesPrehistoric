@@ -122,7 +122,7 @@
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>1.2</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -130,14 +130,14 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Dessicated_Chungkingosaurus</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>1.9</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -145,14 +145,14 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Dessicated_Chungkingosaurus</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>1.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
-          <drawSize>2</drawSize>
+          <drawSize>2.7</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
@@ -160,7 +160,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Dessicated_Chungkingosaurus</texPath>
-          <drawSize>2</drawSize>
+          <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
