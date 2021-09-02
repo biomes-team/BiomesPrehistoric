@@ -16,6 +16,7 @@ BMT_Dimetrodon - Warmer biomes
 BMT_Dryosaurus - Warmer forested biomes, and arid shrubland maybe.
 BMT_Gallimimus - Temperate areas.
 BMT_Homalocephale - Cooler forests, especially common in higher elevations/mountains
+BMT_Iguanodon - Forests, swamps, and islands.
 BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines
 BMT_Oviraptor - arid shrubland
 BMT_Pachycephalosaurus - Warmer to temperate forested biomes.
@@ -53,6 +54,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 			<BMT_Homalocephale>0.1</BMT_Homalocephale>
 			<BMT_Parasaur>0.4</BMT_Parasaur>
+			<BMT_Iguanodon>0.3</BMT_Iguanodon>
 		</value>
 	</Operation>
 	
@@ -74,6 +76,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Gallimimus>0.6</BMT_Gallimimus>
 			<BMT_Baryonyx>0.07</BMT_Baryonyx>
 			<BMT_Stygimoloch>0.2</BMT_Stygimoloch>
+			<BMT_Iguanodon>0.5</BMT_Iguanodon>
 		</value>
 	</Operation>
 
@@ -99,6 +102,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 			<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
 			<BMT_Parasaur>0.2</BMT_Parasaur>
+			<BMT_Iguanodon>0.4</BMT_Iguanodon>
 		</value>
 	</Operation>
 	
@@ -119,6 +123,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Ankylosaurus>0.5</BMT_Ankylosaurus>
 			<BMT_Baryonyx>0.08</BMT_Baryonyx>
 			<BMT_Stygimoloch>0.3</BMT_Stygimoloch>
+			<BMT_Iguanodon>0.5</BMT_Iguanodon>
 		</value>
 	</Operation>
 
@@ -161,6 +166,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 			<BMT_Homalocephale>0.5</BMT_Homalocephale>
 			<BMT_Parasaur>0.3</BMT_Parasaur>
+			<BMT_Iguanodon>0.2</BMT_Iguanodon>
 		</value>
 	</Operation>
 	
@@ -170,6 +176,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
 			<BMT_Homalocephale>0.15</BMT_Homalocephale>
+			<BMT_Iguanodon>0.3</BMT_Iguanodon>
 		</value>
 	</Operation>
 	

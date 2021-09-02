@@ -31,16 +31,7 @@
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.30</manhunterOnDamageChance>
       <trainability>None</trainability>
-      <ageGenerationCurve>
-        <points>
-          <li>(0.0,0)</li>
-          <li>(0.1,350)</li>
-          <li>(0.9,150)</li>
-          <li>(1.5,5)</li>
-		  <li>(20,4)</li>
-          <li>(65,0)</li>
-        </points>
-      </ageGenerationCurve>
+      
 	  <lifeStageAges>
         <li>
           <def>AnimalBabyTiny</def>
