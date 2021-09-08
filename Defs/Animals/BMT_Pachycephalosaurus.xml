@@ -27,8 +27,8 @@
       <wildness>0.55</wildness>
       <roamMtbDays>2</roamMtbDays>	  
       <lifeExpectancy>32</lifeExpectancy>
-      <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <trainability>None</trainability>
 	  <lifeStageAges>
         <li>
