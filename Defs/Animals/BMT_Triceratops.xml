@@ -78,7 +78,7 @@
 			</capacities>
 			<power>17</power>
 			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 		</li>
 		<li>
 			<label>front right foot</label>
@@ -87,7 +87,7 @@
 			</capacities>
 			<power>17</power>
 			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 		</li>
 		<li>
 			<capacities>
@@ -126,16 +126,16 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Protoceratops</defName>
-    <label>protoceratops</label>
-    <race>BMT_Protoceratops</race>
+    <defName>BMT_Triceratops</defName>
+    <label>triceratops</label>
+    <race>BMT_Triceratops</race>
     <combatPower>55</combatPower>
     <wildGroupSize>4~10</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Triceratops/Triceratops</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>3.8</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -143,14 +143,14 @@
         </bodyGraphicData>
 		        <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Triceratops/Triceratops</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>4.6</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -158,14 +158,14 @@
         </bodyGraphicData>
 		        <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>4.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
 	  
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Triceratops/Triceratops</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>6</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
             <offset>(0,0,-0.5)</offset>
@@ -173,7 +173,7 @@
         </bodyGraphicData>
 		<dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -195,7 +195,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>14</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Protoceratops</hatcherPawn>
+        <hatcherPawn>BMT_Triceratops</hatcherPawn>
       </li>
     </comps>
   </ThingDef>

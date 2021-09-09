@@ -49,6 +49,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Amargasaurus>0.3</BMT_Amargasaurus>
 			<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 			<BMT_Ankylosaurus>0.3</BMT_Ankylosaurus>
+			<BMT_Triceratops>0.3</BMT_Triceratops>
 			<BMT_Gallimimus>0.3</BMT_Gallimimus>
 			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 			<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
@@ -73,6 +74,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Amargasaurus>0.8</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.04</BMT_Spinosaurus>
 			<BMT_Ankylosaurus>0.5</BMT_Ankylosaurus>
+			<BMT_Triceratops>0.5</BMT_Triceratops>
 			<BMT_Gallimimus>0.6</BMT_Gallimimus>
 			<BMT_Baryonyx>0.07</BMT_Baryonyx>
 			<BMT_Stygimoloch>0.2</BMT_Stygimoloch>
@@ -97,6 +99,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
 			<BMT_Titanoboa>0.1</BMT_Titanoboa>
 			<BMT_Ankylosaurus>0.7</BMT_Ankylosaurus>
+			<BMT_Triceratops>0.7</BMT_Triceratops>
 			<BMT_Gallimimus>0.03</BMT_Gallimimus>
 			<BMT_Baryonyx>0.03</BMT_Baryonyx>
 			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
@@ -121,6 +124,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Amargasaurus>0.7</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.07</BMT_Spinosaurus>
 			<BMT_Ankylosaurus>0.5</BMT_Ankylosaurus>
+			<BMT_Triceratops>0.5</BMT_Triceratops>
 			<BMT_Baryonyx>0.08</BMT_Baryonyx>
 			<BMT_Stygimoloch>0.3</BMT_Stygimoloch>
 			<BMT_Iguanodon>0.5</BMT_Iguanodon>

@@ -78,7 +78,7 @@
         </capacities>
         <power>10</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
         <label>front right foot</label>
@@ -87,7 +87,7 @@
         </capacities>
         <power>10</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
      <li>
         <capacities>
