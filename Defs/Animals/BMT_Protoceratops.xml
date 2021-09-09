@@ -15,8 +15,9 @@
       <FilthRate>10</FilthRate>	 	  
     </statBases>
     <race>
+      <useMeatFrom>BMT_Triceratops</useMeatFrom>
 	  <petness>1</petness>
-	  <body>QuadrupedAnimalWithPawsAndTail</body>
+	  <body>QuadrupedAnimalWithHooves</body>
       <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1</baseBodySize>

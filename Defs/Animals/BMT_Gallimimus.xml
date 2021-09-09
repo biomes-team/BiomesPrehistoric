@@ -15,6 +15,7 @@
       <FilthRate>16</FilthRate>	 	  
     </statBases>
     <race>
+      <useMeatFrom>BMT_Velociraptor</useMeatFrom>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>true</herdAnimal>

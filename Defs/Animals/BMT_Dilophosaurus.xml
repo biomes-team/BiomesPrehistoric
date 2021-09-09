@@ -14,6 +14,7 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>	 	  
     </statBases>
     <race>
+      <useMeatFrom>BMT_Velociraptor</useMeatFrom>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideHeavy</leatherDef>
       <herdAnimal>true</herdAnimal>

@@ -73,6 +73,7 @@
 			</li>
 		</comps>
 		<race>
+			<useMeatFrom>BMT_Velociraptor</useMeatFrom>
 			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>

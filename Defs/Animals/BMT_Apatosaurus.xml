@@ -15,6 +15,7 @@
       <FilthRate>15</FilthRate>	 	  
     </statBases>
     <race>
+      <useMeatFrom>BMT_Brachiosaurus</useMeatFrom>
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
       <leatherDef>BMT_DinoHideHeavy</leatherDef>
       <herdAnimal>true</herdAnimal>

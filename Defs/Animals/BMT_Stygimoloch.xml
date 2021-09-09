@@ -15,6 +15,7 @@
       <FilthRate>12</FilthRate>	 	  
     </statBases>
     <race>
+      <useMeatFrom>BMT_Pachycephalosaurus</useMeatFrom>
 	  <body>QuadrupedAnimalWithPawsAndTail</body>
       <leatherDef>BMT_DinoHideArmored</leatherDef>
       <herdAnimal>true</herdAnimal>

@@ -16,6 +16,7 @@
     </statBases>
 
     <race>
+	  <meatLabel>theropod meat</meatLabel>
 	  <petness>1</petness>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideFeathery</leatherDef>

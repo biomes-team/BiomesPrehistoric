@@ -16,6 +16,7 @@
       <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
     </statBases>
     <race>
+      <useMeatFrom>BMT_Velociraptor</useMeatFrom>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideHeavy</leatherDef>
       <herdAnimal>true</herdAnimal>

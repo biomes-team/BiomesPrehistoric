@@ -15,6 +15,7 @@
       <FilthRate>17</FilthRate>	 	  
     </statBases>
     <race>
+	  <meatLabel>stegosid meat</meatLabel>
 	  <body>BMT_QuadrupedWithClawsAndTailWeapon</body>
       <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>true</herdAnimal>

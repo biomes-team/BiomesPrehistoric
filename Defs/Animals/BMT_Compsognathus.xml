@@ -16,6 +16,7 @@
     </statBases>
 
     <race>
+      <useMeatFrom>BMT_Velociraptor</useMeatFrom>
 	  <petness>1</petness>
 	  <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideThin</leatherDef>

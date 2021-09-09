@@ -18,6 +18,7 @@
       <FilthRate>15</FilthRate>	 	  
     </statBases>
     <race>
+	  <meatLabel>ankylosid meat</meatLabel>
 	  <body>BMT_QuadrupedWithClawsAndTailWeapon</body>
       <leatherDef>BMT_DinoHideArmored</leatherDef>
       <herdAnimal>false</herdAnimal>
