@@ -88,11 +88,6 @@
 			<lifeExpectancy>120</lifeExpectancy>
 			<manhunterOnDamageChance>0.7</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.23</manhunterOnTameFailChance>
-			<wildBiomes>
-				<TemperateSwamp>0.04</TemperateSwamp>
-				<TropicalSwamp>0.07</TropicalSwamp>
-				<TropicalRainforest>0.02</TropicalRainforest>
-			</wildBiomes>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
