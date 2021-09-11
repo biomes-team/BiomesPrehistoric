@@ -21,7 +21,7 @@
       <herdAnimal>true</herdAnimal>
       <baseBodySize>9.5</baseBodySize>
       <baseHealthScale>3.0</baseHealthScale>
-      <baseHungerRate>0.535</baseHungerRate>
+      <baseHungerRate>1.735</baseHungerRate>
       <packAnimal>true</packAnimal>
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 	  <predator>false</predator>
