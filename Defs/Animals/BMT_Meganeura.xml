@@ -64,7 +64,7 @@
     <tools>
      <li>
         <capacities>
-         <li>Bite</li>
+         <li>ToxicBite</li>
         </capacities>
         <power>8.8</power>
         <cooldownTime>1.5</cooldownTime>
@@ -82,16 +82,6 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.85</chanceFactor>
       </li>
-	  <li>
-	  <label>sting</label>
-	    <capacities>
-		  <li>Stab</li>
-          <li>ToxicBite</li>
-        </capacities>
-        <power>16</power>
-        <cooldownTime>2</cooldownTime>
-		<linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
-	  </li>
     </tools>
     <tradeTags>
 	    <li>AnimalInsect</li>
