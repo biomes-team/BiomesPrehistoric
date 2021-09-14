@@ -4,32 +4,32 @@
 
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Arthropleura</defName>
-    <label>arthropleura</label>
-    <description>Arthropleura, a millipede arthropod, is one of the largest land invertebrates of all time. Once thought to be a predator like modern centipedes, it was discovered that it was largely an herbivore.</description>
+    <defName>BMT_Meganeura</defName>
+    <label>meganeura</label>
+    <description>Meganeura, a giant dragonfly-like insect which eats small animals and plants.</description> <!-- better desc.? -->
     <statBases>
-      <MoveSpeed>4.8</MoveSpeed>
-      <MarketValue>200</MarketValue>
+      <MoveSpeed>5</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
+      <MarketValue>350</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>57</ComfyTemperatureMax>
-      <MeatAmount>35</MeatAmount>
+      <MeatAmount>20</MeatAmount>
       <LeatherAmount>25</LeatherAmount>
       <FilthRate>19</FilthRate>	 	  
     </statBases>
 	
     <race>
-	    <body>BMT_BeetleLike</body>
-      <leatherDef>BiomesCore_ChitinBase</leatherDef>
+	    <body>BMT_BeetleLikeWithStinnger</body>
+      <leatherDef>BiomesCore_ChitinBase</leatherDef> 
       <herdAnimal>false</herdAnimal>
-      <baseBodySize>2.18</baseBodySize>
+      <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
-      <baseHungerRate>0.425</baseHungerRate>
+      <baseHungerRate>0.625</baseHungerRate>
       <foodType>OmnivoreRoughAnimal</foodType>
 	  <predator>true</predator>
 	  <maxPreyBodySize>0.80</maxPreyBodySize>
       <wildness>0.75</wildness>
       <roamMtbDays>3</roamMtbDays>	  
-      <lifeExpectancy>15</lifeExpectancy>
+      <lifeExpectancy>10</lifeExpectancy>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
       <trainability>Intermediate</trainability>
@@ -46,10 +46,6 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>1</minAge>
-		  <soundWounded>Pawn_Arthropleura_Wounded</soundWounded>
-		  <soundCall>Pawn_Arthropleura_Call</soundCall>
-		  <soundDeath>Pawn_Arthropleura_Death</soundDeath>
-		  <soundAngry>Pawn_Arthropleura_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -58,11 +54,11 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_Arthropleura</eggFertilizedDef>
-        <eggFertilizationCountMax>15</eggFertilizationCountMax>
+        <eggFertilizedDef>BMT_Meganeura</eggFertilizedDef>
+        <eggFertilizationCountMax>20</eggFertilizationCountMax>
         <eggLayIntervalDays>20</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-        <eggCountRange>5~15</eggCountRange>
+        <eggCountRange>5~20</eggCountRange>
       </li>
     </comps>
     <tools>
@@ -71,7 +67,7 @@
          <li>Bite</li>
         </capacities>
         <power>8.8</power>
-        <cooldownTime>2</cooldownTime>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
       </li>
@@ -86,6 +82,16 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.85</chanceFactor>
       </li>
+	  <li>
+	  <label>sting</label>
+	    <capacities>
+		  <li>Stab</li>
+          <li>ToxicBite</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+		<linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
+	  </li>
     </tools>
     <tradeTags>
 	    <li>AnimalInsect</li>
@@ -94,15 +100,15 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Arthropleura</defName>
-    <label>arthropleura</label>
-    <race>BMT_Arthropleura</race>
-    <combatPower>65</combatPower>
+    <defName>BMT_Meganeura</defName>
+    <label>meganeura</label>
+    <race>BMT_Meganeura</race>
+    <combatPower>70</combatPower>
     <wildGroupSize>1</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Arthropleura/Arthropleura</texPath>
+          <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
           <drawSize>0.5</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
@@ -110,14 +116,14 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Arthropleura/Dessicated_Arthropleura</texPath>
+          <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
           <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
 		
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Arthropleura/Arthropleura</texPath>
+          <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
           <drawSize>0.95</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
@@ -125,14 +131,14 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Arthropleura/Dessicated_Arthropleura</texPath>
+          <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
           <drawSize>0.95</drawSize>
         </dessicatedBodyGraphicData>
 
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Arthropleura/Arthropleura</texPath>
+          <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
           <drawSize>1.4</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
@@ -141,7 +147,7 @@
         </bodyGraphicData>
 		
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Arthropleura/Dessicated_Arthropleura</texPath>
+          <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -151,20 +157,20 @@
 
 
  <ThingDef ParentName="EggFertBase">
-    <defName>BMT_ArthropleuraEggFertilized</defName>
-    <label>arthropleura egg (fert.)</label>
-    <description>A fertilized arthropleura egg. If all goes well, it should hatch into a baby arthropleura. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_MeganeuraEggFertilized</defName>
+    <label>meganeura egg (fert.)</label>
+    <description>A fertilized meganeura egg. If all goes well, it should hatch into a baby meganeura. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(230,212,193)</color>
       <drawSize>0.8</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>35</MarketValue>
+      <MarketValue>40</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Arthropleura</hatcherPawn>
+        <hatcherPawn>BMT_Meganeura</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
