@@ -12,14 +12,13 @@
       <MarketValue>200</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>57</ComfyTemperatureMax>
-      <MeatAmount>35</MeatAmount>
-      <LeatherAmount>25</LeatherAmount>
+
       <FilthRate>19</FilthRate>	 	  
     </statBases>
 	
     <race>
 	    <body>BMT_BeetleLike</body>
-      <leatherDef>BiomesCore_ChitinBase</leatherDef>
+      <leatherDef>BMT_PrimordialChitin</leatherDef>
       <herdAnimal>false</herdAnimal>
       <baseBodySize>2.18</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
@@ -33,6 +32,7 @@
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
       <trainability>Intermediate</trainability>
+      <useMeatFrom>Megaspider</useMeatFrom>
 	  
 	  <lifeStageAges>
         <li>

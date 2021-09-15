@@ -12,14 +12,13 @@
       <MarketValue>350</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>57</ComfyTemperatureMax>
-      <MeatAmount>20</MeatAmount>
-      <LeatherAmount>25</LeatherAmount>
+
       <FilthRate>19</FilthRate>	 	  
     </statBases>
 	
     <race>
-	    <body>BMT_BeetleLikeWithStinnger</body>
-      <leatherDef>BiomesCore_ChitinBase</leatherDef> 
+	    <body>BMT_BeetleLikeWithStinger</body>
+      <leatherDef>BMT_PrimordialChitin</leatherDef> 
       <herdAnimal>false</herdAnimal>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
@@ -33,6 +32,7 @@
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
       <trainability>Intermediate</trainability>
+      <useMeatFrom>Megaspider</useMeatFrom>
 	  
 	  <lifeStageAges>
         <li>
@@ -99,46 +99,34 @@
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
-          <drawSize>0.5</drawSize>
-		  <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
+          <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
 		
       </li>
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
-          <drawSize>0.95</drawSize>
-          <shadowData>
-            <volume>(0.7, 0.6, 0.4)</volume>
-            <offset>(0,0,-0.25)</offset>
-          </shadowData>
+          <drawSize>1.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
-          <drawSize>0.95</drawSize>
+          <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
 
       </li>
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
-          <drawSize>1.4</drawSize>
-          <shadowData>
-            <volume>(1, 0.8, 0.5)</volume>
-            <offset>(0,0,-0.5)</offset>
-          </shadowData>
+          <drawSize>2.3</drawSize>
         </bodyGraphicData>
 		
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>2.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

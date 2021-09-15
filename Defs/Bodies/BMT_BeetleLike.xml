@@ -117,7 +117,7 @@
   
   
   <BodyDef>
-  <defName>BMT_BeetleLikeWithStinnger</defName>
+  <defName>BMT_BeetleLikeWithStinger</defName>
     <label>dragonfly-like</label>
     <corePart>
       <def>Shell</def>
