@@ -30,6 +30,7 @@ BMT_Stygimoloch - Warmer to temperate forested biomes
 BMT_Styracosaurus - From shrubland to boreal forests.
 BMT_Titanoboa - Tropical jungles.
 BMT_Velociraptor - Desert and arid shrubland
+BMT_TRex - From forests to arid shrubland. 
 -->
 
 	<Operation Class="PatchOperationAdd">
@@ -45,7 +46,8 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
-			<BMT_Brachiosaurus>0.1</BMT_Brachiosaurus>
+			<BMT_Brachiosaurus>0.15</BMT_Brachiosaurus>
+			<BMT_TRex>0.1</BMT_Trex>
 			<BMT_Dryosaurus>0.1</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.3</BMT_Amargasaurus>
 			<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
@@ -72,6 +74,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus> 
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+			<BMT_TRex>0.1</BMT_Trex>
 			<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.8</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.04</BMT_Spinosaurus>
@@ -97,6 +100,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Meganeura>0.5</BMT_Meganeura>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
+			<BMT_TRex>0.2</BMT_Trex>
 			<BMT_Dryosaurus>0.5</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
@@ -124,6 +128,7 @@ BMT_Velociraptor - Desert and arid shrubland
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
 		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+			<BMT_TRex>0.15</BMT_Trex>
 			<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
 			<BMT_Amargasaurus>0.7</BMT_Amargasaurus>
 			<BMT_Spinosaurus>0.07</BMT_Spinosaurus>
@@ -149,6 +154,7 @@ BMT_Velociraptor - Desert and arid shrubland
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Oviraptor>0.2</BMT_Oviraptor>
 			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
+			<BMT_TRex>0.3</BMT_Trex>
 			<BMT_Dryosaurus>0.02</BMT_Dryosaurus>
 			<BMT_Dilophosaurus>0.03</BMT_Dilophosaurus>
 			<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
