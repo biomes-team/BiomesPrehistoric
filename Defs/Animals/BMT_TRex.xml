@@ -51,7 +51,7 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_TRexEggFertilizedggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_TRexEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>12</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -64,7 +64,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>12</power>
+        <power>16</power>
         <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
@@ -73,7 +73,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>12</power>
+        <power>16</power>
         <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
@@ -81,7 +81,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>31</power>
+        <power>32</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
@@ -91,7 +91,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>11</power>
+        <power>14</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -113,7 +113,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/TRex/TRex</texPath>
+          <texPath>BMT_Prehistoric/Animals/TRex/Trex</texPath>
           <drawSize>2.2</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
@@ -128,7 +128,7 @@
 	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/TRex/TRex</texPath>
+          <texPath>BMT_Prehistoric/Animals/TRex/Trex</texPath>
           <drawSize>3.3</drawSize>
           <shadowData>
             <volume>(0.7, 0.6, 0.4)</volume>
@@ -143,7 +143,7 @@
 	  
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/TRex/TRex</texPath>
+          <texPath>BMT_Prehistoric/Animals/TRex/Trex</texPath>
           <drawSize>6.50</drawSize>
           <shadowData>
             <volume>(1, 0.8, 0.5)</volume>
