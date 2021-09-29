@@ -12,11 +12,11 @@
     </statBases>
     <modExtensions>
         <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
-            <allowInFreshWater>true</allowInFreshWater>
-            <allowInSaltWater>false</allowInSaltWater>
-            <allowInShallowWater>true</allowInShallowWater>
-            <allowInDeepWater>false</allowInDeepWater>
+			<allowInWater>true</allowInWater>
             <allowOnLand>true</allowOnLand>
+			<allowInFresh>true</allowInFresh>
+			<allowInChestDeep>true</allowInChestDeep>
+			<allowOnBoggy>true</allowOnBoggy>
         </li>
     </modExtensions>	
     <pathCost>14</pathCost>
