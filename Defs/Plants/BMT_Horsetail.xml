@@ -16,7 +16,7 @@
             <allowOnLand>true</allowOnLand>
 			<allowInFresh>true</allowInFresh>
 			<allowInChestDeep>true</allowInChestDeep>
-			<allowOnBoggy>true</allowOnBoggy>
+			<allowInBoggy>true</allowInBoggy>
         </li>
     </modExtensions>	
     <pathCost>14</pathCost>
