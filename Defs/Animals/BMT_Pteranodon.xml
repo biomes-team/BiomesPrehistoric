@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!--Used Seagull as template!! -->
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase" Name="BMT_BirdThingBase" Abstract="True">
+    <race>
+      <body>Bird</body>
+      <gestationPeriodDays>24</gestationPeriodDays>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <uiIconScale>1.5</uiIconScale>
+  </ThingDef>
+
+
+
+
+<LifeStageDef ParentName="AnimalBaby">
+    <defName>BMT_PteranodonBabyTiny</defName>
+    <bodySizeFactor>0.1</bodySizeFactor>
+    <foodMaxFactor>6</foodMaxFactor>
+    <statFactors>
+      <MoveSpeed>0.5</MoveSpeed>
+      <BiomesCore_FlySpeed>0.5</BiomesCore_FlySpeed>
+    </statFactors>
+    <modExtensions>
+      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+        <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonFlying</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </modExtensions>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>BMT_PteranodonJuvenile</defName>
+    <label>juvenile</label>
+    <voxPitch>1.2</voxPitch>
+    <bodySizeFactor>0.9</bodySizeFactor>
+    <foodMaxFactor>1.5</foodMaxFactor>
+    <healthScaleFactor>0.8</healthScaleFactor>
+    <hungerRateFactor>0.80</hungerRateFactor>
+    <marketValueFactor>0.80</marketValueFactor>
+    <meleeDamageFactor>0.08</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.9</MoveSpeed>
+      <BiomesCore_FlySpeed>0.9</BiomesCore_FlySpeed>
+    </statFactors>
+    <modExtensions>
+      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+        <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonFlying</texPath>
+          <drawSize>2.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </modExtensions>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>BMT_PteranodonAdult</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+    <milkable>false</milkable>
+    <shearable>false</shearable>
+    <modExtensions>
+      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+        <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonFlying</texPath>
+          <drawSize>3.8</drawSize>
+        </bodyGraphicData>
+      </li>
+    </modExtensions>
+  </LifeStageDef>
+  
+  <ThingDef ParentName="BMT_BirdThingBase">
+    <defName>BMT_Pteranodon</defName>
+    <label>pteranodon</label>
+    <description>The Pteranodon is a common sight on. It has a long crest and beak filled with needle-like teeth, as well as impressive wingsbeaches.</description>
+    <statBases>
+      <BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
+      <SwimSpeed>5</SwimSpeed>
+      <MarketValue>950</MarketValue>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+    </statBases>
+    <race>
+	  <leatherDef>BMT_DinoHideThin</leatherDef>
+      <herdAnimal>true</herdAnimal>
+      <predator>true</predator>
+      <maxPreyBodySize>0.20</maxPreyBodySize>
+      <baseBodySize>2</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <baseHungerRate>0.8</baseHungerRate>
+      <foodType>CarnivoreAnimal</foodType>
+      <wildness>0.45</wildness>
+      <trainability>Intermediate</trainability>
+      <lifeExpectancy>35</lifeExpectancy>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+	   <ageGenerationCurve>
+        <points>
+          <li>(0.0,0)</li>
+          <li>(0.1,350)</li>
+          <li>(0.9,150)</li>
+          <li>(1.5,5)</li>
+		  <li>(20,4)</li>
+          <li>(65,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <lifeStageAges>
+        <li>
+          <def>BMT_PteranodonBabyTiny</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>BMT_PteranodonJuvenile</def>
+          <minAge>0.5</minAge>
+        </li>
+        <li>
+          <def>BMT_PteranodonAdult</def>
+          <minAge>1</minAge>
+        </li>
+      </lifeStageAges>
+    </race>
+	
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>BMT_PteranodonEggFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>3</eggFertilizationCountMax>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1~3</eggCountRange>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4.5</power>
+        <cooldownTime>1.4</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="EggFertBase">
+    <defName>BMT_PteranodonEggFertilized</defName>
+    <label>Pteranodon egg (fert.)</label>
+    <description>A fertilized Pteranodon egg. If all goes well, it should hatch into a baby pteranodon. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(195,123,197)</color>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>55</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Pteranodon</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <PawnKindDef ParentName="BigBirdKindBase">
+    <defName>BMT_Pteranodon</defName>
+    <label>pteranodon</label>
+    <race>BMT_Pteranodon</race>
+	<combatPower>60</combatPower>
+	<ecoSystemWeight>0.35</ecoSystemWeight>
+	<wildGroupSize>1~5</wildGroupSize>
+	<lifeStages>
+      <li>
+	  <label>pteranodon hatchling</label>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+		  <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+		  <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
+          <drawSize>2.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
+          <drawSize>3.8</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
+          <drawSize>3.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef> 
+ 
+</Defs>
