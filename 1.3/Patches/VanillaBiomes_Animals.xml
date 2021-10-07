@@ -24,7 +24,6 @@ BMT_Pachycephalosaurus - Warmer to temperate forested biomes.
 BMT_Parasaur - From arid shrubland to boreal forests.
 BMT_Polacanthus - Plains and forests.
 BMT_Protoceratops - Warmer lush biomes.
-BMT_Pteranodon -  All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle. 
 BMT_Stygimoloch - Warmer to temperate forested biomes
@@ -36,7 +35,6 @@ BMT_TRex - From forests to arid shrubland.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 		    <BMT_Polacanthus>0.5</BMT_Polacanthus>
 		    <BMT_Borealopelta>0.5</BMT_Borealopelta>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
@@ -66,7 +64,6 @@ BMT_TRex - From forests to arid shrubland.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 		<value>		
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
             <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>		
 		    <BMT_Dimetrodon>0.5</BMT_Dimetrodon>
@@ -93,7 +90,6 @@ BMT_TRex - From forests to arid shrubland.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
 		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
 		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
@@ -122,7 +118,6 @@ BMT_TRex - From forests to arid shrubland.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
 		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
@@ -178,7 +173,6 @@ BMT_TRex - From forests to arid shrubland.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 		<value>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
@@ -193,7 +187,7 @@ BMT_TRex - From forests to arid shrubland.
 		<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
 		<value>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
 			<BMT_Homalocephale>0.15</BMT_Homalocephale>
@@ -204,7 +198,6 @@ BMT_TRex - From forests to arid shrubland.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
 		<value>
-		    <BMT_Pteranodon>0.3</BMT_Pteranodon>
 		    <BMT_Polacanthus>0.5</BMT_Polacanthus>
 		    <BMT_Borealopelta>0.5</BMT_Borealopelta>
 			<BMT_Homalocephale>0.05</BMT_Homalocephale>

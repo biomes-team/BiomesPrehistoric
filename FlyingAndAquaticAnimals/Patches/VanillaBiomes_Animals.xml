@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+
+BMT_Pteranodon -  All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
+
+-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+		<value>		
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		    
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+
+<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+		<value>
+			<BMT_Parasaur>0.4</BMT_Parasaur>
+		</value>
+	</Operation>
+-->
+
+<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Velociraptor>0.5</BMT_Velociraptor>
+		</value>
+	</Operation>
+	-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.3</BMT_Pteranodon>
+		</value>
+	</Operation>	
+
+<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+		<value>
+			<BMT_Dilophosaurus>0.05</BMT_Dilophosaurus>
+		</value>
+	</Operation>
+	-->
+	
+	<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	-->
+</Patch>
