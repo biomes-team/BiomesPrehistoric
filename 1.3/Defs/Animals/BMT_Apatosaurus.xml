@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Apatosaurus</defName>
     <label>apatosaurus</label>
-    <description>A giant grazing animal with a long neck and a dangerous whip-like tail. When using their tail as a weapon they can produce cracking sounds as loud as a cannon firing.</description>
+    <description>A giant grazing animal with a long neck and a dangerous whip-like tail. When using their tail as a weapon they can produce cracking sounds as loud as a cannon firing.\n\nScientific name: Apatosaurus ajax</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <MarketValue>1220</MarketValue>

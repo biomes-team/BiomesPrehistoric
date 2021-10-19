@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Polacanthus</defName>
     <label>polacanthus</label>
-    <description>A medium-sized grazing animal with armored leather along its dangerous spiked body. These dinosaurs are often found either alone or in pairs. Decent battle animal given its armoring.</description>
+    <description>A medium-sized grazing animal with armored leather along its dangerous spiked body. These dinosaurs are often found either alone or in pairs. A relative of the anklyosaurus, these dinos make decent battle animal given their armoring.\n\nScientific name: Polacanthus foxii</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <MarketValue>1040</MarketValue>

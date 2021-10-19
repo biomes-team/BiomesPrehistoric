@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Homalocephale</defName>
     <label>homalocephale</label>
-    <description>These docile dinosaurs make great pets!</description>
+    <description>These docile dinosaurs make great pets!\n\nScientific name: Homalocephale calathocercos</description>
     <statBases>
       <MoveSpeed>3.5</MoveSpeed>
       <MarketValue>180</MarketValue>

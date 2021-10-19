@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Dimetrodon</defName>
     <label>dimetrodon</label>
-    <description>A medium predator with distinctive plates along its back. These dinosaurs are not found in family groups.They are usually found in warmer biomes.</description>
+    <description>A medium predator with distinctive plates along its back. These solitary dinosaurs are usually found in warmer climates.\n\nScientific name: Dimetrodon limbatus</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <MarketValue>460</MarketValue>

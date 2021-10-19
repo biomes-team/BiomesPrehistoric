@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Titanoboa</defName>
     <label>titanoboa</label>
-    <description>A large snake that can wrap around its prey and swallow it alive.</description>
+    <description>A large snake that can wrap around its prey and swallow it alive.\n\nScientific name: Titanoboa cerrejonensis</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <MarketValue>1534</MarketValue>

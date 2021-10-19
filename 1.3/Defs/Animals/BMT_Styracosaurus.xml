@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Styracosaurus</defName>
     <label>styracosaurus</label>
-    <description>A big grazing animal with armored leather along its dangerous spiked head. These dinosaurs are often found in big family groups.</description>
+    <description>A big grazing animal with armored leather along its dangerous spiked head. These dinosaurs are often found in big family groups.\n\nScientific name: Styracosaurus albertensis</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <MarketValue>580</MarketValue>

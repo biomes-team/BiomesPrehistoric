@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Borealopelta</defName>
     <label>borealopelta</label>
-    <description>A medium-sized grazing animal with armored leather along its dangerous spiked body. These dinosaurs are often found in small family groups. Good pack animal.</description>
+    <description>A medium-sized grazing animal with armored leather along its dangerous spiked body. These dinosaurs are often found in small family groups. Despite the spikes, these gentle beasts make good pack animals.\n\nScientific name: Borealopelta markmitchelli</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <MarketValue>940</MarketValue>

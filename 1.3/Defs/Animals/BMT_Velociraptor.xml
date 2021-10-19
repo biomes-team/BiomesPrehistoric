@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Velociraptor</defName>
     <label>velociraptor</label>
-    <description>A small raptor with downy hide. It eats plants and small prey its also a good hunting pet, its down can be shed once a year.</description>
+    <description>A small raptor with downy hide. It eats plants and small prey its also a good hunting pet, its down can be shed once a year.\n\nScientific name: Velociraptor mongoliensis</description>
     <statBases>
       <MoveSpeed>6</MoveSpeed>
       <MarketValue>450</MarketValue>

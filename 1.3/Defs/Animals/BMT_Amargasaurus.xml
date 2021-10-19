@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Amargasaurus</defName>
     <label>amargasaurus</label>
-    <description>A large solitary herbivore with a striking double crest of spines along its neck. Despite reaching almost 10m in length they are small for sauropods, relying on their spiked necks rather than sheer size for defence from predators. Each of the spines is coated in a keratinous sheath, like the horns of an ibex.\n\nWhile not the easiest animals to manage their impressive appearance means they command a high price.</description>
+    <description>A large solitary herbivore with a striking double crest of spines along its neck. Despite reaching almost 10m in length they are small for sauropods, relying on their spiked necks rather than sheer size for defence from predators. Each of the spines is coated in a keratinous sheath, like the horns of an ibex.\n\nWhile not the easiest animals to manage their impressive appearance means they command a high price.\n\nScientific Name: Amargasaurus cazaui</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <MarketValue>1220</MarketValue>

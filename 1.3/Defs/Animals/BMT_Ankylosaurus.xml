@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Ankylosaurus</defName>
     <label>ankylosaurus</label>
-    <description>A solitary, medium-sized grazing animal with armored leather along its dangerous spiked body.</description>
+    <description>Ankylosaurus, perhaps the largest ankylosaurid, known predominantly for its armored body and club tail. It was likely a non selective browser.\n\nScientific name: Ankylosaurus magniventris.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <MarketValue>1520</MarketValue>

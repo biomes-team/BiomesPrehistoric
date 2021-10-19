@@ -83,7 +83,7 @@
   <ThingDef ParentName="BMT_BirdThingBase">
     <defName>BMT_Pteranodon</defName>
     <label>pteranodon</label>
-    <description>The Pteranodon is a common sight on. It has a long crest and beak filled with needle-like teeth, as well as impressive wingsbeaches.</description>
+    <description>The Pteranodon is a common sight on islands and near beaches. It has a long crest and beak filled with needle-like teeth, as well as impressive wings.\n\nScientific name: Pteranodon longiceps</description>
     <statBases>
       <BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
       <SwimSpeed>5</SwimSpeed>

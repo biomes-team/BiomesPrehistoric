@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Compsognathus</defName>
     <label>compsognathus</label>
-    <description>Compsognathus also known as Compy is a diminutive theropod, and one of the small dinosaur species.</description>
+    <description>Compsognathus also known as compy is a diminutive theropod, and one of the smallest dinosaur species. These tiny predators can run amazingly fast.\n\nScientific name: Compsognathus longipes</description>
     <statBases>
       <MoveSpeed>6.6</MoveSpeed>
       <MarketValue>560</MarketValue>

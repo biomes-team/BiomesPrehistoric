@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Stygimoloch</defName>
     <label>stygimoloch</label>
-    <description>A grazing animal with armored leather along its dangerous reinforced head.</description>
+    <description>A grazing animal with armored leather along its dangerous reinforced head.\n\nScientific name: Pachycephalosaurus wyomingensis</description>
     <statBases>
       <MoveSpeed>3.5</MoveSpeed>
       <MarketValue>480</MarketValue>

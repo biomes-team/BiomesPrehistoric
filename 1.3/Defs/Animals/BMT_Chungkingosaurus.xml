@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Chungkingosaurus</defName>
     <label>chungkingosaurus</label>
-    <description>A small grazing animal with distinctive plates along its back and a dangerous spiked tail. These dinosaurs are often found in family groups.</description>
+    <description>A small grazing animal with distinctive plates along its back and a dangerous spiked tail. These dinosaurs are often found in family groups. Scientific name: Chungkingosaurus jiangbeiensis</description>
     <statBases>
       <MoveSpeed>5.4</MoveSpeed>
       <MarketValue>570</MarketValue>
@@ -16,7 +16,7 @@
     </statBases>
     <race>
       <useMeatFrom>BMT_Stegosaurus</useMeatFrom>
-	  <body>QuadrupedAnimalWithPawsAndTail</body>
+	  <body>BMT_QuadrupedWithClawsAndTailWeapon</body>
       <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1.8</baseBodySize>
@@ -75,7 +75,7 @@
         </capacities>
         <power>9</power>
         <cooldownTime>1.7</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
       <li>
         <label>front right foot</label>
@@ -84,7 +84,7 @@
         </capacities>
         <power>9</power>
         <cooldownTime>1.7</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
      <li>
         <capacities>
@@ -106,6 +106,15 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
+	  <li>
+		<label>tail spikes</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+		<power>12</power>
+		<cooldownTime>2.8</cooldownTime>
+		<linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+	  </li>
     </tools>
     <tradeTags>
 	  <li>AnimalFighter</li>
