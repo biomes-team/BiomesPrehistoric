@@ -154,21 +154,21 @@
                 <li>
                   <def>Eye</def>
                   <customLabel>left eye</customLabel>
-                  <coverage>0.15</coverage>
+                  <coverage>0.12</coverage>
                 </li>
                 <li>
                   <def>Eye</def>
                   <customLabel>right eye</customLabel>
-                  <coverage>0.15</coverage>
+                  <coverage>0.12</coverage>
                 </li>
                 <li>
                   <def>Antenna</def>
-                  <coverage>0.10</coverage>
+                  <coverage>0.08</coverage>
                   <customLabel>left antenna</customLabel>
                 </li>
                 <li>
                   <def>Antenna</def>
-                  <coverage>0.10</coverage>
+                  <coverage>0.08</coverage>
                   <customLabel>right antenna</customLabel>
                 </li>
                 <li>
