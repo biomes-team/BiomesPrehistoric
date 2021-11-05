@@ -120,6 +120,11 @@
           <minAge>1</minAge>
         </li>
       </lifeStageAges>
+       <wildBiomes>
+                   <BiomesIslands_TundraIsland>0.4</BiomesIslands_TundraIsland>
+				   <BiomesIslands_TropicalIsland>0.6</BiomesIslands_TropicalIsland>
+				   <BiomesIslands_TemperateIsland>0.6</BiomesIslands_TemperateIsland>
+     	</wildBiomes>			
     </race>
     <uiIconScale>1.5</uiIconScale>
 	

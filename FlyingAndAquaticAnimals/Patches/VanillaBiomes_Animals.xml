@@ -3,7 +3,8 @@
 <!--
 
 BMT_Pteranodon -  All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
-
+BMT_Ammonite - All island and shorelines except the coldest.
+BMT_GiantAmmonite- All island and shorelines except the coldest (same as BMT_Ammonite).
 -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
@@ -27,13 +28,51 @@ BMT_Pteranodon -  All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 		</value>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 		</value>
 	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.3</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
+		<value>
+			<BMT_GiantAmmonite>0.5</BMT_GiantAmmonite>
+		    <BMT_Ammonite>0.6</BMT_Ammonite>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildAnimals</xpath>
+		<value>
+		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+		</value>
+	</Operation>
+
 
 <!--
 	<Operation Class="PatchOperationAdd">
@@ -53,26 +92,7 @@ BMT_Pteranodon -  All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 	</Operation>
 	-->
 	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
-		<value>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
-		</value>
-	</Operation>
-	
-		<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
-		<value>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
-		<value>
-		    <BMT_Pteranodon>0.3</BMT_Pteranodon>
-		</value>
-	</Operation>	
+
 
 <!--
 	<Operation Class="PatchOperationAdd">
