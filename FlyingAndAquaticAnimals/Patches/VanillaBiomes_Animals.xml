@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
-
-BMT_Pteranodon -  All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
 BMT_Ammonite - All island and shorelines except the coldest.
 BMT_GiantAmmonite- All island and shorelines except the coldest (same as BMT_Ammonite).
+BMT_Coelacanth - Warmer coasts and islands.
+BMT_Pteranodon -  All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
 -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
@@ -59,7 +59,8 @@ BMT_GiantAmmonite- All island and shorelines except the coldest (same as BMT_Amm
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
-		<value>
+		<value> 
+			<BMT_Coelacanth>0.5</BMT_Coelacanth>
 			<BMT_GiantAmmonite>0.5</BMT_GiantAmmonite>
 		    <BMT_Ammonite>0.6</BMT_Ammonite>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
