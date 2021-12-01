@@ -119,7 +119,6 @@
 		  </li>
 		</comps>
         <race>
-            <herdAnimal>false</herdAnimal>
             <body>Biomes_FishBody</body>
 			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
             <baseHungerRate>0.50</baseHungerRate>
@@ -165,7 +164,6 @@
         <label>coelacanth</label>
         <race>BMT_Coelacanth</race>
         <combatPower>90</combatPower>
-		<wildGroupSize>1~1</wildGroupSize>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
         <lifeStages>
             <li>
