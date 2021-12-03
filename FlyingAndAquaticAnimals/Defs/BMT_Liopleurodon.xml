@@ -67,7 +67,7 @@
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
         <defName>BMT_Liopleurodon</defName>
         <label>liopleurodon</label>
-        <description>Need desc.. (L. ferox)</description>
+        <description>The Liopleurodon is one of the most powerful carnivores of all time, Liopleurodon has massive jaws and a stronger bite than Tyrannosaurus. Scientific name: L. ferox</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
             <SwimSpeed>7</SwimSpeed>
@@ -81,7 +81,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>32</power>
+                <power>35</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>
@@ -121,7 +121,7 @@
             <petness>0.05</petness>
             <lifeExpectancy>65</lifeExpectancy>
             <trainability>Intermediate</trainability>
-            <manhunterOnTameFailChance>0.65</manhunterOnTameFailChance>
+            <manhunterOnTameFailChance>0.75</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<useMeatFrom>BiomesIslands_Whale</useMeatFrom>
             <lifeStageAges>
