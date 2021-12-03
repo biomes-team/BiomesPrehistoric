@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!--Used Marine Iguana as template -->
+
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+    <defName>BMT_Diplocaulus</defName>
+    <label>diplocaulus</label>
+    <description>The Diplocaulus resembles a large newt with a low-slung and flabby body, slimy skin, and a paddle-like tail for moving through stagnant swamp water. Scientific name: Diplocaulus salamandroides</description>
+    <statBases>
+		<MoveSpeed>3.2</MoveSpeed>
+		<SwimSpeed>7.5</SwimSpeed>
+		<MarketValue>450</MarketValue>
+		<ComfyTemperatureMin>0</ComfyTemperatureMin>
+		<ComfyTemperatureMax>60</ComfyTemperatureMax>
+	</statBases>
+    <tools>
+		<li>
+			<label>left claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<label>right claw</label>
+			<capacities>
+				<li>Scratch</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<capacities>
+				<li>Bite</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2.6</cooldownTime>
+			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			<chanceFactor>0.8</chanceFactor>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>7</power>
+			<cooldownTime>2</cooldownTime>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			<chanceFactor>0.2</chanceFactor>
+		</li>
+    </tools>
+    <comps>
+		<li Class="CompProperties_EggLayer">
+			<eggFertilizedDef>BMT_DiplocaulusEggFertilized</eggFertilizedDef>
+			<eggFertilizationCountMax>1</eggFertilizationCountMax>
+			<eggLayIntervalDays>15</eggLayIntervalDays>
+			<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+			<eggCountRange>
+				<min>3</min>
+				<max>6</max>
+			</eggCountRange>
+		</li>
+    </comps>
+    <race>
+		<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+		<baseBodySize>0.30</baseBodySize>
+		<baseHealthScale>0.75</baseHealthScale>
+		<baseHungerRate>0.30</baseHungerRate>
+		<foodType>CarnivoreAnimal</foodType>
+	    <predator>true</predator>
+	    <maxPreyBodySize>0.25</maxPreyBodySize>
+		<leatherDef>Leather_Lizard</leatherDef>
+		<wildness>0.6</wildness>
+		<trainability>Intermediate</trainability>
+		<petness>0.10</petness>
+		<lifeExpectancy>17</lifeExpectancy>
+		<lifeStageAges>
+			<li>
+				<def>AnimalBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>AnimalJuvenile</def>
+				<minAge>0.09</minAge>
+			</li>
+			<li>
+				<def>AnimalAdult</def>
+				<minAge>0.25</minAge> 
+				<!--
+				<soundWounded>Pawn_Iguana_Wounded</soundWounded>
+				<soundDeath>Pawn_Iguana_Death</soundDeath>
+				<soundCall>Pawn_Iguana_Call</soundCall>
+				<soundAngry>Pawn_Iguana_Angry</soundAngry>
+				-->
+			</li>
+		</lifeStageAges>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+		<li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+  
+   <ThingDef ParentName="EggFertBase">
+    <defName>BMT_DiplocaulusEggFertilized</defName>
+    <label>Diplocaulus egg (fert.)</label>
+    <description>A fertilized Diplocaulus egg. If all goes well, it should hatch into a baby diplocaulus. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(218,218,216)</color>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>8</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Diplocaulus</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <PawnKindDef ParentName="AnimalKindBase">
+    <defName>BMT_Diplocaulus</defName>
+    <label>diplocaulus</label>
+    <race>BMT_Diplocaulus</race>
+    <combatPower>50</combatPower>
+    <ecoSystemWeight>0.35</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
+          <drawSize>1.2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
+          <drawSize>1.8</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
+          <drawSize>1.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

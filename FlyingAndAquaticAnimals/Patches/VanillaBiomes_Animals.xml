@@ -4,6 +4,7 @@
 BMT_Ammonite - All island and shorelines except the coldest.
 BMT_GiantAmmonite - All island and shorelines except the coldest (same as BMT_Ammonite).
 BMT_Coelacanth - Warmer coasts and islands.
+BMT_Diplocaulus - Warm to cool biomes with rivers.
 BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores
 BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
 -->
@@ -12,6 +13,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<value>
 		    <BMT_Liopleurodon>0.3</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		</value>
 	</Operation>
 	
@@ -20,6 +22,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<value>				
 		    <BMT_Liopleurodon>0.2</BMT_Liopleurodon>
 			<BMT_Pteranodon>0.5</BMT_Pteranodon>
+			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		</value>
 	</Operation>
 
@@ -29,6 +32,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<value>
 		    <BMT_Liopleurodon>0.3</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		</value>
 	</Operation>
 
@@ -37,6 +41,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<value>
 		    <BMT_Liopleurodon>0.3</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		</value>
 	</Operation>
 	
@@ -45,6 +50,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<value>
 		    <BMT_Liopleurodon>0.4</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		</value>
 	</Operation>
 	
@@ -53,6 +59,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<value>
 		    <BMT_Liopleurodon>0.4</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
+			<BMT_Diplocaulus>0.2</BMT_Diplocaulus>
 		</value>
 	</Operation>
 	
@@ -108,7 +115,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
 		<value>
-			<BMT_Dilophosaurus>0.05</BMT_Dilophosaurus>
+			<BMT_Dilophosaurus>0.05</BMT_Dilophosaurus> 
 		</value>
 	</Operation>
 	-->
