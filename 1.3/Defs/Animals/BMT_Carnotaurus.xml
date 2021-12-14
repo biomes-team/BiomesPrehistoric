@@ -43,6 +43,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>1.3</minAge>
+          <soundWounded>Pawn_LargeDino_Angry</soundWounded>
+          <soundDeath>Pawn_LargeDino_Death</soundDeath>
+          <soundCall>Pawn_LargeDino_Call</soundCall>
+          <soundAngry>Pawn_LargeDino_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
