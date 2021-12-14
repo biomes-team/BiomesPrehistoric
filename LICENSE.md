@@ -1,14 +1,12 @@
  
 
-Copyright (c) 2002 by AUTHOR
-PROFESSIONAL IDENTIFICATION * URL
-"PROMOTIONAL SLOGAN FOR AUTHOR'S PROFESSIONAL PRACTICE"
+Copyright (c) 2021 The Biomes Team
 
 All Rights Reserved
 ATTRIBUTION ASSURANCE LICENSE (adapted from the original BSD license)
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the conditions below are met.
-These conditions require a modest attribution to <AUTHOR> (the
+These conditions require a modest attribution to The Biomes Team (the
 "Author"), who hopes that its promotional value may help justify the
 thousands of dollars in otherwise billable time invested in writing
 this and other freely available, open-source software.
@@ -21,9 +19,7 @@ this GPG-signed text in any documentation and, each time the resulting
 executable program or a program dependent thereon is launched, a
 prominent display (e.g., splash screen or banner text) of the Author's
 attribution information, which includes:
-(a) Name ("AUTHOR"),
-(b) Professional identification ("PROFESSIONAL IDENTIFICATION"), and
-(c) URL ("URL").
+(a) Name The Biomes Team
 3. Neither the name nor any trademark of the Author may be used to
 endorse or promote products derived from this software without specific
 prior written permission.
