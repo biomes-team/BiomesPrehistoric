@@ -47,10 +47,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>0.8</minAge>
-          <soundWounded>Pawn_MedDino_Angry</soundWounded>
-          <soundDeath>Pawn_MedDino_Death</soundDeath>
-          <soundCall>Pawn_MedDino_Call</soundCall>
-          <soundAngry>Pawn_MedDino_Angry</soundAngry>
+          <soundWounded>BMT_Ankylosaurus_Wounded</soundWounded>
+          <soundDeath>BMT_Ankylosaurus_Death</soundDeath>
+          <soundCall>BMT_Ankylosaurus_Call</soundCall>
+          <soundAngry>BMT_Ankylosaurus_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -137,7 +137,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Anklyosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
           <drawSize>2.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -152,7 +152,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Anklyosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -167,7 +167,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Anklyosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
           <drawSize>4.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>

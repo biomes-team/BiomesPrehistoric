@@ -53,10 +53,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>0.8</minAge>
-          <soundWounded>Pawn_MedDino_Angry</soundWounded>
-          <soundDeath>Pawn_MedDino_Death</soundDeath>
-          <soundCall>Pawn_MedDino_Call</soundCall>
-          <soundAngry>Pawn_MedDino_Angry</soundAngry>
+          <soundWounded>BMT_Borealopelta_Wounded</soundWounded>
+          <soundDeath>BMT_Borealopelta_Death</soundDeath>
+          <soundCall>BMT_Borealopelta_Call</soundCall>
+          <soundAngry>BMT_Borealopelta_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>

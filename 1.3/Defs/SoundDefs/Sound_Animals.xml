@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_Arthropleura/Arthropleura_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_Arthropleura/Arthropleura_Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_Arthropleura/Arthropleura_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_Arthropleura/Arthropleura_Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_Arthropleura/Arthropleura_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_Arthropleura/Arthropleura_Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_Arthropleura/Arthropleura_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_Arthropleura/Arthropleura_Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -131,7 +131,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_CuteDino/CuteDino_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_CuteDino/CuteDino_Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -160,7 +160,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_CuteDino/CuteDino_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_CuteDino/CuteDino_Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -189,7 +189,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_CuteDino/CuteDino_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_CuteDino/CuteDino_Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -219,7 +219,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_TinyDino/TinyDino_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_TinyDino/TinyDino_Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -248,7 +248,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_TinyDino/TinyDino_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_TinyDino/TinyDino_Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -277,7 +277,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_TinyDino/TinyDino_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_TinyDino/TinyDino_Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -308,7 +308,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_MedDino/MedDino_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_MedDino/MedDino_Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -337,7 +337,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_MedDino/MedDino_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_MedDino/MedDino_Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -366,7 +366,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_MedDino/MedDino_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_MedDino/MedDino_Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -399,7 +399,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_LargeDino/LargeDino_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_LargeDino/LargeDino_Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -428,7 +428,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_LargeDino/LargeDino_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_LargeDino/LargeDino_Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -457,7 +457,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_LargeDino/LargeDino_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_LargeDino/LargeDino_Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -489,7 +489,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_HugeDino/HugeDino_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_HugeDino/HugeDino_Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -518,7 +518,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_HugeDino/HugeDino_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_HugeDino/HugeDino_Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -547,7 +547,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Animals/BMT_HugeDino/HugeDino_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/BMT_HugeDino/HugeDino_Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

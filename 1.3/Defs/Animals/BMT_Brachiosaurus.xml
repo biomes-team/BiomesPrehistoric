@@ -43,10 +43,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>3.0</minAge>
-          <soundWounded>Pawn_HugeDino_Angry</soundWounded>
-          <soundDeath>Pawn_HugeDino_Death</soundDeath>
-          <soundCall>Pawn_HugeDino_Call</soundCall>
-          <soundAngry>Pawn_HugeDino_Angry</soundAngry>
+          <soundWounded>BMT_Brachiosaurus_Wounded</soundWounded>
+          <soundDeath>BMT_Brachiosaurus_Death</soundDeath>
+          <soundCall>BMT_Brachiosaurus_Call</soundCall>
+          <soundAngry>BMT_Brachiosaurus_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
