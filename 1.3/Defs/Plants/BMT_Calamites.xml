@@ -18,10 +18,13 @@
     </statBases>
     <modExtensions>
         <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
-            <allowInWater>true</allowInWater>
-            <allowInFresh>true</allowInFresh>
-            <allowInShallow>true</allowInShallow>
-            <allowOnLand>true</allowOnLand>
+				<terrainTags>
+					<li>Water</li>
+					<li>Fresh</li>
+					<li>Shallow</li>
+					<li>ChestDeep</li>
+					<li>Soil</li>
+				</terrainTags>
         </li>
     </modExtensions>	
     <plant>
