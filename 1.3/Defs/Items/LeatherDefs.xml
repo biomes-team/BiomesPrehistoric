@@ -1,117 +1,117 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="LeatherBase">
-    <defName>BMT_DinoHideThin</defName>
-    <label>light dinosaur hide</label>
-    <description>Lightweight, thin leather from a small dinosaur. Doesn't insulate well.</description>
-    <graphicData>
-      <color>(36,49,40)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>2.1</MarketValue>
-      <StuffPower_Armor_Sharp>0.56</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
-      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(36,49,40)</color>
-      <commonality>0.15</commonality>
-      <statFactors>
-        <MaxHitPoints>1.0</MaxHitPoints>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-  
-  <ThingDef ParentName="LeatherBase">
-    <defName>BMT_DinoHideHeavy</defName>
-    <label>heavy dinosaur hide</label>
-    <description>Heavy dinosaur hide.</description>
-    <graphicData>
-      <color>(160,43,34)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>3.3</MarketValue>
-      <StuffPower_Armor_Sharp>1.36</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.20</StuffPower_Armor_Blunt>
-      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(160,43,34)</color>
-      <commonality>0.06</commonality>
-      <statFactors>
-        <MaxHitPoints>1.5</MaxHitPoints>
-        <Beauty>1.5</Beauty>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-  
-  <ThingDef ParentName="LeatherBase">
-    <defName>BMT_DinoHideArmored</defName>
-    <label>armored dinosaur hide</label>
-    <description>Heavy hide from a dinosaur. Protects quite well.</description>
-    <graphicData>
-      <color>(152,118,83)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>14.0</MarketValue>
-      <StuffPower_Armor_Sharp>1.85</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.32</StuffPower_Armor_Blunt>
-      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(152,118,83)</color>
-      <commonality>0.005</commonality>
-      <statFactors>
-        <MaxHitPoints>2.0</MaxHitPoints>
-        <Beauty>5</Beauty>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-  
-  <ThingDef ParentName="LeatherBase">
-    <defName>BMT_DinoHideFeathery</defName>
-    <label>downy hide</label>
-    <description>Leather from a feathery dinosaur. Not very protective, but insulates well due to being covered by a soft down.</description>
-    <graphicData>
-      <color>(101,160,203)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>2.5</MarketValue>
-      <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
-      <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(101,160,203)</color>
-      <commonality>0.05</commonality>
-      <statFactors>
-        <MaxHitPoints>1.0</MaxHitPoints>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-  
-  <ThingDef ParentName="BiomesCore_ChitinBase">
-    <defName>BMT_PrimordialChitin</defName>
-    <label>primordial chitin</label>
-    <description>Dark chitin from a prehistoric creature.</description>
-    <graphicData>
-      <color>(100,68,36)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>3.3</MarketValue>
-      <StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
-	  <StuffPower_Armor_Blunt>0.22</StuffPower_Armor_Blunt>
-      <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(100,68,36)</color>
-    </stuffProps>
-  </ThingDef>
-  
+    <ThingDef ParentName="LeatherBase">
+        <defName>BMT_DinoHideThin</defName>
+        <label>light dinosaur hide</label>
+        <description>Lightweight, thin leather from a small dinosaur. Doesn't insulate well.</description>
+        <graphicData>
+            <color>(36,49,40)</color>
+        </graphicData>
+        <statBases>
+            <MarketValue>2.1</MarketValue>
+            <StuffPower_Armor_Sharp>0.56</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
+            <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+        </statBases>
+        <stuffProps>
+            <color>(36,49,40)</color>
+            <commonality>0.15</commonality>
+            <statFactors>
+                <MaxHitPoints>1.0</MaxHitPoints>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+    <ThingDef ParentName="LeatherBase">
+        <defName>BMT_DinoHideHeavy</defName>
+        <label>heavy dinosaur hide</label>
+        <description>Heavy dinosaur hide.</description>
+        <graphicData>
+            <color>(160,43,34)</color>
+        </graphicData>
+        <statBases>
+            <MarketValue>3.3</MarketValue>
+            <StuffPower_Armor_Sharp>1.36</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.20</StuffPower_Armor_Blunt>
+            <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+        </statBases>
+        <stuffProps>
+            <color>(160,43,34)</color>
+            <commonality>0.06</commonality>
+            <statFactors>
+                <MaxHitPoints>1.5</MaxHitPoints>
+                <Beauty>1.5</Beauty>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+    <ThingDef ParentName="LeatherBase">
+        <defName>BMT_DinoHideArmored</defName>
+        <label>armored dinosaur hide</label>
+        <description>Heavy hide from a dinosaur. Protects quite well.</description>
+        <graphicData>
+            <color>(152,118,83)</color>
+        </graphicData>
+        <statBases>
+            <MarketValue>14.0</MarketValue>
+            <StuffPower_Armor_Sharp>1.85</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.32</StuffPower_Armor_Blunt>
+            <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+        </statBases>
+        <stuffProps>
+            <color>(152,118,83)</color>
+            <commonality>0.005</commonality>
+            <statFactors>
+                <MaxHitPoints>2.0</MaxHitPoints>
+                <Beauty>5</Beauty>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+    <ThingDef ParentName="LeatherBase">
+        <defName>BMT_DinoHideFeathery</defName>
+        <label>downy hide</label>
+        <description>Leather from a feathery dinosaur. Not very protective, but insulates well due to being covered by a soft down.</description>
+        <graphicData>
+            <color>(101,160,203)</color>
+        </graphicData>
+        <statBases>
+            <MarketValue>2.5</MarketValue>
+            <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
+            <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+        </statBases>
+        <stuffProps>
+            <color>(101,160,203)</color>
+            <commonality>0.05</commonality>
+            <statFactors>
+                <MaxHitPoints>1.0</MaxHitPoints>
+            </statFactors>
+        </stuffProps>
+    </ThingDef>
+
+    <ThingDef ParentName="BiomesCore_ChitinBase">
+        <defName>BMT_PrimordialChitin</defName>
+        <label>primordial chitin</label>
+        <description>Dark chitin from a prehistoric creature.</description>
+        <graphicData>
+            <color>(100,68,36)</color>
+        </graphicData>
+        <statBases>
+            <MarketValue>3.3</MarketValue>
+            <StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.22</StuffPower_Armor_Blunt>
+            <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+        </statBases>
+        <stuffProps>
+            <color>(100,68,36)</color>
+        </stuffProps>
+    </ThingDef>
+
 </Defs>

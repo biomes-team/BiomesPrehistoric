@@ -1,185 +1,179 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Pachycephalosaurus</defName>
+        <label>pachycephalosaurus</label>
+        <description>A grazing animal with armored leather along its dangerous reinforced head.\n\nScientific name: Pachycephalosaurus wyomingensis</description>
+        <statBases>
+            <MoveSpeed>3.5</MoveSpeed>
+            <MarketValue>480</MarketValue>
+            <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+            <ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <FilthRate>12</FilthRate>
+        </statBases>
+        <race>
+            <meatLabel>pachycesid meat</meatLabel>
+            <body>QuadrupedAnimalWithPawsAndTail</body>
+            <leatherDef>BMT_DinoHideArmored</leatherDef>
+            <herdAnimal>true</herdAnimal>
+            <baseBodySize>2.5</baseBodySize>
+            <baseHealthScale>2.2</baseHealthScale>
+            <baseHungerRate>0.60</baseHungerRate>
+            <foodType>VegetarianRoughAnimal</foodType>
+            <predator>false</predator>
+            <packAnimal>false</packAnimal>
+            <wildness>0.55</wildness>
+            <roamMtbDays>2</roamMtbDays>
+            <lifeExpectancy>32</lifeExpectancy>
+            <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+            <trainability>None</trainability>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.3</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>0.7</minAge>
+                    <soundWounded>Pawn_MedDino_Angry</soundWounded>
+                    <soundDeath>Pawn_MedDino_Death</soundDeath>
+                    <soundCall>Pawn_MedDino_Call</soundCall>
+                    <soundAngry>Pawn_MedDino_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_PachycephalosaurusEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~1</eggCountRange>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>front left foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>front right foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>2.5</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalUncommon</li>
+        </tradeTags>
+    </ThingDef>
 
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Pachycephalosaurus</defName>
+        <label>pachycephalosaurus</label>
+        <race>BMT_Pachycephalosaurus</race>
+        <combatPower>70</combatPower>
+        <wildGroupSize>1~3</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
+                    <drawSize>2.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
+                    <drawSize>2.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
+                    <drawSize>3.3</drawSize>
+                    <shadowData>
+                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
+                    <drawSize>3.3</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
+                    <drawSize>4.2</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
+                    <drawSize>4.2</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
 
-  <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Pachycephalosaurus</defName>
-    <label>pachycephalosaurus</label>
-    <description>A grazing animal with armored leather along its dangerous reinforced head.\n\nScientific name: Pachycephalosaurus wyomingensis</description>
-    <statBases>
-      <MoveSpeed>3.5</MoveSpeed>
-      <MarketValue>480</MarketValue>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
-      <ComfyTemperatureMax>50</ComfyTemperatureMax>
-      <FilthRate>12</FilthRate>	 	  
-    </statBases>
-    <race>
-	  <meatLabel>pachycesid meat</meatLabel>
-	  <body>QuadrupedAnimalWithPawsAndTail</body>
-      <leatherDef>BMT_DinoHideArmored</leatherDef>
-      <herdAnimal>true</herdAnimal>
-      <baseBodySize>2.5</baseBodySize>
-      <baseHealthScale>2.2</baseHealthScale>
-      <baseHungerRate>0.60</baseHungerRate>
-      <foodType>VegetarianRoughAnimal</foodType>
-	  <predator>false</predator>
-      <packAnimal>false</packAnimal>	  
-      <wildness>0.55</wildness>
-      <roamMtbDays>2</roamMtbDays>	  
-      <lifeExpectancy>32</lifeExpectancy>
-      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
-      <trainability>None</trainability>
-	  <lifeStageAges>
-        <li>
-          <def>AnimalBabyTiny</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.3</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>0.7</minAge>
-          <soundWounded>Pawn_MedDino_Angry</soundWounded>
-          <soundDeath>Pawn_MedDino_Death</soundDeath>
-          <soundCall>Pawn_MedDino_Call</soundCall>
-          <soundAngry>Pawn_MedDino_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-    </race>
-    <comps>
-      <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_PachycephalosaurusEggFertilized</eggFertilizedDef>
-        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>15</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-        <eggCountRange>1~1</eggCountRange>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>front left foot</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>front right foot</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-      </li>
-     <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.7</chanceFactor>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>2.5</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-      </li>
-    </tools>
-    <tradeTags>
-      <li>AnimalUncommon</li>
-    </tradeTags>
-  </ThingDef>
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_PachycephalosaurusEggFertilized</defName>
+        <label>Pachycephalosaurus egg (fert.)</label>
+        <description>A fertilized Pachycephalosaurus egg. If all goes well, it should hatch into a baby pachycephalosaurus. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <color>(207,207,207)</color>
+            <drawSize>3</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>70</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>14</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Pachycephalosaurus</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Pachycephalosaurus</defName>
-    <label>pachycephalosaurus</label>
-    <race>BMT_Pachycephalosaurus</race>
-    <combatPower>70</combatPower>
-    <wildGroupSize>1~3</wildGroupSize>
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
-          <drawSize>2.0</drawSize>
-		  <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </bodyGraphicData>
-		<dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
-          <drawSize>2.0</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-	  
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
-          <drawSize>3.3</drawSize>
-          <shadowData>
-            <volume>(0.7, 0.6, 0.4)</volume>
-            <offset>(0,0,-0.25)</offset>
-          </shadowData>
-        </bodyGraphicData>
-		<dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
-          <drawSize>3.3</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-	  
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
-          <drawSize>4.2</drawSize>
-          <shadowData>
-            <volume>(1, 0.8, 0.5)</volume>
-            <offset>(0,0,-0.5)</offset>
-          </shadowData>
-        </bodyGraphicData>
-		  <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
-          <drawSize>4.2</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
-
-
-
- <ThingDef ParentName="EggFertBase">
-    <defName>BMT_PachycephalosaurusEggFertilized</defName>
-    <label>Pachycephalosaurus egg (fert.)</label>
-    <description>A fertilized Pachycephalosaurus egg. If all goes well, it should hatch into a baby pachycephalosaurus. It can be eaten raw, but it's much better cooked.</description>
-    <graphicData>
-      <color>(207,207,207)</color>
-      <drawSize>3</drawSize>
-    </graphicData>
-    <statBases>
-      <MarketValue>70</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>14</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Pachycephalosaurus</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
-
-  </Defs>
+</Defs>

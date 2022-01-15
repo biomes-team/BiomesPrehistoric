@@ -64,15 +64,15 @@ BMT_TRex - From forests to arid shrubland.
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
-		<value>		
+		<value>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
-            <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>		
+            <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		    <BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 			<BMT_Meganeura>0.5</BMT_Meganeura>
 		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
-		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus> 
+		    <BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 			<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 			<BMT_TRex>0.1</BMT_TRex>
 			<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
@@ -190,7 +190,6 @@ BMT_TRex - From forests to arid shrubland.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
 		<value>
-		
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 			<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
 			<BMT_Homalocephale>0.15</BMT_Homalocephale>
@@ -207,7 +206,6 @@ BMT_TRex - From forests to arid shrubland.
 		</value>
 	</Operation>	
 
-		
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
 		<value>

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="TreeBase">
-    <defName>BMT_Sigillaria</defName>
-    <label>tufted mosstree</label>
-    <description>A sturdy tree covered in protective scales. Despite its high yield it is not ideal for wood production due to the time it takes to get through the tree's armour.</description>
-    <graphicData>
-      <texPath>BMT_Prehistoric/Plants/Sigillaria</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-      <shadowData>
-        <volume>(0.2, 0.3, 0.13)</volume>
-        <offset>(0,0,-0.44)</offset>
-      </shadowData>
-    </graphicData>
-    <statBases>
-      <Beauty>1</Beauty>
-    </statBases>
-    <plant>
-      <growDays>30</growDays>  
-      <harvestWork>2100</harvestWork>
-      <harvestYield>55</harvestYield>
-      <visualSizeRange>1.3~2.4</visualSizeRange>
-    </plant>
-  </ThingDef>
+    <ThingDef ParentName="TreeBase">
+        <defName>BMT_Sigillaria</defName>
+        <label>tufted mosstree</label>
+        <description>A sturdy tree covered in protective scales. Despite its high yield it is not ideal for wood production due to the time it takes to get through the tree's armour.</description>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Plants/Sigillaria</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.3, 0.13)</volume>
+                <offset>(0,0,-0.44)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>1</Beauty>
+        </statBases>
+        <plant>
+            <growDays>30</growDays>  
+            <harvestWork>2100</harvestWork>
+            <harvestYield>55</harvestYield>
+            <visualSizeRange>1.3~2.4</visualSizeRange>
+        </plant>
+    </ThingDef>
 
 </Defs>

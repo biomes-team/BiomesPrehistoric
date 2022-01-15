@@ -1,196 +1,190 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Polacanthus</defName>
+        <label>polacanthus</label>
+        <description>A medium-sized grazing animal with armored leather along its dangerous spiked body. These dinosaurs are often found either alone or in pairs. A relative of the anklyosaurus, these dinos make decent battle animal given their armoring.\n\nScientific name: Polacanthus foxii</description>
+        <statBases>
+            <MoveSpeed>5</MoveSpeed>
+            <MarketValue>1040</MarketValue>
+            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+            <ComfyTemperatureMax>40</ComfyTemperatureMax>
+            <FilthRate>10</FilthRate>
+        </statBases>
+        <race>
+            <useMeatFrom>BMT_Ankylosaurus</useMeatFrom>
+            <body>QuadrupedAnimalWithPawsAndTail</body>
+            <leatherDef>BMT_DinoHideArmored</leatherDef>
+            <herdAnimal>true</herdAnimal>
+            <baseBodySize>2.5</baseBodySize>
+            <baseHealthScale>5</baseHealthScale>
+            <baseHungerRate>0.60</baseHungerRate>
+            <foodType>VegetarianRoughAnimal</foodType>
+            <predator>false</predator>
+            <packAnimal>false</packAnimal>
+            <wildness>0.60</wildness>
+            <roamMtbDays>2</roamMtbDays>
+            <lifeExpectancy>85</lifeExpectancy>
+            <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+            <trainability>Advanced</trainability>
+            <ageGenerationCurve>
+                <points>
+                    <li>(0.0,0)</li>
+                    <li>(0.1,350)</li>
+                    <li>(0.9,150)</li>
+                    <li>(1.5,5)</li>
+                    <li>(20,4)</li>
+                    <li>(65,0)</li>
+                </points>
+            </ageGenerationCurve>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.4</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>0.8</minAge>
+                    <soundWounded>Pawn_MedDino_Angry</soundWounded>
+                    <soundDeath>Pawn_MedDino_Death</soundDeath>
+                    <soundCall>Pawn_MedDino_Call</soundCall>
+                    <soundAngry>Pawn_MedDino_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_PolacanthusEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggLayIntervalDays>25</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~1</eggCountRange>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>front left foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>front right foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>2.5</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalFighter</li>
+            <li>AnimalUncommon</li>
+        </tradeTags>
+    </ThingDef>
 
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Polacanthus</defName>
+        <label>polacanthus</label>
+        <race>BMT_Polacanthus</race>
+        <combatPower>70</combatPower>
+        <wildGroupSize>1~2</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Polacanthus/Polacanthus</texPath>
+                    <drawSize>2.3</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Polacanthus/Dessicated_Polacanthus</texPath>
+                    <drawSize>2.3</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Polacanthus/Polacanthus</texPath>
+                    <drawSize>3.8</drawSize>
+                    <shadowData>
+                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Polacanthus/Dessicated_Polacanthus</texPath>
+                    <drawSize>3.8</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Polacanthus/Polacanthus</texPath>
+                    <drawSize>5</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Polacanthus/Dessicated_Polacanthus</texPath>
+                    <drawSize>5</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
 
-  <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Polacanthus</defName>
-    <label>polacanthus</label>
-    <description>A medium-sized grazing animal with armored leather along its dangerous spiked body. These dinosaurs are often found either alone or in pairs. A relative of the anklyosaurus, these dinos make decent battle animal given their armoring.\n\nScientific name: Polacanthus foxii</description>
-    <statBases>
-      <MoveSpeed>5</MoveSpeed>
-      <MarketValue>1040</MarketValue>
-      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-      <ComfyTemperatureMax>40</ComfyTemperatureMax>
-      <FilthRate>10</FilthRate>	 	  
-    </statBases>
-    <race>
-      <useMeatFrom>BMT_Ankylosaurus</useMeatFrom>
-	  <body>QuadrupedAnimalWithPawsAndTail</body>
-      <leatherDef>BMT_DinoHideArmored</leatherDef>
-      <herdAnimal>true</herdAnimal>
-      <baseBodySize>2.5</baseBodySize>
-      <baseHealthScale>5</baseHealthScale>
-      <baseHungerRate>0.60</baseHungerRate>
-      <foodType>VegetarianRoughAnimal</foodType>
-	  <predator>false</predator>
-      <packAnimal>false</packAnimal>	  
-      <wildness>0.60</wildness>
-      <roamMtbDays>2</roamMtbDays>	  
-      <lifeExpectancy>85</lifeExpectancy>
-      <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
-      <trainability>Advanced</trainability>
-      <ageGenerationCurve>
-        <points>
-          <li>(0.0,0)</li>
-          <li>(0.1,350)</li>
-          <li>(0.9,150)</li>
-          <li>(1.5,5)</li>
-		  <li>(20,4)</li>
-          <li>(65,0)</li>
-        </points>
-      </ageGenerationCurve>
-	  <lifeStageAges>
-        <li>
-          <def>AnimalBabyTiny</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.4</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>0.8</minAge>
-          <soundWounded>Pawn_MedDino_Angry</soundWounded>
-          <soundDeath>Pawn_MedDino_Death</soundDeath>
-          <soundCall>Pawn_MedDino_Call</soundCall>
-          <soundAngry>Pawn_MedDino_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-    </race>
-    <comps>
-      <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_PolacanthusEggFertilized</eggFertilizedDef>
-        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>25</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-        <eggCountRange>1~1</eggCountRange>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>front left foot</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>front right foot</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-      </li>
-     <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.7</chanceFactor>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>2.5</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-      </li>
-    </tools>
-    <tradeTags>
-	  <li>AnimalFighter</li>
-      <li>AnimalUncommon</li>
-    </tradeTags>
-  </ThingDef>
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_PolacanthusEggFertilized</defName>
+        <label>Polacanthus egg (fert.)</label>
+        <description>A fertilized Polacanthus egg. If all goes well, it should hatch into a baby polacanthus. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <color>(195,123,197)</color>
+            <drawSize>3</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>80</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Polacanthus</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Polacanthus</defName>
-    <label>polacanthus</label>
-    <race>BMT_Polacanthus</race>
-    <combatPower>70</combatPower>
-    <wildGroupSize>1~2</wildGroupSize>
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Polacanthus/Polacanthus</texPath>
-          <drawSize>2.3</drawSize>
-		  <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Polacanthus/Dessicated_Polacanthus</texPath>
-          <drawSize>2.3</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-	  
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Polacanthus/Polacanthus</texPath>
-          <drawSize>3.8</drawSize>
-          <shadowData>
-            <volume>(0.7, 0.6, 0.4)</volume>
-            <offset>(0,0,-0.25)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Polacanthus/Dessicated_Polacanthus</texPath>
-          <drawSize>3.8</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-	  
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Polacanthus/Polacanthus</texPath>
-          <drawSize>5</drawSize>
-          <shadowData>
-            <volume>(1, 0.8, 0.5)</volume>
-            <offset>(0,0,-0.5)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Polacanthus/Dessicated_Polacanthus</texPath>
-          <drawSize>5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
-
-
-
- <ThingDef ParentName="EggFertBase">
-    <defName>BMT_PolacanthusEggFertilized</defName>
-    <label>Polacanthus egg (fert.)</label>
-    <description>A fertilized Polacanthus egg. If all goes well, it should hatch into a baby polacanthus. It can be eaten raw, but it's much better cooked.</description>
-    <graphicData>
-      <color>(195,123,197)</color>
-      <drawSize>3</drawSize>
-    </graphicData>
-    <statBases>
-      <MarketValue>80</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Polacanthus</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
-
-  </Defs>
+</Defs>

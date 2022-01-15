@@ -13,33 +13,33 @@
 			<FilthRate>15</FilthRate>
 		</statBases>
 		<tools>
-      <li>
-        <label>left claws</label>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>right claws</label>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
-      </li>
-     <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>22</power>
-        <cooldownTime>2.5</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.7</chanceFactor>
-        <surpriseAttack>
+			<li>
+				<label>left claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
@@ -47,18 +47,18 @@
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-      </li>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
 		</tools>
 		<comps>
 			<li Class="CompProperties_EggLayer">
@@ -79,7 +79,7 @@
 			<predator>true</predator>
 			<maxPreyBodySize>2.0</maxPreyBodySize>
 			<baseBodySize>4.8</baseBodySize>
-			<baseHealthScale>3</baseHealthScale>			
+			<baseHealthScale>3</baseHealthScale>
 			<baseHungerRate>0.28</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>Leather_Lizard</leatherDef>
@@ -101,10 +101,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>2</minAge>
-          <soundWounded>Pawn_LargeDino_Angry</soundWounded>
-          <soundDeath>Pawn_LargeDino_Death</soundDeath>
-          <soundCall>Pawn_LargeDino_Call</soundCall>
-          <soundAngry>Pawn_LargeDino_Angry</soundAngry>
+					<soundWounded>Pawn_LargeDino_Angry</soundWounded>
+					<soundDeath>Pawn_LargeDino_Death</soundDeath>
+					<soundCall>Pawn_LargeDino_Call</soundCall>
+					<soundAngry>Pawn_LargeDino_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -128,10 +128,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinoF</texPath>
 					<drawSize>4</drawSize>
-				  <shadowData>
-					<volume>(0.4, 0.3, 0.3)</volume>
-					<offset>(0,0,-0.2)</offset>
-				  </shadowData>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
@@ -142,18 +142,18 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinoM</texPath>
 					<drawSize>6</drawSize>
-				  <shadowData>
-					<volume>(0.7, 0.6, 0.4)</volume>
-					<offset>(0,0,-0.25)</offset>
-				  </shadowData>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinoF</texPath>
 					<drawSize>6</drawSize>
-				  <shadowData>
-					<volume>(0.7, 0.6, 0.4)</volume>
-					<offset>(0,0,-0.25)</offset>
-				  </shadowData>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
@@ -165,16 +165,16 @@
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinoM</texPath>
 					<drawSize>7.5</drawSize>
 					<shadowData>
-					<volume>(1, 0.8, 0.5)</volume>
-					<offset>(0,0,-0.5)</offset>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinoF</texPath>
 					<drawSize>7.5</drawSize>
 					<shadowData>
-					<volume>(1, 0.8, 0.5)</volume>
-					<offset>(0,0,-0.5)</offset>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
@@ -187,23 +187,23 @@
 
 
 
- <ThingDef ParentName="EggFertBase">
-    <defName>BMT_SpinosaurusEggFertilized</defName>
-    <label>Spinosaurus egg (fert.)</label>
-    <description>A fertilized spinosaurus egg. If all goes well, it should hatch into a baby spinosaurus. It can be eaten raw, but it's much better cooked.</description>
-    <graphicData>
-      <color>(230,212,193)</color>
-      <drawSize>2</drawSize>
-    </graphicData>
-    <statBases>
-      <MarketValue>75</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>16</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Spinosaurus</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_SpinosaurusEggFertilized</defName>
+		<label>Spinosaurus egg (fert.)</label>
+		<description>A fertilized spinosaurus egg. If all goes well, it should hatch into a baby spinosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(230,212,193)</color>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>16</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Spinosaurus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
   </Defs>
