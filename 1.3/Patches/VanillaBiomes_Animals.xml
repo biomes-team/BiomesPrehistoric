@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
-BMT_Amargasaurus - warmer to temperate forested biomes, including swamps, spawns more near water
-BMT_Ankylosaurus - Warmer to temperate forested biomes
-BMT_Apatosaurus - Swampy areas and along rivers predominantly
+BMT_Amargasaurus - Warmer to temperate forested biomes, including swamps, spawns more near water.
+BMT_Ankylosaurus - Warmer to temperate forested biomes.
+BMT_Apatosaurus - Swampy areas and along rivers predominantly.
 BMT_Arthropleura - Warmer forested biomes.
-BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas. 
+BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas.
 BMT_Borealopelta - Plains and forests along coasts.
 BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
-BMT_Carnotaurus - Plains and along coasts
+BMT_Carnotaurus - Plains and along coasts.
 BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warmer.
-BMT_Compsognathus - Forested biomes. 
-BMT_Dilophosaurus - Desert biome if it has a river
-BMT_Dimetrodon - Warmer biomes
+BMT_Compsognathus - Forested biomes.
+BMT_Dilophosaurus - Desert biome if it has a river.
+BMT_Dimetrodon - Warmer biomes.
 BMT_Dryosaurus - Warmer forested biomes, and arid shrubland maybe.
 BMT_Gallimimus - Temperate areas.
-BMT_Homalocephale - Cooler forests, especially common in higher elevations/mountains
+BMT_Homalocephale - Cooler forests, especially common in higher elevations/mountains.
 BMT_Iguanodon - Forests, swamps, and islands.
-BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines
+BMT_Inostrancevia - Desert and arid shrubland.
+BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines.
 BMT_Meganeura - Warmer forested biomes.
-BMT_Oviraptor - arid shrubland
+BMT_Oviraptor - Arid shrubland.
 BMT_Pachycephalosaurus - Warmer to temperate forested biomes.
 BMT_Parasaur - From arid shrubland to boreal forests.
 BMT_Polacanthus - Plains and forests.
 BMT_Protoceratops - Warmer lush biomes.
-BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles
-BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle. 
-BMT_Stygimoloch - Warmer to temperate forested biomes
+BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles.
+BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle.
+BMT_Stygimoloch - Warmer to temperate forested biomes.
 BMT_Styracosaurus - From shrubland to boreal forests.
 BMT_Titanoboa - Tropical jungles.
-BMT_Velociraptor - Desert and arid shrubland
-BMT_TRex - From forests to arid shrubland. 
+BMT_Velociraptor - Desert and arid shrubland.
+BMT_TRex - From forests to arid shrubland.
 -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
@@ -158,15 +159,17 @@ BMT_TRex - From forests to arid shrubland.
 			<BMT_Dilophosaurus>0.03</BMT_Dilophosaurus>
 			<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
 			<BMT_Parasaur>0.4</BMT_Parasaur>
+			<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
 		</value>
 	</Operation>
 	
-		<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
 		<value>
 		    <BMT_Velociraptor>0.5</BMT_Velociraptor>
 			<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
 			<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
+			<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
 		</value>
 	</Operation>
 	
@@ -184,7 +187,7 @@ BMT_TRex - From forests to arid shrubland.
 		</value>
 	</Operation>
 	
-		<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
 		<value>
 		

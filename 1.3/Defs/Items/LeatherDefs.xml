@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
- <ThingDef ParentName="LeatherBase">
+  <ThingDef ParentName="LeatherBase">
     <defName>BMT_DinoHideThin</defName>
     <label>light dinosaur hide</label>
     <description>Lightweight, thin leather from a small dinosaur. Doesn't insulate well.</description>
@@ -24,8 +24,7 @@
     </stuffProps>
   </ThingDef>
   
-  
-   <ThingDef ParentName="LeatherBase">
+  <ThingDef ParentName="LeatherBase">
     <defName>BMT_DinoHideHeavy</defName>
     <label>heavy dinosaur hide</label>
     <description>Heavy dinosaur hide.</description>
@@ -49,9 +48,7 @@
     </stuffProps>
   </ThingDef>
   
-  
-  
-    <ThingDef ParentName="LeatherBase">
+  <ThingDef ParentName="LeatherBase">
     <defName>BMT_DinoHideArmored</defName>
     <label>armored dinosaur hide</label>
     <description>Heavy hide from a dinosaur. Protects quite well.</description>
@@ -75,9 +72,7 @@
     </stuffProps>
   </ThingDef>
   
-  
-  
-   <ThingDef ParentName="LeatherBase">
+  <ThingDef ParentName="LeatherBase">
     <defName>BMT_DinoHideFeathery</defName>
     <label>downy hide</label>
     <description>Leather from a feathery dinosaur. Not very protective, but insulates well due to being covered by a soft down.</description>
@@ -100,8 +95,6 @@
     </stuffProps>
   </ThingDef>
   
-  
-  
   <ThingDef ParentName="BiomesCore_ChitinBase">
     <defName>BMT_PrimordialChitin</defName>
     <label>primordial chitin</label>
@@ -120,9 +113,5 @@
       <color>(100,68,36)</color>
     </stuffProps>
   </ThingDef>
-  
-  
-  
-  
   
 </Defs>

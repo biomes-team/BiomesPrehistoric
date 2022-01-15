@@ -17,38 +17,38 @@
     </statBases>
     <race>
       <useMeatFrom>BMT_Velociraptor</useMeatFrom>
-	  <body>BMT_BipedWithClawsTeethAndTail</body>
+	    <body>BMT_BipedWithClawsTeethAndTail</body>
       <leatherDef>BMT_DinoHideHeavy</leatherDef>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>4</baseBodySize>
       <baseHealthScale>3.0</baseHealthScale>
       <baseHungerRate>0.60</baseHungerRate>
       <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
-	  <predator>true</predator>
-	  <maxPreyBodySize>1.8</maxPreyBodySize>
+	    <predator>true</predator>
+	    <maxPreyBodySize>1.8</maxPreyBodySize>
       <wildness>0.85</wildness>  
       <lifeExpectancy>20</lifeExpectancy>
       <manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.70</manhunterOnDamageChance>
       <trainability>Advanced</trainability>
-	  <lifeStageAges>
-        <li>
-          <def>AnimalBabyTiny</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.6</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>1.3</minAge>
-          <soundWounded>Pawn_HugeDino_Angry</soundWounded>
-          <soundDeath>Pawn_HugeDino_Death</soundDeath>
-          <soundCall>Pawn_HugeDino_Call</soundCall>
-          <soundAngry>Pawn_HugeDino_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
+      <lifeStageAges>
+          <li>
+            <def>AnimalBabyTiny</def>
+            <minAge>0</minAge>
+          </li>
+          <li>
+            <def>AnimalJuvenile</def>
+            <minAge>0.6</minAge>
+          </li>
+          <li>
+            <def>AnimalAdult</def>
+            <minAge>1.3</minAge>
+            <soundWounded>Pawn_HugeDino_Angry</soundWounded>
+            <soundDeath>Pawn_HugeDino_Death</soundDeath>
+            <soundCall>Pawn_HugeDino_Call</soundCall>
+            <soundAngry>Pawn_HugeDino_Angry</soundAngry>
+          </li>
+        </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>

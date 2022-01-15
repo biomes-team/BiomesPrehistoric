@@ -15,16 +15,16 @@
       <FilthRate>10</FilthRate>	 	  
     </statBases>
     <race>
-	  <meatLabel>synapsid meat</meatLabel>
-	  <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+      <meatLabel>synapsid meat</meatLabel>
+      <body>QuadrupedAnimalWithClawsTailAndJowl</body>
       <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>false</herdAnimal>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <baseHungerRate>0.5</baseHungerRate>
       <foodType>CarnivoreAnimal</foodType>
-	  <predator>true</predator>
-	  <maxPreyBodySize>1.0</maxPreyBodySize>
+      <predator>true</predator>
+      <maxPreyBodySize>1.0</maxPreyBodySize>
       <packAnimal>false</packAnimal>	  
       <wildness>0.30</wildness>
       <roamMtbDays>2</roamMtbDays>	  
@@ -32,8 +32,7 @@
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
       <trainability>None</trainability>
-      
-	  <lifeStageAges>
+	    <lifeStageAges>
         <li>
           <def>AnimalBabyTiny</def>
           <minAge>0</minAge>
