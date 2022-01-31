@@ -29,7 +29,7 @@
             <lifeExpectancy>80</lifeExpectancy>
             <manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
-            <trainability>Simple</trainability>
+            <trainability>None</trainability>
             <lifeStageAges>
                 <li>
                     <def>AnimalBabyTiny</def>
