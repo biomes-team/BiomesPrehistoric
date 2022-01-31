@@ -227,7 +227,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>BMT_Prehistoric/Animals/Pteranodon/DimorphodonDessicated</texPath>
+		  <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath> <!--DessicatedPteranodon until we get DessicatedDimorphodon.-->
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -237,7 +237,7 @@
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/DimorphodonDessicated</texPath>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -247,7 +247,7 @@
           <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/DimorphodonDessicated</texPath>
+          <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
