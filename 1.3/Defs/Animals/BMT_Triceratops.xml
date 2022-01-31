@@ -23,6 +23,7 @@
 			<baseHungerRate>1.07</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<predator>false</predator>
+			<packAnimal>true</packAnimal>
 			<wildness>0.20</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<lifeExpectancy>60</lifeExpectancy>
