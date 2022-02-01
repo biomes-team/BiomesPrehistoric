@@ -82,7 +82,7 @@
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
       <maxPreyBodySize>0.20</maxPreyBodySize>
-      <baseBodySize>2</baseBodySize>
+      <baseBodySize>1</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale>
       <baseHungerRate>0.8</baseHungerRate>
       <foodType>CarnivoreAnimal</foodType>
@@ -227,7 +227,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>BMT_Prehistoric/Animals/Pteranodon/DimorphodonDessicated</texPath>
+		  <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonDessicated</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -237,7 +237,7 @@
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/DimorphodonDessicated</texPath>
+          <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonDessicated</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -247,7 +247,7 @@
           <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/DimorphodonDessicated</texPath>
+          <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonDessicated</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>

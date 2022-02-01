@@ -9,11 +9,13 @@ BMT_Diplocaulus - Warm to cool biomes with rivers.
 BMT_Elasmosaurus - All warmer to cool islands and shorelines. 
 BMT_Icthyosaurus - Cool to warm islands and shores.
 BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores
+BMT_Mosasaurus - Cold (but not freezing) to tropical islands. 
 BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
 -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 		<value> 
+			<BMT_Mosasaurus>0.3</BMT_Mosasaurus>
 		    <BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
 		    <BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
@@ -22,10 +24,11 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		</value>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
-		<value>				
+		<value>	
+	        <BMT_Mosasaurus>0.3</BMT_Mosasaurus>		
 		    <BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
 		    <BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
@@ -39,6 +42,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
 		    <BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
 			<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
@@ -51,6 +55,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
 		    <BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
 			<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
@@ -63,6 +68,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
 		    <BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.2</BMT_Dimorphodon>
 			<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
@@ -75,6 +81,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
 		    <BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.2</BMT_Dimorphodon>
 			<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
@@ -87,6 +94,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
 			<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
 		    <BMT_Liopleurodon>0.4</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.3</BMT_Pteranodon>
@@ -96,6 +104,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
 		<value> 
+		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
 	    	<BMT_Icthyosaurus>0.5</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
 			<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
@@ -110,6 +119,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildAnimals</xpath>
 		<value>
+		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
 	    	<BMT_Icthyosaurus>0.5</BMT_Icthyosaurus>
 		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
 			<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
