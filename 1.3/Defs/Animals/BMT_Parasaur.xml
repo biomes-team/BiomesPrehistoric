@@ -21,6 +21,7 @@
             <baseHungerRate>0.55</baseHungerRate>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
             <predator>false</predator>
+			<packAnimal>true</packAnimal>
             <wildness>0.10</wildness>
             <lifeExpectancy>22</lifeExpectancy>
             <manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
