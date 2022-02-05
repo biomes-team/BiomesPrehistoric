@@ -20,6 +20,7 @@
             <baseHealthScale>1.7</baseHealthScale>
             <baseHungerRate>0.55</baseHungerRate>
             <packAnimal>true</packAnimal>
+			<roamMtbDays>2.6</roamMtbDays>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
             <predator>false</predator>
             <wildness>0.10</wildness>
