@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <BodyDef>
     <defName>BMT_BipedWithClawsTeethAndTail</defName>
     <label>bipedal dinosaur</label>
@@ -58,7 +57,6 @@
           <coverage>0.05</coverage>
           <depth>Inside</depth>
         </li>
-		
         <li>
           <def>Neck</def>
           <coverage>0.2</coverage>
@@ -104,8 +102,7 @@
             </li>
           </parts>
         </li>
-        
-		<li>
+		    <li>
           <def>Leg</def>
           <customLabel>left leg</customLabel>
           <coverage>0.10</coverage>
@@ -137,9 +134,7 @@
             </li>
           </parts>
         </li>
-		
-
-	   <li>
+	      <li>
           <def>Shoulder</def>
           <customLabel>right shoulder</customLabel>
           <coverage>0.1</coverage>
@@ -167,15 +162,14 @@
                   <coverage>0.25</coverage>
                   <height>Bottom</height>
                   <groups>
-					<li>FrontRightClaws</li>
-				  </groups>
-				</li>
+					          <li>FrontRightClaws</li>
+				          </groups>
+				        </li>
               </parts>
             </li>
           </parts>
         </li>
-     
-	   <li>
+	      <li>
           <def>Shoulder</def>
           <customLabel>left shoulder</customLabel>
           <coverage>0.1</coverage>
@@ -203,19 +197,13 @@
                   <coverage>0.25</coverage>
                   <height>Bottom</height>
                   <groups>
-					<li>FrontLeftClaws</li>
-				  </groups>
-				</li>
+					          <li>FrontLeftClaws</li>
+				          </groups>
+				        </li>
               </parts>
             </li>
           </parts>
         </li>
-     
-		
-		
-		
-		
-		
       </parts>
     </corePart>
   </BodyDef>

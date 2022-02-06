@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <BodyDef>
     <defName>BMT_QuadrupedWithClawsAndTailWeapon</defName>
     <label>quadruped animal</label>
@@ -295,20 +294,5 @@
       </parts>
     </corePart>
   </BodyDef>
-  
-  
-  
-  <BodyPartGroupDef>
-    <defName>BMT_TailGroup</defName>
-    <label>tail</label>
-  </BodyPartGroupDef>
-  
-  <BodyPartDef>
-    <defName>BMT_TailWeapon</defName>
-    <label>tail</label>
-    <hitPoints>10</hitPoints>
-    <!-- <frostbiteVulnerability>8</frostbiteVulnerability> -->
-    <skinCovered>false</skinCovered>
-  </BodyPartDef>
   
 </Defs>

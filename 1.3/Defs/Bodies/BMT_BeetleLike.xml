@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-
 <Defs> 
 
-<BodyDef>
-     <!-- BeetleLike from core, but no elytra(wings).-->
+  <BodyDef>
+    <!-- BeetleLike from core, but no elytra(wings).-->
     <defName>BMT_BeetleLike</defName>
     <label>beetle-like</label>
     <corePart>
@@ -113,9 +111,7 @@
       </parts>
     </corePart>
   </BodyDef>
-  
-  
-  
+
   <BodyDef>
   <defName>BMT_BeetleLikeWithStinger</defName>
     <label>dragonfly-like</label>
@@ -182,7 +178,7 @@
                     <li>Mouth</li>
                   </groups>
                 </li>
-			    <li>
+			          <li>
                   <def>Stinger</def>
                   <coverage>0.15</coverage>
                   <groups>
@@ -233,4 +229,4 @@
     </corePart>
   </BodyDef>
   
-  </Defs>
+</Defs>
