@@ -29,7 +29,7 @@
         <label>heavy dinosaur hide</label>
         <description>Heavy dinosaur hide.</description>
         <graphicData>
-            <color>(160,43,34)</color>
+            <color>(129,50,41)</color>
         </graphicData>
         <statBases>
             <MarketValue>3.3</MarketValue>
@@ -39,7 +39,7 @@
             <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
         </statBases>
         <stuffProps>
-            <color>(160,43,34)</color>
+            <color>(129,50,41)</color>
             <commonality>0.06</commonality>
             <statFactors>
                 <MaxHitPoints>1.5</MaxHitPoints>
