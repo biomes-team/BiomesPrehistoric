@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Vanilla Biomes</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_AlpineMeadow"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.5</BMT_Calamites>
+			<BMT_Horsetail>2.0</BMT_Horsetail>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_CoastalDunes"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.3</BMT_Calamites>
+			<BMT_Clubmoss>1.0</BMT_Clubmoss>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_DesertOasis"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.1</BMT_Calamites>
+			<BMT_Clubmoss>0.5</BMT_Clubmoss>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Grasslands"]/wildPlants</xpath>
+					<value>
+			<BMT_Horsetail>3.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+					</value>
+				</li>
+				
+				<!--
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Iceberg_NoBeach"]/wildPlants</xpath>
+					<value>
+						<ZDuck_ArcticRazorbill>0.1</ZDuck_ArcticRazorbill>
+						<ZDuck_Bufflehead>0.1</ZDuck_Bufflehead>
+						<ZDuck_EiderPintail>0.15</ZDuck_EiderPintail>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Marsh"]/wildPlants</xpath>
+					<value>
+						<ZDuck_ArcticRazorbill>0.07</ZDuck_ArcticRazorbill>
+						<ZDuck_Cayuga>0.25</ZDuck_Cayuga>
+						<ZDuck_Ducky>0.23</ZDuck_Ducky>
+						<ZDuck_GreaterMallard>0.6</ZDuck_GreaterMallard>
+					</value>
+				</li>
+				-->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_CloudForest"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.1</BMT_Calamites>
+			<BMT_Clubmoss>0.5</BMT_Clubmoss>
+					</value>
+				</li>
+				<!--
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Sandbar_NoBeach"]/wildPlants</xpath>
+					<value>
+						<ZDuck_DesertRazorbill>0.1</ZDuck_DesertRazorbill>
+					</value>
+				</li>
+				-->
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

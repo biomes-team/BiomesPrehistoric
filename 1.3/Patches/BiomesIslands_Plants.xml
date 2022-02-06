@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes! Islands</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.1</BMT_Calamites>
+			<BMT_Clubmoss>0.5</BMT_Clubmoss>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.5</BMT_Calamites>
+			<BMT_Horsetail>2.0</BMT_Horsetail>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_DesertIslandBase"]/wildPlants</xpath>
+					<value>
+			<BMT_Horsetail>1.0</BMT_Horsetail>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TemperateIslandBase"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.5</BMT_Calamites>
+			<BMT_Horsetail>2.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIslandBase"]/wildPlants</xpath>
+					<value>
+			<BMT_Calamites>0.1</BMT_Calamites>
+			<BMT_Clubmoss>0.5</BMT_Clubmoss>
+					</value>
+				</li>
+				<!-- 
+				<li Class="PatchOperationAdd">  
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TundraIslandBase"]/wildPlants</xpath>
+					<value>
+						
+					</value>
+				</li>
+				-->
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
