@@ -101,32 +101,9 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
-		<value> 
-		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
-	    	<BMT_Icthyosaurus>0.5</BMT_Icthyosaurus>
-		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
-			<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
-			<BMT_Coelacanth>0.5</BMT_Coelacanth>
-			<BMT_GiantAmmonite>0.5</BMT_GiantAmmonite>
-		    <BMT_Ammonite>0.6</BMT_Ammonite>
-			<BMT_Liopleurodon>0.2</BMT_Liopleurodon>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
-		</value>
-	</Operation>
 	
-		<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildAnimals</xpath>
-		<value>
-		    <BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
-	    	<BMT_Icthyosaurus>0.5</BMT_Icthyosaurus>
-		    <BMT_Dimorphodon>0.5</BMT_Dimorphodon>
-			<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
-         	<BMT_Liopleurodon>0.5</BMT_Liopleurodon>
-		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
-		</value>
-	</Operation>
+	
+	
 
 
 <!--
