@@ -7,4 +7,9 @@
         <label>stinger</label>
     </BodyPartGroupDef>
 
+    <BodyPartGroupDef>
+        <defName>BMT_TailGroup</defName>
+        <label>tail</label>
+    </BodyPartGroupDef>
+
 </Defs>
