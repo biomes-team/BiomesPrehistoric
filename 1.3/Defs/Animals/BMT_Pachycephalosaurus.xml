@@ -165,6 +165,7 @@
             <color>(207,207,207)</color>
             <drawSize>3</drawSize>
         </graphicData>
+		<uiIconScale>0.50</uiIconScale>
         <statBases>
             <MarketValue>70</MarketValue>
         </statBases>
