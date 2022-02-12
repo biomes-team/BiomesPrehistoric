@@ -6,6 +6,7 @@
 	</default>
 	<v1.3>
 		<li>1.3</li>
-        <li IfModActive="BiomesTeam.BiomesIslands">FlyingAndAquaticAnimals</li>
+		<li>\</li>
+        <li IfModActive="BiomesTeam.BiomesIslands">1.3FlyingAndAquaticAnimals</li>
 	 </v1.3>
 </loadFolders>

@@ -40,6 +40,10 @@
                 <li>
                     <def>AnimalAdult</def>
                     <minAge>1</minAge>
+                    <soundWounded>BMT_Titanoboa_Wounded</soundWounded>
+                    <soundDeath>BMT_Titanoboa_Death</soundDeath>
+                    <soundCall>BMT_Titanoboa_Call</soundCall>
+                    <soundAngry>BMT_Titanoboa_Angry</soundAngry>
                 </li>
             </lifeStageAges>
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
