@@ -32,64 +32,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<SoundDef>
-		<defName>BMT_GiantAmmonite_Angry</defName>
-		<context>MapOnly</context>
-		<eventNames />
-		<maxVoices>2</maxVoices>
-		<subSounds>
-			<li>
-				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/GiantAmmonite/GiantAmmonite_Angry</clipFolderPath>
-					</li>
-				</grains>
-				<volumeRange>
-					<min>28</min>
-					<max>28</max>
-				</volumeRange>
-				<pitchRange>
-					<min>0.95</min>
-					<max>1.15</max>
-				</pitchRange>
-				<distRange>
-					<min>0</min>
-					<max>70</max>
-				</distRange>
-				<sustainLoop>False</sustainLoop>
-				<repeatMode>NeverTwice</repeatMode>
-			</li>
-		</subSounds>
-	</SoundDef>
-
-	<SoundDef>
-		<defName>BMT_GiantAmmonite_Wounded</defName>
-		<context>MapOnly</context>
-		<eventNames />
-		<subSounds>
-			<li>
-				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/GiantAmmonite/GiantAmmonite_Wounded</clipFolderPath>
-					</li>
-				</grains>
-				<volumeRange>
-					<min>15</min>
-					<max>15</max>
-				</volumeRange>
-				<pitchRange>
-					<min>0.9311765</min>
-					<max>1.091765</max>
-				</pitchRange>
-				<distRange>
-					<min>0</min>
-					<max>70</max>
-				</distRange>
-				<repeatMode>NeverTwice</repeatMode>
-				<sustainLoop>False</sustainLoop>
-			</li>
-		</subSounds>
-	</SoundDef>
+	
 
 	<SoundDef>
 		<defName>BMT_GiantAmmonite_Death</defName>

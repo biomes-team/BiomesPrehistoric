@@ -123,12 +123,7 @@
           <soundCall>Pawn_TinyDino_Call</soundCall>
           <soundAngry>Pawn_TinyDino_Angry</soundAngry>
         </li>
-      </lifeStageAges>
-       <wildBiomes>
-                   <BiomesIslands_TundraIsland>0.4</BiomesIslands_TundraIsland>
-				   <BiomesIslands_TropicalIsland>0.6</BiomesIslands_TropicalIsland>
-				   <BiomesIslands_TemperateIsland>0.6</BiomesIslands_TemperateIsland>
-     	</wildBiomes>			
+      </lifeStageAges>			
     </race>
     <uiIconScale>1.5</uiIconScale>
 	

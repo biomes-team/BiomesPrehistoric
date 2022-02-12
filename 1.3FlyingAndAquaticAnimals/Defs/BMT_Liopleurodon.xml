@@ -145,10 +145,6 @@
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-			<wildBiomes>
-				   <BiomesIslands_TropicalIsland>0.2</BiomesIslands_TropicalIsland>
-				   <BiomesIslands_TemperateIsland>0.3</BiomesIslands_TemperateIsland>
-			</wildBiomes>
         </race>
     </ThingDef>
 
