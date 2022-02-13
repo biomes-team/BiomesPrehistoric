@@ -121,7 +121,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
-                    <drawSize>1.7</drawSize>
+                    <drawSize>2.2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -129,13 +129,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/Dessicated_Gallimimus</texPath>
-                    <drawSize>1.7</drawSize>
+                    <drawSize>2.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>4.0</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -143,13 +143,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/Dessicated_Gallimimus</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>4.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
-                    <drawSize>4.0</drawSize>
+                    <drawSize>5.4</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -157,7 +157,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/Dessicated_Gallimimus</texPath>
-                    <drawSize>4.0</drawSize>
+                    <drawSize>5.4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

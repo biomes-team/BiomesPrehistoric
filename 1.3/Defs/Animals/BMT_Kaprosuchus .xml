@@ -118,7 +118,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Kaprosuchus</texPath>
-                    <drawSize>1.5</drawSize>
+                    <drawSize>2.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -126,13 +126,13 @@
                 </bodyGraphicData>
             <!--    <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Dessicated_Kaprosuchus</texPath> 
-                    <drawSize>1.5</drawSize>
+                    <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData> -->
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Kaprosuchus</texPath>
-                    <drawSize>2.3</drawSize>
+                    <drawSize>3.1</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -140,7 +140,7 @@
                 </bodyGraphicData>
             <!--    <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Dessicated_Kaprosuchus</texPath>
-                    <drawSize>2.3</drawSize>
+                    <drawSize>3.1</drawSize>
                 </dessicatedBodyGraphicData> -->
             </li>
             <li>

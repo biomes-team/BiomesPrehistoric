@@ -115,21 +115,21 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/ParasaurMale</texPath>
-                    <drawSize>1.7</drawSize>
+                    <drawSize>2.2</drawSize>
                 </bodyGraphicData>
                 <femaleGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/ParasaurFemale</texPath>
-                    <drawSize>1.7</drawSize>
+                    <drawSize>2.2</drawSize>
                 </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/Dessicated_Parasaur</texPath>
-                    <drawSize>1.7</drawSize>
+                    <drawSize>2.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/ParasaurMale</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>3.8</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -137,7 +137,7 @@
                 </bodyGraphicData>
                 <femaleGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/ParasaurFemale</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>3.8</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -145,13 +145,13 @@
                 </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/Dessicated_Parasaur</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>3.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/ParasaurMale</texPath>
-                    <drawSize>3.6</drawSize>
+                    <drawSize>4.8</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -159,7 +159,7 @@
                 </bodyGraphicData>
                 <femaleGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/ParasaurFemale</texPath>
-                    <drawSize>3.6</drawSize>
+                    <drawSize>4.8</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -167,7 +167,7 @@
                 </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Parasaur/Dessicated_Parasaur</texPath>
-                    <drawSize>3.6</drawSize>
+                    <drawSize>4.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

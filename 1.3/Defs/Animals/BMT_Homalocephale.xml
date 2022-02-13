@@ -114,17 +114,17 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Homalocephale/Homalocephale</texPath>
-                    <drawSize>1.1</drawSize>
+                    <drawSize>1.4</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Homalocephale/Dessicated_Homalocephale</texPath>
-                    <drawSize>1.1</drawSize>
+                    <drawSize>1.4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Homalocephale/Homalocephale</texPath>
-                    <drawSize>1.4</drawSize>
+                    <drawSize>2.0</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -132,13 +132,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Homalocephale/Dessicated_Homalocephale</texPath>
-                    <drawSize>1.4</drawSize>
+                    <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Homalocephale/Homalocephale</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>3.8</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -146,7 +146,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Homalocephale/Dessicated_Homalocephale</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>3.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

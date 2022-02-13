@@ -134,17 +134,17 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Velociraptor</texPath>
-                    <drawSize>0.90</drawSize>
+                    <drawSize>1.2</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>0.90</drawSize>
+                    <drawSize>1.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Velociraptor</texPath>
-                    <drawSize>1.5</drawSize>
+                    <drawSize>2.0</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -152,13 +152,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>1.5</drawSize>
+                    <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Velociraptor</texPath>
-                    <drawSize>2.2</drawSize>
+                    <drawSize>3.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -166,7 +166,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>2.2</drawSize>
+                    <drawSize>3.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
