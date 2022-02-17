@@ -11,6 +11,7 @@
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>55</ComfyTemperatureMax>
             <FilthRate>6</FilthRate>
+			<MeleeDodgeChance>10</MeleeDodgeChance>
         </statBases>
         <race>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
@@ -20,8 +21,8 @@
             <herdAnimal>false</herdAnimal>
             <baseBodySize>0.13</baseBodySize>
 			<roamMtbDays>7</roamMtbDays>
-            <baseHealthScale>0.38</baseHealthScale>
-            <baseHungerRate>0.30</baseHungerRate>
+            <baseHealthScale>0.45</baseHealthScale>
+            <baseHungerRate>0.25</baseHungerRate>
             <foodType>CarnivoreAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>0.4</maxPreyBodySize>
