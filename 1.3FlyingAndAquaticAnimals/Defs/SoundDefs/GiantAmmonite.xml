@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/GiantAmmonite/GiantAmmonite_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/GiantAmmonite/Giant_Ammonite_Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -42,7 +42,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/GiantAmmonite/GiantAmmonite_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/GiantAmmonite/Giant_Ammonite_Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
