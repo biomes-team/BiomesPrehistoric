@@ -124,10 +124,10 @@
                         <offset>(0,0,-0.2)</offset>
                     </shadowData>
                 </bodyGraphicData>
-            <!--    <dessicatedBodyGraphicData>
+            <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Dessicated_Kaprosuchus</texPath> 
                     <drawSize>2.0</drawSize>
-                </dessicatedBodyGraphicData> -->
+                </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
@@ -138,10 +138,10 @@
                         <offset>(0,0,-0.25)</offset>
                     </shadowData>
                 </bodyGraphicData>
-            <!--    <dessicatedBodyGraphicData>
+            <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Dessicated_Kaprosuchus</texPath>
                     <drawSize>3.1</drawSize>
-                </dessicatedBodyGraphicData> -->
+                </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
@@ -152,10 +152,10 @@
                         <offset>(0,0,-0.5)</offset>
                     </shadowData>
                 </bodyGraphicData>
-            <!--   <dessicatedBodyGraphicData>
+            <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Dessicated_Kaprosuchus</texPath>
                     <drawSize>3.0</drawSize>
-                </dessicatedBodyGraphicData> -->
+                </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
     </PawnKindDef>
