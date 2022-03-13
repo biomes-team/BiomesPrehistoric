@@ -21,6 +21,10 @@
             <baseHealthScale>2.25</baseHealthScale>
             <baseHungerRate>0.535</baseHungerRate>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+			<willNeverEat>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+			</willNeverEat>
             <predator>false</predator>
             <wildness>0.70</wildness>
             <roamMtbDays>2</roamMtbDays>	  
