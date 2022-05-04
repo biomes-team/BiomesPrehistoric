@@ -13,7 +13,7 @@
         </statBases>
         <race>
             <meatLabel>ornithopod meat</meatLabel>
-            <body>BMT_BipedWithClawsTeethAndTail</body>
+            <body>BMT_BipedWithSpikeTeethAndTail</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.7</baseBodySize>
@@ -74,31 +74,31 @@
         </comps>
         <tools>
             <li>
-                <label>left claw</label>
+                <label>left thumb spike</label>
                 <capacities>
-                    <li>Scratch</li>
+                    <li>Stab</li>
                 </capacities>
-                <power>7.5</power>
+                <power>8.5</power>
                 <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>FrontLeftThumbSpike</linkedBodyPartsGroup>
             </li>
             <li>
-                <label>right claw</label>
+                <label>right thumb spike</label>
                 <capacities>
-                    <li>Scratch</li>
+                    <li>Stab</li>
                 </capacities>
-                <power>7.5</power>
+                <power>8.5</power>
                 <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>FrontRightThumbSpike</linkedBodyPartsGroup>
             </li>
             <li>
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>9</power>
+                <power>7</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <chanceFactor>0.7</chanceFactor>
+                <chanceFactor>0.3</chanceFactor>
             </li>
             <li>
                 <label>head</label>

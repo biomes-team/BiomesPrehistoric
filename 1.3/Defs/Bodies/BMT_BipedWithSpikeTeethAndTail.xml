@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<BodyDef>
-		<defName>BMT_BipedWithClawsTeethAndTail</defName>
+		<defName>BMT_BipedWithSpikeTeethAndTail</defName>
 		<label>bipedal dinosaur</label>
 		<corePart>
 			<def>Body</def>
@@ -156,12 +156,12 @@
 									<depth>Inside</depth>
 								</li>
 								<li>
-									<def>FrontClaw</def>
-									<customLabel>right claws</customLabel>
-									<coverage>0.25</coverage>
+									<def>FrontThumbSpike</def>
+									<customLabel>right thumb spike</customLabel>
+									<coverage>0.1</coverage>
 									<height>Bottom</height>
 									<groups>
-										<li>FrontRightClaws</li>
+										<li>FrontRightThumbSpike</li>
 									</groups>
 								</li>
 							</parts>
@@ -191,12 +191,12 @@
 									<depth>Inside</depth>
 								</li>
 								<li>
-									<def>FrontClaw</def>
-									<customLabel>left claws</customLabel>
-									<coverage>0.25</coverage>
+									<def>FrontThumbSpike</def>
+									<customLabel>left thumb spike</customLabel>
+									<coverage>0.1</coverage>
 									<height>Bottom</height>
 									<groups>
-										<li>FrontLeftClaws</li>
+										<li>FrontLeftThumbSpike</li>
 									</groups>
 								</li>
 							</parts>

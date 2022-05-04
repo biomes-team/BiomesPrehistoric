@@ -2,14 +2,26 @@
 
 <Defs>
 
-    <BodyPartGroupDef>
-        <defName>Stinger</defName>
-        <label>stinger</label>
-    </BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>Stinger</defName>
+		<label>stinger</label>
+	</BodyPartGroupDef>
 
-    <BodyPartGroupDef>
-        <defName>BMT_TailGroup</defName>
-        <label>tail</label>
-    </BodyPartGroupDef>
+	<BodyPartGroupDef>
+		<defName>BMT_TailGroup</defName>
+		<label>tail</label>
+	</BodyPartGroupDef>
+  
+	<BodyPartGroupDef>
+		<defName>FrontLeftThumbSpike</defName>
+		<label>front left thumb spike</label>
+		<labelShort>thumb spike</labelShort>
+	</BodyPartGroupDef>
+  
+	<BodyPartGroupDef>
+		<defName>FrontRightThumbSpike</defName>
+		<label>front right thumb spike</label>
+		<labelShort>thumb spike</labelShort>
+	</BodyPartGroupDef>
 
 </Defs>
