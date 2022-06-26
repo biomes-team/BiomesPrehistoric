@@ -49,8 +49,8 @@
         <label>adult</label>
         <visible>false</visible>
         <reproductive>true</reproductive>
-        <modExtensions>
-        <!--li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+        <!--modExtensions>
+        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
@@ -109,7 +109,7 @@
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
 			<roamMtbDays>3</roamMtbDays>
-			<lifeStageAges>
+			<lifeStageAges Inherit="False">
 				<li>
 					<def>BMT_TrilobiteBabyTiny</def>
 					<minAge>0</minAge>
@@ -137,17 +137,17 @@
 				</eggCountRange>
 			</li>
 		</comps>
-		<modExtensions>
+		<!--modExtensions>
 			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
-				<stayOnTerrainTag>Sand</stayOnTerrainTag>
-					<!--li>Sand</li>
+				<stayOnTerrainTag>
+					<li>Sand</li>
 					<li>Water</li>
-				</stayOnTerrainTag-->
+				</stayOnTerrainTag>
 			</li>
 			<li Class="Swimming.AquaticExtension">
 				<aquatic>true</aquatic>
 			</li>
-		</modExtensions>
+		</modExtensions-->
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Trilobite</defName>
@@ -175,31 +175,31 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
-					<drawSize>1.5</drawSize>
+					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Dessicated_Trilobite</texPath>
-					<drawSize>1.5</drawSize>
+					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
-					<drawSize>2.5</drawSize>
+					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Dessicated_Trilobite</texPath>
-					<drawSize>2.5</drawSize>
+					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>1.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Dessicated_Trilobite</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

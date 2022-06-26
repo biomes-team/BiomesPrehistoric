@@ -17,7 +17,7 @@
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraFlying</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
@@ -42,7 +42,7 @@
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraFlying</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>1.5</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
@@ -60,7 +60,7 @@
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraFlying</texPath>
-          <drawSize>3.8</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
@@ -219,31 +219,31 @@
 	  <label>anhanguera hatchling</label>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
-          <drawSize>0.5</drawSize>
+		  <texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
 		  <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
-          <drawSize>1</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
