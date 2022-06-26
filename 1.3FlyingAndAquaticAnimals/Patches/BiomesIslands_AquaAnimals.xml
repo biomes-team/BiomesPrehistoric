@@ -18,6 +18,8 @@
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+						<BMT_Anhanguera>0.5</BMT_Anhanguera>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -31,6 +33,8 @@
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+						<BMT_Anhanguera>0.2</BMT_Anhanguera>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -43,6 +47,8 @@
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+						<BMT_Anhanguera>0.2</BMT_Anhanguera>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -57,12 +63,13 @@
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+						<BMT_Anhanguera>0.5</BMT_Anhanguera>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIslandBase"]/wildAnimals</xpath>
 					<value>
-						
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
@@ -71,6 +78,8 @@
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+						<BMT_Anhanguera>0.8</BMT_Anhanguera>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -83,6 +92,7 @@
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
 			</operations>

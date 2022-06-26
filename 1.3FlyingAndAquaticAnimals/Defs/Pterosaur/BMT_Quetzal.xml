@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 
-<!--Used Seagull as template!! -->
 <Defs>
 
 <LifeStageDef ParentName="AnimalBaby">
-    <defName>BMT_PteranodonBabyTiny</defName>
+    <defName>BMT_QuetzalBabyTiny</defName>
     <bodySizeFactor>0.1</bodySizeFactor>
     <foodMaxFactor>6</foodMaxFactor>
     <statFactors>
@@ -16,15 +15,15 @@
       <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonFlying</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalFlying</texPath>
+          <drawSize>3.0</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>BMT_PteranodonJuvenile</defName>
+    <defName>BMT_QuetzalJuvenile</defName>
     <label>juvenile</label>
     <voxPitch>1.2</voxPitch>
     <bodySizeFactor>0.9</bodySizeFactor>
@@ -41,15 +40,15 @@
       <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonFlying</texPath>
-          <drawSize>2.5</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalFlying</texPath>
+          <drawSize>4.2</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>BMT_PteranodonAdult</defName>
+    <defName>BMT_QuetzalAdult</defName>
     <label>adult</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
@@ -59,40 +58,41 @@
       <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonFlying</texPath>
-          <drawSize>3.8</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalFlying</texPath>
+          <drawSize>6.4</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
   </LifeStageDef>
   
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Pteranodon</defName>
-    <label>pteranodon</label>
-    <description>The Pteranodon is a common sight on islands and near beaches. It has a long crest and beak filled with needle-like teeth, as well as impressive wings.\n\nScientific name: Pteranodon longiceps</description>
+    <defName>BMT_Quetzal</defName>
+    <label>quetzal</label>
+    <description>Its name comes from the Aztec feathered serpent god, Quetzalcoatl. It was one of the largest known flying animals of all time.\n\nScientific name: Quetzalcoatlus northropi</description>
     <statBases>
       <BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
-      <SwimSpeed>5</SwimSpeed>
+      <SwimSpeed>1</SwimSpeed>
       <MarketValue>950</MarketValue>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>
     <race>
+	  <useMeatFrom>BMT_Pteranodon</useMeatFrom>
 	  <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>true</herdAnimal>
       <predator>true</predator>
-      <maxPreyBodySize>0.20</maxPreyBodySize>
-      <baseBodySize>2</baseBodySize>
+      <maxPreyBodySize>2.2</maxPreyBodySize>
+      <baseBodySize>3.8</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale>
       <baseHungerRate>0.8</baseHungerRate>
       <foodType>CarnivoreAnimal</foodType>
-      <wildness>0.45</wildness>
+      <wildness>0.55</wildness>
       <trainability>Intermediate</trainability>
-      <lifeExpectancy>35</lifeExpectancy>
-      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+      <lifeExpectancy>30</lifeExpectancy>
+      <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.40</manhunterOnDamageChance>
 	  <body>Bird</body>
-      <gestationPeriodDays>24</gestationPeriodDays>
+      <gestationPeriodDays>32</gestationPeriodDays>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
@@ -108,16 +108,16 @@
       </ageGenerationCurve>
       <lifeStageAges>
         <li>
-          <def>BMT_PteranodonBabyTiny</def>
+          <def>BMT_QuetzalBabyTiny</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>BMT_PteranodonJuvenile</def>
-          <minAge>0.5</minAge>
+          <def>BMT_QuetzalJuvenile</def>
+          <minAge>0.7</minAge>
         </li>
         <li>
-          <def>BMT_PteranodonAdult</def>
-          <minAge>1</minAge>
+          <def>BMT_QuetzalAdult</def>
+          <minAge>1.3</minAge>
 			<soundWounded>BMT_Pteranodon_Wounded</soundWounded>
 			<soundDeath>BMT_Pteranodon_Death</soundDeath>
 			<soundCall>BMT_Pteranodon_Call</soundCall>
@@ -126,10 +126,9 @@
       </lifeStageAges>		
     </race>
     <uiIconScale>1.5</uiIconScale>
-	
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_PteranodonEggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_QuetzalEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>3</eggFertilizationCountMax>
         <eggLayIntervalDays>15</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -149,7 +148,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>14</amount>
+              <amount>18</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -159,14 +158,14 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
+        <power>16</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>14</amount>
+              <amount>15</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -176,7 +175,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
+        <power>10</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -189,61 +188,61 @@
   </ThingDef>
   
   <ThingDef ParentName="EggFertBase">
-    <defName>BMT_PteranodonEggFertilized</defName>
-    <label>Pteranodon egg (fert.)</label>
-    <description>A fertilized Pteranodon egg. If all goes well, it should hatch into a baby pteranodon. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_QuetzalEggFertilized</defName>
+    <label>Quetzal egg (fert.)</label>
+    <description>A fertilized quetzal egg. If all goes well, it should hatch into a baby quetzal. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
-      <color>(195,123,197)</color>
-      <drawSize>0.7</drawSize>
+      <color>(152,95,81)</color>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>55</MarketValue>
+      <MarketValue>61</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Pteranodon</hatcherPawn>
+        <hatcherPawn>BMT_Quetzal</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
   
    <PawnKindDef ParentName="BigBirdKindBase">
-    <defName>BMT_Pteranodon</defName>
-    <label>pteranodon</label>
-    <race>BMT_Pteranodon</race>
-	<combatPower>60</combatPower>
-	<ecoSystemWeight>0.35</ecoSystemWeight>
-	<wildGroupSize>1~5</wildGroupSize>
+    <defName>BMT_Quetzal</defName>
+    <label>quetzal</label>
+    <race>BMT_Quetzal</race>
+	<combatPower>80</combatPower>
+	<ecoSystemWeight>0.70</ecoSystemWeight>
+	<wildGroupSize>1~3</wildGroupSize>
 	<lifeStages>
       <li>
-	  <label>pteranodon hatchling</label>
+	  <label>quetzal hatchling</label>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
+          <drawSize>3.0</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
-          <drawSize>1.5</drawSize>
+		  <texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+          <drawSize>3.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-		  <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
-          <drawSize>2.5</drawSize>
+		  <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
+          <drawSize>4.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
-          <drawSize>2.5</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+          <drawSize>4.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
-          <drawSize>3.8</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
+          <drawSize>6.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Pteranodon/DessicatedPteranodon</texPath>
-          <drawSize>3.8</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+          <drawSize>6.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

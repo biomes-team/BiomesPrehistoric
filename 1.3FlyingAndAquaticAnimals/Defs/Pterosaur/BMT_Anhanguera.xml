@@ -5,26 +5,26 @@
 <Defs>
 
 <LifeStageDef ParentName="AnimalBaby">
-    <defName>BMT_DimorphodonBabyTiny</defName>
+    <defName>BMT_AnhangueraBabyTiny</defName>
     <bodySizeFactor>0.1</bodySizeFactor>
     <foodMaxFactor>6</foodMaxFactor>
     <statFactors>
       <MoveSpeed>0.5</MoveSpeed>
-      <BiomesCore_FlySpeed>0.4</BiomesCore_FlySpeed>
+      <BiomesCore_FlySpeed>0.5</BiomesCore_FlySpeed>
     </statFactors>
     <modExtensions>
       <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Dimorphodon/FlyingDimorphodon</texPath>
-          <drawSize>1</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraFlying</texPath>
+          <drawSize>1.5</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>BMT_DimorphodonJuvenile</defName>
+    <defName>BMT_AnhangueraJuvenile</defName>
     <label>juvenile</label>
     <voxPitch>1.2</voxPitch>
     <bodySizeFactor>0.9</bodySizeFactor>
@@ -35,21 +35,21 @@
     <meleeDamageFactor>0.08</meleeDamageFactor>
     <statFactors>
       <MoveSpeed>0.9</MoveSpeed>
-      <BiomesCore_FlySpeed>0.7</BiomesCore_FlySpeed>
+      <BiomesCore_FlySpeed>0.9</BiomesCore_FlySpeed>
     </statFactors>
     <modExtensions>
       <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Dimorphodon/FlyingDimorphodon</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraFlying</texPath>
+          <drawSize>2.5</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>BMT_DimorphodonAdult</defName>
+    <defName>BMT_AnhangueraAdult</defName>
     <label>adult</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
@@ -59,39 +59,39 @@
       <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Dimorphodon/FlyingDimorphodon</texPath>
-          <drawSize>2</drawSize>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraFlying</texPath>
+          <drawSize>3.8</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
   </LifeStageDef>
   
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Dimorphodon</defName>
-    <label>dimorphodon</label>
-    <description>The Dimorphodon was a pterosaur, or flying reptile. It was a poor flier compared to a pterosaurs like Pteranodon. The Dimorphodon hunts small prey.\n\nScientific name: Dimorphodon macronyx</description>
+    <defName>BMT_Anhanguera</defName>
+    <label>anhanguera</label>
+    <description>Anhanguera.</description>
     <statBases>
-      <BiomesCore_FlySpeed>10</BiomesCore_FlySpeed>
+      <BiomesCore_FlySpeed>15</BiomesCore_FlySpeed>
       <SwimSpeed>5</SwimSpeed>
-      <MarketValue>730</MarketValue>
-      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <MarketValue>950</MarketValue>
+      <ComfyTemperatureMin>-6</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>
     <race>
-	  <leatherDef>BMT_DinoHideThin</leatherDef>
-      <herdAnimal>false</herdAnimal>
+      <leatherDef>BMT_DinoHideThin</leatherDef>
+      <herdAnimal>true</herdAnimal>
       <predator>true</predator>
       <maxPreyBodySize>0.20</maxPreyBodySize>
       <baseBodySize>1</baseBodySize>
-      <baseHealthScale>1.2</baseHealthScale>
-      <baseHungerRate>0.8</baseHungerRate>
+      <baseHealthScale>1</baseHealthScale>
+      <baseHungerRate>0.6</baseHungerRate>
       <foodType>CarnivoreAnimal</foodType>
-      <wildness>0.30</wildness>
+      <wildness>0.45</wildness>
       <trainability>Intermediate</trainability>
-      <lifeExpectancy>30</lifeExpectancy>
+      <lifeExpectancy>45</lifeExpectancy>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-	  <body>Bird</body>
+      <body>Bird</body>
       <gestationPeriodDays>24</gestationPeriodDays>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
@@ -102,34 +102,34 @@
           <li>(0.1,350)</li>
           <li>(0.9,150)</li>
           <li>(1.5,5)</li>
-		  <li>(20,4)</li>
+          <li>(20,4)</li>
           <li>(65,0)</li>
         </points>
       </ageGenerationCurve>
       <lifeStageAges>
         <li>
-          <def>BMT_DimorphodonBabyTiny</def>
+          <def>BMT_AnhangueraBabyTiny</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>BMT_DimorphodonJuvenile</def>
-          <minAge>0.5</minAge>
+          <def>BMT_AnhangueraJuvenile</def>
+          <minAge>0.3</minAge>
         </li>
         <li>
-          <def>BMT_DimorphodonAdult</def>
-          <minAge>1</minAge>
-          <soundWounded>Pawn_TinyDino_Angry</soundWounded>
-          <soundDeath>Pawn_TinyDino_Death</soundDeath>
-          <soundCall>Pawn_TinyDino_Call</soundCall>
-          <soundAngry>Pawn_TinyDino_Angry</soundAngry>
+          <def>BMT_AnhangueraAdult</def>
+          <minAge>0.8</minAge>
+			<soundWounded>BMT_Pteranodon_Wounded</soundWounded>
+			<soundDeath>BMT_Pteranodon_Death</soundDeath>
+			<soundCall>BMT_Pteranodon_Call</soundCall>
+			<soundAngry>BMT_Pteranodon_Angry</soundAngry>
         </li>
-      </lifeStageAges>			
+      </lifeStageAges>		
     </race>
     <uiIconScale>1.5</uiIconScale>
 	
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>BMT_DimorphodonEggFertilized</eggFertilizedDef>
+        <eggFertilizedDef>BMT_AnhangueraEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>3</eggFertilizationCountMax>
         <eggLayIntervalDays>15</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -142,8 +142,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>1</power>
-        <cooldownTime>0.8</cooldownTime>
+        <power>1.5</power>
+        <cooldownTime>0.5</cooldownTime>
         <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -159,8 +159,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1</cooldownTime>
+        <power>2</power>
+        <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -176,8 +176,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.4</cooldownTime>
+        <power>1</power>
+        <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -189,12 +189,12 @@
   </ThingDef>
   
   <ThingDef ParentName="EggFertBase">
-    <defName>BMT_DimorphodonEggFertilized</defName>
-    <label>Dimorphodon egg (fert.)</label>
-    <description>A fertilized Dimorphodon egg. If all goes well, it should hatch into a baby dimorphodon. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_AnhangueraEggFertilized</defName>
+    <label>Anhanguera egg (fert.)</label>
+    <description>A fertilized anhanguera egg. If all goes well, it should hatch into a baby anhanguera. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(195,123,197)</color>
-      <drawSize>0.6</drawSize>
+      <drawSize>0.7</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>55</MarketValue>
@@ -202,48 +202,48 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Dimorphodon</hatcherPawn>
+        <hatcherPawn>BMT_Anhanguera</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
   
    <PawnKindDef ParentName="BigBirdKindBase">
-    <defName>BMT_Dimorphodon</defName>
-    <label>dimorphodon</label>
-    <race>BMT_Dimorphodon</race>
-	<combatPower>60</combatPower>
-	<ecoSystemWeight>0.35</ecoSystemWeight>
-	<wildGroupSize>2~4</wildGroupSize>
+    <defName>BMT_Anhanguera</defName>
+    <label>anhanguera</label>
+    <race>BMT_Anhanguera</race>
+	<combatPower>40</combatPower>
+	<ecoSystemWeight>0.15</ecoSystemWeight>
+	<wildGroupSize>1~5</wildGroupSize>
 	<lifeStages>
       <li>
-	  <label>dimorphodon hatchling</label>
+	  <label>anhanguera hatchling</label>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
+          <drawSize>0.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+		  <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+		  <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonDessicated</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-		  <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonDessicated</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
           <drawSize>1.5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
-          <drawSize>2</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonDessicated</texPath>
-          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

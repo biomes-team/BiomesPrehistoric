@@ -5,26 +5,26 @@
 <Defs>   
 
     <LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_IcthyosaurusBabyTiny</defName>
+        <defName>BMT_ElasmosaurusBabyTiny</defName>
         <bodySizeFactor>0.1</bodySizeFactor>
         <foodMaxFactor>4</foodMaxFactor>
         <statFactors>
-            <MoveSpeed>0.6</MoveSpeed>
-            <SwimSpeed>0.6</SwimSpeed>
+            <MoveSpeed>0.8</MoveSpeed>
+            <SwimSpeed>0.8</SwimSpeed>
         </statFactors>
         <modExtensions>
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
-                <drawSize>1.0</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Elasmosaurus</texPath>
+                <drawSize>3.0</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_IcthyosaurusJuvenile</defName>
+        <defName>BMT_ElasmosaurusJuvenile</defName>
         <label>juvenile</label>
         <voxPitch>1.2</voxPitch>
         <bodySizeFactor>0.5</bodySizeFactor>
@@ -34,22 +34,22 @@
         <marketValueFactor>0.75</marketValueFactor>
         <meleeDamageFactor>0.75</meleeDamageFactor>
         <statFactors>
-            <MoveSpeed>0.9</MoveSpeed>
-            <SwimSpeed>0.9</SwimSpeed>
+            <MoveSpeed>1.6</MoveSpeed>
+            <SwimSpeed>1.6</SwimSpeed>
         </statFactors>
         <modExtensions>
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
-                <drawSize>2.0</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Elasmosaurus</texPath>
+                <drawSize>5.0</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_IcthyosaurusAdult</defName>
+        <defName>BMT_ElasmosaurusAdult</defName>
         <label>adult</label>
         <visible>false</visible>
         <reproductive>true</reproductive>
@@ -57,23 +57,23 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
-                <drawSize>3.8</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Elasmosaurus</texPath>
+                <drawSize>7.8</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
-        <defName>BMT_Icthyosaurus</defName>
-        <label>icthyosaurus</label>
-        <description>The Icthyosaurus may look superficially like a prehistoric dolphin,‭ but ‬Icthyosaurus wasn't even closely related, in fact‭ ‬Ichthyosaurus wasn't even a mammal like a dolphin is,‭ ‬it was‭ ‬a reptile.‭\n\nScientific name: Ichthyosaurus communis</description>
+        <defName>BMT_Elasmosaurus</defName>
+        <label>elasmosaurus</label>
+        <description>Very fast swiming carnivorous hunter which used its long neck to get close to prey without them noticing. A swift flick of the neck could catch them unawares. Its small head limited the size of what it could eat. Scientific name: Elasmosaurus platyurus</description>
         <statBases>
-            <MoveSpeed>0</MoveSpeed>
-            <SwimSpeed>7</SwimSpeed>
+            <MoveSpeed>3</MoveSpeed>
+            <SwimSpeed>9.5</SwimSpeed>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-            <ComfyTemperatureMax>46</ComfyTemperatureMax>
-            <MarketValue>970</MarketValue>
+            <ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <MarketValue>3400</MarketValue>
         </statBases>
         <tools>
             <li>
@@ -81,7 +81,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>15</power>
+                <power>20</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>
@@ -89,7 +89,7 @@
                     <extraMeleeDamages>
                         <li>
                             <def>Stun</def>
-                            <amount>10</amount>
+                            <amount>30</amount>
                         </li>
                     </extraMeleeDamages>
                 </surpriseAttack>
@@ -99,7 +99,7 @@
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
-				<power>25</power>
+				<power>35</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -107,82 +107,81 @@
 			</li>
         </tools>
         <race>
-		    <meatLabel>icthyosaur meat</meatLabel>
             <predator>true</predator>
-            <body>Biomes_SharkBody</body>
+            <body>Biomes_WhaleBody</body>
 			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
             <baseHungerRate>2.7</baseHungerRate>
-            <baseBodySize>3</baseBodySize>
-            <baseHealthScale>1</baseHealthScale>
+            <baseBodySize>5.5</baseBodySize>
+            <baseHealthScale>4.5</baseHealthScale>
             <foodType>CarnivoreAnimal</foodType>
-			<maxPreyBodySize>3</maxPreyBodySize>
+			<maxPreyBodySize>2</maxPreyBodySize>
             <gestationPeriodDays>30</gestationPeriodDays>
             <packAnimal>false</packAnimal>
-            <wildness>0.25</wildness>
-            <petness>0.70</petness>
-            <lifeExpectancy>50</lifeExpectancy>
+            <wildness>0.95</wildness>
+            <petness>0.05</petness>
+            <lifeExpectancy>80</lifeExpectancy>
             <trainability>Intermediate</trainability>
-            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.85</manhunterOnDamageChance>
+			<useMeatFrom>BiomesIslands_Whale</useMeatFrom>
             <lifeStageAges>
                 <li>
-                    <def>BMT_IcthyosaurusBabyTiny</def>
+                    <def>BMT_ElasmosaurusBabyTiny</def>
                     <minAge>0</minAge>
                 </li>
                 <li>
-                    <def>BMT_IcthyosaurusJuvenile</def>
-                    <minAge>1.8</minAge>
+                    <def>BMT_ElasmosaurusJuvenile</def>
+                    <minAge>1.5</minAge>
                 </li>
                 <li>
-                    <def>BMT_IcthyosaurusAdult</def>
+                    <def>BMT_ElasmosaurusAdult</def>
                     <minAge>2.5</minAge>
                 </li>
             </lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">
-        <defName>BMT_Icthyosaurus</defName>
-        <label>icthyosaurus</label>
-        <race>BMT_Icthyosaurus</race>
-        <combatPower>80</combatPower>
-		<ecoSystemWeight>1.0</ecoSystemWeight>
-		<wildGroupSize>1~3</wildGroupSize>
+        <defName>BMT_Elasmosaurus</defName>
+        <label>elasmosaurus</label>
+        <race>BMT_Elasmosaurus</race>
+        <combatPower>250</combatPower>
+		<ecoSystemWeight>3.0</ecoSystemWeight>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
-                    <drawSize>1.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Elasmosaurus</texPath>
+                    <drawSize>3.0</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
-                    <drawSize>1.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+                    <drawSize>3.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
-                    <drawSize>2.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Elasmosaurus</texPath>
+                    <drawSize>5.0</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
-                    <drawSize>2.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+                    <drawSize>5.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
-                    <drawSize>3.8</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Elasmosaurus</texPath>
+                    <drawSize>7.8</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
-                    <drawSize>3.8</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+                    <drawSize>7.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

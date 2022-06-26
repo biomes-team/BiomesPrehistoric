@@ -3,9 +3,10 @@
 
 
 <Defs>
-
+   
+   
     <LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_AmmoniteBabyTiny</defName>
+        <defName>BMT_CoelacanthBabyTiny</defName>
         <bodySizeFactor>0.1</bodySizeFactor>
         <foodMaxFactor>4</foodMaxFactor>
         <statFactors>
@@ -16,7 +17,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
                 <drawSize>0.5</drawSize>
             </bodyGraphicData>
         </li>
@@ -24,7 +25,7 @@
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_AmmoniteJuvenile</defName>
+        <defName>BMT_CoelacanthJuvenile</defName>
         <label>juvenile</label>
         <voxPitch>1.2</voxPitch>
         <bodySizeFactor>0.5</bodySizeFactor>
@@ -41,15 +42,15 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
-                <drawSize>1</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+                <drawSize>1.2</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_AmmoniteAdult</defName>
+        <defName>BMT_CoelacanthAdult</defName>
         <label>adult</label>
         <visible>false</visible>
         <reproductive>true</reproductive>
@@ -59,7 +60,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
                 <drawSize>1.6</drawSize>
             </bodyGraphicData>
         </li>
@@ -67,42 +68,42 @@
     </LifeStageDef>
 
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
-        <defName>BMT_Ammonite</defName>
-        <label>ammonite</label>
-        <description>An ammonite.</description>
+        <defName>BMT_Coelacanth</defName>
+        <label>coelacanth</label>
+        <description>A large omnivore fish, found in warm waters.</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
-            <SwimSpeed>4</SwimSpeed>
-            <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+            <SwimSpeed>5</SwimSpeed>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>55</ComfyTemperatureMax>
-            <MarketValue>320</MarketValue>
+            <MarketValue>120</MarketValue>
         </statBases>
         <tools>
             <li>
-                <label>tentacles</label>
+                <label>teeth</label>
                 <capacities>
-                    <li>Blunt</li>
+                    <li>Bite</li>
                 </capacities>
-                <power>3</power>
+                <power>15</power>
                 <surpriseAttack>
                     <extraMeleeDamages>
                         <li>
                         <def>Stun</def>
-                        <amount>1</amount>
+                        <amount>10</amount>
                         </li>
                     </extraMeleeDamages>
                 </surpriseAttack>
                 <cooldownTime>2.2</cooldownTime>
-                <linkedBodyPartsGroup>BMT_AmmoniteTentacleGroup</linkedBodyPartsGroup>
-				<chanceFactor>0.8</chanceFactor>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.1</chanceFactor>
             </li>
 			<li>
 				<label>head</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
-				<power>4</power>
-				<cooldownTime>2.2</cooldownTime>
+				<power>20</power>
+				<cooldownTime>2.6</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.1</chanceFactor>
@@ -110,7 +111,7 @@
         </tools>
 		<comps>
 		  <li Class="CompProperties_EggLayer">
-			<eggFertilizedDef>BMT_EggAmmoniteFertilized</eggFertilizedDef>
+			<eggFertilizedDef>BMT_EggCoelacanthFertilized</eggFertilizedDef>
 			<eggFertilizationCountMax>1</eggFertilizationCountMax>
 			<eggLayIntervalDays>15</eggLayIntervalDays>
 			<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -118,37 +119,37 @@
 		  </li>
 		</comps>
         <race>
-            <herdAnimal>true</herdAnimal>
-            <body>BMT_AmmoniteBody</body>
-			<!-- <leatherDef>BiomesIslands_Leather_Fishskin</leatherDef> -->
-            <baseHungerRate>0.60</baseHungerRate>
-            <baseBodySize>1.6</baseBodySize>
-            <baseHealthScale>1.2</baseHealthScale>
-            <foodType>VegetarianRoughAnimal</foodType>
+            <body>Biomes_FishBody</body>
+			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
+            <baseHungerRate>0.50</baseHungerRate>
+            <baseBodySize>1</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <foodType>OmnivoreRoughAnimal</foodType>
             <packAnimal>false</packAnimal>
-            <wildness>0.70</wildness>
-            <petness>0.5</petness> 
-            <lifeExpectancy>15</lifeExpectancy>
+            <wildness>0.75</wildness>
+            <nuzzleMtbHours>60</nuzzleMtbHours>
+            <petness>0.1</petness>
+            <lifeExpectancy>25</lifeExpectancy>
             <trainability>None</trainability>
-            <manhunterOnDamageChance>0.01</manhunterOnDamageChance>
-            <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-			<!-- <useMeatFrom>BiomesIslands_WhiteShark</useMeatFrom> -->
+            <manhunterOnDamageChance>0.30</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<useMeatFrom>BiomesIslands_WhiteShark</useMeatFrom>
             <lifeStageAges>
                 <li>
-                    <def>BMT_AmmoniteBabyTiny</def>
+                    <def>BMT_CoelacanthBabyTiny</def>
                     <minAge>0</minAge>
                 </li>
                 <li>
-                    <def>BMT_AmmoniteJuvenile</def>
-                    <minAge>0.25</minAge>
+                    <def>BMT_CoelacanthJuvenile</def>
+                    <minAge>0.30</minAge>
                 </li>
                 <li>
-                    <def>BMT_AmmoniteAdult</def>
-                    <minAge>0.45</minAge>
-					  <soundWounded>BMT_Ammonite_Wounded</soundWounded>
-					  <soundDeath>BMT_Ammonite_Death</soundDeath>
-					  <soundCall>BMT_Ammonite_Call</soundCall>
-					  <soundAngry>BMT_Ammonite_Angry</soundAngry>
+                    <def>BMT_CoelacanthAdult</def>
+                    <minAge>0.55</minAge>
+				  <soundWounded>BMT_Coelacanth_Wounded</soundWounded>
+				  <soundDeath>BMT_Coelacanth_Death</soundDeath>
+				  <soundCall>BMT_Coelacanth_Call</soundCall>
+				  <soundAngry>BMT_Coelacanth_Angry</soundAngry>
                 </li>
             </lifeStageAges>
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -158,69 +159,64 @@
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">
-        <defName>BMT_Ammonite</defName>
-        <label>ammonite</label>
-        <race>BMT_Ammonite</race>
-        <combatPower>60</combatPower>
-		<wildGroupSize>3~6</wildGroupSize>
+        <defName>BMT_Coelacanth</defName>
+        <label>coelacanth</label>
+        <race>BMT_Coelacanth</race>
+        <combatPower>90</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
                     <drawSize>0.5</drawSize>
-					<color>(180,170,160)</color>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Ammonite/Dessicated_Ammonite</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
                     <drawSize>0.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
-                    <drawSize>1</drawSize>
-					<color>(180,170,160)</color>
+                    <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+                    <drawSize>1.2</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Ammonite/Dessicated_Ammonite</texPath>
-                    <drawSize>1</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
+                    <drawSize>1.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
                     <drawSize>1.6</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Ammonite/Dessicated_Ammonite</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
                     <drawSize>1.6</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
     </PawnKindDef>
 	
-
-
-
-   <ThingDef ParentName="EggFertBase">
-	<defName>BMT_EggAmmoniteFertilized</defName>
-	<label>Ammonite egg (fert.)</label>
-	<description>A fertilized ammonite egg. If all goes well, it should hatch into a baby ammonite. It can be eaten raw, but it's much better cooked.</description>
-	<graphicData>
-		<color>(210, 135, 226)</color>
-		<drawSize>1</drawSize>
-	</graphicData>
-	<statBases>
-		<MarketValue>26.0</MarketValue>
-        <DeteriorationRate>0</DeteriorationRate>
-	</statBases>
-	<comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Ammonite</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
-
+	
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_EggCoelacanthFertilized</defName>
+		<label>coelacanth egg (fert.)</label>
+		<description>A fertilized coelacanth egg. If all goes well, it should hatch into a baby coelacanth. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>28.0</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<comps>
+		  <li Class="CompProperties_Hatcher">
+			<hatcherDaystoHatch>8</hatcherDaystoHatch>
+			<hatcherPawn>BMT_Coelacanth</hatcherPawn>
+		  </li>
+		</comps>
+	  </ThingDef>
+  
+  
 </Defs>

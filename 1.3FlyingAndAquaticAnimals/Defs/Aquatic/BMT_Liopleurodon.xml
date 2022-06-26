@@ -5,26 +5,26 @@
 <Defs>   
 
     <LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_ElasmosaurusBabyTiny</defName>
+        <defName>BMT_LiopleurodonBabyTiny</defName>
         <bodySizeFactor>0.1</bodySizeFactor>
         <foodMaxFactor>4</foodMaxFactor>
         <statFactors>
-            <MoveSpeed>0.8</MoveSpeed>
-            <SwimSpeed>0.8</SwimSpeed>
+            <MoveSpeed>0.6</MoveSpeed>
+            <SwimSpeed>0.6</SwimSpeed>
         </statFactors>
         <modExtensions>
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Elasmosaurus</texPath>
-                <drawSize>3.0</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+                <drawSize>2.0</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_ElasmosaurusJuvenile</defName>
+        <defName>BMT_LiopleurodonJuvenile</defName>
         <label>juvenile</label>
         <voxPitch>1.2</voxPitch>
         <bodySizeFactor>0.5</bodySizeFactor>
@@ -34,22 +34,22 @@
         <marketValueFactor>0.75</marketValueFactor>
         <meleeDamageFactor>0.75</meleeDamageFactor>
         <statFactors>
-            <MoveSpeed>1.6</MoveSpeed>
-            <SwimSpeed>1.6</SwimSpeed>
+            <MoveSpeed>0.9</MoveSpeed>
+            <SwimSpeed>0.9</SwimSpeed>
         </statFactors>
         <modExtensions>
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Elasmosaurus</texPath>
-                <drawSize>5.0</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+                <drawSize>4.0</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_ElasmosaurusAdult</defName>
+        <defName>BMT_LiopleurodonAdult</defName>
         <label>adult</label>
         <visible>false</visible>
         <reproductive>true</reproductive>
@@ -57,7 +57,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Elasmosaurus</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
                 <drawSize>7.8</drawSize>
             </bodyGraphicData>
         </li>
@@ -65,15 +65,15 @@
     </LifeStageDef>
 
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
-        <defName>BMT_Elasmosaurus</defName>
-        <label>elasmosaurus</label>
-        <description>Very fast swiming carnivorous hunter which used its long neck to get close to prey without them noticing. A swift flick of the neck could catch them unawares. Its small head limited the size of what it could eat. Scientific name: Elasmosaurus platyurus</description>
+        <defName>BMT_Liopleurodon</defName>
+        <label>liopleurodon</label>
+        <description>The Liopleurodon is one of the most powerful carnivores of all time, Liopleurodon has massive jaws and a stronger bite than Tyrannosaurus. Scientific name: L. ferox</description>
         <statBases>
-            <MoveSpeed>3</MoveSpeed>
-            <SwimSpeed>9.5</SwimSpeed>
+            <MoveSpeed>0</MoveSpeed>
+            <SwimSpeed>7</SwimSpeed>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-            <ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <MarketValue>3400</MarketValue>
+            <ComfyTemperatureMax>46</ComfyTemperatureMax>
+            <MarketValue>2800</MarketValue>
         </statBases>
         <tools>
             <li>
@@ -81,7 +81,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>20</power>
+                <power>35</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>
@@ -99,7 +99,7 @@
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
-				<power>35</power>
+				<power>25</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -111,31 +111,35 @@
             <body>Biomes_WhaleBody</body>
 			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
             <baseHungerRate>2.7</baseHungerRate>
-            <baseBodySize>5.5</baseBodySize>
-            <baseHealthScale>4.5</baseHealthScale>
+            <baseBodySize>4</baseBodySize>
+            <baseHealthScale>5</baseHealthScale>
             <foodType>CarnivoreAnimal</foodType>
-			<maxPreyBodySize>2</maxPreyBodySize>
+			<maxPreyBodySize>3</maxPreyBodySize>
             <gestationPeriodDays>30</gestationPeriodDays>
             <packAnimal>false</packAnimal>
             <wildness>0.95</wildness>
             <petness>0.05</petness>
-            <lifeExpectancy>80</lifeExpectancy>
+            <lifeExpectancy>65</lifeExpectancy>
             <trainability>Intermediate</trainability>
-            <manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
+            <manhunterOnTameFailChance>0.75</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<useMeatFrom>BiomesIslands_Whale</useMeatFrom>
             <lifeStageAges>
                 <li>
-                    <def>BMT_ElasmosaurusBabyTiny</def>
+                    <def>BMT_LiopleurodonBabyTiny</def>
                     <minAge>0</minAge>
                 </li>
                 <li>
-                    <def>BMT_ElasmosaurusJuvenile</def>
-                    <minAge>1.5</minAge>
+                    <def>BMT_LiopleurodonJuvenile</def>
+                    <minAge>1.8</minAge>
                 </li>
                 <li>
-                    <def>BMT_ElasmosaurusAdult</def>
-                    <minAge>2.5</minAge>
+                    <def>BMT_LiopleurodonAdult</def>
+                    <minAge>3.5</minAge>
+                    <soundWounded>BMT_Gallimimus_Wounded</soundWounded>
+                    <soundDeath>BMT_Gallimimus_Death</soundDeath>
+                    <soundCall>BMT_Gallimimus_Call</soundCall>
+                    <soundAngry>BMT_Gallimimus_Angry</soundAngry>
                 </li>
             </lifeStageAges>
             <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -145,42 +149,42 @@
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">
-        <defName>BMT_Elasmosaurus</defName>
-        <label>elasmosaurus</label>
-        <race>BMT_Elasmosaurus</race>
-        <combatPower>250</combatPower>
+        <defName>BMT_Liopleurodon</defName>
+        <label>liopleurodon</label>
+        <race>BMT_Liopleurodon</race>
+        <combatPower>270</combatPower>
 		<ecoSystemWeight>3.0</ecoSystemWeight>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Elasmosaurus</texPath>
-                    <drawSize>3.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+                    <drawSize>2.0</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
-                    <drawSize>3.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+                    <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Elasmosaurus</texPath>
-                    <drawSize>5.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+                    <drawSize>4.0</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
-                    <drawSize>5.0</drawSize>
+                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+                    <drawSize>4.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Elasmosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
                     <drawSize>7.8</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
                     <drawSize>7.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>

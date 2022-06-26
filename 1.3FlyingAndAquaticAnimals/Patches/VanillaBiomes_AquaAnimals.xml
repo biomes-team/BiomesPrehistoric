@@ -11,6 +11,7 @@ BMT_Icthyosaurus - Cool to warm islands and shores.
 BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores
 BMT_Mosasaurus - Cold (but not freezing) to tropical islands. 
 BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
+BMT_Anhanguera - All warmer to cold, but not frozen coasts and islands.
 -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
@@ -22,6 +23,8 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		    <BMT_Liopleurodon>0.3</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
+			<BMT_Trilobite>0.5</BMT_Trilobite>
+			<BMT_Anhanguera>0.5</BMT_Anhanguera>
 		</value>
 	</Operation>
 
@@ -35,6 +38,8 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		    <BMT_Liopleurodon>0.2</BMT_Liopleurodon>
 			<BMT_Pteranodon>0.5</BMT_Pteranodon>
 			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
+			<BMT_Trilobite>0.5</BMT_Trilobite>
+			<BMT_Anhanguera>0.5</BMT_Anhanguera>
 		</value>
 	</Operation>
 
@@ -49,6 +54,8 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		    <BMT_Liopleurodon>0.3</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
+			<BMT_Trilobite>0.5</BMT_Trilobite>
+			<BMT_Anhanguera>0.8</BMT_Anhanguera>
 		</value>
 	</Operation>
 
@@ -62,6 +69,8 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		    <BMT_Liopleurodon>0.3</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
+			<BMT_Trilobite>0.5</BMT_Trilobite>
+			<BMT_Anhanguera>0.8</BMT_Anhanguera>
 		</value>
 	</Operation>
 	
@@ -75,6 +84,8 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		    <BMT_Liopleurodon>0.4</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 			<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
+			<BMT_Trilobite>0.5</BMT_Trilobite>
+			<BMT_Anhanguera>0.2</BMT_Anhanguera>
 		</value>
 	</Operation>
 	
@@ -88,6 +99,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 		    <BMT_Liopleurodon>0.4</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.5</BMT_Pteranodon>
 			<BMT_Diplocaulus>0.2</BMT_Diplocaulus>
+			<BMT_Trilobite>0.5</BMT_Trilobite>
 		</value>
 	</Operation>
 	
@@ -98,6 +110,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 			<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
 		    <BMT_Liopleurodon>0.4</BMT_Liopleurodon>
 		    <BMT_Pteranodon>0.3</BMT_Pteranodon>
+		    <BMT_Trilobite>0.5</BMT_Trilobite>
 		</value>
 	</Operation>
 	
