@@ -10,88 +10,95 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
 					<value>
-						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
-						<BMT_Coelacanth>0.5</BMT_Coelacanth>
-						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
-						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
-						<BMT_Pteranodon>0.05</BMT_Pteranodon>
-						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
-						<BMT_Trilobite>0.5</BMT_Trilobite>
 						<BMT_Anhanguera>0.5</BMT_Anhanguera>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildAnimals</xpath>
 					<value>
-						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
-						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
-						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Anhanguera>0.2</BMT_Anhanguera>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
-						<BMT_Anhanguera>0.2</BMT_Anhanguera>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_DesertIslandBase"]/wildAnimals</xpath>
 					<value>
-						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
-						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
-						<BMT_Coelacanth>0.5</BMT_Coelacanth>
-						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
-						<BMT_Pteranodon>0.05</BMT_Pteranodon>
-						<BMT_Trilobite>0.5</BMT_Trilobite>
 						<BMT_Anhanguera>0.2</BMT_Anhanguera>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Quetzal>0.5</BMT_Quetzal>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TemperateIslandBase"]/wildAnimals</xpath>
 					<value>
-						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
-						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
-						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
-						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
-						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Anhanguera>0.5</BMT_Anhanguera>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
-						<BMT_Anhanguera>0.5</BMT_Anhanguera>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIslandBase"]/wildAnimals</xpath>
 					<value>
-						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
-						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
-						<BMT_Pteranodon>0.05</BMT_Pteranodon>
-						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
-						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
-						<BMT_Coelacanth>0.5</BMT_Coelacanth>
-						<BMT_Trilobite>0.5</BMT_Trilobite>
 						<BMT_Anhanguera>0.8</BMT_Anhanguera>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TundraIslandBase"]/wildAnimals</xpath>
 					<value>
-						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
-						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
-						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
-						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>

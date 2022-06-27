@@ -13,6 +13,7 @@ BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warm
 BMT_Compsognathus - Forested biomes.
 BMT_Dilophosaurus - Desert biome if it has a river.
 BMT_Dimetrodon - Warmer biomes.
+BMT_Diplocaulus - Warm to cool biomes with rivers.
 BMT_Dryosaurus - Warmer forested biomes, and arid shrubland maybe.
 BMT_Gallimimus - Temperate areas.
 BMT_Homalocephale - Cooler forests, especially common in higher elevations/mountains.
@@ -53,6 +54,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.5</BMT_Compsognathus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Dryosaurus>0.1</BMT_Dryosaurus>
 		<BMT_Gallimimus>0.3</BMT_Gallimimus>
 		<BMT_Homalocephale>0.1</BMT_Homalocephale>
@@ -86,6 +88,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
 		<BMT_Gallimimus>0.6</BMT_Gallimimus>
 		<BMT_Hypsilophodon>0.5</BMT_Hypsilophodon>
@@ -118,6 +121,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.5</BMT_Compsognathus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Dryosaurus>0.5</BMT_Dryosaurus>
 		<BMT_Gallimimus>0.03</BMT_Gallimimus>
 		<BMT_Iguanodon>0.4</BMT_Iguanodon>
@@ -149,6 +153,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
 		<BMT_Iguanodon>0.5</BMT_Iguanodon>
 		<BMT_Kaprosuchus>0.5</BMT_Kaprosuchus>
@@ -207,6 +212,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.5</BMT_Compsognathus>
+		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Homalocephale>0.5</BMT_Homalocephale>
 		<BMT_Hypsilophodon>0.5</BMT_Hypsilophodon>
 		<BMT_Iguanodon>0.2</BMT_Iguanodon>
@@ -226,6 +232,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 	<value>
 		<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+		<BMT_Diplocaulus>0.2</BMT_Diplocaulus>
 		<BMT_Homalocephale>0.15</BMT_Homalocephale>
 		<BMT_Hypsilophodon>0.5</BMT_Hypsilophodon>
 		<BMT_Iguanodon>0.3</BMT_Iguanodon>
