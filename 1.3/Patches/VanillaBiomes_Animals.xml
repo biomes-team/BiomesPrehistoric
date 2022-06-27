@@ -33,6 +33,7 @@ BMT_Styracosaurus - From shrubland to boreal forests.
 BMT_Titanoboa - Tropical jungles.
 BMT_Velociraptor - Desert and arid shrubland.
 BMT_TRex - From forests to arid shrubland.
+BMT_Hypsilophodon - Forested biomes.
 -->
 
 	<Operation Class="PatchOperationAdd">
@@ -62,6 +63,7 @@ BMT_TRex - From forests to arid shrubland.
 			<BMT_Homalocephale>0.1</BMT_Homalocephale>
 			<BMT_Parasaur>0.4</BMT_Parasaur>
 			<BMT_Iguanodon>0.3</BMT_Iguanodon>
+			<BMT_Hypsilophodon>0.5</BMT_Hypsilophodon>
 		</value>
 	</Operation>
 	
@@ -88,6 +90,7 @@ BMT_TRex - From forests to arid shrubland.
 			<BMT_Baryonyx>0.07</BMT_Baryonyx>
 			<BMT_Stygimoloch>0.2</BMT_Stygimoloch>
 			<BMT_Iguanodon>0.5</BMT_Iguanodon>
+			<BMT_Hypsilophodon>0.5</BMT_Hypsilophodon>
 		</value>
 	</Operation>
 
@@ -191,6 +194,7 @@ BMT_TRex - From forests to arid shrubland.
 			<BMT_Homalocephale>0.5</BMT_Homalocephale>
 			<BMT_Parasaur>0.3</BMT_Parasaur>
 			<BMT_Iguanodon>0.2</BMT_Iguanodon>
+			<BMT_Hypsilophodon>0.5</BMT_Hypsilophodon>
 		</value>
 	</Operation>
 	
@@ -201,6 +205,7 @@ BMT_TRex - From forests to arid shrubland.
 			<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
 			<BMT_Homalocephale>0.15</BMT_Homalocephale>
 			<BMT_Iguanodon>0.3</BMT_Iguanodon>
+			<BMT_Hypsilophodon>0.5</BMT_Hypsilophodon>
 		</value>
 	</Operation>
 	
