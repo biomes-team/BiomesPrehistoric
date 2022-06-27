@@ -31,6 +31,7 @@ BMT_Parasaur - From arid shrubland to boreal forests.
 BMT_Polacanthus - Plains and forests.
 BMT_Protoceratops - Warmer lush biomes.
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles.
+BMT_Stegoceras - Forested and swampy biomes.
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle.
 BMT_Stygimoloch - Warmer to temperate forested biomes.
 BMT_Styracosaurus - From shrubland to boreal forests.
@@ -63,6 +64,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Parasaur>0.4</BMT_Parasaur>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
+		<BMT_Stegoceras>0.4</BMT_Stegoceras>
 		<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 		<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -93,6 +95,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Spinosaurus>0.04</BMT_Spinosaurus>
+		<BMT_Stegoceras>0.6</BMT_Stegoceras>
 		<BMT_Stygimoloch>0.2</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_TRex>0.1</BMT_TRex>
@@ -123,6 +126,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Parasaur>0.2</BMT_Parasaur>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
+		<BMT_Stegoceras>0.2</BMT_Stegoceras>
 		<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Titanoboa>0.1</BMT_Titanoboa>
@@ -151,6 +155,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Spinosaurus>0.07</BMT_Spinosaurus>
+		<BMT_Stegoceras>0.4</BMT_Stegoceras>
 		<BMT_Stygimoloch>0.3</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_TRex>0.15</BMT_TRex>
@@ -204,9 +209,9 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Iguanodon>0.2</BMT_Iguanodon>
 		<BMT_Kaprosuchus>0.2</BMT_Kaprosuchus>
 		<BMT_Lystrosaur>0.4</BMT_Lystrosaur>
-		<BMT_Lystrosaur>0.4</BMT_Lystrosaur>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
 		<BMT_Parasaur>0.3</BMT_Parasaur>
+		<BMT_Stegoceras>0.5</BMT_Stegoceras>
 		<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 	</value>
@@ -223,6 +228,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Lystrosaur>0.4</BMT_Lystrosaur>
 		<BMT_Ouranosaurus>0.4</BMT_Ouranosaurus>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
+		<BMT_Stegoceras>0.6</BMT_Stegoceras>
 	</value>
 </Operation>
 

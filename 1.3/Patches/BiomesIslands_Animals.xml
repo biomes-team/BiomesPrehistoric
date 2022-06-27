@@ -29,6 +29,7 @@
 						<BMT_Parasaur>0.2</BMT_Parasaur>
 						<BMT_Protoceratops>0.5</BMT_Protoceratops>
 						<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
+						<BMT_Stegoceras>0.8</BMT_Stegoceras>
 						<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 						<BMT_Titanoboa>0.1</BMT_Titanoboa>
@@ -47,6 +48,7 @@
 						<BMT_Kaprosuchus>0.2</BMT_Kaprosuchus>
 						<BMT_Ouranosaurus>0.4</BMT_Ouranosaurus>
 						<BMT_Parasaur>0.3</BMT_Parasaur>
+						<BMT_Stegoceras>0.3</BMT_Stegoceras>
 						<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 					</value>
@@ -84,6 +86,7 @@
 						<BMT_Parasaur>0.4</BMT_Parasaur>
 						<BMT_Polacanthus>0.5</BMT_Polacanthus>
 						<BMT_Protoceratops>0.5</BMT_Protoceratops>
+						<BMT_Stegoceras>0.6</BMT_Stegoceras>
 						<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 						<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -109,11 +112,11 @@
 						<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 						<BMT_Meganeura>0.5</BMT_Meganeura>
 						<BMT_Ouranosaurus>0.3</BMT_Ouranosaurus>
-						<BMT_Ouranosaurus>0.3</BMT_Ouranosaurus>
 						<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 						<BMT_Parasaur>0.2</BMT_Parasaur>
 						<BMT_Protoceratops>0.5</BMT_Protoceratops>
 						<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
+						<BMT_Stegoceras>0.7</BMT_Stegoceras>
 						<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 						<BMT_Titanoboa>0.1</BMT_Titanoboa>
