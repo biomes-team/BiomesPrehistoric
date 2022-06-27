@@ -51,6 +51,7 @@
 						<BMT_Stegoceras>0.3</BMT_Stegoceras>
 						<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+						<BMT_Timimus>0.6</BMT_Timimus>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -90,6 +91,7 @@
 						<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 						<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+						<BMT_Timimus>0.2</BMT_Timimus>
 						<BMT_TRex>0.1</BMT_TRex>
 						<BMT_Triceratops>0.3</BMT_Triceratops>
 					</value>
@@ -131,6 +133,7 @@
 						<BMT_Homalocephale>0.05</BMT_Homalocephale>
 						<BMT_Ouranosaurus>0.3</BMT_Ouranosaurus>
 						<BMT_Polacanthus>0.5</BMT_Polacanthus>
+						<BMT_Timimus>0.5</BMT_Timimus>
 					</value>
 				</li>
 			</operations>

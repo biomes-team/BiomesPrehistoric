@@ -35,6 +35,7 @@ BMT_Stegoceras - Forested and swampy biomes.
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle.
 BMT_Stygimoloch - Warmer to temperate forested biomes.
 BMT_Styracosaurus - From shrubland to boreal forests.
+BMT_Timimus - Boreal forest and taiga. Predominantly in forest.
 BMT_Titanoboa - Tropical jungles.
 BMT_TRex - From forests to arid shrubland.
 BMT_Velociraptor - Desert and arid shrubland.
@@ -68,6 +69,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
 		<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+		<BMT_Timimus>0.2</BMT_Timimus>
 		<BMT_TRex>0.1</BMT_TRex>
 		<BMT_Triceratops>0.3</BMT_Triceratops>
 	</value>
@@ -98,6 +100,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Stegoceras>0.6</BMT_Stegoceras>
 		<BMT_Stygimoloch>0.2</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+		<BMT_Timimus>0.2</BMT_Timimus>
 		<BMT_TRex>0.1</BMT_TRex>
 		<BMT_Triceratops>0.5</BMT_Triceratops>
 	</value>
@@ -214,6 +217,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Stegoceras>0.5</BMT_Stegoceras>
 		<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+		<BMT_Timimus>0.7</BMT_Timimus>
 	</value>
 </Operation>
 
@@ -229,6 +233,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Ouranosaurus>0.4</BMT_Ouranosaurus>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
 		<BMT_Stegoceras>0.6</BMT_Stegoceras>
+		<BMT_Timimus>0.3</BMT_Timimus>
 	</value>
 </Operation>
 
@@ -240,6 +245,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Lystrosaur>0.2</BMT_Lystrosaur>
 		<BMT_Pachyrhinosaurus>0.8</BMT_Pachyrhinosaurus>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
+		<BMT_Timimus>0.4</BMT_Timimus>
 	</value>
 </Operation>	
 
