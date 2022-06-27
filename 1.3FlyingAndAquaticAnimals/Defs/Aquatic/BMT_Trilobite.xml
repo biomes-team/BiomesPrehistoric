@@ -96,6 +96,7 @@
 			</li>
 		</tools>
 		<race>
+			<leatherDef>BMT_PrimordialChitin</leatherDef>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<useMeatFrom>Megaspider</useMeatFrom>

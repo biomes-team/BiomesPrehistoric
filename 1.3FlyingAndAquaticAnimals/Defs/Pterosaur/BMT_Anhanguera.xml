@@ -69,7 +69,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Anhanguera</defName>
     <label>anhanguera</label>
-    <description>Anhanguera.</description>
+    <description>Anhanguera.\n\nScientific name: Anhanguera blittersdorffi</description>
     <statBases>
       <BiomesCore_FlySpeed>15</BiomesCore_FlySpeed>
       <SwimSpeed>5</SwimSpeed>
