@@ -134,6 +134,12 @@
 		<race>BMT_Triceratops</race>
 		<combatPower>55</combatPower>
 		<wildGroupSize>4~10</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Triceratops/Triceratops_b</texPath>
+            </li>
+        </alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

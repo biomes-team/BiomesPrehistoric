@@ -9,6 +9,7 @@ BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas.
 BMT_Borealopelta - Plains and forests along coasts.
 BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 BMT_Carnotaurus - Plains and along coasts.
+BMT_Centrosaurus - More temperate fields and forests.
 BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warmer.
 BMT_Compsognathus - Forested biomes.
 BMT_Dilophosaurus - Desert biome if it has a river.
@@ -51,6 +52,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Borealopelta>0.5</BMT_Borealopelta>
 		<BMT_Brachiosaurus>0.15</BMT_Brachiosaurus>
+		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.5</BMT_Compsognathus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
@@ -86,6 +88,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Baryonyx>0.07</BMT_Baryonyx>
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
@@ -210,6 +213,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 	<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 	<value>
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.5</BMT_Compsognathus>
 		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>

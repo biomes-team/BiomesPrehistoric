@@ -130,6 +130,12 @@
         <race>BMT_Velociraptor</race>
         <combatPower>75</combatPower>
         <wildGroupSize>2~4</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorA</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
