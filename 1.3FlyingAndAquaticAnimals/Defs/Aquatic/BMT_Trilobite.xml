@@ -138,17 +138,11 @@
 				</eggCountRange>
 			</li>
 		</comps>
-		<!--modExtensions>
+		<modExtensions>
 			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
-				<stayOnTerrainTag>
-					<li>Sand</li>
-					<li>Water</li>
-				</stayOnTerrainTag>
+				<stayOnTerrainTag>Beach</stayOnTerrainTag>
 			</li>
-			<li Class="Swimming.AquaticExtension">
-				<aquatic>true</aquatic>
-			</li>
-		</modExtensions-->
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Trilobite</defName>
