@@ -13,7 +13,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
-                <drawSize>5.5</drawSize>
+                <drawSize>0.5</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
@@ -38,7 +38,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
-                <drawSize>8.0</drawSize>
+                <drawSize>1.0</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
@@ -54,7 +54,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
-                <drawSize>10.5</drawSize>
+                <drawSize>1.5</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
