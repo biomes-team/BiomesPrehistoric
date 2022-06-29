@@ -96,6 +96,7 @@
 			</li>
 		</tools>
 		<race>
+			<body>BeetleLike</body>
 			<leatherDef>BMT_PrimordialChitin</leatherDef>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>

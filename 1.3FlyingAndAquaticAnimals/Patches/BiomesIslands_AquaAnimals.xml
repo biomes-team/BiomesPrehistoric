@@ -12,9 +12,11 @@
 					<value>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
 						<BMT_Anhanguera>0.5</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.3</BMT_Eurypterid>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
@@ -37,6 +39,7 @@
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
 						<BMT_Orthoceras>0.2</BMT_Orthoceras>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
@@ -45,8 +48,10 @@
 					<value>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
 						<BMT_Anhanguera>0.2</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.3</BMT_Eurypterid>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
@@ -61,16 +66,19 @@
 					<value>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
 						<BMT_Anhanguera>0.5</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 						<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.3</BMT_Eurypterid>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
 						<BMT_Orthoceras>0.2</BMT_Orthoceras>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
@@ -79,9 +87,11 @@
 					<value>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
 						<BMT_Anhanguera>0.8</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.3</BMT_Eurypterid>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
@@ -101,6 +111,7 @@
 						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
 						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>

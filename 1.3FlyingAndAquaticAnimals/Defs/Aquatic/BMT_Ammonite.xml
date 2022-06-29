@@ -120,7 +120,7 @@
         <race>
             <herdAnimal>true</herdAnimal>
             <body>BMT_AmmoniteBody</body>
-			<leatherDef>BMT_PrimordialChitin</leatherDef>
+			<leatherDef>BMT_Leather_Gastropoda</leatherDef>
             <baseHungerRate>0.60</baseHungerRate>
             <baseBodySize>1.6</baseBodySize>
             <baseHealthScale>1.2</baseHealthScale>
@@ -155,6 +155,9 @@
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
+        <butcherProducts>
+            <BMT_Molluscashell>20</BMT_Molluscashell>
+        </butcherProducts>
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">
