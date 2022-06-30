@@ -16,7 +16,7 @@
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-						<BMT_Eurypterid>0.3</BMT_Eurypterid>
+						<BMT_Eurypterid>0.05</BMT_Eurypterid>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
@@ -32,6 +32,7 @@
 						<BMT_Anhanguera>0.2</BMT_Anhanguera>
 						<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
@@ -70,6 +71,7 @@
 						<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
 						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
 						<BMT_Eurypterid>0.3</BMT_Eurypterid>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
@@ -105,6 +107,7 @@
 					<value>
 						<BMT_Ammonite>0.5</BMT_Ammonite>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
 						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
