@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<allowVanillaAnimals>Allow base game animals (affects only wild spawns)</allowVanillaAnimals>
+	<BMT_DisableAnimal>Disable {0}</BMT_DisableAnimal>
+</LanguageData>
