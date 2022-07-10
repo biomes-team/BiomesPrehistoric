@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32616.157
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiomesPrehistoric", "BiomesPrehistoric\BiomesPrehistoric.csproj", "{52A7199F-290C-4323-8FBB-FF616B860662}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiomesPrehistoric", "BiomesPrehistoric.csproj", "{73F7FD02-2CAE-4350-96E7-6005ADC3BE77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52A7199F-290C-4323-8FBB-FF616B860662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52A7199F-290C-4323-8FBB-FF616B860662}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52A7199F-290C-4323-8FBB-FF616B860662}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52A7199F-290C-4323-8FBB-FF616B860662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F7FD02-2CAE-4350-96E7-6005ADC3BE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F7FD02-2CAE-4350-96E7-6005ADC3BE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F7FD02-2CAE-4350-96E7-6005ADC3BE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F7FD02-2CAE-4350-96E7-6005ADC3BE77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BB47392D-A480-4F56-924F-0B407665338E}
+		SolutionGuid = {EB77F119-CA2C-4F74-812A-86934023EF52}
 	EndGlobalSection
 EndGlobal

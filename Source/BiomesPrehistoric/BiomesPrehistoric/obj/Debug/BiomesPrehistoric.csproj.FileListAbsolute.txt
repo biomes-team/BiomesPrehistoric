@@ -1,8 +1,0 @@
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\obj\Debug\BiomesPrehistoric.csproj.AssemblyReference.cache
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\obj\Debug\BiomesPrehistoric.csproj.CoreCompileInputs.cache
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\bin\Debug\BiomesPrehistoric.dll
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\bin\Debug\BiomesPrehistoric.pdb
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\bin\Debug\UnityEngine.CoreModule.dll
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\obj\Debug\BiomesPrehistoric.csproj.CopyComplete
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\obj\Debug\BiomesPrehistoric.dll
-D:\Steam\steamapps\common\RimWorld\Mods\BiomesPrehistoric\Source\BiomesPrehistoric\BiomesPrehistoric\obj\Debug\BiomesPrehistoric.pdb
