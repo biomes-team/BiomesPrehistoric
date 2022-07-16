@@ -67,7 +67,7 @@
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
         <defName>BMT_Icthyosaurus</defName>
         <label>icthyosaurus</label>
-        <description>The Icthyosaurus may look superficially like a prehistoric dolphin,‭ but ‬Icthyosaurus wasn't even closely related, in fact‭ ‬Ichthyosaurus wasn't even a mammal like a dolphin is,‭ ‬it was‭ ‬a reptile.‭\n\nScientific name: Ichthyosaurus communis</description>
+        <description>The Ichthyosaurus may look superficially like a prehistoric dolphin,‭ but ‬Ichthyosaurus was actually an aquatic reptile.‭ Its hands and feed had over time modified into flippers.\n\nScientific name: Ichthyosaurus communis</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
             <SwimSpeed>7</SwimSpeed>

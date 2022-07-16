@@ -68,7 +68,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Quetzal</defName>
     <label>quetzal</label>
-    <description>Its name comes from the Aztec feathered serpent god, Quetzalcoatl. It was one of the largest known flying animals of all time.\n\nScientific name: Quetzalcoatlus northropi</description>
+    <description>Its name comes from the Aztec feathered serpent god, Quetzalcoatl. It was one of the largest known flying animals of all time and had the wingspan of a small plane. It also had the height of a giraffe. It is likely that it fueled its enormous metabolic needs by eating land vertebrates.\n\nScientific name: Quetzalcoatlus northropi</description>
     <statBases>
       <BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
       <SwimSpeed>1</SwimSpeed>

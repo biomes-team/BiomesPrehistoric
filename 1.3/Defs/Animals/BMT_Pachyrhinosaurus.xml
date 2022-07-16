@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Pachyrhinosaurus</defName>
 		<label>Pachyrhinosaurus</label>
-		<description>.\n\nScientific name: Pachyrhinosaurus canadensis</description>
+		<description>One of the few dinosaur species known to have lived within the Arctic circle, they had signs of significant growth banding in the bones, indicating slowed growth during the winter.\n\nScientific name: Pachyrhinosaurus canadensis</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<MarketValue>370</MarketValue>

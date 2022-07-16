@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Ouranosaurus</defName>
         <label>Ouranosaurus</label>
-        <description>.\n\nScientific name: Ouranosaurus nigeriensis</description>
+        <description>Similarly to Spinosaurus, this ornithopod had remarkably tall bony spines that grew upward from their vertebrae. The function of the sail was likely for display or temperature regulation.\n\nScientific name: Ouranosaurus nigeriensis</description>
         <statBases>
             <MoveSpeed>3.8</MoveSpeed>
             <MarketValue>180</MarketValue>

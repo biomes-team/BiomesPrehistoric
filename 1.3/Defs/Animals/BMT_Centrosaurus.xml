@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Centrosaurus</defName>
 		<label>Centrosaurus</label>
-		<description>.\n\nScientific name: Centrosaurus apertus</description>
+		<description>Living in huge herds, it would often be unwise to hunt this creature, even more so if done up close. The shape of their nose horn was variable in size and shape.\n\nScientific name: Centrosaurus apertus</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<MarketValue>520</MarketValue>

@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Inostrancevia</defName>
         <label>inostrancevia</label>
-        <description>An apex predator with two distinct sabre-like teeth measuring roughly 12cm on average. They can reach up to 4.3m in length and are one of the largest Permian carnivores.\n\nThese fearsome creatures are highly territorial...to every other living thing.\n\nScientific Name: Inostrancevia alexandri</description>
+        <description>An apex predator with two large distinct saber-like teeth. They were one of the largest Permian carnivores and are thought to have hunted similar to Smilodon.\n\nScientific Name: Inostrancevia alexandri</description>
         <statBases>
             <MoveSpeed>5.2</MoveSpeed>
             <MarketValue>850</MarketValue>

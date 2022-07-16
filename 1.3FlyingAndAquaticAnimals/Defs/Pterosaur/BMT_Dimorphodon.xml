@@ -69,7 +69,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Dimorphodon</defName>
     <label>dimorphodon</label>
-    <description>The Dimorphodon was a pterosaur, or flying reptile. It was a poor flier compared to a pterosaurs like Pteranodon. The Dimorphodon hunts small prey.\n\nScientific name: Dimorphodon macronyx</description>
+    <description>Dimorphodon is a small pterosaur with a skull nearly one-third of its body length but is surprisingly light as its skull is virtually just scaffolding around its eyes and face. It can run along the ground, using its wings like legs, much like certain bats. The Dimorphodon hunts small prey.\n\nScientific name: Dimorphodon macronyx</description>
     <statBases>
       <BiomesCore_FlySpeed>10</BiomesCore_FlySpeed>
       <SwimSpeed>5</SwimSpeed>

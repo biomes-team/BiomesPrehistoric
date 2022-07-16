@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Titanoboa</defName>
         <label>titanoboa</label>
-        <description>A large snake that can wrap around its prey and swallow it alive.\n\nScientific name: Titanoboa cerrejonensis</description>
+        <description>A large snake that could grow up to be over forty feet long and weigh over one ton. It was large enough to swallow even large prey whole and preyed upon many of the aquatic and semiaquatic animals from the mid-to-late Paleocene.\n\nScientific name: Titanoboa cerrejonensis</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
             <MarketValue>1534</MarketValue>

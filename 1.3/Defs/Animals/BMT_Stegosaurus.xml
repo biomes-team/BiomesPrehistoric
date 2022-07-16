@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Stegosaurus</defName>
         <label>stegosaurus</label>
-        <description>A large grazing animal with distinctive plates along its back and a dangerous spiked tail, this dinosaur has one of the smallest brains relative to its body size. These dinosaurs are often found in family groups.\n\nScientific name: Stegosaurus stenops</description>
+        <description>One of the more well known dinosaurs, it is a grazing animal with distinctive staggered plates along its back and a dangerous spiked tail. This dinosaur has one of the smallest brains relative to its body size. They are also often found in family groups.\n\nScientific name: Stegosaurus stenops</description>
         <statBases>
             <MoveSpeed>4.5</MoveSpeed>
             <MarketValue>360</MarketValue>

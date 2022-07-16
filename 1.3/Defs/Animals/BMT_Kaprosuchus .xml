@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Kaprosuchus</defName>
         <label>kaprosuchus</label>
-        <description>Kaprosuchus is a ferocious hunter and would savagely attack its prey, ripping them to shreds with its devastating bite.\n\nScientific name: Kaprosuchus saharicus</description>
+        <description>Kaprosuchus has three sets of tusk-like teeth, with this type of teeth not being known in any other crocodilian. It is primarily a terrestrial predator with a powerful bite that it uses to shred its prey to pieces.\n\nScientific name: Kaprosuchus saharicus</description>
         <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>960</MarketValue>

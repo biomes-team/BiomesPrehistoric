@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Ankylosaurus</defName>
         <label>ankylosaurus</label>
-        <description>Ankylosaurus, perhaps the largest ankylosaurid, known predominantly for its armored body and club tail. It was likely a non selective browser.\n\nScientific name: Ankylosaurus magniventris.</description>
+        <description>Ankylosaurus is perhaps the largest of its kind and is known predominantly for the fact that it is both well protected and well armed. It takes a lot for even a predator to kill one.\n\nScientific name: Ankylosaurus magniventris.</description>
         <statBases>
             <MoveSpeed>4</MoveSpeed>
             <MarketValue>1520</MarketValue>

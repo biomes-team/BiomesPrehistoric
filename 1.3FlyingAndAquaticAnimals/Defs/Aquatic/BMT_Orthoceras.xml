@@ -69,7 +69,7 @@
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
         <defName>BMT_Orthoceras</defName>
         <label>orthoceras</label>
-        <description>An orthoceras.</description>
+        <description>A distant relative of modern nautilus, these creatures instead have a long conical shell. Their name means “straight horn.”</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
             <SwimSpeed>4</SwimSpeed>

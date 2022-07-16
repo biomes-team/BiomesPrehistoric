@@ -153,6 +153,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Eurypterid</defName>
 		<label>eurypterid</label>
+		<description>Despite being commonly known as “sea scorpions,” Only the earliest forms of Eurypterid were marine, with most of the later ones living in brackish or freshwater. Some may have had dual respiratory systems and may have been able to go on land for short periods of time, like some modern crabs.</description>
 		<race>BMT_Eurypterid</race>
 		<combatPower>50</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>

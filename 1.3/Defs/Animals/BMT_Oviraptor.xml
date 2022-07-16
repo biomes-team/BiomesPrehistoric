@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Oviraptor</defName>
         <label>oviraptor</label>
-        <description>A smallish raptor with downy hide, known for stealing and eating eggs.\n\nScientific name: Oviraptor philoceratops</description>
+        <description>While it was originally thought to be an egg thief, hence its name, it was discovered later to not be one at all, instead being a caring parent who took care of its young in a nest. It uses its jaws to crush hard foods such as fruits and seeds.\n\nScientific name: Oviraptor philoceratops</description>
         <statBases>
             <MoveSpeed>5.5</MoveSpeed>
             <MarketValue>220</MarketValue>

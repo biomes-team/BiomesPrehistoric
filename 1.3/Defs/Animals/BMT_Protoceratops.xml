@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Protoceratops</defName>
         <label>protoceratops</label>
-        <description>A small grazing animal. These dinosaurs are often found in medium to big family groups.\n\nScientific name: Protoceratops andrewsi</description>
+        <description>A small grazing animal. These dinosaurs are often found in medium to big family groups. Its bird-like head may have inspired the myths of Griffins. They are known prey of Velociraptors.\n\nScientific name: Protoceratops andrewsi</description>
         <statBases>
             <MoveSpeed>4</MoveSpeed>
             <MarketValue>570</MarketValue>

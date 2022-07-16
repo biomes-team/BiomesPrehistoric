@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Hypsilophodon</defName>
         <label>hypsilophodon</label>
-        <description>.\n\nScientific name: Hypsilophodon foxii</description>
+        <description>Originally thought to have been a tree-climbing animal, it was realized later on that it was actually a quick-running ground animal that browsed on low-lying plants. It is considered cute by many. \n\nScientific name: Hypsilophodon foxii</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
             <MarketValue>350</MarketValue>

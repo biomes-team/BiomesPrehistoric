@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Triceratops</defName>
 		<label>triceratops</label>
-		<description>A huge grazing animal. These dinosaurs are often found in medium to big family groups.\n\nScientific name: Triceratops horridus</description> <!-- Need better description! --> 
+		<description>One of the most well-known dinosaurs to even the least educated on the Rim, Triceratops had a large neck frill, two large brow horns, and a smaller nasal horn. They sometimes fought among themselves, whether it be for mates or territory and some remains even showed signs of having fought Tyrannosaurs.\n\nScientific name: Triceratops horridus</description> 
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<MarketValue>570</MarketValue>

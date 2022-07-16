@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Dimetrodon</defName>
         <label>dimetrodon</label>
-        <description>A medium predator with distinctive plates along its back. These solitary dinosaurs are usually found in warmer climates.\n\nScientific name: Dimetrodon limbatus</description>
+        <description>Despite often being called a dinosaur, it is in fact more closely related to mammals than actual dinosaurs. It was a fearsome predator for its time, using its sail to warm up in the morning before its prey did.\n\nScientific name: Dimetrodon limbatus</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
             <MarketValue>460</MarketValue>

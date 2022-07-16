@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Stegoceras</defName>
         <label>Stegoceras</label>
-        <description>.\n\nScientific name: Stegoceras validum</description>
+        <description>A well known relative of the Pachycephalosaurus, its small, coarsely serrated teeth were  most likely used in shredding and chewing leaves.\n\nScientific name: Stegoceras validum</description>
         <statBases>
             <MoveSpeed>3.2</MoveSpeed>
             <MarketValue>380</MarketValue>

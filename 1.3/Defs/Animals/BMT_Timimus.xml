@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Timimus</defName>
         <label>timimus</label>
-        <description>.\n\nScientific name: Timimus hermani</description>
+        <description>Timimus is one of the very few dinosaurs known to have inhabited polar regions and is believed to have cared for its young. It likely hibernated during colder months like modern bears.\n\nScientific name: Timimus hermani</description>
         <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>350</MarketValue>

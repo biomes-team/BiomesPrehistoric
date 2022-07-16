@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Gallimimus</defName>
         <label>gallimimus</label>
-        <description>A midsized dinosaur usually found in small herds. Can be used as a swift pack animal on caravans. Scientific name: Gallimimus bullatus</description>
+        <description>One of the largest of its kind, the Gallimimus had long tails and slender legs, allowing for fast running. It is usually found in small herds and can be used as a swift pack animal on caravans. \n\nScientific name: Gallimimus bullatus</description>
         <statBases>
             <MoveSpeed>5.2</MoveSpeed>
             <MarketValue>620</MarketValue>

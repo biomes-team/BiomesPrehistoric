@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Kentrosaurus</defName>
         <label>kentrosaurus</label>
-        <description>A medium sized grazing animal with distinctive plates along its back and a dangerous spiked tail and front legs. These dinosaurs are often found in alone or in small groups, often pairs.\n\nScientific name: Kentrosaurus aethiopicus</description>
+        <description>Kentrosaurus is unique in that it possessed shoulder spikes as well as small plates and other spikes along its back and tail. These dinosaurs are often found alone or in small groups, often pairs.\n\nScientific name: Kentrosaurus aethiopicus</description>
         <statBases>
             <MoveSpeed>4.8</MoveSpeed>
             <MarketValue>530</MarketValue>

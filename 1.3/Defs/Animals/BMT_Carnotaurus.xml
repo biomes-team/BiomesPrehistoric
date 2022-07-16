@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Carnotaurus</defName>
         <label>carnotaurus</label>
-        <description>A large predatory dinosaur named for the distinctive horns above its eyes. It is well adapted for running and has only vestigial arms. Despite the name, it is not related to bovines.\n\nScientific name: Carnotaurus sastrei</description>
+        <description>A large predatory dinosaur named for the distinctive horns above its eyes. It is well adapted for running and has only vestigial arms. Despite the name, it is not related to bovines. Its name actually means “meat-eating bull.”\n\nScientific name: Carnotaurus sastrei</description>
         <statBases>
             <MoveSpeed>4.5</MoveSpeed>
             <MarketValue>730</MarketValue>

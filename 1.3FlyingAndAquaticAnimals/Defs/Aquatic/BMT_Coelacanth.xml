@@ -161,6 +161,7 @@
     <PawnKindDef ParentName="AnimalKindBase">
         <defName>BMT_Coelacanth</defName>
         <label>coelacanth</label>
+	  <description>On Earth, it was thought to have been extinct for millions of years until nearly the mid 20th century when it was rediscovered as a “living fossil.” It is a poor source of food for humans but is often hunted by larger sea predators.\n\nScientific name: Coelacanthus granulatus</description>
         <race>BMT_Coelacanth</race>
         <combatPower>90</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>

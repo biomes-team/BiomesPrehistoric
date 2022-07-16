@@ -8,7 +8,7 @@
     <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Diplocaulus</defName>
     <label>diplocaulus</label>
-    <description>The Diplocaulus resembles a large newt with a low-slung and flabby body, slimy skin, and a paddle-like tail for moving through stagnant swamp water. Scientific name: Diplocaulus salamandroides</description>
+    <description>The Diplocaulus closely resembles modern salamanders and newts but is easily identified for its boomerang shaped skull. Some scientists think that its skull shape acted as a hydrofoil, allowing it to move up and down in the water with ease. \n\nScientific name: Diplocaulus salamandroides</description>
     <statBases>
 		<MoveSpeed>3.2</MoveSpeed>
 		<SwimSpeed MayRequire="biomesteam.biomesislands">7.5</SwimSpeed>

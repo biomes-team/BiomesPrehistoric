@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Spinosaurus</defName>
 		<label>spinosaurus</label>
-		<description>A sail-backed, semi-aquatic therapod with a paddle-like tail, larger in size than any other known carnivore. It prowls wetlands and waterways searching for fish and other prey, much like modern crocodilians.\n\nScientific name: Spinosaurus aegyptiacus</description>
+		<description>A sail-backed, semi-aquatic theropod with a paddle-like tail, larger in size than any other known theropod. It prowls wetlands and waterways searching for fish and other prey, much like modern crocodilians.\n\nScientific name: Spinosaurus aegyptiacus</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<MarketValue>2400</MarketValue>

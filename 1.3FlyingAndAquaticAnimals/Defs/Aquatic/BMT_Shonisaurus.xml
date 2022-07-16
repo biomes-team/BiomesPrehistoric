@@ -67,7 +67,7 @@
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
         <defName>BMT_Shonisaurus</defName>
         <label>shonisaurus</label>
-        <description>.\n\nScientific name: Shonisaurus popularis</description>
+        <description>One of the larger species of ichthyosaur and even one of the largest marine reptiles of all time. They appear to be a relatively specialized offshoot of the main ichthyosaur evolutionary line.\n\nScientific name: Shonisaurus popularis</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
             <SwimSpeed>7</SwimSpeed>

@@ -67,7 +67,7 @@
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
         <defName>BMT_Liopleurodon</defName>
         <label>liopleurodon</label>
-        <description>The Liopleurodon is one of the most powerful carnivores of all time, Liopleurodon has massive jaws and a stronger bite than Tyrannosaurus. Scientific name: L. ferox</description>
+        <description>The Liopleurodon was the apex predator of Europe’s seas during the mid-to-late Jurassic and reached sizes larger than a killer whale. While most plesiosaurs fed on fish and had long necks, Liopleurodon had a shorter neck and a larger head, indicating that it predated on other marine reptiles as well as fish. It is also perfectly willing to eat any unlucky humanoid that is swimming through its domain.\n\nScientific name: L. ferox</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
             <SwimSpeed>7</SwimSpeed>

@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Lystrosaur</defName>
         <label>lystrosaur</label>
-        <description>.\n\nScientific Name: Lystrosaurus hedini</description>
+        <description>Having thought to weigh under 200 pounds, this dinosaur fed on the stems and leaves of plants. Its strange appearance and small size makes it a popular pet on dinosaur-populated worlds.\n\nScientific Name: Lystrosaurus hedini</description>
         <statBases>
             <MoveSpeed>2.2</MoveSpeed>
             <MarketValue>850</MarketValue>

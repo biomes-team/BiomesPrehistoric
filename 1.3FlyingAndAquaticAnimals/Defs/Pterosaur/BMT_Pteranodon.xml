@@ -69,7 +69,8 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Pteranodon</defName>
     <label>pteranodon</label>
-    <description>The Pteranodon is a common sight on islands and near beaches. It has a long crest and beak filled with needle-like teeth, as well as impressive wings.\n\nScientific name: Pteranodon longiceps</description>
+    Pteranodon
+<description>Pteranodon flies and hunts like modern albatross. Its streamlined skull and toothless jaws made diving into the water for fish an easy task.\n\nScientific name: Protoceratops andrewsi</description>
     <statBases>
       <BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
       <SwimSpeed>5</SwimSpeed>

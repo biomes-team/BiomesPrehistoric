@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Meganeura</defName>
         <label>meganeura</label>
-        <description>Meganeura, a giant dragonfly-like insect which eats small animals and plants.\n\nScientific name: Meganeura brongniarti</description>
+        <description>Meganeura, a giant dragonfly-like insect which eats small animals and plants. Despite looking like a dragonfly, it is actually more closely related to Damselflies.\n\nScientific name: Meganeura brongniarti</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
             <MarketValue>350</MarketValue>

@@ -69,7 +69,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Anhanguera</defName>
     <label>anhanguera</label>
-    <description>Anhanguera.\n\nScientific name: Anhanguera blittersdorffi</description>
+    <description>Anhanguera has a wingspan of almost 15 feet and feeds primarily on fish. Their jaws extend into a broad spoon-shaped rosette near the tip.\n\nScientific name: Anhanguera blittersdorffi</description>
     <statBases>
       <BiomesCore_FlySpeed>15</BiomesCore_FlySpeed>
       <SwimSpeed>5</SwimSpeed>

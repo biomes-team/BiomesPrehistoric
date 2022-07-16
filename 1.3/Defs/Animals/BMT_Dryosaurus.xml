@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Dryosaurus</defName>
         <label>dryosaurus</label>
-        <description>A grazing herd dinosaur found in many forested areas.\n\nScientific name: Dryosaurus altus</description>
+        <description>A grazing herd dinosaur found in many forested areas that is often hunted for its generous meat. Its name means “tree lizard.”\n\nScientific name: Dryosaurus altus</description>
         <statBases>
             <MoveSpeed>3.5</MoveSpeed>
             <MarketValue>180</MarketValue>
