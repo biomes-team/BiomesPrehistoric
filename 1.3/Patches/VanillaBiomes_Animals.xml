@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
+BMT_Allosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
 BMT_Amargasaurus - Warmer to temperate forested biomes, including swamps, spawns more near water.
 BMT_Ankylosaurus - Warmer to temperate forested biomes.
 BMT_Apatosaurus - Swampy areas and along rivers predominantly.
@@ -12,6 +13,7 @@ BMT_Carnotaurus - Plains and along coasts.
 BMT_Centrosaurus - More temperate fields and forests.
 BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warmer.
 BMT_Compsognathus - Forested biomes.
+BMT_Deinonychus - Swamps and marshes.
 BMT_Dilophosaurus - Desert biome if it has a river.
 BMT_Dimetrodon - Warmer biomes.
 BMT_Diplocaulus - Warm to cool biomes with rivers.
@@ -36,12 +38,14 @@ BMT_Protoceratops - Warmer lush biomes.
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles.
 BMT_Stegoceras - Forested and swampy biomes.
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle.
+BMT_Struthiomimus - Temperat to Boreaal Forests and swamp, bog areas.
 BMT_Stygimoloch - Warmer to temperate forested biomes.
 BMT_Styracosaurus - From shrubland to boreal forests.
 BMT_Timimus - Boreal forest and taiga. Predominantly in forest.
 BMT_Titanoboa - Tropical jungles.
 BMT_TRex - From forests to arid shrubland.
 BMT_Triceratops - Warmer to temperate forested biomes.
+BMT_Utahraptor - Arid shrubland and desert, most commonly if there is a river.
 BMT_Velociraptor - Desert and arid shrubland.
 -->
 
@@ -74,6 +78,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Stegoceras>0.4</BMT_Stegoceras>
 		<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
+		<BMT_Struthiomimus>0.4</BMT_Struthiomimus>
 		<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Timimus>0.2</BMT_Timimus>
@@ -93,6 +98,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
+		<BMT_Deinonychus>0.6</BMT_Deinonychus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
@@ -108,6 +114,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Spinosaurus>0.04</BMT_Spinosaurus>
 		<BMT_Stegoceras>0.6</BMT_Stegoceras>
+		<BMT_Struthiomimus>0.2</BMT_Struthiomimus>
 		<BMT_Stygimoloch>0.2</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Timimus>0.2</BMT_Timimus>
@@ -159,6 +166,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Baryonyx>0.08</BMT_Baryonyx>
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
+		<BMT_Deinonychus>0.5</BMT_Deinonychus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Dryosaurus>0.3</BMT_Dryosaurus>
@@ -182,6 +190,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 	<value>
+		<BMT_Allosaurus>0.6</BMT_Allosaurus>
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.2</BMT_Arthropleura>
 		<BMT_Borealopelta>0.5</BMT_Borealopelta>
@@ -199,6 +208,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_TRex>0.3</BMT_TRex>
+		<BMT_Utahraptor>0.4</BMT_Utahraptor>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
 	</value>
 </Operation>
@@ -206,9 +216,11 @@ BMT_Velociraptor - Desert and arid shrubland.
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
 	<value>
+		<BMT_Allosaurus>0.4</BMT_Allosaurus>
 		<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
 		<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
 		<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
+		<BMT_Utahraptor>0.3</BMT_Utahraptor>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
 	</value>
 </Operation>
@@ -231,6 +243,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Parasaur>0.3</BMT_Parasaur>
 		<BMT_Stegoceras>0.5</BMT_Stegoceras>
 		<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
+		<BMT_Struthiomimus>0.5</BMT_Struthiomimus>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Timimus>0.7</BMT_Timimus>
 	</value>
@@ -241,6 +254,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 	<value>
 		<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+		<BMT_Deinonychus>0.2</BMT_Deinonychus>
 		<BMT_Diplocaulus>0.2</BMT_Diplocaulus>
 		<BMT_Edmontosaurus>0.5</BMT_Edmontosaurus>
 		<BMT_Homalocephale>0.15</BMT_Homalocephale>
@@ -250,6 +264,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Ouranosaurus>0.4</BMT_Ouranosaurus>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
 		<BMT_Stegoceras>0.6</BMT_Stegoceras>
+		<BMT_Struthiomimus>0.2</BMT_Struthiomimus>
 		<BMT_Timimus>0.3</BMT_Timimus>
 	</value>
 </Operation>
@@ -263,6 +278,7 @@ BMT_Velociraptor - Desert and arid shrubland.
 		<BMT_Lystrosaur>0.2</BMT_Lystrosaur>
 		<BMT_Pachyrhinosaurus>0.8</BMT_Pachyrhinosaurus>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
+		<BMT_Struthiomimus>0.1</BMT_Struthiomimus>
 		<BMT_Timimus>0.4</BMT_Timimus>
 	</value>
 </Operation>	
@@ -270,7 +286,9 @@ BMT_Velociraptor - Desert and arid shrubland.
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
 	<value>
+		<BMT_Allosaurus>0.2</BMT_Allosaurus>
 		<BMT_Dilophosaurus>0.05</BMT_Dilophosaurus>
+		<BMT_Utahraptor>0.1</BMT_Utahraptor>
 	</value>
 </Operation>
 

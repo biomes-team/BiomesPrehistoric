@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Allosaurus</defName>
+        <label>Allosaurus</label>
+        <description>The loosely jointed jaws of Allosaurus allowed it to open its jaws extremely wide, similar to snakes. Unlike Tyrannosaurus, they did not crush bone and instead tore away chunks of flesh as they attacked.\n\nScientific name: Allosaurus fragilis</description>
+        <statBases>
+            <MoveSpeed>5.5</MoveSpeed>
+            <MarketValue>1500</MarketValue>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>70</ComfyTemperatureMax>
+            <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+        </statBases>
+        <race>
+            <useMeatFrom>BMT_Velociraptor</useMeatFrom>
+            <body>BMT_BipedWithClawsTeethAndTail</body>
+            <leatherDef>BMT_DinoHideHeavy</leatherDef>
+            <herdAnimal>true</herdAnimal>
+            <baseBodySize>3</baseBodySize>
+            <baseHealthScale>2.5</baseHealthScale>
+            <baseHungerRate>0.60</baseHungerRate>
+            <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
+            <predator>true</predator>
+            <maxPreyBodySize>1.8</maxPreyBodySize>
+            <wildness>0.85</wildness>
+            <lifeExpectancy>20</lifeExpectancy>
+            <manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+            <trainability>Advanced</trainability>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.6</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>1.3</minAge>
+                    <soundWounded>BMT_TRex_Wounded</soundWounded>
+                    <soundDeath>BMT_TRex_Death</soundDeath>
+                    <soundCall>BMT_TRex_Call</soundCall>
+                    <soundAngry>BMT_TRex_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_AllosaurusEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggLayIntervalDays>12</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~1</eggCountRange>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>front left claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>front right claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalFighter</li>
+            <li>AnimalUncommon</li>
+        </tradeTags>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Allosaurus</defName>
+        <label>allosaurus</label>
+        <race>BMT_Allosaurus</race>
+        <combatPower>200</combatPower>
+        <wildGroupSize>1~2</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Allosaurus/Allosaurus</texPath>
+                    <drawSize>3.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Allosaurus/Dessicated_Allosaurus</texPath>
+                    <drawSize>2.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Allosaurus/Allosaurus</texPath>
+                    <drawSize>3.1</drawSize>
+                    <shadowData>
+                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Allosaurus/Dessicated_Allosaurus</texPath>
+                    <drawSize>4.6</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Allosaurus/Allosaurus</texPath>
+                    <drawSize>6.7</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Allosaurus/Dessicated_Allosaurus</texPath>
+                    <drawSize>8.7</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+
+
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_AllosaurusEggFertilized</defName>
+        <label>allosaurus egg (fert.)</label>
+        <description>A fertilized allosaurus egg. If all goes well, it should hatch into a baby allosaurus. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <color>(236,206,196)</color>
+            <drawSize>1.7</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>63</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>11</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Allosaurus</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
