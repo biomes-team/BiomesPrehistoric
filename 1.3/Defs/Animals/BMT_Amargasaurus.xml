@@ -162,7 +162,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_AmargasaurusEggFertilized</defName>
-        <label>Amargasaurus egg (fert.)</label>
+        <label>amargasaurus egg (fert.)</label>
         <description>A fertilized Amargasaurus egg. If all goes well, it should hatch into a baby amargasaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(230,212,193)</color>

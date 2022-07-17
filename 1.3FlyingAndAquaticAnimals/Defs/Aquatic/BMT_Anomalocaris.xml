@@ -192,7 +192,7 @@
 	</PawnKindDef>
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_EggAnomalocarisFertilized</defName>
-		<label>Anomalocaris egg (fert.)</label>
+		<label>anomalocaris egg (fert.)</label>
 		<description>A fertilized anomalocaris egg. If all goes well, it should hatch into a baby anomalocaris. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>

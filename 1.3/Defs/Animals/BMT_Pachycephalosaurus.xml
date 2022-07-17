@@ -159,7 +159,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_PachycephalosaurusEggFertilized</defName>
-        <label>Pachycephalosaurus egg (fert.)</label>
+        <label>pachycephalosaurus egg (fert.)</label>
         <description>A fertilized Pachycephalosaurus egg. If all goes well, it should hatch into a baby pachycephalosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(207,207,207)</color>

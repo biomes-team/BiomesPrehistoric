@@ -170,7 +170,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_StyracosaurusEggFertilized</defName>
-        <label>Styracosaurus egg (fert.)</label>
+        <label>styracosaurus egg (fert.)</label>
         <description>A fertilized Styracosaurus egg. If all goes well, it should hatch into a baby styracosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(195,123,197)</color>

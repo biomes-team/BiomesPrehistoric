@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Pachyrhinosaurus</defName>
-		<label>Pachyrhinosaurus</label>
+		<label>pachyrhinosaurus</label>
 		<description>One of the few dinosaur species known to have lived within the Arctic circle, they had signs of significant growth banding in the bones, indicating slowed growth during the winter.\n\nScientific name: Pachyrhinosaurus canadensis</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
@@ -120,7 +120,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Pachyrhinosaurus</defName>
-		<label>Pachyrhinosaurus</label>
+		<label>pachyrhinosaurus</label>
 		<race>BMT_Pachyrhinosaurus</race>
 		<combatPower>35</combatPower>
 		<wildGroupSize>4~10</wildGroupSize>
@@ -172,7 +172,7 @@
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_PachyrhinosaurusEggFertilized</defName>
-		<label>Pachyrhinosaurus egg (fert.)</label>
+		<label>pachyrhinosaurus egg (fert.)</label>
 		<description>A fertilized protoceratops egg. If all goes well, it should hatch into a baby protoceratops. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<color>(195,123,197)</color>

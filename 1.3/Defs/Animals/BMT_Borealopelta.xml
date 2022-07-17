@@ -171,7 +171,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_BorealopeltaEggFertilized</defName>
-        <label>Borealopelta egg (fert.)</label>
+        <label>borealopelta egg (fert.)</label>
         <description>A fertilized Borealopelta egg. If all goes well, it should hatch into a baby borealopelta. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(195,123,197)</color>

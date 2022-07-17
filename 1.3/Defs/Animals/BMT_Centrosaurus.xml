@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Centrosaurus</defName>
-		<label>Centrosaurus</label>
+		<label>centrosaurus</label>
 		<description>Living in huge herds, it would often be unwise to hunt this creature, even more so if done up close. The shape of their nose horn was variable in size and shape.\n\nScientific name: Centrosaurus apertus</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
@@ -130,7 +130,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Centrosaurus</defName>
-		<label>Centrosaurus</label>
+		<label>centrosaurus</label>
 		<race>BMT_Centrosaurus</race>
 		<combatPower>55</combatPower>
 		<wildGroupSize>6~12</wildGroupSize>
@@ -151,7 +151,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
+					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Dessicated_Centrosaurus</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -165,7 +165,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-				<texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
+				<texPath>BMT_Prehistoric/Animals/Centrosaurus/Dessicated_Centrosaurus</texPath>
 				<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -179,7 +179,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
+					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Dessicated_Centrosaurus</texPath>
 					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -188,7 +188,7 @@
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_CentrosaurusEggFertilized</defName>
-		<label>Centrosaurus egg (fert.)</label>
+		<label>centrosaurus egg (fert.)</label>
 		<description>A fertilized protoceratops egg. If all goes well, it should hatch into a baby protoceratops. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<color>(195,123,197)</color>

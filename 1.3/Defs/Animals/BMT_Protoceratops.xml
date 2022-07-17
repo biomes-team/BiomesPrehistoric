@@ -172,7 +172,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_ProtoceratopsEggFertilized</defName>
-        <label>Protoceratops egg (fert.)</label>
+        <label>protoceratops egg (fert.)</label>
         <description>A fertilized protoceratops egg. If all goes well, it should hatch into a baby protoceratops. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(195,123,197)</color>

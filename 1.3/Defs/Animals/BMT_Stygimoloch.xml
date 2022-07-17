@@ -159,7 +159,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_StygimolochEggFertilized</defName>
-        <label>Stygimoloch egg (fert.)</label>
+        <label>stygimoloch egg (fert.)</label>
         <description>A fertilized Stygimoloch egg. If all goes well, it should hatch into a baby stygimoloch. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(227,219,213)</color>

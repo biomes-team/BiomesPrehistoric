@@ -169,7 +169,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_KentrosaurusEggFertilized</defName>
-        <label>Kentrosaurus egg (fert.)</label>
+        <label>kentrosaurus egg (fert.)</label>
         <description>A fertilized kentrosaurus egg. If all goes well, it should hatch into a baby kentrosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(195,123,197)</color>

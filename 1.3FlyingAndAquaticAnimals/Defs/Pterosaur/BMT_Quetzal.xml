@@ -189,7 +189,7 @@
   
   <ThingDef ParentName="EggFertBase">
     <defName>BMT_QuetzalEggFertilized</defName>
-    <label>Quetzal egg (fert.)</label>
+    <label>quetzal egg (fert.)</label>
     <description>A fertilized quetzal egg. If all goes well, it should hatch into a baby quetzal. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(152,95,81)</color>
@@ -221,7 +221,7 @@
           <drawSize>3.0</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+		  <texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
           <drawSize>3.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -231,7 +231,7 @@
           <drawSize>4.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
           <drawSize>4.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -241,7 +241,7 @@
           <drawSize>6.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
           <drawSize>6.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>

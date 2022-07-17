@@ -206,7 +206,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_StegosaurusEggFertilized</defName>
-        <label>Stegosaurus egg (fert.)</label>
+        <label>stegosaurus egg (fert.)</label>
         <description>A fertilized Stegosaurus egg. If all goes well, it should hatch into a baby stegosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(195,123,197)</color>

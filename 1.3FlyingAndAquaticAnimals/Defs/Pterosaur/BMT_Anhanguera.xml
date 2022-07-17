@@ -190,7 +190,7 @@
   
   <ThingDef ParentName="EggFertBase">
     <defName>BMT_AnhangueraEggFertilized</defName>
-    <label>Anhanguera egg (fert.)</label>
+    <label>anhanguera egg (fert.)</label>
     <description>A fertilized anhanguera egg. If all goes well, it should hatch into a baby anhanguera. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(195,123,197)</color>
@@ -222,7 +222,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-		  <texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+		  <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -232,7 +232,7 @@
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -242,7 +242,7 @@
           <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+          <texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>

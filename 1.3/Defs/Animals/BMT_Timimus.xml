@@ -123,7 +123,7 @@
                     <drawSize>1.2</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Timimus/Dessicated_Timimus</texPath>
                     <drawSize>1.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -137,7 +137,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Timimus/Dessicated_Timimus</texPath>
                     <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -151,7 +151,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Timimus/Dessicated_Timimus</texPath>
                     <drawSize>3.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -160,7 +160,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_TimimusEggFertilized</defName>
-        <label>Timimus egg (fert.)</label>
+        <label>timimus egg (fert.)</label>
         <description>A fertilized timimus egg. If all goes well, it should hatch into a baby timimus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>

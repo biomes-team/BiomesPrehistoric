@@ -190,7 +190,7 @@
   
   <ThingDef ParentName="EggFertBase">
     <defName>BMT_DimorphodonEggFertilized</defName>
-    <label>Dimorphodon egg (fert.)</label>
+    <label>dimorphodon egg (fert.)</label>
     <description>A fertilized Dimorphodon egg. If all goes well, it should hatch into a baby dimorphodon. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(195,123,197)</color>

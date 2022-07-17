@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Stegoceras</defName>
-        <label>Stegoceras</label>
+        <label>stegoceras</label>
         <description>A well known relative of the Pachycephalosaurus, its small, coarsely serrated teeth were  most likely used in shredding and chewing leaves.\n\nScientific name: Stegoceras validum</description>
         <statBases>
             <MoveSpeed>3.2</MoveSpeed>
@@ -107,7 +107,7 @@
 
     <PawnKindDef ParentName="AnimalKindBase">
         <defName>BMT_Stegoceras</defName>
-        <label>Stegoceras</label>
+        <label>stegoceras</label>
         <race>BMT_Stegoceras</race>
         <combatPower>50</combatPower>
         <wildGroupSize>1~1</wildGroupSize>
@@ -122,7 +122,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stygimoloch/Dessicated_Stygimoloch</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegoceras/Dessicated_Stegoceras</texPath>
                     <drawSize>1.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -136,7 +136,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stygimoloch/Dessicated_Stygimoloch</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegoceras/Dessicated_Stegoceras</texPath>
                     <drawSize>2.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -150,7 +150,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stygimoloch/Dessicated_Stygimoloch</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegoceras/Dessicated_Stegoceras</texPath>
                     <drawSize>3.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -159,7 +159,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_StegocerasEggFertilized</defName>
-        <label>Stegoceras egg (fert.)</label>
+        <label>stegoceras egg (fert.)</label>
         <description>A fertilized Stegoceras egg. If all goes well, it should hatch into a baby Stegoceras. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(227,219,213)</color>

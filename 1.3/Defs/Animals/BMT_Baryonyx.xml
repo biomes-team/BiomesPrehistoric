@@ -160,7 +160,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_BaryonyxEggFertilized</defName>
-        <label>Baryonyx egg (fert.)</label>
+        <label>baryonyx egg (fert.)</label>
         <description>A fertilized baryonyx egg. If all goes well, it should hatch into a baby baryonyx. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <color>(226,225,214)</color>

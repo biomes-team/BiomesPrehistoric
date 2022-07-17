@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Ouranosaurus</defName>
-        <label>Ouranosaurus</label>
+        <label>ouranosaurus</label>
         <description>Similarly to Spinosaurus, this ornithopod had remarkably tall bony spines that grew upward from their vertebrae. The function of the sail was likely for display or temperature regulation.\n\nScientific name: Ouranosaurus nigeriensis</description>
         <statBases>
             <MoveSpeed>3.8</MoveSpeed>
@@ -117,7 +117,7 @@
 
     <PawnKindDef ParentName="AnimalKindBase">
         <defName>BMT_Ouranosaurus</defName>
-        <label>Ouranosaurus</label>
+        <label>ouranosaurus</label>
         <race>BMT_Ouranosaurus</race>
         <combatPower>85</combatPower>
         <wildGroupSize>2~5</wildGroupSize>
@@ -165,7 +165,7 @@
 
     <ThingDef ParentName="EggFertBase">
         <defName>BMT_OuranosaurusEggFertilized</defName>
-        <label>Ouranosaurus egg (fert.)</label>
+        <label>ouranosaurus egg (fert.)</label>
         <description>A fertilized Ouranosaurus egg. If all goes well, it should hatch into a baby Ouranosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>

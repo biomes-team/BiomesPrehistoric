@@ -110,7 +110,7 @@
   
    <ThingDef ParentName="EggFertBase">
     <defName>BMT_DiplocaulusEggFertilized</defName>
-    <label>Diplocaulus egg (fert.)</label>
+    <label>diplocaulus egg (fert.)</label>
     <description>A fertilized Diplocaulus egg. If all goes well, it should hatch into a baby diplocaulus. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <color>(218,218,216)</color>
