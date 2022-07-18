@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Utahraptor</defName>
         <label>utahraptor</label>
-        <description>.</description>
+		<description>One of the largest species of raptor, it used a large curved claw to help disable prey. Slower than smaller raptors, it was roughly equal to iguanodons in speed. A 20th century movie on Earth got it mixed up with Velociraptors. \n\nScientific name: Utahraptor ostrommaysi</description>
         <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>450</MarketValue>

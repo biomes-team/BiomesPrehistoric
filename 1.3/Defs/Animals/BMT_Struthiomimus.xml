@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Struthiomimus</defName>
         <label>struthiomimus</label>
-        <description>.</description>
+        <description>The primary defense against predators was their considerable speed, as they were able to outrun nearly anything of the time. They primarily feed upon plants but will eat meat if available. \n\nScientific name: Struthiomimus altus</description>
         <statBases>
             <MoveSpeed>8</MoveSpeed>
             <MarketValue>450</MarketValue>

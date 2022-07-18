@@ -30,6 +30,7 @@
 						<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 						<BMT_Parasaur>0.2</BMT_Parasaur>
 						<BMT_Protoceratops>0.5</BMT_Protoceratops>
+						<BMT_Pulmonoscorpius>0.3</BMT_Pulmonoscorpius>
 						<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
 						<BMT_Stegoceras>0.8</BMT_Stegoceras>
 						<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
@@ -48,13 +49,16 @@
 						<BMT_Homalocephale>0.5</BMT_Homalocephale>
 						<BMT_Iguanodon>0.2</BMT_Iguanodon>
 						<BMT_Kaprosuchus>0.2</BMT_Kaprosuchus>
+						<BMT_Leaellynasaura>0.5</BMT_Leaellynasaura>
 						<BMT_Ouranosaurus>0.4</BMT_Ouranosaurus>
 						<BMT_Parasaur>0.3</BMT_Parasaur>
 						<BMT_Stegoceras>0.3</BMT_Stegoceras>
 						<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
 						<BMT_Struthiomimus>0.4</BMT_Struthiomimus>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+						<BMT_Therizinosaurus>0.2</BMT_Therizinosaurus>
 						<BMT_Timimus>0.6</BMT_Timimus>
+						<BMT_Yutyrannus>0.1</BMT_Yutyrannus>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -97,9 +101,12 @@
 						<BMT_Struthiomimus>0.4</BMT_Struthiomimus>
 						<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
 						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+						<BMT_Therizinosaurus>0.1</BMT_Therizinosaurus>
 						<BMT_Timimus>0.2</BMT_Timimus>
 						<BMT_TRex>0.1</BMT_TRex>
 						<BMT_Triceratops>0.3</BMT_Triceratops>
+						<BMT_Troodon>0.2</BMT_Troodon>
+						<BMT_Yutyrannus>0.1</BMT_Yutyrannus>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -137,10 +144,13 @@
 					<value>
 						<BMT_Borealopelta>0.5</BMT_Borealopelta>
 						<BMT_Homalocephale>0.05</BMT_Homalocephale>
+						<BMT_Leaellynasaura>0.4</BMT_Leaellynasaura>
 						<BMT_Ouranosaurus>0.3</BMT_Ouranosaurus>
 						<BMT_Polacanthus>0.5</BMT_Polacanthus>
 						<BMT_Struthiomimus>0.2</BMT_Struthiomimus>
+						<BMT_Therizinosaurus>0.1</BMT_Therizinosaurus>
 						<BMT_Timimus>0.5</BMT_Timimus>
+						<BMT_Yutyrannus>0.1</BMT_Yutyrannus>
 					</value>
 				</li>
 			</operations>

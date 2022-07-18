@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Leaellynasaura</defName>
+        <label>leaellynasaura</label>
+        <description>.\n\nScientific Name: Leaellynasaura amicagraphica</description>
+        <statBases>
+            <MoveSpeed>2.2</MoveSpeed>
+            <MarketValue>250</MarketValue>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+            <ComfyTemperatureMax>40</ComfyTemperatureMax>
+            <FilthRate>8</FilthRate>
+        </statBases>
+        <race>
+            <useMeatFrom>BMT_Velociraptor</useMeatFrom>
+            <body>BMT_BipedWithClawsTeethAndTail</body>
+            <leatherDef>BMT_DinoHideThin</leatherDef>
+            <herdAnimal>false</herdAnimal>
+            <baseBodySize>2</baseBodySize>
+            <baseHealthScale>1.55</baseHealthScale>
+            <baseHungerRate>0.50</baseHungerRate>
+            <foodType>VegetarianRoughAnimal</foodType>
+            <predator>false</predator>
+            <wildness>0.40</wildness>
+            <roamMtbDays>4</roamMtbDays>
+            <lifeExpectancy>30</lifeExpectancy>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.30</manhunterOnDamageChance>
+            <trainability>None</trainability>
+            <ageGenerationCurve>
+                <points>
+                    <li>(0.0,0)</li>
+                    <li>(0.1,350)</li>
+                    <li>(0.9,150)</li>
+                    <li>(1.5,5)</li>
+                    <li>(20,4)</li>
+                    <li>(65,0)</li>
+                </points>
+            </ageGenerationCurve>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.6</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>1</minAge>
+                    <!-- <soundWounded>BMT_Leaellynasaura_Wounded</soundWounded> -->
+                    <!-- <soundDeath>BMT_Leaellynasaura_Death</soundDeath> -->
+                    <!-- <soundCall>BMT_Leaellynasaura_Call</soundCall> -->
+                    <!-- <soundAngry>BMT_Leaellynasaura_Angry</soundAngry> -->
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_LeaellynasauraEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggLayIntervalDays>10</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~3</eggCountRange>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>front left claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>front right claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+        </tradeTags>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Leaellynasaura</defName>
+        <label>leaellynasaura</label>
+        <race>BMT_Leaellynasaura</race>
+        <combatPower>45</combatPower>
+        <wildGroupSize>4~9</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/LeaellynasauraBaby</texPath>
+                    <drawSize>1</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.0)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Dessicated_Leaellynasaura</texPath>
+                    <drawSize>1</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Leaellynasaura</texPath>
+                    <drawSize>1.4</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.0)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+				<femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/LeaellynasauraFemale</texPath>
+                    <drawSize>1.4</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+				</femaleGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Dessicated_Leaellynasaura</texPath>
+                    <drawSize>1.4</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Leaellynasaura</texPath>
+                    <drawSize>1.8</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.0)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+				<femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/LeaellynasauraFemale</texPath>
+                    <drawSize>1.8</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+				</femaleGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Dessicated_Leaellynasaura</texPath>
+                    <drawSize>1.8</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+    
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_LeaellynasauraEggFertilized</defName>
+        <label>leaellynasaura egg (fert.)</label>
+        <description>A fertilized leaellynasaura egg. If all goes well, it should hatch into a baby leaellynasaura. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <color>(230,212,193)</color>
+            <drawSize>1.7</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>20.0</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>12</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Leaellynasaura</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
