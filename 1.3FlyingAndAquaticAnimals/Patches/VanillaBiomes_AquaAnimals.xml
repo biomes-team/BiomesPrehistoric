@@ -89,7 +89,6 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 	<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 	<value>
 		<BMT_Anhanguera>0.2</BMT_Anhanguera>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 		<BMT_Dimorphodon>0.2</BMT_Dimorphodon>
 		<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
 		<BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>

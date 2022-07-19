@@ -115,21 +115,30 @@
         <label>compsognathus</label>
         <race>BMT_Compsognathus</race>
         <combatPower>55</combatPower>
+        <alternateGraphicChance>0.66</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Compsognathus/CompyA</texPath>
+            </li>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Compsognathus/CompyB</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Compsognathus/Compy</texPath>
-                    <drawSize>1.2</drawSize>
+                    <drawSize>0.9</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Compsognathus/Dessicated_Compy</texPath>
-                    <drawSize>1.2</drawSize>
+                    <drawSize>0.9</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Compsognathus/Compy</texPath>
-                    <drawSize>1.4</drawSize>
+                    <drawSize>1.1</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -137,13 +146,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Compsognathus/Dessicated_Compy</texPath>
-                    <drawSize>1.4</drawSize>
+                    <drawSize>1.1</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Compsognathus/Compy</texPath>
-                    <drawSize>2.5</drawSize>
+                    <drawSize>2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -151,7 +160,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Compsognathus/Dessicated_Compy</texPath>
-                    <drawSize>2.5</drawSize>
+                    <drawSize>2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

@@ -25,7 +25,7 @@
             <predator>false</predator>
             <wildness>0.20</wildness>
             <lifeExpectancy>20</lifeExpectancy>
-            <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+            <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
             <nuzzleMtbHours>12</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>

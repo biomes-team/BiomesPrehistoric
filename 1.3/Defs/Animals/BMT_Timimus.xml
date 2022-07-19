@@ -18,11 +18,11 @@
             <body>BMT_BipedWithClawsTeethAndTail</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>0.22</baseBodySize>
+            <baseBodySize>0.9</baseBodySize>
             <baseHealthScale>0.55</baseHealthScale>
             <baseHungerRate>0.50</baseHungerRate>
-            <foodType>VegetarianRoughAnimal</foodType>
-            <predator>false</predator>
+            <foodType>CarnivoreAnimalStrict</foodType>
+            <predator>true</predator>
             <wildness>0.20</wildness>
             <lifeExpectancy>13</lifeExpectancy>
             <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
@@ -71,7 +71,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>4</power>
+                <power>8</power>
                 <cooldownTime>1.3</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
@@ -80,7 +80,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>4</power>
+                <power>8</power>
                 <cooldownTime>1.3</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
             </li>
@@ -88,7 +88,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>6</power>
+                <power>12</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
@@ -98,7 +98,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>4</power>
+                <power>6</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
