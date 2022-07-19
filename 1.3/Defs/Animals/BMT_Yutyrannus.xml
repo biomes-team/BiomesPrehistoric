@@ -10,8 +10,8 @@
             <MarketValue>2000</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
         </statBases>
         <race>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
@@ -23,7 +23,7 @@
             <baseHungerRate>0.80</baseHungerRate>
             <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
             <predator>true</predator>
-            <maxPreyBodySize>3</maxPreyBodySize>
+            <maxPreyBodySize>3.5</maxPreyBodySize>
             <wildness>0.80</wildness>
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.60</manhunterOnTameFailChance>
@@ -77,7 +77,7 @@
         </comps>
         <tools>
             <li>
-                <label>front left claws</label>
+                <label>left claws</label>
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
@@ -86,7 +86,7 @@
                 <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
             <li>
-                <label>front right claws</label>
+                <label>right claws</label>
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
