@@ -124,7 +124,7 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Leaellynasaurababy</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Leaellynasaura/LeaellynasauraBaby</texPath>
                     <drawSize>1</drawSize>
                     <shadowData>
                         <volume>(1, 0.3, 0.3)</volume>
