@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Leaellynasaura</defName>
         <label>leaellynasaura</label>
-        <description>.\n\nScientific Name: Leaellynasaura amicagraphica</description>
+        <description>This species lives in environments where the day/night cycle is not as balanced as nearer the equator. Their large eyes are thought to make up for this by allowing them to see with minimal light. \n\nScientific Name: Leaellynasaura amicagraphica</description>
         <statBases>
             <MoveSpeed>2.2</MoveSpeed>
             <MarketValue>250</MarketValue>
