@@ -16,9 +16,9 @@ namespace BiomesPrehistoric
         {
             if(BiomesPrehistoricMod.mod.settings.dinoOnly)
             {
-                if(___wildAnimals.Any(d => d.animal.modContentPack.Name == "Biomes! Prehistoric"))
+                if(___wildAnimals?.Any(d => d.animal.modContentPack?.Name == "Biomes! Prehistoric") == true)
                 {
-                    if (animalDef.modContentPack.Name != "Biomes! Prehistoric")
+                    if (animalDef.modContentPack?.Name != "Biomes! Prehistoric")
                     {
                         __result = 0f;
                         return false;
