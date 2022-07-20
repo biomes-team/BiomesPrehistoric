@@ -167,7 +167,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/Yutyrannus</texPath>
-                    <drawSize>6.8</drawSize>
+                    <drawSize>6.2</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -175,7 +175,7 @@
                 </bodyGraphicData>
 				<femaleGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/YutyrannusFemale</texPath>
-                    <drawSize>6.8</drawSize>
+                    <drawSize>6.2</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -183,7 +183,7 @@
 				</femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/Dessicated_Yutyrannus</texPath>
-                    <drawSize>6.8</drawSize>
+                    <drawSize>6.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
