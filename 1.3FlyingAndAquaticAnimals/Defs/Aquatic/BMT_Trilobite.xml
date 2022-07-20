@@ -155,11 +155,8 @@
 			<min>6</min>
 			<max>18</max>
 		</wildGroupSize>
-		<alternateGraphicChance>0.75</alternateGraphicChance>
+		<alternateGraphicChance>0.66</alternateGraphicChance>
 		<alternateGraphics>
-			<li>
-				<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteA</texPath>
-			</li>
 			<li>
 				<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteB</texPath>
 			</li>
@@ -170,7 +167,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteA</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -180,7 +177,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteA</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -190,7 +187,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteA</texPath>
 					<drawSize>1.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>

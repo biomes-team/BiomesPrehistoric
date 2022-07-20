@@ -71,10 +71,10 @@
             </li>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_TroodonEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>4</eggFertilizationCountMax>
                 <eggLayIntervalDays>15</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1</eggCountRange>
+                <eggCountRange>1~4</eggCountRange>
             </li>
            <li Class="CompProperties_Spawner">
                 <thingToSpawn>BMT_DinoHideFeathery</thingToSpawn>
@@ -90,8 +90,8 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>10</power>
-                <cooldownTime>1.3</cooldownTime>
+                <power>9</power>
+                <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
             <li>
@@ -99,8 +99,8 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>10</power>
-                <cooldownTime>1.3</cooldownTime>
+                <power>9</power>
+                <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
             </li>
             <li>

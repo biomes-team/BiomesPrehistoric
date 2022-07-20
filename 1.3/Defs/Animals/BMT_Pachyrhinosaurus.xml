@@ -23,6 +23,7 @@
 			<baseHungerRate>1.07</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<predator>false</predator>
+			<packAnimal>true</packAnimal>
 			<wildness>0.20</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<lifeExpectancy>50</lifeExpectancy>
@@ -78,7 +79,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>12</power>
+				<power>17</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 			</li>
@@ -87,7 +88,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>12</power>
+				<power>17</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 			</li>
@@ -105,7 +106,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>14</power>
+				<power>28</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

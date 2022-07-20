@@ -54,10 +54,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_TRexEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>4</eggFertilizationCountMax>
                 <eggLayIntervalDays>12</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~4</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -173,7 +173,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>11</hatcherDaystoHatch>
+                <hatcherDaystoHatch>16</hatcherDaystoHatch>
                 <hatcherPawn>BMT_TRex</hatcherPawn>
             </li>
         </comps>

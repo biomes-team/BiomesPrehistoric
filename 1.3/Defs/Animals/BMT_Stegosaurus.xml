@@ -68,10 +68,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_StegosaurusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>4</eggFertilizationCountMax>
                 <eggLayIntervalDays>30</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>2~4</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -80,7 +80,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>11</power>
+                <power>12</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
@@ -89,7 +89,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>11</power>
+                <power>12</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
             </li>
@@ -118,8 +118,8 @@
                 <capacities>
                     <li>Stab</li>
                 </capacities>
-                <power>18</power>
-                <cooldownTime>2.8</cooldownTime>
+                <power>20</power>
+                <cooldownTime>2.5</cooldownTime>
                 <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
             </li>
         </tools>
@@ -213,11 +213,11 @@
             <drawSize>1.8</drawSize>
         </graphicData>
         <statBases>
-            <MarketValue>50</MarketValue>
+            <MarketValue>30</MarketValue>
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>14</hatcherDaystoHatch>
+                <hatcherDaystoHatch>11</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Stegosaurus</hatcherPawn>
             </li>
         </comps>

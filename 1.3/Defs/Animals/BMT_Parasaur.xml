@@ -58,10 +58,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_ParasaurEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>5</eggFertilizationCountMax>
                 <eggLayIntervalDays>6</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~2</eggCountRange>
+                <eggCountRange>3~5</eggCountRange>
             </li>
         </comps>
         <tools>

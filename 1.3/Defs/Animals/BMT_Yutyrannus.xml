@@ -131,7 +131,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/YutyrannusBaby</texPath>
-                    <drawSize>3.2</drawSize>
+                    <drawSize>2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -139,7 +139,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/Dessicated_Yutyrannus</texPath>
-                    <drawSize>3.2</drawSize>
+                    <drawSize>2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

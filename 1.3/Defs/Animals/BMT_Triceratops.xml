@@ -49,11 +49,11 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.4</minAge>
+					<minAge>1</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.8</minAge>
+					<minAge>1.5</minAge>
 					<soundWounded>Pawn_MedDino_Angry</soundWounded>
 					<soundDeath>Pawn_MedDino_Death</soundDeath>
 					<soundCall>Pawn_MedDino_Call</soundCall>
@@ -67,10 +67,10 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_TriceratopsEggFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggFertilizationCountMax>5</eggFertilizationCountMax>
 				<eggLayIntervalDays>15</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~1</eggCountRange>
+				<eggCountRange>2~5</eggCountRange>
 			</li>
 		</comps>
 		<tools>
@@ -199,7 +199,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>14</hatcherDaystoHatch>
+				<hatcherDaystoHatch>11</hatcherDaystoHatch>
 				<hatcherPawn>BMT_Triceratops</hatcherPawn>
 			</li>
 		</comps>

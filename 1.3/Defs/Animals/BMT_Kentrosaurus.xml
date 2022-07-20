@@ -64,10 +64,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_KentrosaurusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>2</eggFertilizationCountMax>
                 <eggLayIntervalDays>30</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~2</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -180,7 +180,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherDaystoHatch>14</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Kentrosaurus</hatcherPawn>
             </li>
         </comps>

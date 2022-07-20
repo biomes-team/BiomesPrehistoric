@@ -58,10 +58,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_BrachiosaurusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>4</eggFertilizationCountMax>
                 <eggLayIntervalDays>45</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~4</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -125,7 +125,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
-                    <drawSize>6.5</drawSize>
+                    <drawSize>8.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -133,13 +133,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
-                    <drawSize>6.5</drawSize>
+                    <drawSize>8.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
-                    <drawSize>10.5</drawSize>
+                    <drawSize>12</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -147,13 +147,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
-                    <drawSize>10.5</drawSize>
+                    <drawSize>12</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
-                    <drawSize>12.0</drawSize>
+                    <drawSize>15.0</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -161,7 +161,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
-                    <drawSize>12.0</drawSize>
+                    <drawSize>15.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
@@ -176,7 +176,7 @@
             <drawSize>2.7</drawSize>
         </graphicData>
         <statBases>
-            <MarketValue>62.0</MarketValue>
+            <MarketValue>22.0</MarketValue>
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">

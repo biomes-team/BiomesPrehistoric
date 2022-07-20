@@ -22,10 +22,10 @@
             <baseHungerRate>0.50</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
-            <wildness>0.70</wildness>
+            <wildness>0.20</wildness>
             <roamMtbDays>4</roamMtbDays>
             <lifeExpectancy>55</lifeExpectancy>
-            <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+            <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
             <trainability>None</trainability>
             <lifeStageAges>
@@ -65,7 +65,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>6</power>
+                <power>4</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
             </li>
@@ -74,7 +74,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>6</power>
+                <power>4</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
             </li>
@@ -82,7 +82,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>15</power>
+                <power>10</power>
                 <cooldownTime>3</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.625</chanceFactor>
@@ -92,7 +92,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>25</power>
+                <power>8</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -144,7 +144,7 @@
                     <texPath>BMT_Prehistoric/Animals/Lystrosaur/Lystrosaur</texPath>
                     <drawSize>2.1</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
+                        <volume>(0.5, 0.4, 0.3)</volume>
                         <offset>(0,0,-0.0)</offset>
                     </shadowData>
                 </bodyGraphicData>

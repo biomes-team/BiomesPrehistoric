@@ -42,7 +42,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
-                <drawSize>4.0</drawSize>
+                <drawSize>3.8</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
@@ -58,7 +58,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
-                <drawSize>7.8</drawSize>
+                <drawSize>6</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
@@ -169,23 +169,23 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
-                    <drawSize>4.0</drawSize>
+                    <drawSize>3.8</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
-                    <drawSize>4.0</drawSize>
+                    <drawSize>3.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
-                    <drawSize>7.8</drawSize>
+                    <drawSize>6</drawSize>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
-                    <drawSize>7.8</drawSize>
+                    <drawSize>6</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

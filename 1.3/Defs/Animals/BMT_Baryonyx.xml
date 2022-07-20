@@ -66,7 +66,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>19</power>
+                <power>10</power>
                 <cooldownTime>1.7</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
@@ -75,7 +75,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>19</power>
+                <power>10</power>
                 <cooldownTime>1.7</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
             </li>
@@ -83,7 +83,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>24</power>
+                <power>18</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
@@ -93,7 +93,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>11</power>
+                <power>10</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -116,7 +116,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Baryonyx</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>2.8</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -124,13 +124,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Dessicated_Baryonyx</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>2.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Baryonyx</texPath>
-                    <drawSize>4.4</drawSize>
+                    <drawSize>4</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -138,13 +138,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Dessicated_Baryonyx</texPath>
-                    <drawSize>4.4</drawSize>
+                    <drawSize>4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Baryonyx</texPath>
-                    <drawSize>8.7</drawSize>
+                    <drawSize>7</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -152,7 +152,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Dessicated_Baryonyx</texPath>
-                    <drawSize>8.7</drawSize>
+                    <drawSize>7</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

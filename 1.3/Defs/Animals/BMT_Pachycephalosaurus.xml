@@ -115,7 +115,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
-                    <drawSize>2.7</drawSize>
+                    <drawSize>2.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -123,13 +123,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
-                    <drawSize>2.7</drawSize>
+                    <drawSize>2.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
-                    <drawSize>4.4</drawSize>
+                    <drawSize>3.8</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -137,13 +137,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
-                    <drawSize>4.4</drawSize>
+                    <drawSize>3.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Pachycephalosaurus</texPath>
-                    <drawSize>5.8</drawSize>
+                    <drawSize>4.5</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -151,7 +151,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Pachycephalosaurus/Dessicated_Pachycephalosaurus</texPath>
-                    <drawSize>5.8</drawSize>
+                    <drawSize>4.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

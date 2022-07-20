@@ -100,6 +100,16 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
+                    <drawSize>0.9</drawSize>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
+                    <drawSize>0.9</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
                     <drawSize>1.1</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -115,16 +125,6 @@
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
                     <drawSize>1.8</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
-                    <drawSize>2.3</drawSize>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
-                    <drawSize>2.3</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

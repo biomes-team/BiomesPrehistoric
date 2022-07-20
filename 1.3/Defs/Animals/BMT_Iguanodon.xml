@@ -66,10 +66,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_IguanodonEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>8</eggFertilizationCountMax>
                 <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~2</eggCountRange>
+                <eggCountRange>5~8</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -78,8 +78,8 @@
                 <capacities>
                     <li>Stab</li>
                 </capacities>
-                <power>8.5</power>
-                <cooldownTime>2</cooldownTime>
+                <power>9</power>
+                <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftThumbSpike</linkedBodyPartsGroup>
             </li>
             <li>
@@ -87,15 +87,15 @@
                 <capacities>
                     <li>Stab</li>
                 </capacities>
-                <power>8.5</power>
-                <cooldownTime>2</cooldownTime>
+                <power>9</power>
+                <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightThumbSpike</linkedBodyPartsGroup>
             </li>
             <li>
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>7</power>
+                <power>8</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.3</chanceFactor>
@@ -179,7 +179,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>7.5</hatcherDaystoHatch>
+                <hatcherDaystoHatch>6</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Iguanodon</hatcherPawn>
             </li>
         </comps>

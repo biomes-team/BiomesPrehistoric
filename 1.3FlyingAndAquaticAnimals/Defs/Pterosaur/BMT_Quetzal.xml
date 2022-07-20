@@ -16,7 +16,7 @@
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalFlying</texPath>
-          <drawSize>3.0</drawSize>
+          <drawSize>3.2</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
@@ -41,7 +41,7 @@
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalFlying</texPath>
-          <drawSize>4.2</drawSize>
+          <drawSize>4.8</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
@@ -59,7 +59,7 @@
         <pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalFlying</texPath>
-          <drawSize>6.4</drawSize>
+          <drawSize>7</drawSize>
         </bodyGraphicData>
       </li>
     </modExtensions>
@@ -81,7 +81,7 @@
 	  <leatherDef>BMT_DinoHideThin</leatherDef>
       <herdAnimal>true</herdAnimal>
       <predator>true</predator>
-      <maxPreyBodySize>2.2</maxPreyBodySize>
+      <maxPreyBodySize>1.6</maxPreyBodySize>
       <baseBodySize>3.8</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale>
       <baseHungerRate>0.8</baseHungerRate>
@@ -200,7 +200,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherDaystoHatch>22</hatcherDaystoHatch>
         <hatcherPawn>BMT_Quetzal</hatcherPawn>
       </li>
     </comps>
@@ -218,31 +218,31 @@
 	  <label>quetzal hatchling</label>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
-          <drawSize>3.0</drawSize>
+          <drawSize>3.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
 		  <texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
-          <drawSize>3.0</drawSize>
+          <drawSize>3.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
 		  <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
-          <drawSize>4.2</drawSize>
+          <drawSize>4.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
-          <drawSize>4.2</drawSize>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
-          <drawSize>6.4</drawSize>
+          <drawSize>7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
-          <drawSize>6.4</drawSize>
+          <drawSize>7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
