@@ -124,7 +124,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TRex/Dessicated_TRex</texPath>
-                    <drawSize>6.0</drawSize>
+                    <drawSize>3.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
@@ -138,7 +138,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TRex/Dessicated_TRex</texPath>
-                    <drawSize>8.12</drawSize>
+                    <drawSize>4.6</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
@@ -152,7 +152,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TRex/Dessicated_TRex</texPath>
-                    <drawSize>16.14</drawSize>
+                    <drawSize>8.7</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

@@ -127,7 +127,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Edmontosaurus/Edmontosaurus</texPath>
-                    <drawSize>2.5</drawSize>
+                    <drawSize>1.8</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Edmontosaurus/Dessicated_Edmontosaurus</texPath>
@@ -151,7 +151,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Edmontosaurus/Edmontosaurus</texPath>
-                    <drawSize>5.8</drawSize>
+                    <drawSize>5.2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -159,7 +159,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Edmontosaurus/Dessicated_Edmontosaurus</texPath>
-                    <drawSize>5.8</drawSize>
+                    <drawSize>5.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
