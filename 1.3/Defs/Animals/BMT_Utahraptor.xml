@@ -30,7 +30,7 @@
             <manhunterOnDamageChance>0.3</manhunterOnDamageChance>
             <nuzzleMtbHours>12</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>
-            <trainability>Intermediate</trainability>
+            <trainability>Advanced</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>

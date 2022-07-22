@@ -192,7 +192,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>5</hatcherDaystoHatch>
+                <hatcherDaystoHatch>4.8</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Deinonychus</hatcherPawn>
             </li>
         </comps>

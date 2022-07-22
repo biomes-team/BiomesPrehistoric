@@ -171,7 +171,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>11</hatcherDaystoHatch>
+                <hatcherDaystoHatch>9</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Dimetrodon</hatcherPawn>
             </li>
         </comps>

@@ -27,7 +27,7 @@
             <lifeExpectancy>15</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
-            <trainability>Intermediate</trainability>
+            <trainability>None</trainability>
             <useMeatFrom>Megaspider</useMeatFrom>
             <lifeStageAges>
                 <li>
@@ -153,7 +153,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherDaystoHatch>6</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Arthropleura</hatcherPawn>
             </li>
         </comps>

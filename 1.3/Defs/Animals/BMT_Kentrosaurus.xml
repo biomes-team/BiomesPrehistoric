@@ -28,7 +28,7 @@
             <lifeExpectancy>57</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-            <trainability>None</trainability>
+            <trainability>Intermediate</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -180,7 +180,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>14</hatcherDaystoHatch>
+                <hatcherDaystoHatch>10</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Kentrosaurus</hatcherPawn>
             </li>
         </comps>

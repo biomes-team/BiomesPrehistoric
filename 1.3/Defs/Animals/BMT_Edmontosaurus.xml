@@ -69,7 +69,7 @@
                 <eggFertilizationCountMax>8</eggFertilizationCountMax>
                 <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>5~8</eggCountRange>
+                <eggCountRange>2~4</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -179,7 +179,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>6</hatcherDaystoHatch>
+                <hatcherDaystoHatch>8</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Edmontosaurus</hatcherPawn>
             </li>
         </comps>

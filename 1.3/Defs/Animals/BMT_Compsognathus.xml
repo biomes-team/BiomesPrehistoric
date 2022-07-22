@@ -20,7 +20,6 @@
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>0.13</baseBodySize>
-			<roamMtbDays>7</roamMtbDays>
             <baseHealthScale>0.45</baseHealthScale>
             <baseHungerRate>0.25</baseHungerRate>
             <foodType>CarnivoreAnimal</foodType>

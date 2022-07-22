@@ -69,7 +69,7 @@
 			<baseHealthScale>0.4</baseHealthScale>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<wildness>0.95</wildness>
-			<trainability>Intermediate</trainability>
+			<trainability>None</trainability>
 			<lifeExpectancy>6</lifeExpectancy>
 			<lifeStageAges>
 				<li>

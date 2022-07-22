@@ -200,7 +200,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>22</hatcherDaystoHatch>
+        <hatcherDaystoHatch>16</hatcherDaystoHatch>
         <hatcherPawn>BMT_Quetzal</hatcherPawn>
       </li>
     </comps>

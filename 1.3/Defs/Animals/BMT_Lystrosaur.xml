@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Lystrosaur</defName>
-        <label>lystrosaur</label>
+        <label>lystrosaurus</label>
         <description>Having thought to weigh under 200 pounds, this dinosaur fed on the stems and leaves of plants. Its strange appearance and small size makes it a popular pet on dinosaur-populated worlds.\n\nScientific Name: Lystrosaurus hedini</description>
         <statBases>
             <MoveSpeed>2.2</MoveSpeed>
@@ -23,7 +23,6 @@
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <wildness>0.20</wildness>
-            <roamMtbDays>4</roamMtbDays>
             <lifeExpectancy>55</lifeExpectancy>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
@@ -169,7 +168,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>16</hatcherDaystoHatch>
+                <hatcherDaystoHatch>7.5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Lystrosaur</hatcherPawn>
             </li>
         </comps>

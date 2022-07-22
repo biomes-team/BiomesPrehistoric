@@ -20,7 +20,6 @@
             <baseHealthScale>1.7</baseHealthScale>
             <baseHungerRate>0.55</baseHungerRate>
             <packAnimal>true</packAnimal>
-			<roamMtbDays>2.6</roamMtbDays>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
@@ -31,7 +30,7 @@
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
-            <trainability>None</trainability>
+            <trainability>Advanced</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -69,7 +68,7 @@
                 <eggFertilizationCountMax>8</eggFertilizationCountMax>
                 <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>5~8</eggCountRange>
+                <eggCountRange>2~3</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -179,7 +178,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>6</hatcherDaystoHatch>
+                <hatcherDaystoHatch>8</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Iguanodon</hatcherPawn>
             </li>
         </comps>

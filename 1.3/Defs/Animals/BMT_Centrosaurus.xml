@@ -31,7 +31,7 @@
 			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
 			<nuzzleMtbHours>6</nuzzleMtbHours>
 			<nameOnTameChance>1</nameOnTameChance>
-			<trainability>Intermediate</trainability>
+			<trainability>None</trainability>
 			<ageGenerationCurve>
 				<points>
 					<li>(0.0,0)</li>
@@ -199,7 +199,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>14</hatcherDaystoHatch>
+				<hatcherDaystoHatch>11</hatcherDaystoHatch>
 				<hatcherPawn>BMT_Centrosaurus</hatcherPawn>
 			</li>
 		</comps>

@@ -32,7 +32,7 @@
             <lifeExpectancy>90</lifeExpectancy>
             <manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
-            <trainability>None</trainability>
+            <trainability>Intermediate</trainability>
             <lifeStageAges>
                 <li>
                     <def>AnimalBabyTiny</def>
@@ -180,7 +180,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>17</hatcherDaystoHatch>
+                <hatcherDaystoHatch>20</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Brachiosaurus</hatcherPawn>
             </li>
         </comps>

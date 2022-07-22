@@ -29,7 +29,7 @@
             <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
             <nuzzleMtbHours>12</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>
-            <trainability>Intermediate</trainability>
+            <trainability>None</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -73,7 +73,7 @@
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
                 <eggLayIntervalDays>15</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1</eggCountRange>
+                <eggCountRange>1~4</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -185,7 +185,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>7</hatcherDaystoHatch>
+                <hatcherDaystoHatch>5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Struthiomimus</hatcherPawn>
             </li>
         </comps>

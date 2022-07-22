@@ -28,7 +28,7 @@
             <lifeExpectancy>85</lifeExpectancy>
             <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
-            <trainability>Advanced</trainability>
+            <trainability>None</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -181,7 +181,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherDaystoHatch>12</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Polacanthus</hatcherPawn>
             </li>
         </comps>

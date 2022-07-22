@@ -78,7 +78,7 @@
 	    <maxPreyBodySize>0.25</maxPreyBodySize>
 		<leatherDef>Leather_Lizard</leatherDef>
 		<wildness>0.6</wildness>
-		<trainability>Intermediate</trainability>
+		<trainability>None</trainability>
 		<petness>0.10</petness>
 		<lifeExpectancy>17</lifeExpectancy>
 		<lifeStageAges>
@@ -121,7 +121,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>8</hatcherDaystoHatch>
+        <hatcherDaystoHatch>5.5</hatcherDaystoHatch>
         <hatcherPawn>BMT_Diplocaulus</hatcherPawn>
       </li>
     </comps>

@@ -28,7 +28,7 @@
             <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.010</manhunterOnDamageChance>
             <nuzzleMtbHours>20</nuzzleMtbHours>
-            <trainability>Intermediate</trainability>
+            <trainability>Advanced</trainability>
             <lifeStageAges>
                 <li>
                     <def>AnimalBabyTiny</def>
@@ -172,7 +172,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>5</hatcherDaystoHatch>
+                <hatcherDaystoHatch>5.8</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Timimus</hatcherPawn>
             </li>
         </comps>

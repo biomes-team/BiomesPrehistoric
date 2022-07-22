@@ -32,7 +32,7 @@
             <lifeExpectancy>60</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-            <trainability>None</trainability>
+            <trainability>Intermediate</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>

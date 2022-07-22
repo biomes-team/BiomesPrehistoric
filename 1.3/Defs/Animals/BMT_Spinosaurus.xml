@@ -85,7 +85,7 @@
 			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<wildness>0.84</wildness>
-			<trainability>None</trainability>
+			<trainability>Intermediate</trainability>
 			<petness>0.05</petness>
 			<lifeExpectancy>120</lifeExpectancy>
 			<manhunterOnDamageChance>0.7</manhunterOnDamageChance>
@@ -201,7 +201,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>16</hatcherDaystoHatch>
+				<hatcherDaystoHatch>14</hatcherDaystoHatch>
 				<hatcherPawn>BMT_Spinosaurus</hatcherPawn>
 			</li>
 		</comps>

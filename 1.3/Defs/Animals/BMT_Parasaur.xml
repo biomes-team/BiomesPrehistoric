@@ -191,7 +191,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherDaystoHatch>8.7</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Parasaur</hatcherPawn>
             </li>
         </comps>

@@ -27,7 +27,7 @@
             <lifeExpectancy>10</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
-            <trainability>Intermediate</trainability>
+            <trainability>None</trainability>
             <useMeatFrom>Megaspider</useMeatFrom>
             <lifeStageAges>
                 <li>
@@ -143,7 +143,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>15</hatcherDaystoHatch>
+                <hatcherDaystoHatch>5.5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Meganeura</hatcherPawn>
             </li>
         </comps>
