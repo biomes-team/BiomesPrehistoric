@@ -19,7 +19,7 @@
             <herdAnimal>false</herdAnimal>
             <baseBodySize>1</baseBodySize>
             <baseHealthScale>1.2</baseHealthScale>
-            <baseHungerRate>0.60</baseHungerRate>
+            <baseHungerRate>0.55</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <packAnimal>false</packAnimal>

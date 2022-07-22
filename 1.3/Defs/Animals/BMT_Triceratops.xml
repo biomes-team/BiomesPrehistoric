@@ -20,12 +20,11 @@
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>3.0</baseBodySize>
 			<baseHealthScale>3.5</baseHealthScale>
-			<baseHungerRate>1.07</baseHungerRate>
+			<baseHungerRate>0.75</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<predator>false</predator>
 			<packAnimal>true</packAnimal>
 			<wildness>0.20</wildness>
-			<roamMtbDays>4</roamMtbDays>
 			<lifeExpectancy>60</lifeExpectancy>
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>

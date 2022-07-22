@@ -18,12 +18,12 @@
             <body>BMT_BipedWithClawsTeethAndTail</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>4</baseBodySize>
+            <baseBodySize>7</baseBodySize>
             <baseHealthScale>3.5</baseHealthScale>
             <baseHungerRate>0.60</baseHungerRate>
             <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
             <predator>true</predator>
-            <maxPreyBodySize>1.8</maxPreyBodySize>
+            <maxPreyBodySize>5</maxPreyBodySize>
             <wildness>0.85</wildness>
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>

@@ -19,7 +19,7 @@
             <herdAnimal>true</herdAnimal>
             <baseBodySize>0.7</baseBodySize>
             <baseHealthScale>0.8</baseHealthScale>
-            <baseHungerRate>0.50</baseHungerRate>
+            <baseHungerRate>0.45</baseHungerRate>
             <foodType>OmnivoreRoughAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>1</maxPreyBodySize>

@@ -16,9 +16,9 @@
             <body>BMT_BipedWithClawsTeethAndTail</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>2.2</baseBodySize>
+            <baseBodySize>2.4</baseBodySize>
             <baseHealthScale>2.8</baseHealthScale>
-            <baseHungerRate>0.55</baseHungerRate>
+            <baseHungerRate>0.38</baseHungerRate>
             <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>1.5</maxPreyBodySize>

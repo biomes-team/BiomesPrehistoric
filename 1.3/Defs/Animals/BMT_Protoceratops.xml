@@ -18,9 +18,9 @@
             <body>QuadrupedAnimalWithHooves</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>1</baseBodySize>
+            <baseBodySize>0.75</baseBodySize>
             <baseHealthScale>0.8</baseHealthScale>
-            <baseHungerRate>0.40</baseHungerRate>
+            <baseHungerRate>0.8</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <wildness>0.20</wildness>

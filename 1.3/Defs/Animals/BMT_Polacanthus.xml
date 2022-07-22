@@ -18,7 +18,7 @@
             <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.5</baseBodySize>
-            <baseHealthScale>5</baseHealthScale>
+            <baseHealthScale>4</baseHealthScale>
             <baseHungerRate>0.60</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>

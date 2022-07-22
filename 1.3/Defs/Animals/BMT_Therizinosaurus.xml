@@ -20,7 +20,7 @@
             <herdAnimal>false</herdAnimal>
             <baseBodySize>3</baseBodySize>
             <baseHealthScale>2.5</baseHealthScale>
-            <baseHungerRate>0.60</baseHungerRate>
+            <baseHungerRate>0.33</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <wildness>0.85</wildness>

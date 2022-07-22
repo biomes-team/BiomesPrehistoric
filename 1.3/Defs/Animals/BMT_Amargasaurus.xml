@@ -17,9 +17,9 @@
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>3.5</baseBodySize>
+            <baseBodySize>4.5</baseBodySize>
             <baseHealthScale>2.25</baseHealthScale>
-            <baseHungerRate>0.535</baseHungerRate>
+            <baseHungerRate>1.635</baseHungerRate>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
