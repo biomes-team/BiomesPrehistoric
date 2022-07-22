@@ -56,10 +56,10 @@
         </race>
         <comps>
             <li Class="CompProperties_EggLayer">
+                <eggUnfertilizedDef>BMT_EggCompsognathusUnfertilized</eggUnfertilizedDef>
                 <eggFertilizedDef>BMT_CompsognathusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>5</eggFertilizationCountMax>
                 <eggLayIntervalDays>3</eggLayIntervalDays>
-                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>4~5</eggCountRange>
             </li>
         </comps>
@@ -183,6 +183,20 @@
                 <hatcherPawn>BMT_Compsognathus</hatcherPawn>
             </li>
         </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="EggUnfertBase">
+        <defName>BMT_EggCompsognathusUnfertilized</defName>
+        <label>ccompsognathus (unfert.)</label>
+        <description>An unfertilized compsognathus. It can be eaten raw, but it's much, much better cooked.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+            <color>(181,164,138)</color>
+            <drawSize>0.85</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>15.0</MarketValue>
+        </statBases>
     </ThingDef>
 
 </Defs>
