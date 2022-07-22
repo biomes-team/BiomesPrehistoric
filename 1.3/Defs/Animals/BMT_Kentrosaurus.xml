@@ -18,13 +18,13 @@
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.8</baseBodySize>
-            <baseHealthScale>1.4</baseHealthScale>
-            <baseHungerRate>0.5</baseHungerRate>
+            <baseHealthScale>2</baseHealthScale>
+            <baseHungerRate>0.58</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <packAnimal>false</packAnimal>
             <wildness>0.20</wildness>
-            <roamMtbDays>2</roamMtbDays>
+            <roamMtbDays>4</roamMtbDays>
             <lifeExpectancy>57</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>

@@ -16,9 +16,9 @@
             <body>BMT_BeetleLikeWithStinger</body>
             <leatherDef>BMT_PrimordialChitin</leatherDef>
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>1</baseBodySize>
+            <baseBodySize>0.77</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
-            <baseHungerRate>0.625</baseHungerRate>
+            <baseHungerRate>0.35</baseHungerRate>
             <foodType>OmnivoreRoughAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>0.80</maxPreyBodySize>

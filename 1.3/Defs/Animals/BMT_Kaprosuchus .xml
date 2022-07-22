@@ -18,15 +18,14 @@
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef> <!--The .txt says medium, but I think this would fit better.-->
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>3</baseBodySize>
+            <baseBodySize>0.9</baseBodySize>
             <baseHealthScale>1.5</baseHealthScale>
-            <baseHungerRate>0.5</baseHungerRate>
+            <baseHungerRate>0.25</baseHungerRate>
             <foodType>CarnivoreAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>2.4</maxPreyBodySize>
             <packAnimal>false</packAnimal>
             <wildness>0.30</wildness>
-            <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>80</lifeExpectancy>
             <manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.35</manhunterOnDamageChance>

@@ -19,8 +19,8 @@
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2</baseBodySize>
-            <baseHealthScale>1</baseHealthScale>
-            <baseHungerRate>0.50</baseHungerRate>
+            <baseHealthScale>2.5</baseHealthScale>
+            <baseHungerRate>0.40</baseHungerRate>
             <foodType>CarnivoreAnimalStrict</foodType>
             <predator>true</predator>
             <maxPreyBodySize>1.8</maxPreyBodySize>

@@ -17,14 +17,13 @@
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>2.5</baseBodySize>
+            <baseBodySize>4</baseBodySize>
             <baseHealthScale>3</baseHealthScale>
-            <baseHungerRate>0.60</baseHungerRate>
+            <baseHungerRate>0.75</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <packAnimal>true</packAnimal>
             <wildness>0.45</wildness>
-            <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>72</lifeExpectancy>
             <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>

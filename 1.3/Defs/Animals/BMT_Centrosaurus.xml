@@ -18,14 +18,13 @@
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>2.0</baseBodySize>
-			<baseHealthScale>2.8</baseHealthScale>
-			<baseHungerRate>1.07</baseHungerRate>
+			<baseBodySize>4</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
+			<baseHungerRate>0.90</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<predator>false</predator>
 			<packAnimal>true</packAnimal>
 			<wildness>0.20</wildness>
-			<roamMtbDays>3</roamMtbDays>
 			<lifeExpectancy>70</lifeExpectancy>
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>

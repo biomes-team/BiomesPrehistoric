@@ -19,7 +19,7 @@
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.6</baseBodySize>
             <baseHealthScale>1.7</baseHealthScale>
-            <baseHungerRate>0.55</baseHungerRate>
+            <baseHungerRate>0.65</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
 			<packAnimal>true</packAnimal>
@@ -28,7 +28,7 @@
             <lifeExpectancy>22</lifeExpectancy>
             <manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.005</manhunterOnDamageChance>
-            <trainability>Intermediate</trainability>
+            <trainability>None</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>

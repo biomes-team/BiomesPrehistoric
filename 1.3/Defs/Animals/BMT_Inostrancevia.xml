@@ -17,11 +17,12 @@
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>2.4</baseBodySize>
+            <baseBodySize>1.5</baseBodySize>
             <baseHealthScale>1.55</baseHealthScale>
-            <baseHungerRate>0.50</baseHungerRate>
+            <baseHungerRate>0.35</baseHungerRate>
             <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
             <predator>true</predator>
+			<maxPreyBodySize>1</maxPreyBodySize>
             <wildness>0.70</wildness>
             <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>75</lifeExpectancy>

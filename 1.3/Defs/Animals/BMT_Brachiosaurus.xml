@@ -18,7 +18,7 @@
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>9.5</baseBodySize>
-            <baseHealthScale>3.0</baseHealthScale>
+            <baseHealthScale>5.0</baseHealthScale>
             <baseHungerRate>1.735</baseHungerRate>
             <packAnimal>true</packAnimal>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
@@ -32,7 +32,7 @@
             <lifeExpectancy>90</lifeExpectancy>
             <manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
-            <trainability>Intermediate</trainability>
+            <trainability>None</trainability>
             <lifeStageAges>
                 <li>
                     <def>AnimalBabyTiny</def>
