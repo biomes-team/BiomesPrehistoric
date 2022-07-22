@@ -167,7 +167,6 @@
 									<def>BMT_FrontThumbSpike</def>
 									<customLabel>right thumb spike</customLabel>
 									<coverage>0.1</coverage>
-									<height>Bottom</height>
 									<groups>
 										<li>BMT_FrontRightThumbSpike</li>
 									</groups>
@@ -210,7 +209,6 @@
 									<def>BMT_FrontThumbSpike</def>
 									<customLabel>left thumb spike</customLabel>
 									<coverage>0.1</coverage>
-									<height>Bottom</height>
 									<groups>
 										<li>BMT_FrontLeftThumbSpike</li>
 									</groups>

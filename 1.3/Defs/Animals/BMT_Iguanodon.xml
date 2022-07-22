@@ -79,7 +79,7 @@
                 </capacities>
                 <power>9</power>
                 <cooldownTime>1.5</cooldownTime>
-                <linkedBodyPartsGroup>FrontLeftThumbSpike</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>BMT_FrontLeftThumbSpike</linkedBodyPartsGroup>
             </li>
             <li>
                 <label>right thumb spike</label>
@@ -88,7 +88,7 @@
                 </capacities>
                 <power>9</power>
                 <cooldownTime>1.5</cooldownTime>
-                <linkedBodyPartsGroup>FrontRightThumbSpike</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>BMT_FrontRightThumbSpike</linkedBodyPartsGroup>
             </li>
             <li>
                 <capacities>

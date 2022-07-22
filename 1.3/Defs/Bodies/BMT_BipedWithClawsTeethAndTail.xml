@@ -121,7 +121,7 @@
 							<coverage>0.25</coverage>
 							<height>Bottom</height>
 							<groups>
-								<li>FrontLeftClaws</li>
+								<li>BMT_RearLeftClaw</li>
 							</groups>
 						</li>
 					</parts>
@@ -146,7 +146,7 @@
 							<coverage>0.25</coverage>
 							<height>Bottom</height>
 							<groups>
-								<li>FrontRightClaws</li>
+								<li>BMT_RearRightClaw</li>
 							</groups>
 						</li>
 					</parts>
