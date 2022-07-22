@@ -9,7 +9,7 @@
 			<depth>Outside</depth>
 			<parts>
 				<li>
-					<def>Tail</def>
+					<def>BMT_Tail</def>
 					<coverage>0.10</coverage>
 				</li>
 				<li>
@@ -115,6 +115,15 @@
 								<li>Feet</li>
 							</groups>
 						</li>
+						<li>
+							<def>BMT_RearClaw</def>
+							<customLabel>left sickel claw</customLabel>
+							<coverage>0.25</coverage>
+							<height>Bottom</height>
+							<groups>
+								<li>FrontLeftClaws</li>
+							</groups>
+						</li>
 					</parts>
 				</li>
 				<li>
@@ -129,6 +138,15 @@
 							<coverage>0.5</coverage>
 							<groups>
 								<li>Feet</li>
+							</groups>
+						</li>
+						<li>
+							<def>BMT_RearClaw</def>
+							<customLabel>right sickel claw</customLabel>
+							<coverage>0.25</coverage>
+							<height>Bottom</height>
+							<groups>
+								<li>FrontRightClaws</li>
 							</groups>
 						</li>
 					</parts>
@@ -156,12 +174,12 @@
 									<depth>Inside</depth>
 								</li>
 								<li>
-									<def>FrontClaw</def>
+									<def>BMT_FrontClaw</def>
 									<customLabel>right claws</customLabel>
 									<coverage>0.25</coverage>
 									<height>Bottom</height>
 									<groups>
-										<li>FrontRightClaws</li>
+										<li>BMT_FrontRightClaws</li>
 									</groups>
 								</li>
 							</parts>
@@ -191,12 +209,12 @@
 									<depth>Inside</depth>
 								</li>
 								<li>
-									<def>FrontClaw</def>
+									<def>BMT_FrontClaw</def>
 									<customLabel>left claws</customLabel>
 									<coverage>0.25</coverage>
 									<height>Bottom</height>
 									<groups>
-										<li>FrontLeftClaws</li>
+										<li>BMT_FrontLeftClaws</li>
 									</groups>
 								</li>
 							</parts>

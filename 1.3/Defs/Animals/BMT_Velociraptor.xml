@@ -83,18 +83,36 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>9</power>
-                <cooldownTime>1.2</cooldownTime>
-                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
             </li>
             <li>
                 <label>right claw</label>
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>9</power>
-                <cooldownTime>1.2</cooldownTime>
-                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>left sickle claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right sickle claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
             </li>
             <li>
                 <capacities>

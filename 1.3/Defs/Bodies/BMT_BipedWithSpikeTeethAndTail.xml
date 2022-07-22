@@ -9,7 +9,7 @@
 			<depth>Outside</depth>
 			<parts>
 				<li>
-					<def>Tail</def>
+					<def>BMT_Tail</def>
 					<coverage>0.10</coverage>
 				</li>
 				<li>
@@ -156,12 +156,20 @@
 									<depth>Inside</depth>
 								</li>
 								<li>
-									<def>FrontThumbSpike</def>
+									<def>BMT_FrontClaw</def>
+									<customLabel>front right claw</customLabel>
+									<coverage>0.05</coverage>
+									<groups>
+										<li>BMT_FrontRightClaws</li>
+									</groups>
+								</li>
+								<li>
+									<def>BMT_FrontThumbSpike</def>
 									<customLabel>right thumb spike</customLabel>
 									<coverage>0.1</coverage>
 									<height>Bottom</height>
 									<groups>
-										<li>FrontRightThumbSpike</li>
+										<li>BMT_FrontRightThumbSpike</li>
 									</groups>
 								</li>
 							</parts>
@@ -191,12 +199,20 @@
 									<depth>Inside</depth>
 								</li>
 								<li>
-									<def>FrontThumbSpike</def>
+									<def>BMT_FrontClaw</def>
+									<customLabel>front left claw</customLabel>
+									<coverage>0.05</coverage>
+									<groups>
+										<li>BMT_FrontLeftClaws</li>
+									</groups>
+								</li>
+								<li>
+									<def>BMT_FrontThumbSpike</def>
 									<customLabel>left thumb spike</customLabel>
 									<coverage>0.1</coverage>
 									<height>Bottom</height>
 									<groups>
-										<li>FrontLeftThumbSpike</li>
+										<li>BMT_FrontLeftThumbSpike</li>
 									</groups>
 								</li>
 							</parts>

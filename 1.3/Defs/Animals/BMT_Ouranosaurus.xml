@@ -78,7 +78,7 @@
                 </capacities>
                 <power>7.5</power>
                 <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
             </li>
             <li>
                 <label>right claw</label>
@@ -87,7 +87,7 @@
                 </capacities>
                 <power>7.5</power>
                 <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
             </li>
             <li>
                 <capacities>

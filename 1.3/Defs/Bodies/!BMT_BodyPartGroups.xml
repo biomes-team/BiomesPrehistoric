@@ -11,17 +11,41 @@
 		<defName>BMT_TailGroup</defName>
 		<label>tail</label>
 	</BodyPartGroupDef>
-  
+
 	<BodyPartGroupDef>
-		<defName>FrontLeftThumbSpike</defName>
+		<defName>BMT_FrontLeftThumbSpike</defName>
 		<label>front left thumb spike</label>
 		<labelShort>thumb spike</labelShort>
 	</BodyPartGroupDef>
-  
+
 	<BodyPartGroupDef>
-		<defName>FrontRightThumbSpike</defName>
+		<defName>BMT_FrontRightThumbSpike</defName>
 		<label>front right thumb spike</label>
 		<labelShort>thumb spike</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_RearLeftClaw</defName>
+		<label>rear left sickel claw</label>
+		<labelShort>sickel claw</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_RearRightClaw</defName>
+		<label>rear right sickel claw</label>
+		<labelShort>sickel claw</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_FrontLeftClaws</defName>
+		<label>front left claws</label>
+		<labelShort>claws</labelShort>
+	</BodyPartGroupDef>
+  
+	<BodyPartGroupDef>
+		<defName>BMT_FrontRightClaws</defName>
+		<label>front right claws</label>
+		<labelShort>claws</labelShort>
 	</BodyPartGroupDef>
 
 </Defs>

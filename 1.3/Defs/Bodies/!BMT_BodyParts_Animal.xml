@@ -16,19 +16,47 @@
 	<BodyPartDef>
 		<defName>BMT_TailWeapon</defName>
 		<label>tail</label>
-		<hitPoints>10</hitPoints>
+		<hitPoints>15</hitPoints>
 		<!-- <frostbiteVulnerability>8</frostbiteVulnerability> -->
 		<skinCovered>false</skinCovered>
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>FrontThumbSpike</defName>
+		<defName>BMT_Tail</defName>
+		<label>tail</label>
+		<hitPoints>14</hitPoints>
+		<frostbiteVulnerability>8</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef ParentName="ClawBase">
+		<defName>BMT_FrontThumbSpike</defName>
 		<label>thumb Spike</label>
-		<hitPoints>8</hitPoints>
-		<!-- <frostbiteVulnerability>8</frostbiteVulnerability> -->
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<bleedRate>0</bleedRate>
+		<hitPoints>12</hitPoints>
+		<tags>
+			<li>MovingLimbDigit</li>
+			<li>ManipulationLimbDigit</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef ParentName="ClawBase">
+		<defName>BMT_RearClaw</defName>
+		<label>sickle claw</label>
+		<hitPoints>12</hitPoints>
+		<tags>
+			<li>MovingLimbDigit</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef ParentName="ClawBase">
+		<defName>BMT_FrontClaw</defName>
+		<label>front claw</label>
+		<labelShort>claw</labelShort>
+		<hitPoints>12</hitPoints>
+		<tags>
+			<li>MovingLimbDigit</li>
+			<li>ManipulationLimbDigit</li>
+		</tags>
 	</BodyPartDef>
 
 </Defs>

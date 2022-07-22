@@ -10,7 +10,7 @@
       <depth>Outside</depth>
       <parts>
         <li>
-          <def>Tail</def>
+          <def>BMT_Tail</def>
           <coverage>0.15</coverage>
 		  <parts>
 			<li>
