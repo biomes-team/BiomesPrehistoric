@@ -78,7 +78,7 @@
             </li>
            <li Class="CompProperties_Spawner">
                 <thingToSpawn>BMT_DinoHideFeathery</thingToSpawn>
-                <spawnCount>10</spawnCount>
+                <spawnCount>2</spawnCount>
                 <spawnIntervalRange>60000~120000</spawnIntervalRange>
                 <spawnMaxAdjacent>10</spawnMaxAdjacent>
                 <saveKeysPrefix>DinoFeather</saveKeysPrefix>
