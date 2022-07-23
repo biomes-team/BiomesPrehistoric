@@ -66,8 +66,8 @@
         <comps>
             <li Class="CompProperties_Shearable">
                 <woolDef>BMT_DinoHideFeathery</woolDef>
-                <shearIntervalDays>30</shearIntervalDays>
-                <woolAmount>3</woolAmount>
+                <shearIntervalDays>60</shearIntervalDays>
+                <woolAmount>5</woolAmount>
             </li>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_DeinonychusEggFertilized</eggFertilizedDef>
@@ -79,7 +79,7 @@
            <li Class="CompProperties_Spawner">
                 <thingToSpawn>BMT_DinoHideFeathery</thingToSpawn>
                 <spawnCount>2</spawnCount>
-                <spawnIntervalRange>120000~300000</spawnIntervalRange>
+                <spawnIntervalRange>60000~120000</spawnIntervalRange>
                 <spawnMaxAdjacent>10</spawnMaxAdjacent>
                 <saveKeysPrefix>DinoFeather</saveKeysPrefix>
             </li>

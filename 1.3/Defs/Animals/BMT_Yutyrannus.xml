@@ -64,8 +64,8 @@
         <comps>
             <li Class="CompProperties_Shearable">
                 <woolDef>BMT_DinoHideFeathery</woolDef>
-                <shearIntervalDays>30</shearIntervalDays>
-                <woolAmount>5</woolAmount>
+                <shearIntervalDays>15</shearIntervalDays>
+                <woolAmount>75</woolAmount>
             </li>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_YutyrannusEggFertilized</eggFertilizedDef>
