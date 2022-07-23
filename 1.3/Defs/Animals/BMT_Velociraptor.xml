@@ -24,7 +24,7 @@
             <foodType>OmnivoreRoughAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>0.5</maxPreyBodySize>
-            <wildness>0.20</wildness>
+            <wildness>0.40</wildness>
             <lifeExpectancy>10</lifeExpectancy>
             <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.010</manhunterOnDamageChance>

@@ -23,10 +23,10 @@
             <baseHungerRate>0.8</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
-            <wildness>0.20</wildness>
+            <wildness>0.10</wildness>
             <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>60</lifeExpectancy>
-            <manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.0</manhunterOnDamageChance>
             <nuzzleMtbHours>6</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>

@@ -24,7 +24,7 @@
             <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>1.5</maxPreyBodySize>
-            <wildness>0.85</wildness>
+            <wildness>0.65</wildness>
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.70</manhunterOnDamageChance>

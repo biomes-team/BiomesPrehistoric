@@ -25,8 +25,8 @@
             <packAnimal>false</packAnimal>
             <wildness>0.55</wildness>
             <lifeExpectancy>32</lifeExpectancy>
-            <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
             <trainability>None</trainability>
             <lifeStageAges>
                 <li>

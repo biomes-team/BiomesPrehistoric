@@ -26,8 +26,8 @@
 			<packAnimal>true</packAnimal>
 			<wildness>0.20</wildness>
 			<lifeExpectancy>70</lifeExpectancy>
-			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>
 			<nuzzleMtbHours>6</nuzzleMtbHours>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>

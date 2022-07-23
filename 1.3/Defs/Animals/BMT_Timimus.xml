@@ -25,8 +25,8 @@
             <predator>true</predator>
             <wildness>0.20</wildness>
             <lifeExpectancy>13</lifeExpectancy>
-            <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.010</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
             <nuzzleMtbHours>20</nuzzleMtbHours>
             <trainability>Advanced</trainability>
             <lifeStageAges>

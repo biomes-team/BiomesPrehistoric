@@ -23,11 +23,11 @@
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
 			<packAnimal>true</packAnimal>
-            <wildness>0.10</wildness>
+            <wildness>0.25</wildness>
             <roamMtbDays>2.6</roamMtbDays>
             <lifeExpectancy>22</lifeExpectancy>
-            <manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.005</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
             <trainability>None</trainability>
             <ageGenerationCurve>
                 <points>

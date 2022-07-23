@@ -23,10 +23,10 @@
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <packAnimal>false</packAnimal>
-            <wildness>0.4</wildness>
+            <wildness>0.30</wildness>
             <lifeExpectancy>45</lifeExpectancy>
-            <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.02</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.0</manhunterOnDamageChance>
             <trainability>None</trainability>
             <lifeStageAges>
                 <li>

@@ -23,7 +23,7 @@
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <packAnimal>false</packAnimal>
-            <wildness>0.60</wildness>
+            <wildness>0.40</wildness>
             <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>85</lifeExpectancy>
             <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>

@@ -84,12 +84,12 @@
 			<baseHungerRate>0.28</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>Leather_Lizard</leatherDef>
-			<wildness>0.84</wildness>
+			<wildness>0.83</wildness>
 			<trainability>Intermediate</trainability>
 			<petness>0.05</petness>
 			<lifeExpectancy>120</lifeExpectancy>
 			<manhunterOnDamageChance>0.7</manhunterOnDamageChance>
-			<manhunterOnTameFailChance>0.23</manhunterOnTameFailChance>
+			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

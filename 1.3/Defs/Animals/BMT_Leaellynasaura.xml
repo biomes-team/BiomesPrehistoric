@@ -22,7 +22,7 @@
             <baseHungerRate>0.20</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
-            <wildness>0.40</wildness>
+            <wildness>0.20</wildness>
             <roamMtbDays>4</roamMtbDays>
             <lifeExpectancy>30</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
