@@ -153,6 +153,7 @@
         <label>mosasaurus</label>
         <race>BMT_Mosasaurus</race>
         <combatPower>270</combatPower>
+        <canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>4.0</ecoSystemWeight>
         <lifeStages>
             <li>

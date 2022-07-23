@@ -167,6 +167,7 @@
         <label>orthoceras</label>
         <race>BMT_Orthoceras</race>
         <combatPower>60</combatPower>
+        <canArriveManhunter>false</canArriveManhunter>
 		<wildGroupSize>1</wildGroupSize>
 		<ecoSystemWeight>50</ecoSystemWeight>
         <lifeStages>

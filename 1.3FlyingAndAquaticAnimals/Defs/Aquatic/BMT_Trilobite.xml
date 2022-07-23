@@ -150,6 +150,7 @@
 		<label>trilobite</label>
 		<race>BMT_Trilobite</race>
 		<combatPower>40</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<wildGroupSize>
 			<min>6</min>

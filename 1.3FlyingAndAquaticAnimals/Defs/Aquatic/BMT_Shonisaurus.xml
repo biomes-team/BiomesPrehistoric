@@ -158,6 +158,7 @@
         <label>shonisaurus</label>
         <race>BMT_Shonisaurus</race>
         <combatPower>90</combatPower>
+        <canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>2.0</ecoSystemWeight>
 		<wildGroupSize>2~4</wildGroupSize>
         <lifeStages>

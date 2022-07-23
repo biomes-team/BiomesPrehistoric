@@ -150,6 +150,7 @@
 	  <description>Elasmosaurus used its long neck to get close to prey without them noticing. A swift flick of the neck could catch them unawares. Its long, narrow teeth were perfect for piercing and trapping small, soft prey. Scientific name: Elasmosaurus platyurus</description>
         <race>BMT_Elasmosaurus</race>
         <combatPower>250</combatPower>
+        <canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>3.0</ecoSystemWeight>
         <lifeStages>
             <li>
