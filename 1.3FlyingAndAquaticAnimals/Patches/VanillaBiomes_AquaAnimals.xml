@@ -12,6 +12,7 @@ BMT_Eurypterid - All island and shorelines except the coldest. Prefers shallow w
 BMT_GiantAmmonite - All island and shorelines except the coldest (same as BMT_Ammonite).
 BMT_Icthyosaurus - Cool to warm islands and shores.
 BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores
+BMT_Megalodon - 
 BMT_Mosasaurus - Cold (but not freezing) to tropical islands. 
 BMT_Orthoceras - All island and shorelines.
 BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
