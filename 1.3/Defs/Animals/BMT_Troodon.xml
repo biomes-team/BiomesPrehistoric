@@ -23,7 +23,7 @@
             <baseHungerRate>0.10</baseHungerRate>
             <foodType>CarnivoreAnimalStrict</foodType>
             <predator>true</predator>
-            <maxPreyBodySize>2</maxPreyBodySize>
+            <maxPreyBodySize>0.75</maxPreyBodySize>
             <wildness>0.20</wildness>
             <lifeExpectancy>15</lifeExpectancy>
             <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
