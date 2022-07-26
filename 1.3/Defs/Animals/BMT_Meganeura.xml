@@ -67,17 +67,27 @@
                 <capacities>
                     <li>ToxicBite</li>
                 </capacities>
-                <power>8.8</power>
+                <power>6</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>stinger</label>
+                <capacities>
+                    <li>BMT_ToxicSting</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>5</cooldownTime>
+                <linkedBodyPartsGroup>BMT_StingerGroup</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
             </li>
             <li>
                 <label>head</label>
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>7</power>
+                <power>5</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

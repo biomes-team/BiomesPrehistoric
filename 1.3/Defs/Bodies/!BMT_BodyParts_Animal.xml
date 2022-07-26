@@ -3,17 +3,6 @@
 <Defs>
 
 	<BodyPartDef>
-		<defName>Stinger</defName>
-		<label>stinger</label>
-		<hitPoints>15</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
-
-	<BodyPartDef>
 		<defName>BMT_TailWeapon</defName>
 		<label>tail</label>
 		<hitPoints>15</hitPoints>
