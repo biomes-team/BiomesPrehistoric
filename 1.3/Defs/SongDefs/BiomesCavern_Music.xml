@@ -10,7 +10,7 @@
         <onCamera>True</onCamera>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>BMT_Prehistoric_Music/A_Little_Guy</clipPath>
+            <clipPath>BMT_Animals\BMT_HugeDino\HugeDino_Call</clipPath>
           </li>
         </grains>      
         <volumeRange>30~30</volumeRange>
@@ -20,7 +20,7 @@
 
   <SongDef>
     <defName>EntrySong</defName>
-    <clipPath>BMT_Prehistoric_Music/A_Little_Guy</clipPath>
+    <clipPath>BMT_Prehistoric_Music/Little_Guy</clipPath>
   </SongDef>
 
   <SongDef>
