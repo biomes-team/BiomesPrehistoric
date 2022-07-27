@@ -6,7 +6,7 @@
         <label>tufted mosstree</label>
         <description>A sturdy tree covered in protective scales. Despite its high yield it is not ideal for wood production due to the time it takes to get through the tree's armour.</description>
         <graphicData>
-            <texPath>BMT_Prehistoric/Plants/Sigillaria</texPath>
+            <texPath>BMT_Prehistoric/Plant/Sigillaria</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.2, 0.3, 0.13)</volume>

@@ -6,7 +6,7 @@
         <label>horsetail tree</label>
         <description>A fast growing giant horsetail. It doesn't yield as much usable wood as other trees.</description>
         <graphicData>
-            <texPath>BMT_Prehistoric/Plants/Calamites</texPath>
+            <texPath>BMT_Prehistoric/Plant/Calamites</texPath>
             <graphicClass>Graphic_Random</graphicClass>
             <shadowData>
                 <volume>(0.2, 0.3, 0.13)</volume>

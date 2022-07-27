@@ -6,7 +6,7 @@
 		<label>scalebark tree</label>
 		<description>An ancient medium-sized tree, easily identifiable by its distinct scaled trunk.</description>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plants/Lepidodendron</texPath>
+      <texPath>BMT_Prehistoric/Plant/Lepidodendron</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.14, 0.32, 0.12)</volume>

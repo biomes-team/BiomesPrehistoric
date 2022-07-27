@@ -11,7 +11,7 @@
         </statBases>
         <pathCost>14</pathCost>
         <graphicData>
-            <texPath>BMT_Prehistoric/Plants/Clubmoss</texPath>
+            <texPath>BMT_Prehistoric/Plant/Clubmoss</texPath>
             <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
         <hideAtSnowDepth>0.5</hideAtSnowDepth>

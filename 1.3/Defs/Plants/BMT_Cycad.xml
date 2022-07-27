@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>BMT_Cycad</defName>
+		<label>cycad</label>
+		<description>.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Plant/Cycad/CycadTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.6, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>30</pathCost>
+		<ingestible />
+		<plant>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>15</growDays>
+			<immatureGraphicPath>BMT_Prehistoric/Plant/Cycad/CycadImmature</immatureGraphicPath>
+			<harvestTag>Standard</harvestTag>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<harvestedThingDef>RawCycadNuts</harvestedThingDef>
+			<harvestYield>10</harvestYield>
+			<harvestWork>300</harvestWork>
+			<visualSizeRange>0.9~1.4</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+			<wildClusterRadius>8</wildClusterRadius>
+			<wildClusterWeight>300</wildClusterWeight>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>RawCycadNuts</defName>
+		<label>cycad nuts</label>
+		<description>cycad nuts supply high amounds of food energy and are a rich source of numerous micronutrients. Their Roots and seeds are often populated by bacteria known to produce a neurotoxin.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Resource/Raw/PineNuts</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+			<Mass>0.009</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>28</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+	</ThingDef>
+
+</Defs>

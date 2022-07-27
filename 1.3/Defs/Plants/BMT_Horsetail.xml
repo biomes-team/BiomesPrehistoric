@@ -24,7 +24,7 @@
         </modExtensions>
         <pathCost>14</pathCost>
         <graphicData>
-            <texPath>BMT_Prehistoric/Plants/Horsetail</texPath>
+            <texPath>BMT_Prehistoric/Plant/Horsetail</texPath>
             <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
         <hideAtSnowDepth>0.5</hideAtSnowDepth>
