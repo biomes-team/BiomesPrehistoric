@@ -10,7 +10,7 @@
 			<Nutrition>0.50</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/Alethopteris/Alethopteris</texPath>
+			<texPath>BMT_Prehistoric/Plant/Alethopteris/AlethopterisGrown</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.55, 0.2, 0.2)</volume>
