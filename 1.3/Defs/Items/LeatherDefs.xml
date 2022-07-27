@@ -108,7 +108,6 @@
             <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
             <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
             <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
-
       </statBases>
       <stuffProps>
         <color>(100,68,36)</color>
