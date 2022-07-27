@@ -10,7 +10,7 @@
 			<Nutrition>0.50</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/Alethopteris</texPath>
+			<texPath>BMT_Prehistoric/Plant/Alethopteris/Alethopteris</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.55, 0.2, 0.2)</volume>
@@ -25,12 +25,12 @@
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<growDays>6</growDays>
-			<immatureGraphicPath>BMT_Prehistoric/Plant/Alethopteris_Immature</immatureGraphicPath>
+			<immatureGraphicPath>BMT_Prehistoric/Plant/Alethopteris/AlethopterisImmature</immatureGraphicPath>
 			<harvestYield>10</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
-			<harvestedThingDef>RawBerries</harvestedThingDef>
+			<harvestedThingDef>RawPineNuts</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
 			<visualSizeRange>0.95~1.7</visualSizeRange>
@@ -38,6 +38,30 @@
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>RawPineNuts</defName>
+		<label>pine nuts</label>
+		<description>pine nuts supply high amounds of food energy and are a rich source of numerous micronutrients. Nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Resource/Raw/PineNuts</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+			<Mass>0.009</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>28</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
 	</ThingDef>
 
 </Defs>
