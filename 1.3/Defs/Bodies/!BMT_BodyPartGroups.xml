@@ -21,26 +21,38 @@
 
 	<BodyPartGroupDef>
 		<defName>BMT_RearLeftClaw</defName>
-		<label>rear left sickel claw</label>
-		<labelShort>sickel claw</labelShort>
+		<label>rear left claw</label>
+		<labelShort>claw</labelShort>
 	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
 		<defName>BMT_RearRightClaw</defName>
-		<label>rear right sickel claw</label>
-		<labelShort>sickel claw</labelShort>
+		<label>rear right claw</label>
+		<labelShort>claw</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_RearLeftSickleClaw</defName>
+		<label>rear left sickle claw</label>
+		<labelShort>sickle claw</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_RearRightSickleClaw</defName>
+		<label>rear right sickle claw</label>
+		<labelShort>sickle claw</labelShort>
 	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
 		<defName>BMT_FrontLeftClaws</defName>
 		<label>front left claws</label>
-		<labelShort>claws</labelShort>
+		<labelShort>claw</labelShort>
 	</BodyPartGroupDef>
   
 	<BodyPartGroupDef>
 		<defName>BMT_FrontRightClaws</defName>
 		<label>front right claws</label>
-		<labelShort>claws</labelShort>
+		<labelShort>claw</labelShort>
 	</BodyPartGroupDef>
 
 </Defs>

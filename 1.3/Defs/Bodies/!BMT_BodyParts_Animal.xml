@@ -29,8 +29,17 @@
 	</BodyPartDef>
 
 	<BodyPartDef ParentName="ClawBase">
-		<defName>BMT_RearClaw</defName>
+		<defName>BMT_RearSickleClaw</defName>
 		<label>sickle claw</label>
+		<hitPoints>12</hitPoints>
+		<tags>
+			<li>MovingLimbDigit</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef ParentName="ClawBase">
+		<defName>BMT_RearClaw</defName>
+		<label>rear claw</label>
 		<hitPoints>12</hitPoints>
 		<tags>
 			<li>MovingLimbDigit</li>

@@ -232,27 +232,27 @@
           <height>Bottom</height>
           <parts>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear left leg first claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear left leg second claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear left leg third claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear left leg fourth claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear left leg fifth claw</customLabel>
               <coverage>0.05</coverage>
             </li>
@@ -265,27 +265,27 @@
           <height>Bottom</height>
           <parts>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear right leg first claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear right leg second claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear right leg third claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear right leg fourth claw</customLabel>
               <coverage>0.05</coverage>
             </li>
             <li>
-              <def>RearClaw</def>
+              <def>BMT_RearClaw</def>
               <customLabel>rear right leg fifth claw</customLabel>
               <coverage>0.05</coverage>
             </li>

@@ -115,6 +115,30 @@
 								<li>Feet</li>
 							</groups>
 						</li>
+						<li>
+							<parts>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear left leg first claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear left leg second claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear left leg third claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear left leg fourth claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+							</parts>
+						</li>
 					</parts>
 				</li>
 				<li>
@@ -130,6 +154,30 @@
 							<groups>
 								<li>Feet</li>
 							</groups>
+						</li>
+						<li>
+							<parts>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear right leg first claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear right leg second claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear right leg third claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+								<li>
+									<def>BMT_RearClaw</def>
+									<customLabel>rear right leg fourth claw</customLabel>
+									<coverage>0.05</coverage>
+								</li>
+							</parts>
 						</li>
 					</parts>
 				</li>
@@ -157,8 +205,18 @@
 								</li>
 								<li>
 									<def>BMT_FrontClaw</def>
-									<customLabel>front right claw</customLabel>
-									<coverage>0.05</coverage>
+									<customLabel>front right arm first claw</customLabel>
+									<coverage>0.25</coverage>
+									<height>Bottom</height>
+									<groups>
+										<li>BMT_FrontRightClaws</li>
+									</groups>
+								</li>
+								<li>
+									<def>BMT_FrontClaw</def>
+									<customLabel>front right arm second claw</customLabel>
+									<coverage>0.25</coverage>
+									<height>Bottom</height>
 									<groups>
 										<li>BMT_FrontRightClaws</li>
 									</groups>
@@ -199,7 +257,15 @@
 								</li>
 								<li>
 									<def>BMT_FrontClaw</def>
-									<customLabel>front left claw</customLabel>
+									<customLabel>front left arm first claw</customLabel>
+									<coverage>0.05</coverage>
+									<groups>
+										<li>BMT_FrontLeftClaws</li>
+									</groups>
+								</li>
+								<li>
+									<def>BMT_FrontClaw</def>
+									<customLabel>front left arm second claw</customLabel>
 									<coverage>0.05</coverage>
 									<groups>
 										<li>BMT_FrontLeftClaws</li>
