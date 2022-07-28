@@ -2,8 +2,8 @@
 <Defs>
 
 	<ThingDef ParentName="PlantBase">
-		<defName>BMT_Matonia</defName>
-		<label>matonia</label>
+		<defName>BMT_Matoniaceae</defName>
+		<label>matoniaceae</label>
 		<description>.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -11,7 +11,7 @@
 			<Nutrition>0.50</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/Matonia</texPath>
+			<texPath>BMT_Prehistoric/Plant/Matoniaceae</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>

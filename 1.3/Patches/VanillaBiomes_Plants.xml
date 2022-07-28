@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
-Plant patches. Uncomment as needed.
-
-Plants added:
-BMT_Clubmoss - bushlike?
-BMT_Horsetail - grasslike, tough
+BMT_Alethopteris - replaced Barry bush
 BMT_Calamites - treelike, gives little wood
+BMT_Clubmoss - bushlike?
+BMT_Crinoid - called sea lilies
+BMT_CycadBush - Bush like
+BMT_CycadTree - replace agave
+BMT_Dipteris - replace Grass?
+BMT_HealrootFern - replace Healroot
+BMT_Horsetail - grasslike, tough
+BMT_Lepidodendron - replace Tree Maple
+BMT_Matoniaceae - replace Grass
+BMT_Medullosa - Bush  like
+BMT_Pecopteris - large Fern
+BMT_Sigillaria - 
+BMT_Sphenophyllum - 
 -->
 
 
@@ -40,8 +49,15 @@ BMT_Calamites - treelike, gives little wood
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
 		<value>
-			<BMT_Calamites>0.3</BMT_Calamites>
-			<BMT_Clubmoss>1.0</BMT_Clubmoss>
+			<BMT_Horsetail>4.8</BMT_Horsetail>
+			<BMT_Calamites>1.72</BMT_Calamites>
+			<BMT_Clubmoss>2.0</BMT_Clubmoss>
+			<BMT_Sigillaria>1.72</BMT_Sigillaria>
+			<BMT_Lepidodendron>1.72</BMT_Lepidodendron>
+			<BMT_Sphenophyllum>0.8</BMT_Sphenophyllum>
+			<BMT_Pecopteris>0.8</BMT_Pecopteris>
+			<BMT_Medullosa>0.15</BMT_Medullosa>
+			<BMT_Alethopteris>0.05</BMT_Alethopteris>
 		</value>
 	</Operation>
 
