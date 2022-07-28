@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Parasaur</defName>
-        <label>parasaur</label>
+        <label>parasaurolophus</label>
         <description>A docile herbivore that lives in large groups. They are best known for the tubular crest on the back of its skull. This crest was used in the production of long, resonating calls for various purposes, from warning others nearby of threats, to communicating between mates.\n\nScientific name: Parasaurolophus walkeri</description>
         <statBases>
             <MoveSpeed>3.8</MoveSpeed>
@@ -61,7 +61,7 @@
                 <eggFertilizationCountMax>5</eggFertilizationCountMax>
                 <eggLayIntervalDays>6</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>3~5</eggCountRange>
+                <eggCountRange>2~3</eggCountRange>
             </li>
         </comps>
         <tools>
