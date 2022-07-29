@@ -132,6 +132,47 @@ namespace BiomesPrehistoric
 
 
 
+    /// <summary>
+    /// farm animals event
+    /// </summary>
+    [HarmonyPatch(typeof(IncidentWorker_FarmAnimalsWanderIn), "TryFindRandomPawnKind")]
+    public static class FarmAnimalsPatch
+    {
+        static bool Prefix(Map map, ref PawnKindDef kind, ref bool __result)
+        {
+            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            {
+                return true;
+            }
+
+            __result = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef x) => Util.IsPrehistoric(x) && x.RaceProps.Animal && x.RaceProps.wildness < 0.35f && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(x.race) && !x.RaceProps.Dryad).TryRandomElementByWeight((PawnKindDef k) => SelectionChance(k), out kind);
+            return false;
+        }
+
+        private static float SelectionChance(PawnKindDef pawnKind)
+        {
+            float num = 0.420000017f - pawnKind.RaceProps.wildness;
+            if (PawnUtility.PlayerHasReproductivePair(pawnKind))
+            {
+                num *= 0.5f;
+            }
+            return num;
+        }
+    }
+
+
+    /// <summary>
+    /// starting pets
+    /// </summary>
+    [HarmonyPatch(typeof(ScenPart_StartingAnimal), "PossibleAnimals")]
+    public static class StartingPetPatch
+    {
+        static void Postfix(ref IEnumerable<PawnKindDef> __result)
+        {
+            __result = __result.Where(p => Util.IsPrehistoric(p));
+        }
+    }
+
 
 
     // Uncomment this patch for Dino World to apply to plants
