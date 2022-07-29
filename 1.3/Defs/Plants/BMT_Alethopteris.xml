@@ -30,7 +30,7 @@
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
-			<harvestedThingDef>RawPineNuts</harvestedThingDef>
+			<harvestedThingDef>BMT_RawPineNuts</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
 			<visualSizeRange>0.95~1.7</visualSizeRange>
@@ -41,7 +41,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="PlantFoodRawBase">
-		<defName>RawPineNuts</defName>
+		<defName>BMT_RawPineNuts</defName>
 		<label>pine nuts</label>
 		<description>pine nuts supply high amounds of food energy and are a rich source of numerous micronutrients. Nice to eat, even when raw.</description>
 		<graphicData>
