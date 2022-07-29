@@ -199,6 +199,65 @@ namespace BiomesPrehistoric
     }
 
 
+
+   //bocks thrumbo event
+   [HarmonyPatch(typeof(IncidentWorker_ThrumboPasses), "CanFireNowSub")]
+   public static class ThrumboPatch
+    {
+        static bool Prefix(ref bool __result)
+        {
+            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            {
+                return true;
+            }
+
+            __result = false;
+            return false;
+        }
+    }
+
+
+    //bocks alphabeaver event
+    [HarmonyPatch("IncidentWorker_Alphabeavers", "CanFireNowSub")]
+    public static class AlphabeaverPatch
+    {
+        static bool Prefix(ref bool __result)
+        {
+            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            {
+                return true;
+            }
+
+            __result = false;
+            return false;
+        }
+    }
+
+    /// <summary>
+    /// trader stock animals
+    /// </summary>
+    [HarmonyPatch(typeof(StockGenerator_Animals), "SelectionChance")]
+    public static class TraderStockAnimalsPatch
+    {
+        static bool Prefix(PawnKindDef k, ref float __result)
+        {
+            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            {
+                return true;
+            }
+
+            if (Util.IsPrehistoric(k))
+            {
+                return true;
+            }
+
+            __result = 0f;
+            return false;
+        }
+    }
+
+
+
     // Uncomment this patch for Dino World to apply to plants
 
     [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
