@@ -110,7 +110,7 @@
                 </capacities>
                 <power>12</power>
                 <cooldownTime>1</cooldownTime>
-                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>BMT_RearLeftSickleClaw</linkedBodyPartsGroup>
             </li>
             <li>
                 <label>right sickle claw</label>
@@ -119,7 +119,7 @@
                 </capacities>
                 <power>12</power>
                 <cooldownTime>1</cooldownTime>
-                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>BMT_RearRightSickleClaw</linkedBodyPartsGroup>
             </li>
             <li>
                 <capacities>

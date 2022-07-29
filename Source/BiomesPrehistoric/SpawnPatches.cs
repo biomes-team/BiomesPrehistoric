@@ -16,7 +16,7 @@ namespace BiomesPrehistoric
         {
             if(BiomesPrehistoricMod.mod.settings.dinoOnly)
             {
-                if(___wildAnimals?.Any(d => d.animal.modContentPack?.Name == "Biomes! Prehistoric") == true)
+                if(___wildAnimals?.Any(d => Util.IsPrehistoric(d.animal)) == true)
                 {
                     if (animalDef.modContentPack?.Name != "Biomes! Prehistoric")
                     {
@@ -51,7 +51,7 @@ namespace BiomesPrehistoric
             {
                 Log.Message(String.Format("[Biomes! Prehistoric] DINO world is ON. Points: {0}", points));
                 IEnumerable<PawnKindDef> source = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.canArriveManhunter && (tile == -1 || Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)));
-                source = source.Where(k => k.modContentPack?.Name == "Biomes! Prehistoric");
+                source = source.Where(k => Util.IsPrehistoric(k));
                 if (source.Any())
                 {
                     if (source.TryRandomElementByWeight((PawnKindDef a) => ManhunterPackIncidentUtility.ManhunterAnimalWeight(a, points), out animalKind))
@@ -92,8 +92,6 @@ namespace BiomesPrehistoric
             {
                 foreach(Pawn pawn in outPawns)
                 {
-                    Log.Message("PAWN KIND: " + pawn.kindDef.defName);
-
                     switch (pawn.kindDef.defName)
                     {
                         case "Muffalo":
@@ -138,7 +136,6 @@ namespace BiomesPrehistoric
 
     // Uncomment this patch for Dino World to apply to plants
 
-    /*
     [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
     public static class PlantSpawnPatch
     {
@@ -146,9 +143,9 @@ namespace BiomesPrehistoric
         {
             if (BiomesPrehistoricMod.mod.settings.dinoOnly)
             {
-                if (___wildPlants?.Any(d => d.animal.modContentPack?.Name == "Biomes! Prehistoric") == true)
+                if (___wildPlants?.Any(d => Util.IsPrehistoric(d.animal)) == true)
                 {
-                    if (plantDef.modContentPack?.Name != "Biomes! Prehistoric")
+                    if (Util.IsPrehistoric(plantDef))
                     {
                         __result = 0f;
                         return false;
@@ -159,8 +156,21 @@ namespace BiomesPrehistoric
             return true;
         }
     }
-    */
+    
 
 
+    // this exists in case we change the definition of "prehistoric" later
+    public static class Util
+    {
+        public static bool IsPrehistoric(Def thing)
+        {
+            if(thing.modContentPack?.Name == "Biomes! Prehistoric")
+            {
+                return true;
+            }
+            return false;
+
+        }
+    }
 
 }

@@ -16,7 +16,6 @@ namespace BiomesPrehistoric
             Harmony harmony = new Harmony("rimworld.biomesprehistoric");
 
             harmony.PatchAll();
-
             Log.Message("Biomes! Prehistoric initialized");
         }
     }

@@ -114,8 +114,6 @@
 							<groups>
 								<li>Feet</li>
 							</groups>
-						</li>
-						<li>
 							<parts>
 								<li>
 									<def>BMT_RearClaw</def>
@@ -137,7 +135,7 @@
 									<customLabel>left sickel claw</customLabel>
 									<coverage>0.25</coverage>
 									<groups>
-										<li>BMT_RearRightSickleClaw</li>
+										<li>BMT_RearLeftSickleClaw</li>
 									</groups>
 								</li>
 							</parts>
@@ -157,8 +155,6 @@
 							<groups>
 								<li>Feet</li>
 							</groups>
-						</li>
-						<li>
 							<parts>
 								<li>
 									<def>BMT_RearClaw</def>

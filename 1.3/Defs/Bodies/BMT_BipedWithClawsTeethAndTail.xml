@@ -15,7 +15,7 @@
 				<li>
 					<def>Spine</def>
 					<coverage>0.03</coverage>
-					<depth>Inside</depth>
+					<depth>Inside</depth> 
 				</li>
 				<li>
 					<def>Stomach</def>
@@ -114,8 +114,6 @@
 							<groups>
 								<li>Feet</li>
 							</groups>
-						</li>
-						<li>
 							<parts>
 								<li>
 									<def>BMT_RearClaw</def>
@@ -154,8 +152,6 @@
 							<groups>
 								<li>Feet</li>
 							</groups>
-						</li>
-						<li>
 							<parts>
 								<li>
 									<def>BMT_RearClaw</def>
@@ -268,7 +264,7 @@
 								<li>
 									<def>BMT_FrontClaw</def>
 									<customLabel>front left arm second claw</customLabel>
-									<coverage>0.25</coverage>
+									<coverage>0.25</coverage> 
 									<height>Bottom</height>
 									<groups>
 										<li>BMT_FrontLeftClaws</li>
@@ -283,7 +279,6 @@
 										<li>BMT_FrontLeftClaws</li>
 									</groups>
 								</li>
-							</parts>
 							</parts>
 						</li>
 					</parts>
