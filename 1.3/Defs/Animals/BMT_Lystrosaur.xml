@@ -24,6 +24,7 @@
             <predator>false</predator>
             <wildness>0.10</wildness>
             <lifeExpectancy>55</lifeExpectancy>
+			<petness>0.5</petness>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
             <trainability>None</trainability>
