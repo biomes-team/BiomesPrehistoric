@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HarmonyLib;
 using RimWorld;
+using UnityEngine;
 using Verse;
 
 namespace BiomesPrehistoric
@@ -169,10 +170,33 @@ namespace BiomesPrehistoric
     {
         static void Postfix(ref IEnumerable<PawnKindDef> __result)
         {
+            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            {
+                return;
+            }
             __result = __result.Where(p => Util.IsPrehistoric(p));
         }
     }
 
+
+    /// <summary>
+    /// herd migration event
+    /// </summary>
+    [HarmonyPatch(typeof(IncidentWorker_HerdMigration), "TryFindAnimalKind")]
+    public static class HerdMigrationPatch
+    {
+        static bool Prefix(int tile, ref PawnKindDef animalKind, ref bool __result)
+        {
+            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            {
+                return true;
+            }
+
+            __result = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => Util.IsPrehistoric(k) && k.RaceProps.CanDoHerdMigration && Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)).TryRandomElementByWeight((PawnKindDef x) => Mathf.Lerp(0.2f, 1f, x.RaceProps.wildness), out animalKind);
+            
+            return false;
+        }
+    }
 
 
     // Uncomment this patch for Dino World to apply to plants
