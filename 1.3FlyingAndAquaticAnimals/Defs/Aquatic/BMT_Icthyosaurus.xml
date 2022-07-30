@@ -158,7 +158,6 @@
         <label>icthyosaurus</label>
         <race>BMT_Icthyosaurus</race>
         <combatPower>80</combatPower>
-        <canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1.0</ecoSystemWeight>
 		<wildGroupSize>1~3</wildGroupSize>
         <lifeStages>

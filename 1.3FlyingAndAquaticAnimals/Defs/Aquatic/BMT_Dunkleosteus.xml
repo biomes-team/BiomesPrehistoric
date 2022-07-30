@@ -139,7 +139,6 @@
 	  <description>A heavily armored fish from the late Devonian period, it lacked normal teeth but instead had tooth “plates.” Despite its large size and armoring, it was hunted by other predators of its time.\n\nScientific name: Dunkleosteus terrelli</description>
         <race>BMT_Dunkleosteus</race>
         <combatPower>90</combatPower>
-        <canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.7</ecoSystemWeight>
 		<alternateGraphicChance>0.5</alternateGraphicChance>
 			<alternateGraphics>

@@ -166,7 +166,6 @@
 	  <description>Closely related to modern octopus and squids, these prehistoric molluscs had curled shells. Due to how common they were on Earth, they make for excellent index fossils. They had a varied diet, from scavenging off the kills of other animals to predating on smaller fish. They are often predated upon by larger sea life. This specific type is larger than most others of its kind.</description>
         <race>BMT_GiantAmmonite</race>
         <combatPower>80</combatPower>
-        <canArriveManhunter>false</canArriveManhunter>
 		<wildGroupSize>2~4</wildGroupSize>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
         <lifeStages>

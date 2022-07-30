@@ -156,7 +156,6 @@
 		<description>Anomalocaris is one of the earliest examples of an apex predator, feeding on virtually any other animals from its time, often trilobites due to their commonality. It is likely that they used weaknesses in exoskeletal structures to kill their prey, rather than crushing them open, as originally believed. \n\nScientific name: Anomalocaris canadensis</description>
 		<race>BMT_Anomalocaris</race>
 		<combatPower>45</combatPower>
-		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
 		<lifeStages>
 			<li>

@@ -153,7 +153,6 @@
         <label>liopleurodon</label>
         <race>BMT_Liopleurodon</race>
         <combatPower>270</combatPower>
-        <canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>3.0</ecoSystemWeight>
         <lifeStages>
             <li>
