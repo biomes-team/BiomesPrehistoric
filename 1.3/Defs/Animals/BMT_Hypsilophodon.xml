@@ -14,7 +14,6 @@
         </statBases>
         <race>
             <meatLabel>theropod meat</meatLabel>
-            <petness>0.8</petness>
             <body>BMT_BipedWithClawsTeethAndTail</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
@@ -25,7 +24,7 @@
             <predator>false</predator>
             <wildness>0.20</wildness>
             <lifeExpectancy>10</lifeExpectancy>
-			<petness>0.6</petness>
+			<petness>0.8</petness>
             <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.010</manhunterOnDamageChance>
             <nuzzleMtbHours>12</nuzzleMtbHours>
