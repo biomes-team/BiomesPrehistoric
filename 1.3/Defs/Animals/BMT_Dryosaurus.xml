@@ -23,6 +23,7 @@
             <predator>false</predator>
             <wildness>0.30</wildness>
             <lifeExpectancy>16</lifeExpectancy>
+			<FilthRate>8</FilthRate>
 			<petness>0.7</petness>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0</manhunterOnDamageChance>

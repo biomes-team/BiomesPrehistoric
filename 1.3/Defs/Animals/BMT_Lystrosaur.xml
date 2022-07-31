@@ -10,7 +10,7 @@
             <MarketValue>850</MarketValue>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
-            <FilthRate>8</FilthRate>
+            <FilthRate>1</FilthRate>
         </statBases>
         <race>
             <meatLabel>synapsid meat</meatLabel>

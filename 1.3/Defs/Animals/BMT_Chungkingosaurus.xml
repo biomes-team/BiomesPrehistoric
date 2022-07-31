@@ -114,7 +114,7 @@
                     <li>Stab</li>
                 </capacities>
                 <power>12</power>
-                <cooldownTime>2.8</cooldownTime>
+                <cooldownTime>1</cooldownTime>
                 <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
             </li>
         </tools>

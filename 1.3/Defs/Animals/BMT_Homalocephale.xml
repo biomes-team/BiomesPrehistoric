@@ -24,6 +24,7 @@
             <wildness>0.10</wildness>
             <lifeExpectancy>14</lifeExpectancy>
             <petness>0.5</petness>
+			<FilthRate>1</FilthRate>
             <nuzzleMtbHours>12</nuzzleMtbHours>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0</manhunterOnDamageChance>
