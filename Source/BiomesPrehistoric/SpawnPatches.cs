@@ -263,13 +263,13 @@ namespace BiomesPrehistoric
     [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
     public static class PlantSpawnPatch
     {
-        static bool Prefix(PawnKindDef plantDef, List<BiomeAnimalRecord> ___wildPlants, ref float __result)
+        static bool Prefix(PawnKindDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
         {
             if (BiomesPrehistoricMod.mod.settings.dinoOnly)
             {
-                if (___wildPlants?.Any(d => Util.IsPrehistoric(d.animal)) == true)
+                if (___wildPlants?.Any(d => Util.IsPrehistoric(d.plant)) == true)
                 {
-                    if (Util.IsPrehistoric(plantDef))
+                    if (!Util.IsPrehistoric(plantDef))
                     {
                         __result = 0f;
                         return false;
