@@ -156,6 +156,14 @@
                         <offset>(0,0,-0.2)</offset>
                     </shadowData>
                 </bodyGraphicData>
+                <femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Iguanodon/IguanodonFemale</texPath>
+                    <drawSize>5.2</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.4, 0.4)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Iguanodon/Dessicated_Iguanodon</texPath>
                     <drawSize>5.2</drawSize>

@@ -148,6 +148,14 @@
                         <offset>(0,0,-0.5)</offset>
                     </shadowData>
                 </bodyGraphicData>
+                <femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusFemale</texPath>
+                    <drawSize>6</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
                     <drawSize>5.9</drawSize>
