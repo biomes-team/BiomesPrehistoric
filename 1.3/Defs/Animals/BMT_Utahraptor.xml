@@ -186,6 +186,10 @@
                     <texPath>BMT_Prehistoric/Animals/Utahraptor/Dessicated_Raptor</texPath>
                     <drawSize>3.8</drawSize>
                 </dessicatedBodyGraphicData>
+                <butcherBodyPart>
+                    <bodyPartGroup>BMT_RearLeftSickleClaw</bodyPartGroup>
+                    <thing>BMT_RaptorClaw</thing>
+                </butcherBodyPart>
             </li>
         </lifeStages>
     </PawnKindDef>

@@ -154,6 +154,10 @@
                     <texPath>BMT_Prehistoric/Animals/TRex/Dessicated_TRex</texPath>
                     <drawSize>8.7</drawSize>
                 </dessicatedBodyGraphicData>
+                <butcherBodyPart>
+                    <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+                    <thing>BMT_TyrannoSkull</thing>
+                </butcherBodyPart>
             </li>
         </lifeStages>
     </PawnKindDef>

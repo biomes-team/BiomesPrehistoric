@@ -16,6 +16,7 @@
 			<Flammability>0.4</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
 		</statBases>
+		<stackLimit>10</stackLimit>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<useHitPoints>true</useHitPoints>
 		<weaponClasses>
@@ -59,6 +60,7 @@
 			<Flammability>0.9</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
 		</statBases>
+		<stackLimit>10</stackLimit>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<weaponClasses>
 			<li>Melee</li>
@@ -94,13 +96,13 @@
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
 	</ThingDef>
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ApparelBase">
 		<defName>BMT_TyrannoSkull</defName>
 		<label>tyrannosaurus skull</label>
 		<description>A tyrannosaurus skull. This is a true trophy.</description>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Trophie/RexSkull</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>BMT_Prehistoric/Item/Trophie/RexSkull/RexSkull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Standard_Pickup</soundInteract>
 		<soundDrop>Standard_Pickup</soundDrop>
@@ -108,13 +110,35 @@
 			<MarketValue>150</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>3</Mass>
-			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Flammability>0.25</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
+			<EquipDelay>1.5</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+			<Terror MayRequire="Ludeon.RimWorld.Ideology">0.3</Terror>
+		</equippedStatOffsets>
+		<generateCommonality>0.05</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>BMT_Prehistoric/Item/Headgear/RexHelm/TrexHelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
 		<useHitPoints>true</useHitPoints>
-		<stackLimit>10</stackLimit>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>HeadgearNoble</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -141,7 +165,7 @@
 			<DeteriorationRate>0.5</DeteriorationRate>
 		</statBases>
 		<useHitPoints>true</useHitPoints>
-		<stackLimit>10</stackLimit>
+		<stackLimit>5</stackLimit>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>

@@ -182,6 +182,9 @@
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
 					<drawSize>15</drawSize>
 				</dessicatedBodyGraphicData>
+                <butcherBodyPart>
+                    <thing>BMT_SpinoSail</thing>
+                </butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

@@ -185,6 +185,10 @@
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/Dessicated_Yutyrannus</texPath>
                     <drawSize>6.2</drawSize>
                 </dessicatedBodyGraphicData>
+                <!--<butcherBodyPart>
+                    <bodyPartGroup>HeadAttackTool</bodyPartGroup>
+                    <thing>BMT_TyrannoSkull</thing>
+                </butcherBodyPart>-->
             </li>
         </lifeStages>
     </PawnKindDef>
