@@ -63,7 +63,7 @@
         </race>
         <comps>
             <li Class="CompProperties_Shearable">
-                <woolDef>BMT_DinoHideFeathery</woolDef>
+                <woolDef>BMT_DinoFeather</woolDef>
                 <shearIntervalDays>30</shearIntervalDays>
                 <woolAmount>75</woolAmount>
             </li>

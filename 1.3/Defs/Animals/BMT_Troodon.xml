@@ -65,7 +65,7 @@
         </race>
         <comps>
             <li Class="CompProperties_Shearable">
-                <woolDef>BMT_DinoHideFeathery</woolDef>
+                <woolDef>BMT_DinoFeather</woolDef>
                 <shearIntervalDays>60</shearIntervalDays>
                 <woolAmount>5</woolAmount>
             </li>
@@ -77,7 +77,7 @@
                 <eggCountRange>1~4</eggCountRange>
             </li>
            <li Class="CompProperties_Spawner">
-                <thingToSpawn>BMT_DinoHideFeathery</thingToSpawn>
+                <thingToSpawn>BMT_DinoFeather</thingToSpawn>
                 <spawnCount>10</spawnCount>
                 <spawnIntervalRange>750000~900000</spawnIntervalRange>
                 <spawnMaxAdjacent>10</spawnMaxAdjacent>

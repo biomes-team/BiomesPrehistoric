@@ -83,6 +83,7 @@
             <MarketValue>2.5</MarketValue>
             <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
             <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>1.20</StuffPower_Armor_Heat>
             <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
             <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
         </statBases>
@@ -112,6 +113,26 @@
       <stuffProps>
         <color>(100,68,36)</color>
       </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoolBase">
+    <defName>BMT_DinoFeather</defName>
+    <label>proto feathers</label>
+    <description>Soft, light and provides very good insulation. Cloth made from them can keep the body warm even in very cold conditions.</description>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.10</StuffPower_Armor_Heat>
+      <Flammability>1</Flammability>
+      <StuffPower_Insulation_Cold>35</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(101,160,203)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(101,160,203)</color>
+    </stuffProps>
   </ThingDef>
 
 </Defs>
