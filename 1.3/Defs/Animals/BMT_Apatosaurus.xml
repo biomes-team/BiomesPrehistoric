@@ -166,6 +166,7 @@
         <label>apatosaurus egg (fert.)</label>
         <description>A fertilized apatosaurus egg. If all goes well, it should hatch into a baby apatosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
             <color>(230,212,193)</color>
             <drawSize>2</drawSize>
         </graphicData>

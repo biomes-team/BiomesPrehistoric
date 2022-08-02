@@ -190,7 +190,7 @@
         <label>ccompsognathus (unfert.)</label>
         <description>An unfertilized compsognathus. It can be eaten raw, but it's much, much better cooked.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(181,164,138)</color>
             <drawSize>0.85</drawSize>
         </graphicData>

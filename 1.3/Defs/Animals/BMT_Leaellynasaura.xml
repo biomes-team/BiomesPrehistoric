@@ -189,6 +189,7 @@
         <label>leaellynasaura egg (fert.)</label>
         <description>A fertilized leaellynasaura egg. If all goes well, it should hatch into a baby leaellynasaura. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(230,212,193)</color>
             <drawSize>1.7</drawSize>
         </graphicData>

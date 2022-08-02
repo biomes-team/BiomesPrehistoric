@@ -170,7 +170,7 @@
         <label>edmontosaurus egg (fert.)</label>
         <description>A fertilized edmontosaurus egg. If all goes well, it should hatch into a baby edmontosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
             <color>(167,158,129)</color>
             <drawSize>1.6</drawSize>
         </graphicData>

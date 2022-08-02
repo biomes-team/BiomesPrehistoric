@@ -165,6 +165,7 @@
         <label>allosaurus egg (fert.)</label>
         <description>A fertilized allosaurus egg. If all goes well, it should hatch into a baby allosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(236,206,196)</color>
             <drawSize>1.7</drawSize>
         </graphicData>

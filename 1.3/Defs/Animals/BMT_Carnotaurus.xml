@@ -163,6 +163,7 @@
         <label>carnotaurus egg (fert.)</label>
         <description>A fertilized Carnotaurus egg. If all goes well, it should hatch into a baby carnotaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(236,206,196)</color>
             <drawSize>1.9</drawSize>
         </graphicData>

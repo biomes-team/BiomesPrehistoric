@@ -205,7 +205,7 @@
         <label>velociraptor egg (fert.)</label>
         <description>A fertilized velociraptor egg. If all goes well, it should hatch into a baby velociraptor. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(181,164,138)</color>
             <drawSize>0.95</drawSize>
         </graphicData>

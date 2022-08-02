@@ -208,6 +208,7 @@
         <label>stegosaurus egg (fert.)</label>
         <description>A fertilized Stegosaurus egg. If all goes well, it should hatch into a baby stegosaurus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
             <color>(195,123,197)</color>
             <drawSize>1.8</drawSize>
         </graphicData>
