@@ -184,6 +184,7 @@
 		<label>dunkleosteus egg (fert.)</label>
 		<description>A fertilized dunkleosteus egg. If all goes well, it should hatch into a baby dunkleosteus. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
+            <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<drawSize>0.9</drawSize>
 		</graphicData>
 		<statBases>
