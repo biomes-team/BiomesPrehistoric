@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Pulmonoscorpius</defName>
 		<label>pulmonoscorpius</label>
 		<description>One of the few scorpions to ever live in swamps, it preyed upon small vertebrates and arthropods. \n\nScientific name: Pulmonoscorpius kirktonensis</description>
@@ -41,7 +41,7 @@
 				<capacities>
 					<li>BMT_ToxicSting</li>
 				</capacities>
-				<power>20</power>
+				<power>12</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>BMT_StingerGroup</linkedBodyPartsGroup>
 				<chanceFactor>0.4</chanceFactor>
@@ -71,6 +71,11 @@
 			<wildness>0.95</wildness>
 			<trainability>None</trainability>
 			<lifeExpectancy>6</lifeExpectancy>
+      <fleshType>Insectoid</fleshType>
+      <bloodDef>Filth_BloodInsect</bloodDef>
+      <meatColor>(160,168,139)</meatColor>
+      <meatMarketValue>0.5</meatMarketValue>
+      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
