@@ -6,7 +6,7 @@
     <label>Podoz tree</label>
     <description>A hardwood tree. Takes a long time to grow, but their wood is strong.</description>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Podozamites</texPath>
+      <texPath>BMT_Prehistoric/Plant/Podozamites/PodozamitesGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.2, 0.35, 0.13)</volume>
@@ -19,7 +19,7 @@
     </statBases>
     <plant>
       <growDays>30</growDays>
-      <leaflessGraphicPath>BMT_Prehistoric/Plant/Podozamites_Leafless</leaflessGraphicPath>
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Podozamites/PodozamitesLeafless</leaflessGraphicPath>
       <harvestWork>1400</harvestWork>
       <harvestYield>46</harvestYield>
       <wildClusterWeight>35</wildClusterWeight>

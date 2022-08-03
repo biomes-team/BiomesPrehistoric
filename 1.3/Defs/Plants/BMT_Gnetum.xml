@@ -10,7 +10,7 @@
       <Nutrition>0.50</Nutrition>
     </statBases>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Gnetum</texPath>
+      <texPath>BMT_Prehistoric/Plant/Gnetum/GnetumGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.55, 0.2, 0.2)</volume>
@@ -25,7 +25,7 @@
       <fertilityMin>0.5</fertilityMin>
       <fertilitySensitivity>0.5</fertilitySensitivity>
       <growDays>6</growDays>
-      <immatureGraphicPath>BMT_Prehistoric/Plant/GnetumImmature</immatureGraphicPath>
+      <immatureGraphicPath>BMT_Prehistoric/Plant/Gnetum/GnetumImmature</immatureGraphicPath>
       <harvestYield>10</harvestYield>
       <harvestWork>250</harvestWork>
       <harvestTag>Standard</harvestTag>
