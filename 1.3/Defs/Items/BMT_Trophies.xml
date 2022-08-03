@@ -8,6 +8,7 @@
 			<texPath>BMT_Prehistoric/Item/Trophie/RaptorClaw</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
+		<techLevel>Neolithic</techLevel>
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<statBases>
 			<MarketValue>80</MarketValue>
@@ -15,6 +16,7 @@
 			<Mass>1</Mass>
 			<Flammability>0.4</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>2</Beauty>
 		</statBases>
 		<stackLimit>10</stackLimit>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -52,6 +54,7 @@
 			<texPath>BMT_Prehistoric/Item/Trophie/TriceratopsHorn</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
+		<techLevel>Neolithic</techLevel>
 		<equippedAngleOffset>-40</equippedAngleOffset>
 		<statBases>
 			<MarketValue>90</MarketValue>
@@ -59,6 +62,7 @@
 			<Mass>1.8</Mass>
 			<Flammability>0.9</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>2</Beauty>
 		</statBases>
 		<stackLimit>10</stackLimit>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -104,6 +108,7 @@
 			<texPath>BMT_Prehistoric/Item/Trophie/RexSkull/RexSkull</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<techLevel>Neolithic</techLevel>
 		<soundInteract>Standard_Pickup</soundInteract>
 		<soundDrop>Standard_Pickup</soundDrop>
 		<statBases>
@@ -116,12 +121,13 @@
 			<Flammability>0.25</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
 			<EquipDelay>1.5</EquipDelay>
+			<Beauty>3</Beauty>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
-			<Terror MayRequire="Ludeon.RimWorld.Ideology">0.3</Terror>
+			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">20</TerrorSource>
 		</equippedStatOffsets>
 		<generateCommonality>0.05</generateCommonality>
 		<apparel>
@@ -155,6 +161,7 @@
 			<texPath>BMT_Prehistoric/Item/Trophie/SpinoSail</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
+		<techLevel>Neolithic</techLevel>
 		<soundInteract>Standard_Pickup</soundInteract>
 		<soundDrop>Standard_Pickup</soundDrop>
 		<statBases>
@@ -163,6 +170,7 @@
 			<Mass>3</Mass>
 			<Flammability>0.4</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>4</Beauty>
 		</statBases>
 		<useHitPoints>true</useHitPoints>
 		<stackLimit>5</stackLimit>
