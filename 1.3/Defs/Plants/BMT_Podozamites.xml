@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>BMT_Podozamites</defName>
+    <label>Podoz tree</label>
+    <description>A hardwood tree. Takes a long time to grow, but their wood is strong.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Podozamites</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <plant>
+      <growDays>30</growDays>
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Podozamites_Leafless</leaflessGraphicPath>
+      <harvestWork>1400</harvestWork>
+      <harvestYield>46</harvestYield>
+      <wildClusterWeight>35</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>

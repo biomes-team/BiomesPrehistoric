@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Araucaria</defName>
+    <label>monkey puzzle tree</label>
+    <description>A softwood tree that grows very fast. Predates both monkeys and puzzles.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Araucaria</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>15.05</growDays>
+      <harvestWork>800</harvestWork>
+      <harvestYield>27</harvestYield>
+      <wildClusterWeight>35</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>
