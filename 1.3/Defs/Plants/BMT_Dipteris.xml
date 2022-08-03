@@ -2,8 +2,8 @@
 <Defs>
 
 	<ThingDef ParentName="PlantBase">
-		<defName>BMT_Dipteris</defName>
-		<label>dipteris</label>
+		<defName>BMT_Dipteridaceae</defName>
+		<label>Dipteridaceae</label>
 		<description>.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>

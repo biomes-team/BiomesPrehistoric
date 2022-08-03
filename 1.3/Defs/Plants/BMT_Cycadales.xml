@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="TreeBase">
+		<defName>BMT_Cycadales</defName>
+		<label>Cycadales</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Plant/Cycadales/CycadalesGrown</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.24, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<ingestible />
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>30</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>25</growDays>
+			<visualSizeRange>0.8~2.0</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<topWindExposure>0.15</topWindExposure>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<immatureGraphicPath>BMT_Prehistoric/Plant/Cycadales/CycadalesImmature</immatureGraphicPath>
+			<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>30</harvestYield>
+			<harvestedThingDef>BMT_RawCycadNuts</harvestedThingDef>
+			<harvestFailable>true</harvestFailable>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+</Defs>
