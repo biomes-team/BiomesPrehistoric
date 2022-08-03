@@ -8,6 +8,7 @@
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Araucaria</texPath>
       <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>4</drawSize>
     </graphicData>
     <statBases>
       <Beauty>1</Beauty>

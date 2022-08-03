@@ -8,6 +8,7 @@
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Podozamites/PodozamitesGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>3</drawSize>
       <shadowData>
         <volume>(0.2, 0.35, 0.13)</volume>
         <offset>(-0.03,0,-0.44)</offset>

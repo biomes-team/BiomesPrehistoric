@@ -35,9 +35,6 @@ BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
 			<BMT_Araucaria>0.5</BMT_Araucaria>
 			<BMT_Gnetum>0.05</BMT_Gnetum>
 			<BMT_HealrootFern>0.05</BMT_HealrootFern>
-			<BMT_Calamites>0.5</BMT_Calamites>
-			<BMT_Horsetail>2.0</BMT_Horsetail>
-			<BMT_Clubmoss>0.3</BMT_Clubmoss>
 		</value>
 	</Operation>
 	
