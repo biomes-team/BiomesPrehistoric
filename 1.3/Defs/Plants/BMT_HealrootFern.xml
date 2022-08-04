@@ -10,6 +10,7 @@
 		</graphicData>
 		<plant>
 			<visualSizeRange>1.2~2.4</visualSizeRange>
+			<maxMeshCount>1</maxMeshCount>
 			<sowWork>800</sowWork>
 			<sowMinSkill>8</sowMinSkill>
 			<sowTags>

@@ -8,7 +8,6 @@
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Podozamites/PodozamitesGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
-	  <drawSize>3</drawSize>
       <shadowData>
         <volume>(0.2, 0.35, 0.13)</volume>
         <offset>(-0.03,0,-0.44)</offset>
@@ -19,6 +18,7 @@
       <BeautyOutdoors>2</BeautyOutdoors>
     </statBases>
     <plant>
+      <visualSizeRange>2~3</visualSizeRange>
       <growDays>30</growDays>
       <leaflessGraphicPath>BMT_Prehistoric/Plant/Podozamites/PodozamitesLeafless</leaflessGraphicPath>
       <harvestWork>1400</harvestWork>

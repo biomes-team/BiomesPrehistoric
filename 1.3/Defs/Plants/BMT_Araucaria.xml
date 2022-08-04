@@ -8,7 +8,6 @@
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Araucaria</texPath>
       <graphicClass>Graphic_Random</graphicClass>
-	  <drawSize>4</drawSize>
     </graphicData>
     <statBases>
       <Beauty>1</Beauty>
@@ -16,6 +15,7 @@
     </statBases>
     <ingestible />
     <plant>
+      <visualSizeRange>2.5~3.5</visualSizeRange>
       <growDays>15.05</growDays>
       <harvestWork>800</harvestWork>
       <harvestYield>27</harvestYield>
