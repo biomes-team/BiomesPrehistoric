@@ -138,6 +138,14 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>Psychic</li>
+			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -147,6 +155,7 @@
 			<li>HeadgearNoble</li>
 		</thingCategories>
 		<tradeTags>
+			<li>PsychicApparel</li>
 			<li>ExoticMisc</li>
 		</tradeTags>
 		<thingSetMakerTags>
