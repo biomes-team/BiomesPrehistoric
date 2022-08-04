@@ -19,10 +19,10 @@
         <modExtensions>
             <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
                 <terrainTags>
-                    <li>Water</li>
                     <li>Fresh</li>
                     <li>Shallow</li>
-                    <li>ChestDeep</li>
+                    <li>Boggy</li>
+					<li>Muddy</li>
                     <li>Soil</li>
                 </terrainTags>
             </li>

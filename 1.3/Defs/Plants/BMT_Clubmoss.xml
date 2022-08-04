@@ -9,6 +9,14 @@
             <MaxHitPoints>90</MaxHitPoints>
             <Nutrition>0.25</Nutrition>
         </statBases>
+        <modExtensions>
+            <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+                <terrainTags>
+					<li>Muddy</li>
+                    <li>Soil</li>
+                </terrainTags>
+            </li>
+        </modExtensions>		
         <pathCost>14</pathCost>
         <graphicData>
             <texPath>BMT_Prehistoric/Plant/Clubmoss</texPath>
