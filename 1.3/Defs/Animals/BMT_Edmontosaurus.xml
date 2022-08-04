@@ -10,6 +10,7 @@
             <MarketValue>180</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
         </statBases>
         <race>
             <useMeatFrom>BMT_Iguanodon</useMeatFrom>

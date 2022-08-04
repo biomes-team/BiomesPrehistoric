@@ -11,6 +11,7 @@
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>35</ComfyTemperatureMax>
 			<FilthRate>10</FilthRate>
+			<CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
 		</statBases>
 		<race>
 			<meatLabel>ceratopsid meat</meatLabel>

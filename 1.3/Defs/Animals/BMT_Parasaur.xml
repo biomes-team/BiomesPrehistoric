@@ -11,6 +11,7 @@
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>12</FilthRate>
+			<CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
         </statBases>
         <race>
             <useMeatFrom>BMT_Iguanodon</useMeatFrom>

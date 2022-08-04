@@ -11,6 +11,7 @@
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>16</FilthRate>
+			<CaravanRidingSpeedFactor>1.7</CaravanRidingSpeedFactor>
         </statBases>
         <race>
             <meatLabel>sauropod meat</meatLabel>

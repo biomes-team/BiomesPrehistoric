@@ -11,6 +11,7 @@
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
             <FilthRate>15</FilthRate>
+			<CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
         </statBases>
         <race>
             <useMeatFrom>BMT_Brachiosaurus</useMeatFrom>
