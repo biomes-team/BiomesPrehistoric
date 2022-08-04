@@ -113,6 +113,7 @@
         </tools>
         <tradeTags>
             <li>AnimalCommon</li>
+			<li>AnimalFarm</li>
         </tradeTags>
     </ThingDef>
 
