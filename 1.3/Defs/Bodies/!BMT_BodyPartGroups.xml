@@ -44,6 +44,11 @@
 	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
+		<defName>BMT_SickleClaws</defName>
+		<label>sickle claws</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
 		<defName>BMT_FrontLeftClaws</defName>
 		<label>front left claws</label>
 		<labelShort>claw</labelShort>

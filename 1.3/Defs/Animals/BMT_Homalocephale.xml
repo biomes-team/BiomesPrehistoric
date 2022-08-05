@@ -14,7 +14,7 @@
         </statBases>
         <race>
             <useMeatFrom>BMT_Pachycephalosaurus</useMeatFrom>
-            <body>BMT_BipedWithClawsTeethAndTail</body>
+            <body>BMT_BipedWithClawsTeethAndTailFiveDH</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>0.77</baseBodySize>

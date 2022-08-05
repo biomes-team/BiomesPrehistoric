@@ -15,7 +15,7 @@
         <race>
             <meatLabel>theropod meat</meatLabel>
             <petness>1</petness>
-            <body>BMT_BipedWithClawsTeethAndTail</body>
+            <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>0.9</baseBodySize>

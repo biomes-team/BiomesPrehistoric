@@ -15,7 +15,7 @@
         </statBases>
         <race>
             <useMeatFrom>BMT_Iguanodon</useMeatFrom>
-            <body>BMT_BipedWithClawsTeethAndTail</body>
+            <body>BMT_BipedWithClawsTeethAndTailFiveDH</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.6</baseBodySize>

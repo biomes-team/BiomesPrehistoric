@@ -15,7 +15,7 @@
         </statBases>
         <race>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
-            <body>BMT_BipedWithClawsTeethAndTail</body>
+            <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>4.6</baseBodySize>

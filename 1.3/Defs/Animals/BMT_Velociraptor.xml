@@ -193,7 +193,7 @@
                     <drawSize>3.0</drawSize>
                 </dessicatedBodyGraphicData>
                 <!--<butcherBodyPart>
-                    <bodyPartGroup>BMT_RearLeftSickleClaw</bodyPartGroup>
+                    <bodyPartGroup>BMT_SickleClaws</bodyPartGroup>
                     <thing>BMT_RaptorClaw</thing>
                 </butcherBodyPart>-->
             </li>
