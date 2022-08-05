@@ -17,8 +17,8 @@
             <body>BMT_QuadrupedWithClawsAndTailWeapon</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>2.8</baseBodySize>
-            <baseHealthScale>1.8</baseHealthScale>
+            <baseBodySize>3.5</baseBodySize>
+            <baseHealthScale>4</baseHealthScale>
             <baseHungerRate>0.6</baseHungerRate>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<willNeverEat>
