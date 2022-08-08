@@ -5,7 +5,7 @@
 		<label>healroot fern</label>
 		<description>healroot fern.</description>
 		<graphicData>
-			<texPath>BiomesCore_Things/Plant/HealrootFern</texPath>
+			<texPath>BMT_Prehistoric/Plant/HealrootFern</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<plant>

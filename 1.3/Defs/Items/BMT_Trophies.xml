@@ -46,6 +46,7 @@
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
 	</ThingDef>
+	
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>BMT_CeratopsiaHorn</defName>
 		<label>ceratopsia horn</label>
@@ -100,7 +101,8 @@
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
 	</ThingDef>
-	<ThingDef ParentName="ApparelBase">
+	
+	<ThingDef ParentName="ApparelNoQualityBase">
 		<defName>BMT_TyrannoSkull</defName>
 		<label>tyrannosaurus skull</label>
 		<description>A tyrannosaurus skull. This is a true trophy.</description>
@@ -125,7 +127,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
-			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.033</PsychicEntropyRecoveryRate>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
 			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">20</TerrorSource>
 		</equippedStatOffsets>
@@ -162,6 +164,7 @@
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
 	</ThingDef>
+	
 	<ThingDef ParentName="ResourceBase">
 		<defName>BMT_SpinoSail</defName>
 		<label>spinosaurus sail</label>

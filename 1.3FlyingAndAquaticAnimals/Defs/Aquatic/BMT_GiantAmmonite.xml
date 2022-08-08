@@ -156,7 +156,7 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <butcherProducts>
-            <BMT_Molluscashell>40</BMT_Molluscashell>
+            <BMT_Molluskshell>40</BMT_Molluskshell>
         </butcherProducts>
     </ThingDef>
 

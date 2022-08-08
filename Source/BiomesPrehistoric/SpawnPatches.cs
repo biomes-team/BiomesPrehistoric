@@ -7,6 +7,7 @@ using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
+using RimWorld.Planet;
 
 namespace BiomesPrehistoric
 {
@@ -258,6 +259,12 @@ namespace BiomesPrehistoric
 
 
 
+
+
+
+
+
+
     // Uncomment this patch for Dino World to apply to plants
 
     [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
@@ -280,7 +287,43 @@ namespace BiomesPrehistoric
             return true;
         }
     }
-    
+
+
+
+    /// <summary>
+    /// foraged food
+    /// </summary>
+    [HarmonyPatch(typeof(Caravan_ForageTracker), "Forage")]
+    public static class CaravanForagePatch
+    {
+        static bool Prefix(ref Caravan ___caravan)
+        {
+            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            {
+                return true;
+            }
+
+            ThingDef foragedFood = ThingDef.Named("BMT_RawPineNuts");
+
+            if (foragedFood != null)
+            {
+                int a = GenMath.RoundRandom(ForagedFoodPerDayCalculator.GetForagedFoodCountPerInterval(___caravan));
+                int b = Mathf.FloorToInt((___caravan.MassCapacity - ___caravan.MassUsage) / foragedFood.GetStatValueAbstract(StatDefOf.Mass));
+                a = Mathf.Min(a, b);
+                while (a > 0)
+                {
+                    Thing thing = ThingMaker.MakeThing(foragedFood);
+                    thing.stackCount = Mathf.Min(a, foragedFood.stackLimit);
+                    a -= thing.stackCount;
+                    CaravanInventoryUtility.GiveThing(___caravan, thing);
+                }
+            }
+            
+            return false;
+        }
+    }
+
+
 
 
     // this exists in case we change the definition of "prehistoric" later

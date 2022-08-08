@@ -165,7 +165,7 @@
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(226,225,214)</color>
-            <drawSize>1.9</drawSize>
+            <drawSize>0.6</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>63</MarketValue>
