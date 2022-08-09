@@ -3,7 +3,7 @@
 	<ThingDef ParentName="HealrootBase">
 		<defName>BMT_HealrootFern</defName>
 		<label>healroot fern</label>
-		<description>healroot fern.</description>
+		<description>A fern with that produces tubers too bitter to eat, but that can be used to make a basic antiseptic.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Plant/HealrootFern</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
