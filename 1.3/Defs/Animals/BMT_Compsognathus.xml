@@ -59,7 +59,7 @@
                 <eggUnfertilizedDef>BMT_EggCompsognathusUnfertilized</eggUnfertilizedDef>
                 <eggFertilizedDef>BMT_CompsognathusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>5</eggFertilizationCountMax>
-                <eggLayIntervalDays>3</eggLayIntervalDays>
+                <eggLayIntervalDays>4.5</eggLayIntervalDays>
                 <eggCountRange>4~5</eggCountRange>
             </li>
         </comps>
@@ -180,7 +180,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>5</hatcherDaystoHatch>
+                <hatcherDaystoHatch>4</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Compsognathus</hatcherPawn>
             </li>
         </comps>
