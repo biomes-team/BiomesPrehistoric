@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Eathiestrobus</defName>
+    <label>eathie pine</label>
+    <description>A large conifer covered with prickly pine cones. </description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Eathiestrobus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>20</growDays>
+      <visualSizeRange>1.3~3.0</visualSizeRange>
+      <harvestWork>800</harvestWork>
+      <harvestYield>27</harvestYield>
+    </plant>
+  </ThingDef>
+
+</Defs>
