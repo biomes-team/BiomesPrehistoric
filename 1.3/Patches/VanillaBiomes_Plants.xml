@@ -35,6 +35,7 @@ BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
 			<BMT_Araucaria>0.5</BMT_Araucaria>
 			<BMT_Gnetum>0.1</BMT_Gnetum>
 			<BMT_HealrootFern>0.1</BMT_HealrootFern>
+			<BMT_JurassicHorsetail>1.0</BMT_JurassicHorsetail>
 		</value>
 	</Operation>
 	
@@ -88,8 +89,9 @@ BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
 			<BMT_Araucaria>1.2</BMT_Araucaria>
 			<BMT_Gnetum>0.16</BMT_Gnetum>
 			<BMT_HealrootFern>0.16</BMT_HealrootFern>
-			<BMT_Calamites>0.5</BMT_Calamites>
-			<BMT_Horsetail>2.0</BMT_Horsetail>
+			<BMT_Zamiaceae>1.5</BMT_Zamiaceae>
+			<BMT_Polytrichaceae>4.0</BMT_Polytrichaceae>
+			<BMT_JurassicHorsetail>2.0</BMT_JurassicHorsetail>
 		</value>
 	</Operation>
 
