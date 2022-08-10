@@ -4,7 +4,7 @@
   <ThingDef ParentName="TreeBase">
     <defName>BMT_Eathiestrobus</defName>
     <label>eathie pine</label>
-    <description>A large conifer covered with prickly pine cones. </description>
+    <description>A large conifer covered with prickly pine cones.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Eathiestrobus</texPath>
       <graphicClass>Graphic_Random</graphicClass>
