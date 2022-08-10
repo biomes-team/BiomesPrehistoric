@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="PlantBase">
-		<defName>BMT_Alethopteris</defName>
-		<label>sweetnut fern</label>
-		<description>A primitive seed fern which yields edible nuts.</description>
+
+	<ThingDef ParentName="PlantBase" Name="BMT_AlethopterisBase" Abstract="True">
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
-			<Nutrition>0.50</Nutrition>
+			<Nutrition>1</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Plant/Alethopteris/AlethopterisGrown</texPath>
@@ -17,12 +15,9 @@
 			</shadowData>
 		</graphicData>
 		<selectable>true</selectable>
-		<neverMultiSelect>false</neverMultiSelect>
-		<fillPercent>0.20</fillPercent>
 		<pathCost>30</pathCost>
+		<ingestible />
 		<plant>
-			<fertilityMin>0.5</fertilityMin>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<growDays>6</growDays>
 			<immatureGraphicPath>BMT_Prehistoric/Plant/Alethopteris/AlethopterisImmature</immatureGraphicPath>
 			<harvestYield>10</harvestYield>
@@ -30,12 +25,47 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
 			<harvestedThingDef>BMT_RawPineNuts</harvestedThingDef>
-			<wildClusterRadius>5</wildClusterRadius>
-			<wildClusterWeight>250</wildClusterWeight>
 			<visualSizeRange>0.95~1.7</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
-			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
 	</ThingDef>
+
+	<ThingDef ParentName="BMT_AlethopterisBase">
+		<defName>BMT_Alethopteris</defName>
+		<label>sweetnut fern</label>
+		<description>A primitive seed fern which yields edible nuts.</description>
+		<neverMultiSelect>false</neverMultiSelect>
+		<fillPercent>0.20</fillPercent>
+		<plant>
+			<fertilityMin>0.5</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<wildClusterRadius>5</wildClusterRadius>
+			<wildClusterWeight>250</wildClusterWeight>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="BMT_AlethopterisBase">
+		<defName>BMT_AlethopterisCrop</defName>
+		<label>planted sweetnut fern</label>
+		<description>A primitive seed fern which yields edible nuts.</description>
+		<plant>
+			<fertilityMin>0.5</fertilityMin>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<sowWork>4000</sowWork>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<harvestMinGrowth>0.40</harvestMinGrowth>
+			<interferesWithRoof>false</interferesWithRoof>
+			<blockAdjacentSow>true</blockAdjacentSow>
+		</plant>
+	</ThingDef>
+
 </Defs>
