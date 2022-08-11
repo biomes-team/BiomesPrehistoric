@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>BMT_Archaefructus</defName>
+    <label>archaefructus</label>
+    <description>A small perennial wildflower that grows in alpine climates.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>4</Beauty>
+      <BeautyOutdoors>4</BeautyOutdoors>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <modExtensions>
+      <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+        <terrainTags>
+          <li>Water</li>
+          <li>Fresh</li>
+          <li>ChestDeep</li>
+          <li>Boggy</li>
+        </terrainTags>
+      </li>
+    </modExtensions>
+    <graphicData>
+      <texPath>Things/Plant/Astragalus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>2.5</growDays>
+      <maxMeshCount>25</maxMeshCount>
+      <visualSizeRange>0.3~0.4</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>4</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+    </plant>
+  </ThingDef>
+
+</Defs>

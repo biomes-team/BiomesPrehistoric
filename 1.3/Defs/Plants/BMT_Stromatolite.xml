@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="PlantBase">
-		<defName>BMT_Crinoid</defName>
-		<label>sea lilies</label>
-		<description>adult crinoid are called sea lilies and are attached to the sea bottom by a stalk.</description>
+		<defName>BMT_Stromatolite</defName>
+		<label>stromatolite</label>
+		<description>These microorganisms produce adhesive compounds that cement sand and other rocky materials to form mineral "microbial mats". In turn, these mats build up layer by layer, growing gradually over time.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>0.15</Flammability>
@@ -21,7 +21,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/Crinoid</texPath>
+			<texPath>BMT_Prehistoric/Plant/Stromatolite</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<ingestible/>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="PlantBase">
-		<defName>BMT_Crinoid</defName>
-		<label>sea lilies</label>
+		<defName>BMT_HornCorals</defName>
+		<label>horn corals</label>
 		<description>adult crinoid are called sea lilies and are attached to the sea bottom by a stalk.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -21,7 +21,7 @@
 			</li>
 		</modExtensions>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/Crinoid</texPath>
+			<texPath>BMT_Prehistoric/Plant/HornCorals</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<ingestible/>
@@ -30,9 +30,9 @@
 			<growDays>3</growDays>
 			<harvestWork>80</harvestWork>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
-			<topWindExposure>0.4</topWindExposure>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>10</wildClusterWeight>
+			<topWindExposure>0.3</topWindExposure>
+			<wildClusterRadius>6</wildClusterRadius>
+			<wildClusterWeight>15</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<interferesWithRoof>false</interferesWithRoof>
 		</plant>
