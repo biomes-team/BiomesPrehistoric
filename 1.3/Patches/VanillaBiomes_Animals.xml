@@ -239,7 +239,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 	<value>
-		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+		<BMT_Apatosaurus>0.1</BMT_Apatosaurus>
 		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.5</BMT_Compsognathus>

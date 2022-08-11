@@ -19,7 +19,7 @@
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>9.5</baseBodySize>
-            <baseHealthScale>5.0</baseHealthScale>
+            <baseHealthScale>7.5</baseHealthScale>
             <baseHungerRate>1.735</baseHungerRate>
             <packAnimal>true</packAnimal>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
