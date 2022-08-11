@@ -21,6 +21,7 @@
   <SongDef>
     <defName>EntrySong</defName>
     <clipPath>BMT_Prehistoric_Music/Little_Guy</clipPath>
+	<allowedTimeOfDay>Day</allowedTimeOfDay>
   </SongDef>
 
   <SongDef>
@@ -46,10 +47,12 @@
 
   <SongDef>
     <clipPath>BMT_Prehistoric_Music/Night_Falls</clipPath>
+	<allowedTimeOfDay>Night</allowedTimeOfDay>
   </SongDef>
 
   <SongDef>
     <clipPath>BMT_Prehistoric_Music/Our_Story_Begins</clipPath>
+	<allowedTimeOfDay>Day</allowedTimeOfDay>
   </SongDef>
 
   <SongDef>
@@ -58,6 +61,7 @@
 
   <SongDef>
     <clipPath>BMT_Prehistoric_Music/Valley_of_Bones</clipPath>
+	<allowedTimeOfDay>Night</allowedTimeOfDay>
   </SongDef>
 
 </Defs>
