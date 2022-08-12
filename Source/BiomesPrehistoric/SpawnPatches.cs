@@ -278,7 +278,7 @@ namespace BiomesPrehistoric
                 {
                     if (!Util.IsPrehistoric(plantDef))
                     {
-                        __result = 0.00000000001f;
+                        __result *= 0.00000000001f;
                         return false;
                     }
                 }
