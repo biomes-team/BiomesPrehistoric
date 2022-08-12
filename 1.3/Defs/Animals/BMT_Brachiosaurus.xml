@@ -12,8 +12,11 @@
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>16</FilthRate>
 			<CaravanRidingSpeedFactor>1.7</CaravanRidingSpeedFactor>
+            <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>sauropod meat</meatLabel>
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>

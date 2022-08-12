@@ -13,6 +13,7 @@
             <FilthRate>12</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>pachycesid meat</meatLabel>
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>

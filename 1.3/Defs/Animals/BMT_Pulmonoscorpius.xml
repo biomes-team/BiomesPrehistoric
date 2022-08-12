@@ -59,6 +59,7 @@
 			</li>
 		</tools>
 		<race>
+		
 			<body>BMT_Scorpion</body>
 			<leatherDef>BMT_PrimordialChitin</leatherDef>
 			<predator>true</predator>

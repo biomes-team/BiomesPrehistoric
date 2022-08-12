@@ -14,6 +14,7 @@
 			<CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Triceratops</useMeatFrom>
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>

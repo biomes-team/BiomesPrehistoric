@@ -13,6 +13,7 @@
             <FilthRate>15</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Ankylosaurus</useMeatFrom>
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>

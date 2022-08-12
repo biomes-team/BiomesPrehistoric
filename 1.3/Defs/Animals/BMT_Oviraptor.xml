@@ -13,6 +13,7 @@
             <FilthRate>6</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>

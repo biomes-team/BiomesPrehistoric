@@ -74,6 +74,7 @@
 			</li>
 		</comps>
 		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
 			<useMeatFrom>BMT_Velociraptor</useMeatFrom>
 			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
 			<herdAnimal>false</herdAnimal>

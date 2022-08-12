@@ -13,6 +13,7 @@
 			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Iguanodon</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailFourDH</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>

@@ -13,6 +13,7 @@
 			<CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>ornithopod meat</meatLabel>
             <body>BMT_BipedWithSpikeTeethAndTail</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>

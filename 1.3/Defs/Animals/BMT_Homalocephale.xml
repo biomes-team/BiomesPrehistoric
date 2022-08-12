@@ -13,6 +13,7 @@
 			<FilthRate>1</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Pachycephalosaurus</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailFiveDH</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>

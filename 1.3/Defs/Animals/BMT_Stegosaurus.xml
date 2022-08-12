@@ -13,6 +13,7 @@
             <FilthRate>17</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>stegosid meat</meatLabel>
             <body>BMT_QuadrupedWithClawsAndTailWeapon</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>

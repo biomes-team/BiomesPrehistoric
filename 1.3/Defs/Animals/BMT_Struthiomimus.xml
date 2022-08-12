@@ -14,6 +14,7 @@
 			<CaravanRidingSpeedFactor>2.0</CaravanRidingSpeedFactor>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>theropod meat</meatLabel>
             <petness>1</petness>
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>

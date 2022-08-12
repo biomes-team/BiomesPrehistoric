@@ -13,6 +13,7 @@
             <FilthRate>10</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <body>Snake</body>
             <leatherDef>Leather_Lizard</leatherDef>
             <herdAnimal>false</herdAnimal>

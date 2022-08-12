@@ -13,6 +13,7 @@
             <FilthRate>10</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>synapsid meat</meatLabel>
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>

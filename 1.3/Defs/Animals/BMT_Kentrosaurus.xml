@@ -13,6 +13,7 @@
             <FilthRate>17</FilthRate>
         </statBases>
         <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Stegosaurus</useMeatFrom>
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
