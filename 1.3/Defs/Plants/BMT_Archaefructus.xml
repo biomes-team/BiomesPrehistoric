@@ -22,7 +22,7 @@
       </li>
     </modExtensions>
     <graphicData>
-      <texPath>Things/Plant/Astragalus</texPath>
+      <texPath>BMT_Prehistoric/Plant/Archaefructus</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>

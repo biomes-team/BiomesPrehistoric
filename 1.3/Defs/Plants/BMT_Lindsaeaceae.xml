@@ -21,7 +21,7 @@
 			<growDays>5</growDays>
 			<harvestWork>150</harvestWork>
 			<maxMeshCount>4</maxMeshCount>
-			<visualSizeRange>0.78~0.88</visualSizeRange>
+			<visualSizeRange>0.2~0.4</visualSizeRange>
 			<topWindExposure>0.16</topWindExposure>
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="TreeBase">
-		<defName>BMT_Lepidodendron</defName>
-		<label>scalebark tree</label>
-		<description>An ancient medium-sized tree, easily identifiable by its distinct scaled trunk.</description>
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>BMT_Metasequoia</defName>
+    <label>dawn redwood</label>
+    <description>The shortest of the redwood. i like the name primal world mammoth tree.</description>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Lepidodendron</texPath>
+      <texPath>BMT_Prehistoric/Plant/Metasequoia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.14, 0.32, 0.12)</volume>
@@ -19,6 +19,8 @@
     </statBases>
     <plant>
       <growDays>27</growDays>
+      <leaflessGraphicPath>Things/Plant/TreeMaple_Leafless</leaflessGraphicPath>
+      <visualSizeRange>1.7~2.8</visualSizeRange>
       <harvestWork>800</harvestWork>
       <harvestYield>27</harvestYield>
       <wildClusterRadius>17</wildClusterRadius>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 	<ThingDef ParentName="TreeBase">
 		<defName>BMT_Cycadales</defName>
 		<label>Cycadales</label>
@@ -31,7 +32,7 @@
 			</sowTags>
 			<topWindExposure>0.15</topWindExposure>
 			<mustBeWildToSow>true</mustBeWildToSow>
-			<immatureGraphicPath>BMT_Prehistoric/Plant/Cycadales/CycadalesImmature</immatureGraphicPath>
+			<!--immatureGraphicPath>BMT_Prehistoric/Plant/Cycadales/CycadalesImmature</immatureGraphicPath-->
 			<harvestWork>800</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestYield>30</harvestYield>
@@ -41,4 +42,5 @@
 			<purpose>Food</purpose>
 		</plant>
 	</ThingDef>
+
 </Defs>

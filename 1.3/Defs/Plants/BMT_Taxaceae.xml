@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="PlantBase" Name="BMT_AlethopterisBase" Abstract="True">
+	<ThingDef ParentName="TreeBase" Name="BMT_TaxaceaeBase" Abstract="True">
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Nutrition>1</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/Alethopteris/AlethopterisGrown</texPath>
+			<texPath>BMT_Prehistoric/Plant/Taxaceae/TaxaceaeGrown</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.55, 0.2, 0.2)</volume>
@@ -21,23 +21,23 @@
 		<ingestible />
 		<plant>
 			<growDays>6</growDays>
-			<immatureGraphicPath>BMT_Prehistoric/Plant/Alethopteris/AlethopterisImmature</immatureGraphicPath>
+			<immatureGraphicPath>BMT_Prehistoric/Plant/Taxaceae/TaxaceaeImmature</immatureGraphicPath>
 			<harvestYield>10</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
 			<harvestMinGrowth>0.40</harvestMinGrowth>
-			<harvestedThingDef>BMT_RawPineNuts</harvestedThingDef>
-			<visualSizeRange>0.95~1.7</visualSizeRange>
+			<harvestedThingDef>RawBerries</harvestedThingDef>
+			<visualSizeRange>1.4~1.7</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
 			<purpose>Food</purpose>
 		</plant>
 	</ThingDef>
 
-	<ThingDef ParentName="BMT_AlethopterisBase">
-		<defName>BMT_Alethopteris</defName>
-		<label>sweetnut fern</label>
-		<description>A primitive seed fern which yields edible nuts.</description>
+	<ThingDef ParentName="BMT_TaxaceaeBase">
+		<defName>BMT_Taxaceae</defName>
+		<label>yew bush</label>
+		<description>The vegetative parts of the plant and its seeds are very poisonous. The arillus, on the other hand, is non-toxic and can be eaten. After eating several "berries" including seeds, a doctor should be consulted. The toxin is called taxine and contains, among other things, the diterpene taxol..</description>
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.7</fertilitySensitivity>
