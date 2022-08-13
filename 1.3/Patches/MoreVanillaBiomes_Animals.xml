@@ -11,7 +11,7 @@
 					<xpath>Defs/BiomeDef[defName="ZBiome_AlpineMeadow"]/wildAnimals</xpath>
 					<value>
 		    <BMT_Kaprosuchus>0.2</BMT_Kaprosuchus>
-		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
+		    <BMT_Compsognathus>0.75</BMT_Compsognathus>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
@@ -52,7 +52,7 @@
 					<value>
 		    <BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
-		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
+		    <BMT_Compsognathus>0.75</BMT_Compsognathus>
 		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
@@ -123,7 +123,7 @@
 					<value>
 		    <BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
 		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
-		    <BMT_Compsognathus>0.5</BMT_Compsognathus>
+		    <BMT_Compsognathus>0.75</BMT_Compsognathus>
 		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
