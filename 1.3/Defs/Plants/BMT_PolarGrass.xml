@@ -18,8 +18,6 @@
           <li>Shallow</li>
           <li>Fresh</li>
           <li>Boggy</li>
-          <li>ChestDeep</li>
-          <li>Water</li>
         </terrainTags>
       </li>
     </modExtensions>
@@ -31,7 +29,8 @@
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible />
     <plant>
-      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <fertilityMin>0.3</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
       <growDays>3</growDays>
       <harvestWork>60</harvestWork>
       <maxMeshCount>9</maxMeshCount>
