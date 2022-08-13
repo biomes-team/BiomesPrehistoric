@@ -37,7 +37,7 @@
 			</li>
 		</tools>
 		<thingCategories>
-			<li>Items</li>
+			<li>Trophy</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -92,7 +92,7 @@
 			</li>
 		</tools>
 		<thingCategories>
-			<li>Items</li>
+			<li>Trophy</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -154,7 +154,7 @@
 		</apparel>
 		<useHitPoints>true</useHitPoints>
 		<thingCategories>
-			<li>HeadgearNoble</li>
+			<li>Trophy</li>
 		</thingCategories>
 		<tradeTags>
 			<li>PsychicApparel</li>
@@ -187,7 +187,7 @@
 		<useHitPoints>true</useHitPoints>
 		<stackLimit>5</stackLimit>
 		<thingCategories>
-			<li>ResourcesRaw</li>
+			<li>Trophy</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
