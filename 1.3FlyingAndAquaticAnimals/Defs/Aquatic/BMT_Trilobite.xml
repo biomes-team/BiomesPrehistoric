@@ -138,9 +138,9 @@
 					<max>3</max>
 				</eggCountRange>
 			</li>
-			<li Class="BiomesCore.CompProperties_BottomFeeder">
+			<!--li Class="BiomesCore.CompProperties_BottomFeeder">
 				<feedingTerrainTag>Water</feedingTerrainTag>
-			</li>
+			</li-->
 		</comps>
 		<modExtensions>
 			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">

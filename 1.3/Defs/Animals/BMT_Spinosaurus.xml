@@ -72,9 +72,6 @@
 					<max>1</max>
 				</eggCountRange>
 			</li>
-			<li Class="BiomesCore.CompProperties_BottomFeeder">
-				<feedingTerrainTag>Water</feedingTerrainTag>
-			</li>
 		</comps>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
