@@ -14,12 +14,14 @@ BMT_Cycas			-	Bush 			Temperate Forest / Boreal Forest
 BMT_Dipteridaceae	-	Tall Grass 		Temperate Forest
 BMT_Eathiestrobus	-	Pine Tree 		Boreal Forest
 BMT_Ginkgo			-	Willow  Tree 	Cold Bog
+BMT_Glossopteris	-	Saguaro Cactus 	Desert
 BMT_Gnetum			-	Barry Bush 		Temperate Forest / Boreal Forest
 BMT_HealrootFern	-	Healroot 		Cold Bog / Tundra / Boreal Forest / Temperate Swamp / Temperate Forest
 BMT_Horsetail		-	grasslike, tough
 BMT_JurassicHorsetail	- 	grasslike	Temperate Forest
 BMT_Lepidodendron	-	Maple Tree 		Tropical Swamp
 BMT_Lindsaeaceae	-	Chokevine		Cold Bog
+BMT_Lyginopteridales	-	Grass 		Desert
 BMT_Matoniaceae		-	Grass			Temperate Forest / Boreal Forest
 BMT_Medullosa		- 	Bush			Tropical Swamp
 BMT_Metasequoia		-	Cypress Tree 	Cold Bog
@@ -35,6 +37,8 @@ BMT_Sigillaria		-	Cypress Tree 	Tropical Swamp
 BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
 BMT_Taxaceae		-	Berry Bush 		Cold Bog
 BMT_Zamiaceae		-	Birch Tree 		Boreal Forest
+BMT_Peltaspermaceae	-	Pincushion Cactus 	Desert
+BMT_Walchia			-	Drago Tree 		Desert
 
 BMT_Crinoid			-	sea lilies		Saltwater / Sea
 BMT_Gryphaea		-					Saltwater / Sea
@@ -198,10 +202,10 @@ BMT_TreeBirch		-	Core 			Tundra
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
 		<value>
-			<!--BMT_Lyginopteridales>6</BMT_Lyginopteridales-->
-			<!--BMT_Peltaspermaceae>1.0</BMT_Peltaspermaceae-->
-			<!--BMT_Glossopteris>1.0</BMT_Glossopteris-->
-			<!--BMT_Walchia>0.45</BMT_Walchia-->
+			<BMT_Lyginopteridales>6</BMT_Lyginopteridales>
+			<BMT_Peltaspermaceae>1.0</BMT_Peltaspermaceae>
+			<BMT_Glossopteris>1.0</BMT_Glossopteris>
+			<BMT_Walchia>0.45</BMT_Walchia>
 			<BMT_Cycadales>0.25</BMT_Cycadales>
 			<!--BMT_Sphenobaiera>0.25</BMT_Sphenobaiera-->
 			<BMT_Horsetail>1.0</BMT_Horsetail>
