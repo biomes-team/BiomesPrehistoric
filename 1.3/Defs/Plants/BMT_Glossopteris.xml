@@ -16,7 +16,7 @@
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.24, 0.3, 0.15)</volume>
-        <offset>(0,0,-0.38)</offset>
+        <offset>(0.1,0,0)</offset>
       </shadowData>
     </graphicData>
     <fillPercent>0.35</fillPercent>

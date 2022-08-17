@@ -26,6 +26,17 @@
         <li>BiomesTeam.BiomesCore</li>
         <li>BiomesTeam.BiomesIslands</li>
         <li>vanillaexpanded.vplantse</li>
+        <li>regrowth.botr.core</li>
+        <li>regrowth.botr.borealforestexpansion</li>
+        <li>regrowth.botr.tundraexpansion</li>
+        <li>regrowth.botr.aspenforest</li>
+        <li>regrowth.botr.coldbogexpansion</li>
+        <li>regrowth.botr.desertexpansion</li>
+        <li>regrowth.botr.temperateforestexpansion</li>
+        <li>regrowth.botr.wastelands</li>
+        <li>regrowth.botr.volcanicicesheet</li>
+        <li>regrowth.botr.animaforest</li>
+        <li>dankpyon.medieval.overhaul</li>
     </loadAfter>
     <description>
 Dinos, Synapsids, and Pterosaurs oh my!

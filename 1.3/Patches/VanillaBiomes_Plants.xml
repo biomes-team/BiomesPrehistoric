@@ -202,11 +202,11 @@ BMT_TreeBirch		-	Core 			Tundra
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
 		<value>
-			<BMT_Lyginopteridales>6</BMT_Lyginopteridales>
+			<BMT_Lyginopteridales>4</BMT_Lyginopteridales>
 			<BMT_Peltaspermaceae>1.0</BMT_Peltaspermaceae>
 			<BMT_Glossopteris>1.0</BMT_Glossopteris>
-			<BMT_Walchia>0.45</BMT_Walchia>
-			<BMT_Cycadales>0.25</BMT_Cycadales>
+			<BMT_Walchia>0.7</BMT_Walchia>
+			<BMT_Cycadales>0.5</BMT_Cycadales>
 			<!--BMT_Sphenobaiera>0.25</BMT_Sphenobaiera-->
 			<BMT_Horsetail>1.0</BMT_Horsetail>
 
@@ -230,7 +230,7 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Stromatolite>1.0</BMT_Stromatolite>
 		</value>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
 		<value>
@@ -250,7 +250,7 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Stromatolite>1.0</BMT_Stromatolite>
 		</value>
 	</Operation>	
-	
+
 <!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="IceSheet"]/wildPlants</xpath>
@@ -266,4 +266,5 @@ BMT_TreeBirch		-	Core 			Tundra
 		</value>
 	</Operation>
 	-->
+
 </Patch>
