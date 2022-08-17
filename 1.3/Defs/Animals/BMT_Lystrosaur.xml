@@ -110,7 +110,7 @@
         <defName>BMT_Lystrosaur</defName>
         <label>lystrosaur</label>
         <race>BMT_Lystrosaur</race>
-        <combatPower>75</combatPower>
+        <combatPower>40</combatPower>
         <wildGroupSize>1</wildGroupSize>
         <alternateGraphicChance>0.5</alternateGraphicChance>
         <alternateGraphics>
