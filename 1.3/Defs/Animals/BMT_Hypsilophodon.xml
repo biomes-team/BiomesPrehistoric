@@ -14,7 +14,7 @@
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
-            <meatLabel>theropod meat</meatLabel>
+            <useMeatFrom>BMT_Iguanodon</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailFourDH</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>

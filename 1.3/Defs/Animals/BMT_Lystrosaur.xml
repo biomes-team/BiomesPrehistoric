@@ -14,7 +14,7 @@
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
-            <meatLabel>synapsid meat</meatLabel>
+            <useMeatFrom>BMT_Dimetrodon</useMeatFrom>
             <body>QuadrupedAnimalWithPawsAndTail</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>false</herdAnimal>

@@ -134,7 +134,7 @@
             <trainability>None</trainability>
             <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
             <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
-			<!-- <useMeatFrom>BiomesIslands_WhiteShark</useMeatFrom> -->
+			<useMeatFrom>BMT_Ammonite</useMeatFrom>
             <lifeStageAges>
                 <li>
                     <def>BMT_OrthocerasBabyTiny</def>

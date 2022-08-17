@@ -14,7 +14,7 @@
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
-            <meatLabel>theropod meat</meatLabel>
+            <useMeatFrom>BMT_Velociraptor</useMeatFrom>
             <petness>1</petness>
             <body>BMT_BipedWithClawsSickleTeethAndTail</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>

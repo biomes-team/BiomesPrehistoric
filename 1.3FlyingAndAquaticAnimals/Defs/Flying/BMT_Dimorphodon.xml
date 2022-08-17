@@ -73,6 +73,7 @@
 		</statBases>
 		<race>
 			<leatherDef>BMT_DinoHideThin</leatherDef>
+			<useMeatFrom>BMT_Pteranodon</useMeatFrom>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>

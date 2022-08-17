@@ -15,7 +15,7 @@
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
-			<meatLabel>ceratopsid meat</meatLabel>
+			<useMeatFrom>BMT_Triceratops</useMeatFrom>
 			<petness>1</petness>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>

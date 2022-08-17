@@ -107,7 +107,7 @@
 			</li>
         </tools>
         <race>
-		    <meatLabel>plesiosaur meat</meatLabel>
+		    <meatLabel>mosasaur meat</meatLabel>
             <predator>true</predator>
             <body>Biomes_WhaleBody</body>
 			<leatherDef>BiomesIslands_Leather_Whaleskin</leatherDef>

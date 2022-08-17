@@ -123,7 +123,7 @@
             <trainability>Intermediate</trainability>
             <manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.85</manhunterOnDamageChance>
-			<useMeatFrom>BiomesIslands_Whale</useMeatFrom>
+            <meatLabel>plesiosaur meat</meatLabel>
             <lifeStageAges>
                 <li>
                     <def>BMT_ElasmosaurusBabyTiny</def>

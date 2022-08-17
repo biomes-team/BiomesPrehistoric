@@ -107,7 +107,7 @@
 			</li>
         </tools>
         <race>
-		    <meatLabel>icthyosaur meat</meatLabel>
+		    <useMeatFrom>BMT_Icthyosaurus</useMeatFrom>
             <predator>true</predator>
             <body>Biomes_SharkBody</body>
 			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>

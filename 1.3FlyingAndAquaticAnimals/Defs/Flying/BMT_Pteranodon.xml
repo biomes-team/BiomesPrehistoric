@@ -73,6 +73,7 @@
 		</statBases>
 		<race>
 			<leatherDef>BMT_DinoHideThin</leatherDef>
+			<meatLabel>pterosaur meat</meatLabel>
 			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>

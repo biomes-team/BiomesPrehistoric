@@ -15,6 +15,7 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <body>Snake</body>
+            <useMeatFrom>BMT_Kaprosuchus</useMeatFrom>
             <leatherDef>Leather_Lizard</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>3</baseBodySize>
