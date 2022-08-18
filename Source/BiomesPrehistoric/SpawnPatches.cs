@@ -16,7 +16,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(PawnKindDef animalDef, List<BiomeAnimalRecord> ___wildAnimals, ref float __result)
         {
-            if(BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if(BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
             {
                 if(___wildAnimals?.Any(d => Util.IsPrehistoric(d.animal)) == true)
                 {
@@ -43,7 +43,7 @@ namespace BiomesPrehistoric
         {
 
             Log.Message("[Biomes! Prehistoric] Evaluating manhunter pack");
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 Log.Message("[Biomes! Prehistoric] DINO world is off. Running vanilla manhunter pack");
                 return true;
@@ -90,7 +90,7 @@ namespace BiomesPrehistoric
     {
         static void Postfix(ref List<Pawn> outPawns)
         {
-            if (BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
             {
                 foreach(Pawn pawn in outPawns)
                 {
@@ -142,7 +142,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(Map map, ref PawnKindDef kind, ref bool __result)
         {
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
             }
@@ -171,7 +171,7 @@ namespace BiomesPrehistoric
     {
         static void Postfix(ref IEnumerable<PawnKindDef> __result)
         {
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 return;
             }
@@ -188,7 +188,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(int tile, ref PawnKindDef animalKind, ref bool __result)
         {
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
             }
@@ -207,7 +207,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(ref bool __result)
         {
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
             }
@@ -224,7 +224,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(ref bool __result)
         {
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
             }
@@ -242,7 +242,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(PawnKindDef k, ref float __result)
         {
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
             }
@@ -265,14 +265,14 @@ namespace BiomesPrehistoric
 
 
 
-    // Uncomment this patch for Dino World to apply to plants
+    // Plant spawn options
 
     [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
     public static class PlantSpawnPatch
     {
         static bool Prefix(PawnKindDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
         {
-            if (BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
             {
                 if (___wildPlants?.Any(d => Util.IsPrehistoric(d.plant)) == true)
                 {
@@ -282,6 +282,14 @@ namespace BiomesPrehistoric
                         return false;
                     }
                 }
+            }
+            else if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndVanilla)
+            {
+                    if (Util.IsPrehistoric(plantDef))
+                    {
+                        __result *= 0.00000000001f;
+                        return false;
+                    }
             }
 
             return true;
@@ -298,7 +306,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(ref Caravan ___caravan)
         {
-            if (!BiomesPrehistoricMod.mod.settings.dinoOnly)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
             }

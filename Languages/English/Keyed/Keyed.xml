@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	<BMT_DinoOnly>Prehistoric world: Only prehistoric animals can spawn wild</BMT_DinoOnly>
+
 	<BMT_BiomesPrehistoric>Biomes! Prehistoric</BMT_BiomesPrehistoric>
+	
+	<BMT_DinoAndVanillaLabel>Animals Only</BMT_DinoAndVanillaLabel>
+	<BMT_DinoAndVanillaDesc>Adds prehistoric animals. Does not add prehistoric plants. Prehistoric animals will spawn alongside vanilla and modded plants and animals.</BMT_DinoAndVanillaDesc>
+	
+	<BMT_DinoAndPlantLabel>Animals and Plants</BMT_DinoAndPlantLabel>
+	<BMT_DinoAndPlantDesc>Adds prehistoric animals and plants.</BMT_DinoAndPlantDesc>
+	
+	<BMT_DinoWorldLabel>Prehistoric World</BMT_DinoWorldLabel>
+	<BMT_DinoWorldDesc>A complete overhaul: Only prehistoric animals and plants can spawn wild or be sold by traders.</BMT_DinoWorldDesc>
+	
+	<BMT_Select>Select</BMT_Select>
 </LanguageData>
