@@ -20,7 +20,7 @@ namespace BiomesPrehistoric
             {
                 if(___wildAnimals?.Any(d => Util.IsPrehistoric(d.animal)) == true)
                 {
-                    if (animalDef.modContentPack?.Name != "Biomes! Prehistoric")
+                    if (!Util.IsPrehistoric(animalDef))
                     {
                         __result = 0f;
                         return false;
@@ -270,29 +270,25 @@ namespace BiomesPrehistoric
     [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
     public static class PlantSpawnPatch
     {
-        static bool Prefix(PawnKindDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
+        static void Postfix(ThingDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
         {
             if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
             {
-                if (___wildPlants?.Any(d => Util.IsPrehistoric(d.plant)) == true)
+                if(___wildPlants.Any(p => Util.IsPrehistoric(p.plant)))
                 {
-                    if (!Util.IsPrehistoric(plantDef))
+                    if(!Util.IsPrehistoric(plantDef))
                     {
-                        __result *= 0.00000000001f;
-                        return false;
+                        __result *= 0.000000001f;
                     }
                 }
             }
-            else if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndVanilla)
+            else if(BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndVanilla)
             {
-                    if (Util.IsPrehistoric(plantDef))
-                    {
-                        __result *= 0.00000000001f;
-                        return false;
-                    }
+                if(Util.IsPrehistoric(plantDef))
+                {
+                    __result *= 0.000000001f;
+                }
             }
-
-            return true;
         }
     }
 

@@ -75,6 +75,7 @@ namespace BiomesPrehistoric
             iconRect.xMax -= mainRect.width - height;
             textRect.xMin += height + 10f;
             textRect.xMax -= 10f;
+            textRect.yMin += 10f;
             iconRect.xMin = iconRect.xMax - height;
 
             string texPath = String.Format("BMT_Prehistoric/UI/{0}", iconPath);
