@@ -48,8 +48,8 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceVerbBase">
-		<defName>BMT_CeratopsiaHorn</defName>
-		<label>ceratopsia horn</label>
+		<defName>BMT_CeratopsidHorn</defName>
+		<label>ceratopsid horn</label>
 		<description>An ceratopsia's horn. It is very durable but mostly hollow. While somewhat complicated to wield as a melee weapon, it can be used quickly and deadly.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Trophie/TriceratopsHorn</texPath>
