@@ -35,10 +35,6 @@
 				<drawStackLabel>true</drawStackLabel>
 			</li>
 		</comps>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>8</costStuffCount>
 		<pathCost>10</pathCost>
 		<rotatable>false</rotatable>
 	</ThingDef>
@@ -80,11 +76,10 @@
 				<minCountToEmpty>20</minCountToEmpty>
 				<drawStackLabel>true</drawStackLabel>
 			</li>
+			<li Class="CompProperties_Lifespan">
+				<lifespanTicks>1200000</lifespanTicks>
+			</li>
 		</comps>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>20</costStuffCount>
 		<pathCost>10</pathCost>
 		<rotatable>false</rotatable>
 	</ThingDef>
