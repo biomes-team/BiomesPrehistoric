@@ -184,7 +184,7 @@
 				</dessicatedBodyGraphicData>
                 <butcherBodyPart>
                     <bodyPartGroup>HornAttackTool</bodyPartGroup>
-                    <thing>BMT_CeratopsiaHorn</thing>
+                    <thing>BMT_CeratopsidHorn</thing>
                 </butcherBodyPart>
 			</li>
 		</lifeStages>
