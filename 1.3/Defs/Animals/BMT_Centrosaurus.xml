@@ -193,7 +193,7 @@
 		<description>A fertilized protoceratops egg. If all goes well, it should hatch into a baby protoceratops. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(195,123,197)</color>
+			<color>(184,173,184)</color>
 			<drawSize>1</drawSize>
 		</graphicData>
 		<statBases>

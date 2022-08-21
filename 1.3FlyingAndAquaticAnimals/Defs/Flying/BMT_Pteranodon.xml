@@ -187,7 +187,7 @@
 		<description>A fertilized Pteranodon egg. If all goes well, it should hatch into a baby pteranodon. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(195,123,197)</color>
+			<color>(169,156,131)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>

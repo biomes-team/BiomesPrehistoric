@@ -187,7 +187,7 @@
 		<description>A fertilized anhanguera egg. If all goes well, it should hatch into a baby anhanguera. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(195,123,197)</color>
+			<color>(202,190,177)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
