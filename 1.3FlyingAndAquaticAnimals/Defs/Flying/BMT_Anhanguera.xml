@@ -137,7 +137,7 @@
 					<li>Scratch</li>
 				</capacities>
 				<power>1.5</power>
-				<cooldownTime>0.5</cooldownTime>
+				<cooldownTime>3</cooldownTime>
 				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
@@ -153,7 +153,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>2</power>
+				<power>3.2</power>
 				<cooldownTime>0.8</cooldownTime>
 				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
 				<surpriseAttack>
