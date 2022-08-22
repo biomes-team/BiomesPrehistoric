@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>BMT_Polytrichaceae</defName>
-    <label>moss</label>
+    <label>polytrichaceae</label>
     <description>Wild moss that grows in clumps in areas of low light and cool temperatures. Moss takes a long time to grow, but is very frost-resistant.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -21,8 +21,8 @@
       <fertilitySensitivity>0</fertilitySensitivity>
       <growDays>4</growDays>
       <harvestWork>60</harvestWork>
-      <maxMeshCount>9</maxMeshCount>
-      <visualSizeRange>0.4~0.6</visualSizeRange>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>1.5~2</visualSizeRange>
       <topWindExposure>0.0</topWindExposure>
       <wildOrder>1</wildOrder>
     </plant>
