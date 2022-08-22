@@ -141,7 +141,7 @@
                     <texPath>BMT_Prehistoric/Animals/Edmontosaurus/Edmontosaurus</texPath>
                     <drawSize>4</drawSize>
                     <shadowData>
-                        <volume>(0.3, 0.3, 0.3)</volume>
+                        <volume>(0.6, 0.6, 0.6)</volume>
                         <offset>(0,0,-0.3)</offset>
                     </shadowData>
                 </bodyGraphicData>
@@ -155,7 +155,7 @@
                     <texPath>BMT_Prehistoric/Animals/Edmontosaurus/Edmontosaurus</texPath>
                     <drawSize>5.2</drawSize>
                     <shadowData>
-                        <volume>(0.4, 0.4, 0.4)</volume>
+                        <volume>(0.8, 0.8, 0.8)</volume>
                         <offset>(0,0,-0.2)</offset>
                     </shadowData>
                 </bodyGraphicData>

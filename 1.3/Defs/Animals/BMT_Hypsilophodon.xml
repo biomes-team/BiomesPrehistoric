@@ -145,8 +145,8 @@
                     <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Hypsilophodon</texPath>
                     <drawSize>1.5</drawSize>
                     <shadowData>
-                        <volume>(0.3, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.3)</offset>
+                        <volume>(0.2, 0.2, 0.2)</volume>
+                        <offset>(0,0,-0.1)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -159,8 +159,8 @@
                     <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Hypsilophodon</texPath>
                     <drawSize>2</drawSize>
                     <shadowData>
-                        <volume>(0.4, 0.4, 0.4)</volume>
-                        <offset>(0,0,-0.2)</offset>
+                        <volume>(0.3, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.1)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>

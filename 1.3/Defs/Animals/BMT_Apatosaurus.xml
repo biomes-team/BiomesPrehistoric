@@ -151,7 +151,7 @@
                     <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
                     <drawSize>11</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
+                        <volume>(1, 2, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
                     </shadowData>
                 </bodyGraphicData>

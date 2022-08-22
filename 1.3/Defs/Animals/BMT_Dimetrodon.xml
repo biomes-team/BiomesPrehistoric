@@ -120,7 +120,7 @@
                     <drawSize>1.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.2)</offset>
+                        <offset>(0,0,-0.13)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -133,8 +133,8 @@
                     <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dimetrodon</texPath>
                     <drawSize>2.3</drawSize>
                     <shadowData>
-                        <volume>(0.7, 0.6, 0.4)</volume>
-                        <offset>(0,0,-0.25)</offset>
+                        <volume>(0.6, 0.5, 0.3)</volume>
+                        <offset>(0,0,-0.18)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -147,8 +147,8 @@
                     <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dimetrodon</texPath>
                     <drawSize>3.0</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
-                        <offset>(0,0,-0.5)</offset>
+                        <volume>(0.8, 0.65, 0.4)</volume>
+                        <offset>(0,0,-0.3)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
