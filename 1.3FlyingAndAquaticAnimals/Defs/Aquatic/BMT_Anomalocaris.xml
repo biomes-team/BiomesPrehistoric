@@ -148,6 +148,9 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>2</eggCountRange>
 			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+			</li>
 		</comps>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
