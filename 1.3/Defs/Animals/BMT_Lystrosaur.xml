@@ -127,7 +127,7 @@
                     <texPath>BMT_Prehistoric/Animals/Lystrosaur/LystrosaurB</texPath>
                     <drawSize>1</drawSize>
                     <shadowData>
-                        <volume>(1, 0.3, 0.3)</volume>
+                        <volume>(0.3, 0.15, 0.15)</volume>
                         <offset>(0,0,-0.0)</offset>
                     </shadowData>
                 </bodyGraphicData>
@@ -141,7 +141,7 @@
                     <texPath>BMT_Prehistoric/Animals/Lystrosaur/LystrosaurB</texPath>
                     <drawSize>1.6</drawSize>
                     <shadowData>
-                        <volume>(1, 0.6, 0.4)</volume>
+                        <volume>(0.4, 0.3, 0.2)</volume>
                         <offset>(0,0,-0.0)</offset>
                     </shadowData>
                 </bodyGraphicData>

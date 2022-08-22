@@ -117,7 +117,7 @@
                     <texPath>BMT_Prehistoric/Animals/Stygimoloch/Stygimoloch</texPath>
                     <drawSize>2.7</drawSize>
                     <shadowData>
-                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <volume>(0.3, 0.2, 0.2)</volume>
                         <offset>(0,0,-0.2)</offset>
                     </shadowData>
                 </bodyGraphicData>
@@ -131,7 +131,7 @@
                     <texPath>BMT_Prehistoric/Animals/Stygimoloch/Stygimoloch</texPath>
                     <drawSize>4.2</drawSize>
                     <shadowData>
-                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <volume>(0.45, 0.4, 0.3)</volume>
                         <offset>(0,0,-0.25)</offset>
                     </shadowData>
                 </bodyGraphicData>
@@ -145,7 +145,7 @@
                     <texPath>BMT_Prehistoric/Animals/Stygimoloch/Stygimoloch</texPath>
                     <drawSize>5.0</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
+                        <volume>(0.6, 0.5, 0.35)</volume>
                         <offset>(0,0,-0.5)</offset>
                     </shadowData>
                 </bodyGraphicData>

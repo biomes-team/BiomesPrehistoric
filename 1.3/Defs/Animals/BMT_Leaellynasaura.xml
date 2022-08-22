@@ -129,7 +129,7 @@
                     <texPath>BMT_Prehistoric/Animals/Leaellynasaura/LeaellynasauraBaby</texPath>
                     <drawSize>1</drawSize>
                     <shadowData>
-                        <volume>(1, 0.3, 0.3)</volume>
+                        <volume>(0.6, 0.2, 0.2)</volume>
                         <offset>(0,0,-0.0)</offset>
                     </shadowData>
                 </bodyGraphicData>
@@ -143,16 +143,16 @@
                     <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Leaellynasaura</texPath>
                     <drawSize>1.4</drawSize>
                     <shadowData>
-                        <volume>(1, 0.6, 0.4)</volume>
-                        <offset>(0,0,-0.0)</offset>
+                        <volume>(0.6, 0.4, 0.25)</volume>
+                        <offset>(0,0,-0.1)</offset>
                     </shadowData>
                 </bodyGraphicData>
 				<femaleGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Leaellynasaura/LeaellynasauraFemale</texPath>
                     <drawSize>1.4</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
-                        <offset>(0,0,-0.5)</offset>
+                        <volume>(0.6, 0.4, 0.25)</volume>
+                        <offset>(0,0,-0.1)</offset>
                     </shadowData>
 				</femaleGraphicData>
                 <dessicatedBodyGraphicData>
@@ -165,16 +165,16 @@
                     <texPath>BMT_Prehistoric/Animals/Leaellynasaura/Leaellynasaura</texPath>
                     <drawSize>1.8</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
-                        <offset>(0,0,-0.0)</offset>
+                        <volume>(0.6, 0.5, 0.35)</volume>
+                        <offset>(0,0,-0.3)</offset>
                     </shadowData>
                 </bodyGraphicData>
 				<femaleGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Leaellynasaura/LeaellynasauraFemale</texPath>
                     <drawSize>1.8</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
-                        <offset>(0,0,-0.5)</offset>
+                        <volume>(0.6, 0.5, 0.35)</volume>
+                        <offset>(0,0,-0.3)</offset>
                     </shadowData>
 				</femaleGraphicData>
                 <dessicatedBodyGraphicData>

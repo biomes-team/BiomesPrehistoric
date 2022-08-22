@@ -99,10 +99,6 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Arthropleura/Arthropleura</texPath>
                     <drawSize>0.5</drawSize>
-                    <shadowData>
-                        <volume>(0.4, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Arthropleura/Dessicated_Arthropleura</texPath>
@@ -114,8 +110,8 @@
                     <texPath>BMT_Prehistoric/Animals/Arthropleura/Arthropleura</texPath>
                     <drawSize>0.95</drawSize>
                     <shadowData>
-                        <volume>(0.7, 0.6, 0.4)</volume>
-                        <offset>(0,0,-0.25)</offset>
+						<volume>(0.25, 0.3, 0.25)</volume>
+                        <offset>(0,0,-0.12)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -128,8 +124,8 @@
                     <texPath>BMT_Prehistoric/Animals/Arthropleura/Arthropleura</texPath>
                     <drawSize>1.4</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
-                        <offset>(0,0,-0.5)</offset>
+                        <volume>(1, 0.3, 0.2)</volume>
+                        <offset>(0,0,-0.25)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>

@@ -145,8 +145,8 @@
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
                     <drawSize>12</drawSize>
                     <shadowData>
-                        <volume>(0.7, 0.6, 0.4)</volume>
-                        <offset>(0,0,-0.25)</offset>
+                        <volume>(1.5, 1.1, 0.8)</volume>
+                        <offset>(0,0,-0.5)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -159,8 +159,8 @@
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
                     <drawSize>15.0</drawSize>
                     <shadowData>
-                        <volume>(1, 0.8, 0.5)</volume>
-                        <offset>(0,0,-0.5)</offset>
+                        <volume>(2, 1.5, 1.0)</volume>
+                        <offset>(0,0,-1.0)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
