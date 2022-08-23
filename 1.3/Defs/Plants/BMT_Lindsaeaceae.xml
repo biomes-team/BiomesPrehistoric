@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>BMT_Lindsaeaceae</defName>
-		<label>creeping fern</label>
+		<label>crawling fern</label>
 		<description>. Creeping fern greatly slows down anyone who moves over it.</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
