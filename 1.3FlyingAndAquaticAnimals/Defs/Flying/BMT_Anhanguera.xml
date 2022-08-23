@@ -58,6 +58,9 @@
 					<drawSize>3</drawSize>
 				</bodyGraphicData>
 			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+			</li>
 		</modExtensions>
 	</LifeStageDef>
 	<ThingDef ParentName="AnimalThingBase">

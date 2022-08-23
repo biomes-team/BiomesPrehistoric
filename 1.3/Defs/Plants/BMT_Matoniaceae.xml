@@ -21,8 +21,8 @@
 			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<growDays>2.5</growDays>
 			<harvestWork>40</harvestWork>
-			<maxMeshCount>9</maxMeshCount>
-			<visualSizeRange>0.4~0.6</visualSizeRange>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.9~1.4</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildOrder>1</wildOrder>
 		</plant>
