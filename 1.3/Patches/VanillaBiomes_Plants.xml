@@ -96,8 +96,8 @@ BMT_TreeBirch		-	Core 			Tundra
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
 		<value>
 			<BMT_Grass>3.0</BMT_Grass>
-			<!--BMT_Davallia>2.0</BMT_Davallia-->
-			<!--BMT_Ephedra>2.0</BMT_Ephedra-->
+			<BMT_Davallia>2.0</BMT_Davallia>
+			<BMT_Ephedra>2.0</BMT_Ephedra>
 			<!--BMT_Angiopteris>0.8</BMT_Angiopteris-->
 			<!--BMT_Archaeanthus>0.3</BMT_Archaeanthus-->
 			<!--BMT_Nypa>0.3</BMT_Nypa-->

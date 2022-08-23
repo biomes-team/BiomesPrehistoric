@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>BMT_Ephedra</defName>
+    <label>jointfir</label>
+    <description>Tough firbrous vegetation that produces a variety of exciting chemicals.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <pathCost>14</pathCost>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Ephedra</texPath>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <growDays>3</growDays>
+      <harvestWork>60</harvestWork>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.85~1.05</visualSizeRange>
+      <topWindExposure>0.2</topWindExposure>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>40</wildClusterWeight>
+          <wildOrder>1</wildOrder>
+          <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+    </plant>
+  </ThingDef>
+
+</Defs>
