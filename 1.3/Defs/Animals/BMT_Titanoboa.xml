@@ -130,8 +130,8 @@
                     <!--shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(1,0,-0.2)</offset>
-                    </shadowData>
-                </bodyGraphicData-->
+                    </shadowData-->
+                </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Titanoboa/Dessicated_Titanoboa</texPath>
                     <drawSize>5.5</drawSize>
