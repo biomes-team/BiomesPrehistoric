@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SitePartDef>
+        <defName>BMT_NestingSite</defName>
+        <label>dinosaur nesting site</label>
+        <description>A dinosaur nesting site.</description>
+        <workerClass>BiomesPrehistoric.SitePartWorker_NestingSite</workerClass>
+        <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+        <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>16</forceExitAndRemoveMapCountdownDurationDays>
+        <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+        <tags>
+            <li>BMT_NestingSite</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>BMT_NestingSite</defName>
+        <linkWithSite>BMT_NestingSite</linkWithSite>
+        <order>480</order>
+        <genStep Class="BiomesPrehistoric.GenStep_NestingSite">
+            <count>1</count>
+            <nearMapCenter>true</nearMapCenter>
+        </genStep>
+    </GenStepDef>
+
+</Defs>

@@ -31,9 +31,13 @@ namespace BiomesPrehistoric
     {
         public PrehistoricSettings settings;
         public static BiomesPrehistoricMod mod;
+
+        public static ModContentPack ModContentPack;
+        
         public BiomesPrehistoricMod(ModContentPack content) : base(content)
         {
             this.settings = GetSettings<PrehistoricSettings>();
+            ModContentPack = content;
             mod = this;
         }
 
