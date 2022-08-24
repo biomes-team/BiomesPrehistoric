@@ -83,7 +83,6 @@
                 <spawnIntervalRange>750000~900000</spawnIntervalRange>
                 <spawnMaxAdjacent>10</spawnMaxAdjacent>
                 <saveKeysPrefix>DinoFeather</saveKeysPrefix>
-                <spawnForbidden>true</spawnForbidden>
             </li>
         </comps>
         <tools>
