@@ -16,7 +16,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/MosasaurusSubmerged</texPath>
                 <drawSize>5.5</drawSize>
             </bodyGraphicData>
         </li>
@@ -41,7 +41,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/MosasaurusSubmerged</texPath>
                 <drawSize>8.0</drawSize>
             </bodyGraphicData>
         </li>
@@ -57,7 +57,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/MosasaurusSubmerged</texPath>
                 <drawSize>10.5</drawSize>
             </bodyGraphicData>
         </li>
@@ -159,6 +159,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
                     <drawSize>5.5</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.5, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
@@ -170,6 +174,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
                     <drawSize>8.0</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.5, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
@@ -181,6 +189,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
                     <drawSize>10.5</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.5, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
                 </bodyGraphicData>
 				
                 <dessicatedBodyGraphicData>
