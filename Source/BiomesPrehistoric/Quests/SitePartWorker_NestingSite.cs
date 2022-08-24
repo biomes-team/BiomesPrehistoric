@@ -69,7 +69,9 @@ namespace BiomesPrehistoric
                 
                 for (int i = 0; i < adultCount; i++)
                 {
-                    var dino = PawnGenerator.GeneratePawn(dinoDef);
+                    var request = new PawnGenerationRequest(dinoDef);
+                    request.FixedGender = i < nestCount ? Gender.Female : Gender.Male;
+                    var dino = PawnGenerator.GeneratePawn(request);
                     part.things.TryAdd(dino, false);
                 }
             }
