@@ -44,9 +44,7 @@ namespace BiomesPrehistoric
                 thing = GenClosest.ClosestThingReachable(parent.Position, parent.Map, 
                     ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.OnCell, 
                     TraverseParms.For(TraverseMode.NoPassClosedDoors), Props.triggerRadius, validator);
-            
-            Log.Message("tick: " + thing?.def.defName);
-            
+
             if (thing == null)
                 return;
             
@@ -61,8 +59,6 @@ namespace BiomesPrehistoric
             var dinoKind = hatcher.Props.hatcherPawn;
             var dinos = parent.Map.mapPawns.AllPawnsSpawned
                 .Where(p => p.kindDef == dinoKind && p.Position.InHorDistOf(parent.Position, Props.alertRadius));
-            
-            Log.Message("dinoKind: " + dinoKind + " found " + dinos.Count());
 
             bool foundOne = false;
             foreach (var dino in dinos)

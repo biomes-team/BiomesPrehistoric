@@ -25,10 +25,6 @@
                     </parms>
                 </li>
                 
-                <li Class="QuestNode_SubScript">
-                    <def>Util_AdjustPointsForDistantFight</def>
-                </li>
-                
                 <li Class="QuestNode_GetMap" />
 
                 <li Class="QuestNode_GetSiteTile">
