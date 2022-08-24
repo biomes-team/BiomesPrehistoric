@@ -63,7 +63,7 @@ namespace BiomesPrehistoric
             bool foundOne = false;
             foreach (var dino in dinos)
             {
-                if (dino.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter))
+                if (dino.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent))
                 {
                     LifeStageUtility.PlayNearestLifestageSound(dino, ls => ls.soundAngry);
                     foundOne = true;
