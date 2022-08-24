@@ -119,16 +119,16 @@
         <race>BMT_Brachiosaurus</race>
         <combatPower>85</combatPower>
         <wildGroupSize>2~4</wildGroupSize>
-        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <!--<alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
             <li>
-                <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusA</texPath>
+                <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusB</texPath>
             </li>
-        </alternateGraphics>
+        </alternateGraphics>-->
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusA</texPath>
                     <drawSize>8.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -142,7 +142,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusA</texPath>
                     <drawSize>12</drawSize>
                     <shadowData>
                         <volume>(1.5, 1.1, 0.8)</volume>
@@ -156,7 +156,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Brachiosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusA</texPath>
                     <drawSize>15.0</drawSize>
                     <shadowData>
                         <volume>(2, 1.5, 1.0)</volume>
