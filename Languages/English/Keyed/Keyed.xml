@@ -13,4 +13,6 @@
 	<BMT_DinoWorldDesc>A complete overhaul to your world: Only prehistoric animals and plants can spawn wild or be sold by traders.</BMT_DinoWorldDesc>
 	
 	<BMT_Select>Select</BMT_Select>
+
+	<BMT_NestAlert>{0_indefinite} has angered nearby dinosaurs by getting too close to their nests!</BMT_NestAlert>
 </LanguageData>
