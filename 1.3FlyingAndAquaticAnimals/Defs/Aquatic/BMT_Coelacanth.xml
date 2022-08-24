@@ -17,7 +17,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/CoelacanthSubmerged</texPath>
                 <drawSize>0.5</drawSize>
             </bodyGraphicData>
         </li>
@@ -42,7 +42,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/CoelacanthSubmerged</texPath>
                 <drawSize>1.2</drawSize>
             </bodyGraphicData>
         </li>
@@ -60,7 +60,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Coelacanth/CoelacanthSubmerged</texPath>
                 <drawSize>1.6</drawSize>
             </bodyGraphicData>
         </li>
@@ -170,6 +170,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
                     <drawSize>0.5</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
@@ -180,6 +184,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
                     <drawSize>1.2</drawSize>
+                    <shadowData>
+                        <volume>(0.8, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
@@ -190,6 +198,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
                     <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>

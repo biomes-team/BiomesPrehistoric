@@ -214,6 +214,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
@@ -224,6 +228,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
@@ -234,6 +242,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.4, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>

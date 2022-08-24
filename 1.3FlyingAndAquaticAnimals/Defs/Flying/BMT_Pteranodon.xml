@@ -217,6 +217,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/PteranodonSitting</texPath>
 					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
@@ -227,6 +231,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/PteranodonSitting</texPath>
 					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.4, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
@@ -237,6 +245,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/PteranodonSitting</texPath>
 					<drawSize>3.8</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>

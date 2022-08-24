@@ -217,6 +217,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
 					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
@@ -227,6 +231,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
 					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
@@ -237,6 +245,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Anhanguera/AnhangueraSitting</texPath>
 					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Anhanguera/Dessicated_Anhanguera</texPath>
