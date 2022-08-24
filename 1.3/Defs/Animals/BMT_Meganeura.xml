@@ -7,6 +7,7 @@
         <description>Meganeura, a giant dragonfly-like insect which eats small animals and plants. Despite looking like a dragonfly, it is actually more closely related to Damselflies.\n\nScientific name: Meganeura brongniarti</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
+            <BiomesCore_FlySpeed MayRequire="biomesteam.biomesislands">5</BiomesCore_FlySpeed>
             <MarketValue>350</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>57</ComfyTemperatureMax>
@@ -53,7 +54,7 @@
         </race>
         <comps>
             <li Class="CompProperties_EggLayer">
-                <eggFertilizedDef>BMT_Meganeura</eggFertilizedDef>
+                <eggFertilizedDef>BMT_MeganeuraEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>20</eggFertilizationCountMax>
                 <eggLayIntervalDays>20</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -111,6 +112,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
                     <drawSize>0.9</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.5, 0.1)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
@@ -121,6 +126,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
                     <drawSize>1.1</drawSize>
+                    <shadowData>
+                        <volume>(0.5, 0.5, 0.1)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
@@ -131,6 +140,10 @@
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
                     <drawSize>1.8</drawSize>
+                    <shadowData>
+                        <volume>(0.6, 0.5, 0.1)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
