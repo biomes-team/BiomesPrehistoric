@@ -63,7 +63,7 @@
 			<body>BMT_Scorpion</body>
 			<leatherDef>BMT_PrimordialChitin</leatherDef>
 			<predator>true</predator>
-			<maxPreyBodySize>1.3</maxPreyBodySize>
+			<maxPreyBodySize>0.9</maxPreyBodySize>
 			<foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
 			<baseBodySize>0.2</baseBodySize>
 			<baseHungerRate>0.10</baseHungerRate>
