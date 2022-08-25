@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<BiomeDef Name="BiomesIslands_TropicalIslandBase" Abstract="True">    <!-- TropicalIsland -->
-		<defName>BiomesIslands_TropicalSwampIslandBase</defName>
+	<BiomeDef Name="BMT_CarboniferousIslandBase" Abstract="True">
+		<!-- Tropical Island -->
+		<defName>BMT_CarboniferousIslandBase</defName>
 		<label>carboniferous island</label>
-		<description>Despite the heat and constant humidity, the sandy beaches and plentiful resources make these islands superb for a tropical getaway. Few animals here are a threat to humans, making the environment reasonably safe.</description>
+		<description>An island from the carboniferous period.</description>
 		<workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
-
 		<canAutoChoose>false</canAutoChoose>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
@@ -114,11 +113,6 @@
 				<minFertility>2.0</minFertility>
 				<maxFertility>8.0</maxFertility>
 				<thresholds>
-					<!-- <li> -->
-					<!-- <terrain>Soil</terrain> -->
-					<!-- <min>-0.2</min> -->
-					<!-- <max>0.1</max> -->
-					<!-- </li> -->
 					<li>
 						<terrain>Sand</terrain>
 						<min>0.35</min>
@@ -126,7 +120,6 @@
 					</li>
 				</thresholds>
 			</li>
-
 		</terrainPatchMakers>
 		<baseWeatherCommonalities>
 			<Clear>18</Clear>
@@ -140,85 +133,51 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- land plants -->
-			<BiomesIslands_CoconutPalm>0.3</BiomesIslands_CoconutPalm>
-			<BiomesIslands_OrangeTree>0.2</BiomesIslands_OrangeTree>
-			<BiomesIslands_BananaPlant>0.3</BiomesIslands_BananaPlant>
-			<BiomesIslands_Fern>0.4</BiomesIslands_Fern>
-			<BiomesIslands_FloweringFern>0.4</BiomesIslands_FloweringFern>
-
-			<Plant_TallGrass>2.0</Plant_TallGrass>
-			<Plant_ShrubLow>2.0</Plant_ShrubLow>
-			<Plant_Alocasia>0.8</Plant_Alocasia>
-			<Plant_TreeWillow>0.5</Plant_TreeWillow>
-			<Plant_TreePalm>0.5</Plant_TreePalm>
-			<Plant_TreeBamboo>0.4</Plant_TreeBamboo>
-			<Plant_TreeTeak>0.4</Plant_TreeTeak>
-			<Plant_Chokevine>0.8</Plant_Chokevine>
-			<Plant_Bush>0.15</Plant_Bush>
-			<Plant_Alocasia>0.8</Plant_Alocasia>
-			<Plant_Clivia>0.07</Plant_Clivia>
-			<Plant_Berry>0.05</Plant_Berry>
-			<Plant_Rafflesia>0.0008</Plant_Rafflesia>
-
-			<!-- Prehistoric -->
-			<BMT_Horsetail>2</BMT_Horsetail>
-			<BMT_Calamites>0.4</BMT_Calamites>
-			<BMT_Clubmoss>2.0</BMT_Clubmoss>
-			<BMT_Sigillaria>0.4</BMT_Sigillaria>
-			<BMT_Lepidodendron>0.4</BMT_Lepidodendron>
-			<BMT_Sphenophyllum>0.8</BMT_Sphenophyllum>
-			<BMT_Pecopteris>0.8</BMT_Pecopteris>
-			<BMT_Medullosa>0.15</BMT_Medullosa>
-			<BMT_Alethopteris>0.05</BMT_Alethopteris>
-
+			<BMT_Grass>3.0</BMT_Grass>
+			<BMT_Davallia>2.0</BMT_Davallia>
+			<BMT_Ephedra>2.0</BMT_Ephedra>
+			<!--BMT_Angiopteris>0.8</BMT_Angiopteris-->
+			<!--BMT_Archaeanthus>0.3</BMT_Archaeanthus-->
+			<!--BMT_Nypa>0.3</BMT_Nypa-->
+			<!--BMT_Bamboo>0.3</BMT_Bamboo-->
+			<!--BMT_Cercidiphyllum>0.2</BMT_Cercidiphyllum-->
+			<!--BMT_Berberis>0.15</BMT_Berberis-->
+			<!--BMT_Sagaria>0.07</BMT_Sagaria-->
+			<!--BMT_Mayoa>0.05</BMT_Mayoa-->
+			<!--BMT_WaterLily>0.0008</BMT_WaterLily-->
+			<BMT_Calamites>0.1</BMT_Calamites>
+			<BMT_Clubmoss>0.5</BMT_Clubmoss>
 			<!-- water plants -->
-			<BiomesIslands_Kelp>0.15</BiomesIslands_Kelp>
-			<BiomesIslands_SeaSponge>0.02</BiomesIslands_SeaSponge>
-			<BiomesIslands_SeaGrass>3.0</BiomesIslands_SeaGrass>
-			<BiomesIslands_Seaweed>2.0</BiomesIslands_Seaweed>
-			<BiomesIslands_GreenAlgae>3</BiomesIslands_GreenAlgae>
-			<BiomesIslands_Sargassum>0.15</BiomesIslands_Sargassum>
+
 		</wildPlants>
 		<wildAnimals>
-			<!-- land grazers -->
-			<BiomesIslands_Seagull>0.5</BiomesIslands_Seagull>
-			<Monkey>1</Monkey>
-			<BiomesIslands_Flamingo>0.7</BiomesIslands_Flamingo>
-			<Iguana>0.8</Iguana>
-			<WildBoar>0.5</WildBoar>
-			<BiomesIslands_FiddlerCrab>0.5</BiomesIslands_FiddlerCrab>
-			<BiomesIslands_HermitCrab>0.6</BiomesIslands_HermitCrab>
-			<!-- <BiomesIslands_OmegaDodo>0.3</BiomesIslands_OmegaDodo> -->
-			<BiomesIslands_MarineIguana>0.5</BiomesIslands_MarineIguana>
-			<BiomesIslands_GreenGecko>1.5</BiomesIslands_GreenGecko>
-			<BiomesIslands_SeaTurtle>0.5</BiomesIslands_SeaTurtle>
-			<BiomesIslands_LeatherbackTurtle>0.8</BiomesIslands_LeatherbackTurtle>
-			<BiomesIslands_PhoebaniaRat>0.05</BiomesIslands_PhoebaniaRat>
-
-			<!-- land predators -->
-			<BiomesIslands_Gigantaconda>0.05</BiomesIslands_Gigantaconda>
-			<BiomesIslands_Megamantis>0.1</BiomesIslands_Megamantis>
-			<BMT_KomodoDragon>0.05</BMT_KomodoDragon>
-
-			<!-- aquatic grazers -->
-			<BiomesIslands_Sardine>0.5</BiomesIslands_Sardine>
-			<BMT_SunfinAngelfish>0.5</BMT_SunfinAngelfish>
-			<BiomesIslands_LimepeelAngelfish>1.0</BiomesIslands_LimepeelAngelfish>
-			<BMT_OrangepeelAngelfish>1.0</BMT_OrangepeelAngelfish>
-			<BMT_Muckfrill>0.5</BMT_Muckfrill>
-			<BiomesIslands_BlueSeaSnail>0.75</BiomesIslands_BlueSeaSnail>
-
-			<BMT_GreenEel>1.0</BMT_GreenEel>
-			<BMT_Parrotfish>0.2</BMT_Parrotfish>
-			<BiomesIslands_BoomWhale>0.1</BiomesIslands_BoomWhale>
-			<BiomesIslands_MantaRay>0.03</BiomesIslands_MantaRay>
-			<!-- aquatic predators -->
-			<BiomesIslands_Tuna>0.2</BiomesIslands_Tuna>
-			<BiomesIslands_RedSnapper>0.08</BiomesIslands_RedSnapper>
-			<BiomesIslands_Hammerhead>0.08</BiomesIslands_Hammerhead>
-			<BiomesIslands_WhiteShark>0.06</BiomesIslands_WhiteShark>
-
-			<!-- Prehistoric -->
+			<!-- Prehistoric terrestrial -->
+			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
+			<BMT_Ankylosaurus>0.7</BMT_Ankylosaurus>
+			<BMT_Arthropleura>0.5</BMT_Arthropleura>
+			<BMT_Baryonyx>0.03</BMT_Baryonyx>
+			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
+			<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
+			<BMT_Compsognathus>0.75</BMT_Compsognathus>
+			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+			<BMT_Dryosaurus>0.5</BMT_Dryosaurus>
+			<BMT_Gallimimus>0.03</BMT_Gallimimus>
+			<BMT_Iguanodon>0.4</BMT_Iguanodon>
+			<BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
+			<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
+			<BMT_Meganeura>0.5</BMT_Meganeura>
+			<BMT_Ouranosaurus>0.3</BMT_Ouranosaurus>
+			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
+			<BMT_Parasaur>0.2</BMT_Parasaur>
+			<BMT_Protoceratops>0.5</BMT_Protoceratops>
+			<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
+			<BMT_Stegoceras>0.7</BMT_Stegoceras>
+			<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
+			<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+			<BMT_Titanoboa>0.1</BMT_Titanoboa>
+			<BMT_TRex>0.2</BMT_TRex>
+			<BMT_Triceratops>0.7</BMT_Triceratops>
+			<!-- Prehistoric aquatic -->
 			<BMT_Ammonite>0.5</BMT_Ammonite>
 			<BMT_Anhanguera>0.8</BMT_Anhanguera>
 			<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
@@ -232,18 +191,19 @@
 			<BMT_Orthoceras>0.2</BMT_Orthoceras>
 			<BMT_Pteranodon>0.05</BMT_Pteranodon>
 			<BMT_Trilobite>0.5</BMT_Trilobite>
-
 		</wildAnimals>
 		<allowedPackAnimals>
-			<li>Muffalo</li>
-			<li>Elephant</li>
-			<li>Alpaca</li>
+			<li>BMT_Brachiosaurus</li>
+			<li>BMT_Gallimimus</li>
+			<li>BMT_Iguanodon</li>
+			<li>BMT_Ouranosaurus</li>
+			<li>BMT_Styracosaurus</li>
+			<li>BMT_Triceratops</li>
 		</allowedPackAnimals>
 	</BiomeDef>
-
-	<BiomeDef ParentName="BiomesIslands_TropicalIslandBase">
-		<defName>BiomesIslands_TropicalSwampIsland</defName>
-		<label>carboniferous Island</label>
+	<BiomeDef ParentName="BMT_CarboniferousIslandBase">
+		<defName>BMT_CarboniferousIsland</defName>
+		<label>carboniferous island</label>
 		<workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
 		<modExtensions>
 			<li Class="BiomesCore.DefModExtensions.BiomesMap">
@@ -265,17 +225,16 @@
 				<allowOnLand>False</allowOnLand>
 				<minTemperature>15</minTemperature>
 				<minRainfall>600</minRainfall>
-				<frequency>20</frequency>
+				<frequency>30</frequency>
 				<biomePriority>1</biomePriority>
 				<materialPath>BiomesIslands_World/MapGraphics/TropicalIsland</materialPath>
 				<materialLayer>3509</materialLayer>
 			</li>
 		</modExtensions>
 	</BiomeDef>
-
-	<BiomeDef ParentName="BiomesIslands_TropicalIslandBase">
-		<defName>BiomesIslands_TropicalSwampArchipelago</defName>
-		<label>Carboniferous Archipelago</label>
+	<BiomeDef ParentName="BMT_CarboniferousIslandBase">
+		<defName>BMT_CarboniferousArchipelago</defName>
+		<label>carboniferous archipelago</label>
 		<workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
 		<modExtensions>
 			<li Class="BiomesCore.DefModExtensions.BiomesMap">
@@ -288,12 +247,107 @@
 			</li>
 			<li Class="BiomesKit.BiomesKitControls">
 				<spawnOnBiomes>
-					<li>BiomesIslands_TropicalSwampIsland</li>
+					<li>BMT_CarboniferousIsland</li>
 				</spawnOnBiomes>
 				<allowOnWater>True</allowOnWater>
 				<frequency>30</frequency>
 				<biomePriority>2</biomePriority>
 				<materialPath>BiomesIslands_World/MapGraphics/TropicalArchipelago</materialPath>
+				<materialLayer>3509</materialLayer>
+			</li>
+		</modExtensions>
+	</BiomeDef>
+	<BiomeDef ParentName="BMT_CarboniferousIslandBase">
+		<defName>BMT_CarboniferousAtoll</defName>
+		<label>carboniferous atoll</label>
+		<animalDensity>4.5</animalDensity>
+		<plantDensity>0.85</plantDensity>
+		<movementDifficulty>1.5</movementDifficulty>
+		<terrainsByFertility>
+			<li>
+				<terrain>WaterOceanDeep</terrain>
+				<min>-999</min>
+				<max>0.65</max>
+			</li>
+			<li>
+				<terrain>WaterOceanShallow</terrain>
+				<min>0.65</min>
+				<max>1.0</max>
+			</li>
+			<li>
+				<terrain>Sand</terrain>
+				<min>1.0</min>
+				<max>1.8</max>
+			</li>
+			<li>
+				<terrain>Gravel</terrain>
+				<min>1.8</min>
+				<max>11.0</max>
+			</li>
+			<li>
+				<terrain>Sand</terrain>
+				<min>11.0</min>
+				<max>16</max>
+			</li>
+			<li>
+				<terrain>BiomesCore_WaterShallowLagoon</terrain>
+				<min>16</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.015</perlinFrequency>
+				<minFertility>1.8</minFertility>
+				<maxFertility>11.0</maxFertility>
+				<thresholds>
+					<li>
+						<terrain>Soil</terrain>
+						<min>-999</min>
+						<max>-0.30</max>
+					</li>
+					<li>
+						<terrain>Sand</terrain>
+						<min>0.60</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.028</perlinFrequency>
+				<minFertility>3.0</minFertility>
+				<maxFertility>8.0</maxFertility>
+				<thresholds>
+					<li>
+						<terrain>SoilRich</terrain>
+						<min>0.25</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+		<workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.BiomesMap">
+				<isIsland>true</isIsland>
+				<islandShapes>
+					<li>Smooth</li>
+				</islandShapes>
+				<addIslandHills>false</addIslandHills>
+				<hasScatterables>false</hasScatterables>
+				<allowBeach>false</allowBeach>
+			</li>
+			<li Class="BiomesKit.BiomesKitControls">
+				<spawnOnBiomes>
+					<li>BMT_CarboniferousIsland</li>
+				</spawnOnBiomes>
+				<usePerlin>true</usePerlin>
+				<perlinCulling>0.80</perlinCulling>
+				<allowOnWater>True</allowOnWater>
+				<allowOnLand>False</allowOnLand>
+				<frequency>20</frequency>
+				<biomePriority>2</biomePriority>
+				<materialPath>BiomesIslands_World/MapGraphics/Atoll</materialPath>
 				<materialLayer>3509</materialLayer>
 			</li>
 		</modExtensions>

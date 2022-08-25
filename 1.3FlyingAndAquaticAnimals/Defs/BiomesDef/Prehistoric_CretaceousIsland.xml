@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <BiomeDef Name="BiomesIslands_ColdBogIslandBase" Abstract="True">    <!-- borealIsland -->
-    <defName>BiomesIslands_ColdBogIslandBase</defName>
+  <BiomeDef Name="BMT_CretaceousIslandBase" Abstract="True">
+    <!-- Cold Bog Island -->
+    <defName>BMT_CretaceousIslandBase</defName>
     <label>cretaceous island</label>
-    <description>Like the cold bog, but on an island.</description>
+    <description>An island from the cretaceous period.</description>
     <workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
-
-
     <canAutoChoose>false</canAutoChoose>
     <allowRoads>false</allowRoads>
     <allowRivers>false</allowRivers>
@@ -48,7 +46,6 @@
         <diseaseInc>Disease_MuscleParasites</diseaseInc>
         <commonality>50</commonality>
       </li>
-
       <li>
         <diseaseInc>Disease_AnimalFlu</diseaseInc>
         <commonality>100</commonality>
@@ -111,13 +108,11 @@
         <perlinFrequency>0.030</perlinFrequency>
         <minFertility>3.0</minFertility>
         <thresholds>
-
           <li>
             <terrain>SoilRich</terrain>
             <min>0.50</min>
             <max>999</max>
           </li>
-
         </thresholds>
       </li>
     </terrainPatchMakers>
@@ -133,18 +128,6 @@
     </baseWeatherCommonalities>
     <wildPlants>
       <!-- land plants -->
-      <Plant_TallGrass>8.0</Plant_TallGrass>
-      <Plant_Chokevine>2.0</Plant_Chokevine>
-      <Plant_Moss>4.0</Plant_Moss>
-      <Plant_Bush>3.0</Plant_Bush>
-      <Plant_TreeCypress>5.0</Plant_TreeCypress>
-      <Plant_TreeWillow>1.5</Plant_TreeWillow>
-      <Plant_TreeMaple>1.2</Plant_TreeMaple>
-      <Plant_Berry>0.16</Plant_Berry>
-      <Plant_HealrootWild>0.16</Plant_HealrootWild>
-      <Plant_Astragalus>1</Plant_Astragalus>
-
-      <!-- Prehistoric -->
       <BMT_Lindsaeaceae>3.0</BMT_Lindsaeaceae>
       <BMT_PolarGrass>8.0</BMT_PolarGrass>
       <BMT_PolarMoss>4.0</BMT_PolarMoss>
@@ -155,87 +138,37 @@
       <BMT_Caytoniales>1.2</BMT_Caytoniales>
       <BMT_Taxaceae>0.16</BMT_Taxaceae>
       <BMT_HealrootFern>0.16</BMT_HealrootFern>
-
       <!-- water plants -->
-      <BiomesIslands_Kelp>0.7</BiomesIslands_Kelp>
-      <BiomesIslands_SeaGrass>1.5</BiomesIslands_SeaGrass>
-      <BiomesIslands_Seaweed>6.0</BiomesIslands_Seaweed>
-      <BiomesIslands_Murkweed>1.2</BiomesIslands_Murkweed>
-      <BiomesIslands_WhiteAlgae>0.5</BiomesIslands_WhiteAlgae>
-
 
     </wildPlants>
     <wildAnimals>
-      <!-- land grazers -->
-      <GuineaPig>0.07</GuineaPig>
-      <Yak>0.12</Yak>
-      <Horse>0.15</Horse>
-      <BiomesIslands_ShetlandPony>1</BiomesIslands_ShetlandPony>
-      <Squirrel>1</Squirrel>
-      <Hare>1</Hare>
-      <Rat>1</Rat>
-      <Elk>0.5</Elk>
-      <Caribou>0.5</Caribou>
-      <Muffalo>0.5</Muffalo>
-      <WildBoar>0.5</WildBoar>
-      <Ibex>0.5</Ibex>
-      <Raccoon>0.5</Raccoon>
-      <Turkey>0.5</Turkey>
-      <Deer>0.5</Deer>
-      <Megasloth>0.1</Megasloth>
-      <BiomesIslands_Seagull>1</BiomesIslands_Seagull>
-      <BiomesIslands_OmegaDodo>0.5</BiomesIslands_OmegaDodo>
-      <BiomesIslands_BlueCrab>0.5</BiomesIslands_BlueCrab>
-      <BiomesIslands_SeaTurtle>0.05</BiomesIslands_SeaTurtle>
-      <BiomesIslands_PhoebaniaRat>0.05</BiomesIslands_PhoebaniaRat>
-      <BMT_SeaOtter>0.5</BMT_SeaOtter>
-
-      <!-- land predators -->
-      <Fox_Red>0.07</Fox_Red>
-      <Fox_Arctic>0.07</Fox_Arctic>
-      <Bear_Polar>0.07</Bear_Polar>
-      <Wolf_Timber>0.07</Wolf_Timber>
-      <Wolf_Arctic>0.07</Wolf_Arctic>
-      <Cougar>0.07</Cougar>
-      <Lynx>0.07</Lynx>
-      <Warg>0.07</Warg>
-
-      <!-- aquatic grazers -->
-      <BiomesIslands_Sardine>1.8</BiomesIslands_Sardine>
-      <BMT_Obsidianfin>0.7</BMT_Obsidianfin>
-
-      <BiomesIslands_Trout>1.5</BiomesIslands_Trout>
-      <BiomesIslands_Whale>0.05</BiomesIslands_Whale>
-
-      <!-- aquatic predators -->
-      <BiomesIslands_Tuna>0.3</BiomesIslands_Tuna>
-      <BiomesIslands_WhiteShark>0.18</BiomesIslands_WhiteShark>
-
-      <!-- Prehistoric -->
-      <BMT_Ammonite>0.5</BMT_Ammonite>
-      <BMT_Anhanguera>0.2</BMT_Anhanguera>
-      <BMT_Centrosaurus>0.5</BMT_Centrosaurus>
-      <BMT_Coelacanth>0.5</BMT_Coelacanth>
-      <BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
-      <BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
-      <BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
-      <BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
-      <BMT_Liopleurodon>0.05</BMT_Liopleurodon>
-      <BMT_Mosasaurus>0.05</BMT_Mosasaurus>
-      <BMT_Orthoceras>0.2</BMT_Orthoceras>
-      <BMT_Pteranodon>0.05</BMT_Pteranodon>
+      <!-- Prehistoric terrestrial -->
+      <BMT_Borealopelta>0.5</BMT_Borealopelta>
+      <BMT_Homalocephale>0.05</BMT_Homalocephale>
+      <BMT_Leaellynasaura>0.8</BMT_Leaellynasaura>
+      <BMT_Ouranosaurus>0.3</BMT_Ouranosaurus>
+      <BMT_Polacanthus>0.5</BMT_Polacanthus>
+      <BMT_Struthiomimus>0.2</BMT_Struthiomimus>
+      <BMT_Therizinosaurus>0.1</BMT_Therizinosaurus>
+      <BMT_Timimus>0.5</BMT_Timimus>
+      <BMT_Yutyrannus>0.1</BMT_Yutyrannus>
+      <!-- Prehistoric aquatic -->
+      <BMT_Dimorphodon>0.2</BMT_Dimorphodon>
+      <BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
+      <BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
+      <BMT_Liopleurodon>0.4</BMT_Liopleurodon>
+      <BMT_Mosasaurus>0.5</BMT_Mosasaurus>  
+      <BMT_Pteranodon>0.5</BMT_Pteranodon>
       <BMT_Shonisaurus>0.3</BMT_Shonisaurus>
       <BMT_Trilobite>0.5</BMT_Trilobite>
-
     </wildAnimals>
     <allowedPackAnimals>
-      <li>Muffalo</li>
-      <li>Alpaca</li>
+      <li>BMT_Borealopelta</li>
+      <li>BMT_Ouranosaurus</li>
     </allowedPackAnimals>
   </BiomeDef>
-
-  <BiomeDef ParentName="BiomesIslands_ColdBogIslandBase">
-    <defName>BiomesIslands_ColdBogIsland</defName>
+  <BiomeDef ParentName="BMT_CretaceousIslandBase">
+    <defName>BMT_CretaceousIsland</defName>
     <label>cretaceous island</label>
     <workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
     <modExtensions>
@@ -265,10 +198,9 @@
       </li>
     </modExtensions>
   </BiomeDef>
-
-  <BiomeDef ParentName="BiomesIslands_ColdBogIslandBase">
-    <defName>BiomesIslands_ColdBogArchipelago</defName>
-    <label>cretaceous Archipelago</label>
+  <BiomeDef ParentName="BMT_CretaceousIslandBase">
+    <defName>BMT_CretaceousIslandArchipelago</defName>
+    <label>cretaceous archipelago</label>
     <workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
     <modExtensions>
       <li Class="BiomesCore.DefModExtensions.BiomesMap">
@@ -281,7 +213,7 @@
       </li>
       <li Class="BiomesKit.BiomesKitControls">
         <spawnOnBiomes>
-          <li>BiomesIslands_ColdBogIsland</li>
+          <li>BMT_CretaceousIsland</li>
         </spawnOnBiomes>
         <allowOnWater>True</allowOnWater>
         <frequency>70</frequency>
