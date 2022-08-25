@@ -24,16 +24,8 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 	<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
 	<value> 
 		<BMT_Anhanguera>0.5</BMT_Anhanguera>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 		<BMT_Dimorphodon>0.5</BMT_Dimorphodon>
-		<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
-		<BMT_Eurypterid>0.3</BMT_Eurypterid>
-		<BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
-		<BMT_Liopleurodon>0.3</BMT_Liopleurodon>
-		<BMT_Mosasaurus>0.3</BMT_Mosasaurus>
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
-		<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
-		<BMT_Trilobite>0.5</BMT_Trilobite>
 	</value>
 </Operation>
 
@@ -41,16 +33,8 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 	<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
 	<value>	
 		<BMT_Anhanguera>0.5</BMT_Anhanguera>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
-		<BMT_Dimorphodon>0.5</BMT_Dimorphodon>
-		<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
-		<BMT_Eurypterid>0.3</BMT_Eurypterid>
-		<BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
-		<BMT_Liopleurodon>0.2</BMT_Liopleurodon>
-		<BMT_Mosasaurus>0.3</BMT_Mosasaurus>		
+		<BMT_Dimorphodon>0.5</BMT_Dimorphodon>		
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
-		<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
-		<BMT_Trilobite>0.5</BMT_Trilobite>
 	</value>
 </Operation>
 
@@ -58,15 +42,8 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 	<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
 	<value>
 		<BMT_Anhanguera>0.8</BMT_Anhanguera>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
-		<BMT_Dimorphodon>0.5</BMT_Dimorphodon>
-		<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
-		<BMT_Eurypterid>0.3</BMT_Eurypterid>
-		<BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
-		<BMT_Liopleurodon>0.3</BMT_Liopleurodon>
-		<BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
+		<BMT_Dimorphodon>0.5</BMT_Dimorphodon>	
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
-		<BMT_Trilobite>0.5</BMT_Trilobite>
 	</value>
 </Operation>
 
@@ -74,15 +51,8 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 	<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
 	<value>
 		<BMT_Anhanguera>0.8</BMT_Anhanguera>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
-		<BMT_Dimorphodon>0.5</BMT_Dimorphodon>
-		<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
-		<BMT_Eurypterid>0.3</BMT_Eurypterid>
-		<BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
-		<BMT_Liopleurodon>0.3</BMT_Liopleurodon>
-		<BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
+		<BMT_Dimorphodon>0.5</BMT_Dimorphodon>	
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
-		<BMT_Trilobite>0.5</BMT_Trilobite>
 	</value>
 </Operation>
 
@@ -90,67 +60,44 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 	<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
 	<value>
 		<BMT_Anhanguera>0.2</BMT_Anhanguera>
-		<BMT_Dimorphodon>0.2</BMT_Dimorphodon>
-		<BMT_Elasmosaurus>0.2</BMT_Elasmosaurus>
-		<BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
-		<BMT_Liopleurodon>0.4</BMT_Liopleurodon>
-		<BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
+		<BMT_Dimorphodon>0.2</BMT_Dimorphodon>	
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
-		<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
-		<BMT_Trilobite>0.5</BMT_Trilobite>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
 	<value>
-		<BMT_Dimorphodon>0.2</BMT_Dimorphodon>
-		<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
-		<BMT_Icthyosaurus>0.3</BMT_Icthyosaurus>
-		<BMT_Liopleurodon>0.4</BMT_Liopleurodon>
-		<BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
+		<BMT_Dimorphodon>0.2</BMT_Dimorphodon>	
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
-		<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
-		<BMT_Trilobite>0.5</BMT_Trilobite>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
-	<value>
-		<BMT_Elasmosaurus>0.3</BMT_Elasmosaurus>
-		<BMT_Liopleurodon>0.4</BMT_Liopleurodon>
-		<BMT_Mosasaurus>0.5</BMT_Mosasaurus>	
+	<value>	
 		<BMT_Pteranodon>0.3</BMT_Pteranodon>
-		<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
-		<BMT_Trilobite>0.5</BMT_Trilobite>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 	<value>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 		<BMT_Quetzal>0.5</BMT_Quetzal>
-		<BMT_Eurypterid>0.3</BMT_Eurypterid>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
 	<value>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 		<BMT_Quetzal>0.5</BMT_Quetzal>
-		<BMT_Eurypterid>0.3</BMT_Eurypterid>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
 	<value>
-		<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
 		<BMT_Quetzal>0.5</BMT_Quetzal>
-		<BMT_Eurypterid>0.3</BMT_Eurypterid>
 	</value>
 </Operation>
 

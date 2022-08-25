@@ -1,0 +1,121 @@
+BMT_Alethopteris	-	Barry Bush		Tropical Swamp
+BMT_Araucaria		-	Poplar Tree		Temperate Forest / Boreal Forest
+BMT_Archaefructus	-	Astragalus		Cold Bog
+BMT_Artemisia		-	Astragalus		Tundra
+BMT_Calamites		-	treelike		Water/Land
+BMT_Caytoniales		-	Maple Tree 		Cold Bog
+BMT_Clubmoss		-	bushlike?
+BMT_Coniopteris		-	Brambles		Temperate Forest / Boreal Forest
+BMT_Cycadales		-	Agave			Arid Shrubland / Desert / Extreme Desert
+BMT_Cycas		-	Bush 			Temperate Forest / Boreal Forest
+BMT_Dipteridaceae	-	Tall Grass 		Temperate Forest
+BMT_Eathiestrobus	-	Pine Tree 		Boreal Forest
+BMT_Ginkgo		-	Willow  Tree 		Cold Bog
+BMT_Glossopteris	-	Saguaro Cactus 		Desert
+BMT_Gnetum		-	Barry Bush 		Temperate Forest / Boreal Forest
+BMT_HealrootFern	-	Healroot 		Cold Bog / Tundra / Boreal Forest / Temperate Swamp / Temperate Forest
+BMT_Horsetail		-	grasslike, tough
+BMT_JurassicHorsetail	- 	grasslike		Temperate Forest
+BMT_Lepidodendron	-	Maple Tree 		Tropical Swamp
+BMT_Lindsaeaceae	-	Chokevine		Cold Bog
+BMT_Lyginopteridales	-	Grass 			Desert
+BMT_Matoniaceae		-	Grass			Temperate Forest / Boreal Forest
+BMT_Medullosa		- 	Bush			Tropical Swamp
+BMT_Metasequoia		-	Cypress Tree 		Cold Bog
+BMT_Pecopteris		- 	Alocasia		Tropical Swamp
+BMT_Podocarpaceae	-	Bush 			Cold Bog
+BMT_Podozamites		-	Oak Tree 		Temperate Forest
+BMT_PolarGrass		-	Tall Grass 		Cold Bog
+BMT_PolarMoss		-	Moss 			Cold Bog
+BMT_Polytrichaceae	-	Moss 			Boreal Forest
+BMT_Potentilla		-	Dandelion		Tundra
+BMT_RubusChamaemorus	-	Barry Bush 		Tundra
+BMT_Sigillaria		-	Cypress Tree 		Tropical Swamp
+BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
+BMT_Taxaceae		-	Berry Bush 		Cold Bog
+BMT_Zamiaceae		-	Birch Tree 		Boreal Forest
+BMT_Peltaspermaceae	-	Pincushion Cactus 	Desert
+BMT_Walchia		-	Drago Tree 		Desert
+
+BMT_Crinoid		-	sea lilies		Saltwater / Sea
+BMT_Gryphaea		-				Saltwater / Sea
+BMT_HornCorals		-				Saltwater / Sea
+BMT_Stromatolite	-				Saltwater / Sea
+
+BMT_Grass 		-	Core 			Tundra / Tropical Rainforest
+BMT_Bush		-	Core 			Tundra
+BMT_TreePine		-	Core 			Tundra
+BMT_TreeBirch		-	Core 			Tundra
+
+BMT_Allosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
+BMT_Amargasaurus - Warmer to temperate forested biomes, including swamps, spawns more near water.
+BMT_Ankylosaurus - Warmer to temperate forested biomes.
+BMT_Apatosaurus - Swampy areas and along rivers predominantly.
+BMT_Arthropleura - Warmer forested biomes.
+BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas.
+BMT_Borealopelta - Plains and forests along coasts.
+BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
+BMT_Carnotaurus - Plains and along coasts.
+BMT_Centrosaurus - More temperate fields and forests.
+BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warmer.
+BMT_Compsognathus - Forested biomes.
+BMT_Deinonychus - Swamps and marshes.
+BMT_Dilophosaurus - Desert biome if it has a river.
+BMT_Dimetrodon - Warmer biomes.
+BMT_Diplocaulus - Warm to cool biomes with rivers.
+BMT_Dryosaurus - Warmer forested biomes, and arid shrubland maybe.
+BMT_Edmontosaurus - All lusher biomes NON-tropical. Including swamps. Including taiga and boreal forest.
+BMT_Gallimimus - Temperate areas.
+BMT_Homalocephale - Cooler forests, especially common in higher elevations/mountains.
+BMT_Hypsilophodon - Forested biomes.
+BMT_Iguanodon - Forests, swamps, and islands.
+BMT_Inostrancevia - Desert and arid shrubland.
+BMT_Kaprosuchus - Swampy areas and along rivers predominantly. Warmer areas. 
+BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines.
+BMT_Leaellynasaura - Cold biomes.
+BMT_Lystrosaur - Forested biomes and plains.
+BMT_Meganeura - Warmer forested biomes.
+BMT_Ouranosaurus - Coasts, swamps, and arid shrubland. Nests only spawn in arid?
+BMT_Oviraptor - Arid shrubland.
+BMT_Pachycephalosaurus - Warmer to temperate forested biomes.
+BMT_Pachyrhinosaurus - All lusher cold biomes.
+BMT_Parasaur - From arid shrubland to boreal forests.
+BMT_Polacanthus - Plains and forests.
+BMT_Protoceratops - Warmer lush biomes.
+BMT_Pulmonoscorpius - Swamps.
+BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles.
+BMT_Stegoceras - Forested and swampy biomes.
+BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle.
+BMT_Struthiomimus - Temperat to Boreaal Forests and swamp, bog areas.
+BMT_Stygimoloch - Warmer to temperate forested biomes.
+BMT_Styracosaurus - From shrubland to boreal forests.
+BMT_Therizinosaurus - Cold and temperate biomes. INCLUDING swamps. Not very common.
+BMT_Timimus - Boreal forest and taiga. Predominantly in forest.
+BMT_Titanoboa - Tropical jungles.
+BMT_TRex - From forests to arid shrubland.
+BMT_Triceratops - Warmer to temperate forested biomes.
+BMT_Troodon - Temperate to Boreal.
+BMT_Utahraptor - Arid shrubland and desert, most commonly if there is a river.
+BMT_Velociraptor - Desert and arid shrubland.
+BMT_Yutyrannus - Cold and temperate biomes.
+
+BMT_Ammonite - All island and shorelines except the coldest.
+BMT_Anomalocaris - All island and shorelines except the coldest.
+BMT_Coelacanth - Warmer coasts and islands.
+BMT_Dunkleosteus - All island and coastal biomes.
+BMT_Elasmosaurus - All warmer to cool islands and shorelines. 
+BMT_Eurypterid - All island and shorelines except the coldest. Prefers shallow waters?
+BMT_GiantAmmonite - All island and shorelines except the coldest (same as BMT_Ammonite).
+BMT_Icthyosaurus - Cool to warm islands and shores.
+BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores
+BMT_Megalodon - 
+BMT_Mosasaurus - Cold (but not freezing) to tropical islands. 
+BMT_Orthoceras - All island and shorelines.
+BMT_Shonisaurus - Cool to warm islands and shores.
+BMT_Trilobite - Can go onto sand but mostly remain in the water.
+
+
+BMT_Anhanguera - All warmer to cold, but not frozen coasts and islands.
+BMT_Dimorphodon - All lusher biomes except the coldest.
+BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
+BMT_Quetzal - All arid and desert biomes.

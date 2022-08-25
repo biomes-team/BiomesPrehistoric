@@ -20,7 +20,7 @@
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>4</baseBodySize>
+			<baseBodySize>3.5</baseBodySize>
 			<baseHealthScale>3</baseHealthScale>
 			<baseHungerRate>0.90</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
@@ -145,7 +145,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Centrosaurus</texPath>
-					<drawSize>2.5</drawSize>
+					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.14)</offset>
@@ -153,7 +153,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Dessicated_Centrosaurus</texPath>
-					<drawSize>2.5</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
