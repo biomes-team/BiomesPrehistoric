@@ -139,7 +139,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Lystrosaur/LystrosaurB</texPath>
-                    <drawSize>1.6</drawSize>
+                    <drawSize>1.4</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.2)</volume>
                         <offset>(0,0,-0.0)</offset>
@@ -147,13 +147,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Lystrosaur/Dessicated_Lystrosaur</texPath>
-                    <drawSize>1.6</drawSize>
+                    <drawSize>1.4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Lystrosaur/LystrosaurB</texPath>
-                    <drawSize>2.1</drawSize>
+                    <drawSize>1.9</drawSize>
                     <shadowData>
                         <volume>(0.5, 0.4, 0.3)</volume>
                         <offset>(0,0,-0.0)</offset>
@@ -161,7 +161,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Lystrosaur/Dessicated_Lystrosaur</texPath>
-                    <drawSize>2.1</drawSize>
+                    <drawSize>1.9</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
