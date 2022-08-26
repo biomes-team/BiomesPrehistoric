@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BushBase">
+    <defName>BMT_Angiopteris</defName>
+    <label>giant fern</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Angiopteris</texPath>
+      <shadowData>
+        <volume>(0.55, 0.17, 0.15)</volume>
+        <offset>(0,0,-0.2)</offset>
+      </shadowData>
+    </graphicData>
+    <plant>
+		<topWindExposure>0.2</topWindExposure>
+		<wildClusterRadius>4</wildClusterRadius>
+		<wildClusterWeight>7.5</wildClusterWeight>
+		<visualSizeRange>1.8~2.5</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>
