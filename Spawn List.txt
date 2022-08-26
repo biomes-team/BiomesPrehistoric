@@ -47,75 +47,93 @@ BMT_Bush		-	Core 			Tundra
 BMT_TreePine		-	Core 			Tundra
 BMT_TreeBirch		-	Core 			Tundra
 
-BMT_Allosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
-BMT_Amargasaurus - Warmer to temperate forested biomes, including swamps, spawns more near water.
-BMT_Ankylosaurus - Warmer to temperate forested biomes.
-BMT_Apatosaurus - Swampy areas and along rivers predominantly.
-BMT_Arthropleura - Warmer forested biomes.
-BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas.
-BMT_Borealopelta - Plains and forests along coasts.
-BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
-BMT_Carnotaurus - Plains and along coasts.
-BMT_Centrosaurus - More temperate fields and forests.
-BMT_Chungkingosaurus - Forested biomes primarily, rarely in more open ones. Warmer.
-BMT_Compsognathus - Forested biomes.
-BMT_Deinonychus - Swamps and marshes.
-BMT_Dilophosaurus - Desert biome if it has a river.
-BMT_Dimetrodon - Warmer biomes.
-BMT_Diplocaulus - Warm to cool biomes with rivers.
-BMT_Dryosaurus - Warmer forested biomes, and arid shrubland maybe.
-BMT_Edmontosaurus - All lusher biomes NON-tropical. Including swamps. Including taiga and boreal forest.
-BMT_Gallimimus - Temperate areas.
-BMT_Homalocephale - Cooler forests, especially common in higher elevations/mountains.
-BMT_Hypsilophodon - Forested biomes.
-BMT_Iguanodon - Forests, swamps, and islands.
-BMT_Inostrancevia - Desert and arid shrubland.
-BMT_Kaprosuchus - Swampy areas and along rivers predominantly. Warmer areas. 
-BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines.
-BMT_Leaellynasaura - Cold biomes.
-BMT_Lystrosaur - Forested biomes and plains.
-BMT_Meganeura - Warmer forested biomes.
-BMT_Ouranosaurus - Coasts, swamps, and arid shrubland. Nests only spawn in arid?
-BMT_Oviraptor - Arid shrubland.
-BMT_Pachycephalosaurus - Warmer to temperate forested biomes.
-BMT_Pachyrhinosaurus - All lusher cold biomes.
-BMT_Parasaur - From arid shrubland to boreal forests.
-BMT_Polacanthus - Plains and forests.
-BMT_Protoceratops - Warmer lush biomes.
-BMT_Pulmonoscorpius - Swamps.
-BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles.
-BMT_Stegoceras - Forested and swampy biomes.
-BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle.
-BMT_Struthiomimus - Temperat to Boreaal Forests and swamp, bog areas.
-BMT_Stygimoloch - Warmer to temperate forested biomes.
-BMT_Styracosaurus - From shrubland to boreal forests.
-BMT_Therizinosaurus - Cold and temperate biomes. INCLUDING swamps. Not very common.
-BMT_Timimus - Boreal forest and taiga. Predominantly in forest.
-BMT_Titanoboa - Tropical jungles.
-BMT_TRex - From forests to arid shrubland.
-BMT_Triceratops - Warmer to temperate forested biomes.
-BMT_Troodon - Temperate to Boreal.
-BMT_Utahraptor - Arid shrubland and desert, most commonly if there is a river.
-BMT_Velociraptor - Desert and arid shrubland.
-BMT_Yutyrannus - Cold and temperate biomes.
+BMT_Allosaurus		- 	Theropoda		Late Jurassic				Arid shrubland and desert, most commonly if there is a river or lake.
+BMT_Amargasaurus 	- 	Sauropoda		Early Cretaceous			Warmer to temperate forested biomes, including swamps, spawns more near water.
+BMT_Ankylosaurus 	- 	Thyreophora		Late Cretaceous				Warmer to temperate forested biomes.
+BMT_Apatosaurus 	- 	Sauropoda		Late Jurassic				Swampy areas and along rivers predominantly.
+BMT_Arthropleura 	- 	Arthropleurida		Early Permian				Warmer forested biomes.
+BMT_Baryonyx 		- 	Theropoda		Early Cretaceous			Swampy areas and along rivers predominantly. Warmer areas.
+BMT_Borealopelta 	- 	Thyreophora		Early Cretaceous			Plains and forests along coasts.
+BMT_Brachiosaurus 	-  	Sauropoda		Late Jurassic				Warmer forested biomes, and arid shrubland maybe.
+BMT_Carnotaurus 	- 	Theropoda		Late Cretaceous				Plains and along coasts.
+BMT_Centrosaurus 	- 	Ceratopsia		Late Cretaceous				More temperate fields and forests.
+BMT_Chungkingosaurus 	- 	Thyreophora		Late Jurassic				Forested biomes primarily, rarely in more open ones. Warmer.
+BMT_Compsognathus 	- 	Theropoda		Late Jurassic				Forested biomes.
+BMT_Deinonychus 	- 	Theropoda		Early Cretaceous			Swamps and marshes.
+BMT_Dilophosaurus 	- 	Theropoda		Early Jurassic				Desert biome if it has a river.
+BMT_Dimetrodon 		- 	Synapsida		Early / Mid Permian			Warmer biomes.
+BMT_Diplocaulus 	- 	Recumbirostra		Late Carboniferous Early Permian	Warm to cool biomes with rivers.
+BMT_Dryosaurus 		- 	Ornithopoda		Late Jurassic				Warmer forested biomes, and arid shrubland maybe.
+BMT_Edmontosaurus 	- 	Ornithopoda		Late Cretaceous				All lusher biomes NON-tropical. Including swamps. Including taiga and boreal forest.
+BMT_Gallimimus 		- 	Theropoda		Late Cretaceous				Temperate areas.
+BMT_Homalocephale 	- 	Pachycephalosauria	Late Cretaceous				Cooler forests, especially common in higher elevations/mountains.
+BMT_Hypsilophodon 	- 	Ornithopoda		Early Cretaceous			Forested biomes.
+BMT_Iguanodon 		- 	Ornithopoda		Early Cretaceous			Forests, swamps, and islands.
+BMT_Inostrancevia 	- 	Synapsida		Late Permian				Desert and arid shrubland.
+BMT_Kaprosuchus 	- 	Thyreophora		Late Cretaceous				Swampy areas and along rivers predominantly. Warmer areas. 
+BMT_Kentrosaurus 	- 	Pseudosuchia		Late Jurassic				Temperate to warmer forests, more common near shorelines.
+BMT_Leaellynasaura 	- 	Ornithopoda		Early Cretaceous			Cold biomes.
+BMT_Lystrosaur 		- 	Synapsida		Late Permian Early Triassic		Forested biomes and plains.
+BMT_Meganeura 		- 	Meganisoptera		Late Carboniferous			Warmer forested biomes.
+BMT_Ouranosaurus 	- 	Ornithopoda		Late Cretaceous				Coasts, swamps, and arid shrubland. Nests only spawn in arid?
+BMT_Oviraptor 		- 	Theropoda		Late Cretaceous				Arid shrubland.
+BMT_Pachycephalosaurus 	- 	Pachycephalosauria	Late Cretaceous				Warmer to temperate forested biomes.
+BMT_Pachyrhinosaurus 	- 	Ceratopsia		Late Cretaceous				All lusher cold biomes.
+BMT_Parasaur 		- 	Ornithopoda		Late Cretaceous				From arid shrubland to boreal forests.
+BMT_Polacanthus 	- 	Thyreophora		Early Cretaceous			Plains and forests.
+BMT_Protoceratops 	- 	Ceratopsia		Late Cretaceous				Warmer lush biomes.
+BMT_Pulmonoscorpius 	- 	Arachnida		Early Carboniferous			Swamps.
+BMT_Spinosaurus 	- 	Theropoda		Late Cretaceous				Warmer biomes if they have rivers or shoreline, prefers to be in water tiles.
+BMT_Stegoceras 		- 	Pachycephalosauria	Late Cretaceous				Forested and swampy biomes.
+BMT_Stegosaurus 	- 	Thyreophora		Late Jurassic				Forested biomes, between warm and cool, but no jungle.
+BMT_Struthiomimus 	- 	Theropoda		Late Cretaceous				Temperat to Boreaal Forests and swamp, bog areas.
+BMT_Stygimoloch 	- 	Pachycephalosauria	Late Cretaceous				Warmer to temperate forested biomes.
+BMT_Styracosaurus 	- 	Ceratopsia		Late Cretaceous				From shrubland to boreal forests.
+BMT_Therizinosaurus 	- 	Theropoda		Late Cretaceous				Cold and temperate biomes. INCLUDING swamps. Not very common.
+BMT_Timimus 		- 	Theropoda		Early Cretaceous			Boreal forest and taiga. Predominantly in forest.
+BMT_Titanoboa 		- 	Serpentes		Early Paleogene				Tropical jungles.
+BMT_TRex 		- 	Theropoda		Late Cretaceous				From forests to arid shrubland.
+BMT_Triceratops 	- 	Ceratopsia		Late Cretaceous				Warmer to temperate forested biomes.
+BMT_Troodon 		- 	Theropoda		Late Cretaceous				Temperate to Boreal.
+BMT_Utahraptor 		- 	Theropoda		Early Cretaceous			Arid shrubland and desert, most commonly if there is a river.
+BMT_Velociraptor 	- 	Theropoda		Late Cretaceous				Desert and arid shrubland.
+BMT_Yutyrannus 		- 	Theropoda		Early Cretaceous			Cold and temperate biomes.
 
-BMT_Ammonite - All island and shorelines except the coldest.
-BMT_Anomalocaris - All island and shorelines except the coldest.
-BMT_Coelacanth - Warmer coasts and islands.
-BMT_Dunkleosteus - All island and coastal biomes.
-BMT_Elasmosaurus - All warmer to cool islands and shorelines. 
-BMT_Eurypterid - All island and shorelines except the coldest. Prefers shallow waters?
-BMT_GiantAmmonite - All island and shorelines except the coldest (same as BMT_Ammonite).
-BMT_Icthyosaurus - Cool to warm islands and shores.
-BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores
-BMT_Megalodon - 
-BMT_Mosasaurus - Cold (but not freezing) to tropical islands. 
-BMT_Orthoceras - All island and shorelines.
-BMT_Shonisaurus - Cool to warm islands and shores.
-BMT_Trilobite - Can go onto sand but mostly remain in the water.
+BMT_Ammonite 		- 	Cephalopod		Early Devonian Early Paleogene		All island and shorelines except the coldest.
+BMT_Anomalocaris 	- 	Dinocaridida		Early Mid Cambrian			All island and shorelines except the coldest.
+BMT_Coelacanth 		- 	Sarcopterygii		Early Devonian Late Neogene		Warmer coasts and islands.
+BMT_Dunkleosteus 	- 	Pachyosteomorphi	Late Devonian				All island and coastal biomes.
+BMT_Elasmosaurus 	- 	Plesiosaur		Late Cretaceous				All warmer to cool islands and shorelines. 
+BMT_Eurypterid 		- 	Chelicerata		Darriwilian Late Permian		All island and shorelines except the coldest. Prefers shallow waters?
+BMT_GiantAmmonite 	- 	Cephalopod		Early Devonian Early Paleogene		All island and shorelines except the coldest (same as BMT_Ammonite).
+BMT_Icthyosaurus 	- 	Ichthyosauria		Early Cretaceous			Cool to warm islands and shores.
+BMT_Liopleurodon 	- 	Plesiosauria		Mid Late Jurassic			Cold (But not freezing) to temperate islands and shores
+BMT_Megalodon 		- 	Chondrichthyes		Early Neogene
+BMT_Mosasaurus 		- 	Mosasauroidea		Late Cretaceous				Cold (but not freezing) to tropical islands. 
+BMT_Orthoceras 		- 	Cephalopod		Mid Ordovician				All island and shorelines.
+BMT_Shonisaurus 	- 	Ichthyosauria		Late Triassic				Cool to warm islands and shores.
+BMT_Trilobite 		- 	Artiopoda		Early Cambrian Late Permian		Can go onto sand but mostly remain in the water.
 
 
-BMT_Anhanguera - All warmer to cold, but not frozen coasts and islands.
-BMT_Dimorphodon - All lusher biomes except the coldest.
-BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
-BMT_Quetzal - All arid and desert biomes.
+BMT_Anhanguera		- 	Pterosauria		Early Late Cretaceous			All warmer to cold, but not frozen coasts and islands.
+BMT_Dimorphodon 	- 	Pterosauria		Early Jurassic				All lusher biomes except the coldest.
+BMT_Pteranodon 		-	Pterosauria		Late Cretaceous				All warmer to cool biomes with LAKE OR OCEAN tile next to it.
+BMT_Quetzal 		- 	Pterosauria		Late Cretaceous				All arid and desert biomes.
+
+
+
+Pack Animal Dino:
+
+Apatosaurus
+Borealopelta
+Brachiosaurus
+Centrosaurus
+Edmontosaurus
+Gallimimus
+Iguanodon
+Ouranosaurus
+Pachyrhinosaurus
+Parasaur
+Stegosaurus
+Styracosaurus
+Triceratops
