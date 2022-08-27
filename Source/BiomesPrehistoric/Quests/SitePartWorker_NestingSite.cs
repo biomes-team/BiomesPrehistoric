@@ -4,6 +4,7 @@ using System.Linq;
 using RimWorld;
 using RimWorld.Planet;
 using RimWorld.QuestGen;
+using UnityEngine;
 using Verse;
 using Verse.Grammar;
 
@@ -63,7 +64,8 @@ namespace BiomesPrehistoric
                     var eggs = ThingMaker.MakeThing(eggLayer.eggFertilizedDef);
                     eggs.stackCount = eggLayer.eggCountRange.RandomInRange;
                     eggContainer.innerContainer.TryAdd(eggs);
-                    
+
+                    nest.SetColor(new Color(0.375f, 0.318f, 0.235f));
                     part.things.TryAdd(nest, false);
                 }
                 

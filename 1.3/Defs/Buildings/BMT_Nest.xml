@@ -40,6 +40,9 @@
 				<triggerRadius>10</triggerRadius>
 				<alertRadius>50</alertRadius>
 			</li>
+			<li Class="CompProperties">
+				<compClass>CompColorable</compClass>
+			</li>
 		</comps>
 		<pathCost>10</pathCost>
 		<rotatable>false</rotatable>
@@ -87,6 +90,9 @@
 				<onlyHumanlike>true</onlyHumanlike>
 				<triggerRadius>10</triggerRadius>
 				<alertRadius>50</alertRadius>
+			</li>
+			<li Class="CompProperties">
+				<compClass>CompColorable</compClass>
 			</li>
 			<li Class="CompProperties_Lifespan">
 				<lifespanTicks>1200000</lifespanTicks>
