@@ -58,8 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BiomesPrehistoric.cs" />
+    <Compile Include="BiomesPrehistoric_DefOf.cs" />
     <Compile Include="PrehistoricSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quests\GenStep_NestingSite.cs" />
+    <Compile Include="Quests\SitePartWorker_NestingSite.cs" />
+    <Compile Include="Quests\CompNestAlertNearby.cs" />
     <Compile Include="SpawnPatches.cs" />
   </ItemGroup>
   <ItemGroup>

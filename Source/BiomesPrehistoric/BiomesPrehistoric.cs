@@ -18,5 +18,10 @@ namespace BiomesPrehistoric
             harmony.PatchAll();
             Log.Message("Biomes! Prehistoric initialized");
         }
+
+        public static bool IsLargeDino(ThingDef def)
+        {
+            return def.race?.baseBodySize >= 3f;
+        }
     }
 }

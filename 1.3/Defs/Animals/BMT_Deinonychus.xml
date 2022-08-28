@@ -85,6 +85,9 @@
                 <saveKeysPrefix>DinoFeather</saveKeysPrefix>
                 <spawnForbidden>true</spawnForbidden>
             </li>
+            <li Class="BiomesCore.CompProperties_PackHunter">
+                <joinHuntRange>24</joinHuntRange>
+            </li>
         </comps>
         <tools>
             <li>
