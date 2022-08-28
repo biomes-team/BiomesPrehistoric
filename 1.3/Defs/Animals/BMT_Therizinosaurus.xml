@@ -19,7 +19,7 @@
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>3</baseBodySize>
+            <baseBodySize>4</baseBodySize>
             <baseHealthScale>2.5</baseHealthScale>
             <baseHungerRate>0.33</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
@@ -167,7 +167,7 @@
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(236,206,196)</color>
-            <drawSize>1.7</drawSize>
+            <drawSize>1</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>63</MarketValue>

@@ -207,7 +207,7 @@
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(104,70,45)</color>
-			<drawSize>0.9</drawSize>
+			<drawSize>0.8</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>35.0</MarketValue>

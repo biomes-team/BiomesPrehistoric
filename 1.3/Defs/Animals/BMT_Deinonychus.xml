@@ -83,6 +83,7 @@
                 <spawnIntervalRange>60000~120000</spawnIntervalRange>
                 <spawnMaxAdjacent>10</spawnMaxAdjacent>
                 <saveKeysPrefix>DinoFeather</saveKeysPrefix>
+                <spawnForbidden>true</spawnForbidden>
             </li>
             <li Class="BiomesCore.CompProperties_PackHunter">
                 <joinHuntRange>24</joinHuntRange>
@@ -212,7 +213,7 @@
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(181,164,138)</color>
-            <drawSize>0.95</drawSize>
+            <drawSize>0.90</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>21.0</MarketValue>

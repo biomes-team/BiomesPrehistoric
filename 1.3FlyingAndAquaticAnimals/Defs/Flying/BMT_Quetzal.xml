@@ -188,7 +188,7 @@
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(152,95,81)</color>
-			<drawSize>1.2</drawSize>
+			<drawSize>1.1</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>61</MarketValue>
@@ -213,6 +213,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
 					<drawSize>3.2</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
@@ -223,6 +227,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
 					<drawSize>4.8</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.5, 0.3)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>
@@ -233,6 +241,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Quetzal/QuetzalSitting</texPath>
 					<drawSize>7</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Quetzal/Dessicated_Quetzal</texPath>

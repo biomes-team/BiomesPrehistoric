@@ -12,7 +12,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/EurypteridSubmerged</texPath>
                 <drawSize>1.2</drawSize>
             </bodyGraphicData>
         </li>
@@ -37,7 +37,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/EurypteridSubmerged</texPath>
                 <drawSize>2.2</drawSize>
             </bodyGraphicData>
         </li>
@@ -53,7 +53,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/EurypteridSubmerged</texPath>
                 <drawSize>3.2</drawSize>
             </bodyGraphicData>
         </li>
@@ -162,6 +162,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
 					<drawSize>1.2</drawSize>
+                    <shadowData>
+                        <volume>(0.6, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
@@ -172,6 +176,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
 					<drawSize>2.2</drawSize>
+                    <shadowData>
+                        <volume>(0.8, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
@@ -182,6 +190,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
 					<drawSize>3.2</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>

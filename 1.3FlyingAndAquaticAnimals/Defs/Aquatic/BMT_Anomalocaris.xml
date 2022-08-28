@@ -12,7 +12,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/AnomalocarisSubmerged</texPath>
                 <drawSize>0.5</drawSize>
             </bodyGraphicData>
         </li>
@@ -37,7 +37,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/AnomalocarisSubmerged</texPath>
                 <drawSize>1.0</drawSize>
             </bodyGraphicData>
         </li>
@@ -53,7 +53,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
+                <texPath>BMT_Prehistoric/Aquatic/Anomalocaris/AnomalocarisSubmerged</texPath>
                 <drawSize>1.5</drawSize>
             </bodyGraphicData>
         </li>

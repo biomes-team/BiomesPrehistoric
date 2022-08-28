@@ -189,7 +189,7 @@
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(151,176,198)</color>
-			<drawSize>0.6</drawSize>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>55</MarketValue>
@@ -214,6 +214,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
@@ -224,6 +228,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
@@ -234,6 +242,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.4, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>

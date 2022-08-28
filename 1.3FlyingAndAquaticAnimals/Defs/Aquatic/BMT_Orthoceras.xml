@@ -16,7 +16,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
+				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
                 <drawSize>2.2</drawSize>
             </bodyGraphicData>
         </li>
@@ -41,7 +41,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
+				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
                 <drawSize>2.6</drawSize>
             </bodyGraphicData>
         </li>
@@ -59,7 +59,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
+				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
                 <drawSize>3.2</drawSize>
             </bodyGraphicData>
         </li>
@@ -175,6 +175,10 @@
 					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
                     <drawSize>2.2</drawSize>
 					<color>(180,170,160)</color>
+                    <shadowData>
+                        <volume>(0.6, 0.5, 0.1)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Orthoceras/Dessicated_Orthoceras</texPath>
@@ -186,6 +190,10 @@
 					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
                     <drawSize>2.6</drawSize>
 					<color>(180,170,160)</color>
+                    <shadowData>
+                        <volume>(0.8, 0.5, 0.1)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Orthoceras/Dessicated_Orthoceras</texPath>
@@ -196,6 +204,10 @@
                 <bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
                     <drawSize>3.2</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.5, 0.1)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Aquatic/Orthoceras/Dessicated_Orthoceras</texPath>

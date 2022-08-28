@@ -64,10 +64,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_HealrootFern>0.1</BMT_HealrootFern>
 			<BMT_JurassicHorsetail>1.0</BMT_JurassicHorsetail>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 	
@@ -85,10 +85,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Calamites>0.7</BMT_Calamites>
 			<BMT_Clubmoss>1.0</BMT_Clubmoss>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 
@@ -98,8 +98,8 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Grass>3.0</BMT_Grass>
 			<BMT_Davallia>2.0</BMT_Davallia>
 			<BMT_Ephedra>2.0</BMT_Ephedra>
-			<!--BMT_Angiopteris>0.8</BMT_Angiopteris-->
-			<!--BMT_Archaeanthus>0.3</BMT_Archaeanthus-->
+			<BMT_Angiopteris>0.8</BMT_Angiopteris>
+			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
 			<!--BMT_Nypa>0.3</BMT_Nypa-->
 			<!--BMT_Bamboo>0.3</BMT_Bamboo-->
 			<!--BMT_Cercidiphyllum>0.2</BMT_Cercidiphyllum-->
@@ -110,10 +110,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Calamites>0.1</BMT_Calamites>
 			<BMT_Clubmoss>0.5</BMT_Clubmoss>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 	
@@ -130,10 +130,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Medullosa>0.15</BMT_Medullosa>
 			<BMT_Alethopteris>0.05</BMT_Alethopteris>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 
@@ -150,10 +150,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Horsetail>3.0</BMT_Horsetail>
 			<BMT_Clubmoss>0.3</BMT_Clubmoss>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 	
@@ -171,10 +171,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_JurassicHorsetail>2.0</BMT_JurassicHorsetail>
 			<BMT_Eathiestrobus>5.0</BMT_Eathiestrobus>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 
@@ -192,10 +192,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Taxaceae>0.07</BMT_Taxaceae>
 			<BMT_HealrootFern>0.05</BMT_HealrootFern>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 	
@@ -210,10 +210,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<!--BMT_Sphenobaiera>0.25</BMT_Sphenobaiera-->
 			<BMT_Horsetail>1.0</BMT_Horsetail>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 
@@ -224,10 +224,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<!--BMT_Pleuromeia>1.0</BMT_Pleuromeia-->
 			<BMT_Cycadales>0.25</BMT_Cycadales>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>
 
@@ -244,10 +244,10 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_RubusChamaemorus>0.07</BMT_RubusChamaemorus>
 			<BMT_HealrootFern>0.05</BMT_HealrootFern>
 
-			<BMT_Crinoid>1.0</BMT_Crinoid>
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
 		</value>
 	</Operation>	
 
