@@ -178,7 +178,7 @@
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
             <color>(230,212,193)</color>
-            <drawSize>1.4</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>22.0</MarketValue>
