@@ -84,6 +84,9 @@
                 <spawnMaxAdjacent>10</spawnMaxAdjacent>
                 <saveKeysPrefix>DinoFeather</saveKeysPrefix>
             </li>
+            <li Class="BiomesCore.CompProperties_PackHunter">
+                <joinHuntRange>24</joinHuntRange>
+            </li>
         </comps>
         <tools>
             <li>
