@@ -197,7 +197,7 @@
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(164,109,98)</color>
-			<drawSize>1</drawSize>
+			<drawSize>1.05</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>60</MarketValue>
