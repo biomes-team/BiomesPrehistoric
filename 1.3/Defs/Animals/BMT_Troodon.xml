@@ -77,13 +77,11 @@
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~4</eggCountRange>
             </li>
-           <li Class="CompProperties_Spawner">
+           <li Class="BiomesCore.ThingComponents.CompProperties_AnimalThingSpawner">
                 <thingToSpawn>BMT_DinoFeather</thingToSpawn>
                 <spawnCount>10</spawnCount>
                 <spawnIntervalRange>750000~900000</spawnIntervalRange>
-                <spawnMaxAdjacent>10</spawnMaxAdjacent>
                 <saveKeysPrefix>DinoFeather</saveKeysPrefix>
-                <spawnForbidden>true</spawnForbidden>
             </li>
         </comps>
         <tools>
