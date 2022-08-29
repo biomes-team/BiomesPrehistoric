@@ -74,6 +74,8 @@
 			</li>
 			<li Class="BiomesCore.CompProperties_BottomFeeder">
 				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Fishing.</consumingFoodReportString>
+				<!--effect>EatFish</effect-->
 			</li>
 		</comps>
 		<race>
