@@ -6,7 +6,7 @@
         <label>ankylosaurus</label>
         <description>Ankylosaurus is perhaps the largest of its kind and is known predominantly for the fact that it is both well protected and well armed. It takes a lot for even a predator to kill one.\n\nScientific name: Ankylosaurus magniventris.</description>
         <statBases>
-            <MoveSpeed>4</MoveSpeed>
+            <MoveSpeed>3</MoveSpeed>
             <MarketValue>1520</MarketValue>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
