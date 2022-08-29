@@ -16,7 +16,7 @@
 		<topWindExposure>0.2</topWindExposure>
 		<wildClusterRadius>4</wildClusterRadius>
 		<wildClusterWeight>7.5</wildClusterWeight>
-		<visualSizeRange>1.8~2.5</visualSizeRange>
+		<visualSizeRange>1.2~2.0</visualSizeRange>
     </plant>
   </ThingDef>
 

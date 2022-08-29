@@ -39,6 +39,11 @@ BMT_Taxaceae		-	Berry Bush 		Cold Bog
 BMT_Zamiaceae		-	Birch Tree 		Boreal Forest
 BMT_Peltaspermaceae	-	Pincushion Cactus 	Desert
 BMT_Walchia			-	Drago Tree 		Desert
+BMT_Aetheophyllum	-	Berry Bush 		Arid Shrubland
+BMT_MerianiCalamites	- Drago Tree 	Arid Shrubland
+BMT_Pleuromeia		-	Saguaro Cactus 	Arid Shrubland
+BMT_Sphenobaiera	-	Bush 			Desert
+BMT_Dicroidium		-	Grass 			
 
 BMT_Crinoid			-	sea lilies		Saltwater / Sea
 BMT_Gryphaea		-					Saltwater / Sea
@@ -140,13 +145,13 @@ BMT_TreeBirch		-	Core 			Tundra
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
 		<value>
-			<!--BMT_Dicrodium>7.0</BMT_Dicrodium-->
+			<BMT_Dicroidium>7.0</BMT_Dicroidium>
 			<!--BMT_Voltzia>0.7</BMT_Voltzia-->
 			<!--BMT_Clathropteris>0.6</BMT_Clathropteris-->
 			<BMT_Cycadales>0.2</BMT_Cycadales>
-			<!--BMT_Pleuromeia>0.26</BMT_Pleuromeia-->
-			<!--BMT_CalamitesMeriani>0.20</BMT_CalamitesMeriani-->
-			<!--BMT_Aetheophyllum>0.10</BMT_Aetheophyllum-->
+			<BMT_Pleuromeia>0.26</BMT_Pleuromeia>
+			<BMT_MerianiCalamites>0.20</BMT_MerianiCalamites>
+			<BMT_Aetheophyllum>0.10</BMT_Aetheophyllum>
 			<BMT_Horsetail>3.0</BMT_Horsetail>
 			<BMT_Clubmoss>0.3</BMT_Clubmoss>
 
@@ -207,7 +212,7 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Glossopteris>1.0</BMT_Glossopteris>
 			<BMT_Walchia>0.7</BMT_Walchia>
 			<BMT_Cycadales>0.5</BMT_Cycadales>
-			<!--BMT_Sphenobaiera>0.25</BMT_Sphenobaiera-->
+			<BMT_Sphenobaiera>0.25</BMT_Sphenobaiera>
 			<BMT_Horsetail>1.0</BMT_Horsetail>
 
 			<!--BMT_Crinoid>1.0</BMT_Crinoid>
@@ -220,8 +225,8 @@ BMT_TreeBirch		-	Core 			Tundra
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath>
 		<value>
-			<!--BMT_Dicoidium>6</BMT_Dicoidium-->
-			<!--BMT_Pleuromeia>1.0</BMT_Pleuromeia-->
+			<BMT_Dicroidium>6</BMT_Dicroidium>
+			<BMT_Pleuromeia>1.0</BMT_Pleuromeia>
 			<BMT_Cycadales>0.25</BMT_Cycadales>
 
 			<!--BMT_Crinoid>1.0</BMT_Crinoid>
