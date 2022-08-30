@@ -22,6 +22,7 @@
 				<power>18</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
 			</li>
 			<li>
 				<label>right claws</label>
@@ -31,15 +32,16 @@
 				<power>18</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
 			</li>
 			<li>
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>22</power>
+				<power>30</power>
 				<cooldownTime>2.5</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<chanceFactor>0.7</chanceFactor>
+				<!--chanceFactor>0.7</chanceFactor-->
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>

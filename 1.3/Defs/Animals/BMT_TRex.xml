@@ -70,6 +70,7 @@
                 <power>16</power>
                 <cooldownTime>1.7</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
             </li>
             <li>
                 <label>right claws</label>
@@ -79,15 +80,24 @@
                 <power>16</power>
                 <cooldownTime>1.7</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
             </li>
             <li>
                 <capacities>
                     <li>Bite</li>
                 </capacities>
                 <power>32</power>
-                <cooldownTime>2</cooldownTime>
+                <cooldownTime>2.5</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <chanceFactor>0.7</chanceFactor>
+                <!--chanceFactor>0.7</chanceFactor-->
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
             </li>
             <li>
                 <label>head</label>
