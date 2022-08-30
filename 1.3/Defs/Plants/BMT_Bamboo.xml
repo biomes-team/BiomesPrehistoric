@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Bamboo</defName>
+    <label>rod bamboo</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/RodBamboo</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Flammability>1.3</Flammability>
+      <Nutrition>0.50</Nutrition>
+    </statBases>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <growDays>2.5</growDays>
+      <harvestWork>40</harvestWork>
+      <wildClusterRadius>16</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.5~2</visualSizeRange>
+      <topWindExposure>0.4</topWindExposure>
+      <wildOrder>3</wildOrder>
+    </plant>
+  </ThingDef>
+
+</Defs>

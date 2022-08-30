@@ -107,7 +107,7 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Angiopteris>0.8</BMT_Angiopteris>
 			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
 			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
-			<!--BMT_Bamboo>0.3</BMT_Bamboo-->
+			<BMT_Bamboo>0.4</BMT_Bamboo>
 			<!--BMT_Cercidiphyllum>0.2</BMT_Cercidiphyllum-->
 			<!--BMT_Berberis>0.15</BMT_Berberis-->
 			<!--BMT_Sagaria>0.07</BMT_Sagaria-->
