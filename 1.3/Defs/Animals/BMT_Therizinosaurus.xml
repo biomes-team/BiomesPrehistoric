@@ -86,7 +86,7 @@
                 <power>5</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <chanceFactor>0.7</chanceFactor>
+                <chanceFactor>0.5</chanceFactor>
             </li>
             <li>
                 <label>head</label>
