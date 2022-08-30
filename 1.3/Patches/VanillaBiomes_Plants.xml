@@ -43,7 +43,8 @@ BMT_Aetheophyllum	-	Berry Bush 		Arid Shrubland
 BMT_MerianiCalamites	- Drago Tree 	Arid Shrubland
 BMT_Pleuromeia		-	Saguaro Cactus 	Arid Shrubland
 BMT_Sphenobaiera	-	Bush 			Desert
-BMT_Dicroidium		-	Grass 			
+BMT_Dicroidium		-	Grass 			Arid Shrubland / Extreme Desert
+BMT_NypaFruticans	-	Palm Tree 		Tropical Rainforest
 
 BMT_Crinoid			-	sea lilies		Saltwater / Sea
 BMT_Gryphaea		-					Saltwater / Sea
@@ -105,7 +106,7 @@ BMT_TreeBirch		-	Core 			Tundra
 			<BMT_Ephedra>2.0</BMT_Ephedra>
 			<BMT_Angiopteris>0.8</BMT_Angiopteris>
 			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
-			<!--BMT_Nypa>0.3</BMT_Nypa-->
+			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
 			<!--BMT_Bamboo>0.3</BMT_Bamboo-->
 			<!--BMT_Cercidiphyllum>0.2</BMT_Cercidiphyllum-->
 			<!--BMT_Berberis>0.15</BMT_Berberis-->
