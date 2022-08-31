@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>BMT_BogMoss</defName>
+    <label>bog moss</label>
+    <description>Wild moss that grows in clumps in areas of low light and cool temperatures. Moss takes a long time to grow, but is very frost-resistant.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>0.6</Flammability>
+      <Nutrition>0.50</Nutrition>
+    </statBases>
+    <modExtensions>
+      <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+        <terrainTags>
+          <li>Soil</li>
+          <li>Muddy</li>
+          <li>Shallow</li>
+          <li>Fresh</li>
+          <li>Boggy</li>
+        </terrainTags>
+      </li>
+    </modExtensions>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/BogMoss</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>4</growDays>
+      <!--leaflessGraphicPath>Things/Plant/Moss_Leafless</leaflessGraphicPath-->
+      <harvestWork>60</harvestWork>
+      <maxMeshCount>6</maxMeshCount>
+      <visualSizeRange>0.4~0.6</visualSizeRange>
+      <topWindExposure>0.0</topWindExposure>
+      <wildOrder>1</wildOrder>
+    </plant>
+  </ThingDef>
+
+</Defs>

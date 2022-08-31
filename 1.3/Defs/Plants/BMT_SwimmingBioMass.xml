@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>BMT_SwimmingBioMass</defName>
+    <label>swimming biomass</label>
+    <description>.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>0.6</Flammability>
+      <Nutrition>0.50</Nutrition>
+    </statBases>
+    <modExtensions>
+      <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+        <terrainTags>
+          <li>Water</li>
+          <li>Shallow</li>
+          <li>Fresh</li>
+          <li>Boggy</li>
+        </terrainTags>
+      </li>
+    </modExtensions>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/SwimmingBioMass</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+      <growDays>4</growDays>
+      <!--leaflessGraphicPath>Things/Plant/Moss_Leafless</leaflessGraphicPath-->
+      <harvestWork>60</harvestWork>
+      <topWindExposure>0.2</topWindExposure>
+      <wildOrder>1</wildOrder>
+    </plant>
+  </ThingDef>
+
+</Defs>

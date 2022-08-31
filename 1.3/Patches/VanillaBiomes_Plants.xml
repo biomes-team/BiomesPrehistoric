@@ -1,60 +1,71 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
+BMT_Aetheophyllum	-	Berry Bush 		Arid Shrubland
 BMT_Alethopteris	-	Barry Bush		Tropical Swamp
 BMT_Araucaria		-	Poplar Tree		Temperate Forest / Boreal Forest
 BMT_Archaefructus	-	Astragalus		Cold Bog
 BMT_Artemisia		-	Astragalus		Tundra
+BMT_BogMoss			-	Moss 			Cold Bog
 BMT_Calamites		-	treelike		Water/Land
 BMT_Caytoniales		-	Maple Tree 		Cold Bog
 BMT_Clubmoss		-	bushlike?
 BMT_Coniopteris		-	Brambles		Temperate Forest / Boreal Forest
 BMT_Cycadales		-	Agave			Arid Shrubland / Desert / Extreme Desert
 BMT_Cycas			-	Bush 			Temperate Forest / Boreal Forest
+BMT_Dicroidium		-	Grass 			Arid Shrubland / Extreme Desert
 BMT_Dipteridaceae	-	Tall Grass 		Temperate Forest
 BMT_Eathiestrobus	-	Pine Tree 		Boreal Forest
 BMT_Ginkgo			-	Willow  Tree 	Cold Bog
 BMT_Glossopteris	-	Saguaro Cactus 	Desert
 BMT_Gnetum			-	Barry Bush 		Temperate Forest / Boreal Forest
+BMT_Grass 			-	Grass 			Tropical Rainforest
 BMT_HealrootFern	-	Healroot 		Cold Bog / Tundra / Boreal Forest / Temperate Swamp / Temperate Forest
 BMT_Horsetail		-	grasslike, tough
 BMT_JurassicHorsetail	- 	grasslike	Temperate Forest
+BMT_LeopoldaeBetula	-	Birch Tree		Tundra
 BMT_Lepidodendron	-	Maple Tree 		Tropical Swamp
 BMT_Lindsaeaceae	-	Chokevine		Cold Bog
 BMT_Lyginopteridales	-	Grass 		Desert
 BMT_Matoniaceae		-	Grass			Temperate Forest / Boreal Forest
 BMT_Medullosa		- 	Bush			Tropical Swamp
+BMT_MerianiCalamites	- Drago Tree 	Arid Shrubland
 BMT_Metasequoia		-	Cypress Tree 	Cold Bog
+BMT_NanaBetula		-	Bush 			Tundra
+BMT_NypaFruticans	-	Palm Tree 		Tropical Rainforest
 BMT_Pecopteris		- 	Alocasia		Tropical Swamp
+BMT_Peltaspermaceae	-	Pincushion Cactus 	Desert
+BMT_Pinus			-	Pine Tree		Tundra
+BMT_Pleuromeia		-	Saguaro Cactus 	Arid Shrubland
 BMT_Podocarpaceae	-	Bush 			Cold Bog
 BMT_Podozamites		-	Oak Tree 		Temperate Forest
 BMT_PolarGrass		-	Tall Grass 		Cold Bog
-BMT_PolarMoss		-	Moss 			Cold Bog
 BMT_Polytrichaceae	-	Moss 			Boreal Forest
 BMT_Potentilla		-	Dandelion		Tundra
+BMT_RedSphagnum		-	Moss 			Tundra
 BMT_RubusChamaemorus	-	Barry Bush 	Tundra
+BMT_Sedge			-	Grass 			Tundra
 BMT_Sigillaria		-	Cypress Tree 	Tropical Swamp
+BMT_Sphenobaiera	-	Bush 			Desert
 BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
 BMT_Taxaceae		-	Berry Bush 		Cold Bog
-BMT_Zamiaceae		-	Birch Tree 		Boreal Forest
-BMT_Peltaspermaceae	-	Pincushion Cactus 	Desert
 BMT_Walchia			-	Drago Tree 		Desert
-BMT_Aetheophyllum	-	Berry Bush 		Arid Shrubland
-BMT_MerianiCalamites	- Drago Tree 	Arid Shrubland
-BMT_Pleuromeia		-	Saguaro Cactus 	Arid Shrubland
-BMT_Sphenobaiera	-	Bush 			Desert
-BMT_Dicroidium		-	Grass 			Arid Shrubland / Extreme Desert
-BMT_NypaFruticans	-	Palm Tree 		Tropical Rainforest
+BMT_Zamiaceae		-	Birch Tree 		Boreal Forest
+BMT_Cooksonia		-	Tall Grass 		Temperate Swamp
+BMT_Psilophyton		-	Chokevine		Temperate Swamp
+BMT_Teraxylopteris 	-	Bush 			Temperate Swamp
+BMT_Archaeopteris	-	Willow Tree 	Temperate Swamp
+BMT_Asteroxlyon		-	Cypress Tree 	Temperate Swamp
+BMT_Pseudobornia	-	Maple Tree 		Temperate Swamp
+BMT_Adoketophyton	-	Berry Bush 		Temperate Swamp
+BMT_Cercidiphyllum	-	Teal Tree 		Tropical Rainforest
+
 
 BMT_Crinoid			-	sea lilies		Saltwater / Sea
 BMT_Gryphaea		-					Saltwater / Sea
 BMT_HornCorals		-					Saltwater / Sea
 BMT_Stromatolite	-					Saltwater / Sea
 
-BMT_Grass 			-	Core 			Tundra / Tropical Rainforest
-BMT_Bush			-	Core 			Tundra
-BMT_TreePine		-	Core 			Tundra
-BMT_TreeBirch		-	Core 			Tundra
 -->
 
 	<Operation Class="PatchOperationAdd">
@@ -80,13 +91,13 @@ BMT_TreeBirch		-	Core 			Tundra
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
 		<value>
-			<!--BMT_Cooksonia>3.2</BMT_Cooksonia-->
-			<!--BMT_Psilophyton>0.8</BMT_Psilophyton-->
-			<!--BMT_Teraxylopteris>0.2</BMT_Teraxylopteris-->
-			<!--BMT_Archaeopteris>1.0</BMT_Archaeopteris-->
-			<!--BMT_Asteroxlyon>1.0</BMT_Asteroxlyon-->
-			<!--BMT_Pseudobornia>1.0</BMT_Pseudobornia-->
-			<!--BMT_Adoketophyton>0.05</BMT_Adoketophyton-->
+			<BMT_Cooksonia>3.2</BMT_Cooksonia>
+			<BMT_Psilophyton>0.8</BMT_Psilophyton>
+			<BMT_Teraxylopteris>0.2</BMT_Teraxylopteris>
+			<BMT_Archaeopteris>1.0</BMT_Archaeopteris>
+			<BMT_Asteroxlyon>1.0</BMT_Asteroxlyon>
+			<BMT_Pseudobornia>1.0</BMT_Pseudobornia>
+			<BMT_Adoketophyton>0.05</BMT_Adoketophyton>
 			<BMT_HealrootFern>0.05</BMT_HealrootFern>
 			<BMT_Calamites>0.7</BMT_Calamites>
 			<BMT_Clubmoss>1.0</BMT_Clubmoss>
@@ -101,14 +112,14 @@ BMT_TreeBirch		-	Core 			Tundra
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
 		<value>
-			<BMT_Grass>3.0</BMT_Grass>
+			<!--BMT_Grass>3.0</BMT_Grass-->
 			<BMT_Davallia>2.0</BMT_Davallia>
 			<BMT_Ephedra>2.0</BMT_Ephedra>
 			<BMT_Angiopteris>0.8</BMT_Angiopteris>
 			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
 			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
 			<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
-			<!--BMT_Cercidiphyllum>0.2</BMT_Cercidiphyllum-->
+			<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
 			<!--BMT_Berberis>0.15</BMT_Berberis-->
 			<!--BMT_Sagaria>0.07</BMT_Sagaria-->
 			<!--BMT_Mayoa>0.05</BMT_Mayoa-->
@@ -189,7 +200,7 @@ BMT_TreeBirch		-	Core 			Tundra
 		<value>
 			<BMT_Lindsaeaceae>3.0</BMT_Lindsaeaceae>
 			<BMT_PolarGrass>2.4</BMT_PolarGrass>
-			<BMT_PolarMoss>0.5</BMT_PolarMoss>
+			<BMT_BogMoss>0.5</BMT_BogMoss>
 			<BMT_Podocarpaceae>0.3</BMT_Podocarpaceae>
 			<BMT_Archaefructus>0.1</BMT_Archaefructus>
 			<BMT_Ginkgo>0.6</BMT_Ginkgo>
@@ -240,15 +251,16 @@ BMT_TreeBirch		-	Core 			Tundra
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
 		<value>
-			<BMT_Grass>3.6</BMT_Grass>
-			<BMT_Moss>0.5</BMT_Moss>
-			<BMT_Bush>0.2</BMT_Bush>
+			<BMT_Sedge>5.0</BMT_Sedge>
+			<BMT_RedSphagnum>1.2</BMT_RedSphagnum>
+			<BMT_NanaBetula>1.2</BMT_NanaBetula>
 			<BMT_Potentilla>0.1</BMT_Potentilla>
 			<BMT_Artemisia>0.1</BMT_Artemisia>
-			<BMT_TreePine>0.08</BMT_TreePine>
-			<BMT_TreeBirch>0.08</BMT_TreeBirch>
+			<BMT_Pinus>0.08</BMT_Pinus>
+			<BMT_LeopoldaeBetula>0.08</BMT_LeopoldaeBetula>
 			<BMT_RubusChamaemorus>0.07</BMT_RubusChamaemorus>
 			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+			<BMT_SwimmingBioMass>1</BMT_SwimmingBioMass>
 
 			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>

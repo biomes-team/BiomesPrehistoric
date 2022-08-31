@@ -21,7 +21,6 @@
     <blockWind>false</blockWind>
     <plant Inherit="False">
       <growDays>14</growDays>
-      <harvestWork>600</harvestWork>
       <wildClusterRadius>10</wildClusterRadius>
       <wildClusterWeight>8</wildClusterWeight>
       <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
@@ -36,15 +35,19 @@
       </sowResearchPrerequisites>
       <mustBeWildToSow>true</mustBeWildToSow>
       <blockAdjacentSow>false</blockAdjacentSow>
-      <treeLoversCareIfChopped>true</treeLoversCareIfChopped>
+      <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
       <treeCategory>Full</treeCategory>
       <sowTags>
-        <li>Ground</li>
+        <li>Hydroponic</li>
       </sowTags>
       <visualSizeRange>1.7~2.5</visualSizeRange>
       <topWindExposure>0.40</topWindExposure>
       <wildOrder>3</wildOrder>
-      <interferesWithRoof>true</interferesWithRoof>
+      <interferesWithRoof>false</interferesWithRoof>
+      <harvestedThingDef>BMT_RawNypa</harvestedThingDef>
+      <harvestTag>Standard</harvestTag>
+      <harvestWork>200</harvestWork>
+      <harvestYield>8</harvestYield>
     </plant>
     <ingestible />
         <modExtensions>

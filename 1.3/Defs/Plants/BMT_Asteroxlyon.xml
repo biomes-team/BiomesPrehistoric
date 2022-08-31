@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Asteroxlyon</defName>
+    <label>asteroxlyon</label>
+    <description>asteroxlyon.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Asteroxlyon</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.24, 0.4, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+      <shaderParameters>
+        <_FallColorSource>(0.373, 0.427, 0.313)</_FallColorSource>
+        <_FallTransitionRange>(0.02, 0.14)</_FallTransitionRange>
+      </shaderParameters>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+    </statBases>
+    <plant>
+      <growDays>35</growDays>
+      <harvestWork>1800</harvestWork>
+      <harvestYield>60</harvestYield>
+      <wildClusterRadius>17</wildClusterRadius>
+      <wildClusterWeight>25</wildClusterWeight>
+      <visualSizeRange>1.5~2.3</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>

@@ -2,8 +2,8 @@
 <Defs>
 
   <ThingDef ParentName="PlantBase">
-    <defName>BMT_PolarMoss</defName>
-    <label>early moss</label>
+    <defName>BMT_RedSphagnum</defName>
+    <label>red sphagnum</label>
     <description>Wild moss that grows in clumps in areas of low light and cool temperatures. Moss takes a long time to grow, but is very frost-resistant.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -15,25 +15,23 @@
         <terrainTags>
           <li>Soil</li>
           <li>Muddy</li>
-          <li>Shallow</li>
-          <li>Fresh</li>
           <li>Boggy</li>
         </terrainTags>
       </li>
     </modExtensions>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/PolarMoss</texPath>
+      <texPath>BMT_Prehistoric/Plant/RedSphagnum</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible />
     <plant>
       <fertilityMin>0.05</fertilityMin>
-      <fertilitySensitivity>0</fertilitySensitivity>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
       <growDays>4</growDays>
       <!--leaflessGraphicPath>Things/Plant/Moss_Leafless</leaflessGraphicPath-->
       <harvestWork>60</harvestWork>
-      <maxMeshCount>6</maxMeshCount>
+      <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>0.4~0.6</visualSizeRange>
       <topWindExposure>0.0</topWindExposure>
       <wildOrder>1</wildOrder>

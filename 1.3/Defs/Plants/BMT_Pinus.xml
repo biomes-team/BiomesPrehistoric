@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Pinus</defName>
+    <label>early pine tree</label>
+    <description>A large conifer covered with prickly pine cones. It grows in a distinctive conical shape.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Pinus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>20</growDays>
+      <visualSizeRange>0.8~1.3</visualSizeRange>
+      <harvestWork>800</harvestWork>
+      <harvestYield>17</harvestYield>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>
