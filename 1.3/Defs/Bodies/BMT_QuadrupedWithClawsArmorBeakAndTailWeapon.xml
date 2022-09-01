@@ -10,7 +10,7 @@
 			<parts>
 				<li>
 					<def>BMT_Osteoderm</def>
-					<coverage>0.8</coverage>
+					<coverage>0.6</coverage>
 					<height>Top</height>
 					<depth>Outside</depth>
 					<parts>
@@ -62,7 +62,7 @@
 				</li>
 				<li>
 					<def>Neck</def>
-					<coverage>0.14</coverage>
+					<coverage>0.1</coverage>
 					<height>Top</height>
 					<parts>
 						<li>
@@ -121,7 +121,7 @@
 				</li>
 				<li>
 					<def>BMT_Tail</def>
-					<coverage>0.15</coverage>
+					<coverage>0.09</coverage>
 					<parts>
 						<li>
 							<def>BMT_TailWeapon</def>
@@ -135,7 +135,7 @@
 				<li>
 					<def>Leg</def>
 					<customLabel>front left leg</customLabel>
-					<coverage>0.065</coverage>
+					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<parts>
 						<li>
@@ -193,7 +193,7 @@
 				<li>
 					<def>Leg</def>
 					<customLabel>front right leg</customLabel>
-					<coverage>0.065</coverage>
+					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<parts>
 						<li>
@@ -251,7 +251,7 @@
 				<li>
 					<def>Leg</def>
 					<customLabel>rear left leg</customLabel>
-					<coverage>0.065</coverage>
+					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<parts>
 						<li>
@@ -309,7 +309,7 @@
 				<li>
 					<def>Leg</def>
 					<customLabel>rear right leg</customLabel>
-					<coverage>0.065</coverage>
+					<coverage>0.05</coverage>
 					<height>Bottom</height>
 					<parts>
 						<li>

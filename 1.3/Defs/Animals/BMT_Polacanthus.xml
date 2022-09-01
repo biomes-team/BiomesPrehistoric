@@ -137,7 +137,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>15</power>
+                <power>10</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
             </li>
