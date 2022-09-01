@@ -15,7 +15,7 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Ankylosaurus</useMeatFrom>
-            <body>QuadrupedAnimalWithPawsAndTail</body>
+            <body>BMT_QuadrupedWithClawsArmorBeakAndTailWeapon</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>3</baseBodySize>
