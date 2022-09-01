@@ -57,4 +57,29 @@
 		</tags>
 	</BodyPartDef>
 
+	<BodyPartDef>
+		<defName>BMT_Osteoderm</defName>
+		<label>skin bone plates</label>
+		<hitPoints>50</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>BMT_DinoBeak</defName>
+		<label>beak</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
 </Defs>

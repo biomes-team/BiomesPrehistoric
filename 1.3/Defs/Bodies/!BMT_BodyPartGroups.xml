@@ -60,4 +60,9 @@
 		<labelShort>claw</labelShort>
 	</BodyPartGroupDef>
 
+	<BodyPartGroupDef>
+		<defName>BMT_DinoBeakAttackTool</defName>
+		<label>beak</label>
+	</BodyPartGroupDef>
+
 </Defs>
