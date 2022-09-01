@@ -67,20 +67,56 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>16</power>
+                <power>8</power>
                 <cooldownTime>1.7</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
-                <chanceFactor>0.5</chanceFactor>
+                <chanceFactor>0.3</chanceFactor>
             </li>
             <li>
                 <label>right claws</label>
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>16</power>
+                <power>8</power>
                 <cooldownTime>1.7</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.3</chanceFactor>
+            </li>
+            <li>
+                <label>left foot</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
                 <chanceFactor>0.5</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>6</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right foot</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>6</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
             </li>
             <li>
                 <capacities>
