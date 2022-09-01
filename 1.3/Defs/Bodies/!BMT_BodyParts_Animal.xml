@@ -82,4 +82,14 @@
 		</tags>
 	</BodyPartDef>
 
+	<BodyPartDef>
+		<defName>BMT_NeckFrill</defName>
+		<label>neck frill</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>true</skinCovered>
+		<solid>false</solid>
+		<alive>true</alive>
+		<frostbiteVulnerability>8</frostbiteVulnerability>
+	</BodyPartDef>
+
 </Defs>
