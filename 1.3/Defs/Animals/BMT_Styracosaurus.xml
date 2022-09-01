@@ -16,7 +16,7 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Triceratops</useMeatFrom>
-            <body>QuadrupedAnimalWithPawsAndTail</body>
+            <body>BMT_QuadrupedWithNeckFrillBeakAndTailHorn</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>4</baseBodySize>
@@ -77,35 +77,66 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
             </li>
             <li>
                 <label>front right foot</label>
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>18</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>rear left foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>rear right foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
             </li>
             <li>
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>10</power>
+                <power>15</power>
+                <cooldownTime>2.5</cooldownTime>
+                <linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
+            </li>
+            <li>
+                <label>horn</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>22</power>
                 <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <chanceFactor>0.7</chanceFactor>
+                <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
             </li>
             <li>
                 <label>head</label>
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>20</power>
-                <cooldownTime>2.5</cooldownTime>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
                 <chanceFactor>0.2</chanceFactor>
