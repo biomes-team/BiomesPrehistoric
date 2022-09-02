@@ -59,6 +59,7 @@ BMT_Asteroxlyon		-	Cypress Tree 	Temperate Swamp
 BMT_Pseudobornia	-	Maple Tree 		Temperate Swamp
 BMT_Adoketophyton	-	Berry Bush 		Temperate Swamp
 BMT_Cercidiphyllum	-	Teal Tree 		Tropical Rainforest
+BMT_Nymphaeaceae	-	Rafflesia		Tropical Rainforest
 
 
 BMT_Crinoid			-	sea lilies		Saltwater / Sea
@@ -123,7 +124,7 @@ BMT_Stromatolite	-					Saltwater / Sea
 			<!--BMT_Berberis>0.15</BMT_Berberis-->
 			<!--BMT_Sagaria>0.07</BMT_Sagaria-->
 			<!--BMT_Mayoa>0.05</BMT_Mayoa-->
-			<!--BMT_WaterLily>0.0008</BMT_WaterLily-->
+			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
 			<BMT_Calamites>0.1</BMT_Calamites>
 			<BMT_Clubmoss>0.5</BMT_Clubmoss>
 
