@@ -10,7 +10,7 @@
 			<parts>
 				<li>
 					<def>BMT_Back</def>
-					<coverage>0.5</coverage>
+					<coverage>0.3</coverage>
 					<height>Top</height>
 					<depth>Outside</depth>
 					<parts>

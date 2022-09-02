@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>BMT_Saurumbo</defName>
+    <label>saurumbo</label>
+    <description>A gigantic, graceful creature of unknown origin. The saurumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp feather fetches a huge price.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>4000</MarketValue>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
+      <FilthRate>16</FilthRate>
+    </statBases>
+    <uiIconScale>1.75</uiIconScale>
+    <tools>
+      <li>
+        <label>blade feather</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>BMT_BladeFeatherAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>front left foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>6</cooldownTime>
+        <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>front right foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>6</cooldownTime>
+        <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>rear left foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>6</cooldownTime>
+        <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>rear right foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>6</cooldownTime>
+        <linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>4</cooldownTime>
+        <linkedBodyPartsGroup>BMT_NeckAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <nameGenerator>BMT_NamerDino</nameGenerator>
+      <useMeatFrom>BMT_Brachiosaurus</useMeatFrom>
+      <body>BMT_QuadrupedWithBeakFeatherCrestNeckAndTailWeapon</body>
+      <herdMigrationAllowed>false</herdMigrationAllowed>
+      <baseBodySize>10</baseBodySize>
+      <baseHungerRate>1.75</baseHungerRate>
+      <baseHealthScale>8.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+      <leatherDef>Leather_Thrumbo</leatherDef>
+      <trainability>Advanced</trainability>
+      <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+      <wildness>0.985</wildness>
+      <predator>false</predator>
+      <lifeExpectancy>220</lifeExpectancy>
+      <willNeverEat>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+      </willNeverEat>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.75</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.332</minAge>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_SaurumboEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggLayIntervalDays>120</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~1</eggCountRange>
+            </li>
+        </comps>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>BMT_Saurumbo</defName>
+    <label>saurumbo</label>
+    <race>BMT_Saurumbo</race>
+    <combatPower>500</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>saurumbo calf</label>
+        <labelPlural>saurumbo calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Saurumbo/Saurumbo</texPath>
+          <drawSize>10.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <drawSize>10.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Saurumbo/Saurumbo</texPath>
+          <drawSize>14</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <drawSize>14</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Saurumbo/Saurumbo</texPath>
+          <drawSize>17</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <drawSize>17</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>BMT_BladeFeatherAttackTool</bodyPartGroup>
+          <thing>BMT_BladeFeather</thing>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>BMT_SaurumboEggFertilized</defName>
+    <label>saurumbo egg (fert.)</label>
+    <description>A fertilized saurumbo egg. If all goes well, it should hatch into a baby saurumbo. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
+      <color>(180,173,150)</color>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>60</hatcherDaystoHatch>
+        <hatcherPawn>BMT_Saurumbo</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

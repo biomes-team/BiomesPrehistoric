@@ -134,4 +134,14 @@
 		<bleedRate>0</bleedRate>
 	</BodyPartDef>
 
+	<BodyPartDef>
+		<defName>BMT_FeatherCrest</defName>
+		<label>blade feather crest</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+	</BodyPartDef>
+
 </Defs>
