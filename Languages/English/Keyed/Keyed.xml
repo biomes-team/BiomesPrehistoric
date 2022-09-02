@@ -15,4 +15,10 @@
 	<BMT_Select>Select</BMT_Select>
 
 	<BMT_NestAlert>{0_indefinite} has angered nearby dinosaurs by getting too close to their nests!</BMT_NestAlert>
+	
+	<BMT_LetterLabelSaurumboPasses>Rare saurumbos</BMT_LetterLabelSaurumboPasses>
+	<BMT_LetterSaurumboPasses>A small herd of saurumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious razor feather.\n\nSaurumbos will leave the area in a few days.</BMT_LetterSaurumboPasses>
+  
+	
+	
 </LanguageData>

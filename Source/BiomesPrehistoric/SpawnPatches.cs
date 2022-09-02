@@ -201,7 +201,7 @@ namespace BiomesPrehistoric
 
 
 
-   //bocks thrumbo event
+   //blocks thrumbo event
    [HarmonyPatch(typeof(IncidentWorker_ThrumboPasses), "CanFireNowSub")]
    public static class ThrumboPatch
     {
@@ -218,7 +218,7 @@ namespace BiomesPrehistoric
     }
 
 
-    //bocks alphabeaver event
+    //blocks alphabeaver event
     [HarmonyPatch("IncidentWorker_Alphabeavers", "CanFireNowSub")]
     public static class AlphabeaverPatch
     {
