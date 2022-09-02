@@ -65,4 +65,14 @@
 		<label>beak</label>
 	</BodyPartGroupDef>
 
+	<BodyPartGroupDef>
+		<defName>BMT_NeckAttackTool</defName>
+		<label>neck</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_BladeFeatherAttackTool</defName>
+		<label>blade feather</label>
+	</BodyPartGroupDef>
+
 </Defs>
