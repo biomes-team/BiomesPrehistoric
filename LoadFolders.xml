@@ -8,5 +8,6 @@
 		<li>\</li>
         <li IfModActive="BiomesTeam.BiomesIslands">1.3FlyingAndAquaticAnimals</li>
         <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.3VEFPatch</li>
+        <li IfModActive="vanillaexpanded.backgrounds">1.3VBgE</li>
 	 </v1.3>
 </loadFolders>

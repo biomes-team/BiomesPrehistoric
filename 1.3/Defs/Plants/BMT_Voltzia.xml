@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BushBase">
+    <defName>BMT_Voltzia</defName>
+    <label>voltzia</label>
+    <description>A short fern. Does not typically talk.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Voltzia</texPath>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <plant>
+      <growDays>3</growDays>
+      <visualSizeRange>0.7~0.85</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>

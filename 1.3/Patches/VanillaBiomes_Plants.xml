@@ -60,6 +60,8 @@ BMT_Pseudobornia	-	Maple Tree 		Temperate Swamp
 BMT_Adoketophyton	-	Berry Bush 		Temperate Swamp
 BMT_Cercidiphyllum	-	Teal Tree 		Tropical Rainforest
 BMT_Nymphaeaceae	-	Rafflesia		Tropical Rainforest
+BMT_Clathropteris	-	Pincushion Cactus 	Arid Shrubland
+BMT_Voltzia			-	Bush 			Arid Shrubland
 
 
 BMT_Crinoid			-	sea lilies		Saltwater / Sea
@@ -159,8 +161,8 @@ BMT_Stromatolite	-					Saltwater / Sea
 		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
 		<value>
 			<BMT_Dicroidium>7.0</BMT_Dicroidium>
-			<!--BMT_Voltzia>0.7</BMT_Voltzia-->
-			<!--BMT_Clathropteris>0.6</BMT_Clathropteris-->
+			<BMT_Voltzia>0.7</BMT_Voltzia>
+			<BMT_Clathropteris>0.6</BMT_Clathropteris>
 			<BMT_Cycadales>0.2</BMT_Cycadales>
 			<BMT_Pleuromeia>0.26</BMT_Pleuromeia>
 			<BMT_MerianiCalamites>0.20</BMT_MerianiCalamites>
@@ -252,7 +254,7 @@ BMT_Stromatolite	-					Saltwater / Sea
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
 		<value>
-			<BMT_Sedge>5.0</BMT_Sedge>
+			<BMT_Sedge>6.0</BMT_Sedge>
 			<BMT_RedSphagnum>1.2</BMT_RedSphagnum>
 			<BMT_NanaBetula>1.2</BMT_NanaBetula>
 			<BMT_Potentilla>0.1</BMT_Potentilla>
