@@ -52,6 +52,11 @@
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
+        <modExtensions>
+            <li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl" MayRequire="BiomesTeam.BiomesCore">
+                <isBottomFeeder>true</isBottomFeeder>
+            </li>
+        </modExtensions>
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_BaryonyxEggFertilized</eggFertilizedDef>
