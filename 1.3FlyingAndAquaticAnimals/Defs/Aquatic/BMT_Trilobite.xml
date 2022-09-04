@@ -8,15 +8,25 @@
             <MoveSpeed>0.8</MoveSpeed>
             <SwimSpeed>0.8</SwimSpeed>
         </statFactors>
-        <!--modExtensions>
+        <modExtensions>
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
-                <drawSize>5.5</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedA</texPath>
+                <drawSize>0.5</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedB</texPath>
+            		<drawSize>0.5</drawSize>
+            	</li>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedC</texPath>
+            		<drawSize>0.5</drawSize>
+            	</li>
+            </alternateGraphicsData>
         </li>
-        </modExtensions-->
+        </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
@@ -33,15 +43,25 @@
             <MoveSpeed>1.6</MoveSpeed>
             <SwimSpeed>1.6</SwimSpeed>
         </statFactors>
-        <!--modExtensions>
+        <modExtensions>
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
-                <drawSize>8.0</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedA</texPath>
+                <drawSize>1.0</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedB</texPath>
+            		<drawSize>1.0</drawSize>
+            	</li>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedC</texPath>
+            		<drawSize>1.</drawSize>
+            	</li>
+            </alternateGraphicsData>
         </li>
-        </modExtensions-->
+        </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
@@ -49,15 +69,25 @@
         <label>adult</label>
         <visible>false</visible>
         <reproductive>true</reproductive>
-        <!--modExtensions>
+        <modExtensions>
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Trilobite/Trilobite</texPath>
-                <drawSize>10.5</drawSize>
+                <texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedA</texPath>
+                <drawSize>1.5</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedB</texPath>
+            		<drawSize>1.5</drawSize>
+            	</li>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedC</texPath>
+            		<drawSize>1.5</drawSize>
+            	</li>
+            </alternateGraphicsData>
         </li>
-        </modExtensions-->
+        </modExtensions>
     </LifeStageDef>
 
 	<ThingDef ParentName="BiomesCore_CrabThingBase">
