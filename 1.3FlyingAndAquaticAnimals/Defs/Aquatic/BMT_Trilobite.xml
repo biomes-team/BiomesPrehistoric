@@ -127,6 +127,14 @@
 				</li>
 			</lifeStageAges>
 		</race>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
+				<stayOnTerrainTag>Beach</stayOnTerrainTag>
+			</li>
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl" MayRequire="BiomesTeam.BiomesCore">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggTrilobiteFertilized</eggFertilizedDef>
@@ -140,13 +148,10 @@
 			</li>
 			<li Class="BiomesCore.CompProperties_BottomFeeder">
 				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Fishing.</consumingFoodReportString>
+				<effecterDef>EatFish</effecterDef>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
-				<stayOnTerrainTag>Beach</stayOnTerrainTag>
-			</li>
-		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Trilobite</defName>

@@ -121,6 +121,11 @@
 			</lifeStageAges>
 		</race>
 		<uiIconScale>1.5</uiIconScale>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl" MayRequire="BiomesTeam.BiomesCore">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_PteranodonEggFertilized</eggFertilizedDef>
@@ -131,6 +136,8 @@
 			</li>
 			<li Class="BiomesCore.CompProperties_BottomFeeder">
 				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Fishing.</consumingFoodReportString>
+				<effecterDef>EatFish</effecterDef>
 			</li>
 		</comps>
 		<tools>
