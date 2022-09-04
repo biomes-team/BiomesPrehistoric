@@ -15,7 +15,6 @@
         <terrainTags>
           <li>Water</li>
           <li>Shallow</li>
-          <li>Fresh</li>
           <li>Boggy</li>
         </terrainTags>
       </li>
@@ -23,7 +22,7 @@
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/SwimmingBioMass</texPath>
       <graphicClass>Graphic_Random</graphicClass>
-      <drawSize>1.3</drawSize>
+      <drawSize>1.8</drawSize>
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible />
@@ -34,6 +33,8 @@
       <!--leaflessGraphicPath>Things/Plant/Moss_Leafless</leaflessGraphicPath-->
       <harvestWork>60</harvestWork>
       <topWindExposure>0.2</topWindExposure>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>500</wildClusterWeight>
       <wildOrder>1</wildOrder>
     </plant>
   </ThingDef>

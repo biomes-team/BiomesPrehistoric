@@ -22,8 +22,8 @@
       <harvestWork>750</harvestWork>
       <harvestYield>25</harvestYield>
       <wildClusterRadius>6</wildClusterRadius>
-      <wildClusterWeight>3</wildClusterWeight>
-      <visualSizeRange>1.5~2.5</visualSizeRange>
+      <wildClusterWeight>50</wildClusterWeight>
+      <visualSizeRange>3~3.5</visualSizeRange>
     </plant>
   </ThingDef>
 

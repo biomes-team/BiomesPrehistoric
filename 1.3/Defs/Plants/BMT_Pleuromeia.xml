@@ -1,47 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="TreeBase">
-    <defName>BMT_Pleuromeia</defName>
-    <label>rip stump</label>
-    <description>Pleuromeia was an herbaceous plant that lacks secondary tissues and had an unbranched stem.</description>
+  <ThingDef ParentName="TreeBase" Name="BMT_PleuromeiaBase" Abstract="True">
     <statBases>
       <MaxHitPoints>130</MaxHitPoints>
       <Nutrition>2.0</Nutrition>
       <Mass>100</Mass>
     </statBases>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Pleuromeia</texPath>
+      <texPath>BMT_Prehistoric/Plant/Pleuromeia/PleuromeiaGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.24, 0.3, 0.15)</volume>
         <offset>(0,0,-0.38)</offset>
       </shadowData>
     </graphicData>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <pathCost>30</pathCost>
     <fillPercent>0.35</fillPercent>
+    <ingestible />
     <plant Inherit="False">
+      <growDays>8</growDays>
+      <immatureGraphicPath>BMT_Prehistoric/Plant/Pleuromeia/PleuromeiaImmature</immatureGraphicPath>
       <lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
-      <fertilityMin>0.05</fertilityMin>
-      <fertilitySensitivity>0</fertilitySensitivity>
-      <growDays>5</growDays>
+      <harvestYield>10</harvestYield>
+      <harvestWork>250</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestedThingDef>BMT_RawPineNuts</harvestedThingDef>
+      <visualSizeRange>1.3~2.0</visualSizeRange>
       <topWindExposure>0.08</topWindExposure>
+      <purpose>Food</purpose>
       <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
       <soundHarvesting>Harvest_Tree</soundHarvesting>
       <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
-      <sowWork>4000</sowWork>
-      <sowMinSkill>6</sowMinSkill>
-      <mustBeWildToSow>true</mustBeWildToSow>
-      <blockAdjacentSow>true</blockAdjacentSow>
       <burnedThingDef>BurnedTree</burnedThingDef>
       <treeCategory>Full</treeCategory>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BMT_PleuromeiaBase">
+    <defName>BMT_Pleuromeia</defName>
+    <label>rip stump</label>
+    <description>Pleuromeia was an herbaceous plant that lacks secondary tissues and had an unbranched stem.</description>
+    <plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
       <sowTags>
         <li>Ground</li>
       </sowTags>
-      <visualSizeRange>1.3~2.0</visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <interferesWithRoof>false</interferesWithRoof>
+      <blockAdjacentSow>true</blockAdjacentSow>
       <wildClusterRadius>8</wildClusterRadius>
       <wildClusterWeight>24</wildClusterWeight>
       <wildOrder>3</wildOrder>
-      <interferesWithRoof>true</interferesWithRoof>
     </plant>
   </ThingDef>
 

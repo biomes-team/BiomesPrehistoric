@@ -14,7 +14,7 @@
     <uiIconScale>0.85</uiIconScale>
     <plant>
       <growDays>3</growDays>
-      <visualSizeRange>0.7~0.85</visualSizeRange>
+      <visualSizeRange>0.9~1.2</visualSizeRange>
     </plant>
   </ThingDef>
 
