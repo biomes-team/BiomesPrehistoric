@@ -17,7 +17,7 @@
 			<nameGenerator>BMT_NamerDino</nameGenerator>
 			<useMeatFrom>BMT_Triceratops</useMeatFrom>
 			<petness>1</petness>
-			<body>BMT_QuadrupedWithNeckFrillBeakAndTailThreeHorns</body>
+			<body>BMT_QuadrupedWithNeckFrillBeakAndTailHorn</body>
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>3.5</baseBodySize>

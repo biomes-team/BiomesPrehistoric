@@ -52,6 +52,7 @@
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
+        <uiIconScale>2</uiIconScale>
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_TRexEggFertilized</eggFertilizedDef>
