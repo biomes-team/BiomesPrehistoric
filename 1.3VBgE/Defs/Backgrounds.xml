@@ -4,7 +4,7 @@
         <label>DinoBiome</label>
         <description>Splash Screen Included in Prehistoric.</description>
         <defName>BMT_Dino_Splash</defName>
-        <path>UI/BG/BGDino</path>
-        <iconPath>UI/Icon/Biomes!</iconPath>
+        <path>BMT_Prehistoric/UI/BG/BGDino</path>
+        <iconPath>BMT_Prehistoric/UI/Icon/Biomes!</iconPath>
     </VBE.BackgroundImageDef>
 </Defs>
