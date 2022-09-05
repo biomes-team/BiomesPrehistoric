@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
+BMT_Adoketophyton	-	Berry Bush 		Temperate Swamp
 BMT_Aetheophyllum	-	Berry Bush 		Arid Shrubland
 BMT_Alethopteris	-	Barry Bush		Tropical Swamp
 BMT_Araucaria		-	Poplar Tree		Temperate Forest / Boreal Forest
 BMT_Archaefructus	-	Astragalus		Cold Bog
+BMT_Archaeopteris	-	Willow Tree 	Temperate Swamp
 BMT_Artemisia		-	Astragalus		Tundra
+BMT_Asteroxlyon		-	Cypress Tree 	Temperate Swamp
+BMT_Berberis		- 	Bush 			Tropical Rainforest
 BMT_BogMoss			-	Moss 			Cold Bog
 BMT_Calamites		-	treelike		Water/Land
 BMT_Caytoniales		-	Maple Tree 		Cold Bog
+BMT_Cercidiphyllum	-	Teal Tree 		Tropical Rainforest
+BMT_Clathropteris	-	Pincushion Cactus 	Arid Shrubland
 BMT_Clubmoss		-	bushlike?
 BMT_Coniopteris		-	Brambles		Temperate Forest / Boreal Forest
+BMT_Cooksonia		-	Tall Grass 		Temperate Swamp
 BMT_Cycadales		-	Agave			Arid Shrubland / Desert / Extreme Desert
 BMT_Cycas			-	Bush 			Temperate Forest / Boreal Forest
 BMT_Dicroidium		-	Grass 			Arid Shrubland / Extreme Desert
@@ -22,16 +29,19 @@ BMT_Gnetum			-	Barry Bush 		Temperate Forest / Boreal Forest
 BMT_Grass 			-	Grass 			Tropical Rainforest
 BMT_HealrootFern	-	Healroot 		Cold Bog / Tundra / Boreal Forest / Temperate Swamp / Temperate Forest
 BMT_Horsetail		-	grasslike, tough
+BMT_JungleGrass		-	Grass 			Tropical Rainforest
 BMT_JurassicHorsetail	- 	grasslike	Temperate Forest
 BMT_LeopoldaeBetula	-	Birch Tree		Tundra
 BMT_Lepidodendron	-	Maple Tree 		Tropical Swamp
 BMT_Lindsaeaceae	-	Chokevine		Cold Bog
 BMT_Lyginopteridales	-	Grass 		Desert
 BMT_Matoniaceae		-	Grass			Temperate Forest / Boreal Forest
+BMT_MayoaPortugallica	-	Berry Bush 	Tropical Rainforest
 BMT_Medullosa		- 	Bush			Tropical Swamp
 BMT_MerianiCalamites	- Drago Tree 	Arid Shrubland
 BMT_Metasequoia		-	Cypress Tree 	Cold Bog
 BMT_NanaBetula		-	Bush 			Tundra
+BMT_Nymphaeaceae	-	Rafflesia		Tropical Rainforest
 BMT_NypaFruticans	-	Palm Tree 		Tropical Rainforest
 BMT_Pecopteris		- 	Alocasia		Tropical Swamp
 BMT_Peltaspermaceae	-	Pincushion Cactus 	Desert
@@ -42,27 +52,20 @@ BMT_Podozamites		-	Oak Tree 		Temperate Forest
 BMT_PolarGrass		-	Tall Grass 		Cold Bog
 BMT_Polytrichaceae	-	Moss 			Boreal Forest
 BMT_Potentilla		-	Dandelion		Tundra
+BMT_Pseudobornia	-	Maple Tree 		Temperate Swamp
+BMT_Psilophyton		-	Chokevine		Temperate Swamp
 BMT_RedSphagnum		-	Moss 			Tundra
 BMT_RubusChamaemorus	-	Barry Bush 	Tundra
+BMT_Sagaria			-	Clivia			Tropical Rainforest
 BMT_Sedge			-	Grass 			Tundra
 BMT_Sigillaria		-	Cypress Tree 	Tropical Swamp
 BMT_Sphenobaiera	-	Bush 			Desert
 BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
 BMT_Taxaceae		-	Berry Bush 		Cold Bog
+BMT_Teraxylopteris 	-	Bush 			Temperate Swamp
+BMT_Voltzia			-	Bush 			Arid Shrubland
 BMT_Walchia			-	Drago Tree 		Desert
 BMT_Zamiaceae		-	Birch Tree 		Boreal Forest
-BMT_Cooksonia		-	Tall Grass 		Temperate Swamp
-BMT_Psilophyton		-	Chokevine		Temperate Swamp
-BMT_Teraxylopteris 	-	Bush 			Temperate Swamp
-BMT_Archaeopteris	-	Willow Tree 	Temperate Swamp
-BMT_Asteroxlyon		-	Cypress Tree 	Temperate Swamp
-BMT_Pseudobornia	-	Maple Tree 		Temperate Swamp
-BMT_Adoketophyton	-	Berry Bush 		Temperate Swamp
-BMT_Cercidiphyllum	-	Teal Tree 		Tropical Rainforest
-BMT_Nymphaeaceae	-	Rafflesia		Tropical Rainforest
-BMT_Clathropteris	-	Pincushion Cactus 	Arid Shrubland
-BMT_Voltzia			-	Bush 			Arid Shrubland
-
 
 BMT_Crinoid			-	sea lilies		Saltwater / Sea
 BMT_Gryphaea		-					Saltwater / Sea
@@ -115,7 +118,7 @@ BMT_Stromatolite	-					Saltwater / Sea
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
 		<value>
-			<!--BMT_Grass>3.0</BMT_Grass-->
+			<BMT_JungleGrass>3.0</BMT_JungleGrass>
 			<BMT_Davallia>2.0</BMT_Davallia>
 			<BMT_Ephedra>2.0</BMT_Ephedra>
 			<BMT_Angiopteris>0.8</BMT_Angiopteris>
@@ -123,9 +126,9 @@ BMT_Stromatolite	-					Saltwater / Sea
 			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
 			<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
 			<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
-			<!--BMT_Berberis>0.15</BMT_Berberis-->
-			<!--BMT_Sagaria>0.07</BMT_Sagaria-->
-			<!--BMT_Mayoa>0.05</BMT_Mayoa-->
+			<BMT_Berberis>0.15</BMT_Berberis>
+			<BMT_Sagaria>0.07</BMT_Sagaria>
+			<BMT_MayoaPortugallica>0.05</BMT_MayoaPortugallica>
 			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
 			<BMT_Calamites>0.1</BMT_Calamites>
 			<BMT_Clubmoss>0.5</BMT_Clubmoss>

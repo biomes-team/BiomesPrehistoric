@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BushBase">
+    <defName>BMT_Sagaria</defName>
+    <label>sagaria</label>
+    <description>An unusual plant with tall, pretty flowers. one of the first buttercups.</description>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Sagaria</texPath>
+      <drawSize>1.1</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.2, 0.15)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <plant>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>4</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>

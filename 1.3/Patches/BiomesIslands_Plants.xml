@@ -71,6 +71,7 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIslandBase"]/wildPlants</xpath>
 					<value>
+						<BMT_JungleGrass>2.0</BMT_JungleGrass>
 						<BMT_Davallia>0.4</BMT_Davallia>
 						<BMT_Ephedra>2.0</BMT_Ephedra>
 						<BMT_Angiopteris>1.0</BMT_Angiopteris>
@@ -78,6 +79,9 @@
 						<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
 						<BMT_ThicketBamboo>0.4</BMT_ThicketBamboo>
 						<BMT_Cercidiphyllum>0.8</BMT_Cercidiphyllum>
+						<BMT_Berberis>0.15</BMT_Berberis>
+						<BMT_Sagaria>0.07</BMT_Sagaria>
+						<BMT_MayoaPortugallica>0.05</BMT_MayoaPortugallica>
 						<BMT_Calamites>0.8</BMT_Calamites>
 						<BMT_Clubmoss>0.15</BMT_Clubmoss>
 					</value>
