@@ -19,8 +19,9 @@
         <modExtensions>
             <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
                 <terrainTags>
-                    <li>Fresh</li>
+                    <li>Water</li>
                     <li>Shallow</li>
+                    <li>Fresh</li>
                     <li>Boggy</li>
 					<li>Muddy</li>
                     <li>Soil</li>
@@ -28,6 +29,8 @@
             </li>
         </modExtensions>
         <plant>
+            <fertilityMin>0.2</fertilityMin>
+            <fertilitySensitivity>0.5</fertilitySensitivity>
             <growDays>13</growDays>
             <harvestWork>800</harvestWork>
             <harvestYield>27</harvestYield>

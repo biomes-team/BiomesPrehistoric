@@ -26,7 +26,7 @@
         <ingestible />
         <plant>
             <fertilityMin>0.2</fertilityMin>
-            <fertilitySensitivity>0.7</fertilitySensitivity>
+            <fertilitySensitivity>0.3</fertilitySensitivity>
             <growDays>3</growDays>
             <harvestWork>60</harvestWork>
             <maxMeshCount>4</maxMeshCount>
