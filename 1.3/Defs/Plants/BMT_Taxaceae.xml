@@ -37,7 +37,7 @@
 	<ThingDef ParentName="BMT_TaxaceaeBase">
 		<defName>BMT_Taxaceae</defName>
 		<label>yew bush</label>
-		<description>The vegetative parts of the plant and its seeds are very poisonous. The arillus, on the other hand, is non-toxic and can be eaten. After eating several "berries" including seeds, a doctor should be consulted. The toxin is called taxine and contains, among other things, the diterpene taxol..</description>
+		<description>The vegetative parts of the plant and its seeds are very poisonous. The arillus, on the other hand, is non-toxic and can be eaten. After eating several "berries" including seeds, a doctor should be consulted. The toxin is called taxine and contains, among other things, the diterpene taxol.</description>
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.7</fertilitySensitivity>

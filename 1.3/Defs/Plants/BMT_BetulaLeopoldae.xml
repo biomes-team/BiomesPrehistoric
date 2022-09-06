@@ -23,7 +23,7 @@
       <harvestWork>800</harvestWork>
       <harvestYield>10</harvestYield>
       <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
-      <visualSizeRange>0.8~1.0</visualSizeRange>
+      <visualSizeRange>1.0~1.5</visualSizeRange>
       <wildClusterRadius>6</wildClusterRadius>
       <wildClusterWeight>250</wildClusterWeight>
     </plant>

@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Dilophosaurus</defName>
         <label>dilophosaurus</label>
-        <description>Roughly as tall as a person, Dilophosaurus is best known for the large crests along its skull, thought to be used for display. Despite how it was depicted in a popular movie from the 20th century, it did not actually possess frills nor did it spit poison.\n\nScientific name: Dilophosaurus wetherilli</description>
+        <description>Roughly as tall as a person, Dilophosaurus is best known for the large crests along its skull, thought to be used for display. Despite how it was depicted in a popular movie from the 20th century, it did not actually possess frills nor did it spit venom.\n\nScientific name: Dilophosaurus wetherilli</description>
         <statBases>
             <MoveSpeed>5.4</MoveSpeed>
             <MarketValue>570</MarketValue>
