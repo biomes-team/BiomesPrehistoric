@@ -124,7 +124,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>8</power>
+                <power>6</power>
                 <cooldownTime>2.5</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -138,6 +138,25 @@
                 <power>16</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+            </li>
+
+            <li>
+                <label>left shoulder spike</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_LeftShoulderSpike</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right shoulder spike</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RightShoulderSpike</linkedBodyPartsGroup>
             </li>
         </tools>
         <tradeTags>

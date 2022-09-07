@@ -15,7 +15,7 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Ankylosaurus</useMeatFrom>
-            <body>BMT_QuadrupedWithArmorBeakAndTailWeapon</body>
+            <body>BMT_QuadrupedWithArmorBeakSpikesAndTailWeapon</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>3</baseBodySize>
@@ -121,6 +121,16 @@
                 <chanceFactor>0.5</chanceFactor>
             </li>
             <li>
+                <label>tail</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
                 <label>head</label>
                 <capacities>
                     <li>Blunt</li>
@@ -132,13 +142,22 @@
                 <chanceFactor>0.7</chanceFactor>
             </li>
             <li>
-                <label>tail</label>
+                <label>left shoulder spike</label>
                 <capacities>
-                    <li>Blunt</li>
+                    <li>Stab</li>
                 </capacities>
-                <power>10</power>
-                <cooldownTime>1.5</cooldownTime>
-                <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_LeftShoulderSpike</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right shoulder spike</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RightShoulderSpike</linkedBodyPartsGroup>
             </li>
         </tools>
         <tradeTags>

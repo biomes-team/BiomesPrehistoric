@@ -75,4 +75,21 @@
 		<label>blade feather</label>
 	</BodyPartGroupDef>
 
+	<BodyPartGroupDef>
+		<defName>BMT_LeftShoulderSpike</defName>
+		<label>left shoulder spike</label>
+		<labelShort>shoulder spike</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_RightShoulderSpike</defName>
+		<label>right shoulder spike</label>
+		<labelShort>shoulder spike</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_ShoulderSpikes</defName>
+		<label>shoulder spikes</label>
+	</BodyPartGroupDef>
+
 </Defs>

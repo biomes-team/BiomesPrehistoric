@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<BodyDef>
-		<defName>BMT_QuadrupedWithPlatesSpikesBeakAndTailWeapon</defName>
+		<defName>BMT_QuadrupedWithArmorBeakSpikesAndTailWeapon</defName>
 		<label>quadruped animal</label>
 		<corePart>
 			<def>Body</def>
@@ -9,128 +9,56 @@
 			<depth>Outside</depth>
 			<parts>
 				<li>
-					<def>BMT_Back</def>
-					<coverage>0.3</coverage>
+					<def>BMT_Osteoderm</def>
+					<coverage>0.6</coverage>
 					<height>Top</height>
 					<depth>Outside</depth>
 					<parts>
 						<li>
-							<def>BMT_OsteodermPlates</def>
+							<def>Spine</def>
 							<coverage>0.03</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
+							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>BMT_OsteodermPlates</def>
+							<def>Stomach</def>
 							<coverage>0.03</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
+							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>BMT_OsteodermPlates</def>
+							<def>Heart</def>
 							<coverage>0.03</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
+							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>BMT_OsteodermPlates</def>
+							<def>Lung</def>
+							<customLabel>left lung</customLabel>
 							<coverage>0.03</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
+							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>BMT_OsteodermPlates</def>
+							<def>Lung</def>
+							<customLabel>right lung</customLabel>
 							<coverage>0.03</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
+							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>BMT_OsteodermPlates</def>
+							<def>Kidney</def>
+							<customLabel>left kidney</customLabel>
+							<coverage>0.02</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>Kidney</def>
+							<customLabel>right kidney</customLabel>
+							<coverage>0.02</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>Liver</def>
 							<coverage>0.03</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
+							<depth>Inside</depth>
 						</li>
 					</parts>
-				</li>
-				<li>
-					<def>Spine</def>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>Stomach</def>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>Heart</def>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>Lung</def>
-					<customLabel>left lung</customLabel>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>Lung</def>
-					<customLabel>right lung</customLabel>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>Kidney</def>
-					<customLabel>left kidney</customLabel>
-					<coverage>0.02</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>Kidney</def>
-					<customLabel>right kidney</customLabel>
-					<coverage>0.02</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>Liver</def>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
 				</li>
 				<li>
 					<def>Neck</def>
@@ -138,56 +66,8 @@
 					<height>Top</height>
 					<parts>
 						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermPlates</def>
-							<coverage>0.02</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
 							<def>Head</def>
-							<coverage>0.30</coverage>
+							<coverage>0.75</coverage>
 							<groups>
 								<li>HeadAttackTool</li>
 							</groups>
@@ -244,61 +124,11 @@
 					<coverage>0.09</coverage>
 					<parts>
 						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
-							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
-							<height>Top</height>
-							<depth>Outside</depth>
-						</li>
-						<li>
 							<def>BMT_TailWeapon</def>
 							<coverage>0.25</coverage>
 							<groups>
 								<li>BMT_TailGroup</li>
 							</groups>
-							<parts>
-								<li>
-									<def>BMT_OsteodermSpikes</def>
-									<coverage>0.01</coverage>
-									<height>Top</height>
-									<depth>Outside</depth>
-								</li>
-								<li>
-									<def>BMT_OsteodermSpikes</def>
-									<coverage>0.01</coverage>
-									<height>Top</height>
-									<depth>Outside</depth>
-								</li>
-								<li>
-									<def>BMT_OsteodermSpikes</def>
-									<coverage>0.01</coverage>
-									<height>Top</height>
-									<depth>Outside</depth>
-								</li>
-								<li>
-									<def>BMT_OsteodermSpikes</def>
-									<coverage>0.01</coverage>
-									<height>Top</height>
-									<depth>Outside</depth>
-								</li>
-							</parts>
 						</li>
 					</parts>
 				</li>
@@ -310,7 +140,7 @@
 					<parts>
 						<li>
 							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
+							<coverage>0.05</coverage>
 							<height>Middle</height>
 							<depth>Outside</depth>
 							<groups>
@@ -378,7 +208,7 @@
 					<parts>
 						<li>
 							<def>BMT_OsteodermSpikes</def>
-							<coverage>0.01</coverage>
+							<coverage>0.05</coverage>
 							<height>Middle</height>
 							<depth>Outside</depth>
 							<groups>
