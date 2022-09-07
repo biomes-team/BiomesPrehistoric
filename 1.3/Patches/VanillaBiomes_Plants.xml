@@ -126,12 +126,10 @@ BMT_Stromatolite	-					Saltwater / Sea
 			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
 			<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
 			<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
-			<BMT_Berberis>0.15</BMT_Berberis>
+			<BMT_Berberis>0.05</BMT_Berberis>
 			<BMT_Sagaria>0.07</BMT_Sagaria>
-			<BMT_MayoaPortugallica>0.05</BMT_MayoaPortugallica>
+			<BMT_MayoaPortugallica>0.15</BMT_MayoaPortugallica>
 			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
-			<BMT_Calamites>0.1</BMT_Calamites>
-			<BMT_Clubmoss>0.5</BMT_Clubmoss>
 
 			<!--BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
