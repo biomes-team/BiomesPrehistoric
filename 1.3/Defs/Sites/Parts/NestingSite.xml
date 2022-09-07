@@ -7,7 +7,7 @@
         <description>A dinosaur nesting site.</description>
         <workerClass>BiomesPrehistoric.SitePartWorker_NestingSite</workerClass>
         <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
-        <expandingIconTexture>World/WorldObjects/Expanding/Sites/DownedRefugee</expandingIconTexture>
+        <expandingIconTexture>BMT_Prehistoric/UI/NestingSiteIcon</expandingIconTexture>
         <forceExitAndRemoveMapCountdownDurationDays>16</forceExitAndRemoveMapCountdownDurationDays>
         <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
         <tags>

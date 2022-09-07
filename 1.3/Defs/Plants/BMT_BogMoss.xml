@@ -33,7 +33,7 @@
       <growDays>4</growDays>
       <!--leaflessGraphicPath>Things/Plant/Moss_Leafless</leaflessGraphicPath-->
       <harvestWork>60</harvestWork>
-      <maxMeshCount>6</maxMeshCount>
+      <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>0.4~0.6</visualSizeRange>
       <topWindExposure>0.0</topWindExposure>
       <wildOrder>1</wildOrder>

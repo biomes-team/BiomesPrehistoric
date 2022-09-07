@@ -23,6 +23,7 @@ BMT_Cycas			-	Bush 			Temperate Forest / Boreal Forest
 BMT_Dicroidium		-	Grass 			Arid Shrubland / Extreme Desert
 BMT_Dipteridaceae	-	Tall Grass 		Temperate Forest
 BMT_Eathiestrobus	-	Pine Tree 		Boreal Forest
+BMT_Ephedra			-	Shrub Low 		Tropical Rainforest
 BMT_Ginkgo			-	Willow  Tree 	Cold Bog
 BMT_Glossopteris	-	Saguaro Cactus 	Desert
 BMT_Gnetum			-	Barry Bush 		Temperate Forest / Boreal Forest
@@ -120,14 +121,14 @@ BMT_Stromatolite	-					Saltwater / Sea
 		<value>
 			<BMT_JungleGrass>3.0</BMT_JungleGrass>
 			<BMT_Davallia>2.0</BMT_Davallia>
-			<BMT_Ephedra>2.0</BMT_Ephedra>
+			<BMT_Ephedra>0.1</BMT_Ephedra>
 			<BMT_Angiopteris>0.8</BMT_Angiopteris>
 			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
 			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
 			<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
 			<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
 			<BMT_Berberis>0.05</BMT_Berberis>
-			<BMT_Sagaria>0.07</BMT_Sagaria>
+			<BMT_Sagaria>0.2</BMT_Sagaria>
 			<BMT_MayoaPortugallica>0.15</BMT_MayoaPortugallica>
 			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
 

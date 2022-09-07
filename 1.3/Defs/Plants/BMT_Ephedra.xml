@@ -1,41 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="PlantBase">
-    <defName>BMT_Ephedra</defName>
-    <label>jointfir</label>
-    <description>Tough firbrous vegetation that produces a variety of exciting chemicals.</description>
+  <ThingDef ParentName="PlantBase" Name="BMT_EphedraBase" Abstract="True">
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Nutrition>0.25</Nutrition>
     </statBases>
-    <pathCost>14</pathCost>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Ephedra</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+        <offset>(0,0,-0.25)</offset>
+      </shadowData>
     </graphicData>
     <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <pathCost>14</pathCost>
+    <fillPercent>0.20</fillPercent>
     <ingestible />
     <plant>
-      <fertilitySensitivity>0.7</fertilitySensitivity>
-      <growDays>9</growDays>
-      <dieIfLeafless>true</dieIfLeafless>
+      <growDays>6</growDays>
+      <harvestYield>3</harvestYield>
+      <harvestWork>400</harvestWork>
       <harvestTag>Standard</harvestTag>
-      <harvestWork>200</harvestWork>
-      <harvestYield>4</harvestYield>
+      <harvestMinGrowth>0.90</harvestMinGrowth>
       <harvestedThingDef>PsychoidLeaves</harvestedThingDef>
-      <maxMeshCount>3</maxMeshCount>
-      <visualSizeRange>0.85~1.05</visualSizeRange>
+      <visualSizeRange>0.75~1.05</visualSizeRange>
+      <topWindExposure>0.1</topWindExposure>
+      <interferesWithRoof>false</interferesWithRoof>
+      <dieIfLeafless>true</dieIfLeafless>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BMT_EphedraBase">
+    <defName>BMT_Ephedra</defName>
+    <label>jointfir</label>
+    <description>Tough firbrous vegetation that produces a variety of exciting chemicals.</description>
+    <plant>
+      <fertilityMin>0.7</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
       <wildClusterRadius>3</wildClusterRadius>
-      <wildClusterWeight>40</wildClusterWeight>
+      <wildClusterWeight>250</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+      <maxMeshCount>4</maxMeshCount>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BMT_EphedraBase">
+    <defName>BMT_EphedraPlanted</defName>
+    <label>planted jointfir</label>
+    <description>Tough firbrous vegetation that produces a variety of exciting chemicals.</description>
+    <plant>
+      <fertilityMin>0.7</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <sowWork>4000</sowWork>
       <sowMinSkill>6</sowMinSkill>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
-      <topWindExposure>0.1</topWindExposure>
-      <wildOrder>1</wildOrder>
-      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+      <visualSizeRange>0.65~0.85</visualSizeRange>
+      <wildOrder>2</wildOrder>
     </plant>
   </ThingDef>
 

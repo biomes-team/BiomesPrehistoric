@@ -20,7 +20,7 @@
 			</damageData>
 		</graphicData>
 		<size>(1,1)</size>
-		<altitudeLayer>Floor</altitudeLayer>
+		<altitudeLayer>LowPlant</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
@@ -71,7 +71,7 @@
 			</damageData>
 		</graphicData>
 		<size>(2,1)</size>
-		<altitudeLayer>Floor</altitudeLayer>
+		<altitudeLayer>LowPlant</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
