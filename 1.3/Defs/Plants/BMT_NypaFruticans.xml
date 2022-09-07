@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="TreeBase">
     <defName>BMT_NypaFruticans</defName>
-    <label>nypa</label>
-    <description>.</description>
+    <label>nypa palm</label>
+    <description>A palm of wet areas that produces no usable wood, but has sugar-rich stems that can be used to brew alcohol.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/NypaFruticans</texPath>
       <graphicClass>Graphic_Random</graphicClass>

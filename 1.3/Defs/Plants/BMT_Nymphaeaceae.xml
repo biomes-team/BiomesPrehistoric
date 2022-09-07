@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="BushBase">
     <defName>BMT_Nymphaeaceae</defName>
-    <label>nymphaeaceae</label>
-    <description>.</description>
+    <label>water lily</label>
+    <description>Aquatic plants with disk shaped leaves and huge, beautiful flowers. Unable to support the weight of humans or dinosaurs.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Nymphaeaceae</texPath>
       <graphicClass>Graphic_Random</graphicClass>

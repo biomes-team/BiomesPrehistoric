@@ -4,7 +4,7 @@
   <ThingDef ParentName="BushBase">
     <defName>BMT_Angiopteris</defName>
     <label>giant fern</label>
-    <description>.</description>
+    <description>While comparable in size to some tree ferns, the giant fern is entirely leaves and produces no wood.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Angiopteris</texPath>
       <shadowData>

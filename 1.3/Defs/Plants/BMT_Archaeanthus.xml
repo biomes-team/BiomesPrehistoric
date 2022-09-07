@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="TreeBase">
     <defName>BMT_Archaeanthus</defName>
-    <label>archaeanthus</label>
-    <description>The archaeanthus is an ancestor of the tulip tree.</description>
+    <label>tulip tree</label>
+    <description>In addition to producing wood, the tulip tree is beautiful with its white, beetle polinated flowers.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Archaeanthus</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -13,7 +13,8 @@
       </shadowData>
     </graphicData>
     <statBases>
-      <Beauty>1</Beauty>
+      <Beauty>4</Beauty>
+      <BeautyOutdoors>4</BeautyOutdoors>
       <Nutrition>1.5</Nutrition>
     </statBases>
     <plant>

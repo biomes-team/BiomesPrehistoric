@@ -24,7 +24,7 @@
       <harvestWork>200</harvestWork>
       <harvestYield>4</harvestYield>
       <harvestedThingDef>PsychoidLeaves</harvestedThingDef>
-      <maxMeshCount>4</maxMeshCount>
+      <maxMeshCount>3</maxMeshCount>
       <visualSizeRange>0.85~1.05</visualSizeRange>
       <wildClusterRadius>3</wildClusterRadius>
       <wildClusterWeight>40</wildClusterWeight>

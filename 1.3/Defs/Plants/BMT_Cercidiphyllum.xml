@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="TreeBase">
     <defName>BMT_Cercidiphyllum</defName>
-    <label>kasura tree</label>
-    <description>cercidiphyllum.</description>
+    <label>katsura tree</label>
+    <description>An elegant tree with cascading leaves and high quality wood.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Cercidiphyllum</texPath>
       <graphicClass>Graphic_Random</graphicClass>

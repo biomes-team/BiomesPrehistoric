@@ -1,61 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="PlantBase" Name="BMT_MayoaBase" Abstract="True">
-		<statBases>
-			<MaxHitPoints>120</MaxHitPoints>
-			<Nutrition>1</Nutrition>
-		</statBases>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/MayoaPortugallica/MayoaPortugallicaGrown</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shadowData>
-				<volume>(0.55, 0.2, 0.2)</volume>
-				<offset>(0,0,-0.25)</offset>
-			</shadowData>
-		</graphicData>
-		<selectable>true</selectable>
-		<neverMultiSelect>false</neverMultiSelect>
-		<pathCost>30</pathCost>
-		<fillPercent>0.20</fillPercent>
-		<ingestible />
-		<plant>
-			<growDays>6</growDays>
-			<immatureGraphicPath>BMT_Prehistoric/Plant/MayoaPortugallica/MayoaPortugallicaImmature</immatureGraphicPath>
-			<harvestYield>10</harvestYield>
-			<harvestWork>250</harvestWork>
-			<harvestTag>Standard</harvestTag>
-			<harvestAfterGrowth>0.30</harvestAfterGrowth>
-			<harvestMinGrowth>0.40</harvestMinGrowth>
-			<harvestedThingDef>BMT_RawPineNuts</harvestedThingDef>
-			<visualSizeRange>0.95~1.7</visualSizeRange>
-			<topWindExposure>0.3</topWindExposure>
-			<purpose>Food</purpose>
-		</plant>
-	</ThingDef>
-
-	<ThingDef ParentName="BMT_MayoaBase">
-		<defName>BMT_MayoaPortugallica</defName>
-		<label>mayoa</label>
-		<description>A primitive plant which yields edible nuts.</description>
-		<plant>
-			<fertilityMin>0.5</fertilityMin>
-			<fertilitySensitivity>0.7</fertilitySensitivity>
-			<sowWork>4000</sowWork>
-			<sowMinSkill>6</sowMinSkill>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<sowResearchPrerequisites>
-				<li>TreeSowing</li>
-			</sowResearchPrerequisites>
-			<mustBeWildToSow>true</mustBeWildToSow>
-			<interferesWithRoof>false</interferesWithRoof>
-			<blockAdjacentSow>true</blockAdjacentSow>
-			<wildClusterRadius>5</wildClusterRadius>
-			<wildClusterWeight>250</wildClusterWeight>
-			<wildOrder>2</wildOrder>
-		</plant>
-	</ThingDef>
+  <ThingDef ParentName="BushBase">
+    <defName>BMT_MayoaPortugallica</defName>
+    <label>dripleaf</label>
+    <description>A bushy plant with large pointed leaves to divert rainwater during tropical storms.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/MayoaPortugallica</texPath>
+      <drawSize>1.15</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <plant>
+      <growDays>3</growDays>
+    </plant>
+  </ThingDef>
 
 </Defs>
