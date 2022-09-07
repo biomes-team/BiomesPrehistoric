@@ -127,9 +127,13 @@
 			<Beauty>3</Beauty>
 		</statBases>
 		<equippedStatOffsets>
-			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+			<ArrestSuccessChance>0.25</ArrestSuccessChance>
+			<MeleeHitChance>0.2</MeleeHitChance>
+			<PainShockThreshold>-0.15</PainShockThreshold>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.033</PsychicEntropyRecoveryRate>
+			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.3</SuppressionPower>
 			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">20</TerrorSource>
 		</equippedStatOffsets>
 		<generateCommonality>0.05</generateCommonality>
@@ -138,6 +142,74 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>BMT_Prehistoric/Item/Headgear/RexHelm/TrexHelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>Psychic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Trophy</li>
+		</thingCategories>
+		<tradeTags>
+			<li>PsychicApparel</li>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>BMT_DilophosaurusSkull</defName>
+		<label>dilophosaurus skull</label>
+		<description>A dilophosaurus skull. This is a true trophy.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/DilophosaurusSkull/DilophosaurusSkull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Standard_Pickup</soundInteract>
+		<soundDrop>Standard_Pickup</soundDrop>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>3</Mass>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Flammability>0.25</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<EquipDelay>1.5</EquipDelay>
+			<Beauty>3</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+			<HuntingStealth>0.1</HuntingStealth>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.033</PsychicEntropyRecoveryRate>
+			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+			<ToxicSensitivity>-0.1</ToxicSensitivity>
+		</equippedStatOffsets>
+		<generateCommonality>0.05</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>BMT_Prehistoric/Item/Headgear/DiloHelm/DiloHelm</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
