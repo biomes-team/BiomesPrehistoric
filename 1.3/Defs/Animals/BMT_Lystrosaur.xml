@@ -7,7 +7,7 @@
         <description>Having thought to weigh under 200 pounds, this dinosaur fed on the stems and leaves of plants. Its strange appearance and small size makes it a popular pet on dinosaur-populated worlds.\n\nScientific Name: Lystrosaurus hedini</description>
         <statBases>
             <MoveSpeed>2.2</MoveSpeed>
-            <MarketValue>850</MarketValue>
+            <MarketValue>350</MarketValue>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
             <FilthRate>1</FilthRate>
