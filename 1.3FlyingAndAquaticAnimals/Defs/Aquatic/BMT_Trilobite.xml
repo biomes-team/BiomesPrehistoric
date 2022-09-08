@@ -15,6 +15,16 @@
                 <texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedA</texPath>
                 <drawSize>0.5</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedB</texPath>
+            		<drawSize>0.5</drawSize>
+            	</li>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedC</texPath>
+            		<drawSize>0.5</drawSize>
+            	</li>
+            </alternateGraphicsData>
         </li>
         </modExtensions>
     </LifeStageDef>
@@ -40,6 +50,16 @@
                 <texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedA</texPath>
                 <drawSize>1.0</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedB</texPath>
+            		<drawSize>1.0</drawSize>
+            	</li>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedC</texPath>
+            		<drawSize>1.</drawSize>
+            	</li>
+            </alternateGraphicsData>
         </li>
         </modExtensions>
     </LifeStageDef>
@@ -56,6 +76,16 @@
                 <texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedA</texPath>
                 <drawSize>1.5</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedB</texPath>
+            		<drawSize>1.5</drawSize>
+            	</li>
+            	<li>
+            		<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteSubmergedC</texPath>
+            		<drawSize>1.5</drawSize>
+            	</li>
+            </alternateGraphicsData>
         </li>
         </modExtensions>
     </LifeStageDef>
