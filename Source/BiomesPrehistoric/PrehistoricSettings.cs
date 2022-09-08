@@ -51,6 +51,8 @@ namespace BiomesPrehistoric
             Listing_Standard mainListing = new Listing_Standard();
             mainListing.Begin(inRect);
 
+            mainListing.Label("BMT_PrehistoricSettingsDesc".Translate());
+
             //Dino and vanilla
             SpawnPicker(mainListing, BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndVanilla, delegate { BiomesPrehistoricMod.mod.settings.spawnOption = SpawnOption.DinoAndVanilla; }, "BMT_DinoAndVanillaLabel", "BMT_DinoAndVanillaDesc", "DinoAndVanilla");
 
@@ -93,7 +95,7 @@ namespace BiomesPrehistoric
             textListing.Label(label.Translate());
             Text.Font = GameFont.Small;
             textListing.Label(desc.Translate());
-            Rect selectButtonRect = textListing.GetRect(30f).LeftHalf();
+            Rect selectButtonRect = textListing.GetRect(30f).LeftPartPixels(150f);
             Listing_Standard selectButtonListing = new Listing_Standard();
             selectButtonListing.Begin(selectButtonRect);
             if (selectButtonListing.ButtonText("BMT_Select".Translate()))
