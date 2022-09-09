@@ -4,7 +4,7 @@
   <ThingDef ParentName="TreeBase">
     <defName>BMT_Pseudobornia</defName>
     <label>pseudobornia</label>
-    <description>pseudobornia.</description>
+    <description>A type of plant known only from fossils from the upper Devonian period of Earth.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Pseudobornia</texPath>
       <graphicClass>Graphic_Random</graphicClass>

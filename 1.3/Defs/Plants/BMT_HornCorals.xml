@@ -4,7 +4,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>BMT_HornCorals</defName>
 		<label>horn corals</label>
-		<description>adult crinoid are called sea lilies and are attached to the sea bottom by a stalk.</description>
+		<description>Known as horn corals due to their unique shape, they were once quite common in prehistoric seas.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>0.15</Flammability>
@@ -25,15 +25,22 @@
 			<texPath>BMT_Prehistoric/Plant/HornCorals</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<ingestible/>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawTasty</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
 		<plant>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<growDays>3</growDays>
+			<maxMeshCount>9</maxMeshCount>
 			<harvestWork>80</harvestWork>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
 			<wildClusterRadius>6</wildClusterRadius>
-			<wildClusterWeight>15</wildClusterWeight>
+			<wildClusterWeight>250</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<interferesWithRoof>false</interferesWithRoof>
 		</plant>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>BMT_Cooksonia</defName>
     <label>cooksonia</label>
-    <description>cooksonia. Slows down anyone moving over it.</description>
+    <description>Cooksonia. Slows down anyone moving over it.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Flammability>1.3</Flammability>

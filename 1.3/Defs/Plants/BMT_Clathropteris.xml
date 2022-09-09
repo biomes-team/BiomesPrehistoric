@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>BMT_Clathropteris</defName>
     <label>clathropteris</label>
-    <description>.</description>
+    <description>The first recorded dipterid fern.</description>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <Nutrition>0.25</Nutrition>

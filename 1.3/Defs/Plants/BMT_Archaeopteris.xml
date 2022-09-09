@@ -4,7 +4,7 @@
   <ThingDef ParentName="TreeBase">
     <defName>BMT_Archaeopteris</defName>
     <label>Archaeopteris</label>
-    <description>Archaeopteris.</description>
+    <description>Once considered the earliest known tree, it produces spores rather than seeds.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Archaeopteris</texPath>
       <graphicClass>Graphic_Random</graphicClass>

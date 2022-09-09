@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>BMT_Stromatolite</defName>
-		<label>stromatolite</label>
+		<label>layer rock</label>
 		<description>These microorganisms produce adhesive compounds that cement sand and other rocky materials to form mineral "microbial mats". In turn, these mats build up layer by layer, growing gradually over time.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -25,10 +25,15 @@
 			<texPath>BMT_Prehistoric/Plant/Stromatolite</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<ingestible/>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+		</ingestible>
 		<plant>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<growDays>3</growDays>
+			<fertilityMin>0.50</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>10</growDays>
+			<lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+			<maxMeshCount>4</maxMeshCount>
 			<harvestWork>80</harvestWork>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>BMT_Peltaspermaceae</defName>
     <label>peltaspermaceae</label>
-    <description>.</description>
+    <description>A type of seed fern that was once extremely common in the American continents.</description>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <Nutrition>0.55</Nutrition>

@@ -4,7 +4,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>BMT_Cycadales</defName>
 		<label>Cycadales</label>
-		<description>.</description>
+		<description>An ancient type of cycad.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Plant/Cycadales/CycadalesGrown</texPath>
 			<graphicClass>Graphic_Random</graphicClass>

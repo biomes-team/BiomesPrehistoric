@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>BMT_Gryphaea</defName>
-		<label>gryphaea</label>
-		<description>adult crinoid are called sea lilies and are attached to the sea bottom by a stalk.</description>
+		<label>devil’s toenail</label>
+		<description>One of the genera known as “the devil’s toenails”, it is an extinct species of oyster.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>0.15</Flammability>
@@ -25,15 +25,22 @@
 			<texPath>BMT_Prehistoric/Plant/Gryphaea</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<ingestible/>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawTasty</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
 		<plant>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<growDays>3</growDays>
+			<maxMeshCount>9</maxMeshCount>
 			<harvestWork>80</harvestWork>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildClusterRadius>2</wildClusterRadius>
-			<wildClusterWeight>5</wildClusterWeight>
+			<wildClusterWeight>50</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<interferesWithRoof>false</interferesWithRoof>
 		</plant>

@@ -18,6 +18,11 @@
 						<BMT_Pecopteris>0.8</BMT_Pecopteris>
 						<BMT_Medullosa>0.15</BMT_Medullosa>
 						<BMT_Alethopteris>0.05</BMT_Alethopteris>
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -33,6 +38,11 @@
 						<BMT_Gnetum>0.16</BMT_Gnetum>
 						<BMT_HealrootFern>0.16</BMT_HealrootFern>
 						<!--BiomesIslands_Lavender>1</BiomesIslands_Lavender-->
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -47,6 +57,11 @@
 						<BMT_Walchia>0.20</BMT_Walchia>
 						<BMT_Aetheophyllum>0.10</BMT_Aetheophyllum>
 						<!--BiomesIslands_CoconutPalm>0.03</BiomesIslands_CoconutPalm-->
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -66,6 +81,11 @@
 						<!--BiomesIslands_Fern>0.8</BiomesIslands_Fern-->
 						<!--BiomesIslands_FloweringFern>0.1</BiomesIslands_FloweringFern-->
 						<!--BiomesIslands_Lavender>0.1</BiomesIslands_Lavender-->
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
@@ -84,6 +104,11 @@
 						<BMT_MayoaPortugallica>0.05</BMT_MayoaPortugallica>
 						<BMT_Calamites>0.8</BMT_Calamites>
 						<BMT_Clubmoss>0.15</BMT_Clubmoss>
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">  
@@ -98,6 +123,11 @@
 						<BMT_LeopoldaeBetula>0.08</BMT_LeopoldaeBetula>
 						<BMT_RubusChamaemorus>0.07</BMT_RubusChamaemorus>
 						<BMT_HealrootFern>0.05</BMT_HealrootFern>
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
 					</value>
 				</li>
 			</operations>

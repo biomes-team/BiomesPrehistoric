@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>BMT_Aetheophyllum</defName>
 		<label>mini coifer</label>
-		<description>A short coifer.</description>
+		<description>A short, early conifer.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Plant/Aetheophyllum</texPath>
 			<drawSize>1.15</drawSize>

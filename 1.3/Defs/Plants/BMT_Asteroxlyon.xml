@@ -4,7 +4,7 @@
   <ThingDef ParentName="TreeBase">
     <defName>BMT_Asteroxlyon</defName>
     <label>asteroxlyon</label>
-    <description>asteroxlyon.</description>
+    <description>An early plant that has root-like branches. While it looks like it has leaves, its “leaves” are actually just protrusions.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Asteroxlyon</texPath>
       <graphicClass>Graphic_Random</graphicClass>
