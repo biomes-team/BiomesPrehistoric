@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Giddy-up! Battle Mounts</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations><!--x,y,z. x: horizontal axis, y: drawing priority, z: vertical axis -->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Ammonite"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Anomalocaris"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>	
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Coelacanth"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Dunkleosteus"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Elasmosaurus"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Eurypterid"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_GiantAmmonite"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Icthyosaurus"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0.3</northOffsetCSV>
+							<southOffsetCSV>0,-1,0.3</southOffsetCSV>
+							<eastOffsetCSV>1,0,0.3</eastOffsetCSV>	
+							<westOffsetCSV>-1,0,0.3</westOffsetCSV>	
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Liopleurodon"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Mosasaurus"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Orthoceras"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Shonisaurus"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Trilobite"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,0,0</eastOffsetCSV>
+							<westOffsetCSV>0,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Anhanguera"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,-1,-0.3</eastOffsetCSV>
+							<westOffsetCSV>0,-1,-0.3</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Dimorphodon"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,-1,-0.3</eastOffsetCSV>
+							<westOffsetCSV>0,-1,-0.3</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Pteranodon"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0,-1,-0.3</eastOffsetCSV>
+							<westOffsetCSV>0,-1,-0.3</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Quetzal"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,0,0</southOffsetCSV>
+							<eastOffsetCSV>0.3,-1,0.8</eastOffsetCSV>
+							<westOffsetCSV>-0.3,-1,0.8</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
