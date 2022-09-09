@@ -69,7 +69,7 @@ namespace BiomesPrehistoric
 
         public static void SpawnPicker(Listing_Standard listing, bool active, Action action, string label, string desc, string iconPath)
         {
-            float height = 180f;
+            float height = 160f;
             Rect mainRect = new Rect(listing.GetRect(height));
             if (active)
             {
@@ -86,7 +86,7 @@ namespace BiomesPrehistoric
 
             string texPath = String.Format("BMT_Prehistoric/UI/{0}", iconPath);
             Texture2D icon = ContentFinder<Texture2D>.Get(texPath, true);
-            Widgets.DrawTextureFitted(iconRect, icon, height / 216);
+            Widgets.DrawTextureFitted(iconRect, icon, 0.88f);
 
             Listing_Standard textListing = new Listing_Standard();
             textListing.Begin(textRect);

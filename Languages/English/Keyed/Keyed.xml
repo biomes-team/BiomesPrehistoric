@@ -3,7 +3,7 @@
 
 	<BMT_BiomesPrehistoric>Biomes! Prehistoric</BMT_BiomesPrehistoric>
 	
-	<BMT_PrehistoricSettingsDesc>You can change your settings at any time, including mid-game. It will affect plant/animal spawns after you change it, but not anything that's already spawned.</BMT_PrehistoricSettingsDesc>
+	<BMT_PrehistoricSettingsDesc>You can change your settings at any time, including mid-game. It will affect plant/animal spawns after you change it, but not anything that's already spawned.\n\nSettings will only apply to supported biomes. If your favorite biome isn't patched yet, tell us on Steam or on Discord!</BMT_PrehistoricSettingsDesc>
 	
 	<BMT_DinoAndVanillaLabel>Animals Only</BMT_DinoAndVanillaLabel>
 	<BMT_DinoAndVanillaDesc>Prehistoric animals will spawn but prehistoric plants will not. They will spawn alongside both vanilla and modded plants and animals.</BMT_DinoAndVanillaDesc>
