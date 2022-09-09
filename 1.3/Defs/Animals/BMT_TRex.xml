@@ -163,7 +163,7 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/TRex/TRex</texPath>
+                    <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/TyrannosaurusRex</texPath>
                     <drawSize>6.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -171,13 +171,13 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/TRex/Dessicated_TRex</texPath>
+                    <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
                     <drawSize>3.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/TRex/TRex</texPath>
+                    <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/TyrannosaurusRex</texPath>
                     <drawSize>8.12</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
@@ -185,13 +185,13 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/TRex/Dessicated_TRex</texPath>
+                    <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
                     <drawSize>4.6</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/TRex/TRex</texPath>
+                    <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/TyrannosaurusRex</texPath>
                     <drawSize>16.14</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
@@ -199,7 +199,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/TRex/Dessicated_TRex</texPath>
+                    <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
                     <drawSize>8.7</drawSize>
                 </dessicatedBodyGraphicData>
                 <butcherBodyPart>

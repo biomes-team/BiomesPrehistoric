@@ -124,6 +124,7 @@ BMT_Quetzal 		- 	Pterosauria		Late Cretaceous				All arid and desert biomes.
 
 Pack Animal Dino:
 
+Ankylosaurus
 Apatosaurus
 Borealopelta
 Brachiosaurus
@@ -131,9 +132,11 @@ Centrosaurus
 Edmontosaurus
 Gallimimus
 Iguanodon
+Kentrosaurus
 Ouranosaurus
 Pachyrhinosaurus
 Parasaur
+Polacanthus
 Stegosaurus
 Styracosaurus
 Triceratops

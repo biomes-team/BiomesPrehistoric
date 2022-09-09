@@ -117,13 +117,13 @@
         <alternateGraphicChance>0.5</alternateGraphicChance>
         <alternateGraphics>
             <li>
-                <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus_b</texPath>
+                <texPath>BMT_Prehistoric/Animals/Gallimimus/GallimimusB</texPath>
             </li>
         </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Gallimimus/GallimimusA</texPath>
                     <drawSize>2.2</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.2, 0.2)</volume>
@@ -137,7 +137,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Gallimimus/GallimimusA</texPath>
                     <drawSize>4.0</drawSize>
                     <shadowData>
                         <volume>(0.5, 0.45, 0.3)</volume>
@@ -151,7 +151,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Gallimimus/Gallimimus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Gallimimus/GallimimusA</texPath>
                     <drawSize>5.4</drawSize>
                     <shadowData>
                         <volume>(0.8, 0.64, 0.4)</volume>

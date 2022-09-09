@@ -26,6 +26,7 @@
 			<predator>false</predator>
 			<packAnimal>true</packAnimal>
 			<wildness>0.20</wildness>
+			<roamMtbDays>3</roamMtbDays>
 			<lifeExpectancy>60</lifeExpectancy>
 			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
@@ -159,13 +160,13 @@
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
             <li>
-                <texPath>BMT_Prehistoric/Animals/Triceratops/Triceratops_b</texPath>
+                <texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsB</texPath>
             </li>
         </alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Triceratops/Triceratops</texPath>
+					<texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsA</texPath>
 					<drawSize>3.8</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -193,7 +194,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Triceratops/Triceratops</texPath>
+					<texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsA</texPath>
 					<drawSize>6</drawSize>
 					<shadowData>
 						<volume>(1, 0.8, 0.5)</volume>

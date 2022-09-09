@@ -29,6 +29,7 @@
             <predator>false</predator>
             <packAnimal>true</packAnimal>
             <wildness>0.25</wildness>
+            <roamMtbDays>2.5</roamMtbDays>
             <lifeExpectancy>60</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
@@ -160,7 +161,7 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusM</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusMale</texPath>
                     <drawSize>3.1</drawSize>
                     <shadowData>
                         <volume>(0.6, 0.4, 0.25)</volume>
@@ -168,7 +169,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <femaleGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/Stegosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusFemale</texPath>
                     <drawSize>3.1</drawSize>
                     <shadowData>
                         <volume>(0.6, 0.4, 0.25)</volume>
@@ -182,7 +183,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusM</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusMale</texPath>
                     <drawSize>4.4</drawSize>
                     <shadowData>
                         <volume>(0.8, 0.6, 0.35)</volume>
@@ -190,7 +191,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <femaleGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/Stegosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusFemale</texPath>
                     <drawSize>4.4</drawSize>
                     <shadowData>
                         <volume>(0.8, 0.6, 0.35)</volume>
@@ -204,7 +205,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusM</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusMale</texPath>
                     <drawSize>5.4</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
@@ -212,7 +213,7 @@
                     </shadowData>
                 </bodyGraphicData>
                     <femaleGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/Stegosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusFemale</texPath>
                     <drawSize>5.4</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>

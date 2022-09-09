@@ -114,7 +114,7 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dilophosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusMale</texPath>
                     <drawSize>3.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -128,7 +128,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dilophosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusMale</texPath>
                     <drawSize>4.4</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
@@ -142,7 +142,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dilophosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusMale</texPath>
                     <drawSize>5.9</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>

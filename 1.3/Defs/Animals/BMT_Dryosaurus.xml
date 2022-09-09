@@ -115,13 +115,13 @@
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
             <li>
-                <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus_b</texPath>
+                <texPath>BMT_Prehistoric/Animals/Dryosaurus/DryosaurusB</texPath>
             </li>
         </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Dryosaurus/DryosaurusA</texPath>
                     <drawSize>1.4</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -131,7 +131,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Dryosaurus/DryosaurusA</texPath>
                     <drawSize>2.1</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
@@ -145,7 +145,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dryosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Dryosaurus/DryosaurusA</texPath>
                     <drawSize>5.1</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>

@@ -161,13 +161,13 @@
 		<alternateGraphicChance>0.50</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
-				<texPath>BMT_Prehistoric/Animals/Centrosaurus/CentrosaurusA</texPath>
+				<texPath>BMT_Prehistoric/Animals/Centrosaurus/CentrosaurusB</texPath>
 			</li>
 		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Centrosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Centrosaurus/CentrosaurusA</texPath>
 					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -181,7 +181,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Centrosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Centrosaurus/CentrosaurusA</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.7, 0.6, 0.4)</volume>
@@ -195,7 +195,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Centrosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Centrosaurus/CentrosaurusA</texPath>
 					<drawSize>4</drawSize>
 					<shadowData>
 						<volume>(1, 0.8, 0.5)</volume>
