@@ -17,11 +17,12 @@
     </graphicData>
     <ingestible />
     <plant>
-      <fertilitySensitivity>0.7</fertilitySensitivity>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
       <growDays>5</growDays>
       <harvestWork>150</harvestWork>
       <maxMeshCount>4</maxMeshCount>
-      <visualSizeRange>0.8~0.9</visualSizeRange>
+      <visualSizeRange>0.5~0.7</visualSizeRange>
       <topWindExposure>0.16</topWindExposure>
       <wildClusterRadius>6</wildClusterRadius>
       <wildClusterWeight>200</wildClusterWeight>

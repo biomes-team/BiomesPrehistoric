@@ -7,7 +7,7 @@
     <description>A short teraxylopteris. Does not typically talk.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Teraxylopteris</texPath>
-      <drawSize>1.15</drawSize>
+      <drawSize>1.5</drawSize>
       <shadowData>
         <volume>(0.55, 0.2, 0.2)</volume>
       </shadowData>

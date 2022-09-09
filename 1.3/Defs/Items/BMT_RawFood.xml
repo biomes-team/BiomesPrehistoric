@@ -6,7 +6,7 @@
 		<label>pine nuts</label>
 		<description>Pine nuts supply high amounds of food energy and are a rich source of numerous micronutrients. Nice to eat, even when raw.</description>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Resource/Raw/PineNuts</texPath>
+			<texPath>BMT_Prehistoric/Item/Resource/Raw/RawPineNuts</texPath>
 		</graphicData>
 		<statBases>
 			<Nutrition>0.15</Nutrition>
@@ -31,7 +31,7 @@
 		<label>cycad nuts</label>
 		<description>cycad nuts supply high amounds of food energy and are a rich source of numerous micronutrients. Their roots and seeds are often populated by bacteria known to produce a neurotoxin.</description>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Resource/Raw/PineNuts</texPath>
+			<texPath>BMT_Prehistoric/Item/Resource/Raw/RawPineNuts</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.2</MarketValue>
@@ -54,6 +54,31 @@
 					<severity>0.01</severity>
 				</li>
 			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>BMT_RawSporophylls</defName>
+		<label>fern spores</label>
+		<description>Pine nuts supply high amounds of food energy and are a rich source of numerous micronutrients. Nice to eat, even when raw.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Resource/Raw/RawSporophylls</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.03</Nutrition>
+			<MarketValue>0.8</MarketValue>
+			<Mass>0.009</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>45</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<foodType>Seed</foodType>
 		</ingestible>
 	</ThingDef>
 

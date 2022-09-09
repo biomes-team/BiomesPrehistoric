@@ -12,16 +12,14 @@
         <volume>(0.2, 0.3, 0.13)</volume>
         <offset>(0,0,-0.44)</offset>
       </shadowData>
-      <shaderParameters>
-        <_FallColorSource>(0.373, 0.427, 0.313)</_FallColorSource>
-        <_FallTransitionRange>(0.02, 0.14)</_FallTransitionRange>
-      </shaderParameters>
     </graphicData>
     <statBases>
       <Beauty>2</Beauty>
       <BeautyOutdoors>2</BeautyOutdoors>
     </statBases>
     <plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
       <growDays>13</growDays>
       <harvestWork>800</harvestWork>
       <harvestYield>27</harvestYield>

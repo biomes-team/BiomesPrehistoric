@@ -1,20 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BushBase">
-		<defName>BMT_Adoketophyton</defName>
-		<label>adoketophyton</label>
-		<description>adoketophyton.</description>
+	<ThingDef ParentName="PlantBase" Name="BMT_AdoketophytonBase" Abstract="True">
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
 		<graphicData>
-			<texPath>BMT_Prehistoric/Plant/Adoketophyton</texPath>
-			<drawSize>1.15</drawSize>
+			<texPath>BMT_Prehistoric/Plant/Adoketophyton/AdoketophytonGrown</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.55, 0.2, 0.2)</volume>
 			</shadowData>
 		</graphicData>
-		<uiIconScale>0.85</uiIconScale>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>14</pathCost>
+		<fillPercent>0.20</fillPercent>
+		<ingestible />
 		<plant>
+			<dieIfLeafless>true</dieIfLeafless>
 			<growDays>3</growDays>
+			<immatureGraphicPath>BMT_Prehistoric/Plant/Adoketophyton/AdoketophytonImmature</immatureGraphicPath>
+			<harvestYield>4</harvestYield>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>BMT_RawSporophylls</harvestedThingDef>
+			<visualSizeRange>0.85~1.15</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="BMT_AdoketophytonBase">
+		<defName>BMT_Adoketophyton</defName>
+		<label>strobilus fern</label>
+		<description>Superficially resembling an ear of wheat, this plant is actually one of the earliest vascular plants.</description>
+		<plant>
+			<fertilityMin>1</fertilityMin>
+			<fertilitySensitivity>0.9</fertilitySensitivity>
+			<sowWork>150</sowWork>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<interferesWithRoof>false</interferesWithRoof>
+			<blockAdjacentSow>false</blockAdjacentSow>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>250</wildClusterWeight>
+			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
 

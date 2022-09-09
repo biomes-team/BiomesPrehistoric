@@ -18,6 +18,8 @@
       <BeautyOutdoors>2</BeautyOutdoors>
     </statBases>
     <plant>
+      <fertilityMin>1</fertilityMin>
+      <fertilitySensitivity>0.9</fertilitySensitivity>
       <growDays>27</growDays>
       <harvestWork>800</harvestWork>
       <harvestYield>27</harvestYield>
