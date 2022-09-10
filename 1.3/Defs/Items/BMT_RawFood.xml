@@ -60,7 +60,7 @@
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>BMT_RawSporophylls</defName>
 		<label>fern spores</label>
-		<description>Pine nuts supply high amounds of food energy and are a rich source of numerous micronutrients. Nice to eat, even when raw.</description>
+		<description>Fern spores supply high amounds of food energy and are a rich source of numerous micronutrients. Nice to eat, even when raw.</description>
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>
 		<graphicData>
