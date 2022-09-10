@@ -39,6 +39,7 @@
 		</tools>
 		<thingCategories>
 			<li>Trophy</li>
+			<li>InertRelics</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -46,6 +47,10 @@
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
+		<relicChance>2</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceVerbBase">
@@ -94,6 +99,7 @@
 		</tools>
 		<thingCategories>
 			<li>Trophy</li>
+			<li>InertRelics</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -101,6 +107,10 @@
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
+		<relicChance>2</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
 	</ThingDef>
 	
 	<ThingDef ParentName="ApparelNoQualityBase">
@@ -160,6 +170,7 @@
 		<useHitPoints>true</useHitPoints>
 		<thingCategories>
 			<li>Trophy</li>
+			<li>InertRelics</li>
 		</thingCategories>
 		<tradeTags>
 			<li>PsychicApparel</li>
@@ -168,6 +179,10 @@
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelNoQualityBase">
@@ -228,6 +243,7 @@
 		<useHitPoints>true</useHitPoints>
 		<thingCategories>
 			<li>Trophy</li>
+			<li>InertRelics</li>
 		</thingCategories>
 		<tradeTags>
 			<li>PsychicApparel</li>
@@ -236,6 +252,10 @@
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
 	</ThingDef>
 	
 	<ThingDef ParentName="ResourceBase">
@@ -261,6 +281,7 @@
 		<stackLimit>5</stackLimit>
 		<thingCategories>
 			<li>Trophy</li>
+			<li>InertRelics</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -268,6 +289,10 @@
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="ResourceVerbBase">
@@ -288,10 +313,6 @@
 		</statBases>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<stackLimit>10</stackLimit>
-		<relicChance>3</relicChance>
-		<comps>
-			<li Class="CompProperties_Styleable"></li>
-		</comps>
 		<weaponClasses>
 			<li>Melee</li>
 			<li>MeleePiercer</li>
@@ -316,7 +337,8 @@
 			</li>
 		</tools>
 		<thingCategories>
-			<li>Items</li>
+			<li>Trophy</li>
+			<li>InertRelics</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
@@ -324,6 +346,10 @@
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
+		<relicChance>1</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
 	</ThingDef>
 
 </Defs>
