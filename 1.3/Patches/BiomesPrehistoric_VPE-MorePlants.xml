@@ -8,10 +8,19 @@
 			<operations>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="BMT_Calamites"]/plant|
-					Defs/ThingDef[defName="BMT_Horsetail"]/plant</xpath>
+					Defs/ThingDef[defName="BMT_Horsetail"]/plant|
+					Defs/ThingDef[defName="BMT_NypaFruticans"]/plant</xpath>
 					<value>
 						<sowTags>
 							<li>VCE_Aquatic</li>
+						</sowTags>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_NypaFruticans"]/plant</xpath>
+					<value>
+						<sowTags>
+							<li>VCE_Sandy</li>
 						</sowTags>
 					</value>
 				</li>
