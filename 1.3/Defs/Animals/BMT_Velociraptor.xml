@@ -22,7 +22,7 @@
             <baseBodySize>0.65</baseBodySize>
             <baseHealthScale>1.3</baseHealthScale>
             <baseHungerRate>0.30</baseHungerRate>
-            <foodType>OmnivoreRoughAnimal</foodType>
+            <foodType>CarnivoreAnimalStrict</foodType>
             <predator>true</predator>
             <maxPreyBodySize>0.5</maxPreyBodySize>
             <wildness>0.40</wildness>
