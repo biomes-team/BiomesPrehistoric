@@ -146,10 +146,16 @@
         <race>BMT_Ankylosaurus</race>
         <combatPower>70</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusB</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Ankylosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
                     <drawSize>3</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -163,7 +169,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Ankylosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
                     <drawSize>4.8</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
@@ -177,7 +183,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Ankylosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
                     <drawSize>6</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
