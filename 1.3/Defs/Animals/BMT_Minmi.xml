@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Minmi</defName>
         <label>minmi</label>
-        <description>Among the smallest of its kind, it is quite peaceful, relying on its natural armor to defend itself. They’re fairly social and are fairly easily tamed as pets. Lacking any natural weapons they do not make for good battle animals.\n\nScientific name:Minmi paravertebra. </description>
+        <description>Among the smallest of its kind, it is quite peaceful, relying on its natural armor to defend itself. They’re fairly social and are fairly easily tamed as pets. Lacking any natural weapons they do not make for good battle animals.\n\nScientific name:Minmi paravertebra.</description>
         <statBases>
             <MoveSpeed>4</MoveSpeed>
             <MarketValue>520</MarketValue>

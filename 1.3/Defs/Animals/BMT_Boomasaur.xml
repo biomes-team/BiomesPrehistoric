@@ -2,8 +2,8 @@
 <Defs>
 
     <ThingDef ParentName="AnimalThingBase">
-        <defName>BMT_Parasaur</defName>
-        <label>parasaurolophus</label>
+        <defName>BMT_Boomasaur</defName>
+        <label>boomasaurolophus</label>
         <description>Engineered for chemicals production, the boomasaur was created from the genetic base of a Parasaur; it grows large sacs of volatile chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge explosion it produces when it dies. It can be milked to produce chemfuel - very carefully.\n\nScientific name: Parasaurolophus fragor</description>
         <statBases>
             <MoveSpeed>4.0</MoveSpeed>
@@ -11,19 +11,12 @@
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>15</FilthRate>
-			</statBases>
-    <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Chemfuel</milkDef>
-        <milkIntervalDays>1.5</milkIntervalDays>
-        <milkAmount>15</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
-      </li>
-    </comps>
+		</statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Iguanodon</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailFourDH</body>
+			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.0</baseBodySize>
@@ -67,6 +60,13 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <comps>
+		
+			<li Class="CompProperties_Milkable">
+				<milkDef>Chemfuel</milkDef>
+				<milkIntervalDays>1.5</milkIntervalDays>
+				<milkAmount>15</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
+			</li>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_BoomasaurEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>5</eggFertilizationCountMax>
