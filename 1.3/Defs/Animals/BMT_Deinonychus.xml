@@ -87,11 +87,11 @@
                 <joinHuntRange>24</joinHuntRange>
             </li>
             <li Class="BiomesCore.CompProperties_PackDefense">
-                <baseChance>0.9</baseChance>
+                <baseChance>0.3</baseChance>
                 <attackerMaxDistance>30</attackerMaxDistance>
                 <joinDefenseRange>20</joinDefenseRange>
                 <joinMaxPain>0.3</joinMaxPain>
-                <maxNumMeleeAttacks>5</maxNumMeleeAttacks>
+                <maxNumMeleeAttacks>3</maxNumMeleeAttacks>
                 <expiryInterval>500</expiryInterval>
                 <attackDoorIfTargetLost>true</attackDoorIfTargetLost>
                 <canBashFences>false</canBashFences>

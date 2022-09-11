@@ -60,6 +60,9 @@
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~1</eggCountRange>
             </li>
+            <li Class="BiomesCore.CompProperties_PackHunter">
+                <joinHuntRange>24</joinHuntRange>
+            </li>
         </comps>
         <tools>
             <li>
