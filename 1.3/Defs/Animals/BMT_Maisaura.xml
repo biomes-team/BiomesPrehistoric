@@ -29,7 +29,7 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
 			</willNeverEat>
             <predator>false</predator>
-            <wildness>0.150/wildness>
+            <wildness>0.150</wildness>
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.15</manhunterOnDamageChance>
