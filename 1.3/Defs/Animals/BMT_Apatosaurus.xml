@@ -158,10 +158,16 @@
         <race>BMT_Apatosaurus</race>
         <combatPower>90</combatPower>
         <wildGroupSize>3~5</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Apatosaurus/ApatosaurusB</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Apatosaurus/ApatosaurusA</texPath>
                     <drawSize>6</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -175,7 +181,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Apatosaurus/ApatosaurusA</texPath>
                     <drawSize>8</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
@@ -189,7 +195,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Apatosaurus/Apatosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Apatosaurus/ApatosaurusA</texPath>
                     <drawSize>11</drawSize>
                     <shadowData>
                         <volume>(1, 2, 0.5)</volume>
