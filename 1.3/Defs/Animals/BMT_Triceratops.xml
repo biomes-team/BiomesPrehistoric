@@ -82,6 +82,7 @@
 				<expiryInterval>500</expiryInterval>
 				<attackDoorIfTargetLost>true</attackDoorIfTargetLost>
 				<canBashFences>false</canBashFences>
+				<predatorConfidencePenalty>100</predatorConfidencePenalty>
 			</li>
 		</comps>
 		<tools>

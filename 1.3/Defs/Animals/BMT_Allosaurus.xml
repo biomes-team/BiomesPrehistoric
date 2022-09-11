@@ -62,6 +62,7 @@
             </li>
             <li Class="BiomesCore.CompProperties_PackHunter">
                 <joinHuntRange>24</joinHuntRange>
+                <packConfidenceBonusPerMember>0.25</packConfidenceBonusPerMember>
             </li>
         </comps>
         <tools>

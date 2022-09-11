@@ -85,6 +85,7 @@
             </li>
             <li Class="BiomesCore.CompProperties_PackHunter">
                 <joinHuntRange>24</joinHuntRange>
+                <packConfidenceBonusPerMember>0.25</packConfidenceBonusPerMember>
             </li>
             <li Class="BiomesCore.CompProperties_PackDefense">
                 <baseChance>0.3</baseChance>
@@ -95,6 +96,7 @@
                 <expiryInterval>500</expiryInterval>
                 <attackDoorIfTargetLost>true</attackDoorIfTargetLost>
                 <canBashFences>false</canBashFences>
+                <predatorConfidencePenalty>100</predatorConfidencePenalty>
             </li>
         </comps>
         <tools>
