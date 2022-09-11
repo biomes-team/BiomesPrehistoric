@@ -19,7 +19,7 @@
             <petness>1</petness>
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
-            <herdAnimal>false</herdAnimal>
+            <herdAnimal>true</herdAnimal>
             <baseBodySize>0.55</baseBodySize>
             <baseHealthScale>0.75</baseHealthScale>
             <baseHungerRate>0.25</baseHungerRate>
@@ -120,6 +120,7 @@
         <label>compsognathus</label>
         <race>BMT_Compsognathus</race>
         <combatPower>55</combatPower>
+        <wildGroupSize>5~10</wildGroupSize>
         <alternateGraphicChance>0.66</alternateGraphicChance>
         <alternateGraphics>
             <li>

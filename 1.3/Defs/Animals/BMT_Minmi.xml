@@ -21,7 +21,7 @@
             <body>BMT_QuadrupedWithArmorBeakAndTailWeapon</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>3.5</baseBodySize>
+            <baseBodySize>1.4</baseBodySize>
             <baseHealthScale>3</baseHealthScale>
             <baseHungerRate>0.86</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>

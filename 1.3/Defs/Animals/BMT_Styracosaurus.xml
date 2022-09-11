@@ -73,7 +73,7 @@
             </li>
             <li Class="BiomesCore.CompProperties_PackDefense">
                 <baseChance>0.3</baseChance>
-                <attackerMaxDistance>30</attackerMaxDistance>
+                <attackerMaxDistance>10</attackerMaxDistance>
                 <joinDefenseRange>20</joinDefenseRange>
                 <joinMaxPain>0.3</joinMaxPain>
                 <maxNumMeleeAttacks>3</maxNumMeleeAttacks>

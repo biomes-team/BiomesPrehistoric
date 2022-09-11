@@ -62,7 +62,9 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Borealopelta>0.5</BMT_Borealopelta>
+		<BMT_Boomasaur>0.3</BMT_Boomasaur>
 		<BMT_Brachiosaurus>0.15</BMT_Brachiosaurus>
+		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
 		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.8</BMT_Compsognathus>
@@ -77,6 +79,9 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>0.9</BMT_Lystrosaur>
+		<BMT_Maiasaura>0.4</BMT_Maiasaura>
+		<BMT_Olorotitan>0.25</BMT_Olorotitan>
+		<BMT_Minmi>0.3</BMT_Minmi>
 		<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 		<BMT_Parasaur>0.4</BMT_Parasaur>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
@@ -103,7 +108,9 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Baryonyx>0.07</BMT_Baryonyx>
+		<BMT_Boomasaur>0.3</BMT_Boomasaur>
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
 		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Deinonychus>0.6</BMT_Deinonychus>
@@ -117,7 +124,10 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kaprosuchus>0.5</BMT_Kaprosuchus>
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>1.2</BMT_Lystrosaur>
+		<BMT_Maiasaura>0.4</BMT_Maiasaura>
 		<BMT_Meganeura>0.5</BMT_Meganeura>
+		<BMT_Minmi>0.3</BMT_Minmi>
+		<BMT_Olorotitan>0.25</BMT_Olorotitan>
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Pulmonoscorpius>0.6</BMT_Pulmonoscorpius>
@@ -141,7 +151,9 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Ankylosaurus>0.7</BMT_Ankylosaurus>
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Baryonyx>0.03</BMT_Baryonyx>
+		<BMT_Boomasaur>0.2</BMT_Boomasaur>
 		<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
+		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Compsognathus>0.8</BMT_Compsognathus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
@@ -152,6 +164,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>1</BMT_Lystrosaur>
+		<BMT_Maiasaura>0.4</BMT_Maiasaura>
 		<BMT_Meganeura>0.5</BMT_Meganeura>
 		<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 		<BMT_Parasaur>0.2</BMT_Parasaur>
@@ -174,7 +187,9 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Apatosaurus>0.5</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Baryonyx>0.08</BMT_Baryonyx>
+		<BMT_Boomasaur>0.2</BMT_Boomasaur>
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
+		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
 		<BMT_Deinonychus>0.5</BMT_Deinonychus>
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
@@ -184,6 +199,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kaprosuchus>0.5</BMT_Kaprosuchus>
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>1.2</BMT_Lystrosaur>
+		<BMT_Maiasaura>0.4</BMT_Maiasaura>
 		<BMT_Meganeura>0.5</BMT_Meganeura>
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
@@ -205,7 +221,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.2</BMT_Arthropleura>
 		<BMT_Borealopelta>0.5</BMT_Borealopelta>
-		<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
+		<BMT_Boomasaur>0.2</BMT_Boomasaur>
 		<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
 		<BMT_Chungkingosaurus>0.2</BMT_Chungkingosaurus>
 		<BMT_Dilophosaurus>0.03</BMT_Dilophosaurus>
@@ -217,6 +233,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Oviraptor>0.2</BMT_Oviraptor>
 		<BMT_Parasaur>0.4</BMT_Parasaur>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
+		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_TRex>0.3</BMT_TRex>
 		<BMT_Utahraptor>0.4</BMT_Utahraptor>
@@ -228,10 +245,12 @@ BMT_Yutyrannus - Cold and temperate biomes.
 	<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
 	<value>
 		<BMT_Allosaurus>0.4</BMT_Allosaurus>
+		<BMT_Boomasaur>0.2</BMT_Boomasaur>
 		<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
 		<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
 		<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
 		<BMT_Utahraptor>0.3</BMT_Utahraptor>
+		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
 	</value>
 </Operation>
@@ -251,6 +270,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kaprosuchus>0.2</BMT_Kaprosuchus>
 		<BMT_Leaellynasaura>1.2</BMT_Leaellynasaura>
 		<BMT_Lystrosaur>0.7</BMT_Lystrosaur>
+		<BMT_Olorotitan>0.25</BMT_Olorotitan>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
 		<BMT_Parasaur>0.3</BMT_Parasaur>
 		<BMT_Stegoceras>0.5</BMT_Stegoceras>
@@ -277,6 +297,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Iguanodon>0.3</BMT_Iguanodon>
 		<BMT_Leaellynasaura>0.8</BMT_Leaellynasaura>
 		<BMT_Lystrosaur>0.7</BMT_Lystrosaur>
+		<BMT_Olorotitan>0.25</BMT_Olorotitan>
 		<BMT_Ouranosaurus>0.4</BMT_Ouranosaurus>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
 		<BMT_Pulmonoscorpius>0.1</BMT_Pulmonoscorpius>
@@ -311,6 +332,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Allosaurus>0.2</BMT_Allosaurus>
 		<BMT_Dilophosaurus>0.05</BMT_Dilophosaurus>
 		<BMT_Utahraptor>0.1</BMT_Utahraptor>
+		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 	</value>
 </Operation>
 
