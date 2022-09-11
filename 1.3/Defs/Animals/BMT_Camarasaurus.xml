@@ -159,7 +159,7 @@
         <label>Camarasaurus</label>
         <race>BMT_Camarasaurus</race>
         <combatPower>75</combatPower>
-        <wildGroupSize>2~4</wildGroupSize>
+        <wildGroupSize>2~3</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
