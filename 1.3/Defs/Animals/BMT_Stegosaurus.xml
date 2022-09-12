@@ -222,7 +222,7 @@
                 </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stegosaurus/Dessicated_Stegosaurus</texPath>
-                    <drawSize>3.5</drawSize>
+                    <drawSize>5.4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

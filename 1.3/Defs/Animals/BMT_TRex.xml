@@ -172,7 +172,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>6.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
@@ -186,7 +186,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
-                    <drawSize>4.6</drawSize>
+                    <drawSize>8.12</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
@@ -200,7 +200,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
-                    <drawSize>8.7</drawSize>
+                    <drawSize>16.14</drawSize>
                 </dessicatedBodyGraphicData>
                 <butcherBodyPart>
                     <bodyPartGroup>HeadAttackTool</bodyPartGroup>

@@ -182,7 +182,7 @@
 						</li>
 					</value>
 				</li>
-				<li Class="PatchOperationAddModExtension"> <!--head-->
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName = "BMT_Dryosaurus"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
@@ -193,14 +193,62 @@
 						</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Dryosaurus"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.1</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/DryosaurusA_south</texPath>
+									</li>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/DryosaurusB_south</texPath>
+									</li>
+								</allVariants>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+						</li>
+					</value>
+				</li>
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName = "BMT_Edmontosaurus"]</xpath>
-					<value> <!--back-->
+					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,0.5</northOffsetCSV>
-							<southOffsetCSV>0,0,-1</southOffsetCSV>
+							<southOffsetCSV>0,0,-1.2</southOffsetCSV>
 							<eastOffsetCSV>1.5,0,-0.3</eastOffsetCSV>
 							<westOffsetCSV>-1.5,0,-0.3</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Edmontosaurus"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Edmontosaurus_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.2</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Edmontosaurus_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.2</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
 						</li>
 					</value>
 				</li>
@@ -238,13 +286,35 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName = "BMT_Iguanodon"]</xpath> <!--head-->
+					<xpath>Defs/ThingDef[defName = "BMT_Iguanodon"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,0.1</northOffsetCSV>
 							<southOffsetCSV>0,0,-0.3</southOffsetCSV>
 							<eastOffsetCSV>1,0,-0.1</eastOffsetCSV>
 							<westOffsetCSV>-1,0,-0.1</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Iguanodon"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataMale>
+									<texPath>BMT_Prehistoric/GiddyUp/IguanodonMale_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.2</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataMale>
+								<graphicDataFemale>
+									<texPath>BMT_Prehistoric/GiddyUp/IguanodonFemale_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.2</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataFemale>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
 						</li>
 					</value>
 				</li>
@@ -271,10 +341,10 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName = "BMT_Kentrosaurus"]</xpath> <!--back-->
+					<xpath>Defs/ThingDef[defName = "BMT_Kentrosaurus"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
-							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<northOffsetCSV>0,-1,0</northOffsetCSV>
 							<southOffsetCSV>0,0,-0.3</southOffsetCSV>
 							<eastOffsetCSV>1,0,0</eastOffsetCSV>
 							<westOffsetCSV>-1,0,0</westOffsetCSV>
@@ -304,7 +374,7 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName = "BMT_Meganeura"]</xpath> <!--wings-->
+					<xpath>Defs/ThingDef[defName = "BMT_Meganeura"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,0.2</northOffsetCSV>
@@ -314,14 +384,55 @@
 						</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Meganeura"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Meganeura_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>1.8</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+						</li>
+					</value>
+				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName = "BMT_Ouranosaurus"]</xpath> <!--head|sail-->
+					<xpath>Defs/ThingDef[defName = "BMT_Ouranosaurus"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,0</northOffsetCSV>
 							<southOffsetCSV>0,0,-1.5</southOffsetCSV>
 							<eastOffsetCSV>1,0,-0.8</eastOffsetCSV>
 							<westOffsetCSV>-1,0,-0.8</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Ouranosaurus"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Ouranosaurus_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Ouranosaurus_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
 						</li>
 					</value>
 				</li>
@@ -349,12 +460,37 @@
 				</li>
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName = "BMT_Pachyrhinosaurus"]</xpath>
-					<value> <!--back|frill-->
+					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,-0.2</northOffsetCSV>
 							<southOffsetCSV>0,0,-0.2</southOffsetCSV>
 							<eastOffsetCSV>0.6,0,0</eastOffsetCSV>
 							<westOffsetCSV>-0.6,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Pachyrhinosaurus"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Pachyrhinosaurus_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Pachyrhinosaurus_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
 						</li>
 					</value>
 				</li>
@@ -403,13 +539,35 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName = "BMT_Spinosaurus"]</xpath> <!--head-->
+					<xpath>Defs/ThingDef[defName = "BMT_Spinosaurus"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,-1,-0.7</northOffsetCSV>
 							<southOffsetCSV>0,0,-1.5</southOffsetCSV>
 							<eastOffsetCSV>1.9,0,-0.8</eastOffsetCSV>
 							<westOffsetCSV>-1.9,0,-0.8</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Spinosaurus"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataMale>
+									<texPath>BMT_Prehistoric/GiddyUp/SpinosaurusMale_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>15</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataMale>
+								<graphicDataFemale>
+									<texPath>BMT_Prehistoric/GiddyUp/SpinosaurusFemale_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>15</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataFemale>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
 						</li>
 					</value>
 				</li>
@@ -425,13 +583,35 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName = "BMT_Stegosaurus"]</xpath> <!--backplates-->
+					<xpath>Defs/ThingDef[defName = "BMT_Stegosaurus"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,-0.5</northOffsetCSV>
 							<southOffsetCSV>0,0,-1.8</southOffsetCSV>
-							<eastOffsetCSV>2,0,-1.3</eastOffsetCSV>
-							<westOffsetCSV>-2,0,-1.3</westOffsetCSV>
+							<eastOffsetCSV>1.5,0,-1.3</eastOffsetCSV>
+							<westOffsetCSV>-1.5,0,-1.3</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Stegosaurus"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayBack>
+								<graphicDataMale>
+									<texPath>BMT_Prehistoric/GiddyUp/StegosaurusMale_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataMale>
+								<graphicDataFemale>
+									<texPath>BMT_Prehistoric/GiddyUp/StegosaurusFemale_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5.4</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataFemale>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
 						</li>
 					</value>
 				</li>
@@ -459,12 +639,37 @@
 				</li>
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName = "BMT_Styracosaurus"]</xpath>
-					<value> <!--back|frill-->
+					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,-0.2</northOffsetCSV>
 							<southOffsetCSV>0,0,-0.2</southOffsetCSV>
 							<eastOffsetCSV>0.5,0,-0.1</eastOffsetCSV>
 							<westOffsetCSV>-0.5,0,-0.1</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Styracosaurus"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Styracosaurus_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/Styracosaurus_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
 						</li>
 					</value>
 				</li>
@@ -503,12 +708,37 @@
 				</li>
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName = "BMT_TRex"]</xpath>
-					<value> <!--head hips-->
+					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
 							<northOffsetCSV>0,0,0.3</northOffsetCSV>
 							<southOffsetCSV>0,0,-0.7</southOffsetCSV>
 							<eastOffsetCSV>1,0,0.1</eastOffsetCSV>
 							<westOffsetCSV>-1,0,0.1</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_TRex"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/TyrannosaurusRex_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>16.14</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack>
+								<graphicDataDefault>
+									<texPath>BMT_Prehistoric/GiddyUp/TyrannosaurusRex_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>16.14</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
 						</li>
 					</value>
 				</li>
@@ -520,6 +750,61 @@
 							<southOffsetCSV>0,0,-0.5</southOffsetCSV>
 							<eastOffsetCSV>1.2,0,-0.3</eastOffsetCSV>
 							<westOffsetCSV>-1.2,0,-0.3</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BMT_Triceratops"]/comps</xpath>
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>6</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/TriceratopsA_south</texPath>
+									</li>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/TriceratopsB_south</texPath>
+									</li>
+								</allVariants>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlaySide>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>6</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/TriceratopsA_east</texPath>
+									</li>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/TriceratopsB_east</texPath>
+									</li>
+								</allVariants>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayBack>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>6</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/TriceratopsA_north</texPath>
+									</li>
+									<li>
+										<texPath>BMT_Prehistoric/GiddyUp/TriceratopsB_north</texPath>
+									</li>
+								</allVariants>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
 						</li>
 					</value>
 				</li>
