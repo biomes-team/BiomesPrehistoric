@@ -13,7 +13,13 @@
 	
 	<BMT_DinoWorldLabel>Prehistoric World</BMT_DinoWorldLabel>
 	<BMT_DinoWorldDesc>A complete overhaul to your world: Only prehistoric animals and plants can spawn wild or be sold by traders.</BMT_DinoWorldDesc>
-	
+
+	<BMT_PrehistoricAnimalCommonality>Prehistoric Animal Commonality: {0}%</BMT_PrehistoricAnimalCommonality>
+	<BMT_PrehistoricAnimalCommonalityTooltip>Changes how common wild prehistoric animals are when compared to other animals. By default they are as common as other animals. Values below 100% will make prehistoric animals less common, while values above it will make them appear more frequently.</BMT_PrehistoricAnimalCommonalityTooltip>
+
+	<BMT_PrehistoricPlantCommonality>Prehistoric Plant Commonality: {0}%</BMT_PrehistoricPlantCommonality>
+	<BMT_PrehistoricPlantCommonalityTooltip>Changes how common wild prehistoric plants are when compared to other plants. By default they are as common as other plants. Values below 100% will make prehistoric plants less common, while values above it will make them appear more frequently.</BMT_PrehistoricPlantCommonalityTooltip>
+
 	<BMT_Select>Select</BMT_Select>
 
 	<BMT_NestAlert>{0_indefinite} has angered nearby dinosaurs by getting too close to their nests!</BMT_NestAlert>

@@ -19,16 +19,27 @@ namespace BiomesPrehistoric
     {
         public SpawnOption spawnOption = SpawnOption.DinoAndPlant;
 
-        // this is what saves the setting when the user closes the game
+        // Prehistoric animal commonality. Only active with DinoAndVanilla or DinoAndPlant.
+        public int animalCommonality = 100;
+
+        // Prehistoric plant commonality. Only active with DinoAndPlant.
+        public int plantCommonality = 100;
+
+        // this is what saves the settings when the user closes the game
         public override void ExposeData()
         {
             Scribe_Values.Look(ref spawnOption, "spawnOption", SpawnOption.DinoAndPlant);
+            Scribe_Values.Look(ref animalCommonality, "animalCommonality", 100, true);
+            Scribe_Values.Look(ref plantCommonality, "plantCommonality", 100, true);
         }
     }
 
     // this class handles the interface
     public class BiomesPrehistoricMod : Mod
     {
+        public const int minCommonality = 20;
+        public const int maxCommonality = 500;
+
         public PrehistoricSettings settings;
         public static BiomesPrehistoricMod mod;
 
@@ -61,7 +72,19 @@ namespace BiomesPrehistoric
             
             // DINO WORLD!!!
             SpawnPicker(mainListing, BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld, delegate { BiomesPrehistoricMod.mod.settings.spawnOption = SpawnOption.DinoWorld; }, "BMT_DinoWorldLabel", "BMT_DinoWorldDesc", "DinoWorld");
-            
+
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
+            {
+                mainListing.Label("BMT_PrehistoricAnimalCommonality".Translate(BiomesPrehistoricMod.mod.settings.animalCommonality), -1, "BMT_PrehistoricAnimalCommonalityTooltip".Translate());
+                mainListing.verticalSpacing = 1f;
+                BiomesPrehistoricMod.mod.settings.animalCommonality = (int) mainListing.Slider(BiomesPrehistoricMod.mod.settings.animalCommonality, minCommonality, maxCommonality);
+                if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndPlant)
+                {
+                    mainListing.Label("BMT_PrehistoricPlantCommonality".Translate(BiomesPrehistoricMod.mod.settings.plantCommonality), -1, "BMT_PrehistoricPlantCommonalityTooltip".Translate());
+                    BiomesPrehistoricMod.mod.settings.plantCommonality = (int) mainListing.Slider(BiomesPrehistoricMod.mod.settings.plantCommonality, minCommonality, maxCommonality);
+                }
+            }
+
             mainListing.End();
             base.DoSettingsWindowContents(inRect);
 
@@ -69,7 +92,7 @@ namespace BiomesPrehistoric
 
         public static void SpawnPicker(Listing_Standard listing, bool active, Action action, string label, string desc, string iconPath)
         {
-            float height = 160f;
+            const float height = 140f;
             Rect mainRect = new Rect(listing.GetRect(height));
             if (active)
             {

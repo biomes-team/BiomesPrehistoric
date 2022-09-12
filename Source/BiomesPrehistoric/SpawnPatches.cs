@@ -30,6 +30,15 @@ namespace BiomesPrehistoric
 
             return true;
         }
+
+        static void Postfix(PawnKindDef animalDef, ref float __result)
+        {
+            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld && Util.IsPrehistoric(animalDef))
+            {
+                __result *= BiomesPrehistoricMod.mod.settings.animalCommonality;
+                __result /= 100.0f;
+            }
+        }
     }
 
 
@@ -288,6 +297,11 @@ namespace BiomesPrehistoric
                 {
                     __result *= 0.000000001f;
                 }
+            }
+            else if(Util.IsPrehistoric(plantDef))
+            {
+                __result *= BiomesPrehistoricMod.mod.settings.plantCommonality;
+                __result /= 100.0f;
             }
         }
     }
