@@ -129,7 +129,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Olorotitan/Olorotitan</texPath>
-                    <drawSize>1.8</drawSize>
+                    <drawSize>2.5</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Olorotitan/Dessicated_Olorotitan</texPath>

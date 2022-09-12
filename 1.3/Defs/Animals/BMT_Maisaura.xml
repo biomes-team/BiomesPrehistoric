@@ -129,17 +129,17 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Maiasaura/Maiasaura</texPath>
-                    <drawSize>1.2</drawSize>
+                    <drawSize>2.5</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Maiasaura/Dessicated_Maiasaura</texPath>
-                    <drawSize>2.2</drawSize>
+                    <drawSize>2.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Maiasaura/Maiasaura</texPath>
-                    <drawSize>2.6</drawSize>
+                    <drawSize>3.6</drawSize>
                     <shadowData>
                         <volume>(0.6, 0.6, 0.6)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -153,7 +153,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Maiasaura/Maiasaura</texPath>
-                    <drawSize>3.5</drawSize>
+                    <drawSize>4.7</drawSize>
                     <shadowData>
                         <volume>(0.8, 0.8, 0.8)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -161,7 +161,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Maiasaura/Dessicated_Maiasaura</texPath>
-                    <drawSize>4.5</drawSize>
+                    <drawSize>4.7</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
