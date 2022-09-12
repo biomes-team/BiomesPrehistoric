@@ -148,7 +148,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Minmi/Minmi</texPath>
-                    <drawSize>0.5</drawSize>
+                    <drawSize>1</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.1)</offset>
@@ -156,13 +156,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Minmi/Dessicated_Minmi</texPath>
-                    <drawSize>0.5</drawSize>
+                    <drawSize>1</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Minmi/Minmi</texPath>
-                    <drawSize>0.75</drawSize>
+                    <drawSize>1.75</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.125)</offset>
@@ -170,13 +170,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Minmi/Dessicated_Minmi</texPath>
-                    <drawSize>0.75</drawSize>
+                    <drawSize>1.75</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Minmi/Minmi</texPath>
-                    <drawSize>1</drawSize>
+                    <drawSize>2.5</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -184,7 +184,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Minmi/Dessicated_Minmi</texPath>
-                    <drawSize>1</drawSize>
+                    <drawSize>2.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
