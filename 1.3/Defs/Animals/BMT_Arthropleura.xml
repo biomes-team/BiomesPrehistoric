@@ -20,7 +20,7 @@
             <baseHealthScale>1</baseHealthScale>
             <baseHungerRate>0.425</baseHungerRate>
             <foodType>OmnivoreRoughAnimal</foodType>
-            <predator>true</predator>
+            <predator>false</predator>
             <maxPreyBodySize>0.80</maxPreyBodySize>
             <wildness>0.75</wildness>
             <roamMtbDays>3</roamMtbDays>
