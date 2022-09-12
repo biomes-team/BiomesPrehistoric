@@ -165,6 +165,9 @@
             <li>
                 <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusB</texPath>
             </li>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusC</texPath>
+            </li>
         </alternateGraphics>
         <lifeStages>
             <li>
