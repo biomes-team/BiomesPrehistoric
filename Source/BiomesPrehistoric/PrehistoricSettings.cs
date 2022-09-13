@@ -1,5 +1,4 @@
 ﻿using System;
-using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -58,11 +57,18 @@ namespace BiomesPrehistoric
         {
             return "BMT_BiomesPrehistoric".Translate();
         }
+        
+        private static Vector2 _scrollPos = Vector2.zero;
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            Listing_Standard mainListing = new Listing_Standard();
-            mainListing.Begin(inRect);
+            var rect = new Rect(0.0f, 0.0f, inRect.width, 800f);
+            rect.xMax *= 0.95f;
+        
+            var mainListing = new Listing_Standard();
+            mainListing.Begin(rect);
+            GUI.EndGroup();
+            Widgets.BeginScrollView(inRect, ref _scrollPos, rect);
 
             mainListing.Label("BMT_PrehistoricSettingsDesc".Translate());
 
@@ -90,7 +96,7 @@ namespace BiomesPrehistoric
             mainListing.Gap();
             mainListing.CheckboxLabeled("BMT_MainMenuMusicEnabled".Translate(), ref mod.settings.mainMenuMusic);
 
-            mainListing.End();
+            Widgets.EndScrollView();
             base.DoSettingsWindowContents(inRect);
 
         }
