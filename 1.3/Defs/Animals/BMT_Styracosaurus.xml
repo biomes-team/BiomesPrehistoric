@@ -29,7 +29,7 @@
             <roamMtbDays>2.5</roamMtbDays>
             <lifeExpectancy>72</lifeExpectancy>
             <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+            <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
             <trainability>Intermediate</trainability>
             <ageGenerationCurve>
                 <points>
