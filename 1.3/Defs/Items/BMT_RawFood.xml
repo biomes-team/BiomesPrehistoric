@@ -78,6 +78,8 @@
 			</li>
 		</comps>
 		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
 			<foodType>Seed</foodType>
 		</ingestible>
 	</ThingDef>

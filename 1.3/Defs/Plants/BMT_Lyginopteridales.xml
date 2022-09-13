@@ -11,7 +11,7 @@
       <Nutrition>0.50</Nutrition>
     </statBases>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Lyginopteridales</texPath>
+      <texPath>BMT_Prehistoric/Plant/Lyginopteridales/LyginopteridalesGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
@@ -20,7 +20,7 @@
       <fertilityMin>0.05</fertilityMin>
       <fertilitySensitivity>0.3</fertilitySensitivity>
       <growDays>2.5</growDays>
-      <!--leaflessGraphicPath>Things/Plant/Grass_Leafless</leaflessGraphicPath-->
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Lyginopteridales/LyginopteridalesLeafless</leaflessGraphicPath>
       <harvestWork>40</harvestWork>
       <visualSizeRange>0.9~1.3</visualSizeRange>
       <topWindExposure>0.4</topWindExposure>

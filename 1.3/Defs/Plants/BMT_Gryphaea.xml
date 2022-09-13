@@ -34,16 +34,53 @@
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.3</fertilitySensitivity>
-			<growDays>3</growDays>
+			<growDays>12</growDays>
+			<harvestYield>5</harvestYield>
 			<maxMeshCount>9</maxMeshCount>
-			<harvestWork>80</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestWork>400</harvestWork>
+			<harvestedThingDef>BMT_RawGryphaea</harvestedThingDef>
 			<visualSizeRange>0.7~0.85</visualSizeRange>
-			<topWindExposure>0.4</topWindExposure>
+			<topWindExposure>0.1</topWindExposure>
 			<wildClusterRadius>2</wildClusterRadius>
 			<wildClusterWeight>50</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<interferesWithRoof>false</interferesWithRoof>
 		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>BMT_RawGryphaea</defName>
+		<label>gryphaea shellfish</label>
+		<description>Raw gryphaea. Known as “the devil’s toenails”.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Resource/Raw/RawGryphaea</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<Mass>0.01</Mass>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>RawBad</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<thingCategories>
+			<li>BMT_ShellFish</li>
+			<li MayRequire="vanillaexpanded.vcef">VCEF_RawFishCategory</li>
+		</thingCategories>
+		<generateCommonality>0</generateCommonality>
 	</ThingDef>
 
 </Defs>

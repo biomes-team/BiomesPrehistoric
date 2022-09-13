@@ -22,7 +22,7 @@
       </li>
     </modExtensions>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/BogMoss</texPath>
+      <texPath>BMT_Prehistoric/Plant/BogMoss/BogMossGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
@@ -31,7 +31,7 @@
       <fertilityMin>0.05</fertilityMin>
       <fertilitySensitivity>0</fertilitySensitivity>
       <growDays>4</growDays>
-      <!--leaflessGraphicPath>Things/Plant/Moss_Leafless</leaflessGraphicPath-->
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/BogMoss/BogMossLeafless</leaflessGraphicPath>
       <harvestWork>60</harvestWork>
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>0.4~0.6</visualSizeRange>

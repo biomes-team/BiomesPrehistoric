@@ -6,7 +6,7 @@
     <label>dawn redwood</label>
     <description>The shortest of the redwood. i like the name primal world mammoth tree.</description>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Metasequoia</texPath>
+      <texPath>BMT_Prehistoric/Plant/Metasequoia/MetasequoiaGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.14, 0.32, 0.12)</volume>
@@ -19,7 +19,7 @@
     </statBases>
     <plant>
       <growDays>27</growDays>
-      <leaflessGraphicPath>Things/Plant/TreeMaple_Leafless</leaflessGraphicPath>
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Metasequoia/MetasequoiaLeafless</leaflessGraphicPath>
       <visualSizeRange>1.7~2.8</visualSizeRange>
       <harvestWork>800</harvestWork>
       <harvestYield>27</harvestYield>

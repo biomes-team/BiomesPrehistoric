@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="DeciduousTreeBase">
     <defName>BMT_Glossopteris</defName>
     <label>tongue fern</label>
     <description>Long considered a fern after its discovery, it was later assigned to the gymnosperms. But its relationships with other groups remain obscure.</description>
@@ -12,7 +12,7 @@
       <Mass>100</Mass>
     </statBases>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Glossopteris</texPath>
+      <texPath>BMT_Prehistoric/Plant/Glossopteris/GlossopterisGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.24, 0.3, 0.15)</volume>
@@ -23,8 +23,9 @@
     <plant>
       <lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
       <growDays>5</growDays>
-      <!--leaflessGraphicPath>Things/Plant/SaguaroCactus_Leafless</leaflessGraphicPath-->
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Glossopteris/GlossopterisLeafless</leaflessGraphicPath>
       <harvestWork>300</harvestWork>
+      <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
       <harvestYield>15</harvestYield>
       <harvestMinGrowth>0.2</harvestMinGrowth>
       <topWindExposure>0.08</topWindExposure>

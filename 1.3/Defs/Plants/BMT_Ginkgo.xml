@@ -6,7 +6,7 @@
     <label>silver apricot tree</label>
     <description>silver apricot "jp", silver fruit "ch", white fruit "ch". Ginkgo nuts "weak poison"?</description>
     <graphicData>
-      <texPath>BMT_Prehistoric/Plant/Ginkgo</texPath>
+      <texPath>BMT_Prehistoric/Plant/Ginkgo/GinkgoGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.2, 0.3, 0.13)</volume>
@@ -19,7 +19,7 @@
     </statBases>
     <plant>
       <growDays>13</growDays>
-      <leaflessGraphicPath>Things/Plant/TreeWillow_Leafless</leaflessGraphicPath>
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Ginkgo/GinkgoLeafless</leaflessGraphicPath>
       <harvestWork>800</harvestWork>
       <harvestYield>27</harvestYield>
       <wildClusterRadius>17</wildClusterRadius>
