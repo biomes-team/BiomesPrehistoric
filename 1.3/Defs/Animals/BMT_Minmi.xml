@@ -17,7 +17,7 @@
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
-            <meatLabel>ankylosid meat</meatLabel>
+            <useMeatFrom>BMT_Ankylosaurus</useMeatFrom>
             <body>BMT_QuadrupedWithArmorBeakAndTailWeapon</body>
             <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>true</herdAnimal>
