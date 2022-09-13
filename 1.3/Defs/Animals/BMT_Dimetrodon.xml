@@ -18,8 +18,8 @@
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
             <leatherDef>BMT_DinoHideThin</leatherDef>
             <herdAnimal>false</herdAnimal>
-            <baseBodySize>1</baseBodySize>
-            <baseHealthScale>1</baseHealthScale>
+            <baseBodySize>2</baseBodySize>
+            <baseHealthScale>1.2</baseHealthScale>
             <baseHungerRate>0.5</baseHungerRate>
             <foodType>CarnivoreAnimal</foodType>
             <predator>true</predator>
@@ -29,7 +29,7 @@
             <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>40</lifeExpectancy>
             <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+            <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
             <trainability>None</trainability>
             <lifeStageAges>
                 <li>
