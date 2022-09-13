@@ -17,6 +17,8 @@ namespace BiomesPrehistoric
 
             harmony.PatchAll();
             Log.Message("Biomes! Prehistoric initialized");
+            
+            BiomesPrehistoricMod.UpdateMainMenuSongDef();
         }
 
         public static bool IsLargeDino(ThingDef def)

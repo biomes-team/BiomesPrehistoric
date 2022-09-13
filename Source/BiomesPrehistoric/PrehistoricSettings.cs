@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using HarmonyLib;
+using RimWorld;
 using UnityEngine;
 using Verse;
 
@@ -24,6 +22,9 @@ namespace BiomesPrehistoric
 
         // Prehistoric plant commonality. Only active with DinoAndPlant.
         public int plantCommonality = 100;
+        
+        // Custom music on main menu enabled
+        public bool mainMenuMusic = true;
 
         // this is what saves the settings when the user closes the game
         public override void ExposeData()
@@ -31,6 +32,7 @@ namespace BiomesPrehistoric
             Scribe_Values.Look(ref spawnOption, "spawnOption", SpawnOption.DinoAndPlant);
             Scribe_Values.Look(ref animalCommonality, "animalCommonality", 100, true);
             Scribe_Values.Look(ref plantCommonality, "plantCommonality", 100, true);
+            Scribe_Values.Look(ref mainMenuMusic, "mainMenuMusic", true, true);
         }
     }
 
@@ -85,9 +87,18 @@ namespace BiomesPrehistoric
                 }
             }
 
+            mainListing.Gap();
+            mainListing.CheckboxLabeled("BMT_MainMenuMusicEnabled".Translate(), ref mod.settings.mainMenuMusic);
+
             mainListing.End();
             base.DoSettingsWindowContents(inRect);
 
+        }
+
+        public static void UpdateMainMenuSongDef()
+        {
+            var def = DefDatabase<SongDef>.GetNamedSilentFail(mod.settings.mainMenuMusic ? "EntrySongPrehistoric" : "EntrySong");
+            if (def != null) SongDefOf.EntrySong = def;
         }
 
         public static void SpawnPicker(Listing_Standard listing, bool active, Action action, string label, string desc, string iconPath)

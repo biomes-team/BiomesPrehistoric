@@ -19,7 +19,7 @@
   </SoundDef>
 
   <SongDef>
-    <defName>EntrySong</defName>
+    <defName>EntrySongPrehistoric</defName>
     <clipPath>BMT_Prehistoric_Music/Little_Guy</clipPath>
     <allowedTimeOfDay>Day</allowedTimeOfDay>
   </SongDef>
