@@ -22,7 +22,7 @@
             <herdAnimal>true</herdAnimal>
             <baseBodySize>0.55</baseBodySize>
             <baseHealthScale>0.75</baseHealthScale>
-            <baseHungerRate>0.15</baseHungerRate>
+            <baseHungerRate>0.07</baseHungerRate>
             <foodType>CarnivoreAnimal</foodType>
             <predator>true</predator>
             <maxPreyBodySize>0.4</maxPreyBodySize>

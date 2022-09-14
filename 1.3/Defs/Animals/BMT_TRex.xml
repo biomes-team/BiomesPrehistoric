@@ -10,6 +10,8 @@
             <MarketValue>2500</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<FilthRate>12</FilthRate>
+			<CaravanRidingSpeedFactor>1.4</CaravanRidingSpeedFactor>
             <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
         </statBases>
@@ -19,7 +21,7 @@
             <body>BMT_BipedWithClawsTeethAndTailTwoDH</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>7</baseBodySize>
+            <baseBodySize>5.5</baseBodySize>
             <baseHealthScale>4.5</baseHealthScale>
             <baseHungerRate>0.60</baseHungerRate>
             <foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>

@@ -94,9 +94,9 @@
 			<maxPreyBodySize>2.0</maxPreyBodySize>
 			<baseBodySize>4.8</baseBodySize>
 			<baseHealthScale>3</baseHealthScale>
-			<baseHungerRate>0.28</baseHungerRate>
+			<baseHungerRate>0.30</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
-			<leatherDef>Leather_Lizard</leatherDef>
+			<leatherDef>BMT_DinoHideHeavy</leatherDef>
 			<wildness>0.83</wildness>
 			<trainability>Intermediate</trainability>
 			<petness>0.05</petness>
