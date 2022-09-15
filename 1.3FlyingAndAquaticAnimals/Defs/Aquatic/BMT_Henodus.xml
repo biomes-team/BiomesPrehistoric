@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_HenodusBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.5</MoveSpeed>
+			<SwimSpeed>0.5</SwimSpeed>
+		</statFactors>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/HenodusSubmerged</texPath>
+					<drawSize>0.5</drawSize>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_HenodusJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+			<SwimSpeed>0.9</SwimSpeed>
+		</statFactors>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/HenodusSubmerged</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_HenodusAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/HenodusSubmerged</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</LifeStageDef>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Henodus</defName>
+		<label>henodus</label>
+		<description>A small prehistoric turtle. Its weak legs mean that it spends very little time on land, likely only going on land to lay eggs. It uses baleen in its mouth similar to whales to filter feed.\n\nScientific name:Henodus chelyops</description>
+		<statBases>
+			<MoveSpeed>0.5</MoveSpeed>
+			<SwimSpeed>5</SwimSpeed>
+			<MarketValue>750</MarketValue>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+		</statBases>
+		<tools>
+			<li>
+				<label>beak</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.4</cooldownTime>
+				<linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.01</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_EggHenodusFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>30</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>2</min>
+					<max>6</max>
+				</eggCountRange>
+			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Filtering.</consumingFoodReportString>
+			</li>
+		</comps>
+		<race>
+			<body>TurtleLike</body>
+			<baseBodySize>1</baseBodySize>
+			<baseHungerRate>1.8</baseHungerRate>
+			<baseHealthScale>3.5</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>BMT_PrimordialChitin</leatherDef>
+			<wildness>0.55</wildness>
+			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
+			<lifeExpectancy>140</lifeExpectancy>
+			<useMeatFrom>BiomesIslands_SeaTurtle</useMeatFrom>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.7</minAge>
+					<soundWounded>Pawn_Tortoise_Wounded</soundWounded>
+					<soundDeath>Pawn_Tortoise_Death</soundDeath>
+					<soundCall>Pawn_Tortoise_Call</soundCall>
+					<soundAngry>Pawn_Tortoise_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
+				<stayOnTerrainTag>WaterFront</stayOnTerrainTag>
+			</li>
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Henodus</defName>
+		<label>henodus</label>
+		<race>BMT_Henodus</race>
+		<combatPower>30</combatPower>
+		<ecoSystemWeight>1.50</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<drawSize>0.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<drawSize>0.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.45, 0.45, 0.45)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_EggHenodusFertilized</defName>
+		<label>Henodus egg (fert.)</label>
+		<description>A fertilized Henodus egg. If all goes well, it should hatch into a baby Henodus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(104,70,45)</color>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>35.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>9</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Henodus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>
