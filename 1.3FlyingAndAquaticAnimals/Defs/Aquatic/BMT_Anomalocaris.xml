@@ -144,7 +144,7 @@
 			<li Class="Swimming.AquaticExtension">
 				<aquatic>true</aquatic>
 			</li>
-			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl" MayRequire="BiomesTeam.BiomesCore">
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
 		</modExtensions>

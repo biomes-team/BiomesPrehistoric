@@ -2,7 +2,7 @@
 <Defs>
 
     <LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_DiplocaulusBabyTiny</defName>
+        <defName>BMT_OnchiodonBabyTiny</defName>
         <bodySizeFactor>0.1</bodySizeFactor>
         <foodMaxFactor>4</foodMaxFactor>
         <statFactors>
@@ -13,15 +13,15 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
-                <drawSize>1.2</drawSize>
+                <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
+                <drawSize>1.4</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_DiplocaulusJuvenile</defName>
+        <defName>BMT_OnchiodonJuvenile</defName>
         <label>juvenile</label>
         <voxPitch>1.2</voxPitch>
         <bodySizeFactor>0.5</bodySizeFactor>
@@ -38,15 +38,15 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
-                <drawSize>1.5</drawSize>
+                <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
+                <drawSize>1.7</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
-        <defName>BMT_DiplocaulusAdult</defName>
+        <defName>BMT_OnchiodonAdult</defName>
         <label>adult</label>
         <visible>false</visible>
         <reproductive>true</reproductive>
@@ -54,20 +54,20 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
-                <drawSize>1.8</drawSize>
+                <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
+                <drawSize>2.0</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
     </LifeStageDef>
 
     <ThingDef ParentName="AnimalThingBase">
-    <defName>BMT_Diplocaulus</defName>
-    <label>diplocaulus</label>
-    <description>The Diplocaulus closely resembles modern salamanders and newts but is easily identified for its boomerang shaped skull. Some scientists think that its skull shape acted as a hydrofoil, allowing it to move up and down in the water with ease. \n\nScientific name: Diplocaulus salamandroides</description>
+    <defName>BMT_Onchiodon</defName>
+    <label>onchiodon</label>
+    <description>The "Manebacher Saurier" looks like today's crocodiles and was a similarly voracious predator. It was not a reptile but an amphibian and thus more closely related to today's giant salamander. \n\nScientific name: Onchiodon manebachensis</description>
     <statBases>
-		<MoveSpeed>3.2</MoveSpeed>
-		<SwimSpeed MayRequire="biomesteam.biomesislands">7.5</SwimSpeed>
+		<MoveSpeed>4.5</MoveSpeed>
+		<SwimSpeed MayRequire="biomesteam.biomesislands">5.5</SwimSpeed>
 		<MarketValue>450</MarketValue>
 		<ComfyTemperatureMin>0</ComfyTemperatureMin>
 		<ComfyTemperatureMax>60</ComfyTemperatureMax>
@@ -95,8 +95,8 @@
 			<capacities>
 				<li>Bite</li>
 			</capacities>
-			<power>11</power>
-			<cooldownTime>2.6</cooldownTime>
+			<power>16</power>
+			<cooldownTime>2</cooldownTime>
 			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 			<chanceFactor>0.8</chanceFactor>
 		</li>
@@ -112,26 +112,16 @@
 			<chanceFactor>0.2</chanceFactor>
 		</li>
     </tools>
-    <modExtensions>
-        <li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
-            <isBottomFeeder>true</isBottomFeeder>
-        </li>
-    </modExtensions>
     <comps>
 		<li Class="CompProperties_EggLayer">
-			<eggFertilizedDef>BMT_DiplocaulusEggFertilized</eggFertilizedDef>
+			<eggFertilizedDef>BMT_OnchiodonEggFertilized</eggFertilizedDef>
 			<eggFertilizationCountMax>1</eggFertilizationCountMax>
 			<eggLayIntervalDays>15</eggLayIntervalDays>
 			<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			<eggCountRange>
-				<min>3</min>
-				<max>6</max>
+				<min>2</min>
+				<max>4</max>
 			</eggCountRange>
-		</li>
-		<li Class="BiomesCore.CompProperties_BottomFeeder">
-			<feedingTerrainTag>Water</feedingTerrainTag>
-            <consumingFoodReportString>Fishing.</consumingFoodReportString>
-            <effecterDef>EatFish</effecterDef>
 		</li>
     </comps>
     <race>
@@ -140,9 +130,9 @@
 		<baseBodySize>0.30</baseBodySize>
 		<baseHealthScale>0.75</baseHealthScale>
 		<baseHungerRate>0.30</baseHungerRate>
-		<foodType>CarnivoreAnimal</foodType>
+		<foodType>CarnivoreAnimalStrict</foodType>
 	    <predator>true</predator>
-	    <maxPreyBodySize>0.25</maxPreyBodySize>
+	    <maxPreyBodySize>0.35</maxPreyBodySize>
 		<meatLabel>amphibian meat</meatLabel>
 		<leatherDef>Leather_Lizard</leatherDef>
 		<wildness>0.25</wildness>
@@ -151,15 +141,15 @@
 		<lifeExpectancy>17</lifeExpectancy>
 		<lifeStageAges>
 			<li>
-				<def>BMT_DiplocaulusBabyTiny</def>
+				<def>BMT_OnchiodonBabyTiny</def>
 				<minAge>0</minAge>
 			</li>
 			<li>
-				<def>BMT_DiplocaulusJuvenile</def>
+				<def>BMT_OnchiodonJuvenile</def>
 				<minAge>0.09</minAge>
 			</li>
 			<li>
-				<def>BMT_DiplocaulusAdult</def>
+				<def>BMT_OnchiodonAdult</def>
 				<minAge>0.25</minAge> 
 				<soundWounded>BMT_Diplocaulus_Wounded</soundWounded>
 				<soundDeath>BMT_Diplocaulus_Death</soundDeath>
@@ -177,9 +167,9 @@
   </ThingDef>
   
    <ThingDef ParentName="EggFertBase">
-    <defName>BMT_DiplocaulusEggFertilized</defName>
-    <label>diplocaulus egg (fert.)</label>
-    <description>A fertilized Diplocaulus egg. If all goes well, it should hatch into a baby diplocaulus. It can be eaten raw, but it's much better cooked.</description>
+    <defName>BMT_OnchiodonEggFertilized</defName>
+    <label>onchiodon egg (fert.)</label>
+    <description>A fertilized onchiodon egg. If all goes well, it should hatch into a baby onchiodon. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
       <color>(218,218,216)</color>
@@ -191,46 +181,46 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>5.5</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Diplocaulus</hatcherPawn>
+        <hatcherPawn>BMT_Onchiodon</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
   
     <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Diplocaulus</defName>
-    <label>diplocaulus</label>
-    <race>BMT_Diplocaulus</race>
+    <defName>BMT_Onchiodon</defName>
+    <label>onchiodon</label>
+    <race>BMT_Onchiodon</race>
     <combatPower>50</combatPower>
     <ecoSystemWeight>0.35</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
+          <drawSize>1.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
+          <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
+          <drawSize>1.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
+          <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
-          <drawSize>1.8</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
+          <drawSize>2.0</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
-          <drawSize>1.8</drawSize>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
+          <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

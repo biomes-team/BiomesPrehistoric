@@ -69,7 +69,7 @@
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
         <defName>BMT_GiantAmmonite</defName>
         <label>giant ammonite</label>
-        <description>A giant ammonite.</description>
+        <description>Closely related to modern octopus and squids, these prehistoric molluscs had curled shells. Due to how common they were on Earth, they make for excellent index fossils. They had a varied diet, from scavenging off the kills of other animals to predating on smaller fish. They are often predated upon by larger sea life. This specific type is larger than most others of its kind.</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
             <SwimSpeed>4</SwimSpeed>

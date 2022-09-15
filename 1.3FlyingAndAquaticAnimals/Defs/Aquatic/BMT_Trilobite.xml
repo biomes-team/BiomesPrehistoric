@@ -161,7 +161,7 @@
 			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
 				<stayOnTerrainTag>Beach</stayOnTerrainTag>
 			</li>
-			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl" MayRequire="BiomesTeam.BiomesCore">
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
 		</modExtensions>

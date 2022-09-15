@@ -122,7 +122,7 @@
 		</race>
 		<uiIconScale>1.5</uiIconScale>
 		<modExtensions>
-			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl" MayRequire="BiomesTeam.BiomesCore">
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
 		</modExtensions>
