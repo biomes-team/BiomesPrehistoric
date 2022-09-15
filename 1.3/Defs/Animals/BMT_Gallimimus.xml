@@ -17,7 +17,7 @@
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
-            <leatherDef>BMT_DinoHideThin</leatherDef>
+            <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.5</baseBodySize>
             <baseHealthScale>1.5</baseHealthScale>
@@ -60,6 +60,11 @@
                 <eggLayIntervalDays>24</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>3~5</eggCountRange>
+            </li>
+			<li Class="CompProperties_Shearable">
+                <woolDef>BMT_DinoFeather</woolDef>
+                <shearIntervalDays>30</shearIntervalDays>
+                <woolAmount>15</woolAmount>
             </li>
         </comps>
         <tools>

@@ -83,6 +83,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
 		<BMT_Minmi>0.3</BMT_Minmi>
 		<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
+		<BMT_Panphagia>0.7</BMT_Panphagia>
 		<BMT_Parasaur>0.4</BMT_Parasaur>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
@@ -129,6 +130,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Minmi>0.3</BMT_Minmi>
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
+		<BMT_Panphagia>0.7</BMT_Panphagia>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Pulmonoscorpius>0.6</BMT_Pulmonoscorpius>
 		<BMT_Spinosaurus>0.04</BMT_Spinosaurus>
@@ -229,6 +231,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
 		<BMT_Lystrosaur>1</BMT_Lystrosaur>
 		<BMT_Meganeura>0.5</BMT_Meganeura>
+		<BMT_Nanosaurus>1</BMT_Nanosaurus>
 		<BMT_Ouranosaurus>0.8</BMT_Ouranosaurus>
 		<BMT_Oviraptor>0.2</BMT_Oviraptor>
 		<BMT_Parasaur>0.4</BMT_Parasaur>
@@ -249,6 +252,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
 		<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
 		<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
+		<BMT_Nanosaurus>1</BMT_Nanosaurus>
 		<BMT_Utahraptor>0.3</BMT_Utahraptor>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
