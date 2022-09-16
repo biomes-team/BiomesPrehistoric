@@ -17,7 +17,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/LiopleurodonSubmerged</texPath>
-                <drawSize>1.3</drawSize>
+                <drawSize>2</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
@@ -42,7 +42,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/LiopleurodonSubmerged</texPath>
-                <drawSize>2.4</drawSize>
+                <drawSize>3.2</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>
@@ -58,7 +58,7 @@
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
                 <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/LiopleurodonSubmerged</texPath>
-                <drawSize>3.5</drawSize>
+                <drawSize>4</drawSize>
             </bodyGraphicData>
         </li>
         </modExtensions>

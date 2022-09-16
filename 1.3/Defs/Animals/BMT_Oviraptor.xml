@@ -111,10 +111,19 @@
         <race>BMT_Oviraptor</race>
         <combatPower>85</combatPower>
         <wildGroupSize>1~2</wildGroupSize>
+        <alternateGraphicChance>0.66</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Oviraptor/OviraptorB</texPath>
+            </li>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Oviraptor/OviraptorC</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Oviraptor/Oviraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Oviraptor/OviraptorA</texPath>
                     <drawSize>1.1</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
@@ -124,7 +133,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Oviraptor/Oviraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Oviraptor/OviraptorA</texPath>
                     <drawSize>1.4</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
@@ -138,7 +147,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Oviraptor/Oviraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Oviraptor/OviraptorA</texPath>
                     <drawSize>2.8</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>

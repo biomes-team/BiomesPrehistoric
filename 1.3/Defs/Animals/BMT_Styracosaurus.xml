@@ -166,10 +166,16 @@
         <race>BMT_Styracosaurus</race>
         <combatPower>70</combatPower>
         <wildGroupSize>5~10</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Styracosaurus/StyracosaurusB</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Styracosaurus/StyracosaurusA</texPath>
                     <drawSize>3.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -183,7 +189,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Styracosaurus/StyracosaurusA</texPath>
                     <drawSize>4</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
@@ -197,7 +203,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Styracosaurus/Styracosaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Styracosaurus/StyracosaurusA</texPath>
                     <drawSize>5</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>

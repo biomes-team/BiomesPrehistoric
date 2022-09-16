@@ -113,6 +113,12 @@
         <race>BMT_Carnotaurus</race>
         <combatPower>260</combatPower>
         <wildGroupSize>1~4</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Carnotaurus/CarnotaurusB</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>

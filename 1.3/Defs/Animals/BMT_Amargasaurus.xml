@@ -159,13 +159,21 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/AmargasaurusMale</texPath>
                     <drawSize>4.9</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
                     </shadowData>
                 </bodyGraphicData>
+                <femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/AmargasaurusFemale</texPath>
+                    <drawSize>4.9</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Amargasaurus/Dessicated_Amargasaurus</texPath>
                     <drawSize>4.9</drawSize>
@@ -173,13 +181,21 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/AmargasaurusMale</texPath>
                     <drawSize>6.4</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
                     </shadowData>
                 </bodyGraphicData>
+                <femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/AmargasaurusFemale</texPath>
+                    <drawSize>6.4</drawSize>
+                    <shadowData>
+                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Amargasaurus/Dessicated_Amargasaurus</texPath>
                     <drawSize>6.4</drawSize>
@@ -187,13 +203,21 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/Amargasaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/AmargasaurusMale</texPath>
                     <drawSize>8.8</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
                     </shadowData>
                 </bodyGraphicData>
+                <femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Amargasaurus/AmargasaurusFemale</texPath>
+                    <drawSize>8.8</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Amargasaurus/Dessicated_Amargasaurus</texPath>
                     <drawSize>8.8</drawSize>

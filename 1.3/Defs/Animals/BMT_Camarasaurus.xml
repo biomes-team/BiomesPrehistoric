@@ -160,6 +160,12 @@
         <race>BMT_Camarasaurus</race>
         <combatPower>75</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusB</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
