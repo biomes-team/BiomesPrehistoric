@@ -31,7 +31,7 @@ BMT_Kaprosuchus - Swampy areas and along rivers predominantly. Warmer areas.
 BMT_Kentrosaurus - Temperate to warmer forests, more common near shorelines.
 BMT_Leaellynasaura - Cold biomes.
 BMT_Lystrosaur - Forested biomes and plains.
-BMT_Maisaura - Warmer forested biomes, and arid shrubland maybe.
+BMT_Maiasaura - Warmer forested biomes, and arid shrubland maybe.
 BMT_Meganeura - Warmer forested biomes.
 BMT_Minmi - Forests AND swamps.
 BMT_Nanosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
@@ -62,7 +62,7 @@ BMT_Troodon - Temperate to Boreal.
 BMT_Utahraptor - Arid shrubland and desert, most commonly if there is a river.
 BMT_Velociraptor - Desert and arid shrubland.
 BMT_Wannanosaurus - Tropical forest.
-BMT_Yinglong - Temperate to arid, no swamps.
+BMT_Yinlong - Temperate to arid, no swamps.
 BMT_Yutyrannus - Cold and temperate biomes.
 -->
 
@@ -93,7 +93,6 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>0.9</BMT_Lystrosaur>
 		<BMT_Maiasaura>0.4</BMT_Maiasaura>
-		<BMT_Maisaura>0.1</BMT_Maisaura>
 		<BMT_Minmi>0.3</BMT_Minmi>
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
 		<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
@@ -112,7 +111,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_TRex>0.1</BMT_TRex>
 		<BMT_Triceratops>0.3</BMT_Triceratops>
 		<BMT_Troodon>0.4</BMT_Troodon>
-		<BMT_Yinglong>0.2</BMT_Yinglong>
+		<BMT_Yinlong>0.2</BMT_Yinlong>
 		<BMT_Yutyrannus>0.2</BMT_Yutyrannus>
 	</value>
 </Operation>
@@ -143,7 +142,6 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>1.2</BMT_Lystrosaur>
 		<BMT_Maiasaura>0.4</BMT_Maiasaura>
-		<BMT_Maisaura>0.2</BMT_Maisaura>
 		<BMT_Meganeura>0.5</BMT_Meganeura>
 		<BMT_Minmi>0.3</BMT_Minmi>
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
@@ -186,7 +184,6 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>1</BMT_Lystrosaur>
 		<BMT_Maiasaura>0.4</BMT_Maiasaura>
-		<BMT_Maisaura>0.8</BMT_Maisaura>
 		<BMT_Meganeura>0.5</BMT_Meganeura>
 		<BMT_Onchiodon>0.3</BMT_Onchiodon>
 		<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
@@ -225,7 +222,6 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
 		<BMT_Lystrosaur>1.2</BMT_Lystrosaur>
 		<BMT_Maiasaura>0.4</BMT_Maiasaura>
-		<BMT_Maisaura>0.5</BMT_Maisaura>
 		<BMT_Meganeura>0.5</BMT_Meganeura>
 		<BMT_Onchiodon>0.7</BMT_Onchiodon>
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
@@ -266,7 +262,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_TRex>0.3</BMT_TRex>
 		<BMT_Utahraptor>0.4</BMT_Utahraptor>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
-		<BMT_Yinglong>0.5</BMT_Yinglong>
+		<BMT_Yinlong>0.5</BMT_Yinlong>
 	</value>
 </Operation>
 

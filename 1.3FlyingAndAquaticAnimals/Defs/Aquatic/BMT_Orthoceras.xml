@@ -16,9 +16,15 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
+				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedA</texPath>
                 <drawSize>2.2</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+                <li>
+                    <texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedB</texPath>
+                    <drawSize>2.2</drawSize>
+                </li>
+            </alternateGraphicsData>
         </li>
         </modExtensions>
     </LifeStageDef>
@@ -44,6 +50,12 @@
 				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
                 <drawSize>2.6</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+                <li>
+                    <texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedB</texPath>
+                    <drawSize>2.6</drawSize>
+                </li>
+            </alternateGraphicsData>
         </li>
         </modExtensions>
     </LifeStageDef>
@@ -62,6 +74,12 @@
 				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
                 <drawSize>3.2</drawSize>
             </bodyGraphicData>
+            <alternateGraphicsData>
+                <li>
+                    <texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedB</texPath>
+                    <drawSize>3.2</drawSize>
+                </li>
+            </alternateGraphicsData>
         </li>
         </modExtensions>
     </LifeStageDef>
@@ -169,10 +187,16 @@
         <combatPower>60</combatPower>
 		<wildGroupSize>1</wildGroupSize>
 		<ecoSystemWeight>50</ecoSystemWeight>
+        <alternateGraphicChance>0.5</alternateGraphicChance>
+            <alternateGraphics>
+                <li>
+                    <texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasB</texPath>
+                </li>
+            </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasA</texPath>
                     <drawSize>2.2</drawSize>
 					<color>(180,170,160)</color>
                     <shadowData>
@@ -187,7 +211,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasA</texPath>
                     <drawSize>2.6</drawSize>
 					<color>(180,170,160)</color>
                     <shadowData>
@@ -202,7 +226,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Orthoceras</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasA</texPath>
                     <drawSize>3.2</drawSize>
                     <shadowData>
                         <volume>(1, 0.5, 0.1)</volume>
