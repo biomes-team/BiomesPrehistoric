@@ -13,6 +13,21 @@
             <MoveSpeed>0.5</MoveSpeed>
             <SwimSpeed>0.5</SwimSpeed>
         </statFactors>
+        <modExtensions>
+            <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+                <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedA</texPath>
+                    <drawSize>1.9</drawSize>
+                </bodyGraphicData>
+                <alternateGraphicsData>
+                    <li>
+                        <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedB</texPath>
+                        <drawSize>1.9</drawSize>
+                    </li>
+                </alternateGraphicsData>
+            </li>
+        </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
@@ -29,6 +44,21 @@
             <MoveSpeed>0.9</MoveSpeed>
             <SwimSpeed>0.9</SwimSpeed>
         </statFactors>
+        <modExtensions>
+            <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+                <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedA</texPath>
+                    <drawSize>2.6</drawSize>
+                </bodyGraphicData>
+                <alternateGraphicsData>
+                    <li>
+                        <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedB</texPath>
+                        <drawSize>2.6</drawSize>
+                    </li>
+                </alternateGraphicsData>
+            </li>
+        </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
@@ -38,12 +68,27 @@
         <reproductive>true</reproductive>
         <milkable>true</milkable>
         <shearable>true</shearable>
+        <modExtensions>
+            <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+                <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedA</texPath>
+                    <drawSize>3.2</drawSize>
+                </bodyGraphicData>
+                <alternateGraphicsData>
+                    <li>
+                        <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedB</texPath>
+                        <drawSize>3.2</drawSize>
+                    </li>
+                </alternateGraphicsData>
+            </li>
+        </modExtensions>
     </LifeStageDef>
 
     <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
         <defName>BMT_Dunkleosteus</defName>
         <label>dunkleosteus</label>
-        <description>A large carnivore fish.\n\nScientific name: Dunkleosteus terrelli</description>
+        <description>A heavily armored fish from the late Devonian period, it lacked normal teeth but instead had tooth “plates.” Despite its large size and armoring, it was hunted by other predators of its time.\n\nScientific name: Dunkleosteus terrelli</description>
         <statBases>
             <MoveSpeed>0</MoveSpeed>
             <SwimSpeed>7</SwimSpeed>
@@ -142,12 +187,14 @@
 		<ecoSystemWeight>0.7</ecoSystemWeight>
 		<alternateGraphicChance>0.5</alternateGraphicChance>
 			<alternateGraphics>
-				<li><texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedA</texPath></li>
+				<li>
+                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusB</texPath>
+                </li>
 			</alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedB</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusA</texPath>
                     <drawSize>1.9</drawSize>
                     <shadowData>
                         <volume>(0.6, 0.5, 0.2)</volume>
@@ -161,7 +208,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedB</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusA</texPath>
                     <drawSize>2.6</drawSize>
                     <shadowData>
                         <volume>(0.8, 0.5, 0.2)</volume>
@@ -175,7 +222,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedB</texPath>
+                    <texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusA</texPath>
                     <drawSize>3.2</drawSize>
                     <shadowData>
                         <volume>(1, 0.5, 0.2)</volume>

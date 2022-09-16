@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<LifeStageDef ParentName="AnimalBaby">
-		<defName>BMT_KaiwhekeaBabyTiny</defName>
+		<defName>BMT_KronosaurusBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
@@ -12,14 +12,14 @@
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/KaiwhekeaSubmerged</texPath>
-					<drawSize>2.0</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
+					<drawSize>3.3</drawSize>
 				</bodyGraphicData>
 			</li>
 		</modExtensions>
 	</LifeStageDef>
 	<LifeStageDef>
-		<defName>BMT_KaiwhekeaJuvenile</defName>
+		<defName>BMT_KronosaurusJuvenile</defName>
 		<label>juvenile</label>
 		<voxPitch>1.2</voxPitch>
 		<bodySizeFactor>0.5</bodySizeFactor>
@@ -36,14 +36,14 @@
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/KaiwhekeaSubmerged</texPath>
-					<drawSize>3.4</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
+					<drawSize>6.4</drawSize>
 				</bodyGraphicData>
 			</li>
 		</modExtensions>
 	</LifeStageDef>
 	<LifeStageDef>
-		<defName>BMT_KaiwhekeaAdult</defName>
+		<defName>BMT_KronosaurusAdult</defName>
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
@@ -51,19 +51,19 @@
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/KaiwhekeaSubmerged</texPath>
-					<drawSize>4.8</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
+					<drawSize>9.5</drawSize>
 				</bodyGraphicData>
 			</li>
 		</modExtensions>
 	</LifeStageDef>
 	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
-		<defName>BMT_Kaiwhekea</defName>
-		<label>kaiwhekea</label>
-		<description>Despite weighing over one ton, it was actually rather small for a plesiosaur. Its mouth is filled with a multitude of small conical teeth that make it an expert at catching fish.\n\nScientific Name:Kaiwhekea katiki</description>
+		<defName>BMT_Kronosaurus</defName>
+		<label>kronosaurus</label>
+		<description>Kronosaurus was a carnivorous pliosaurs. It had an elongated head, a short neck, a stiff body propelled by four flippers, and a relatively short tail. The posterior flippers were larger than the anterior.\n\nScientific Name:Kronosaurus queenslandicus</description>
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
-			<SwimSpeed>8.8</SwimSpeed>
+			<SwimSpeed>10</SwimSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MarketValue>3400</MarketValue>
@@ -74,7 +74,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>16</power>
+				<power>26</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>
@@ -104,30 +104,30 @@
 			<body>Biomes_WhaleBody</body>
 			<leatherDef>BiomesIslands_Leather_Whaleskin</leatherDef>
 			<baseHungerRate>2.7</baseHungerRate>
-			<baseBodySize>3.8</baseBodySize>
-			<baseHealthScale>4.5</baseHealthScale>
+			<baseBodySize>5.5</baseBodySize>
+			<baseHealthScale>6.5</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
-			<maxPreyBodySize>0.9</maxPreyBodySize>
+			<maxPreyBodySize>4</maxPreyBodySize>
 			<gestationPeriodDays>30</gestationPeriodDays>
 			<packAnimal>false</packAnimal>
 			<wildness>0.95</wildness>
 			<petness>0.05</petness>
-			<lifeExpectancy>90</lifeExpectancy>
+			<lifeExpectancy>150</lifeExpectancy>
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<useMeatFrom>BMT_Elasmosaurus</useMeatFrom>
 			<lifeStageAges>
 				<li>
-					<def>BMT_KaiwhekeaBabyTiny</def>
+					<def>BMT_KronosaurusBabyTiny</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>BMT_KaiwhekeaJuvenile</def>
+					<def>BMT_KronosaurusJuvenile</def>
 					<minAge>1.5</minAge>
 				</li>
 				<li>
-					<def>BMT_KaiwhekeaAdult</def>
+					<def>BMT_KronosaurusAdult</def>
 					<minAge>2.5</minAge>
 				</li>
 			</lifeStageAges>
@@ -135,66 +135,54 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		<modExtensions>
-			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
-				<isBottomFeeder>true</isBottomFeeder>
-			</li>
-		</modExtensions>
-		<comps>
-			<li Class="BiomesCore.CompProperties_BottomFeeder">
-				<feedingTerrainTag>Water</feedingTerrainTag>
-				<consumingFoodReportString>Fishing.</consumingFoodReportString>
-				<effecterDef>EatFish</effecterDef>
-			</li>
-		</comps>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>BMT_Kaiwhekea</defName>
-		<label>kaiwhekea</label>
-		<race>BMT_Kaiwhekea</race>
+		<defName>BMT_Kronosaurus</defName>
+		<label>kronosaurus</label>
+		<race>BMT_Kronosaurus</race>
 		<combatPower>250</combatPower>
 		<ecoSystemWeight>3.0</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
-					<drawSize>2.0</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
+					<drawSize>3.3</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
-					<drawSize>2.0</drawSize>
+					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<drawSize>3.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
-					<drawSize>3.4</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
+					<drawSize>6.4</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
-					<drawSize>3.4</drawSize>
+					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<drawSize>6.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
-					<drawSize>4.8</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
+					<drawSize>9.5</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
-					<drawSize>4.8</drawSize>
+					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<drawSize>9.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
