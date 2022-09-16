@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<LifeStageDef ParentName="AnimalBaby">
-		<defName>BMT_KronosaurusBabyTiny</defName>
+		<defName>BMT_KaikaifiluBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
@@ -12,14 +12,14 @@
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
-					<drawSize>2.3</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/KaikaifiluSubmerged</texPath>
+					<drawSize>2</drawSize>
 				</bodyGraphicData>
 			</li>
 		</modExtensions>
 	</LifeStageDef>
 	<LifeStageDef>
-		<defName>BMT_KronosaurusJuvenile</defName>
+		<defName>BMT_KaikaifiluJuvenile</defName>
 		<label>juvenile</label>
 		<voxPitch>1.2</voxPitch>
 		<bodySizeFactor>0.5</bodySizeFactor>
@@ -36,14 +36,14 @@
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
-					<drawSize>4.4</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/KaikaifiluSubmerged</texPath>
+					<drawSize>4</drawSize>
 				</bodyGraphicData>
 			</li>
 		</modExtensions>
 	</LifeStageDef>
 	<LifeStageDef>
-		<defName>BMT_KronosaurusAdult</defName>
+		<defName>BMT_KaikaifiluAdult</defName>
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
@@ -51,22 +51,22 @@
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
-					<drawSize>6.5</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/KaikaifiluSubmerged</texPath>
+					<drawSize>6</drawSize>
 				</bodyGraphicData>
 			</li>
 		</modExtensions>
 	</LifeStageDef>
 	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
-		<defName>BMT_Kronosaurus</defName>
-		<label>kronosaurus</label>
-		<description>Kronosaurus was a carnivorous pliosaurs. It had an elongated head, a short neck, a stiff body propelled by four flippers, and a relatively short tail. The posterior flippers were larger than the anterior.\n\nScientific Name:Kronosaurus queenslandicus</description>
+		<defName>BMT_Kaikaifilu</defName>
+		<label>kaikaifilu</label>
+		<description>The largest of antarctic tylosaurs, it was one of the few large predators in its environment. It likely predates upon anything smaller than it.\n\nScientific Name:Kaikaifilu hervei</description>
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
-			<SwimSpeed>10</SwimSpeed>
+			<SwimSpeed>9.5</SwimSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
-			<MarketValue>3400</MarketValue>
+			<MarketValue>3800</MarketValue>
 		</statBases>
 		<tools>
 			<li>
@@ -74,7 +74,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>26</power>
+				<power>20</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>
@@ -92,7 +92,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>26</power>
+				<power>10</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -100,35 +100,39 @@
 			</li>
 		</tools>
 		<race>
+			<useMeatFrom>BMT_Mosasaurus</useMeatFrom>
 			<predator>true</predator>
 			<body>Biomes_WhaleBody</body>
 			<leatherDef>BiomesIslands_Leather_Whaleskin</leatherDef>
 			<baseHungerRate>2.7</baseHungerRate>
-			<baseBodySize>5.5</baseBodySize>
-			<baseHealthScale>6.5</baseHealthScale>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
-			<maxPreyBodySize>4</maxPreyBodySize>
+			<maxPreyBodySize>1.6</maxPreyBodySize>
 			<gestationPeriodDays>30</gestationPeriodDays>
 			<packAnimal>false</packAnimal>
 			<wildness>0.95</wildness>
 			<petness>0.05</petness>
-			<lifeExpectancy>150</lifeExpectancy>
+			<lifeExpectancy>70</lifeExpectancy>
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
-			<useMeatFrom>BMT_Elasmosaurus</useMeatFrom>
+			<manhunterOnDamageChance>0.90</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
-					<def>BMT_KronosaurusBabyTiny</def>
+					<def>BMT_KaikaifiluBabyTiny</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>BMT_KronosaurusJuvenile</def>
-					<minAge>1.5</minAge>
+					<def>BMT_KaikaifiluJuvenile</def>
+					<minAge>2</minAge>
 				</li>
 				<li>
-					<def>BMT_KronosaurusAdult</def>
-					<minAge>2.5</minAge>
+					<def>BMT_KaikaifiluAdult</def>
+					<minAge>3</minAge>
+					<soundWounded>BMT_Gallimimus_Wounded</soundWounded>
+					<soundDeath>BMT_Gallimimus_Death</soundDeath>
+					<soundCall>BMT_Gallimimus_Call</soundCall>
+					<soundAngry>BMT_Gallimimus_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -137,52 +141,52 @@
 		</race>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>BMT_Kronosaurus</defName>
-		<label>kronosaurus</label>
-		<race>BMT_Kronosaurus</race>
-		<combatPower>250</combatPower>
-		<ecoSystemWeight>3.0</ecoSystemWeight>
+		<defName>BMT_Kaikaifilu</defName>
+		<label>kaikaifilu</label>
+		<race>BMT_Kaikaifilu</race>
+		<combatPower>270</combatPower>
+		<ecoSystemWeight>0.2</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
-					<drawSize>2.3</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/Kaikaifilu</texPath>
+					<drawSize>2</drawSize>
 					<shadowData>
-						<volume>(1, 0.3, 0.1)</volume>
+						<volume>(1, 0.5, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
-					<drawSize>2.3</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
-					<drawSize>4.4</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/Kaikaifilu</texPath>
+					<drawSize>4</drawSize>
 					<shadowData>
-						<volume>(1, 0.3, 0.1)</volume>
+						<volume>(1, 0.5, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
-					<drawSize>4.4</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
-					<drawSize>6.5</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/Kaikaifilu</texPath>
+					<drawSize>6</drawSize>
 					<shadowData>
-						<volume>(1, 0.3, 0.1)</volume>
+						<volume>(1, 0.5, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
-					<drawSize>6.5</drawSize>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<drawSize>6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

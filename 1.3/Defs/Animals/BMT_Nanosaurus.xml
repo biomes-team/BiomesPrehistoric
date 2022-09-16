@@ -110,7 +110,7 @@
         <defName>BMT_Nanosaurus</defName>
         <label>nanosaurus</label>
         <race>BMT_Nanosaurus</race>
-        <combatPower>45</combatPower>
+        <combatPower>30</combatPower>
         <lifeStages>
             <li>
                 <bodyGraphicData>
@@ -167,7 +167,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>6</hatcherDaystoHatch>
+                <hatcherDaystoHatch>4</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Nanosaurus</hatcherPawn>
             </li>
         </comps>

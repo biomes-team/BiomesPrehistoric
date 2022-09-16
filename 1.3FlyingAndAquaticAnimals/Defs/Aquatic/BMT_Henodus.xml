@@ -111,6 +111,11 @@
 				<consumingFoodReportString>Filtering.</consumingFoodReportString>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
 		<race>
 			<body>TurtleLike</body>
 			<baseBodySize>1</baseBodySize>
@@ -145,14 +150,6 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
-				<stayOnTerrainTag>WaterFront</stayOnTerrainTag>
-			</li>
-			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
-				<isBottomFeeder>true</isBottomFeeder>
-			</li>
-		</modExtensions>
 		<tradeTags>
 			<li>AnimalUncommon</li>
 		</tradeTags>
