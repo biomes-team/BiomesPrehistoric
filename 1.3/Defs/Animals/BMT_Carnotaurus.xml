@@ -122,7 +122,7 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Carnotaurus/Carnotaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Carnotaurus/CarnotaurusA</texPath>
                     <drawSize>3.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -136,7 +136,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Carnotaurus/Carnotaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Carnotaurus/CarnotaurusA</texPath>
                     <drawSize>4.6</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
@@ -150,7 +150,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Carnotaurus/Carnotaurus</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Carnotaurus/CarnotaurusA</texPath>
                     <drawSize>8.6</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>

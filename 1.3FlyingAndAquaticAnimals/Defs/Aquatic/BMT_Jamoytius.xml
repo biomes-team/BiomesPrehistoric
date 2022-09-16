@@ -138,7 +138,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius/texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.5, 0.2)</volume>
