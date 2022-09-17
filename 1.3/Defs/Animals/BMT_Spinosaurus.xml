@@ -41,7 +41,6 @@
 				<power>30</power>
 				<cooldownTime>2.5</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<!--chanceFactor>0.7</chanceFactor-->
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>

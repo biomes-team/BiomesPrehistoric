@@ -183,7 +183,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Saurumbo/Dessicated_Saurumbo</texPath>
           <drawSize>6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -197,7 +197,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Saurumbo/Dessicated_Saurumbo</texPath>
           <drawSize>9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -211,7 +211,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
+          <texPath>BMT_Prehistoric/Animals/Saurumbo/Dessicated_Saurumbo</texPath>
           <drawSize>12</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>

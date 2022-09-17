@@ -136,7 +136,7 @@
                     <drawSize>1</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Dessicated_Hypsilophodon</texPath>
                     <drawSize>1</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -150,7 +150,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Dessicated_Hypsilophodon</texPath>
                     <drawSize>1.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -164,7 +164,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Dessicated_Hypsilophodon</texPath>
                     <drawSize>2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>

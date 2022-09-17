@@ -123,7 +123,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Therizinosaurus/Dessicated_Raptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Therizinosaurus/Dessicated_Therizinosaurus</texPath>
                     <drawSize>1.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -137,7 +137,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Therizinosaurus/Dessicated_Raptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Therizinosaurus/Dessicated_Therizinosaurus</texPath>
                     <drawSize>2.4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
@@ -151,7 +151,7 @@
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Therizinosaurus/Dessicated_Raptor</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Therizinosaurus/Dessicated_Therizinosaurus</texPath>
                     <drawSize>5.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>

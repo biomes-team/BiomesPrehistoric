@@ -17,7 +17,7 @@
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>lizard meat</meatLabel>
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
-            <leatherDef>BMT_DinoHideArmored</leatherDef> <!--The .txt says medium, but I think this would fit better.-->
+            <leatherDef>BMT_DinoHideArmored</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>0.9</baseBodySize>
             <baseHealthScale>1.5</baseHealthScale>

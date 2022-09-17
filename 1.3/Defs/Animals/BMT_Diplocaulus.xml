@@ -69,7 +69,7 @@
 		<MoveSpeed>3.2</MoveSpeed>
 		<SwimSpeed MayRequire="biomesteam.biomesislands">7.5</SwimSpeed>
 		<MarketValue>450</MarketValue>
-		<ComfyTemperatureMin>0</ComfyTemperatureMin>
+		<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 		<ComfyTemperatureMax>60</ComfyTemperatureMax>
 	</statBases>
     <tools>
@@ -135,7 +135,7 @@
 		</li>
     </comps>
     <race>
-			<nameGenerator>BMT_NamerDino</nameGenerator>
+		<nameGenerator>BMT_NamerDino</nameGenerator>
 		<body>QuadrupedAnimalWithClawsTailAndJowl</body>
 		<baseBodySize>0.30</baseBodySize>
 		<baseHealthScale>0.75</baseHealthScale>

@@ -1,229 +1,229 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_OnchiodonBabyTiny</defName>
-        <bodySizeFactor>0.1</bodySizeFactor>
-        <foodMaxFactor>4</foodMaxFactor>
-        <statFactors>
-            <MoveSpeed>0.6</MoveSpeed>
-            <SwimSpeed MayRequire="biomesteam.biomesislands">0.6</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
-                <drawSize>1.4</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+  <LifeStageDef ParentName="AnimalBaby">
+    <defName>BMT_OnchiodonBabyTiny</defName>
+    <bodySizeFactor>0.1</bodySizeFactor>
+    <foodMaxFactor>4</foodMaxFactor>
+    <statFactors>
+      <MoveSpeed>0.6</MoveSpeed>
+      <SwimSpeed MayRequire="biomesteam.biomesislands">0.6</SwimSpeed>
+    </statFactors>
+    <modExtensions>
+      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
+        <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
+          <drawSize>1.4</drawSize>
+        </bodyGraphicData>
+      </li>
+    </modExtensions>
+  </LifeStageDef>
 
-    <LifeStageDef>
-        <defName>BMT_OnchiodonJuvenile</defName>
-        <label>juvenile</label>
-        <voxPitch>1.2</voxPitch>
-        <bodySizeFactor>0.5</bodySizeFactor>
-        <foodMaxFactor>1.5</foodMaxFactor>
-        <healthScaleFactor>0.6</healthScaleFactor>
-        <hungerRateFactor>0.75</hungerRateFactor>
-        <marketValueFactor>0.75</marketValueFactor>
-        <meleeDamageFactor>0.75</meleeDamageFactor>
-        <statFactors>
-            <MoveSpeed>0.9</MoveSpeed>
-            <SwimSpeed MayRequire="biomesteam.biomesislands">0.9</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
-                <drawSize>1.7</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+  <LifeStageDef>
+    <defName>BMT_OnchiodonJuvenile</defName>
+    <label>juvenile</label>
+    <voxPitch>1.2</voxPitch>
+    <bodySizeFactor>0.5</bodySizeFactor>
+    <foodMaxFactor>1.5</foodMaxFactor>
+    <healthScaleFactor>0.6</healthScaleFactor>
+    <hungerRateFactor>0.75</hungerRateFactor>
+    <marketValueFactor>0.75</marketValueFactor>
+    <meleeDamageFactor>0.75</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.9</MoveSpeed>
+      <SwimSpeed MayRequire="biomesteam.biomesislands">0.9</SwimSpeed>
+    </statFactors>
+    <modExtensions>
+      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
+        <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
+          <drawSize>1.7</drawSize>
+        </bodyGraphicData>
+      </li>
+    </modExtensions>
+  </LifeStageDef>
 
-    <LifeStageDef>
-        <defName>BMT_OnchiodonAdult</defName>
-        <label>adult</label>
-        <visible>false</visible>
-        <reproductive>true</reproductive>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
-                <drawSize>2.0</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+  <LifeStageDef>
+    <defName>BMT_OnchiodonAdult</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+    <modExtensions>
+      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
+        <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+        <bodyGraphicData>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
+          <drawSize>2.0</drawSize>
+        </bodyGraphicData>
+      </li>
+    </modExtensions>
+  </LifeStageDef>
 
-    <ThingDef ParentName="AnimalThingBase">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Onchiodon</defName>
     <label>onchiodon</label>
     <description>The "Manebacher Saurier" looks like today's crocodiles and was a similarly voracious predator. It was not a reptile but an amphibian and thus more closely related to today's giant salamander. \n\nScientific name: Onchiodon manebachensis</description>
     <statBases>
-		<MoveSpeed>4.5</MoveSpeed>
-		<SwimSpeed MayRequire="biomesteam.biomesislands">5.5</SwimSpeed>
-		<MarketValue>450</MarketValue>
-		<ComfyTemperatureMin>0</ComfyTemperatureMin>
-		<ComfyTemperatureMax>60</ComfyTemperatureMax>
-	</statBases>
-    <tools>
-		<li>
-			<label>left claw</label>
-			<capacities>
-				<li>Scratch</li>
-			</capacities>
-			<power>8</power>
-			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<label>right claw</label>
-			<capacities>
-				<li>Scratch</li>
-			</capacities>
-			<power>8</power>
-			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<capacities>
-				<li>Bite</li>
-			</capacities>
-			<power>16</power>
-			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-			<chanceFactor>0.8</chanceFactor>
-		</li>
-		<li>
-			<label>head</label>
-			<capacities>
-				<li>Blunt</li>
-			</capacities>
-			<power>6</power>
-			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			<chanceFactor>0.2</chanceFactor>
-		</li>
-    </tools>
-    <comps>
-		<li Class="CompProperties_EggLayer">
-			<eggFertilizedDef>BMT_OnchiodonEggFertilized</eggFertilizedDef>
-			<eggFertilizationCountMax>1</eggFertilizationCountMax>
-			<eggLayIntervalDays>15</eggLayIntervalDays>
-			<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-			<eggCountRange>
-				<min>2</min>
-				<max>4</max>
-			</eggCountRange>
-		</li>
-    </comps>
-    <race>
-			<nameGenerator>BMT_NamerDino</nameGenerator>
-		<body>QuadrupedAnimalWithClawsTailAndJowl</body>
-		<baseBodySize>0.30</baseBodySize>
-		<baseHealthScale>0.75</baseHealthScale>
-		<baseHungerRate>0.30</baseHungerRate>
-		<foodType>CarnivoreAnimalStrict</foodType>
-	    <predator>true</predator>
-	    <maxPreyBodySize>0.35</maxPreyBodySize>
-		<meatLabel>amphibian meat</meatLabel>
-		<leatherDef>Leather_Lizard</leatherDef>
-		<wildness>0.25</wildness>
-		<trainability>None</trainability>
-		<petness>0.10</petness>
-		<lifeExpectancy>17</lifeExpectancy>
-		<lifeStageAges>
-			<li>
-				<def>BMT_OnchiodonBabyTiny</def>
-				<minAge>0</minAge>
-			</li>
-			<li>
-				<def>BMT_OnchiodonJuvenile</def>
-				<minAge>0.09</minAge>
-			</li>
-			<li>
-				<def>BMT_OnchiodonAdult</def>
-				<minAge>0.25</minAge> 
-				<soundWounded>BMT_Diplocaulus_Wounded</soundWounded>
-				<soundDeath>BMT_Diplocaulus_Death</soundDeath>
-				<soundCall>BMT_Diplocaulus_Call</soundCall>
-				<soundAngry>BMT_Diplocaulus_Angry</soundAngry>
-			</li>
-		</lifeStageAges>
-		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-    </race>
-    <tradeTags>
-		<li>AnimalExotic</li>
-    </tradeTags>
-  </ThingDef>
-  
-   <ThingDef ParentName="EggFertBase">
-    <defName>BMT_OnchiodonEggFertilized</defName>
-    <label>onchiodon egg (fert.)</label>
-    <description>A fertilized onchiodon egg. If all goes well, it should hatch into a baby onchiodon. It can be eaten raw, but it's much better cooked.</description>
-    <graphicData>
-      <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-      <color>(218,218,216)</color>
-      <drawSize>0.85</drawSize>
-    </graphicData>
-    <statBases>
-      <MarketValue>50</MarketValue>
+      <MoveSpeed>4.5</MoveSpeed>
+      <SwimSpeed MayRequire="biomesteam.biomesislands">5.5</SwimSpeed>
+      <MarketValue>450</MarketValue>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>
-    <comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>5.5</hatcherDaystoHatch>
-        <hatcherPawn>BMT_Onchiodon</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
-  
-    <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BMT_Onchiodon</defName>
-    <label>onchiodon</label>
-    <race>BMT_Onchiodon</race>
-    <combatPower>50</combatPower>
-    <ecoSystemWeight>0.35</ecoSystemWeight>
-    <lifeStages>
+    <tools>
       <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
-          <drawSize>1.4</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
-          <drawSize>1.4</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
-          <drawSize>1.7</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
-          <drawSize>1.7</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
-          <drawSize>2.0</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
-          <drawSize>2.0</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
-  
+       <label>left claw</label>
+       <capacities>
+        <li>Scratch</li>
+      </capacities>
+      <power>8</power>
+      <cooldownTime>2</cooldownTime>
+      <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+    </li>
+    <li>
+     <label>right claw</label>
+     <capacities>
+      <li>Scratch</li>
+    </capacities>
+    <power>8</power>
+    <cooldownTime>2</cooldownTime>
+    <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+  </li>
+  <li>
+   <capacities>
+    <li>Bite</li>
+  </capacities>
+  <power>16</power>
+  <cooldownTime>2</cooldownTime>
+  <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+  <chanceFactor>0.8</chanceFactor>
+</li>
+<li>
+ <label>head</label>
+ <capacities>
+  <li>Blunt</li>
+</capacities>
+<power>6</power>
+<cooldownTime>2</cooldownTime>
+<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+<chanceFactor>0.2</chanceFactor>
+</li>
+</tools>
+<comps>
+  <li Class="CompProperties_EggLayer">
+   <eggFertilizedDef>BMT_OnchiodonEggFertilized</eggFertilizedDef>
+   <eggFertilizationCountMax>1</eggFertilizationCountMax>
+   <eggLayIntervalDays>15</eggLayIntervalDays>
+   <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+   <eggCountRange>
+    <min>2</min>
+    <max>4</max>
+  </eggCountRange>
+</li>
+</comps>
+<race>
+  <nameGenerator>BMT_NamerDino</nameGenerator>
+  <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+  <baseBodySize>0.30</baseBodySize>
+  <baseHealthScale>0.75</baseHealthScale>
+  <baseHungerRate>0.30</baseHungerRate>
+  <foodType>CarnivoreAnimalStrict</foodType>
+  <predator>true</predator>
+  <maxPreyBodySize>0.35</maxPreyBodySize>
+  <useMeatFrom>BMT_Diplocaulus</useMeatFrom>
+  <leatherDef>Leather_Lizard</leatherDef>
+  <wildness>0.25</wildness>
+  <trainability>None</trainability>
+  <petness>0.10</petness>
+  <lifeExpectancy>17</lifeExpectancy>
+  <lifeStageAges>
+   <li>
+    <def>BMT_OnchiodonBabyTiny</def>
+    <minAge>0</minAge>
+  </li>
+  <li>
+    <def>BMT_OnchiodonJuvenile</def>
+    <minAge>0.09</minAge>
+  </li>
+  <li>
+    <def>BMT_OnchiodonAdult</def>
+    <minAge>0.25</minAge> 
+    <soundWounded>BMT_Diplocaulus_Wounded</soundWounded>
+    <soundDeath>BMT_Diplocaulus_Death</soundDeath>
+    <soundCall>BMT_Diplocaulus_Call</soundCall>
+    <soundAngry>BMT_Diplocaulus_Angry</soundAngry>
+  </li>
+</lifeStageAges>
+<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+</race>
+<tradeTags>
+  <li>AnimalExotic</li>
+</tradeTags>
+</ThingDef>
+
+<ThingDef ParentName="EggFertBase">
+  <defName>BMT_OnchiodonEggFertilized</defName>
+  <label>onchiodon egg (fert.)</label>
+  <description>A fertilized onchiodon egg. If all goes well, it should hatch into a baby onchiodon. It can be eaten raw, but it's much better cooked.</description>
+  <graphicData>
+    <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+    <color>(218,218,216)</color>
+    <drawSize>0.85</drawSize>
+  </graphicData>
+  <statBases>
+    <MarketValue>50</MarketValue>
+  </statBases>
+  <comps>
+    <li Class="CompProperties_Hatcher">
+      <hatcherDaystoHatch>5.5</hatcherDaystoHatch>
+      <hatcherPawn>BMT_Onchiodon</hatcherPawn>
+    </li>
+  </comps>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase">
+  <defName>BMT_Onchiodon</defName>
+  <label>onchiodon</label>
+  <race>BMT_Onchiodon</race>
+  <combatPower>50</combatPower>
+  <ecoSystemWeight>0.35</ecoSystemWeight>
+  <lifeStages>
+    <li>
+      <bodyGraphicData>
+        <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
+        <drawSize>1.4</drawSize>
+      </bodyGraphicData>
+      <dessicatedBodyGraphicData>
+        <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
+        <drawSize>1.4</drawSize>
+      </dessicatedBodyGraphicData>
+    </li>
+    <li>
+      <bodyGraphicData>
+        <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
+        <drawSize>1.7</drawSize>
+      </bodyGraphicData>
+      <dessicatedBodyGraphicData>
+        <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
+        <drawSize>1.7</drawSize>
+      </dessicatedBodyGraphicData>
+    </li>
+    <li>
+      <bodyGraphicData>
+        <texPath>BMT_Prehistoric/Animals/Onchiodon/Onchiodon</texPath>
+        <drawSize>2.0</drawSize>
+      </bodyGraphicData>
+      <dessicatedBodyGraphicData>
+        <texPath>BMT_Prehistoric/Animals/Onchiodon/Dessicated_Onchiodon</texPath>
+        <drawSize>2.0</drawSize>
+      </dessicatedBodyGraphicData>
+    </li>
+  </lifeStages>
+</PawnKindDef>
+
 </Defs>
