@@ -47,7 +47,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
+				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedA</texPath>
                 <drawSize>2.6</drawSize>
             </bodyGraphicData>
             <alternateGraphicsData>
@@ -71,7 +71,7 @@
         <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
             <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
             <bodyGraphicData>
-				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmerged</texPath>
+				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedA</texPath>
                 <drawSize>3.2</drawSize>
             </bodyGraphicData>
             <alternateGraphicsData>
