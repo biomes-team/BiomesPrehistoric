@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using RimWorld;
 using UnityEngine;
 using Verse;
 
@@ -24,6 +21,9 @@ namespace BiomesPrehistoric
 
         // Prehistoric plant commonality. Only active with DinoAndPlant.
         public int plantCommonality = 100;
+        
+        // Custom music on main menu enabled
+        public bool mainMenuMusic = true;
 
         // this is what saves the settings when the user closes the game
         public override void ExposeData()
@@ -31,6 +31,7 @@ namespace BiomesPrehistoric
             Scribe_Values.Look(ref spawnOption, "spawnOption", SpawnOption.DinoAndPlant);
             Scribe_Values.Look(ref animalCommonality, "animalCommonality", 100, true);
             Scribe_Values.Look(ref plantCommonality, "plantCommonality", 100, true);
+            Scribe_Values.Look(ref mainMenuMusic, "mainMenuMusic", true, true);
         }
     }
 
@@ -56,11 +57,18 @@ namespace BiomesPrehistoric
         {
             return "BMT_BiomesPrehistoric".Translate();
         }
+        
+        private static Vector2 _scrollPos = Vector2.zero;
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            Listing_Standard mainListing = new Listing_Standard();
-            mainListing.Begin(inRect);
+            var rect = new Rect(0.0f, 0.0f, inRect.width, 800f);
+            rect.xMax *= 0.95f;
+        
+            var mainListing = new Listing_Standard();
+            mainListing.Begin(rect);
+            GUI.EndGroup();
+            Widgets.BeginScrollView(inRect, ref _scrollPos, rect);
 
             mainListing.Label("BMT_PrehistoricSettingsDesc".Translate());
 
@@ -85,9 +93,18 @@ namespace BiomesPrehistoric
                 }
             }
 
-            mainListing.End();
+            mainListing.Gap();
+            mainListing.CheckboxLabeled("BMT_MainMenuMusicEnabled".Translate(), ref mod.settings.mainMenuMusic);
+
+            Widgets.EndScrollView();
             base.DoSettingsWindowContents(inRect);
 
+        }
+
+        public static void UpdateMainMenuSongDef()
+        {
+            var def = DefDatabase<SongDef>.GetNamedSilentFail(mod.settings.mainMenuMusic ? "EntrySongPrehistoric" : "EntrySong");
+            if (def != null) SongDefOf.EntrySong = def;
         }
 
         public static void SpawnPicker(Listing_Standard listing, bool active, Action action, string label, string desc, string iconPath)

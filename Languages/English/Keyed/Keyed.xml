@@ -20,6 +20,8 @@
 	<BMT_PrehistoricPlantCommonality>Prehistoric Plant Commonality: {0}%</BMT_PrehistoricPlantCommonality>
 	<BMT_PrehistoricPlantCommonalityTooltip>Changes how common wild prehistoric plants are when compared to other plants. By default they are as common as other plants. Values below 100% will make prehistoric plants less common, while values above it will make them appear more frequently.</BMT_PrehistoricPlantCommonalityTooltip>
 
+	<BMT_MainMenuMusicEnabled>Custom main menu music (requires restart to apply)</BMT_MainMenuMusicEnabled>
+
 	<BMT_Select>Select</BMT_Select>
 
 	<BMT_NestAlert>{0_indefinite} has angered nearby dinosaurs by getting too close to their nests!</BMT_NestAlert>
