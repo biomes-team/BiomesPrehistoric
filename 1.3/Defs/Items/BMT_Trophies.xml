@@ -171,6 +171,8 @@
 		<thingCategories>
 			<li>Trophy</li>
 			<li>InertRelics</li>
+			<li>HeadgearNoble</li>
+			<li>Headgear</li>
 		</thingCategories>
 		<tradeTags>
 			<li>PsychicApparel</li>
@@ -244,6 +246,8 @@
 		<thingCategories>
 			<li>Trophy</li>
 			<li>InertRelics</li>
+			<li>HeadgearNoble</li>
+			<li>Headgear</li>
 		</thingCategories>
 		<tradeTags>
 			<li>PsychicApparel</li>
