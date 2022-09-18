@@ -351,6 +351,7 @@ namespace BiomesPrehistoric
         {
             "biomesteam.biomesprehistoric",
             "regrowth2.extinctanimals",
+            "regrowth.botr.extinctanimalspack",
             "spincrus.dinosauria",
             "spino.megafauna"
         };
