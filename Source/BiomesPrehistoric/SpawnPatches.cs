@@ -16,7 +16,7 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(PawnKindDef animalDef, List<BiomeAnimalRecord> ___wildAnimals, ref float __result)
         {
-            if(BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
+            if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
             {
                 if(___wildAnimals?.Any(d => Util.IsPrehistoric(d.animal)) == true)
                 {
@@ -347,14 +347,17 @@ namespace BiomesPrehistoric
     // this exists in case we change the definition of "prehistoric" later
     public static class Util
     {
+        private static readonly HashSet<string> PrehistoricPackageIds = new HashSet<string>
+        {
+            "biomesteam.biomesprehistoric",
+            "regrowth2.extinctanimals",
+            "spincrus.dinosauria",
+            "spino.megafauna"
+        };
+
         public static bool IsPrehistoric(Def thing)
         {
-            if(thing.modContentPack?.Name == "Biomes! Prehistoric")
-            {
-                return true;
-            }
-            return false;
-
+            return PrehistoricPackageIds.Contains(thing.modContentPack?.PackageId);
         }
     }
 
