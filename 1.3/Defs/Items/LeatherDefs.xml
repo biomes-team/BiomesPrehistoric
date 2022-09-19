@@ -27,7 +27,7 @@
     <ThingDef ParentName="LeatherBase">
         <defName>BMT_DinoHideHeavy</defName>
         <label>heavy dinosaur hide</label>
-        <description>Heavy dinosaur hide.</description>
+        <description>Heavy hide from larger, tougher dinosaurs. It's reasonbly good at protection.</description>
         <graphicData>
             <color>(129,50,41)</color>
         </graphicData>
@@ -51,7 +51,7 @@
     <ThingDef ParentName="LeatherBase">
         <defName>BMT_DinoHideArmored</defName>
         <label>armored dinosaur hide</label>
-        <description>Heavy hide from a dinosaur. Protects quite well.</description>
+        <description>Armored hide from a bulky dinosaur. Protects quite well.</description>
         <graphicData>
             <color>(107,57,116)</color>
         </graphicData>
@@ -67,7 +67,7 @@
             <commonality>0.005</commonality>
             <statFactors>
                 <MaxHitPoints>2.0</MaxHitPoints>
-                <Beauty>5</Beauty>
+                <Beauty>2</Beauty>
             </statFactors>
         </stuffProps>
     </ThingDef>
@@ -75,7 +75,7 @@
     <ThingDef ParentName="LeatherBase">
         <defName>BMT_DinoHideFeathery</defName>
         <label>downy hide</label>
-        <description>Leather from a feathery dinosaur. Not very protective, but insulates well due to being covered by a soft down.</description>
+        <description>Leather from a feathery dinosaur. Not very protective, but insulates well due to being covered by a soft down. It is also quite pretty.</description>
         <graphicData>
             <color>(101,160,203)</color>
         </graphicData>
@@ -92,6 +92,7 @@
             <commonality>0.05</commonality>
             <statFactors>
                 <MaxHitPoints>1.0</MaxHitPoints>
+				<Beauty>2</Beauty>
             </statFactors>
         </stuffProps>
     </ThingDef>
@@ -99,7 +100,7 @@
     <ThingDef ParentName="BiomesCore_ChitinBase">
         <defName>BMT_PrimordialChitin</defName>
         <label>primordial chitin</label>
-        <description>Dark chitin from a prehistoric creature.</description>
+        <description>Dark chitin from a prehistoric creature. Blades tend to glance off of it.</description>
         <graphicData>
             <color>(100,68,36)</color>
         </graphicData>
@@ -132,6 +133,7 @@
     </graphicData>
     <stuffProps>
       <color>(101,160,203)</color>
+	  <Beauty>3</Beauty>
     </stuffProps>
   </ThingDef>
 

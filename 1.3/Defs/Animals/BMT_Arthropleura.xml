@@ -10,7 +10,7 @@
             <MarketValue>200</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>57</ComfyTemperatureMax>
-            <FilthRate>19</FilthRate>
+            <FilthRate>5</FilthRate>
         </statBases>
         <race>
             <body>BMT_BeetleLike</body>

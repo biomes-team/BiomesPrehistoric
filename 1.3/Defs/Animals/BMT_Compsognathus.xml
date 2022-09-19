@@ -10,7 +10,7 @@
             <MarketValue>560</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>55</ComfyTemperatureMax>
-            <FilthRate>1</FilthRate>
+            <FilthRate>.5</FilthRate>
 			<MeleeDodgeChance>10</MeleeDodgeChance>
         </statBases>
         <race>

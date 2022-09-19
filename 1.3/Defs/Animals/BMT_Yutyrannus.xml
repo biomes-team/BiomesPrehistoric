@@ -17,7 +17,7 @@
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
-            <leatherDef>BMT_DinoHideHeavy</leatherDef>
+            <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>4.6</baseBodySize>
             <baseHealthScale>3.0</baseHealthScale>

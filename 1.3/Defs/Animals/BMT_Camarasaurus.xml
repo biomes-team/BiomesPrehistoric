@@ -10,7 +10,7 @@
             <MarketValue>1120</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <FilthRate>16</FilthRate>
+            <FilthRate>14</FilthRate>
 			<CaravanRidingSpeedFactor>1.2</CaravanRidingSpeedFactor>
             <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.07</ArmorRating_Blunt>

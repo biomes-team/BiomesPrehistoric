@@ -11,6 +11,7 @@
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<ToxicSensitivity>0.8</ToxicSensitivity>
+			<FilthRate>.5</FilthRate>
 		</statBases>
 		<uiIconScale>2</uiIconScale>
 		<tools>

@@ -10,13 +10,13 @@
             <MarketValue>360</MarketValue>
             <ComfyTemperatureMin>-20</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
-            <FilthRate>17</FilthRate>
+            <FilthRate>12</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>stegosid meat</meatLabel>
             <body>BMT_QuadrupedWithPlatesBeakAndTailWeapon</body>
-            <leatherDef>BMT_DinoHideThin</leatherDef>
+            <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>3.5</baseBodySize>
             <baseHealthScale>4</baseHealthScale>

@@ -4,10 +4,10 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Saurumbo</defName>
     <label>saurumbo</label>
-    <description>A gigantic, graceful creature of unknown origin. The saurumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp feather fetches a huge price.</description>
+    <description>A gigantic, graceful sauropod of unknown origin. The saurumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp feather fetches a huge price.</description>
     <statBases>
       <MoveSpeed>5.5</MoveSpeed>
-      <MarketValue>4000</MarketValue>
+      <MarketValue>4500</MarketValue>
       <ComfyTemperatureMin>-65</ComfyTemperatureMin>
       <ComfyTemperatureMax>150</ComfyTemperatureMax>
       <ArmorRating_Sharp>0.60</ArmorRating_Sharp>

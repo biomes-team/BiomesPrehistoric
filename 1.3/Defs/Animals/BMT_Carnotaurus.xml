@@ -12,6 +12,7 @@
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<FilthRate>13</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
