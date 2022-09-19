@@ -167,7 +167,7 @@
     <defName>BMT_Saurumbo</defName>
     <label>saurumbo</label>
     <race>BMT_Saurumbo</race>
-    <combatPower>500</combatPower>
+    <combatPower>550</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>

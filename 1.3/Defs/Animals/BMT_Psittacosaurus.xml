@@ -189,7 +189,7 @@
     <ThingDef ParentName="EggUnfertBase">
         <defName>BMT_EggPsittacosaurusUnfertilized</defName>
         <label>Psittacosaurus egg (unfert.)</label>
-        <description>An unfertilized Psittacosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+        <description>An unfertilized psittacosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(181,164,138)</color>

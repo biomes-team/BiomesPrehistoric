@@ -227,7 +227,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_TriceratopsEggFertilized</defName>
 		<label>triceratops egg (fert.)</label>
-		<description>A fertilized protoceratops egg. If all goes well, it should hatch into a baby protoceratops. It can be eaten raw, but it's much better cooked.</description>
+		<description>A fertilized triceratops egg. If all goes well, it should hatch into a baby triceratops. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(164,109,98)</color>

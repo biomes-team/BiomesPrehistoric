@@ -73,7 +73,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_TroodonEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>4</eggFertilizationCountMax>
-                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~4</eggCountRange>
             </li>

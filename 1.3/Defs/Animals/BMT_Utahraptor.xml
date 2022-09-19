@@ -73,7 +73,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_UtahraptorEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>3</eggFertilizationCountMax>
-                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggLayIntervalDays>10</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~3</eggCountRange>
             </li>

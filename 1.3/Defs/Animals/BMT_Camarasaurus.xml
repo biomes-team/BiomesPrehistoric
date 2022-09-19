@@ -158,7 +158,7 @@
         <defName>BMT_Camarasaurus</defName>
         <label>Camarasaurus</label>
         <race>BMT_Camarasaurus</race>
-        <combatPower>75</combatPower>
+        <combatPower>275</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
