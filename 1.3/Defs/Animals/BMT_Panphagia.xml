@@ -55,7 +55,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_PanphagiaEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>4</eggFertilizationCountMax>
-                <eggLayIntervalDays>8</eggLayIntervalDays>
+                <eggLayIntervalDays>5</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~4</eggCountRange>
             </li>

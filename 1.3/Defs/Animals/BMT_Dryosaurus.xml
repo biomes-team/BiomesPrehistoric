@@ -55,7 +55,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_DryosaurusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
-                <eggLayIntervalDays>8</eggLayIntervalDays>
+                <eggLayIntervalDays>6</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~2</eggCountRange>
             </li>
@@ -174,7 +174,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>7</hatcherDaystoHatch>
+                <hatcherDaystoHatch>2</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Dryosaurus</hatcherPawn>
             </li>
         </comps>

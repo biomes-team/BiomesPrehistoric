@@ -56,7 +56,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_InostranceviaEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
-                <eggLayIntervalDays>45</eggLayIntervalDays>
+                <eggLayIntervalDays>12</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~1</eggCountRange>
             </li>
@@ -172,7 +172,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>9.5</hatcherDaystoHatch>
+                <hatcherDaystoHatch>5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Inostrancevia</hatcherPawn>
             </li>
         </comps>

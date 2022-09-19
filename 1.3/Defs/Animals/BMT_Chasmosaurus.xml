@@ -70,7 +70,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_ChasmosaurusEggFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
-				<eggLayIntervalDays>13</eggLayIntervalDays>
+				<eggLayIntervalDays>8</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>2~5</eggCountRange>
 			</li>
@@ -235,7 +235,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>11</hatcherDaystoHatch>
+				<hatcherDaystoHatch>5.5</hatcherDaystoHatch>
 				<hatcherPawn>BMT_Chasmosaurus</hatcherPawn>
 			</li>
 		</comps>

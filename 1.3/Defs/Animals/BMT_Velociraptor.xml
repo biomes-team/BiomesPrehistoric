@@ -73,7 +73,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_VelociraptorEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>3</eggFertilizationCountMax>
-                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggLayIntervalDays>10</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~3</eggCountRange>
             </li>
@@ -164,7 +164,7 @@
         <race>BMT_Velociraptor</race>
         <combatPower>75</combatPower>
         <wildGroupSize>2~4</wildGroupSize>
-        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphicChance>0.10</alternateGraphicChance>
         <alternateGraphics>
             <li>
                 <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorB</texPath>

@@ -70,7 +70,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_MaiasauraEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>8</eggFertilizationCountMax>
-                <eggLayIntervalDays>10</eggLayIntervalDays>
+                <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>2~7</eggCountRange>
             </li>
@@ -182,7 +182,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherDaystoHatch>5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Maiasaura</hatcherPawn>
             </li>
         </comps>

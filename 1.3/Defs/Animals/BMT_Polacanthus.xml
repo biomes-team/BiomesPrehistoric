@@ -66,7 +66,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_PolacanthusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
-                <eggLayIntervalDays>25</eggLayIntervalDays>
+                <eggLayIntervalDays>12</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~1</eggCountRange>
             </li>
@@ -214,7 +214,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>12</hatcherDaystoHatch>
+                <hatcherDaystoHatch>8</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Polacanthus</hatcherPawn>
             </li>
         </comps>

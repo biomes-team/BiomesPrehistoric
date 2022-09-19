@@ -179,7 +179,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherDaystoHatch>6</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Ouranosaurus</hatcherPawn>
             </li>
         </comps>

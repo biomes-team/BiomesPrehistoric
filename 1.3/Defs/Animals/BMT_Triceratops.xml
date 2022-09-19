@@ -238,7 +238,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>11</hatcherDaystoHatch>
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>BMT_Triceratops</hatcherPawn>
 			</li>
 		</comps>

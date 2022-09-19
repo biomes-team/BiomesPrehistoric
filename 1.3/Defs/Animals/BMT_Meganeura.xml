@@ -56,7 +56,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_MeganeuraEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>20</eggFertilizationCountMax>
-                <eggLayIntervalDays>20</eggLayIntervalDays>
+                <eggLayIntervalDays>14</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>5~20</eggCountRange>
             </li>

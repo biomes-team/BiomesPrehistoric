@@ -70,7 +70,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_YinlongEggFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
-				<eggLayIntervalDays>13</eggLayIntervalDays>
+				<eggLayIntervalDays>3</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>2~5</eggCountRange>
 			</li>

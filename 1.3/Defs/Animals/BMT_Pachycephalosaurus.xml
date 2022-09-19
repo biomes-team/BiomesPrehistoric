@@ -55,7 +55,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_PachycephalosaurusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
-                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggLayIntervalDays>7.7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~1</eggCountRange>
             </li>
@@ -171,7 +171,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>8</hatcherDaystoHatch>
+                <hatcherDaystoHatch>6.5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Pachycephalosaurus</hatcherPawn>
             </li>
         </comps>

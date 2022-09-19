@@ -73,7 +73,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_DeinonychusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>3</eggFertilizationCountMax>
-                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggLayIntervalDays>12</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>2~4</eggCountRange>
             </li>
@@ -230,7 +230,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>7</hatcherDaystoHatch>
+                <hatcherDaystoHatch>5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Deinonychus</hatcherPawn>
             </li>
         </comps>

@@ -59,7 +59,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_AnkylosaurusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
-                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggLayIntervalDays>10</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~1</eggCountRange>
             </li>
@@ -212,7 +212,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>12</hatcherDaystoHatch>
+                <hatcherDaystoHatch>7</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Ankylosaurus</hatcherPawn>
             </li>
         </comps>

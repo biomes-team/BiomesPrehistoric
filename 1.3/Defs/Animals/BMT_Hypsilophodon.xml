@@ -72,7 +72,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_HypsilophodonEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>3</eggFertilizationCountMax>
-                <eggLayIntervalDays>15</eggLayIntervalDays>
+                <eggLayIntervalDays>5</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~6</eggCountRange>
             </li>

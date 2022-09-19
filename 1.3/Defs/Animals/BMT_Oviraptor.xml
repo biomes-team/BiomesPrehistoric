@@ -55,7 +55,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_OviraptorEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
-                <eggLayIntervalDays>19.5</eggLayIntervalDays>
+                <eggLayIntervalDays>9.5</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~2</eggCountRange>
             </li>
@@ -176,7 +176,7 @@
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>7</hatcherDaystoHatch>
+                <hatcherDaystoHatch>6.5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_Oviraptor</hatcherPawn>
             </li>
         </comps>
