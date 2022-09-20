@@ -27,7 +27,7 @@
             <lifeExpectancy>55</lifeExpectancy>
 			<petness>0.5</petness>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+            <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
             <trainability>None</trainability>
             <lifeStageAges>
                 <li>

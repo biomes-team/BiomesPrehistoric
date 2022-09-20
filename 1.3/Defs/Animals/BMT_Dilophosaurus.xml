@@ -27,7 +27,7 @@
             <wildness>0.65</wildness>
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.40</manhunterOnDamageChance>
+            <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
             <trainability>Intermediate</trainability>
             <lifeStageAges>
                 <li>

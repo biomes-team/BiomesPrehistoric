@@ -27,7 +27,7 @@
             <maxPreyBodySize>3.5</maxPreyBodySize>
             <wildness>0.80</wildness>
             <lifeExpectancy>20</lifeExpectancy>
-            <manhunterOnTameFailChance>0.60</manhunterOnTameFailChance>
+            <manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.70</manhunterOnDamageChance>
             <trainability>Intermediate</trainability>
             <ageGenerationCurve>

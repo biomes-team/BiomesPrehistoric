@@ -31,10 +31,10 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
 			</willNeverEat>
             <predator>false</predator>
-            <wildness>0.60</wildness>
+            <wildness>0.50</wildness>
             <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>95</lifeExpectancy>
-            <manhunterOnTameFailChance>0.45</manhunterOnTameFailChance>
+            <manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
             <trainability>None</trainability>
             <lifeStageAges>

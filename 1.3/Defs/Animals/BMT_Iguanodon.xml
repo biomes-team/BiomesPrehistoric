@@ -32,7 +32,7 @@
             <wildness>0.25</wildness>
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+            <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
             <trainability>Advanced</trainability>
             <ageGenerationCurve>
                 <points>

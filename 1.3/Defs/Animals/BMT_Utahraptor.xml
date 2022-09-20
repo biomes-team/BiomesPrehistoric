@@ -25,10 +25,10 @@
             <foodType>CarnivoreAnimalStrict</foodType>
             <predator>true</predator>
             <maxPreyBodySize>1.8</maxPreyBodySize>
-            <wildness>0.20</wildness>
+            <wildness>0.70</wildness>
             <lifeExpectancy>15</lifeExpectancy>
-            <manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.3</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.6</manhunterOnDamageChance>
             <nuzzleMtbHours>12</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>
             <trainability>Advanced</trainability>

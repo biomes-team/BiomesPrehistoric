@@ -145,7 +145,7 @@
 	    <maxPreyBodySize>0.25</maxPreyBodySize>
 		<meatLabel>amphibian meat</meatLabel>
 		<leatherDef>Leather_Lizard</leatherDef>
-		<wildness>0.25</wildness>
+		<wildness>0.15</wildness>
 		<trainability>None</trainability>
 		<petness>0.10</petness>
 		<lifeExpectancy>17</lifeExpectancy>

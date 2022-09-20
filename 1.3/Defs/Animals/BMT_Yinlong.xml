@@ -11,7 +11,6 @@
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<FilthRate>1</FilthRate>
-			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>

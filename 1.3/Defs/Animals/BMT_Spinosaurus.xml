@@ -140,7 +140,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinosaurusFemale</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -148,7 +148,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

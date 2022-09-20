@@ -23,7 +23,7 @@
             <baseHungerRate>0.50</baseHungerRate>
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
-            <wildness>0.20</wildness>
+            <wildness>0.10</wildness>
             <lifeExpectancy>10</lifeExpectancy>
 			<petness>0.8</petness>
             <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>

@@ -27,8 +27,8 @@
             <wildness>0.10</wildness>
             <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>60</lifeExpectancy>
-            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.0</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
             <nuzzleMtbHours>6</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>
             <trainability>None</trainability>

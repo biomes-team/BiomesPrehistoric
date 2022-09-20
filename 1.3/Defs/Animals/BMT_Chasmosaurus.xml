@@ -26,11 +26,11 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<predator>false</predator>
 			<packAnimal>true</packAnimal>
-			<wildness>0.25</wildness>
+			<wildness>0.35</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<lifeExpectancy>70</lifeExpectancy>
-			<manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
 			<nuzzleMtbHours>5</nuzzleMtbHours>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>

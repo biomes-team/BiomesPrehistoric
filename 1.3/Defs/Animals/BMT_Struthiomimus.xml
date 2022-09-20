@@ -25,7 +25,7 @@
             <baseHungerRate>0.45</baseHungerRate>
             <foodType>OmnivoreRoughAnimal</foodType>
             <predator>false</predator>
-            <wildness>0.20</wildness>
+            <wildness>0.40</wildness>
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
