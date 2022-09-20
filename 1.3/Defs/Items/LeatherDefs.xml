@@ -127,13 +127,13 @@
       <Flammability>1</Flammability>
       <StuffPower_Insulation_Cold>35</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+      <Beauty>3</Beauty>
     </statBases>
     <graphicData>
       <color>(101,160,203)</color>
     </graphicData>
     <stuffProps>
       <color>(101,160,203)</color>
-	  <Beauty>3</Beauty>
     </stuffProps>
   </ThingDef>
 
