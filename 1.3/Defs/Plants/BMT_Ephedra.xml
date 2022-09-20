@@ -108,18 +108,18 @@
       <tasteThought></tasteThought>
       <foodType>VegetableOrFruit</foodType>
       <joyKind>Chemical</joyKind>
-      <joy>0.5</joy>
+      <joy>0.2</joy>
       <nurseable>false</nurseable>
       <drugCategory>Social</drugCategory>
       <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>BMT_EphedraHigh</hediffDef>
-          <severity>0.50</severity>
+          <severity>0.333</severity>
         </li>
       </outcomeDoers>
     </ingestible>
-    <allowedArchonexusCount>20</allowedArchonexusCount>
+    <allowedArchonexusCount>50</allowedArchonexusCount>
   </ThingDef>
 
   <!-- hediff -->
@@ -142,7 +142,6 @@
       <li>
         <restFallFactorOffset>-0.3</restFallFactorOffset>
         <statOffsets>
-          <ImmunityGainSpeedFactor>-0.2</ImmunityGainSpeedFactor>
           <InjuryHealingFactor>-0.2</InjuryHealingFactor>
         </statOffsets>
         <capMods>
