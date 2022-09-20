@@ -162,17 +162,17 @@
         <defName>BMT_Utahraptor</defName>
         <label>utahraptor</label>
         <race>BMT_Utahraptor</race>
-        <combatPower>90</combatPower>
+        <combatPower>190</combatPower>
         <wildGroupSize>2~4</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Utahraptor/Utahraptor</texPath>
-                    <drawSize>1.8</drawSize>
+                    <drawSize>1.2</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Utahraptor/Dessicated_Raptor</texPath>
-                    <drawSize>1.8</drawSize>
+                    <drawSize>1.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

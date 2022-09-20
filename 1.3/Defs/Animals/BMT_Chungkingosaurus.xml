@@ -142,7 +142,6 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalFighter</li>
             <li>AnimalUncommon</li>
         </tradeTags>
     </ThingDef>
@@ -151,13 +150,13 @@
         <defName>BMT_Chungkingosaurus</defName>
         <label>chungkingosaurus</label>
         <race>BMT_Chungkingosaurus</race>
-        <combatPower>60</combatPower>
+        <combatPower>65</combatPower>
         <wildGroupSize>2~5</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
-                    <drawSize>1.5</drawSize>
+                    <drawSize>1.1</drawSize>
                     <shadowData>
                         <volume>(0.30, 0.18, 0.18)</volume>
                         <offset>(0,0,-0.12)</offset>
@@ -165,7 +164,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Dessicated_Chungkingosaurus</texPath>
-                    <drawSize>1.5</drawSize>
+                    <drawSize>1.1</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

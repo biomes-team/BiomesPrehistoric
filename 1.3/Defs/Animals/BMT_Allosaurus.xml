@@ -121,7 +121,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Allosaurus/Allosaurus</texPath>
-                    <drawSize>2.0</drawSize>
+                    <drawSize>1.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -129,7 +129,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Allosaurus/Dessicated_Allosaurus</texPath>
-                    <drawSize>2.0</drawSize>
+                    <drawSize>1.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

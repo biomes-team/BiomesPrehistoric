@@ -7,7 +7,7 @@
         <description>A plant-eating dinosaur that mostly walked on all fours but could stand on two legs if need be, primarily for feeding purposes. Its large thumb spikes are used in defense.\n\nScienfitic name: Iguanodon bernissartensis</description>
         <statBases>
             <MoveSpeed>3.9</MoveSpeed>
-            <MarketValue>180</MarketValue>
+            <MarketValue>250</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
@@ -130,7 +130,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Iguanodon/IguanodonMale</texPath>
-                    <drawSize>1.7</drawSize>
+                    <drawSize>1.1</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Iguanodon/Dessicated_Iguanodon</texPath>

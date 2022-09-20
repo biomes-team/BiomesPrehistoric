@@ -122,11 +122,11 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Dryosaurus/DryosaurusA</texPath>
-                    <drawSize>1.4</drawSize>
+                    <drawSize>1.1</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Dryosaurus/Dessicated_Dryosaurus</texPath>
-                    <drawSize>1.4</drawSize>
+                    <drawSize>1.1</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

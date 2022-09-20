@@ -147,7 +147,6 @@
 			</li>
 		</tools>
 		<tradeTags>
-			<li>AnimalPet</li>
 			<li>AnimalUncommon</li>
 			<li>AnimalFarm</li>
 		</tradeTags>
@@ -169,7 +168,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Pachyrhinosaurus/PachyrhinosaurusA</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>1.1</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -177,7 +176,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Pachyrhinosaurus/Dessicated_Pachyrhinosaurus</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>1.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

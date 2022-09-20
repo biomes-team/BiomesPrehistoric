@@ -7,7 +7,7 @@
         <description>A bipedal herbivore with a large domed head. It is closely related to Pachycephalosaurus.\n\nScientific name: Stygimoloch spinifer</description>
         <statBases>
             <MoveSpeed>3.5</MoveSpeed>
-            <MarketValue>480</MarketValue>
+            <MarketValue>260</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>9</FilthRate>
@@ -115,7 +115,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stygimoloch/Stygimoloch</texPath>
-                    <drawSize>2.7</drawSize>
+                    <drawSize>1.0</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.2, 0.2)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -123,7 +123,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stygimoloch/Dessicated_Stygimoloch</texPath>
-                    <drawSize>2.7</drawSize>
+                    <drawSize>1.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

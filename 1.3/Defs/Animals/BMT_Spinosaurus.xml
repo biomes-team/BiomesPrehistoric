@@ -125,8 +125,8 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -134,13 +134,13 @@
 		<defName>BMT_Spinosaurus</defName>
 		<label>spinosaurus</label>
 		<race>BMT_Spinosaurus</race>
-		<combatPower>220</combatPower>
+		<combatPower>285</combatPower>
 		<ecoSystemWeight>0.80</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinosaurusFemale</texPath>
-					<drawSize>4.8</drawSize>
+					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -148,7 +148,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
-					<drawSize>4.8</drawSize>
+					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

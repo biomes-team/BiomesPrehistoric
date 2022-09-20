@@ -153,6 +153,7 @@
         <tradeTags>
             <li>AnimalFighter</li>
             <li>AnimalUncommon</li>
+			<li>AnimalExotic</li>
         </tradeTags>
     </ThingDef>
 
@@ -160,13 +161,13 @@
         <defName>BMT_TRex</defName>
         <label>tyrannosaurus</label>
         <race>BMT_TRex</race>
-        <combatPower>260</combatPower>
+        <combatPower>360</combatPower>
         <wildGroupSize>2~4</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/TyrannosaurusRex</texPath>
-                    <drawSize>6.0</drawSize>
+                    <drawSize>1.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -174,13 +175,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
-                    <drawSize>6.0</drawSize>
+                    <drawSize>1.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/TyrannosaurusRex</texPath>
-                    <drawSize>8.12</drawSize>
+                    <drawSize>7.12</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -188,7 +189,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/TyrannosaurusRex/Dessicated_TyrannosaurusRex</texPath>
-                    <drawSize>8.12</drawSize>
+                    <drawSize>7.12</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

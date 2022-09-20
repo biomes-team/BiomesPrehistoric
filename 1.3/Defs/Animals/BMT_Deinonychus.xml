@@ -168,7 +168,7 @@
         <defName>BMT_Deinonychus</defName>
         <label>deinonychus</label>
         <race>BMT_Deinonychus</race>
-        <combatPower>85</combatPower>
+        <combatPower>170</combatPower>
         <wildGroupSize>1~3</wildGroupSize>
         <lifeStages>
             <li>

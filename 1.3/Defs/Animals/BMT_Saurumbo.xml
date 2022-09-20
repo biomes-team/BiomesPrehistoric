@@ -160,6 +160,7 @@
         </comps>
     <tradeTags>
       <li>AnimalExotic</li>
+	  <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
 
@@ -176,7 +177,7 @@
         <labelPlural>saurumbo calves</labelPlural>
         <bodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Saurumbo/Saurumbo</texPath>
-          <drawSize>6</drawSize>
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -184,7 +185,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>BMT_Prehistoric/Animals/Saurumbo/Dessicated_Saurumbo</texPath>
-          <drawSize>6</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>

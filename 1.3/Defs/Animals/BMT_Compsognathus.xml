@@ -7,7 +7,7 @@
         <description>Compsognathus is one of the smallest dinosaur species. Its original discovery changed how people viewed dinosaurs, no longer thinking that they were only giants. Like many of their relatives, they are covered in proto-feathers. These tiny predators can run amazingly fast.\n\nScientific name: Compsognathus longipes</description>
         <statBases>
             <MoveSpeed>6.6</MoveSpeed>
-            <MarketValue>560</MarketValue>
+            <MarketValue>250</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>55</ComfyTemperatureMax>
             <FilthRate>.5</FilthRate>
@@ -112,6 +112,7 @@
             <li>AnimalUncommon</li>
             <li>AnimalPet</li>
 			<li>AnimalFarm</li>
+			<li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>
 
@@ -119,7 +120,7 @@
         <defName>BMT_Compsognathus</defName>
         <label>compsognathus</label>
         <race>BMT_Compsognathus</race>
-        <combatPower>55</combatPower>
+        <combatPower>45</combatPower>
         <wildGroupSize>5~10</wildGroupSize>
         <alternateGraphicChance>0.66</alternateGraphicChance>
         <alternateGraphics>

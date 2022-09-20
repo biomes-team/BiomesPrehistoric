@@ -7,7 +7,7 @@
         <description>One of the largest of its kind, the Gallimimus had long tails and slender legs, allowing for fast running. It is usually found in small herds and can be used as a swift pack animal on caravans. \n\nScientific name: Gallimimus bullatus</description>
         <statBases>
             <MoveSpeed>8</MoveSpeed>
-            <MarketValue>620</MarketValue>
+            <MarketValue>650</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>45</ComfyTemperatureMax>
             <FilthRate>8</FilthRate>
@@ -118,7 +118,7 @@
         <defName>BMT_Gallimimus</defName>
         <label>gallimimus</label>
         <race>BMT_Gallimimus</race>
-        <combatPower>100</combatPower>
+        <combatPower>110</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
         <alternateGraphicChance>0.5</alternateGraphicChance>
         <alternateGraphics>
@@ -130,7 +130,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/GallimimusA</texPath>
-                    <drawSize>2.2</drawSize>
+                    <drawSize>1.25</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.2, 0.2)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -138,7 +138,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Gallimimus/Dessicated_Gallimimus</texPath>
-                    <drawSize>2.2</drawSize>
+                    <drawSize>1.25</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

@@ -8,7 +8,7 @@
         <statBases>
             <MoveSpeed>5</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
             <BiomesCore_FlySpeed MayRequire="biomesteam.biomesislands">5</BiomesCore_FlySpeed>
-            <MarketValue>350</MarketValue>
+            <MarketValue>225</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>57</ComfyTemperatureMax>
             <FilthRate>.7</FilthRate>
@@ -97,6 +97,7 @@
         </tools>
         <tradeTags>
             <li>AnimalInsect</li>
+			<li>AnimalExotic</li>
             <li>AnimalUncommon</li>
         </tradeTags>
     </ThingDef>
@@ -105,7 +106,7 @@
         <defName>BMT_Meganeura</defName>
         <label>meganeura</label>
         <race>BMT_Meganeura</race>
-        <combatPower>70</combatPower>
+        <combatPower>40</combatPower>
         <wildGroupSize>1</wildGroupSize>
         <lifeStages>
             <li>

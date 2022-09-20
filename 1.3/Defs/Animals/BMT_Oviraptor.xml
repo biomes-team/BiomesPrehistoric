@@ -109,7 +109,7 @@
         <defName>BMT_Oviraptor</defName>
         <label>oviraptor</label>
         <race>BMT_Oviraptor</race>
-        <combatPower>85</combatPower>
+        <combatPower>55</combatPower>
         <wildGroupSize>1~2</wildGroupSize>
         <alternateGraphicChance>0.66</alternateGraphicChance>
         <alternateGraphics>

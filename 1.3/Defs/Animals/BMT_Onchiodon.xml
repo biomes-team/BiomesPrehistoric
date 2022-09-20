@@ -68,7 +68,7 @@
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
       <SwimSpeed MayRequire="biomesteam.biomesislands">5.5</SwimSpeed>
-      <MarketValue>450</MarketValue>
+      <MarketValue>155</MarketValue>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>

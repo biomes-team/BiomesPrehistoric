@@ -7,7 +7,7 @@
         <description>This species lives in environments where the day/night cycle is not as balanced as nearer the equator. Their large eyes are thought to make up for this by allowing them to see with minimal light. \n\nScientific Name: Leaellynasaura amicagraphica</description>
         <statBases>
             <MoveSpeed>2.2</MoveSpeed>
-            <MarketValue>250</MarketValue>
+            <MarketValue>150</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
             <FilthRate>8</FilthRate>
@@ -121,7 +121,7 @@
         <defName>BMT_Leaellynasaura</defName>
         <label>leaellynasaura</label>
         <race>BMT_Leaellynasaura</race>
-        <combatPower>45</combatPower>
+        <combatPower>25</combatPower>
         <wildGroupSize>4~9</wildGroupSize>
         <lifeStages>
             <li>

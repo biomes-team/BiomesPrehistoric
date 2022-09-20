@@ -158,7 +158,6 @@
 			</li>
 		</tools>
 		<tradeTags>
-			<li>AnimalPet</li>
 			<li>AnimalUncommon</li>
 		</tradeTags>
 	</ThingDef>
@@ -167,7 +166,7 @@
 		<defName>BMT_Centrosaurus</defName>
 		<label>centrosaurus</label>
 		<race>BMT_Centrosaurus</race>
-		<combatPower>55</combatPower>
+		<combatPower>240</combatPower>
 		<wildGroupSize>6~12</wildGroupSize>
 		<alternateGraphicChance>0.50</alternateGraphicChance>
 		<alternateGraphics>
@@ -179,7 +178,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Centrosaurus/CentrosaurusA</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.14)</offset>
@@ -187,7 +186,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Centrosaurus/Dessicated_Centrosaurus</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

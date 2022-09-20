@@ -9,7 +9,7 @@
 			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<MarketValue>100</MarketValue>
+			<MarketValue>120</MarketValue>
 			<ToxicSensitivity>0.8</ToxicSensitivity>
 			<FilthRate>.5</FilthRate>
 		</statBases>
@@ -111,13 +111,14 @@
 		</comps>
 		<tradeTags>
 			<li>AnimalInsect</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Pulmonoscorpius</defName>
 		<label>pulmonoscorpius</label>
 		<race>BMT_Pulmonoscorpius</race>
-		<combatPower>80</combatPower>
+		<combatPower>40</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.15</ecoSystemWeight>
 		<lifeStages>

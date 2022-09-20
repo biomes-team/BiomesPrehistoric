@@ -108,6 +108,8 @@
         </tools>
         <tradeTags>
             <li>AnimalUncommon</li>
+			<li>AnimalExotic</li>
+			<li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>
 
@@ -115,7 +117,7 @@
         <defName>BMT_Timimus</defName>
         <label>timimus</label>
         <race>BMT_Timimus</race>
-        <combatPower>45</combatPower>
+        <combatPower>75</combatPower>
         <wildGroupSize>1</wildGroupSize>
         <lifeStages>
             <li>

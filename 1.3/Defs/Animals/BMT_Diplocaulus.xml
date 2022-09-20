@@ -68,7 +68,7 @@
     <statBases>
 		<MoveSpeed>3.2</MoveSpeed>
 		<SwimSpeed MayRequire="biomesteam.biomesislands">7.5</SwimSpeed>
-		<MarketValue>450</MarketValue>
+		<MarketValue>200</MarketValue>
 		<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 		<ComfyTemperatureMax>60</ComfyTemperatureMax>
 	</statBases>
@@ -200,7 +200,7 @@
     <defName>BMT_Diplocaulus</defName>
     <label>diplocaulus</label>
     <race>BMT_Diplocaulus</race>
-    <combatPower>50</combatPower>
+    <combatPower>30</combatPower>
     <ecoSystemWeight>0.35</ecoSystemWeight>
     <lifeStages>
       <li>

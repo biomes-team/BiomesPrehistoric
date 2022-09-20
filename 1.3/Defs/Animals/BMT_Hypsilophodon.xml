@@ -7,7 +7,7 @@
         <description>Originally thought to have been a tree-climbing animal, it was realized later on that it was actually a quick-running ground animal that browsed on low-lying plants. It is considered cute by many. \n\nScientific name: Hypsilophodon foxii</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
-            <MarketValue>350</MarketValue>
+            <MarketValue>150</MarketValue>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
             <FilthRate>1</FilthRate>
@@ -127,7 +127,7 @@
         <defName>BMT_Hypsilophodon</defName>
         <label>hypsilophodon</label>
         <race>BMT_Hypsilophodon</race>
-        <combatPower>55</combatPower>
+        <combatPower>25</combatPower>
         <wildGroupSize>4~6</wildGroupSize>
         <lifeStages>
             <li>

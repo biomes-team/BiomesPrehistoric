@@ -162,6 +162,8 @@
         </tools>
         <tradeTags>
             <li>AnimalUncommon</li>
+			<li>AnimalExotic</li>
+			<li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>
 
@@ -175,7 +177,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Kentrosaurus</texPath>
-                    <drawSize>2.7</drawSize>
+                    <drawSize>1.7</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -183,7 +185,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Dessicated_Kentrosaurus</texPath>
-                    <drawSize>2.7</drawSize>
+                    <drawSize>1.7</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

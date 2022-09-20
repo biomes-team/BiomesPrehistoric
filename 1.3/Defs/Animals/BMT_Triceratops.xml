@@ -157,8 +157,8 @@
 			</li>
 		</tools>
 		<tradeTags>
-			<li>AnimalPet</li>
 			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -166,7 +166,7 @@
 		<defName>BMT_Triceratops</defName>
 		<label>triceratops</label>
 		<race>BMT_Triceratops</race>
-		<combatPower>55</combatPower>
+		<combatPower>287</combatPower>
 		<wildGroupSize>4~10</wildGroupSize>
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
@@ -178,7 +178,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsA</texPath>
-					<drawSize>3.8</drawSize>
+					<drawSize>1.8</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -186,7 +186,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
-					<drawSize>3.8</drawSize>
+					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

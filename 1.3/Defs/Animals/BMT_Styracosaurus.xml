@@ -164,7 +164,7 @@
         <defName>BMT_Styracosaurus</defName>
         <label>styracosaurus</label>
         <race>BMT_Styracosaurus</race>
-        <combatPower>70</combatPower>
+        <combatPower>270</combatPower>
         <wildGroupSize>5~10</wildGroupSize>
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
@@ -176,7 +176,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Styracosaurus/StyracosaurusA</texPath>
-                    <drawSize>3.5</drawSize>
+                    <drawSize>1.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -184,7 +184,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Styracosaurus/Dessicated_Styracosaurus</texPath>
-                    <drawSize>3.5</drawSize>
+                    <drawSize>1.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

@@ -7,7 +7,7 @@
         <description>Having thought to weigh under 200 pounds, this dinosaur fed on the stems and leaves of plants. Its strange appearance and small size makes it a popular pet on dinosaur-populated worlds.\n\nScientific Name: Lystrosaurus hedini</description>
         <statBases>
             <MoveSpeed>2.2</MoveSpeed>
-            <MarketValue>350</MarketValue>
+            <MarketValue>250</MarketValue>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
             <FilthRate>1</FilthRate>
@@ -66,7 +66,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>5</power>
+                <power>2</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
             </li>
@@ -75,7 +75,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>5</power>
+                <power>2</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
             </li>
@@ -83,7 +83,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>8</power>
+                <power>4</power>
                 <cooldownTime>3</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.625</chanceFactor>
@@ -93,7 +93,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>7</power>
+                <power>3</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -103,6 +103,7 @@
         <tradeTags>
             <li>AnimalUncommon</li>
 			<li>AnimalFarm</li>
+			<li>AnimalExotic</li>
         </tradeTags>
     </ThingDef>
 

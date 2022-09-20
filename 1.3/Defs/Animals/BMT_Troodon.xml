@@ -7,7 +7,7 @@
         <description>A somewhat small predator species that fed upon small animals or any fresh corpses it could find. Members of their populations in colder environments grew to larger sizes than those in warmer environments. \n\nScientific name: Troodon formosus</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
-            <MarketValue>350</MarketValue>
+            <MarketValue>220</MarketValue>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>.7</FilthRate>
@@ -134,7 +134,7 @@
         <defName>BMT_Troodon</defName>
         <label>troodon</label>
         <race>BMT_Troodon</race>
-        <combatPower>85</combatPower>
+        <combatPower>55</combatPower>
         <wildGroupSize>1</wildGroupSize>
         <lifeStages>
             <li>

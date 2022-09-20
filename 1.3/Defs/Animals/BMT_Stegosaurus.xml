@@ -7,7 +7,7 @@
         <description>One of the more well known dinosaurs, it is a grazing animal with distinctive staggered plates along its back and a dangerous spiked tail. This dinosaur has one of the smallest brains relative to its body size. They are also often found in family groups.\n\nScientific name: Stegosaurus stenops</description>
         <statBases>
             <MoveSpeed>4.5</MoveSpeed>
-            <MarketValue>360</MarketValue>
+            <MarketValue>465</MarketValue>
             <ComfyTemperatureMin>-20</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
             <FilthRate>12</FilthRate>
@@ -149,6 +149,7 @@
         <tradeTags>
             <li>AnimalUncommon</li>
 			<li>AnimalFarm</li>
+			<li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>
 
@@ -156,13 +157,13 @@
         <defName>BMT_Stegosaurus</defName>
         <label>stegosaurus</label>
         <race>BMT_Stegosaurus</race>
-        <combatPower>70</combatPower>
+        <combatPower>135</combatPower>
         <wildGroupSize>3~5</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusMale</texPath>
-                    <drawSize>3.1</drawSize>
+                    <drawSize>1.3</drawSize>
                     <shadowData>
                         <volume>(0.6, 0.4, 0.25)</volume>
                         <offset>(0,0,-0.1)</offset>
@@ -170,7 +171,7 @@
                 </bodyGraphicData>
                 <femaleGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stegosaurus/StegosaurusFemale</texPath>
-                    <drawSize>3.1</drawSize>
+                    <drawSize>1.3</drawSize>
                     <shadowData>
                         <volume>(0.6, 0.4, 0.25)</volume>
                         <offset>(0,0,-0.1)</offset>
@@ -178,7 +179,7 @@
                 </femaleGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stegosaurus/Dessicated_Stegosaurus</texPath>
-                    <drawSize>3.1</drawSize>
+                    <drawSize>1.3</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

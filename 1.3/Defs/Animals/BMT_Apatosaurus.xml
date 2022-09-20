@@ -7,7 +7,7 @@
         <description>A giant grazing animal with a long neck and a dangerous whip-like tail. When using their tail as a weapon they can produce cracking sounds as loud as a cannon firing.\n\nScientific name: Apatosaurus ajax</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
-            <MarketValue>1220</MarketValue>
+            <MarketValue>2250</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
             <FilthRate>15</FilthRate>
@@ -21,7 +21,7 @@
             <herdAnimal>true</herdAnimal>
             <baseBodySize>5</baseBodySize>
             <baseHealthScale>4.5</baseHealthScale>
-            <baseHungerRate>0.90</baseHungerRate>
+            <baseHungerRate>2.3</baseHungerRate>
             <packAnimal>true</packAnimal>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<willNeverEat>
@@ -156,7 +156,7 @@
         <defName>BMT_Apatosaurus</defName>
         <label>apatosaurus</label>
         <race>BMT_Apatosaurus</race>
-        <combatPower>90</combatPower>
+        <combatPower>220</combatPower>
         <wildGroupSize>3~5</wildGroupSize>
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
@@ -168,7 +168,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Apatosaurus/ApatosaurusA</texPath>
-                    <drawSize>6</drawSize>
+                    <drawSize>2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -176,7 +176,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Apatosaurus/Dessicated_Apatosaurus</texPath>
-                    <drawSize>6</drawSize>
+                    <drawSize>2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

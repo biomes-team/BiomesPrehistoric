@@ -8,7 +8,7 @@
         <statBases>
             <MoveSpeed>4</MoveSpeed>
             <SwimSpeed MayRequire="biomesteam.biomesislands">10</SwimSpeed>
-            <MarketValue>960</MarketValue>
+            <MarketValue>360</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>10</FilthRate>
@@ -103,7 +103,6 @@
             </li>
         </tools>
         <tradeTags>
-		    <li>AnimalExotic</li>
 		    <li>AnimalFighter</li>
             <li>AnimalUncommon</li>
         </tradeTags>
@@ -113,13 +112,13 @@
         <defName>BMT_Kaprosuchus</defName>
         <label>kaprosuchus</label>
         <race>BMT_Kaprosuchus</race>
-        <combatPower>100</combatPower>
+        <combatPower>112</combatPower>
         <wildGroupSize>1</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Kaprosuchus</texPath>
-                    <drawSize>2.0</drawSize>
+                    <drawSize>1.0</drawSize>
                     <shadowData>
                         <volume>(0.25, 0.13, 0.13)</volume>
                         <offset>(0,0,-0.1)</offset>
@@ -127,7 +126,7 @@
                 </bodyGraphicData>
             <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Kaprosuchus/Dessicated_Kaprosuchus</texPath> 
-                    <drawSize>2.0</drawSize>
+                    <drawSize>1.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

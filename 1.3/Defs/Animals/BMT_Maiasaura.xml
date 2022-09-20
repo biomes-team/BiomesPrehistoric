@@ -7,7 +7,7 @@
         <description>Known as the “Good Mother” dinosaur, this species lived in large herds and cared for their young after hatching. Their primary defense from predators was running away in herds, making it difficult to be targeted. They began life as primarily bipeds but shifted to primarily quadrupeds as they aged. \n\nScientific name: Maiasaura peeblesorum</description>
         <statBases>
             <MoveSpeed>3.5</MoveSpeed>
-            <MarketValue>200</MarketValue>
+            <MarketValue>285</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
@@ -117,6 +117,7 @@
         </tools>
         <tradeTags>
             <li>AnimalCommon</li>
+			<li>AnimalFarm</li>
         </tradeTags>
     </ThingDef>
 
@@ -130,11 +131,11 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Maiasaura/Maiasaura</texPath>
-                    <drawSize>2.5</drawSize>
+                    <drawSize>1.25</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Maiasaura/Dessicated_Maiasaura</texPath>
-                    <drawSize>2.5</drawSize>
+                    <drawSize>1.25</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

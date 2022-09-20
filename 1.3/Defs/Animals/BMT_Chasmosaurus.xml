@@ -167,7 +167,7 @@
 		<defName>BMT_Chasmosaurus</defName>
 		<label>chasmosaurus</label>
 		<race>BMT_Chasmosaurus</race>
-		<combatPower>55</combatPower>
+		<combatPower>235</combatPower>
 		<wildGroupSize>4~7</wildGroupSize>
 		<alternateGraphicChance>0.50</alternateGraphicChance>
 		<alternateGraphics>
@@ -179,7 +179,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Chasmosaurus/ChasmosaurusA</texPath>
-					<drawSize>1.7</drawSize>
+					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.14)</offset>
@@ -187,7 +187,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Chasmosaurus/Dessicated_Chasmosaurus</texPath>
-					<drawSize>1.7</drawSize>
+					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

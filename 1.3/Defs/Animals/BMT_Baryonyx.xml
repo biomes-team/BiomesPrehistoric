@@ -128,7 +128,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Baryonyx</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>1.75</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -136,7 +136,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Baryonyx/Dessicated_Baryonyx</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>1.75</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

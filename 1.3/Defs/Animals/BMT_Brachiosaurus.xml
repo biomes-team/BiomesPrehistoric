@@ -7,7 +7,7 @@
         <description>A huge herbivorous dinosaur. Their long necks are better suited to being held upright than those of other sauropods, in large part due to their body posture, making them efficient defoliators of trees.\n\nScientific name: Brachiosaurus altithorax</description>
         <statBases>
             <MoveSpeed>5.5</MoveSpeed>
-            <MarketValue>1220</MarketValue>
+            <MarketValue>3520</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>16</FilthRate>
@@ -23,7 +23,7 @@
             <herdAnimal>true</herdAnimal>
             <baseBodySize>9.5</baseBodySize>
             <baseHealthScale>7.5</baseHealthScale>
-            <baseHungerRate>1.735</baseHungerRate>
+            <baseHungerRate>2.755</baseHungerRate>
             <packAnimal>true</packAnimal>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<willNeverEat>
@@ -158,7 +158,7 @@
         <defName>BMT_Brachiosaurus</defName>
         <label>brachiosaurus</label>
         <race>BMT_Brachiosaurus</race>
-        <combatPower>85</combatPower>
+        <combatPower>320</combatPower>
         <wildGroupSize>2~4</wildGroupSize>
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
@@ -173,7 +173,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusA</texPath>
-                    <drawSize>8.5</drawSize>
+                    <drawSize>2.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -181,13 +181,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
-                    <drawSize>8.5</drawSize>
+                    <drawSize>2.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/BrachiosaurusA</texPath>
-                    <drawSize>12</drawSize>
+                    <drawSize>7</drawSize>
                     <shadowData>
                         <volume>(1.5, 1.1, 0.8)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -195,7 +195,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Brachiosaurus/Dessicated_Brachiosaurus</texPath>
-                    <drawSize>12</drawSize>
+                    <drawSize>7</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

@@ -7,7 +7,7 @@
         <description>A well known relative of the Pachycephalosaurus, its small, coarsely serrated teeth were most likely used in shredding and chewing leaves.\n\nScientific name: Stegoceras validum</description>
         <statBases>
             <MoveSpeed>3.2</MoveSpeed>
-            <MarketValue>380</MarketValue>
+            <MarketValue>230</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>6</FilthRate>
@@ -115,7 +115,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stegoceras/Stegoceras</texPath>
-                    <drawSize>1.5</drawSize>
+                    <drawSize>1.11</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -123,7 +123,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Stegoceras/Dessicated_Stegoceras</texPath>
-                    <drawSize>1.5</drawSize>
+                    <drawSize>1.11</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

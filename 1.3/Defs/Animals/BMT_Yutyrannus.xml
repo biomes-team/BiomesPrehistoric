@@ -128,13 +128,13 @@
         <defName>BMT_Yutyrannus</defName>
         <label>yutyrannus</label>
         <race>BMT_Yutyrannus</race>
-        <combatPower>200</combatPower>
+        <combatPower>300</combatPower>
         <wildGroupSize>1~2</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/YutyrannusBaby</texPath>
-                    <drawSize>2</drawSize>
+                    <drawSize>1.5</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -142,7 +142,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Yutyrannus/Dessicated_Yutyrannus</texPath>
-                    <drawSize>2</drawSize>
+                    <drawSize>1.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

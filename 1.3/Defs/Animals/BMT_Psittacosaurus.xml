@@ -85,7 +85,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>10</power>
+                <power>7</power>
                 <cooldownTime>3</cooldownTime>
                 <linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
@@ -106,7 +106,7 @@
                 <capacities>
                     <li>Stab</li>
                 </capacities>
-                <power>20</power>
+                <power>6</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
             </li>
@@ -122,7 +122,7 @@
         <defName>BMT_Psittacosaurus</defName>
         <label>psittacosaurus</label>
         <race>BMT_Psittacosaurus</race>
-        <combatPower>30</combatPower>
+        <combatPower>20</combatPower>
         <wildGroupSize>5~10</wildGroupSize>
         <lifeStages>
             <li>

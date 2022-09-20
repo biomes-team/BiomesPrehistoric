@@ -7,7 +7,7 @@
         <description>An apex predator with two large distinct saber-like teeth. They were one of the largest Permian carnivores and are thought to have hunted similar to Smilodon.\n\nScientific Name: Inostrancevia alexandri</description>
         <statBases>
             <MoveSpeed>5.2</MoveSpeed>
-            <MarketValue>850</MarketValue>
+            <MarketValue>450</MarketValue>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
             <FilthRate>8</FilthRate>

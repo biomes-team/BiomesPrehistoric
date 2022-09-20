@@ -135,11 +135,11 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Struthiomimus/Struthiomimus</texPath>
-                    <drawSize>1.8</drawSize>
+                    <drawSize>1.1</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Struthiomimus/Dessicated_Struthiomimus</texPath>
-                    <drawSize>1.8</drawSize>
+                    <drawSize>1.1</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

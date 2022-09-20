@@ -7,7 +7,7 @@
         <description>A contemporary of both Apatosaurus and Brachiosaurus, it fed off of different vegetation than both, allowing them to coexist without competition. It was warm blooded like other sauropods. \n\nScientific name: Camarasaurus supremus</description>
         <statBases>
             <MoveSpeed>5.3</MoveSpeed>
-            <MarketValue>1120</MarketValue>
+            <MarketValue>2420</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>14</FilthRate>
@@ -23,7 +23,7 @@
             <herdAnimal>true</herdAnimal>
             <baseBodySize>9.0</baseBodySize>
             <baseHealthScale>7.3</baseHealthScale>
-            <baseHungerRate>1.735</baseHungerRate>
+            <baseHungerRate>2.535</baseHungerRate>
             <packAnimal>false</packAnimal>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<willNeverEat>
@@ -170,7 +170,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusA</texPath>
-                    <drawSize>5.0</drawSize>
+                    <drawSize>2.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -178,13 +178,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Camarasaurus/Dessicated_Camarasaurus</texPath>
-                    <drawSize>5.0</drawSize>
+                    <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusA</texPath>
-                    <drawSize>7</drawSize>
+                    <drawSize>5</drawSize>
                     <shadowData>
                         <volume>(1.5, 1.1, 0.8)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -192,7 +192,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Camarasaurus/Dessicated_Camarasaurus</texPath>
-                    <drawSize>7</drawSize>
+                    <drawSize>5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

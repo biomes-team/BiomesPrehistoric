@@ -7,7 +7,7 @@
         <description>The Olorotitan continually replaced its teeth throughout its lifetime, likely due to how it was able to grind its teeth in a method analogous to chewing. It was one of the last non-avian dinosaurs before the mass extinction that led to the end of the dinosaurs on Earth. \n\nScientific name: Olorotitan arharensis</description>
         <statBases>
             <MoveSpeed>3.6</MoveSpeed>
-            <MarketValue>170</MarketValue>
+            <MarketValue>225</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
@@ -117,6 +117,7 @@
         </tools>
         <tradeTags>
             <li>AnimalCommon</li>
+			<li>AnimalUncommon</li>
         </tradeTags>
     </ThingDef>
 
@@ -130,11 +131,11 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Olorotitan/Olorotitan</texPath>
-                    <drawSize>2.5</drawSize>
+                    <drawSize>1.5</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Olorotitan/Dessicated_Olorotitan</texPath>
-                    <drawSize>2.5</drawSize>
+                    <drawSize>1.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

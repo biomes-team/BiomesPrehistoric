@@ -110,13 +110,13 @@
         <defName>BMT_Dilophosaurus</defName>
         <label>dilophosaurus</label>
         <race>BMT_Dilophosaurus</race>
-        <combatPower>260</combatPower>
+        <combatPower>215</combatPower>
         <wildGroupSize>1~4</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusMale</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>2.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -124,7 +124,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

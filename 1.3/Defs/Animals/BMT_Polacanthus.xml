@@ -7,7 +7,7 @@
         <description>A medium-sized grazing ankylosaur with heavy armor along its dangerous spiked body. These dinosaurs are often found either alone or in pairs. They make for good battle animals given their natural armoring. \n\nScientific name: Polacanthus foxii</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
-            <MarketValue>1040</MarketValue>
+            <MarketValue>740</MarketValue>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
             <FilthRate>10</FilthRate>
@@ -29,7 +29,7 @@
             <lifeExpectancy>85</lifeExpectancy>
             <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
-            <trainability>None</trainability>
+            <trainability>Intermediate</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -152,7 +152,7 @@
         <defName>BMT_Polacanthus</defName>
         <label>polacanthus</label>
         <race>BMT_Polacanthus</race>
-        <combatPower>70</combatPower>
+        <combatPower>85</combatPower>
         <wildGroupSize>1~2</wildGroupSize>
         <lifeStages>
             <li>

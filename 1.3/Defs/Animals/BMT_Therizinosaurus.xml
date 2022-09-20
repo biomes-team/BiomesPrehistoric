@@ -102,7 +102,6 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalFighter</li>
             <li>AnimalUncommon</li>
         </tradeTags>
     </ThingDef>
@@ -111,7 +110,7 @@
         <defName>BMT_Therizinosaurus</defName>
         <label>therizinosaurus</label>
         <race>BMT_Therizinosaurus</race>
-        <combatPower>50</combatPower>
+        <combatPower>150</combatPower>
         <wildGroupSize>1~2</wildGroupSize>
         <lifeStages>
             <li>

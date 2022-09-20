@@ -162,7 +162,7 @@
         <defName>BMT_Velociraptor</defName>
         <label>velociraptor</label>
         <race>BMT_Velociraptor</race>
-        <combatPower>75</combatPower>
+        <combatPower>175</combatPower>
         <wildGroupSize>2~4</wildGroupSize>
         <alternateGraphicChance>0.10</alternateGraphicChance>
         <alternateGraphics>

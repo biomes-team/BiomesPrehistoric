@@ -163,6 +163,7 @@
         </tools>
         <tradeTags>
             <li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>
 
@@ -170,13 +171,13 @@
         <defName>BMT_Borealopelta</defName>
         <label>borealopelta</label>
         <race>BMT_Borealopelta</race>
-        <combatPower>70</combatPower>
+        <combatPower>100</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Borealopelta/Borealopelta</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>1.8</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -184,7 +185,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Borealopelta/Dessicated_Borealopelta</texPath>
-                    <drawSize>2.8</drawSize>
+                    <drawSize>1.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

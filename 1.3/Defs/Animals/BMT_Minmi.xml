@@ -7,7 +7,7 @@
         <description>Among the smallest of its kind, it is quite peaceful, relying on its natural armor to defend itself. They’re fairly social and are fairly easily tamed as pets. Lacking any natural weapons they do not make for good battle animals.\n\nScientific name:Minmi paravertebra</description>
         <statBases>
             <MoveSpeed>4</MoveSpeed>
-            <MarketValue>520</MarketValue>
+            <MarketValue>320</MarketValue>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
             <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
@@ -135,6 +135,8 @@
         </tools>
         <tradeTags>
             <li>AnimalUncommon</li>
+			<li>AnimalExotic</li>
+			<li>AnimalPet</li>
         </tradeTags>
     </ThingDef>
 
@@ -142,7 +144,7 @@
         <defName>BMT_Minmi</defName>
         <label>minmi</label>
         <race>BMT_Minmi</race>
-        <combatPower>25</combatPower>
+        <combatPower>65</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
         <lifeStages>
             <li>

@@ -104,7 +104,7 @@
         </tools>
         <tradeTags>
             <li>AnimalFighter</li>
-            <li>AnimalUncommon</li>
+            <li>AnimalExotic</li>
         </tradeTags>
     </ThingDef>
 
@@ -124,7 +124,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Carnotaurus/CarnotaurusA</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>1.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.1)</offset>
@@ -132,7 +132,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Carnotaurus/Dessicated_Carnotaurus</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>1.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

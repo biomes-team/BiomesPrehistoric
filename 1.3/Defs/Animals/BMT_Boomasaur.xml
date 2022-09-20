@@ -7,7 +7,7 @@
         <description>Engineered for chemicals production, the boomasaur was created from the genetic base of a Parasaur; it grows large sacs of volatile chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge explosion it produces when it dies. It can be milked to produce chemfuel - very carefully.\n\nScientific name: Parasaurolophus fragor</description>
         <statBases>
             <MoveSpeed>4.0</MoveSpeed>
-            <MarketValue>180</MarketValue>
+            <MarketValue>450</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <FilthRate>5</FilthRate>
@@ -119,6 +119,7 @@
             <li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 			<li>AnimalFarm</li>
+			<li>AnimalExotic</li>
         </tradeTags>
     </ThingDef>
 
@@ -132,11 +133,11 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Boomasaur/Boomasaur</texPath>
-                    <drawSize>1.0</drawSize>
+                    <drawSize>.85</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Boomasaur/Dessicated_Boomasaur</texPath>
-                    <drawSize>1.0</drawSize>
+                    <drawSize>.85</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>

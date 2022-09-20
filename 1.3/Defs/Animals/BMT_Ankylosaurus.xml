@@ -144,7 +144,7 @@
         <defName>BMT_Ankylosaurus</defName>
         <label>ankylosaurus</label>
         <race>BMT_Ankylosaurus</race>
-        <combatPower>70</combatPower>
+        <combatPower>180</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
         <alternateGraphicChance>0.50</alternateGraphicChance>
         <alternateGraphics>
@@ -156,7 +156,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
-                    <drawSize>3</drawSize>
+                    <drawSize>2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.1)</offset>
@@ -164,13 +164,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
-                    <drawSize>3</drawSize>
+                    <drawSize>2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
-                    <drawSize>4.8</drawSize>
+                    <drawSize>4</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.125)</offset>
@@ -178,7 +178,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
-                    <drawSize>4.8</drawSize>
+                    <drawSize>4</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
