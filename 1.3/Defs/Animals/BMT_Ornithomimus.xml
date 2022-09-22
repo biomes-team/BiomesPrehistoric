@@ -2,35 +2,36 @@
 <Defs>
 
     <ThingDef ParentName="AnimalThingBase">
-        <defName>BMT_Hypsilophodon</defName>
-        <label>hypsilophodon</label>
-        <description>Originally thought to have been a tree-climbing animal, it was realized later on that it was actually a quick-running ground animal that browsed on low-lying plants. It is considered cute by many. \n\nScientific name: Hypsilophodon foxii</description>
+        <defName>BMT_Ornithomimus</defName>
+        <label>ornithomimus</label>
+        <description>Much like the modern ostritch, the body of the ornithomimus was well suited for speed. Its large eyes indicate that it may have been nocturnal. \n\nScientific name: Ornithomimus velox</description>
         <statBases>
-            <MoveSpeed>5</MoveSpeed>
-            <MarketValue>150</MarketValue>
-            <ComfyTemperatureMin>0</ComfyTemperatureMin>
+            <MoveSpeed>8</MoveSpeed>
+            <MarketValue>450</MarketValue>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
-            <FilthRate>1</FilthRate>
+            <FilthRate>5.5</FilthRate>
+			<CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
-            <useMeatFrom>BMT_Iguanodon</useMeatFrom>
-            <body>BMT_BipedWithClawsTeethAndTailFourDH</body>
+            <useMeatFrom>BMT_Velociraptor</useMeatFrom>
+            <petness>1</petness>
+            <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
-            <baseBodySize>0.22</baseBodySize>
-            <baseHealthScale>0.55</baseHealthScale>
-            <baseHungerRate>0.50</baseHungerRate>
-            <foodType>VegetarianRoughAnimal</foodType>
+            <baseBodySize>2</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <baseHungerRate>0.45</baseHungerRate>
+            <foodType>OmnivoreRoughAnimal</foodType>
             <predator>false</predator>
-            <wildness>0.10</wildness>
-            <lifeExpectancy>10</lifeExpectancy>
-			<petness>0.8</petness>
-            <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.010</manhunterOnDamageChance>
+            <wildness>0.35</wildness>
+            <lifeExpectancy>25</lifeExpectancy>
+            <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
             <nuzzleMtbHours>12</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>
-            <trainability>Intermediate</trainability>
+            <trainability>None</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -48,11 +49,11 @@
                 </li>
                 <li>
                     <def>AnimalJuvenile</def>
-                    <minAge>0.11</minAge>
+                    <minAge>0.2</minAge>
                 </li>
                 <li>
                     <def>AnimalAdult</def>
-                    <minAge>0.25</minAge>
+                    <minAge>0.4</minAge>
                     <soundWounded>BMT_Compsognathus_Wounded</soundWounded>
                     <soundDeath>BMT_Compsognathus_Death</soundDeath>
                     <soundCall>BMT_Compsognathus_Call</soundCall>
@@ -66,15 +67,15 @@
         <comps>
             <li Class="CompProperties_Shearable">
                 <woolDef>BMT_DinoFeather</woolDef>
-                <shearIntervalDays>60</shearIntervalDays>
-                <woolAmount>5</woolAmount>
+                <shearIntervalDays>25</shearIntervalDays>
+                <woolAmount>10</woolAmount>
             </li>
             <li Class="CompProperties_EggLayer">
-                <eggFertilizedDef>BMT_HypsilophodonEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>6</eggFertilizationCountMax>
-                <eggLayIntervalDays>5</eggLayIntervalDays>
+                <eggFertilizedDef>BMT_OrnithomimusEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>4</eggFertilizationCountMax>
+                <eggLayIntervalDays>13</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~6</eggCountRange>
+                <eggCountRange>1~4</eggCountRange>
             </li>
         </comps>
         <tools>
@@ -83,7 +84,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>4</power>
+                <power>11</power>
                 <cooldownTime>1.3</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
             </li>
@@ -92,7 +93,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>4</power>
+                <power>11</power>
                 <cooldownTime>1.3</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
             </li>
@@ -100,7 +101,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>6</power>
+                <power>11</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
@@ -110,7 +111,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>4</power>
+                <power>5</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -119,74 +120,75 @@
         </tools>
         <tradeTags>
             <li>AnimalPet</li>
-			<li>AnimalFarm</li>
+            <li>AnimalFarm</li>
+            <li>AnimalUncommon</li>
         </tradeTags>
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">
-        <defName>BMT_Hypsilophodon</defName>
-        <label>hypsilophodon</label>
-        <race>BMT_Hypsilophodon</race>
-        <combatPower>25</combatPower>
-        <wildGroupSize>4~6</wildGroupSize>
+        <defName>BMT_Ornithomimus</defName>
+        <label>ornithomimus</label>
+        <race>BMT_Ornithomimus</race>
+        <combatPower>85</combatPower>
+        <wildGroupSize>1~4</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Hypsilophodon</texPath>
-                    <drawSize>1</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Ornithomimus/Ornithomimus</texPath>
+                    <drawSize>1.0</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Dessicated_Hypsilophodon</texPath>
-                    <drawSize>1</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Ornithomimus/Dessicated_Ornithomimus</texPath>
+                    <drawSize>1.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Hypsilophodon</texPath>
-                    <drawSize>1.5</drawSize>
-                    <shadowData>
-                        <volume>(0.2, 0.2, 0.2)</volume>
-                        <offset>(0,0,-0.1)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Dessicated_Hypsilophodon</texPath>
-                    <drawSize>1.5</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Hypsilophodon</texPath>
-                    <drawSize>2</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Ornithomimus/Ornithomimus</texPath>
+                    <drawSize>2.6</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.1)</offset>
+                        <offset>(0,0,-0.3)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Hypsilophodon/Dessicated_Hypsilophodon</texPath>
-                    <drawSize>2</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Ornithomimus/Dessicated_Ornithomimus</texPath>
+                    <drawSize>2.6</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Ornithomimus/Ornithomimus</texPath>
+                    <drawSize>3.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.4, 0.4)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Ornithomimus/Dessicated_Ornithomimus</texPath>
+                    <drawSize>3.6</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
     </PawnKindDef>
 
     <ThingDef ParentName="EggFertBase">
-        <defName>BMT_HypsilophodonEggFertilized</defName>
-        <label>hypsilophodon egg (fert.)</label>
-        <description>A fertilized Hypsilophodon egg. If all goes well, it should hatch into a baby Hypsilophodon. It can be eaten raw, but it's much better cooked.</description>
+        <defName>BMT_OrnithomimusEggFertilized</defName>
+        <label>ornithomimus egg (fert.)</label>
+        <description>A fertilized ornithomimus egg. If all goes well, it should hatch into a baby ornithomimus. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
             <color>(181,164,138)</color>
-            <drawSize>0.75</drawSize>
+            <drawSize>0.8</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>21.0</MarketValue>
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
-                <hatcherPawn>BMT_Hypsilophodon</hatcherPawn>
+                <hatcherDaystoHatch>5</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Ornithomimus</hatcherPawn>
             </li>
         </comps>
     </ThingDef>

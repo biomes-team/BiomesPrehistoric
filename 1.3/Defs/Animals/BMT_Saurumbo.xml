@@ -153,7 +153,7 @@
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_SaurumboEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>1</eggFertilizationCountMax>
-                <eggLayIntervalDays>120</eggLayIntervalDays>
+                <eggLayIntervalDays>20</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~1</eggCountRange>
             </li>

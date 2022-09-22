@@ -56,10 +56,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_AllosaurusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>2</eggFertilizationCountMax>
                 <eggLayIntervalDays>8</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~2</eggCountRange>
             </li>
             <li Class="BiomesCore.CompProperties_PackHunter">
                 <joinHuntRange>24</joinHuntRange>

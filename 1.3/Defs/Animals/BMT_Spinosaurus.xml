@@ -70,12 +70,12 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_SpinosaurusEggFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>6</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
-					<max>1</max>
+					<max>3</max>
 				</eggCountRange>
 			</li>
 			<li Class="BiomesCore.CompProperties_BottomFeeder">

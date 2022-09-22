@@ -61,10 +61,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_BrachiosaurusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>4</eggFertilizationCountMax>
+                <eggFertilizationCountMax>3</eggFertilizationCountMax>
                 <eggLayIntervalDays>15</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~4</eggCountRange>
+                <eggCountRange>1~3</eggCountRange>
             </li>
         </comps>
         <tools>

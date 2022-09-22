@@ -67,10 +67,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_ProtoceratopsEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>5</eggFertilizationCountMax>
                 <eggLayIntervalDays>15</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~5</eggCountRange>
             </li>
         </comps>
         <tools>

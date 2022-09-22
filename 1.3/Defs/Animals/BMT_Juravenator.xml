@@ -71,7 +71,7 @@
             </li>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_JuravenatorEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>3</eggFertilizationCountMax>
+                <eggFertilizationCountMax>6</eggFertilizationCountMax>
                 <eggLayIntervalDays>5</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~6</eggCountRange>

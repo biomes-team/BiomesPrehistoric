@@ -97,6 +97,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Maiasaura>0.4</BMT_Maiasaura>
 		<BMT_Minmi>0.3</BMT_Minmi>
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
+		<BMT_Ornithomimus>0.05<BMT_Ornithomimus>
 		<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
 		<BMT_Panphagia>0.7</BMT_Panphagia>
 		<BMT_Parasaur>0.4</BMT_Parasaur>
@@ -150,6 +151,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Minmi>0.3</BMT_Minmi>
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
 		<BMT_Onchiodon>0.7</BMT_Onchiodon>
+		<BMT_Ornithomimus>0.05<BMT_Ornithomimus>
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
 		<BMT_Panphagia>0.7</BMT_Panphagia>
 		<BMT_Pisanosaurus<>0.6</BMT_Pisanosaurus>
@@ -306,11 +308,12 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Leaellynasaura>1.2</BMT_Leaellynasaura>
 		<BMT_Lystrosaur>0.7</BMT_Lystrosaur>
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
+		<BMT_Ornithomimus>0.5<BMT_Ornithomimus>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
 		<BMT_Parasaur>0.3</BMT_Parasaur>
 		<BMT_Stegoceras>0.5</BMT_Stegoceras>
 		<BMT_Stegosaurus>0.4</BMT_Stegosaurus>
-		<BMT_Struthiomimus>0.5</BMT_Struthiomimus>
+		<BMT_Struthiomimus>0.4</BMT_Struthiomimus>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Therizinosaurus>0.3</BMT_Therizinosaurus>
 		<BMT_Timimus>0.7</BMT_Timimus>
@@ -333,6 +336,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Leaellynasaura>0.8</BMT_Leaellynasaura>
 		<BMT_Lystrosaur>0.7</BMT_Lystrosaur>
 		<BMT_Olorotitan>0.25</BMT_Olorotitan>
+		<BMT_Ornithomimus>0.2<BMT_Ornithomimus>
 		<BMT_Ouranosaurus>0.4</BMT_Ouranosaurus>
 		<BMT_Pachyrhinosaurus>0.7</BMT_Pachyrhinosaurus>
 		<BMT_Pulmonoscorpius>0.1</BMT_Pulmonoscorpius>
@@ -351,6 +355,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Homalocephale>0.05</BMT_Homalocephale>
 		<BMT_Leaellynasaura>0.8</BMT_Leaellynasaura>
 		<BMT_Lystrosaur>0.3</BMT_Lystrosaur>
+		<BMT_Ornithomimus>0.3<BMT_Ornithomimus>
 		<BMT_Pachyrhinosaurus>0.8</BMT_Pachyrhinosaurus>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
 		<BMT_Struthiomimus>0.1</BMT_Struthiomimus>

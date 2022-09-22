@@ -58,7 +58,7 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_TRexEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>4</eggFertilizationCountMax>
+                <eggFertilizationCountMax>2</eggFertilizationCountMax>
                 <eggLayIntervalDays>14</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~2</eggCountRange>

@@ -66,7 +66,7 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_StyracosaurusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>4</eggFertilizationCountMax>
                 <eggLayIntervalDays>8</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~4</eggCountRange>

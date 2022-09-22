@@ -65,10 +65,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_PolacanthusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>3</eggFertilizationCountMax>
                 <eggLayIntervalDays>12</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~3</eggCountRange>
             </li>
         </comps>
         <tools>

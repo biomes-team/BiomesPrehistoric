@@ -55,7 +55,7 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_TitanoboaEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>3</eggFertilizationCountMax>
+                <eggFertilizationCountMax>5</eggFertilizationCountMax>
                 <eggLayIntervalDays>25</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>1~5</eggCountRange>

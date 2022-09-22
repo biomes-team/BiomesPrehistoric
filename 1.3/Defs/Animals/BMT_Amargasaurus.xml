@@ -39,11 +39,11 @@
                 </li>
                 <li>
                     <def>AnimalJuvenile</def>
-                    <minAge>1.5</minAge>
+                    <minAge>1.0</minAge>
                 </li>
                 <li>
                     <def>AnimalAdult</def>
-                    <minAge>3.0</minAge>
+                    <minAge>2.0</minAge>
                     <soundWounded>BMT_Amargasaurus_Wounded</soundWounded>
                     <soundDeath>BMT_Amargasaurus_Death</soundDeath>
                     <soundCall>BMT_Amargasaurus_Call</soundCall>
@@ -57,10 +57,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_AmargasaurusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>3</eggFertilizationCountMax>
                 <eggLayIntervalDays>12</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~3</eggCountRange>
             </li>
         </comps>
         <tools>

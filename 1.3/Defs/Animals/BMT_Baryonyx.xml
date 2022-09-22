@@ -61,10 +61,10 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_BaryonyxEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>1</eggFertilizationCountMax>
+                <eggFertilizationCountMax>2</eggFertilizationCountMax>
                 <eggLayIntervalDays>12</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>1~1</eggCountRange>
+                <eggCountRange>1~2</eggCountRange>
             </li>
             <li Class="BiomesCore.CompProperties_BottomFeeder">
                 <feedingTerrainTag>Water</feedingTerrainTag>

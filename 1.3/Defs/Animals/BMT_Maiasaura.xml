@@ -69,7 +69,7 @@
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_MaiasauraEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>8</eggFertilizationCountMax>
+                <eggFertilizationCountMax>7</eggFertilizationCountMax>
                 <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
                 <eggCountRange>2~7</eggCountRange>

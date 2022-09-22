@@ -43,11 +43,11 @@
                 </li>
                 <li>
                     <def>AnimalJuvenile</def>
-                    <minAge>1.5</minAge>
+                    <minAge>1.4</minAge>
                 </li>
                 <li>
                     <def>AnimalAdult</def>
-                    <minAge>3.0</minAge>
+                    <minAge>2.8</minAge>
                     <soundWounded>BMT_Brachiosaurus_Wounded</soundWounded>
                     <soundDeath>BMT_Brachiosaurus_Death</soundDeath>
                     <soundCall>BMT_Brachiosaurus_Call</soundCall>
