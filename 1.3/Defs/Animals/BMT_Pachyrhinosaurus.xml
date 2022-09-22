@@ -10,7 +10,7 @@
 			<MarketValue>370</MarketValue>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>35</ComfyTemperatureMax>
-			<FilthRate>10</FilthRate>
+			<FilthRate>16</FilthRate>
 			<CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
 		</statBases>
 		<race>

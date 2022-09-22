@@ -11,13 +11,13 @@
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
-			<FilthRate>10</FilthRate>
+			<FilthRate>16</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Iguanodon</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailFourDH</body>
-            <leatherDef>BMT_DinoHideThin</leatherDef>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>3.0</baseBodySize>
             <baseHealthScale>1.9</baseHealthScale>

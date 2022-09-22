@@ -10,7 +10,7 @@
             <MarketValue>1220</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>45</ComfyTemperatureMax>
-            <FilthRate>16</FilthRate>
+            <FilthRate>20</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
@@ -27,8 +27,7 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
 			</willNeverEat>
             <predator>false</predator>
-            <wildness>0.30</wildness>
-            <roamMtbDays>2</roamMtbDays>	  
+            <wildness>0.30</wildness>  
             <lifeExpectancy>90</lifeExpectancy>
             <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.25</manhunterOnDamageChance>

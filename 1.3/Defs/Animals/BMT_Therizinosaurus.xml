@@ -12,13 +12,13 @@
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
             <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
-			<FilthRate>10</FilthRate>
+			<FilthRate>14</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
-            <leatherDef>BMT_DinoHideHeavy</leatherDef>
+            <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>4</baseBodySize>
             <baseHealthScale>2.5</baseHealthScale>

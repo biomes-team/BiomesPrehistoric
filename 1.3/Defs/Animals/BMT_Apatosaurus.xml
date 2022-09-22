@@ -10,7 +10,7 @@
             <MarketValue>2250</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
-            <FilthRate>15</FilthRate>
+            <FilthRate>20</FilthRate>
 			<CaravanRidingSpeedFactor>1.4</CaravanRidingSpeedFactor>
         </statBases>
         <race>
@@ -30,7 +30,6 @@
 			</willNeverEat>
             <predator>false</predator>
             <wildness>0.65</wildness>
-            <roamMtbDays>2.5</roamMtbDays>
             <lifeExpectancy>80</lifeExpectancy>
             <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.70</manhunterOnDamageChance>

@@ -11,13 +11,13 @@
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
-			<FilthRate>5</FilthRate>
+			<FilthRate>17</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>ornithopod meat</meatLabel>
             <body>BMT_BipedWithSpikeTeethAndTail</body>
-            <leatherDef>BMT_DinoHideThin</leatherDef>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.7</baseBodySize>
             <baseHealthScale>1.7</baseHealthScale>

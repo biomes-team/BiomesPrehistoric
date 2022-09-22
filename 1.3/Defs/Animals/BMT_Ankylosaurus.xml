@@ -13,7 +13,7 @@
             <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
             <ArmorRating_Heat>0.10</ArmorRating_Heat>
-            <FilthRate>15</FilthRate>
+            <FilthRate>17</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>

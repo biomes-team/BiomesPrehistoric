@@ -10,13 +10,13 @@
             <MarketValue>260</MarketValue>
             <ComfyTemperatureMin>-15</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <FilthRate>9</FilthRate>
+            <FilthRate>10</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Pachycephalosaurus</useMeatFrom>
             <body>QuadrupedAnimalWithPawsAndTail</body>
-            <leatherDef>BMT_DinoHideArmored</leatherDef>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>1.5</baseBodySize>
             <baseHealthScale>1.2</baseHealthScale>

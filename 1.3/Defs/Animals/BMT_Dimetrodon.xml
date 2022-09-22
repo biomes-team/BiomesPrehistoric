@@ -10,13 +10,13 @@
             <MarketValue>460</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <FilthRate>10</FilthRate>
+            <FilthRate>15</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>synapsid meat</meatLabel>
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
-            <leatherDef>BMT_DinoHideThin</leatherDef>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>2</baseBodySize>
             <baseHealthScale>1.2</baseHealthScale>

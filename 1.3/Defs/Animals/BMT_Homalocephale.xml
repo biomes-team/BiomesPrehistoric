@@ -10,7 +10,7 @@
             <MarketValue>120</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
-			<FilthRate>1</FilthRate>
+			<FilthRate>2.5</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>

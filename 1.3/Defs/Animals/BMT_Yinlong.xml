@@ -17,7 +17,7 @@
 			<useMeatFrom>BMT_Triceratops</useMeatFrom>
 			<petness>1</petness>
 			<body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
-			<leatherDef>BMT_DinoHideHeavy</leatherDef>
+			<leatherDef>BMT_DinoHideThin</leatherDef>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>3.2</baseBodySize>
 			<baseHealthScale>2.8</baseHealthScale>

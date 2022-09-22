@@ -16,7 +16,7 @@
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>pachycesid meat</meatLabel>
             <body>QuadrupedAnimalWithPawsAndTail</body>
-            <leatherDef>BMT_DinoHideArmored</leatherDef>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>2.5</baseBodySize>
             <baseHealthScale>2.2</baseHealthScale>

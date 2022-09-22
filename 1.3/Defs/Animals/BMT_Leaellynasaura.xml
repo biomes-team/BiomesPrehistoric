@@ -16,7 +16,7 @@
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Iguanodon</useMeatFrom>
             <body>BMT_BipedWithClawsTeethAndTailFiveDH</body>
-            <leatherDef>BMT_DinoHideThin</leatherDef>
+            <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>.5</baseBodySize>
             <baseHealthScale>1</baseHealthScale>

@@ -11,13 +11,13 @@
             <MarketValue>360</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <FilthRate>10</FilthRate>
+            <FilthRate>13</FilthRate>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <meatLabel>lizard meat</meatLabel>
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
-            <leatherDef>BMT_DinoHideArmored</leatherDef>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>0.9</baseBodySize>
             <baseHealthScale>1.5</baseHealthScale>
