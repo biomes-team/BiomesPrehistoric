@@ -616,6 +616,17 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName = "BMT_Ornithomimus"]</xpath>
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<northOffsetCSV>0,0,0</northOffsetCSV>
+							<southOffsetCSV>0,-1,0</southOffsetCSV>
+							<eastOffsetCSV>0.4,0,0</eastOffsetCSV>
+							<westOffsetCSV>-0.4,0,0</westOffsetCSV>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName = "BMT_Ouranosaurus"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
@@ -857,8 +868,8 @@
 					<xpath>Defs/ThingDef[defName = "BMT_Struthiomimus"]</xpath>
 					<value>
 						<li Class="GiddyUpCore.DrawingOffsetPatch">
-							<northOffsetCSV>0,0,0.1</northOffsetCSV>
-							<southOffsetCSV>0,-1,0.2</southOffsetCSV>
+							<northOffsetCSV>0,0,-0.2</northOffsetCSV>
+							<southOffsetCSV>0,-1,0</southOffsetCSV>
 							<eastOffsetCSV>0.6,0,0</eastOffsetCSV>
 							<westOffsetCSV>-0.6,0,0</westOffsetCSV>
 						</li>
