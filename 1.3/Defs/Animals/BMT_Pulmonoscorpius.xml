@@ -60,7 +60,6 @@
 			</li>
 		</tools>
 		<race>
-		
 			<body>BMT_Scorpion</body>
 			<leatherDef>BMT_PrimordialChitin</leatherDef>
 			<predator>true</predator>
@@ -73,11 +72,22 @@
 			<wildness>0.95</wildness>
 			<trainability>None</trainability>
 			<lifeExpectancy>6</lifeExpectancy>
-      <fleshType>Insectoid</fleshType>
-      <bloodDef>Filth_BloodInsect</bloodDef>
-      <meatColor>(160,168,139)</meatColor>
-      <meatMarketValue>0.5</meatMarketValue>
-      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<meatColor>(160,168,139)</meatColor>
+			<meatMarketValue>0.5</meatMarketValue>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<gestationPeriodDays>6.666</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1)</li>
+					<li>(3, 0.2)</li>
+					<li>(4, 0.1)</li>
+					<li>(4.5, 0)</li>
+				</points>
+			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -101,13 +111,6 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<comps>
-			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>BMT_EggPulmonoscorpiusFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>14.0</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~2</eggCountRange>
-			</li>
 		</comps>
 		<tradeTags>
 			<li>AnimalInsect</li>
@@ -122,68 +125,48 @@
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.15</ecoSystemWeight>
 		<lifeStages>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Pulmonoscorpius</texPath>
-                    <drawSize>0.7</drawSize>
-                    <shadowData>
-                        <volume>(0.5, 0.3, 0.1)</volume>
-                        <offset>(0,0,-0.1)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Dessicated_Pulmonoscorpius</texPath>
-                    <drawSize>0.7</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Pulmonoscorpius</texPath>
-                    <drawSize>0.9</drawSize>
-                    <shadowData>
-                        <volume>(0.5, 0.3, 0.1)</volume>
-                        <offset>(0,0,-0.1)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Dessicated_Pulmonoscorpius</texPath>
-                    <drawSize>0.9</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Pulmonoscorpius</texPath>
-                    <drawSize>1.2</drawSize>
-                    <shadowData>
-                        <volume>(0.5, 0.3, 0.1)</volume>
-                        <offset>(0,0,-0.1)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Dessicated_Pulmonoscorpius</texPath>
-                    <drawSize>1.2</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Pulmonoscorpius</texPath>
+					<drawSize>0.7</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Dessicated_Pulmonoscorpius</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Pulmonoscorpius</texPath>
+					<drawSize>0.9</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Dessicated_Pulmonoscorpius</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Pulmonoscorpius</texPath>
+					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Pulmonoscorpius/Dessicated_Pulmonoscorpius</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<ThingDef ParentName="EggFertBase">
-		<defName>BMT_EggPulmonoscorpiusFertilized</defName>
-		<label>pulmonoscorpius egg (fert.)</label>
-		<description>A fertilized pulmonoscorpius egg. If all goes well, it should hatch into a baby pulmonoscorpius. It can be eaten raw, but it's much better cooked.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-			<color>(149,148,173)</color>
-			<drawSize>0.6</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>20.0</MarketValue>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>4.5</hatcherDaystoHatch>
-				<hatcherPawn>BMT_Pulmonoscorpius</hatcherPawn>
-			</li>
-		</comps>
-	</ThingDef>
 </Defs>
-
