@@ -116,7 +116,7 @@
 			<baseBodySize>6</baseBodySize>
 			<baseHealthScale>5.0</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict</foodType>
-			<gestationPeriodDays>30</gestationPeriodDays>
+			<gestationPeriodDays>14</gestationPeriodDays>
 			<packAnimal>false</packAnimal>
 			<wildness>0.95</wildness>
 			<nuzzleMtbHours>275</nuzzleMtbHours>
@@ -126,6 +126,15 @@
 			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<useMeatFrom>BiomesIslands_WhiteShark</useMeatFrom>
+			<litterSizeCurve>
+                <points>
+                    <li>(0.5, 0)</li>
+                    <li>(1, 1)</li>
+                    <li>(2, 1.5)</li>
+                    <li>(3, 1)</li>
+                    <li>(3.5, 0)</li>
+                </points>
+            </litterSizeCurve>
 			<lifeStageAges>
 				<li>
 					<def>BMT_MegalodonBabyTiny</def>

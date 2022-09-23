@@ -168,12 +168,12 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggTrilobiteFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>2</eggFertilizationCountMax>
+				<eggFertilizationCountMax>8</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>
 					<min>1</min>
-					<max>3</max>
+					<max>8</max>
 				</eggCountRange>
 			</li>
 			<li Class="BiomesCore.CompProperties_BottomFeeder">

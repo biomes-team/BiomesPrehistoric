@@ -129,8 +129,8 @@
 		<comps>
 		  <li Class="CompProperties_EggLayer">
 			<eggFertilizedDef>BMT_EggOrthocerasFertilized</eggFertilizedDef>
-			<eggFertilizationCountMax>1</eggFertilizationCountMax>
-			<eggLayIntervalDays>30</eggLayIntervalDays>
+			<eggFertilizationCountMax>2</eggFertilizationCountMax>
+			<eggLayIntervalDays>10</eggLayIntervalDays>
 			<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 			<eggCountRange>1~2</eggCountRange>
 		  </li>

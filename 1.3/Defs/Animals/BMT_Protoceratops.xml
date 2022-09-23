@@ -118,7 +118,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>12</power>
+                <power>7</power>
                 <cooldownTime>2.5</cooldownTime>
                 <linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
                 <chanceFactor>0.5</chanceFactor>
@@ -128,7 +128,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>16</power>
+                <power>6</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

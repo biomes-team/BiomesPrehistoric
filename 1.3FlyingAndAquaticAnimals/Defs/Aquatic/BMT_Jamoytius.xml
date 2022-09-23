@@ -87,7 +87,7 @@
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggJamoytiusFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>15</eggLayIntervalDays>
+				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~3</eggCountRange>
 			</li>

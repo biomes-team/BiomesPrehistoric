@@ -85,7 +85,7 @@
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
 			<body>Bird</body>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>12</gestationPeriodDays>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
@@ -152,8 +152,8 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>10</power>
-				<cooldownTime>0.8</cooldownTime>
+				<power>8</power>
+				<cooldownTime>0.9</cooldownTime>
 				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
@@ -194,7 +194,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>15</hatcherDaystoHatch>
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
 				<hatcherPawn>BMT_Tapejara</hatcherPawn>
 			</li>
 		</comps>

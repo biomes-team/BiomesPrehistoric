@@ -116,7 +116,7 @@
             <baseHealthScale>1</baseHealthScale>
             <foodType>CarnivoreAnimal</foodType>
 			<maxPreyBodySize>1.5</maxPreyBodySize>
-            <gestationPeriodDays>30</gestationPeriodDays>
+            <gestationPeriodDays>8</gestationPeriodDays>
             <packAnimal>false</packAnimal>
             <wildness>0.25</wildness>
             <petness>0.70</petness>

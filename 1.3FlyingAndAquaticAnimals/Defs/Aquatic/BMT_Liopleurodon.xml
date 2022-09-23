@@ -115,7 +115,7 @@
             <baseHealthScale>5</baseHealthScale>
             <foodType>CarnivoreAnimal</foodType>
 			<maxPreyBodySize>3</maxPreyBodySize>
-            <gestationPeriodDays>30</gestationPeriodDays>
+            <gestationPeriodDays>12</gestationPeriodDays>
             <packAnimal>false</packAnimal>
             <wildness>0.95</wildness>
             <petness>0.05</petness>
@@ -124,6 +124,15 @@
             <manhunterOnTameFailChance>0.75</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<useMeatFrom>BMT_Elasmosaurus</useMeatFrom>
+			<litterSizeCurve>
+                <points>
+                    <li>(0.5, 0)</li>
+                    <li>(1, 1)</li>
+                    <li>(2, 1.5)</li>
+                    <li>(3, 1)</li>
+                    <li>(3.5, 0)</li>
+                </points>
+            </litterSizeCurve>
             <lifeStageAges>
                 <li>
                     <def>BMT_LiopleurodonBabyTiny</def>

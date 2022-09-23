@@ -130,10 +130,10 @@
 		<comps>
 		  <li Class="CompProperties_EggLayer">
 			<eggFertilizedDef>BMT_EggDunkleosteusFertilized</eggFertilizedDef>
-			<eggFertilizationCountMax>1</eggFertilizationCountMax>
-			<eggLayIntervalDays>15</eggLayIntervalDays>
+			<eggFertilizationCountMax>3</eggFertilizationCountMax>
+			<eggLayIntervalDays>8</eggLayIntervalDays>
 			<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-			<eggCountRange>1~3</eggCountRange>
+			<eggCountRange>2~3</eggCountRange>
 		  </li>
 		</comps>
         <race>

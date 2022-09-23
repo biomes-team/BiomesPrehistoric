@@ -116,7 +116,7 @@
             <baseHealthScale>4.5</baseHealthScale>
             <foodType>CarnivoreAnimal</foodType>
 			<maxPreyBodySize>6.9</maxPreyBodySize>
-            <gestationPeriodDays>30</gestationPeriodDays>
+            <gestationPeriodDays>15</gestationPeriodDays>
             <packAnimal>false</packAnimal>
             <wildness>0.95</wildness>
             <petness>0.05</petness>
@@ -124,6 +124,15 @@
             <trainability>Intermediate</trainability>
             <manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.90</manhunterOnDamageChance>
+			<litterSizeCurve>
+                <points>
+                    <li>(0.5, 0)</li>
+                    <li>(1, 1)</li>
+                    <li>(2, 1.5)</li>
+                    <li>(3, 1)</li>
+                    <li>(3.5, 0)</li>
+                </points>
+            </litterSizeCurve>
             <lifeStageAges>
                 <li>
                     <def>BMT_MosasaurusBabyTiny</def>
