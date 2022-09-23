@@ -6,7 +6,7 @@
         <label>tyrannosaurus</label>
         <description>Known as the “Tyrant Lizard”, it was a very large predatory dinosaur that was widespread throughout North America. It had an extremely powerful bite force. Worn tooth tips and bone fragments in their feces indicated that they commonly crushed and swallowed bones.\n\nScientific name: Tyrannosaurus Rex</description>
         <statBases>
-            <MoveSpeed>5.5</MoveSpeed>
+            <MoveSpeed>5</MoveSpeed>
             <MarketValue>2500</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>

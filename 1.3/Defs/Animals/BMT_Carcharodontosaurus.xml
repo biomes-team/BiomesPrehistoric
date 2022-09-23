@@ -6,7 +6,7 @@
         <label>carcharodontosaurus</label>
         <description>Carcharodontosaurus is named after the great white shark and was one of the largest land carnovores known. First fossils found consisted only of teeth, later found ones were destroyed in an air raid and at last the species was rediscovered for future research .\n\nScientific name: Carcharodontosaurus saharicus</description>
         <statBases>
-            <MoveSpeed>5.5</MoveSpeed>
+            <MoveSpeed>5</MoveSpeed>
             <MarketValue>2500</MarketValue>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>
