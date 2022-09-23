@@ -1157,6 +1157,14 @@
 									</li>
 								</value>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Ammonite"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName = "BMT_Anomalocaris"]</xpath> 
 								<value>
@@ -1165,6 +1173,52 @@
 										<southOffsetCSV>0,0,0</southOffsetCSV>
 										<eastOffsetCSV>0,0,0</eastOffsetCSV>
 										<westOffsetCSV>0,0,0</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Anomalocaris"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Belemnite"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0</northOffsetCSV>
+										<southOffsetCSV>0,0,0</southOffsetCSV>
+										<eastOffsetCSV>0,0,0</eastOffsetCSV>
+										<westOffsetCSV>0,0,0</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Belemnite"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Cameroceras"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0</northOffsetCSV>
+										<southOffsetCSV>0,0,0</southOffsetCSV>
+										<eastOffsetCSV>0,0,0</eastOffsetCSV>
+										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Cameroceras"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
 									</li>
 								</value>
 							</li>
@@ -1179,6 +1233,14 @@
 									</li>
 								</value>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Coelacanth"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName = "BMT_Dunkleosteus"]</xpath> 
 								<value>
@@ -1187,6 +1249,14 @@
 										<southOffsetCSV>0,0,0</southOffsetCSV>
 										<eastOffsetCSV>0,0,0</eastOffsetCSV>
 										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Dunkleosteus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
 									</li>
 								</value>
 							</li>
@@ -1201,6 +1271,14 @@
 									</li>
 								</value>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Elasmosaurus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName = "BMT_Eurypterid"]</xpath> 
 								<value>
@@ -1209,6 +1287,14 @@
 										<southOffsetCSV>0,0,0</southOffsetCSV>
 										<eastOffsetCSV>0,0,0</eastOffsetCSV>
 										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Eurypterid"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
 									</li>
 								</value>
 							</li>
@@ -1223,6 +1309,33 @@
 									</li>
 								</value>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_GiantAmmonite"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Henodus"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0</northOffsetCSV>
+										<southOffsetCSV>0,0,0</southOffsetCSV>
+										<eastOffsetCSV>0,0,0</eastOffsetCSV>
+										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Henodus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName = "BMT_Icthyosaurus"]</xpath> 
 								<value>
@@ -1231,6 +1344,109 @@
 										<southOffsetCSV>0,-1,0.3</southOffsetCSV>
 										<eastOffsetCSV>1,0,0.3</eastOffsetCSV>	
 										<westOffsetCSV>-1,0,0.3</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Icthyosaurus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Jamoytius"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0.3</northOffsetCSV>
+										<southOffsetCSV>0,-1,0.3</southOffsetCSV>
+										<eastOffsetCSV>1,0,0.3</eastOffsetCSV>	
+										<westOffsetCSV>-1,0,0.3</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Jamoytius"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Kaikaifilu"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0.3</northOffsetCSV>
+										<southOffsetCSV>0,-1,0.3</southOffsetCSV>
+										<eastOffsetCSV>1,0,0.3</eastOffsetCSV>	
+										<westOffsetCSV>-1,0,0.3</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Kaikaifilu"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Kaiwhekea"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0.3</northOffsetCSV>
+										<southOffsetCSV>0,-1,0.3</southOffsetCSV>
+										<eastOffsetCSV>1,0,0.3</eastOffsetCSV>	
+										<westOffsetCSV>-1,0,0.3</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Kaiwhekea"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Kronosaurus"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0.3</northOffsetCSV>
+										<southOffsetCSV>0,-1,0.3</southOffsetCSV>
+										<eastOffsetCSV>1,0,0.3</eastOffsetCSV>	
+										<westOffsetCSV>-1,0,0.3</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Kronosaurus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Leedsichthys"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0.3</northOffsetCSV>
+										<southOffsetCSV>0,-1,0.3</southOffsetCSV>
+										<eastOffsetCSV>1,0,0.3</eastOffsetCSV>	
+										<westOffsetCSV>-1,0,0.3</westOffsetCSV>	
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Leedsichthys"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
 									</li>
 								</value>
 							</li>
@@ -1245,6 +1461,33 @@
 									</li>
 								</value>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Liopleurodon"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Megalodon"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0</northOffsetCSV>
+										<southOffsetCSV>0,0,0</southOffsetCSV>
+										<eastOffsetCSV>0,0,0</eastOffsetCSV>
+										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Megalodon"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName = "BMT_Mosasaurus"]</xpath> 
 								<value>
@@ -1253,6 +1496,14 @@
 										<southOffsetCSV>0,0,0</southOffsetCSV>
 										<eastOffsetCSV>0,0,0</eastOffsetCSV>
 										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Mosasaurus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
 									</li>
 								</value>
 							</li>
@@ -1267,6 +1518,14 @@
 									</li>
 								</value>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Orthoceras"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName = "BMT_Shonisaurus"]</xpath> 
 								<value>
@@ -1278,6 +1537,33 @@
 									</li>
 								</value>
 							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Shonisaurus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAddModExtension">
+								<xpath>Defs/ThingDef[defName = "BMT_Thalattosuchus"]</xpath> 
+								<value>
+									<li Class="GiddyUpCore.DrawingOffsetPatch">
+										<northOffsetCSV>0,0,0</northOffsetCSV>
+										<southOffsetCSV>0,0,0</southOffsetCSV>
+										<eastOffsetCSV>0,0,0</eastOffsetCSV>
+										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Thalattosuchus"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName = "BMT_Trilobite"]</xpath> 
 								<value>
@@ -1286,6 +1572,14 @@
 										<southOffsetCSV>0,0,0</southOffsetCSV>
 										<eastOffsetCSV>0,0,0</eastOffsetCSV>
 										<westOffsetCSV>0,0,0</westOffsetCSV>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/ThingDef[defName = "BMT_Trilobite"]/comps</xpath>
+								<value>
+									<li Class="GiddyUpCore.CompProperties_Mount">
+										<isException>true</isException>
 									</li>
 								</value>
 							</li>

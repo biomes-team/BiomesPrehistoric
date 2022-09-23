@@ -168,7 +168,7 @@
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Dessicated_Henodus</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -178,7 +178,7 @@
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Dessicated_Henodus</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -192,7 +192,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/Dessicated_Henodus</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
