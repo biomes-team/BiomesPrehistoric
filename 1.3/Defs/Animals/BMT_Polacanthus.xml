@@ -25,7 +25,6 @@
             <predator>false</predator>
             <packAnimal>true</packAnimal>
             <wildness>0.40</wildness>
-            <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>85</lifeExpectancy>
             <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
