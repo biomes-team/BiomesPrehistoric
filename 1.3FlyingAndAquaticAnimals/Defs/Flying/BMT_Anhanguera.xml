@@ -82,7 +82,7 @@
 			<baseHungerRate>0.6</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<wildness>0.45</wildness>
-			<trainability>Intermediate</trainability>
+			<trainability>Advanced</trainability>
 			<lifeExpectancy>45</lifeExpectancy>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
