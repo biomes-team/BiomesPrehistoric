@@ -69,7 +69,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>3</power>
+                <power>4</power>
                 <cooldownTime>6</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
                 <chanceFactor>0.2</chanceFactor>
@@ -79,7 +79,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>3</power>
+                <power>4</power>
                 <cooldownTime>6</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
                 <chanceFactor>0.2</chanceFactor>
@@ -89,7 +89,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>3</power>
+                <power>4</power>
                 <cooldownTime>6</cooldownTime>
                 <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
                 <chanceFactor>0.2</chanceFactor>
@@ -99,14 +99,14 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>3</power>
+                <power>4</power>
                 <cooldownTime>6</cooldownTime>
                 <linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
                 <chanceFactor>0.2</chanceFactor>
             </li>
             <li>
                 <capacities>
-                    <li>Bite</li>
+                    <li>bite</li>
                 </capacities>
                 <power>10</power>
                 <cooldownTime>2</cooldownTime>
@@ -118,14 +118,14 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>20</power>
+                <power>15</power>
                 <cooldownTime>2.5</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
                 <chanceFactor>0.7</chanceFactor>
             </li>
             <li>
-                <label>tail</label>
+                <label>tail-club</label>
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
