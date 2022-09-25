@@ -2,9 +2,9 @@
 <Defs>
 
     <ThingDef ParentName="AnimalThingBase">
-        <defName>BMT_Sarcosuchus</defName>
-        <label>sarcoshuchus</label>
-        <description>As with modern crocodilians, the sarcosuchus tends to go after prey that come too close to the water line. \n\nScientific name: Sarcosuchus imperator</description>
+        <defName>BMT_Baryonyx</defName>
+        <label>baryonyx</label>
+        <description>A large predatory dinosaur that specializes in hunting fish as well as small to medium prey.\n\nScientific name: Baryonyx walkeri</description>
         <statBases>
             <MoveSpeed>4.5</MoveSpeed>
             <MarketValue>730</MarketValue>
