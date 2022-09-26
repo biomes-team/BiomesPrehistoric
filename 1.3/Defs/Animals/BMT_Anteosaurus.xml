@@ -115,44 +115,44 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Inostrancevia/Inostrancevia</texPath>
-                    <drawSize>0.85</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Anteosaurus/Anteosaurus</texPath>
+                    <drawSize>1.1</drawSize>
                     <shadowData>
                         <volume>(0.25, 0.13, 0.13)</volume>
                         <offset>(0,0,-0.1)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Inostrancevia/Dessicated_Inostrancevia</texPath>
-                    <drawSize>0.85</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Anteosaurus/Dessicated_Anteosaurus</texPath>
+                    <drawSize>1.1</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Inostrancevia/Inostrancevia</texPath>
-                    <drawSize>2</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Anteosaurus/Anteosaurus</texPath>
+                    <drawSize>2.2</drawSize>
                     <shadowData>
                         <volume>(0.45, 0.4, 0.25)</volume>
                         <offset>(0,0,-0.12)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Inostrancevia/Dessicated_Inostrancevia</texPath>
-                    <drawSize>2</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Anteosaurus/Dessicated_Anteosaurus</texPath>
+                    <drawSize>2.2</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Inostrancevia/Inostrancevia</texPath>
-                    <drawSize>3</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Anteosaurus/Anteosaurus</texPath>
+                    <drawSize>3.3</drawSize>
                     <shadowData>
                         <volume>(0.65, 0.5, 0.35)</volume>
                         <offset>(0,0,-0.3)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Inostrancevia/Dessicated_Inostrancevia</texPath>
-                    <drawSize>3</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Anteosaurus/Dessicated_Anteosaurus</texPath>
+                    <drawSize>3.3</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

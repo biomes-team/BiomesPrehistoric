@@ -73,7 +73,7 @@
                 <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
             </li>
-            <li>
+            <!--li>
                 <label>stinger</label>
                 <capacities>
                     <li>BMT_ToxicSting</li>
@@ -82,7 +82,7 @@
                 <cooldownTime>5</cooldownTime>
                 <linkedBodyPartsGroup>BMT_StingerGroup</linkedBodyPartsGroup>
                 <chanceFactor>0.2</chanceFactor>
-            </li>
+            </li-->
             <li>
                 <label>head</label>
                 <capacities>

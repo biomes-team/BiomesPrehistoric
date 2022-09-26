@@ -16,7 +16,7 @@
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
             <petness>1</petness>
-            <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
+            <body>BMT_BipedWithClawsSickleTeethAndTail</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>0.86</baseBodySize>
@@ -71,7 +71,7 @@
                 <woolAmount>5</woolAmount>
             </li>
             <li Class="CompProperties_EggLayer">
-                <eggFertilizedDef>BMT_TroodonEggFertilized</eggFertilizedDef>
+                <eggFertilizedDef>BMT_SinornithosaurusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>4</eggFertilizationCountMax>
                 <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -90,8 +90,8 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>9</power>
-                <cooldownTime>1.5</cooldownTime>
+                <power>2</power>
+                <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
             </li>
             <li>
@@ -99,13 +99,31 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>9</power>
-                <cooldownTime>1.5</cooldownTime>
+                <power>2</power>
+                <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
             </li>
             <li>
+                <label>left sickle claw</label>
                 <capacities>
-                    <li>Bite</li>
+                    <li>Scratch</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftSickleClaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right sickle claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearRightSickleClaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>ToxicBite</li>
                 </capacities>
                 <power>12</power>
                 <cooldownTime>1.5</cooldownTime>
@@ -117,7 +135,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>8</power>
+                <power>6</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -140,39 +158,39 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sinornithosaurus/Sinornithosaurus</texPath>
-                    <drawSize>1.05</drawSize>
+                    <drawSize>0.7</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sinornithosaurus/Dessicated_Raptor</texPath>
-                    <drawSize>1.05</drawSize>
+                    <drawSize>0.7</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sinornithosaurus/Sinornithosaurus</texPath>
-                    <drawSize>1.7</drawSize>
+                    <drawSize>1.0</drawSize>
                     <shadowData>
-                        <volume>(0.3, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.3)</offset>
+                        <volume>(0.3, 0.3, 0.2)</volume>
+                        <offset>(0,0,-0.1)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Troodon/Dessicated_Raptor</texPath>
-                    <drawSize>1.7</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Sinornithosaurus/Dessicated_Raptor</texPath>
+                    <drawSize>1.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Troodon/Troodon</texPath>
-                    <drawSize>2.15</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Sinornithosaurus/Sinornithosaurus</texPath>
+                    <drawSize>1.5</drawSize>
                     <shadowData>
-                        <volume>(0.4, 0.4, 0.4)</volume>
-                        <offset>(0,0,-0.2)</offset>
+                        <volume>(0.3, 0.3, 0.2)</volume>
+                        <offset>(0,0,-0.1)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Troodon/Dessicated_Raptor</texPath>
-                    <drawSize>2.15</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/Sinornithosaurus/Dessicated_Raptor</texPath>
+                    <drawSize>1.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>
@@ -193,7 +211,7 @@
         <comps>
             <li Class="CompProperties_Hatcher">
                 <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
-                <hatcherPawn>BMT_Troodon</hatcherPawn>
+                <hatcherPawn>BMT_Sinornithosaurus</hatcherPawn>
             </li>
         </comps>
     </ThingDef>

@@ -78,7 +78,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>10</power>
+                <power>6</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
@@ -87,7 +87,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>10</power>
+                <power>6</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
             </li>
@@ -95,7 +95,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>15</power>
+                <power>26</power>
                 <cooldownTime>2.5</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
@@ -128,7 +128,7 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Sarcosuchus</texPath>
-                    <drawSize>1.75</drawSize>
+                    <drawSize>1.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -136,13 +136,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
-                    <drawSize>1.75</drawSize>
+                    <drawSize>1.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Sarcosuchus</texPath>
-                    <drawSize>4</drawSize>
+                    <drawSize>2.0</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
                         <offset>(0,0,-0.25)</offset>
@@ -150,13 +150,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
-                    <drawSize>4</drawSize>
+                    <drawSize>2.0</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Sarcosuchus</texPath>
-                    <drawSize>7</drawSize>
+                    <drawSize>3.5</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
                         <offset>(0,0,-0.5)</offset>
@@ -164,7 +164,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
-                    <drawSize>7</drawSize>
+                    <drawSize>3.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

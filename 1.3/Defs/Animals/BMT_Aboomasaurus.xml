@@ -23,7 +23,7 @@
             <baseBodySize>4.5</baseBodySize>
             <baseHealthScale>4.0</baseHealthScale>
             <baseHungerRate>2.4</baseHungerRate>
-            <packAnimal>true</packAnimal>
+            <packAnimal>false</packAnimal>
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
@@ -163,17 +163,17 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Aboomasaurus/Aboomasaurus</texPath>
-                    <drawSize>.85</drawSize>
+                    <drawSize>1.8</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Aboomasaurus/Dessicated_Aboomasaurus</texPath>
-                    <drawSize>.85</drawSize>
+                    <drawSize>1.8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Aboomasaurus/Aboomasaurus</texPath>
-                    <drawSize>2.0</drawSize>
+                    <drawSize>5</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -181,13 +181,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Aboomasaurus/Dessicated_Aboomasaurus</texPath>
-                    <drawSize>2.0</drawSize>
+                    <drawSize>5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Aboomasaurus/Aboomasaurus</texPath>
-                    <drawSize>3.5</drawSize>
+                    <drawSize>8</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -195,7 +195,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Aboomasaurus/Dessicated_Aboomasaurus</texPath>
-                    <drawSize>3.5</drawSize>
+                    <drawSize>8</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
         </lifeStages>

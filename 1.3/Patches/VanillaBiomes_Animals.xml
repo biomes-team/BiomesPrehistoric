@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
+BMT_Aboomasaurus - same as boomalope.
 BMT_Allosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
 BMT_Amargasaurus - Warmer to temperate forested biomes, including swamps, spawns more near water.
 BMT_Ankylosaurus - Warmer to temperate forested biomes.
+BMT_Anteosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
 BMT_Apatosaurus - Swampy areas and along rivers predominantly.
 BMT_Arthropleura - Warmer forested biomes.
 BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas.
@@ -51,6 +53,8 @@ BMT_Polacanthus - Plains and forests.
 BMT_Protoceratops - Warmer lush biomes.
 BMT_Psittacosaurus - Forests and jungle.
 BMT_Pulmonoscorpius - Swamps.
+BMT_Sarcosuchus - Coasts, swamps, and arid shrubland. Nests only spawn in arid?
+BMT_Sinornithosaurus - Arid and colder Biomes.
 BMT_Spinosaurus - Warmer biomes if they have rivers or shoreline, prefers to be in water tiles.
 BMT_Stegoceras - Forested and swampy biomes.
 BMT_Stegosaurus - Forested biomes, between warm and cool, but no jungle.
@@ -68,10 +72,6 @@ BMT_Velociraptor - Desert and arid shrubland.
 BMT_Wannanosaurus - Tropical forest.
 BMT_Yinlong - Temperate to arid, no swamps.
 BMT_Yutyrannus - Cold and temperate biomes.
-BMT_Sarcosuchus - Coasts, swamps, and arid shrubland. Nests only spawn in arid?
-BMT_Anteosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
-BMT_Aboomasaurus - same as boomalope.
-BMT_Sinornithosaurus - 
 -->
 
 <Operation Class="PatchOperationAdd">
@@ -264,12 +264,12 @@ BMT_Sinornithosaurus -
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 	<value>
+		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Allosaurus>0.6</BMT_Allosaurus>
 		<BMT_Anteosaurus>0.3</BMT_Anteosaurus>
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.2</BMT_Arthropleura>
 		<BMT_Boomasaur>0.2</BMT_Boomasaur>
-		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Borealopelta>0.5</BMT_Borealopelta>
 		<BMT_Carcharodontosaurus>0.2</BMT_Carcharodontosaurus>
 		<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
@@ -285,6 +285,7 @@ BMT_Sinornithosaurus -
 		<BMT_Parasaur>0.4</BMT_Parasaur>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
+		<BMT_Sinornithosaurus>0.3</BMT_Sinornithosaurus>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Utahraptor>0.4</BMT_Utahraptor>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
@@ -377,6 +378,7 @@ BMT_Sinornithosaurus -
 		<BMT_Ornithomimus>0.3</BMT_Ornithomimus>
 		<BMT_Pachyrhinosaurus>0.8</BMT_Pachyrhinosaurus>
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
+		<BMT_Sinornithosaurus>0.3</BMT_Sinornithosaurus>
 		<BMT_Struthiomimus>0.1</BMT_Struthiomimus>
 		<BMT_Therizinosaurus>0.1</BMT_Therizinosaurus>
 		<BMT_Timimus>0.4</BMT_Timimus>
