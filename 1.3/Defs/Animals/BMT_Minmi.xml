@@ -146,10 +146,19 @@
         <race>BMT_Minmi</race>
         <combatPower>65</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Minmi/MinmiB</texPath>
+            </li>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Minmi/MinmiC</texPath>
+            </li>
+        </alternateGraphics>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Minmi/Minmi</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Minmi/MinmiA</texPath>
                     <drawSize>1</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.3, 0.3)</volume>
@@ -163,7 +172,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Minmi/Minmi</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Minmi/MinmiA</texPath>
                     <drawSize>1.75</drawSize>
                     <shadowData>
                         <volume>(0.7, 0.6, 0.4)</volume>
@@ -177,7 +186,7 @@
             </li>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Minmi/Minmi</texPath>
+                    <texPath>BMT_Prehistoric/Animals/Minmi/MinmiA</texPath>
                     <drawSize>2.5</drawSize>
                     <shadowData>
                         <volume>(1, 0.8, 0.5)</volume>
