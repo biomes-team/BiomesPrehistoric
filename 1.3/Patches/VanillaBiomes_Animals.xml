@@ -7,7 +7,7 @@ BMT_Ankylosaurus - Warmer to temperate forested biomes.
 BMT_Apatosaurus - Swampy areas and along rivers predominantly.
 BMT_Arthropleura - Warmer forested biomes.
 BMT_Baryonyx - Swampy areas and along rivers predominantly. Warmer areas.
-BMT_Boomasaur - same as boomalope
+BMT_Boomasaur - same as boomalope.
 BMT_Borealopelta - Plains and forests along coasts.
 BMT_Brachiosaurus -  Warmer forested biomes, and arid shrubland maybe.
 BMT_Camarasaurus - Warmer forested biomes, and arid shrubland maybe.
@@ -68,6 +68,10 @@ BMT_Velociraptor - Desert and arid shrubland.
 BMT_Wannanosaurus - Tropical forest.
 BMT_Yinlong - Temperate to arid, no swamps.
 BMT_Yutyrannus - Cold and temperate biomes.
+BMT_Sarcosuchus - Coasts, swamps, and arid shrubland. Nests only spawn in arid?
+BMT_Anteosaurus - Arid shrubland and desert, most commonly if there is a river or lake.
+BMT_Aboomasaurus - same as boomalope.
+BMT_Sinornithosaurus - 
 -->
 
 <Operation Class="PatchOperationAdd">
@@ -78,6 +82,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Boomasaur>0.3</BMT_Boomasaur>
+		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Borealopelta>0.5</BMT_Borealopelta>
 		<BMT_Brachiosaurus>0.15</BMT_Brachiosaurus>
 		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
@@ -133,6 +138,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Baryonyx>0.07</BMT_Baryonyx>
 		<BMT_Boomasaur>0.3</BMT_Boomasaur>
+		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
 		<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
@@ -161,6 +167,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Pisanosaurus>0.6</BMT_Pisanosaurus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Pulmonoscorpius>0.6</BMT_Pulmonoscorpius>
+		<BMT_Sarcosuchus>0.3</BMT_Sarcosuchus>
 		<BMT_Spinosaurus>0.04</BMT_Spinosaurus>
 		<BMT_Stegoceras>0.6</BMT_Stegoceras>
 		<BMT_Struthiomimus>0.2</BMT_Struthiomimus>
@@ -182,6 +189,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Baryonyx>0.03</BMT_Baryonyx>
 		<BMT_Boomasaur>0.2</BMT_Boomasaur>
+		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
 		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
@@ -223,6 +231,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Arthropleura>0.5</BMT_Arthropleura>
 		<BMT_Baryonyx>0.08</BMT_Baryonyx>
 		<BMT_Boomasaur>0.2</BMT_Boomasaur>
+		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Brachiosaurus>0.3</BMT_Brachiosaurus>
 		<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
 		<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
@@ -241,6 +250,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Ouranosaurus>0.6</BMT_Ouranosaurus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Pulmonoscorpius>0.8</BMT_Pulmonoscorpius>
+		<BMT_Sarcosuchus>0.3</BMT_Sarcosuchus>
 		<BMT_Spinosaurus>0.07</BMT_Spinosaurus>
 		<BMT_Stegoceras>0.4</BMT_Stegoceras>
 		<BMT_Stygimoloch>0.3</BMT_Stygimoloch>
@@ -255,9 +265,11 @@ BMT_Yutyrannus - Cold and temperate biomes.
 	<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
 	<value>
 		<BMT_Allosaurus>0.6</BMT_Allosaurus>
+		<BMT_Anteosaurus>0.3</BMT_Anteosaurus>
 		<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
 		<BMT_Arthropleura>0.2</BMT_Arthropleura>
 		<BMT_Boomasaur>0.2</BMT_Boomasaur>
+		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Borealopelta>0.5</BMT_Borealopelta>
 		<BMT_Carcharodontosaurus>0.2</BMT_Carcharodontosaurus>
 		<BMT_Carnotaurus>0.05</BMT_Carnotaurus>
@@ -274,7 +286,6 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Polacanthus>0.5</BMT_Polacanthus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
-		<BMT_TRex>0.3</BMT_TRex>
 		<BMT_Utahraptor>0.4</BMT_Utahraptor>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
 		<BMT_Yinlong>0.5</BMT_Yinlong>
@@ -285,7 +296,9 @@ BMT_Yutyrannus - Cold and temperate biomes.
 	<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
 	<value>
 		<BMT_Allosaurus>0.4</BMT_Allosaurus>
+		<BMT_Anteosaurus>0.3</BMT_Anteosaurus>
 		<BMT_Boomasaur>0.2</BMT_Boomasaur>
+		<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
 		<BMT_Carcharodontosaurus>0.2</BMT_Carcharodontosaurus>
 		<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
 		<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
@@ -376,6 +389,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 	<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
 	<value>
 		<BMT_Allosaurus>0.2</BMT_Allosaurus>
+		<BMT_Anteosaurus>0.2</BMT_Anteosaurus>
 		<BMT_Carcharodontosaurus>0.1</BMT_Carcharodontosaurus>
 		<BMT_Dilophosaurus>0.05</BMT_Dilophosaurus>
 		<BMT_Nanosaurus>0.3</BMT_Nanosaurus>
