@@ -15,7 +15,7 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Dimetrodon</useMeatFrom>
-            <body>QuadrupedAnimalWithPawsAndTail</body>
+            <body>QuadrupedAnimalWithClawsTailAndJowl</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>false</herdAnimal>
             <baseBodySize>2</baseBodySize>
@@ -65,20 +65,20 @@
             <li>
                 <label>front left foot</label>
                 <capacities>
-                    <li>Blunt</li>
+                    <li>Scratch</li>
                 </capacities>
                 <power>12</power>
                 <cooldownTime>1.5</cooldownTime>
-                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
             <li>
                 <label>front right foot</label>
                 <capacities>
-                    <li>Blunt</li>
+                    <li>Scratch</li>
                 </capacities>
                 <power>12</power>
                 <cooldownTime>1.5</cooldownTime>
-                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
             </li>
             <li>
                 <capacities>

@@ -16,7 +16,7 @@
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
-            <useMeatFrom>lizard meat</useMeatFrom>
+            <useMeatFrom>BMT_Kaprosuchus</useMeatFrom>
             <body>QuadrupedAnimalWithClawsTailAndJowl</body>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>false</herdAnimal>
