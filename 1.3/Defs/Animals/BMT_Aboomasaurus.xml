@@ -16,7 +16,7 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Brachiosaurus</useMeatFrom>
-            <body>BMT_QuadrupedWithBeakNeckAndTailWeapon</body>
+            <body>BMT_QuadrupedWithNeckAndTailWeapon</body>
 			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
             <leatherDef>BMT_DinoHideHeavy</leatherDef>
             <herdAnimal>true</herdAnimal>

@@ -2,7 +2,7 @@
 <Defs>
 
   <BodyDef>
-    <defName>BMT_QuadrupedWithBeakNeckAndTailWeapon</defName>
+    <defName>BMT_QuadrupedWithNeckAndTailWeapon</defName>
     <label>quadruped animal</label>
     <corePart>
       <def>Body</def>
