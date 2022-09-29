@@ -47,7 +47,7 @@
                 </li>
                 <li>
                     <def>AnimalAdult</def>
-                    <minAge>3.0</minAge>
+                    <minAge>2.5</minAge>
                     <soundWounded>BMT_Brachiosaurus_Wounded</soundWounded>
                     <soundDeath>BMT_Brachiosaurus_Death</soundDeath>
                     <soundCall>BMT_Brachiosaurus_Call</soundCall>
