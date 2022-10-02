@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ephedrine -->
+  <!-- drug -->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>BMT_Ephedrine</defName>
+    <label>ephedrine</label>
+    <description>Ephedrine of a ephedra and herbal medecine. Used to help with medical procedure and boode immunity.</description>
+    <descriptionHyperlinks>
+      <HediffDef>BMT_EphedraHigh</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Item/Resource/Raw/RawEphedra</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BMT_EphedrineHigh</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <!--researchPrerequisite>PenoxycylineProduction</researchPrerequisite-->
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <BMT_EphedraLeaves>5</BMT_EphedraLeaves>
+      <MedicineHerbal>1</MedicineHerbal>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+      </li>
+    </comps>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- hediff -->
+  <HediffDef>
+    <defName>BMT_EphedrineHigh</defName>
+    <label>ephedrine</label>
+    <description>Ephedrine.</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+          <MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+          <InjuryHealingFactor>-0.4</InjuryHealingFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!--methamphetamine-->
+  <!-- drug -->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>BMT_Methamphetamine</defName>
+    <label>methamphetamine</label>
+    <description>Methamphetamine.</description>
+    <descriptionHyperlinks>
+      <HediffDef>BMT_MethamphetamineHigh</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Item/Resource/Raw/RawEphedra</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BMT_MethamphetamineHigh</hediffDef>
+          <severity>1</severity>
+          <!--isCombatEnhancingDrug>true</isCombatEnhancingDrug-->
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.3</offset>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <!--researchPrerequisite>PenoxycylineProduction</researchPrerequisite-->
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <BMT_EphedraLeaves>5</BMT_EphedraLeaves>
+      <MedicineHerbal>1</MedicineHerbal>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+      </li>
+    </comps>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- hediff -->
+  <HediffDef>
+    <defName>BMT_MethamphetamineHigh</defName>
+    <label>methamphetamine</label>
+    <description>Methamphetamine.</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <defaultLabelColor>(0,0.7,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <stages>
+      <li>
+        <restFallFactorOffset>-0.999</restFallFactorOffset>
+        <socialFightChanceFactor>1.2</socialFightChanceFactor>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+          <!--restFallFactor>0</restFallFactor-->
+          <InjuryHealingFactor>-0.4</InjuryHealingFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.3</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <!-- plant -->
@@ -71,7 +71,7 @@
   <ThingDef ParentName="DrugBase">
     <defName>BMT_EphedraLeaves</defName>
     <label>ephedra leaves</label>
-    <description>Raw cut leaves of a ephedra. Can be refined into various form of the stimulant drug psychite.</description>
+    <description>Raw cut leaves of a ephedra. Can be chewed or refined into medical drugs.</description>
     <descriptionHyperlinks>
       <HediffDef>BMT_EphedraHigh</HediffDef>
     </descriptionHyperlinks>
@@ -84,10 +84,10 @@
     <techLevel>Neolithic</techLevel>
     <statBases>
       <MarketValue>1.9</MarketValue>
-      <Mass>0.1</Mass>
+      <Mass>0.005</Mass>
       <DeteriorationRate>4</DeteriorationRate>
       <Nutrition>0.05</Nutrition>
-      <Flammability>1.3</Flammability>
+      <Flammability>1</Flammability>
     </statBases>
     <comps>
       <li Class="CompProperties_Rottable">
@@ -96,6 +96,7 @@
       </li>
       <li Class="CompProperties_Drug">
         <addictiveness>0</addictiveness>
+        <!--isCombatEnhancingDrug>true</isCombatEnhancingDrug-->
       </li>
     </comps>
     <thingCategories>
@@ -137,6 +138,7 @@
         <severityPerDay>-2</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
       </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
     </comps>
     <stages>
       <li>
@@ -148,6 +150,10 @@
           <li>
             <capacity>Consciousness</capacity>
             <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.05</offset>
           </li>
         </capMods>
       </li>

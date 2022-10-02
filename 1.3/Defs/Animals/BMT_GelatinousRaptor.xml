@@ -2,34 +2,39 @@
 <Defs>
 
     <ThingDef ParentName="AnimalThingBase">
-        <defName>BMT_Deinonychus</defName>
-        <label>deinonychus</label>
-        <description>One of the first dinosaurs used to show that they were not all cold-blooded like modern reptiles. Its long fingers were equipped with three large curved claws that it can use to decimate prey./n/nScientific name: Deinonychus antirrhopus</description>
+        <defName>BMT_GelatinousRaptor</defName>
+        <label>gelatinous raptor</label>
+        <description>./n/nScientific name:</description>
         <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>450</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
             <FilthRate>2</FilthRate>
+            <LeatherAmount>0</LeatherAmount>
+            <MeatAmount>0</MeatAmount>
         </statBases>
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
+            <hasGenders>false</hasGenders>
             <petness>1</petness>
+            <deathActionWorkerClass>DeathTest.DeathActionWorker_MeatSpawner</deathActionWorkerClass>
+            <bloodDef>Filth_GelatinousSlime</bloodDef>
             <body>BMT_BipedWithClawsSickleTeethAndTail</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
             <baseBodySize>1.5</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
-            <baseHungerRate>0.45</baseHungerRate>
+            <baseHungerRate>3</baseHungerRate>
             <foodType>CarnivoreAnimalStrict</foodType>
             <predator>true</predator>
             <maxPreyBodySize>1.6</maxPreyBodySize>
-            <wildness>0.55</wildness>
-            <lifeExpectancy>10</lifeExpectancy>
-            <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
-            <nuzzleMtbHours>12</nuzzleMtbHours>
+            <wildness>0.9</wildness>
+            <lifeExpectancy>99</lifeExpectancy>
+            <manhunterOnTameFailChance>0.90</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.90</manhunterOnDamageChance>
+            <nuzzleMtbHours>24</nuzzleMtbHours>
             <nameOnTameChance>1</nameOnTameChance>
             <trainability>Advanced</trainability>
             <ageGenerationCurve>
@@ -44,14 +49,6 @@
             </ageGenerationCurve>
             <lifeStageAges>
                 <li>
-                    <def>AnimalBabyTiny</def>
-                    <minAge>0</minAge>
-                </li>
-                <li>
-                    <def>AnimalJuvenile</def>
-                    <minAge>0.2</minAge>
-                </li>
-                <li>
                     <def>AnimalAdult</def>
                     <minAge>0.4</minAge>
                     <soundWounded>BMT_Compsognathus_Wounded</soundWounded>
@@ -65,23 +62,19 @@
             <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
         </race>
         <comps>
-            <li Class="CompProperties_Shearable">
-                <woolDef>BMT_DinoFeather</woolDef>
-                <shearIntervalDays>30</shearIntervalDays>
-                <woolAmount>15</woolAmount>
-            </li>
             <li Class="CompProperties_EggLayer">
-                <eggFertilizedDef>BMT_DeinonychusEggFertilized</eggFertilizedDef>
-                <eggFertilizationCountMax>3</eggFertilizationCountMax>
+                <eggUnfertilizedDef>BMT_GelatinousRaptorEgg</eggUnfertilizedDef>
+                <!--eggFertilizedDef>BMT_GelatinousRaptorEgg</eggFertilizedDef>
+                <eggFertilizationCountMax>1</eggFertilizationCountMax>
                 <eggLayIntervalDays>12</eggLayIntervalDays>
-                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-                <eggCountRange>2~4</eggCountRange>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax-->
+                <eggCountRange>1</eggCountRange>
             </li>
            <li Class="BiomesCore.ThingComponents.CompProperties_AnimalThingSpawner">
-                <thingToSpawn>BMT_DinoFeather</thingToSpawn>
-                <spawnCount>2</spawnCount>
-                <spawnIntervalRange>60000~120000</spawnIntervalRange>
-                <saveKeysPrefix>DinoFeather</saveKeysPrefix>
+                <thingToSpawn>BMT_GelatinousRaptorEgg</thingToSpawn>
+                <spawnCount>1</spawnCount>
+                <spawnIntervalRange>45000~60000</spawnIntervalRange>
+                <saveKeysPrefix>Egg</saveKeysPrefix>
             </li>
             <li Class="BiomesCore.CompProperties_PackHunter">
                 <joinHuntRange>24</joinHuntRange>
@@ -97,6 +90,16 @@
                 <attackDoorIfTargetLost>true</attackDoorIfTargetLost>
                 <canBashFences>false</canBashFences>
                 <predatorConfidencePenalty>100</predatorConfidencePenalty>
+            </li>
+            <li Class="DeathTest.CompProperties_MeatSpawner">
+                <meatDef>BMT_GelatinousRaptorDessicated</meatDef>
+                <meatAmount>1</meatAmount>
+                <bloodFilth>Filth_GelatinousSlime</bloodFilth>
+                <bloodAmount>10</bloodAmount>
+            </li>
+            <li Class="BiomesCore.CompProperties_MakeFilthTrail">
+                <filthDef>Filth_GelatinousSlime</filthDef>
+                <cooldown>2</cooldown>
             </li>
         </comps>
         <tools>
@@ -165,75 +168,105 @@
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">
-        <defName>BMT_Deinonychus</defName>
-        <label>deinonychus</label>
-        <race>BMT_Deinonychus</race>
+        <defName>BMT_GelatinousRaptor</defName>
+        <label>gelatinous raptor</label>
+        <race>BMT_GelatinousRaptor</race>
         <combatPower>170</combatPower>
-        <wildGroupSize>1~3</wildGroupSize>
+        <wildGroupSize>5~9</wildGroupSize>
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Deinonychus/Deinonychus</texPath>
-                    <drawSize>1.6</drawSize>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Deinonychus/Dessicated_Raptor</texPath>
-                    <drawSize>1.6</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Deinonychus/Deinonychus</texPath>
-                    <drawSize>2.6</drawSize>
-                    <shadowData>
-                        <volume>(0.3, 0.3, 0.3)</volume>
-                        <offset>(0,0,-0.3)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Deinonychus/Dessicated_Raptor</texPath>
-                    <drawSize>2.6</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Deinonychus/Deinonychus</texPath>
-                    <drawSize>3.6</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/GelatinousRaptor</texPath>
+                    <drawSize>3.0</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
                     </shadowData>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Animals/Deinonychus/Dessicated_Raptor</texPath>
-                    <drawSize>3.6</drawSize>
+                    <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/Dessicated_GelatinousRaptor</texPath>
+                    <drawSize>3.0</drawSize>
                 </dessicatedBodyGraphicData>
-                <!--<butcherBodyPart>
-                    <bodyPartGroup>BMT_SickleClaws</bodyPartGroup>
-                    <thing>BMT_RaptorClaw</thing>
-                </butcherBodyPart>-->
             </li>
         </lifeStages>
     </PawnKindDef>
 
     <ThingDef ParentName="EggFertBase">
-        <defName>BMT_DeinonychusEggFertilized</defName>
-        <label>deinonychus egg (fert.)</label>
-        <description>A fertilized deinonychus egg. If all goes well, it should hatch into a baby deinonychus. It can be eaten raw, but it's much better cooked.</description>
+        <defName>BMT_GelatinousRaptorEgg</defName>
+        <label>gelatinous raptor egg</label>
+        <description>A fertilized gelatinous raptor egg. If all goes well, it should hatch into a baby gelatinous raptor. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
-            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-            <color>(181,164,138)</color>
-            <drawSize>0.90</drawSize>
+            <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/GelatinousRaptorEgg</texPath>
+            <drawSize>1</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>21.0</MarketValue>
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
-                <hatcherDaystoHatch>5</hatcherDaystoHatch>
-                <hatcherPawn>BMT_Deinonychus</hatcherPawn>
+                <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
+                <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
             </li>
         </comps>
     </ThingDef>
+
+    <ThingDef ParentName="OrganicProductBase">
+        <defName>BMT_GelatinousRaptorDessicated</defName>
+        <label>dessicated gelatinous raptor</label>
+        <description>.</description>
+        <tickerType>Normal</tickerType>
+        <stackLimit>1</stackLimit>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/Dessicated_GelatinousRaptor</texPath>
+            <color>(181,164,138)</color>
+            <drawSize>3.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.1</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>CorpsesAnimal</li>
+        </thingCategories>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>0.2</hatcherDaystoHatch>
+                <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
+            </li>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>15</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+                <disableIfHatcher>true</disableIfHatcher>
+            </li>
+            <li Class="CompProperties_TemperatureRuinable">
+                <minSafeTemperature>0</minSafeTemperature>
+                <maxSafeTemperature>50</maxSafeTemperature>
+                <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+            </li>
+            <li Class="DeathTest.CompProperties_CleanFilthAround">
+                <tickRate>200</tickRate>
+                <radius>4</radius>
+            </li>
+        </comps>
+    </ThingDef>
+
+      <ThingDef ParentName="BaseFilth">
+        <defName>Filth_GelatinousSlime</defName>
+        <label>slime</label>
+        <statBases>
+          <Beauty>-25</Beauty>
+          <Cleanliness>-5</Cleanliness>
+        </statBases>
+        <graphicData>
+          <texPath>Things/Filth/Spatter</texPath>
+          <color>(200, 148, 146, 70)</color>
+        </graphicData>
+        <filth>
+          <disappearsInDays>0.5~1</disappearsInDays>
+          <rainWashes>true</rainWashes>
+          <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+          <canFilthAttach>true</canFilthAttach>
+          <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+        </filth>
+      </ThingDef>
 
 </Defs>
