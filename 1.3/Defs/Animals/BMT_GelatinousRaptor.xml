@@ -205,7 +205,8 @@
         <label>gelatinous raptor egg</label>
         <description>A fertilized gelatinous raptor egg. If all goes well, it should hatch into a baby gelatinous raptor. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
-            <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/GelatinousRaptorEgg</texPath>
+            <texPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
         <statBases>

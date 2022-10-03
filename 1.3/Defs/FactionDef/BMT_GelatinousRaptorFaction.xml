@@ -9,7 +9,7 @@
     <pawnsPlural>gelatinous raptors</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <fixedName>Gelatinous Raptor</fixedName>
-    <factionIconPath>BMT_Prehistoric/Animals/GelatinousRaptor/GelatinousRaptorEgg/GelatinousRaptorEgg</factionIconPath>
+    <factionIconPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg/GelatinousRaptorEggA</factionIconPath>
     <colorSpectrum>
       <li>(200, 148, 146)</li>
     </colorSpectrum>

@@ -159,7 +159,7 @@
         <label>meganeura egg (fert.)</label>
         <description>A fertilized meganeura egg. If all goes well, it should hatch into a baby meganeura. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+            <texPath>BMT_Prehistoric/Item/Egg/MeganeuraEgg</texPath>
             <color>(230,212,193)</color>
             <drawSize>0.8</drawSize>
         </graphicData>
