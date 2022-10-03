@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>GelatinousRaptorEggDrop</defName>
+    <label>gelatinous raptor drop</label>
+    <category>ThreatBig</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>DeathTest.IncidentWorker_GelatinousRaptorEggDrop</workerClass>
+    <baseChance>3</baseChance>
+  </IncidentDef>
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>BMT_GelatinousRaptorEggIncoming</defName>
+    <label>gelatinous raptor egg (incoming)</label>
+    <size>(1, 1)</size>
+    <skyfaller>
+      <shadowSize>(2.5, 2.5)</shadowSize>
+      <explosionRadius>1</explosionRadius>
+      <explosionDamage>Extinguish</explosionDamage>
+      <explosionDamageFactor>0.5</explosionDamageFactor>
+    </skyfaller>
+  </ThingDef>
+
+</Defs>
