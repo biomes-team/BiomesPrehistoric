@@ -105,12 +105,12 @@
 			</li>
 			<li>
 				<capacities>
-					<li>Bite</li>
+					<li>ToxicBite</li>
 				</capacities>
-				<power>18</power>
+				<power>19</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				<chanceFactor>0.7</chanceFactor>
+				<chanceFactor>0.8</chanceFactor>
 			</li>
 			<li>
 				<label>head</label>
