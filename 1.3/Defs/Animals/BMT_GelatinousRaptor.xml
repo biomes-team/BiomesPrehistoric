@@ -200,7 +200,7 @@
         </lifeStages>
     </PawnKindDef>
 
-    <ThingDef ParentName="EggFertBase">
+    <ThingDef>
         <defName>BMT_GelatinousRaptorEgg</defName>
         <label>gelatinous raptor egg</label>
         <description>A fertilized gelatinous raptor egg. If all goes well, it should hatch into a baby gelatinous raptor. It can be eaten raw, but it's much better cooked.</description>
@@ -210,7 +210,10 @@
             <drawSize>1</drawSize>
         </graphicData>
         <statBases>
+            <Mass>0.5</Mass>
+            <MaxHitPoints>20</MaxHitPoints>
             <MarketValue>21.0</MarketValue>
+            <Flammability>0.7</Flammability>
         </statBases>
         <comps>
             <li Class="CompProperties_Hatcher">
@@ -218,14 +221,16 @@
                 <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
             </li>
         </comps>
+        <tickerType>Rare</tickerType>
+        <stackLimit>3</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <allowedArchonexusCount>0</allowedArchonexusCount>
     </ThingDef>
 
-    <ThingDef ParentName="OrganicProductBase">
+    <ThingDef>
         <defName>BMT_GelatinousRaptorDessicated</defName>
         <label>dessicated gelatinous raptor</label>
         <description>.</description>
-        <tickerType>Normal</tickerType>
-        <stackLimit>1</stackLimit>
         <graphicData>
             <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/Dessicated_GelatinousRaptor</texPath>
             <color>(181,164,138)</color>
@@ -235,21 +240,16 @@
             <MarketValue>0.1</MarketValue>
         </statBases>
         <thingCategories>
-            <li>CorpsesAnimal</li>
+            <li>BMT_CorpsesGR</li>
         </thingCategories>
         <comps>
             <li Class="CompProperties_Hatcher">
                 <hatcherDaystoHatch>0.2</hatcherDaystoHatch>
                 <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
             </li>
-            <li Class="CompProperties_Rottable">
-                <daysToRotStart>15</daysToRotStart>
-                <rotDestroys>true</rotDestroys>
-                <disableIfHatcher>true</disableIfHatcher>
-            </li>
             <li Class="CompProperties_TemperatureRuinable">
-                <minSafeTemperature>0</minSafeTemperature>
-                <maxSafeTemperature>50</maxSafeTemperature>
+                <minSafeTemperature>-20</minSafeTemperature>
+                <maxSafeTemperature>70</maxSafeTemperature>
                 <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
             </li>
             <li Class="DeathTest.CompProperties_CleanFilthAround">
@@ -257,6 +257,10 @@
                 <radius>4</radius>
             </li>
         </comps>
+        <tickerType>Normal</tickerType>
+        <stackLimit>1</stackLimit>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <allowedArchonexusCount>0</allowedArchonexusCount>
     </ThingDef>
 
       <ThingDef ParentName="BaseFilth">
@@ -277,6 +281,7 @@
           <canFilthAttach>true</canFilthAttach>
           <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
         </filth>
+        <pathCost>-30</pathCost>
       </ThingDef>
 
 </Defs>

@@ -17,10 +17,7 @@
     <label>gelatinous raptor egg (incoming)</label>
     <size>(1, 1)</size>
     <skyfaller>
-      <shadowSize>(2.5, 2.5)</shadowSize>
-      <explosionRadius>1</explosionRadius>
-      <explosionDamage>Extinguish</explosionDamage>
-      <explosionDamageFactor>0.5</explosionDamageFactor>
+      <shadowSize>(1, 1)</shadowSize>
     </skyfaller>
   </ThingDef>
 

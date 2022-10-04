@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef ParentName="FactionBase">
-    <defName>BMT_GRFaction</defName>
-    <label>gelatinous raptors</label>
-    <description>.</description>
-    <pawnSingular>gelatinous raptor</pawnSingular>
-    <pawnsPlural>gelatinous raptors</pawnsPlural>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <fixedName>Gelatinous Raptor</fixedName>
-    <factionIconPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg/GelatinousRaptorEggA</factionIconPath>
-    <colorSpectrum>
-      <li>(200, 148, 146)</li>
-    </colorSpectrum>
-    <raidCommonalityFromPointsCurve>
-      <points>
-        <li>(0, 0)</li>
-      </points>
-    </raidCommonalityFromPointsCurve>
-    <humanlikeFaction>false</humanlikeFaction>
-    <hidden>true</hidden>
-    <rescueesCanJoin>false</rescueesCanJoin>
-    <autoFlee>false</autoFlee>
-    <canUseAvoidGrid>false</canUseAvoidGrid>
-    <techLevel>Animal</techLevel>
-    <permanentEnemy>true</permanentEnemy>
-    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-    <allowedArrivalTemperatureRange>-10~60</allowedArrivalTemperatureRange>
-    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>90</configurationListOrderPriority>
-  </FactionDef>
+	<FactionDef ParentName="FactionBase">
+		<defName>BMT_GRFaction</defName>
+		<label>gelatinous raptors</label>
+		<description>.</description>
+		<pawnSingular>gelatinous raptor</pawnSingular>
+		<pawnsPlural>gelatinous raptors</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<fixedName>Gelatinous Raptor</fixedName>
+		<factionIconPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg/GelatinousRaptorEggA</factionIconPath>
+		<colorSpectrum>
+			<li>(200, 148, 146)</li>
+		</colorSpectrum>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<humanlikeFaction>false</humanlikeFaction>
+		<hidden>true</hidden>
+		<rescueesCanJoin>false</rescueesCanJoin>
+		<autoFlee>false</autoFlee>
+		<canUseAvoidGrid>false</canUseAvoidGrid>
+		<techLevel>Animal</techLevel>
+		<permanentEnemy>true</permanentEnemy>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<allowedArrivalTemperatureRange>-10~60</allowedArrivalTemperatureRange>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>90</configurationListOrderPriority>
+	</FactionDef>
+
+	<ThingCategoryDef>
+		<defName>BMT_CorpsesGR</defName>
+		<label>gelatinous corpses</label>
+		<parent>Corpses</parent>
+	</ThingCategoryDef>
 
 </Defs>
