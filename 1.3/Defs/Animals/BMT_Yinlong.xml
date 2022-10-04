@@ -19,7 +19,7 @@
 			<body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
 			<leatherDef>BMT_DinoHideThin</leatherDef>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>3.2</baseBodySize>
+			<baseBodySize>0.6</baseBodySize>
 			<baseHealthScale>2.8</baseHealthScale>
 			<baseHungerRate>0.90</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
