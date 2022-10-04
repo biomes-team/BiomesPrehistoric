@@ -80,7 +80,8 @@
       <li>
         <label>neck</label>
         <capacities>
-          <li>Blunt</li>
+          <li>Scratch</li>
+          <li>Stab</li>
         </capacities>
         <power>12</power>
         <cooldownTime>4</cooldownTime>
@@ -99,7 +100,8 @@
       <li>
         <label>head</label>
         <capacities>
-          <li>Blunt</li>
+          <li>Scratch</li>
+          <li>Stab</li>
         </capacities>
         <power>16</power>
         <cooldownTime>2</cooldownTime>

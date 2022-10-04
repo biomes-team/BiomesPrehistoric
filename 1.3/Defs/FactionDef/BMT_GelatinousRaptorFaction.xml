@@ -2,13 +2,13 @@
 <Defs>
 
 	<FactionDef ParentName="FactionBase">
-		<defName>BMT_GRFaction</defName>
-		<label>gelatinous raptors</label>
+		<defName>BMT_GelGuardFaction</defName>
+		<label>gelatinous guardians</label>
 		<description>.</description>
-		<pawnSingular>gelatinous raptor</pawnSingular>
-		<pawnsPlural>gelatinous raptors</pawnsPlural>
+		<pawnSingular>gelatinous guard</pawnSingular>
+		<pawnsPlural>gelatinous guards</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<fixedName>Gelatinous Raptor</fixedName>
+		<fixedName>Gelatinous Guardians</fixedName>
 		<factionIconPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg/GelatinousRaptorEggA</factionIconPath>
 		<colorSpectrum>
 			<li>(200, 148, 146)</li>
@@ -32,9 +32,66 @@
 	</FactionDef>
 
 	<ThingCategoryDef>
-		<defName>BMT_CorpsesGR</defName>
+		<defName>BMT_CorpsesGel</defName>
 		<label>gelatinous corpses</label>
-		<parent>Corpses</parent>
+		<parent>CorpsesAnimal</parent>
 	</ThingCategoryDef>
 
+	<RecipeDef>
+		<defName>BMT_BurnGelatinousCorpses</defName>
+		<label>burn gelatinous corpses</label>
+		<description>Burn unwanted gelatinous corpses.</description>
+		<jobString>Burning gelatinous corpses.</jobString>
+		<workAmount>60</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<requiredGiverWorkType>Hauling</requiredGiverWorkType>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>BMT_CorpsesGel</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>BMT_CorpsesGel</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>BMT_CorpsesGel</li>
+			</categories>
+		</defaultIngredientFilter>
+		<recipeUsers Inherit="false">
+			<li>Campfire</li>
+			<li>ElectricCrematorium</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<ThingDef ParentName="BaseFilth">
+		<defName>Filth_GelatinousSlime</defName>
+		<label>slime</label>
+		<statBases>
+			<Beauty>-25</Beauty>
+			<Cleanliness>-5</Cleanliness>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Spatter</texPath>
+			<color>(200, 148, 146, 70)</color>
+		</graphicData>
+		<filth>
+			<disappearsInDays>0.5~1</disappearsInDays>
+			<rainWashes>true</rainWashes>
+			<cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+		</filth>
+		<pathCost>-30</pathCost>
+	</ThingDef>
+	
 </Defs>

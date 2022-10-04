@@ -3,7 +3,7 @@
 <Operation  Class="PatchOperationAdd">
 	<xpath>Defs/RecipeDef/fixedIngredientFilter/disallowedCategories</xpath>
 	<value>
-		<li>BMT_CorpsesGR</li>
+		<li>BMT_CorpsesGel</li>
 	</value>
 </Operation>
 </Patch>

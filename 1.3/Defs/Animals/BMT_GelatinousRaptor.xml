@@ -5,7 +5,7 @@
         <defName>BMT_GelatinousRaptor</defName>
         <label>gelatinous raptor</label>
         <description>./n/nScientific name:</description>
-        <statBases Inherit="False">
+        <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>450</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -14,10 +14,9 @@
             <LeatherAmount>0</LeatherAmount>
             <MeatAmount>0</MeatAmount>
         </statBases>
-        <race Inherit="False">
+        <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
-            <!--fleshType>Normal</fleshType-->
             <hasGenders>false</hasGenders>
             <petness>1</petness>
             <deathActionWorkerClass>DeathTest.DeathActionWorker_MeatSpawner</deathActionWorkerClass>
@@ -27,10 +26,10 @@
             <herdAnimal>true</herdAnimal>
             <baseBodySize>1.5</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
-            <!--baseHungerRate>3</baseHungerRate>
+            <baseHungerRate>0</baseHungerRate>
             <foodType>CarnivoreAnimalStrict</foodType>
             <predator>true</predator>
-            <maxPreyBodySize>1.6</maxPreyBodySize-->
+            <maxPreyBodySize>1.6</maxPreyBodySize>
             <wildness>0.9</wildness>
             <lifeExpectancy>99</lifeExpectancy>
             <manhunterOnTameFailChance>0.90</manhunterOnTameFailChance>
@@ -72,15 +71,13 @@
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax-->
                 <eggCountRange>1</eggCountRange>
             </li>
-           <li Class="BiomesCore.ThingComponents.CompProperties_AnimalThingSpawner">
+           <li Class="CompProperties_Spawner">
                 <thingToSpawn>BMT_GelatinousRaptorEgg</thingToSpawn>
                 <spawnCount>1</spawnCount>
                 <spawnIntervalRange>45000~60000</spawnIntervalRange>
+                <spawnMaxAdjacent>1</spawnMaxAdjacent>
+                <spawnForbidden>true</spawnForbidden>
                 <saveKeysPrefix>Egg</saveKeysPrefix>
-            </li>
-            <li Class="BiomesCore.CompProperties_PackHunter">
-                <joinHuntRange>24</joinHuntRange>
-                <packConfidenceBonusPerMember>0.25</packConfidenceBonusPerMember>
             </li>
             <li Class="BiomesCore.CompProperties_PackDefense">
                 <baseChance>0.3</baseChance>
@@ -181,7 +178,7 @@
         <race>BMT_GelatinousRaptor</race>
         <combatPower>170</combatPower>
         <wildGroupSize>5~9</wildGroupSize>
-        <defaultFactionType>BMT_GRFaction</defaultFactionType>
+        <defaultFactionType>BMT_GelGuardFaction</defaultFactionType>
         <lifeStages>
             <li>
                 <bodyGraphicData>
@@ -200,19 +197,13 @@
         </lifeStages>
     </PawnKindDef>
 
-    <ThingDef ParentName="ResourceBase">
+    <ThingDef ParentName="EggFertBase">
         <defName>BMT_GelatinousRaptorEgg</defName>
         <label>gelatinous raptor egg</label>
         <description>A fertilized gelatinous raptor egg. If all goes well, it should hatch into a baby gelatinous raptor. It can be eaten raw, but it's much better cooked.</description>
-        <thingClass>ThingWithComps</thingClass>
-        <category>Item</category>
-        <tickerType>Rare</tickerType>
         <stackLimit>3</stackLimit>
-        <healthAffectsPrice>false</healthAffectsPrice>
-        <allowedArchonexusCount>0</allowedArchonexusCount>
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
             <drawSize>1</drawSize>
         </graphicData>
         <statBases>
@@ -220,38 +211,41 @@
             <MaxHitPoints>20</MaxHitPoints>
             <MarketValue>21.0</MarketValue>
             <Flammability>0.7</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
         </statBases>
+        <receivesSignals>true</receivesSignals>
         <comps>
             <li Class="CompProperties_Hatcher">
                 <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
                 <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
             </li>
+            <li Class="CompProperties_CanBeDormant">
+                <startsDormant>true</startsDormant>
+                <canWakeUpFogged>false</canWakeUpFogged>
+            </li>
+            <li Class="CompProperties_WakeUpDormant">
+                <wakeUpOnDamage>true</wakeUpOnDamage>
+                <anyColonistCloseCheckRadius>30</anyColonistCloseCheckRadius>
+            </li>
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="ResourceBase">
+    <ThingDef ParentName="OrganicProductBase">
         <defName>BMT_GelatinousRaptorDessicated</defName>
-        <label>dessicated gelatinous raptor</label>
+        <label>gelatinous raptor corpse</label>
         <description>.</description>
-        <thingClass>ThingWithComps</thingClass>
-        <category>Item</category>
-        <tickerType>Rare</tickerType>
+        <tickerType>Normal</tickerType>
         <stackLimit>1</stackLimit>
-        <healthAffectsPrice>false</healthAffectsPrice>
-        <allowedArchonexusCount>0</allowedArchonexusCount>
         <graphicData>
             <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/Dessicated_GelatinousRaptor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <color>(181,164,138)</color>
             <drawSize>3.0</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>0.1</MarketValue>
-            <Mass>1</Mass>
-            <MaxHitPoints>20</MaxHitPoints>
-            <Flammability>0.7</Flammability>
         </statBases>
         <thingCategories>
-            <li>BMT_CorpsesGR</li>
+            <li>BMT_CorpsesGel</li>
         </thingCategories>
         <comps>
             <li Class="CompProperties_Hatcher">
@@ -259,8 +253,8 @@
                 <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
             </li>
             <li Class="CompProperties_TemperatureRuinable">
-                <minSafeTemperature>-20</minSafeTemperature>
-                <maxSafeTemperature>70</maxSafeTemperature>
+                <minSafeTemperature>0</minSafeTemperature>
+                <maxSafeTemperature>50</maxSafeTemperature>
                 <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
             </li>
             <li Class="DeathTest.CompProperties_CleanFilthAround">
@@ -269,26 +263,5 @@
             </li>
         </comps>
     </ThingDef>
-
-      <ThingDef ParentName="BaseFilth">
-        <defName>Filth_GelatinousSlime</defName>
-        <label>slime</label>
-        <statBases>
-          <Beauty>-25</Beauty>
-          <Cleanliness>-5</Cleanliness>
-        </statBases>
-        <graphicData>
-          <texPath>Things/Filth/Spatter</texPath>
-          <color>(200, 148, 146, 70)</color>
-        </graphicData>
-        <filth>
-          <disappearsInDays>0.5~1</disappearsInDays>
-          <rainWashes>true</rainWashes>
-          <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
-          <canFilthAttach>true</canFilthAttach>
-          <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
-        </filth>
-        <pathCost>-30</pathCost>
-      </ThingDef>
 
 </Defs>
