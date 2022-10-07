@@ -8,7 +8,7 @@
         <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>450</MarketValue>
-            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
             <ComfyTemperatureMax>65</ComfyTemperatureMax>
             <FilthRate>2</FilthRate>
         </statBases>
