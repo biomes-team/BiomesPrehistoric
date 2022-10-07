@@ -27,7 +27,7 @@
 		<healthScaleFactor>0.8</healthScaleFactor>
 		<hungerRateFactor>0.80</hungerRateFactor>
 		<marketValueFactor>0.80</marketValueFactor>
-		<meleeDamageFactor>0.08</meleeDamageFactor>
+		<meleeDamageFactor>0.80</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
 			<BiomesCore_FlySpeed>0.9</BiomesCore_FlySpeed>

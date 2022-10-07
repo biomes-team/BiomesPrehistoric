@@ -55,6 +55,11 @@
             <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
         </race>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggUnfertilizedDef>BMT_EggCompsognathusUnfertilized</eggUnfertilizedDef>

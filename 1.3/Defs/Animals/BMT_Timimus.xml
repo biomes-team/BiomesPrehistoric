@@ -111,6 +111,11 @@
 			<li>AnimalExotic</li>
 			<li>AnimalFighter</li>
         </tradeTags>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">

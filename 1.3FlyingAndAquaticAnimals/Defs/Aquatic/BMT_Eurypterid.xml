@@ -103,6 +103,11 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
 		<race>
 			<body>BeetleLikeWithClaw</body>
 			<leatherDef>BMT_PrimordialChitin</leatherDef>

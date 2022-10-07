@@ -99,6 +99,11 @@
 				<chanceFactor>0.3</chanceFactor>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
 		<race>
 			<useMeatFrom>BMT_Mosasaurus</useMeatFrom>
 			<predator>true</predator>

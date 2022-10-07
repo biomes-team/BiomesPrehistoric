@@ -158,6 +158,9 @@
 			</lifeStageAges>
 		</race>
 		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
 			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
 				<stayOnTerrainTag>Beach</stayOnTerrainTag>
 			</li>

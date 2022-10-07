@@ -181,6 +181,11 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_DimorphodonEggFertilized</defName>

@@ -113,6 +113,9 @@
 		</li>
     </tools>
     <modExtensions>
+		<li Class="NocturnalAnimals.ExtendedRaceProperties">
+			<bodyClock>Nocturnal</bodyClock>
+		</li>
         <li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
             <isBottomFeeder>true</isBottomFeeder>
         </li>

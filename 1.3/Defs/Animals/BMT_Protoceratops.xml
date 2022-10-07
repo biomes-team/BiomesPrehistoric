@@ -139,6 +139,11 @@
             <li>AnimalUncommon</li>
 			<li>AnimalFarm</li>
         </tradeTags>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
     </ThingDef>
 
     <PawnKindDef ParentName="AnimalKindBase">
