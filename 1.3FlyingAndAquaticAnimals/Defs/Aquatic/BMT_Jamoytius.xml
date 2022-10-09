@@ -93,9 +93,9 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="NocturnalAnimals.ExtendedRaceProperties">
-				<bodyClock>Nocturnal</bodyClock>
-			</li>
+			<!-- <li Class="NocturnalAnimals.ExtendedRaceProperties"> -->
+				<!-- <bodyClock>Nocturnal</bodyClock> -->
+			<!-- </li> -->
 		</modExtensions>
 		<race>
 			<body>Biomes_FishBody</body>

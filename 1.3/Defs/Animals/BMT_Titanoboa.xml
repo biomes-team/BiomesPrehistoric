@@ -63,6 +63,11 @@
 		</race>
 		<comps>
 		</comps>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Crepuscular</bodyClock>
+			</li>
+		</modExtensions>
 		<tools>
 			<li>
 				<capacities>

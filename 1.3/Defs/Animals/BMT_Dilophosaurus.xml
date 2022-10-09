@@ -60,6 +60,11 @@
                 <eggCountRange>1~4</eggCountRange>
             </li>
         </comps>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
         <tools>
             <li>
                 <label>front left claws</label>

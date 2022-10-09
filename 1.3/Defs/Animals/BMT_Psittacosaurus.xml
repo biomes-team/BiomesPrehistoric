@@ -118,7 +118,7 @@
         </tradeTags>
 		<modExtensions>
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">
-				<bodyClock>Nocturnal</bodyClock>
+				<bodyClock>Crepuscular</bodyClock>
 			</li>
 		</modExtensions>
     </ThingDef>

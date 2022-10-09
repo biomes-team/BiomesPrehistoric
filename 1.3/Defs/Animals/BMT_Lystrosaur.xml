@@ -106,9 +106,9 @@
 			<li>AnimalExotic</li>
         </tradeTags>
 		<modExtensions>
-			<li Class="NocturnalAnimals.ExtendedRaceProperties">
-				<bodyClock>Nocturnal</bodyClock>
-			</li>
+			<!-- <li Class="NocturnalAnimals.ExtendedRaceProperties"> -->
+				<!-- <bodyClock>Nocturnal</bodyClock> -->
+			<!-- </li> -->
 		</modExtensions>
     </ThingDef>
 

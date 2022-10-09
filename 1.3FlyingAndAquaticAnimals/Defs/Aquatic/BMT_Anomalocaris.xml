@@ -141,9 +141,9 @@
             <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<modExtensions>
-			<li Class="NocturnalAnimals.ExtendedRaceProperties">
-				<bodyClock>Nocturnal</bodyClock>
-			</li>
+			<!-- <li Class="NocturnalAnimals.ExtendedRaceProperties"> -->
+				<!-- <bodyClock>Nocturnal</bodyClock> -->
+			<!-- </li> -->
 			<li Class="Swimming.AquaticExtension">
 				<aquatic>true</aquatic>
 			</li>

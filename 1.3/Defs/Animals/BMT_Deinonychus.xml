@@ -99,6 +99,11 @@
                 <predatorConfidencePenalty>100</predatorConfidencePenalty>
             </li>
         </comps>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
         <tools>
             <li>
                 <label>left claw</label>

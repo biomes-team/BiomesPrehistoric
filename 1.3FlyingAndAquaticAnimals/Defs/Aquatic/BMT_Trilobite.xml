@@ -159,7 +159,7 @@
 		</race>
 		<modExtensions>
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">
-				<bodyClock>Nocturnal</bodyClock>
+				<bodyClock>Crepuscular</bodyClock>
 			</li>
 			<li Class="TerrainMovement.TerrainMovementPawnRestrictions">
 				<stayOnTerrainTag>Beach</stayOnTerrainTag>
