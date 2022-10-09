@@ -65,7 +65,7 @@ namespace BiomesPrehistoric
             {
                 if (dino.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent))
                 {
-                    LifeStageUtility.PlayNearestLifestageSound(dino, ls => ls.soundAngry);
+                    LifeStageUtility.PlayNearestLifestageSound(dino, ls => ls.soundAngry, null);
                     foundOne = true;
                 }
             }

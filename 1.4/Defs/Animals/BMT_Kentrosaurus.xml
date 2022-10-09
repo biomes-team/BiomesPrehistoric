@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Kentrosaurus</defName>
+        <label>kentrosaurus</label>
+        <description>Kentrosaurus is unique in that it possessed shoulder spikes as well as small plates and other spikes along its back and tail. These dinosaurs are usually found alone or in small groups, most often pairs.\n\nScientific name: Kentrosaurus aethiopicus</description>
+        <statBases>
+            <MoveSpeed>4.8</MoveSpeed>
+            <MarketValue>530</MarketValue>
+            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+            <ComfyTemperatureMax>65</ComfyTemperatureMax>
+            <FilthRate>16</FilthRate>
+        </statBases>
+        <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+            <useMeatFrom>BMT_Stegosaurus</useMeatFrom>
+            <body>BMT_QuadrupedWithPlatesSpikesBeakAndTailWeapon</body>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
+            <herdAnimal>true</herdAnimal>
+            <baseBodySize>2.8</baseBodySize>
+            <baseHealthScale>2</baseHealthScale>
+            <baseHungerRate>0.58</baseHungerRate>
+            <foodType>VegetarianRoughAnimal</foodType>
+            <predator>false</predator>
+            <packAnimal>true</packAnimal>
+            <wildness>0.20</wildness>
+            <roamMtbDays>2.5</roamMtbDays>
+            <lifeExpectancy>57</lifeExpectancy>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+            <trainability>Intermediate</trainability>
+            <ageGenerationCurve>
+                <points>
+                    <li>(0.0,0)</li>
+                    <li>(0.1,350)</li>
+                    <li>(0.9,150)</li>
+                    <li>(1.5,5)</li>
+                    <li>(20,4)</li>
+                    <li>(65,0)</li>
+                </points>
+            </ageGenerationCurve>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.6</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>1.5</minAge>
+                    <soundWounded>BMT_Chungkingosaurus_Wounded</soundWounded>
+                    <soundDeath>BMT_Chungkingosaurus_Death</soundDeath>
+                    <soundCall>BMT_Chungkingosaurus_Call</soundCall>
+                    <soundAngry>BMT_Chungkingosaurus_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_KentrosaurusEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>2</eggFertilizationCountMax>
+                <eggLayIntervalDays>9</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~2</eggCountRange>
+            </li>
+        </comps>
+        <tools>            <li>
+                <label>front left foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>front right foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>rear left foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>rear right foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
+                <chanceFactor>0.5</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2.5</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>thagomizer</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+            </li>
+
+            <li>
+                <label>left shoulder spike</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_LeftShoulderSpike</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right shoulder spike</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RightShoulderSpike</linkedBodyPartsGroup>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalUncommon</li>
+			<li>AnimalExotic</li>
+			<li>AnimalFighter</li>
+        </tradeTags>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Kentrosaurus</defName>
+        <label>kentrosaurus</label>
+        <race>BMT_Kentrosaurus</race>
+        <combatPower>65</combatPower>
+        <wildGroupSize>1~3</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Kentrosaurus</texPath>
+                    <drawSize>1.7</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Dessicated_Kentrosaurus</texPath>
+                    <drawSize>1.7</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Kentrosaurus</texPath>
+                    <drawSize>4.7</drawSize>
+                    <shadowData>
+                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Dessicated_Kentrosaurus</texPath>
+                    <drawSize>4.7</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Kentrosaurus</texPath>
+                    <drawSize>6.0</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                    </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Kentrosaurus/Dessicated_Kentrosaurus</texPath>
+                    <drawSize>6.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_KentrosaurusEggFertilized</defName>
+        <label>kentrosaurus egg (fert.)</label>
+        <description>A fertilized kentrosaurus egg. If all goes well, it should hatch into a baby kentrosaurus. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+            <color>(177,194,116)</color>
+            <drawSize>1.05</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>66</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Kentrosaurus</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

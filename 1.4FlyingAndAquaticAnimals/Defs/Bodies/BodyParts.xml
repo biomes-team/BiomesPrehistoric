@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- ========================== AMMONITE ========================== -->
+
+	<BodyPartDef>
+		<defName>BMT_AmmoniteGillChamber</defName>
+		<label>gill chamber</label>
+		<hitPoints>15</hitPoints>
+		<permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>BreathingPathway</li>
+		</tags>
+	</BodyPartDef>
+
+
+	<BodyPartDef>
+		<defName>BMT_AmmoniteGill</defName>
+		<label>gill</label>
+		<hitPoints>15</hitPoints>
+		<permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>BreathingPathway</li>
+			<li>BreathingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<!-- like the head -->
+	<BodyPartDef>
+		<defName>BMT_AmmoniteMantle</defName>
+		<label>mantle</label>
+		<hitPoints>35</hitPoints>
+		<permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
+		<canSuggestAmputation>false</canSuggestAmputation>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>HearingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<!-- just a skin flap -->
+	<BodyPartDef>
+		<defName>BMT_AmmoniteHood</defName>
+		<label>hood</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>BMT_AmmoniteSiphon</defName>
+		<label>siphon</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>BMT_AmmoniteTentacle</defName>
+		<label>tentacle</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+			<li>MovingLimbDigit</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartGroupDef>
+		<defName>BMT_AmmoniteTentacleGroup</defName>
+		<label>tentacles</label>
+	</BodyPartGroupDef>
+
+
+</Defs>

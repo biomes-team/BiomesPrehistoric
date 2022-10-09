@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Angiopteris</defName>
+    <label>giant fern</label>
+    <description>While comparable in size to some tree ferns, the giant fern is entirely leaves and produces no wood.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Angiopteris</texPath>
+      <shadowData>
+        <volume>(0.55, 0.17, 0.15)</volume>
+        <offset>(0,0,-0.2)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>30</pathCost>
+    <blockWind>false</blockWind>
+    <ingestible Inherit="False">
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant Inherit="False">
+      <fertilityMin>0.3</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <soundHarvesting>Harvest_Standard</soundHarvesting>
+      <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+      <sowWork>170</sowWork>
+      <harvestWork>200</harvestWork>
+      <growDays>3</growDays>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>7.5</wildClusterWeight>
+      <visualSizeRange>1.2~2.0</visualSizeRange>
+      <topWindExposure>0.2</topWindExposure>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+</Defs>

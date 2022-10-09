@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef ParentName="DiseaseBase">
+		<defName>BMT_OxygenToxicity</defName>
+		<label>oxygen toxicity</label>
+		<!--labelNoun>an infection</labelNoun-->
+		<description>The heightened amount of Oxygen in the habitat...</description>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-0.53</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>18000~30000</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>mild</label>
+				<vomitMtbDays>0.125</vomitMtbDays>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.6</postFactor>
+					</li>
+				</capMods>
+			</li> 
+			<li>
+				<minSeverity>0.33</minSeverity>
+				<label>moderate</label>
+				<vomitMtbDays>0.05</vomitMtbDays>
+				<painOffset>0.08</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.5</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.5</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.8</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.8</postFactor>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<postFactor>0.3</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfused</mentalState>
+						<mtbDays>0.125</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.77</minSeverity>
+				<label>severe</label>
+				<painOffset>0.12</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Asthma</hediff>
+						<mtbDays>2</mtbDays>
+						<partsToAffect>
+							<li>Lung</li>
+						</partsToAffect>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>Dementia</hediff>
+						<mtbDays>0.5</mtbDays>
+						<partsToAffect>
+							<li>Brain</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

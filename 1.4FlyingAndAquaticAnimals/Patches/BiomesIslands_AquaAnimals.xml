@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+BMT_Ammonite - All island and shorelines except the coldest.
+BMT_Anhanguera - All warmer to cold, but not frozen coasts and islands.
+BMT_Anomalocaris - All island and shorelines except the coldest.
+BMT_Belemnite - All island and shorelines except the coldest.
+BMT_Cameroceras - Warmer island and shorelines aand the open sea.
+BMT_Coelacanth - Warmer coasts and islands.
+BMT_Dimorphodon - All lusher biomes except the coldest.
+BMT_Dunkleosteus - All island and coastal biomes.
+BMT_Elasmosaurus - All warmer to cool islands and shorelines. 
+BMT_Eurypterid - All island and shorelines except the coldest. Prefers shallow waters?
+BMT_GiantAmmonite - All island and shorelines except the coldest.
+BMT_Henodus - Colder to Warmer freshwater shores, river and lakes.
+BMT_Icthyosaurus - Cool to warm islands and shores.
+BMT_Jamoytius - All island and coastal biomes.
+BMT_Kaikaifilu - Cold to arctic islands.
+BMT_Kaiwhekea - All warmer islands and shorelines.
+BMT_Kronosaurus - Cold (But not freezing) to temperate islands and shores.
+BMT_Leedsichthys - Open sea, all island and coastal biomes.
+BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores.
+BMT_Megalodon - All open sea, island and shorelines, but sparse.
+BMT_Mosasaurus - Cold (but not freezing) to tropical islands. 
+BMT_Orthoceras - All island and shorelines.
+BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
+BMT_Quetzal - All arid and desert biomes.
+BMT_Shonisaurus - Cool to warm islands and shores.
+BMT_Tapejara - Warmer biomes but rarely in cooler.
+BMT_Thalattosuchus - Warmer island and shorelines.
+BMT_Trilobite - Can go onto sand but mostly remain in the water.
+-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes! Islands</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
+					<value>
+						<BMT_Ammonite>0.5</BMT_Ammonite>
+						<BMT_Anhanguera>0.5</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
+						<BMT_Belemnite>0.5</BMT_Belemnite>
+						<BMT_Cameroceras>0.1</BMT_Cameroceras>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.05</BMT_Eurypterid>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Jamoytius>0.6</BMT_Jamoytius>
+						<BMT_Kaiwhekea>0.3</BMT_Kaiwhekea>
+						<BMT_Leedsichthys>0.2</BMT_Leedsichthys>
+						<BMT_Megalodon>0.01</BMT_Megalodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Tapejara>0.4</BMT_Tapejara>
+						<BMT_Thalattosuchus>0.2</BMT_Thalattosuchus>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildAnimals</xpath>
+					<value>
+						<BMT_Ammonite>0.5</BMT_Ammonite>
+						<BMT_Anhanguera>0.2</BMT_Anhanguera>
+						<BMT_Belemnite>0.5</BMT_Belemnite>
+						<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Jamoytius>0.6</BMT_Jamoytius>
+						<BMT_Kaikaifilu>0.1</BMT_Kaikaifilu>
+						<BMT_Kronosaurus>0.2</BMT_Kronosaurus>
+						<BMT_Leedsichthys>0.2</BMT_Leedsichthys>
+						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
+						<BMT_Megalodon>0.01</BMT_Megalodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
+						<BMT_Tapejara>0.1</BMT_Tapejara>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_DesertIslandBase"]/wildAnimals</xpath>
+					<value>
+						<BMT_Ammonite>0.5</BMT_Ammonite>
+						<BMT_Anhanguera>0.2</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
+						<BMT_Belemnite>0.5</BMT_Belemnite>
+						<BMT_Cameroceras>0.1</BMT_Cameroceras>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.3</BMT_Eurypterid>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Jamoytius>0.6</BMT_Jamoytius>
+						<BMT_Kaiwhekea>0.4</BMT_Kaiwhekea>
+						<BMT_Leedsichthys>0.2</BMT_Leedsichthys>
+						<BMT_Megalodon>0.01</BMT_Megalodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Quetzal>0.5</BMT_Quetzal>
+						<BMT_Tapejara>0.3</BMT_Tapejara>
+						<BMT_Thalattosuchus>0.5</BMT_Thalattosuchus>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TemperateIslandBase"]/wildAnimals</xpath>
+					<value>
+						<BMT_Ammonite>0.5</BMT_Ammonite>
+						<BMT_Anhanguera>0.5</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
+						<BMT_Belemnite>0.5</BMT_Belemnite>
+						<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.3</BMT_Eurypterid>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Jamoytius>0.6</BMT_Jamoytius>
+						<BMT_Leedsichthys>0.2</BMT_Leedsichthys>
+						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
+						<BMT_Megalodon>0.01</BMT_Megalodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
+						<BMT_Tapejara>0.4</BMT_Tapejara>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIslandBase"]/wildAnimals</xpath>
+					<value>
+						<BMT_Ammonite>0.5</BMT_Ammonite>
+						<BMT_Anhanguera>0.8</BMT_Anhanguera>
+						<BMT_Anomalocaris>0.3</BMT_Anomalocaris>
+						<BMT_Belemnite>0.5</BMT_Belemnite>
+						<BMT_Cameroceras>0.1</BMT_Cameroceras>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Dimorphodon>0.05</BMT_Dimorphodon>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_Eurypterid>0.3</BMT_Eurypterid>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Jamoytius>0.6</BMT_Jamoytius>
+						<BMT_Kaiwhekea>0.6</BMT_Kaiwhekea>
+						<BMT_Leedsichthys>0.2</BMT_Leedsichthys>
+						<BMT_Megalodon>0.01</BMT_Megalodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Pteranodon>0.05</BMT_Pteranodon>
+						<BMT_Tapejara>0.5</BMT_Tapejara>
+						<BMT_Thalattosuchus>0.3</BMT_Thalattosuchus>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TundraIslandBase"]/wildAnimals</xpath>
+					<value>
+						<BMT_Ammonite>0.5</BMT_Ammonite>
+						<BMT_Belemnite>0.5</BMT_Belemnite>
+						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
+						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
+						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
+						<BMT_Icthyosaurus>0.05</BMT_Icthyosaurus>
+						<BMT_Jamoytius>0.6</BMT_Jamoytius>
+						<BMT_Kaikaifilu>0.3</BMT_Kaikaifilu>
+						<BMT_Kronosaurus>0.4</BMT_Kronosaurus>
+						<BMT_Leedsichthys>0.2</BMT_Leedsichthys>
+						<BMT_Liopleurodon>0.05</BMT_Liopleurodon>
+						<BMT_Megalodon>0.01</BMT_Megalodon>
+						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
+						<BMT_Orthoceras>0.2</BMT_Orthoceras>
+						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
+						<BMT_Trilobite>0.5</BMT_Trilobite>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

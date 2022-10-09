@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Sarcosuchus</defName>
+        <label>sarcosuchus</label>
+        <description>As with modern crocodilians, the sarcosuchus tends to go after prey that come too close to the water line. \n\nScientific name: Sarcosuchus imperator</description>
+        <statBases>
+            <MoveSpeed>4.5</MoveSpeed>
+            <MarketValue>850</MarketValue>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+            <ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<FilthRate>9</FilthRate>
+        </statBases>
+        <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+            <useMeatFrom>BMT_Kaprosuchus</useMeatFrom>
+            <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+            <leatherDef>BMT_DinoHideHeavy</leatherDef>
+            <herdAnimal>false</herdAnimal>
+            <baseBodySize>2.8</baseBodySize>
+            <baseHealthScale>3.0</baseHealthScale>
+            <baseHungerRate>0.25</baseHungerRate>
+            <foodType>CarnivoreAnimal</foodType>
+            <predator>true</predator>
+            <maxPreyBodySize>2.5</maxPreyBodySize>
+            <wildness>0.85</wildness>
+            <lifeExpectancy>100</lifeExpectancy>
+            <manhunterOnTameFailChance>0.60</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.70</manhunterOnDamageChance>
+            <trainability>Intermediate</trainability>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.6</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>1.0</minAge>
+                    <soundWounded>BMT_Baryonyx_Wounded</soundWounded>
+                    <soundDeath>BMT_Baryonyx_Death</soundDeath>
+                    <soundCall>BMT_Baryonyx_Call</soundCall>
+                    <soundAngry>BMT_Baryonyx_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <modExtensions>
+            <li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+                <isBottomFeeder>true</isBottomFeeder>
+            </li>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Crepuscular</bodyClock>
+			</li>
+        </modExtensions>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_SarcosuchusEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>2</eggFertilizationCountMax>
+                <eggLayIntervalDays>12</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~2</eggCountRange>
+            </li>
+            <li Class="BiomesCore.CompProperties_BottomFeeder">
+                <feedingTerrainTag>Water</feedingTerrainTag>
+                <consumingFoodReportString>Fishing.</consumingFoodReportString>
+                <effecterDef>EatFish</effecterDef>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>left claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>left claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2.5</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalFighter</li>
+            <li>AnimalUncommon</li>
+        </tradeTags>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Sarcosuchus</defName>
+        <label>sarcosuchus</label>
+        <labelPlural>sarcosuchus</labelPlural>
+        <race>BMT_Sarcosuchus</race>
+        <combatPower>260</combatPower>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Sarcosuchus</texPath>
+                    <drawSize>1.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
+                    <drawSize>1.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Sarcosuchus</texPath>
+                    <drawSize>2.0</drawSize>
+                    <shadowData>
+                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
+                    <drawSize>2.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Sarcosuchus</texPath>
+                    <drawSize>3.5</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
+                    <drawSize>3.5</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_SarcosuchusEggFertilized</defName>
+        <label>sarcosuchus egg (fert.)</label>
+        <description>A fertilized Sarcosuchus egg. If all goes well, it should hatch into a baby Sarcosuchus. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+            <color>(226,225,214)</color>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>65</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>4</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Sarcosuchus</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

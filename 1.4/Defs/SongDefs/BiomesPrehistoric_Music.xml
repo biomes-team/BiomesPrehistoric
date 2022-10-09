@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SoundDef>
+    <defName>GameStartSting</defName>    
+    <maxVoices>1</maxVoices>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>BMT_Animals/BMT_HugeDino/HugeDino_Call</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30~30</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SongDef>
+    <defName>EntrySongPrehistoric</defName>
+    <clipPath>BMT_Prehistoric_Music/Little_Guy</clipPath>
+    <allowedTimeOfDay>Day</allowedTimeOfDay>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/It_Looks_Angry</clipPath>
+    <tense>true</tense>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Giants_Among_Us</clipPath>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Harmony</clipPath>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Hunting_Sauropods</clipPath>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Lizard_Hipped</clipPath>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Night_Falls</clipPath>
+    <allowedTimeOfDay>Night</allowedTimeOfDay>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Our_Story_Begins</clipPath>
+    <allowedTimeOfDay>Day</allowedTimeOfDay>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Pristine_and_Primal</clipPath>
+  </SongDef>
+
+  <SongDef>
+    <clipPath>BMT_Prehistoric_Music/Valley_of_Bones</clipPath>
+    <allowedTimeOfDay>Night</allowedTimeOfDay>
+  </SongDef>
+
+</Defs>

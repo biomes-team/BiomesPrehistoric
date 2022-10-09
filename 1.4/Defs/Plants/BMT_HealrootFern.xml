@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="HealrootBase">
+		<defName>BMT_HealrootFern</defName>
+		<label>healroot fern</label>
+		<description>A fern with that produces tubers too bitter to eat, but that can be used to make a basic antiseptic.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Plant/HealrootFern</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<visualSizeRange>1.2~2.4</visualSizeRange>
+			<maxMeshCount>1</maxMeshCount>
+			<sowWork>800</sowWork>
+			<sowMinSkill>8</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<purpose>Health</purpose>
+		</plant>
+	</ThingDef>
+
+</Defs>

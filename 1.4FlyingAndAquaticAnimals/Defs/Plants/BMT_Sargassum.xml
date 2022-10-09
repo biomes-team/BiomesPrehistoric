@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>BiomesIslands_Sargassum</defName>
+		<label>sargassum seaweed</label>
+		<description>A brownish seaweed</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<pathCost>10</pathCost>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>BiomesIslands_Things/Plant/Sargassum</texPath>
+		</graphicData>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+				<terrainTags>
+					<li>Water</li>
+					<li>Salty</li>
+					<li>Shallow</li>
+					<li>Deep</li>
+				</terrainTags>
+			</li>
+		</modExtensions>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<selectable>true</selectable>
+		<plant>
+			<fertilityMin>0.10</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>4.0</growDays>
+			<visualSizeRange>1.5~2.5</visualSizeRange>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>300</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		</plant>
+	</ThingDef>
+
+</Defs>

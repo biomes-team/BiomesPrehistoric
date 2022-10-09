@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- =============================================================== -->
+
+	<LifeStageDef MayRequire="biomesteam.oasis" ParentName="AnimalBaby">
+		<defName>BMT_BladecrestBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>6</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.5</MoveSpeed>
+			<BiomesCore_FlySpeed>0.5</BiomesCore_FlySpeed>
+		</statFactors>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/BladecrestFlying</texPath>
+					<drawSize>2.3</drawSize>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</LifeStageDef>
+	<LifeStageDef MayRequire="biomesteam.oasis">
+		<defName>BMT_BladecrestJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.9</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.8</healthScaleFactor>
+		<hungerRateFactor>0.80</hungerRateFactor>
+		<marketValueFactor>0.80</marketValueFactor>
+		<meleeDamageFactor>0.80</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+			<BiomesCore_FlySpeed>0.9</BiomesCore_FlySpeed>
+		</statFactors>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/BladecrestFlying</texPath>
+					<drawSize>3.3</drawSize>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</LifeStageDef>
+	<LifeStageDef MayRequire="biomesteam.oasis">
+		<defName>BMT_BladecrestAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+		<milkable>false</milkable>
+		<shearable>false</shearable>
+		<modExtensions>
+			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/BladecrestFlying</texPath>
+					<drawSize>4.9</drawSize>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</LifeStageDef>
+
+	<!-- =============================================================== -->
+
+	<ThingDef MayRequire="biomesteam.oasis" ParentName="AnimalThingBase">
+		<defName>BMT_Bladecrest</defName>
+		<label>bladecrest</label>
+		<description>Bladecrest is a predator that can be found in the Chromatic Oasis. The blade-like base of the head allows the bladecrest to slash its prey.\n\nScientific name: Pteranodon ferrumcalvaria</description>
+		<uiIconScale>1.5</uiIconScale>
+		<statBases>
+			<BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
+			<SwimSpeed>1</SwimSpeed>
+			<MarketValue>1050</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+		</statBases>
+		<race>
+			<useMeatFrom>BMT_Pteranodon</useMeatFrom>
+			<leatherDef>BMT_DinoHideThin</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<predator>true</predator>
+			<maxPreyBodySize>1.2</maxPreyBodySize>
+			<baseBodySize>2.6</baseBodySize>
+			<baseHealthScale>1.0</baseHealthScale>
+			<baseHungerRate>0.8</baseHungerRate>
+			<foodType>CarnivoreAnimal</foodType>
+			<wildness>0.55</wildness>
+			<trainability>Advanced</trainability>
+			<lifeExpectancy>30</lifeExpectancy>
+			<manhunterOnTameFailChance>0.45</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+			<body>Bird</body>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<!-- <BMT_ChromaticOasis>110.7</BMT_ChromaticOasis> -->
+				<BMT_ChromaticOasis>0.8</BMT_ChromaticOasis>
+			</wildBiomes>
+			<ageGenerationCurve>
+				<points>
+					<li>(0.0,0)</li>
+					<li>(0.1,350)</li>
+					<li>(0.9,150)</li>
+					<li>(1.5,5)</li>
+					<li>(20,4)</li>
+					<li>(65,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<lifeStageAges>
+				<li>
+					<def>BMT_BladecrestBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_BladecrestJuvenile</def>
+					<minAge>0.7</minAge>
+				</li>
+				<li>
+					<def>BMT_BladecrestAdult</def>
+					<minAge>1.3</minAge>
+					<soundWounded>BMT_Pteranodon_Wounded</soundWounded>
+					<soundDeath>BMT_Pteranodon_Death</soundDeath>
+					<soundCall>BMT_Pteranodon_Call</soundCall>
+					<soundAngry>BMT_Pteranodon_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_BladecrestEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>12</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~3</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5.2</power>
+				<cooldownTime>3</cooldownTime>
+				<chanceFactor>0.2</chanceFactor>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>beak</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>15</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Cut</li>
+					<li>Stab</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>1.0</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>12</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+		<butcherProducts>
+			<BMT_BladecrestBlade>1</BMT_BladecrestBlade>
+		</butcherProducts>
+	</ThingDef>
+
+	<!-- =============================================================== -->
+
+	<ThingDef MayRequire="biomesteam.oasis" ParentName="EggFertBase">
+		<defName>BMT_BladecrestEggFertilized</defName>
+		<label>bladecrest egg (fert.)</label>
+		<description>A fertilized bladecrest egg. If all goes well, it should hatch into a baby bladecrest. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(152,95,81)</color>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>61</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Bladecrest</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- =============================================================== -->
+
+	<PawnKindDef MayRequire="biomesteam.oasis" ParentName="BigBirdKindBase">
+		<defName>BMT_Bladecrest</defName>
+		<label>bladecrest</label>
+		<race>BMT_Bladecrest</race>
+		<combatPower>120</combatPower>
+		<ecoSystemWeight>0.70</ecoSystemWeight>
+		<wildGroupSize>1~2</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>bladecrest hatchling</label>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/BladecrestSitting</texPath>
+					<drawSize>2.3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/Bladecrest_dessicated</texPath>
+					<drawSize>2.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/BladecrestSitting</texPath>
+					<drawSize>3.3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.3, 0.15)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/Bladecrest_dessicated</texPath>
+					<drawSize>3.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/BladecrestSitting</texPath>
+					<drawSize>4.9</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.5, 0.3)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/Bladecrest_dessicated</texPath>
+					<drawSize>4.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>
