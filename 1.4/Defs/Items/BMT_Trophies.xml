@@ -124,6 +124,7 @@
 		<techLevel>Neolithic</techLevel>
 		<soundInteract>Standard_Pickup</soundInteract>
 		<soundDrop>Standard_Pickup</soundDrop>
+		<smeltable>false</smeltable>
 		<statBases>
 			<MarketValue>150</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -198,6 +199,7 @@
 		<techLevel>Neolithic</techLevel>
 		<soundInteract>Standard_Pickup</soundInteract>
 		<soundDrop>Standard_Pickup</soundDrop>
+		<smeltable>false</smeltable>
 		<statBases>
 			<MarketValue>150</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -219,7 +221,7 @@
 			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
 			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
-			<ToxicSensitivity>-0.1</ToxicSensitivity>
+			<ToxicResistance>0.1</ToxicResistance>
 		</equippedStatOffsets>
 		<generateCommonality>0.05</generateCommonality>
 		<apparel>

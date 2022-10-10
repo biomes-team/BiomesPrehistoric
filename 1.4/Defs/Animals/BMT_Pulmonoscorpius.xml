@@ -10,7 +10,7 @@
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>120</MarketValue>
-			<ToxicSensitivity>0.8</ToxicSensitivity>
+			<ToxicResistance>0.2</ToxicResistance>
 			<FilthRate>.5</FilthRate>
 		</statBases>
 		<uiIconScale>2</uiIconScale>
