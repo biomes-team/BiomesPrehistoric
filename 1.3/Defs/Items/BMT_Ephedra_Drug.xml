@@ -6,7 +6,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>BMT_Ephedrine</defName>
     <label>ephedrine</label>
-    <description>Ephedrine of a ephedra and herbal medecine. Used to help with medical procedure and boode immunity.</description>
+    <description>Ephedrine made of a ephedra and herbal medecine. Used to help with asthma and boost immunity.</description>
     <descriptionHyperlinks>
       <HediffDef>BMT_EphedraHigh</HediffDef>
     </descriptionHyperlinks>
@@ -15,7 +15,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <socialPropernessMatters>false</socialPropernessMatters>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <statBases>
       <MarketValue>5</MarketValue>
       <Mass>0.05</Mass>
@@ -69,7 +69,6 @@
       <li>
         <lifeThreatening>false</lifeThreatening>
         <statOffsets>
-          <MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
           <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
           <InjuryHealingFactor>-0.4</InjuryHealingFactor>
         </statOffsets>
@@ -97,7 +96,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <socialPropernessMatters>false</socialPropernessMatters>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <statBases>
       <MarketValue>5</MarketValue>
       <Mass>0.05</Mass>
@@ -107,9 +106,12 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BMT_MethamphetamineLow</hediffDef>
+          <severity>0.2</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>BMT_MethamphetamineHigh</hediffDef>
           <severity>1</severity>
-          <!--isCombatEnhancingDrug>true</isCombatEnhancingDrug-->
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -154,8 +156,9 @@
     </comps>
     <stages>
       <li>
-        <restFallFactorOffset>-0.999</restFallFactorOffset>
+        <restFallFactor>-2</restFallFactor>
         <socialFightChanceFactor>1.2</socialFightChanceFactor>
+        <painFactor>0.2</painFactor>
         <lifeThreatening>false</lifeThreatening>
         <statOffsets>
           <!--restFallFactor>0</restFallFactor-->
@@ -164,7 +167,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>0.3</offset>
+            <offset>0.2</offset>
           </li>
           <li>
             <capacity>Breathing</capacity>
@@ -174,5 +177,131 @@
       </li>
     </stages>
   </HediffDef>
+
+  <HediffDef ParentName="AddictionBase">
+    <defName>BMT_PhenethylaminesAddiction</defName>
+    <label>methamphetamine</label>
+    <description>Methamphetamine.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <!--defaultLabelColor>(0,0.7,0.5)</defaultLabelColor-->
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <causesNeed>BMT_Chemical_Phenethylamines</causesNeed>
+    <isBad>true</isBad>
+    Chemical
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.0</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <stages>
+      <li>
+        <label>day one</label>
+        <restFallFactorOffset>0.333</restFallFactorOffset>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+        </statOffsets>
+        <capMods>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.2</minSeverity>
+        <label>day two</label>
+        <restFallFactorOffset>0.666</restFallFactorOffset>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+        </statOffsets>
+        <capMods>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>day three</label>
+        <restFallFactorOffset>0.999</restFallFactorOffset>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+        </statOffsets>
+        <capMods>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>day four</label>
+        <restFallFactorOffset>1.333</restFallFactorOffset>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+        </statOffsets>
+        <capMods>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>day five</label>
+        <restFallFactorOffset>1.666</restFallFactorOffset>
+        <lifeThreatening>false</lifeThreatening>
+        <statOffsets>
+        </statOffsets>
+        <capMods>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.9</minSeverity>
+        <label>day six</label>
+        <restFallFactorOffset>1.999</restFallFactorOffset>
+        <lifeThreatening>true</lifeThreatening>
+        <deathMtbDays>5</deathMtbDays>
+        <statOffsets>
+        </statOffsets>
+        <capMods>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThoughtDef>
+    <defName>BMT_MethamphetamineWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BMT_MethamphetamineAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>one night awake</label>
+        <description>I am awake for one day. I am feeling good.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>two nights awake</label>
+        <description>I'm a bit wobbly! Bui i am OK.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+      <li>
+        <label>three nights awake</label>
+        <description>Who? What? I should sleep a while.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>four nights awake</label>
+        <description>I really should sleep. I... I feel strange.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>five nights awake</label>
+        <description>I don't want to die. I can feel it.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <visible>false</visible>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ChemicalDef>
+    <defName>BMT_Chemical_Phenethylamines</defName>
+    <label>phenethylamines</label>
+    <addictionHediff>BMT_PhenethylaminesAddiction</addictionHediff>
+    <canBinge>false</canBinge>
+  </ChemicalDef>
 
 </Defs>
