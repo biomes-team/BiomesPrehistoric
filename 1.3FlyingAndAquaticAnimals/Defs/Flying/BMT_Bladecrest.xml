@@ -200,9 +200,9 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 		</tradeTags>
-		<butcherProducts>
-			<BMT_BladecrestBlade>1</BMT_BladecrestBlade>
-		</butcherProducts>
+		<!-- <butcherProducts> -->
+			<!-- <BMT_BladecrestBlade>1</BMT_BladecrestBlade> -->
+		<!-- </butcherProducts> -->
 	</ThingDef>
 
 	<!-- =============================================================== -->
@@ -279,6 +279,10 @@
 					<texPath>BMT_Prehistoric/Pterosaur/Bladecrest/Bladecrest_dessicated</texPath>
 					<drawSize>4.9</drawSize>
 				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+					<thing>BMT_BladecrestBlade</thing>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
