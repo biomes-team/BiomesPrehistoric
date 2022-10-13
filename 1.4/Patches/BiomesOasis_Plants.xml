@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes! Oasis</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BiomeDef[defName="BMT_ChromaticOasis"]/wildPlants</xpath>
+					<value>
+						<BMT_JungleGrass>3.0</BMT_JungleGrass>
+						<BMT_Davallia>2.0</BMT_Davallia>
+						<BMT_Ephedra>0.1</BMT_Ephedra>
+						<BMT_Angiopteris>0.8</BMT_Angiopteris>
+						<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
+						<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
+						<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
+						<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
+						<BMT_Berberis>0.05</BMT_Berberis>
+						<BMT_Sagaria>0.2</BMT_Sagaria>
+						<BMT_MayoaPortugallica>0.15</BMT_MayoaPortugallica>
+						<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

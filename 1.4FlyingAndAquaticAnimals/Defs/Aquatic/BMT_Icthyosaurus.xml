@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<Defs>   
+
+    <LifeStageDef ParentName="AnimalBaby">
+        <defName>BMT_IcthyosaurusBabyTiny</defName>
+        <bodySizeFactor>0.1</bodySizeFactor>
+        <foodMaxFactor>4</foodMaxFactor>
+        <statFactors>
+            <MoveSpeed>0.6</MoveSpeed>
+            <SwimSpeed>0.6</SwimSpeed>
+        </statFactors>
+        <modExtensions>
+        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+            <bodyGraphicData>
+                <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/IcthyosaurusSubmerged</texPath>
+                <drawSize>1.0</drawSize>
+            </bodyGraphicData>
+        </li>
+        </modExtensions>
+    </LifeStageDef>
+
+    <LifeStageDef>
+        <defName>BMT_IcthyosaurusJuvenile</defName>
+        <label>juvenile</label>
+        <voxPitch>1.2</voxPitch>
+        <bodySizeFactor>0.5</bodySizeFactor>
+        <foodMaxFactor>1.5</foodMaxFactor>
+        <healthScaleFactor>0.6</healthScaleFactor>
+        <hungerRateFactor>0.75</hungerRateFactor>
+        <marketValueFactor>0.75</marketValueFactor>
+        <meleeDamageFactor>0.75</meleeDamageFactor>
+        <statFactors>
+            <MoveSpeed>0.9</MoveSpeed>
+            <SwimSpeed>0.9</SwimSpeed>
+        </statFactors>
+        <modExtensions>
+        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+            <bodyGraphicData>
+                <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/IcthyosaurusSubmerged</texPath>
+                <drawSize>2.0</drawSize>
+            </bodyGraphicData>
+        </li>
+        </modExtensions>
+    </LifeStageDef>
+
+    <LifeStageDef>
+        <defName>BMT_IcthyosaurusAdult</defName>
+        <label>adult</label>
+        <visible>false</visible>
+        <reproductive>true</reproductive>
+        <modExtensions>
+        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+            <bodyGraphicData>
+                <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/IcthyosaurusSubmerged</texPath>
+                <drawSize>3.8</drawSize>
+            </bodyGraphicData>
+        </li>
+        </modExtensions>
+    </LifeStageDef>
+
+    <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
+        <defName>BMT_Icthyosaurus</defName>
+        <label>icthyosaurus</label>
+        <description>The Ichthyosaurus may look superficially like a prehistoric dolphin,‭ but ‬Ichthyosaurus was actually an aquatic reptile.‭ Its hands and feed had over time modified into flippers.\n\nScientific name: Ichthyosaurus communis</description>
+        <statBases>
+            <MoveSpeed>0</MoveSpeed>
+            <SwimSpeed>7</SwimSpeed>
+            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+            <ComfyTemperatureMax>46</ComfyTemperatureMax>
+            <MarketValue>970</MarketValue>
+        </statBases>
+        <tools>
+            <li>
+                <label>teeth</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>10</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+			<li>
+				<label>head</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.3</chanceFactor>
+			</li>
+        </tools>
+        <race>
+		    <meatLabel>icthyosaur meat</meatLabel>
+            <predator>true</predator>
+            <body>Biomes_SharkBody</body>
+			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
+            <baseHungerRate>2.7</baseHungerRate>
+            <baseBodySize>3</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <foodType>CarnivoreAnimal</foodType>
+			<maxPreyBodySize>3</maxPreyBodySize>
+            <gestationPeriodDays>7</gestationPeriodDays>
+            <packAnimal>false</packAnimal>
+            <wildness>0.25</wildness>
+            <petness>0.70</petness>
+            <lifeExpectancy>50</lifeExpectancy>
+            <trainability>Intermediate</trainability>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+            <litterSizeCurve>
+                <points>
+                    <li>(0.5, 0)</li>
+                    <li>(1, 1)</li>
+                    <li>(2, 1.5)</li>
+                    <li>(3, 1)</li>
+                    <li>(3.5, 0)</li>
+                </points>
+            </litterSizeCurve>
+            <lifeStageAges>
+                <li>
+                    <def>BMT_IcthyosaurusBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>BMT_IcthyosaurusJuvenile</def>
+                    <minAge>1.8</minAge>
+                </li>
+                <li>
+                    <def>BMT_IcthyosaurusAdult</def>
+                    <minAge>2.5</minAge>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+        </race>
+        <comps />
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Icthyosaurus</defName>
+        <label>icthyosaurus</label>
+        <race>BMT_Icthyosaurus</race>
+        <combatPower>80</combatPower>
+		<ecoSystemWeight>1.0</ecoSystemWeight>
+		<wildGroupSize>1~3</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Icthyosaurus</texPath>
+                    <drawSize>1.0</drawSize>
+                    <shadowData>
+                        <volume>(0.6, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+				
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
+                    <drawSize>1.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Icthyosaurus</texPath>
+                    <drawSize>2.0</drawSize>
+                    <shadowData>
+                        <volume>(0.8, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+				
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
+                    <drawSize>2.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Icthyosaurus</texPath>
+                    <drawSize>3.8</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+				
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
+                    <drawSize>3.8</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+	
+	</Defs>   

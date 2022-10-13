@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- How big is it? About half the size of the normal dilophosaurus -->
+<!-- What does it eat? (is it a predator?) Predator but will gladly eat meat or scavenge. -->
+<!-- Where does it live? Chromatic Oasis -->
+<!-- Does it spawn in packs? Yes, alone or in mated pairs. -->
+<!-- Other info good pets? shearable? do you want it to have a specific type of leather? etc. Hunt smaller prey. Makes for a neat pet since you hardly have to feed it.  -->
+
+	<ThingDef MayRequire="biomesteam.oasis" ParentName="AnimalThingBase">
+		<defName>BMT_Chlorosaurus</defName>
+		<label>chlorosaurus</label>
+		<description>Chlorosaurus are carnivorous dinosaurs found in the chromatic oasis. They require little food as they use chlorophyll for most of their energy.</description>
+		<statBases>
+			<MoveSpeed>5.8</MoveSpeed>
+			<MarketValue>360</MarketValue>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<FilthRate>9</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Velociraptor</useMeatFrom>
+			<body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
+			<leatherDef>BMT_DinoHideMedium</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHealthScale>1.2</baseHealthScale>
+			<baseHungerRate>0.2</baseHungerRate>
+			<foodType>CarnivoreAnimal, Meat</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>0.6</maxPreyBodySize>
+			<wildness>0.38</wildness>
+			<lifeExpectancy>20</lifeExpectancy>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
+			<trainability>Intermediate</trainability>
+			<wildBiomes>
+				<!-- <BMT_ChromaticOasis>110.7</BMT_ChromaticOasis> -->
+				<BMT_ChromaticOasis>0.8</BMT_ChromaticOasis>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundWounded>BMT_Dilophosaurus_Wounded</soundWounded>
+					<soundDeath>BMT_Dilophosaurus_Death</soundDeath>
+					<soundCall>BMT_Dilophosaurus_Call</soundCall>
+					<soundAngry>BMT_Dilophosaurus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<modExtensions>
+			<!-- <li Class="NocturnalAnimals.ExtendedRaceProperties"> -->
+				<!-- <bodyClock>Nocturnal</bodyClock> -->
+			<!-- </li> -->
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_ChlorosaurusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>4</eggFertilizationCountMax>
+				<eggLayIntervalDays>11</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~4</eggCountRange>
+			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<!-- <tickInterval>250</tickInterval> -->
+				<!-- <tickInterval>60000</tickInterval> -->
+				<feedingTerrainTag>Sandy</feedingTerrainTag>
+				<consumingFoodReportString>Scavenging.</consumingFoodReportString>
+				<!-- <effecterDef>Interceptor_BlockedProjectile</effecterDef> -->
+				<effecterDef>EatVegetarian</effecterDef>
+				<!-- <effecterDef>PlayPoker</effecterDef> -->
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>front left claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>front right claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.8</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalFighter</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef MayRequire="biomesteam.oasis" ParentName="AnimalKindBase">
+		<defName>BMT_Chlorosaurus</defName>
+		<label>chlorosaurus</label>
+		<race>BMT_Chlorosaurus</race>
+		<combatPower>115</combatPower>
+		<wildGroupSize>1~2</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chlorosaurus/Chlorosaurus</texPath>
+					<drawSize>1.0</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.15, 0.15)</volume>
+						<offset>(0,0,-0.08)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chlorosaurus/Dessicated_Chlorosaurus_east</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chlorosaurus/Chlorosaurus</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.35, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.09)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chlorosaurus/Dessicated_Chlorosaurus_east</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chlorosaurus/Chlorosaurus</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.4, 0.25)</volume>
+						<offset>(0,0,-0.10)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chlorosaurus/Dessicated_Chlorosaurus_east</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef MayRequire="biomesteam.oasis" ParentName="EggFertBase">
+		<defName>BMT_ChlorosaurusEggFertilized</defName>
+		<label>chlorosaurus egg (fert.)</label>
+		<description>A fertilized Chlorosaurus egg. If all goes well, it should hatch into a baby chlorosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(218,218,216)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>52</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Chlorosaurus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

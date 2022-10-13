@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>BMT_Caytoniales</defName>
+    <label>caytoniales</label>
+    <description>The woody nature of associated stalks and preserved short shoots are evidence that caytoniales were seasonally deciduous, shrubs and trees.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Caytoniales/CaytonialesGrown</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.14, 0.32, 0.12)</volume>
+        <offset>(0,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <plant>
+      <growDays>27</growDays>
+      <visualSizeRange>1.1~1.5</visualSizeRange>
+      <harvestWork>800</harvestWork>
+      <harvestYield>27</harvestYield>
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Caytoniales/CaytonialesLeafless</leaflessGraphicPath>
+      <wildClusterRadius>17</wildClusterRadius>
+      <wildClusterWeight>25</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>

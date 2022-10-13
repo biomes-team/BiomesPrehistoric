@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Archaeanthus</defName>
+    <label>tulip tree</label>
+    <description>In addition to producing wood, the tulip tree is beautiful with its white, beetle polinated flowers.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Archaeanthus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.18, 0.3, 0.15)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>4</Beauty>
+      <BeautyOutdoors>4</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <plant>
+      <growDays>14</growDays>
+      <harvestWork>600</harvestWork>
+      <harvestYield>18</harvestYield>
+      <wildClusterRadius>10</wildClusterRadius>
+      <wildClusterWeight>11</wildClusterWeight>
+      <visualSizeRange>1.5~3</visualSizeRange>
+    </plant>
+    <ingestible />
+  </ThingDef>
+
+</Defs>

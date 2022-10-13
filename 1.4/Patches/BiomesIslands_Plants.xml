@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes! Islands</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildPlants</xpath>
+					<value>
+						<BMT_Horsetail>4.8</BMT_Horsetail>
+						<BMT_Calamites>0.2</BMT_Calamites>
+						<BMT_Clubmoss>2.0</BMT_Clubmoss>
+						<BMT_Sigillaria>0.2</BMT_Sigillaria>
+						<BMT_Lepidodendron>0.2</BMT_Lepidodendron>
+						<BMT_Sphenophyllum>0.8</BMT_Sphenophyllum>
+						<BMT_Pecopteris>0.8</BMT_Pecopteris>
+						<BMT_Medullosa>0.15</BMT_Medullosa>
+						<BMT_Alethopteris>0.05</BMT_Alethopteris>
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildPlants</xpath>
+					<value>
+						<BMT_Matoniaceae>9.0</BMT_Matoniaceae>
+						<BMT_Coniopteris>2.0</BMT_Coniopteris>
+						<BMT_Polytrichaceae>4.0</BMT_Polytrichaceae>
+						<BMT_Cycas>3.0</BMT_Cycas>
+						<BMT_Eathiestrobus>5.0</BMT_Eathiestrobus>
+						<BMT_Zamiaceae>1.5</BMT_Zamiaceae>
+						<BMT_Araucaria>1.2</BMT_Araucaria>
+						<BMT_Gnetum>0.16</BMT_Gnetum>
+						<BMT_HealrootFern>0.16</BMT_HealrootFern>
+						<!--BiomesIslands_Lavender>1</BiomesIslands_Lavender-->
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_DesertIslandBase"]/wildPlants</xpath>
+					<value>
+						<BMT_Lyginopteridales>7.0</BMT_Lyginopteridales>
+						<!--Plant_Dandelion>0.8</Plant_Dandelion-->
+						<BMT_Sphenobaiera>0.25</BMT_Sphenobaiera>
+						<BMT_Peltaspermaceae>0.6</BMT_Peltaspermaceae>
+						<BMT_Cycadales>0.2</BMT_Cycadales>
+						<BMT_Glossopteris>0.26</BMT_Glossopteris>
+						<BMT_Walchia>0.20</BMT_Walchia>
+						<BMT_Aetheophyllum>0.10</BMT_Aetheophyllum>
+						<!--BiomesIslands_CoconutPalm>0.03</BiomesIslands_CoconutPalm-->
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TemperateIslandBase"]/wildPlants</xpath>
+					<value>
+						<BMT_Matoniaceae>5.0</BMT_Matoniaceae>
+						<BMT_Dipteridaceae>2.0</BMT_Dipteridaceae>
+						<BMT_Coniopteris>1.0</BMT_Coniopteris>
+						<!--Plant_Dandelion>0.5</Plant_Dandelion-->
+						<BMT_Cycas>0.6</BMT_Cycas>
+						<BMT_Podozamites>0.6</BMT_Podozamites>
+						<BMT_Araucaria>0.6</BMT_Araucaria>
+						<BMT_Gnetum>0.05</BMT_Gnetum>
+						<BMT_HealrootFern>0.05</BMT_HealrootFern>
+						<BMT_JurassicHorsetail>1.0</BMT_JurassicHorsetail>
+						<!--BiomesIslands_OrangeTree>0.3</BiomesIslands_OrangeTree-->
+						<!--BiomesIslands_Fern>0.8</BiomesIslands_Fern-->
+						<!--BiomesIslands_FloweringFern>0.1</BiomesIslands_FloweringFern-->
+						<!--BiomesIslands_Lavender>0.1</BiomesIslands_Lavender-->
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIslandBase"]/wildPlants</xpath>
+					<value>
+						<BMT_JungleGrass>2.0</BMT_JungleGrass>
+						<BMT_Davallia>0.4</BMT_Davallia>
+						<BMT_Ephedra>2.0</BMT_Ephedra>
+						<BMT_Angiopteris>1.0</BMT_Angiopteris>
+						<BMT_Archaeanthus>0.4</BMT_Archaeanthus>
+						<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
+						<BMT_ThicketBamboo>0.4</BMT_ThicketBamboo>
+						<BMT_Cercidiphyllum>0.8</BMT_Cercidiphyllum>
+						<BMT_Berberis>0.15</BMT_Berberis>
+						<BMT_Sagaria>0.07</BMT_Sagaria>
+						<BMT_MayoaPortugallica>0.05</BMT_MayoaPortugallica>
+						<BMT_Calamites>0.8</BMT_Calamites>
+						<BMT_Clubmoss>0.15</BMT_Clubmoss>
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">  
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TundraIslandBase"]/wildPlants</xpath>
+					<value>
+						<BMT_Sedge>3.6</BMT_Sedge>
+						<BMT_RedSphagnum>0.5</BMT_RedSphagnum>
+						<BMT_NanaBetula>0.3</BMT_NanaBetula>
+						<BMT_Potentilla>0.1</BMT_Potentilla>
+						<BMT_Artemisia>0.1</BMT_Artemisia>
+						<BMT_Pinus>0.08</BMT_Pinus>
+						<BMT_LeopoldaeBetula>0.08</BMT_LeopoldaeBetula>
+						<BMT_RubusChamaemorus>0.07</BMT_RubusChamaemorus>
+						<BMT_HealrootFern>0.05</BMT_HealrootFern>
+
+						<BMT_Crinoid>1.0</BMT_Crinoid>
+						<BMT_Gryphaea>1.0</BMT_Gryphaea>
+						<BMT_HornCorals>1.0</BMT_HornCorals>
+						<BMT_Stromatolite>1.0</BMT_Stromatolite>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+BMT_Adoketophyton	-	Berry Bush 		Temperate Swamp
+BMT_Aetheophyllum	-	Berry Bush 		Arid Shrubland
+BMT_Alethopteris	-	Barry Bush		Tropical Swamp
+BMT_Araucaria		-	Poplar Tree		Temperate Forest / Boreal Forest
+BMT_Archaefructus	-	Astragalus		Cold Bog
+BMT_Archaeopteris	-	Willow Tree 	Temperate Swamp
+BMT_Artemisia		-	Astragalus		Tundra
+BMT_Asteroxlyon		-	Cypress Tree 	Temperate Swamp
+BMT_Berberis		- 	Bush 			Tropical Rainforest
+BMT_BogMoss			-	Moss 			Cold Bog
+BMT_Calamites		-	treelike		Water/Land
+BMT_Caytoniales		-	Maple Tree 		Cold Bog
+BMT_Cercidiphyllum	-	Teal Tree 		Tropical Rainforest
+BMT_Clathropteris	-	Pincushion Cactus 	Arid Shrubland
+BMT_Clubmoss		-	bushlike?
+BMT_Coniopteris		-	Brambles		Temperate Forest / Boreal Forest
+BMT_Cooksonia		-	Tall Grass 		Temperate Swamp
+BMT_Cycadales		-	Agave			Arid Shrubland / Desert / Extreme Desert
+BMT_Cycas			-	Bush 			Temperate Forest / Boreal Forest
+BMT_Dicroidium		-	Grass 			Arid Shrubland / Extreme Desert
+BMT_Dipteridaceae	-	Tall Grass 		Temperate Forest
+BMT_Eathiestrobus	-	Pine Tree 		Boreal Forest
+BMT_Ephedra			-	Shrub Low 		Tropical Rainforest
+BMT_Ginkgo			-	Willow  Tree 	Cold Bog
+BMT_Glossopteris	-	Saguaro Cactus 	Desert
+BMT_Gnetum			-	Barry Bush 		Temperate Forest / Boreal Forest
+BMT_Grass 			-	Grass 			Tropical Rainforest
+BMT_HealrootFern	-	Healroot 		Cold Bog / Tundra / Boreal Forest / Temperate Swamp / Temperate Forest
+BMT_Horsetail		-	grasslike, tough
+BMT_JungleGrass		-	Grass 			Tropical Rainforest
+BMT_JurassicHorsetail	- 	grasslike	Temperate Forest
+BMT_LeopoldaeBetula	-	Birch Tree		Tundra
+BMT_Lepidodendron	-	Maple Tree 		Tropical Swamp
+BMT_Lindsaeaceae	-	Chokevine		Cold Bog
+BMT_Lyginopteridales	-	Grass 		Desert
+BMT_Matoniaceae		-	Grass			Temperate Forest / Boreal Forest
+BMT_MayoaPortugallica	-	Berry Bush 	Tropical Rainforest
+BMT_Medullosa		- 	Bush			Tropical Swamp
+BMT_MerianiCalamites	- Drago Tree 	Arid Shrubland
+BMT_Metasequoia		-	Cypress Tree 	Cold Bog
+BMT_NanaBetula		-	Bush 			Tundra
+BMT_Nymphaeaceae	-	Rafflesia		Tropical Rainforest
+BMT_NypaFruticans	-	Palm Tree 		Tropical Rainforest
+BMT_Pecopteris		- 	Alocasia		Tropical Swamp
+BMT_Peltaspermaceae	-	Pincushion Cactus 	Desert
+BMT_Pinus			-	Pine Tree		Tundra
+BMT_Pleuromeia		-	Saguaro Cactus 	Arid Shrubland
+BMT_Podocarpaceae	-	Bush 			Cold Bog
+BMT_Podozamites		-	Oak Tree 		Temperate Forest
+BMT_PolarGrass		-	Tall Grass 		Cold Bog
+BMT_Polytrichaceae	-	Moss 			Boreal Forest
+BMT_Potentilla		-	Dandelion		Tundra
+BMT_Pseudobornia	-	Maple Tree 		Temperate Swamp
+BMT_Psilophyton		-	Chokevine		Temperate Swamp
+BMT_RedSphagnum		-	Moss 			Tundra
+BMT_RubusChamaemorus	-	Barry Bush 	Tundra
+BMT_Sagaria			-	Clivia			Tropical Rainforest
+BMT_Sedge			-	Grass 			Tundra
+BMT_Sigillaria		-	Cypress Tree 	Tropical Swamp
+BMT_Sphenobaiera	-	Bush 			Desert
+BMT_Sphenophyllum	-	Chokevine		Tropical Swamp
+BMT_Taxaceae		-	Berry Bush 		Cold Bog
+BMT_Teraxylopteris 	-	Bush 			Temperate Swamp
+BMT_Voltzia			-	Bush 			Arid Shrubland
+BMT_Walchia			-	Drago Tree 		Desert
+BMT_Zamiaceae		-	Birch Tree 		Boreal Forest
+
+BMT_Crinoid			-	sea lilies		Saltwater / Sea
+BMT_Gryphaea		-					Saltwater / Sea
+BMT_HornCorals		-					Saltwater / Sea
+BMT_Stromatolite	-					Saltwater / Sea
+
+-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+		<value>
+			<BMT_Matoniaceae>6.0</BMT_Matoniaceae>
+			<BMT_Dipteridaceae>3.0</BMT_Dipteridaceae>
+			<BMT_Coniopteris>2.0</BMT_Coniopteris>
+			<BMT_Cycas>0.6</BMT_Cycas>
+			<BMT_Podozamites>0.5</BMT_Podozamites>
+			<BMT_Araucaria>0.5</BMT_Araucaria>
+			<BMT_Gnetum>0.1</BMT_Gnetum>
+			<BMT_HealrootFern>0.1</BMT_HealrootFern>
+			<BMT_JurassicHorsetail>1.0</BMT_JurassicHorsetail>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+		<value>
+			<BMT_Cooksonia>3.2</BMT_Cooksonia>
+			<BMT_Psilophyton>0.8</BMT_Psilophyton>
+			<BMT_Teraxylopteris>0.2</BMT_Teraxylopteris>
+			<BMT_Archaeopteris>1.0</BMT_Archaeopteris>
+			<BMT_Asteroxlyon>1.0</BMT_Asteroxlyon>
+			<BMT_Pseudobornia>1.0</BMT_Pseudobornia>
+			<BMT_Adoketophyton>0.05</BMT_Adoketophyton>
+			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+			<BMT_Calamites>0.7</BMT_Calamites>
+			<BMT_Clubmoss>1.0</BMT_Clubmoss>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+		<value>
+			<BMT_JungleGrass>3.0</BMT_JungleGrass>
+			<BMT_Davallia>2.0</BMT_Davallia>
+			<BMT_Ephedra>0.1</BMT_Ephedra>
+			<BMT_Angiopteris>0.8</BMT_Angiopteris>
+			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
+			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
+			<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
+			<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
+			<BMT_Berberis>0.05</BMT_Berberis>
+			<BMT_Sagaria>0.2</BMT_Sagaria>
+			<BMT_MayoaPortugallica>0.15</BMT_MayoaPortugallica>
+			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+		<value>
+			<BMT_Horsetail>4.8</BMT_Horsetail>
+			<BMT_Calamites>1.72</BMT_Calamites>
+			<BMT_Clubmoss>2.0</BMT_Clubmoss>
+			<BMT_Sigillaria>1.72</BMT_Sigillaria>
+			<BMT_Lepidodendron>1.72</BMT_Lepidodendron>
+			<BMT_Sphenophyllum>0.8</BMT_Sphenophyllum>
+			<BMT_Pecopteris>0.8</BMT_Pecopteris>
+			<BMT_Medullosa>0.15</BMT_Medullosa>
+			<BMT_Alethopteris>0.05</BMT_Alethopteris>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
+		<value>
+			<BMT_Dicroidium>7.0</BMT_Dicroidium>
+			<BMT_Voltzia>0.7</BMT_Voltzia>
+			<BMT_Clathropteris>0.6</BMT_Clathropteris>
+			<BMT_Cycadales>0.2</BMT_Cycadales>
+			<BMT_Pleuromeia>0.26</BMT_Pleuromeia>
+			<BMT_MerianiCalamites>0.20</BMT_MerianiCalamites>
+			<BMT_Aetheophyllum>0.10</BMT_Aetheophyllum>
+			<BMT_Horsetail>3.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<BMT_Matoniaceae>9.0</BMT_Matoniaceae>
+			<BMT_Cycas>3.0</BMT_Cycas>
+			<BMT_Coniopteris>2.0</BMT_Coniopteris>
+			<BMT_Araucaria>1.2</BMT_Araucaria>
+			<BMT_Gnetum>0.16</BMT_Gnetum>
+			<BMT_HealrootFern>0.16</BMT_HealrootFern>
+			<BMT_Zamiaceae>1.5</BMT_Zamiaceae>
+			<BMT_Polytrichaceae>4.0</BMT_Polytrichaceae>
+			<BMT_JurassicHorsetail>2.0</BMT_JurassicHorsetail>
+			<BMT_Eathiestrobus>5.0</BMT_Eathiestrobus>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+		<value>
+			<BMT_Lindsaeaceae>3.0</BMT_Lindsaeaceae>
+			<BMT_PolarGrass>2.4</BMT_PolarGrass>
+			<BMT_BogMoss>0.5</BMT_BogMoss>
+			<BMT_Podocarpaceae>0.3</BMT_Podocarpaceae>
+			<BMT_Archaefructus>0.1</BMT_Archaefructus>
+			<BMT_Ginkgo>0.6</BMT_Ginkgo>
+			<BMT_Metasequoia>0.6</BMT_Metasequoia>
+			<BMT_Caytoniales>0.6</BMT_Caytoniales>
+			<BMT_Taxaceae>0.07</BMT_Taxaceae>
+			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+		<value>
+			<BMT_Lyginopteridales>4</BMT_Lyginopteridales>
+			<BMT_Peltaspermaceae>1.0</BMT_Peltaspermaceae>
+			<BMT_Glossopteris>1.0</BMT_Glossopteris>
+			<BMT_Walchia>0.7</BMT_Walchia>
+			<BMT_Cycadales>0.5</BMT_Cycadales>
+			<BMT_Sphenobaiera>0.25</BMT_Sphenobaiera>
+			<BMT_Horsetail>1.0</BMT_Horsetail>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath>
+		<value>
+			<BMT_Dicroidium>6</BMT_Dicroidium>
+			<BMT_Pleuromeia>1.0</BMT_Pleuromeia>
+			<BMT_Cycadales>0.25</BMT_Cycadales>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+		<value>
+			<BMT_Sedge>6.0</BMT_Sedge>
+			<BMT_RedSphagnum>1.2</BMT_RedSphagnum>
+			<BMT_NanaBetula>1.2</BMT_NanaBetula>
+			<BMT_Potentilla>0.1</BMT_Potentilla>
+			<BMT_Artemisia>0.1</BMT_Artemisia>
+			<BMT_Pinus>0.08</BMT_Pinus>
+			<BMT_LeopoldaeBetula>0.08</BMT_LeopoldaeBetula>
+			<BMT_RubusChamaemorus>0.07</BMT_RubusChamaemorus>
+			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+			<BMT_SwimmingBioMass>1</BMT_SwimmingBioMass>
+
+			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			<BMT_Gryphaea>1.0</BMT_Gryphaea>
+			<BMT_HornCorals>1.0</BMT_HornCorals>
+			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+		</value>
+	</Operation>	
+
+<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="IceSheet"]/wildPlants</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="SeaIce"]/wildPlants</xpath>
+		<value>
+			<Placeholder>99999999</Placeholder>
+		</value>
+	</Operation>
+	-->
+
+</Patch>

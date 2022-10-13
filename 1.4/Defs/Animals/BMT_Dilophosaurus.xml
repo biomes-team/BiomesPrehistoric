@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Dilophosaurus</defName>
+        <label>dilophosaurus</label>
+        <description>Roughly as tall as a person, Dilophosaurus is best known for the large crests along its skull, thought to be used for display. Despite how it was depicted in a popular movie from the 20th century, it did not actually possess frills nor did it spit venom.\n\nScientific name: Dilophosaurus wetherilli</description>
+        <statBases>
+            <MoveSpeed>5.4</MoveSpeed>
+            <MarketValue>570</MarketValue>
+            <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+            <ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<FilthRate>18</FilthRate>
+        </statBases>
+        <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+            <useMeatFrom>BMT_Velociraptor</useMeatFrom>
+            <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
+            <herdAnimal>true</herdAnimal>
+            <baseBodySize>2.4</baseBodySize>
+            <baseHealthScale>2.8</baseHealthScale>
+            <baseHungerRate>0.38</baseHungerRate>
+            <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+            <predator>true</predator>
+            <maxPreyBodySize>1.5</maxPreyBodySize>
+            <wildness>0.65</wildness>
+            <lifeExpectancy>20</lifeExpectancy>
+            <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+            <trainability>Intermediate</trainability>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.4</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>0.8</minAge>
+                    <soundWounded>BMT_Dilophosaurus_Wounded</soundWounded>
+                    <soundDeath>BMT_Dilophosaurus_Death</soundDeath>
+                    <soundCall>BMT_Dilophosaurus_Call</soundCall>
+                    <soundAngry>BMT_Dilophosaurus_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_DilophosaurusEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>4</eggFertilizationCountMax>
+                <eggLayIntervalDays>11</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>1~4</eggCountRange>
+            </li>
+        </comps>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
+        <tools>
+            <li>
+                <label>front left claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>18</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>front right claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>18</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>22</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalFighter</li>
+            <li>AnimalUncommon</li>
+        </tradeTags>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Dilophosaurus</defName>
+        <label>dilophosaurus</label>
+        <race>BMT_Dilophosaurus</race>
+        <combatPower>215</combatPower>
+        <wildGroupSize>1~4</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusMale</texPath>
+                    <drawSize>2.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
+                    <drawSize>2.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusMale</texPath>
+                    <drawSize>4.4</drawSize>
+                    <shadowData>
+                        <volume>(0.7, 0.6, 0.4)</volume>
+                        <offset>(0,0,-0.25)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
+                    <drawSize>4.4</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusMale</texPath>
+                    <drawSize>5.9</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <femaleGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/DilophosaurusFemale</texPath>
+                    <drawSize>6</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.8, 0.5)</volume>
+                        <offset>(0,0,-0.5)</offset>
+                    </shadowData>
+                </femaleGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dilophosaurus/Dessicated_Dilophosaurus</texPath>
+                    <drawSize>5.9</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_DilophosaurusEggFertilized</defName>
+        <label>dilophosaurus egg (fert.)</label>
+        <description>A fertilized Dilophosaurus egg. If all goes well, it should hatch into a baby dilophosaurus. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+            <color>(218,218,216)</color>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>55</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>5</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Dilophosaurus</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

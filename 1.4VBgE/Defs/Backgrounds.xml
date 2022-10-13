@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <VBE.BackgroundImageDef MayRequire="BiomesTeam.BiomesPrehistoric">
+        <label>DinoBiome</label>
+        <description>Splash Screen Included in Prehistoric.</description>
+        <defName>BMT_Dino_Splash</defName>
+        <path>BMT_Prehistoric/UI/BG/BGDino</path>
+        <iconPath>BMT_Prehistoric/UI/Icon/Biomes!Palm</iconPath>
+    </VBE.BackgroundImageDef>
+</Defs>

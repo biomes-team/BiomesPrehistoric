@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_Dimetrodon</defName>
+        <label>dimetrodon</label>
+        <description>Despite often being called a dinosaur, it is in fact more closely related to mammals than actual dinosaurs. It was a fearsome predator for its time, using its sail to warm up in the morning before its prey did.\n\nScientific name: Dimetrodon limbatus</description>
+        <statBases>
+            <MoveSpeed>5</MoveSpeed>
+            <MarketValue>460</MarketValue>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <FilthRate>15</FilthRate>
+        </statBases>
+        <race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+            <meatLabel>synapsid meat</meatLabel>
+            <body>QuadrupedAnimalWithClawsTailAndJowl</body>
+            <leatherDef>BMT_DinoHideMedium</leatherDef>
+            <herdAnimal>false</herdAnimal>
+            <baseBodySize>2</baseBodySize>
+            <baseHealthScale>1.2</baseHealthScale>
+            <baseHungerRate>0.5</baseHungerRate>
+            <foodType>CarnivoreAnimal</foodType>
+            <predator>true</predator>
+            <maxPreyBodySize>1.0</maxPreyBodySize>
+            <packAnimal>false</packAnimal>
+            <wildness>0.35</wildness>
+            <roamMtbDays>2</roamMtbDays>
+            <lifeExpectancy>40</lifeExpectancy>
+            <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
+            <trainability>None</trainability>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalBabyTiny</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>AnimalJuvenile</def>
+                    <minAge>0.6</minAge>
+                </li>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>1.5</minAge>
+                    <soundWounded>BMT_Dimetrodon_Wounded</soundWounded>
+                    <soundDeath>BMT_Dimetrodon_Death</soundDeath>
+                    <soundCall>BMT_Dimetrodon_Call</soundCall>
+                    <soundAngry>BMT_Dimetrodon_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_EggLayer">
+                <eggFertilizedDef>BMT_DimetrodonEggFertilized</eggFertilizedDef>
+                <eggFertilizationCountMax>5</eggFertilizationCountMax>
+                <eggLayIntervalDays>8.5</eggLayIntervalDays>
+                <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+                <eggCountRange>2~5</eggCountRange>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>left claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>left claws</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2.5</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalUncommon</li>
+        </tradeTags>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_Dimetrodon</defName>
+        <label>dimetrodon</label>
+        <race>BMT_Dimetrodon</race>
+        <combatPower>80</combatPower>
+        <wildGroupSize>1</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dimetrodon</texPath>
+                    <drawSize>1.3</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.3, 0.3)</volume>
+                        <offset>(0,0,-0.13)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dessicated_Dimetrodon</texPath>
+                    <drawSize>1.3</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dimetrodon</texPath>
+                    <drawSize>2.3</drawSize>
+                    <shadowData>
+                        <volume>(0.6, 0.5, 0.3)</volume>
+                        <offset>(0,0,-0.18)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dessicated_Dimetrodon</texPath>
+                    <drawSize>2.3</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dimetrodon</texPath>
+                    <drawSize>3.0</drawSize>
+                    <shadowData>
+                        <volume>(0.8, 0.65, 0.4)</volume>
+                        <offset>(0,0,-0.3)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/Dimetrodon/Dessicated_Dimetrodon</texPath>
+                    <drawSize>3.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <ThingDef ParentName="EggFertBase">
+        <defName>BMT_DimetrodonEggFertilized</defName>
+        <label>dimetrodon egg (fert.)</label>
+        <description>A fertilized dimetrodon egg. If all goes well, it should hatch into a baby dimetrodon. It can be eaten raw, but it's much better cooked.</description>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+            <color>(147,136,162)</color>
+            <drawSize>0.9</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>77</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>7</hatcherDaystoHatch>
+                <hatcherPawn>BMT_Dimetrodon</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

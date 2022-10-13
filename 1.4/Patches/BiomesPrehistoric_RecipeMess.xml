@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[SYR] Processor Framework</li>
+		</mods>
+		<nomatch-->
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/RecipeDef[defName="Make_Wort"]/allowMixingIngredients</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="Make_Wort"]</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/RecipeDef[defName="Make_Wort"]/allowMixingIngredients</xpath>
+						<value>
+							<allowMixingIngredients>true</allowMixingIngredients>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Make_Wort"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>BMT_RawNypa</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Make_Wort"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>BMT_RawNypa</li>
+					</value>
+				</li>
+			</operations>
+		<!--/nomatch-->
+	</Operation>
+</Patch>

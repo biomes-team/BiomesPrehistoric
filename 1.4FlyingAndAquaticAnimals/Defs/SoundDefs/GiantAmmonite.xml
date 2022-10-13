@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<Defs>
+
+<!-- GiantAmmonite -->
+    <SoundDef>
+		<defName>BMT_GiantAmmonite_Call</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>BMT_Animals/GiantAmmonite/Giant_Ammonite_Call</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.49</min>
+					<max>17.80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.90</min>
+					<max>1.15</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>45.00</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	
+
+	<SoundDef>
+		<defName>BMT_GiantAmmonite_Death</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>BMT_Animals/GiantAmmonite/Giant_Ammonite_Death</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>20</min>
+					<max>20</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.93</min>
+					<max>1.11</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+</Defs>

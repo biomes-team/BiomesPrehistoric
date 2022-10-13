@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes! Oasis</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BMT_ChromaticOasis"]/wildAnimals</xpath>
+					<value>
+		    <BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
+		    <BMT_Protoceratops>0.5</BMT_Protoceratops>
+		    <BMT_Compsognathus>0.75</BMT_Compsognathus>
+		    <BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
+			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+		    <BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+		    <BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
+		    <BMT_Meganeura>0.5</BMT_Meganeura>
+		    <BMT_Arthropleura>0.5</BMT_Arthropleura>
+			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
+			<BMT_TRex>0.2</BMT_TRex>
+			<BMT_Dryosaurus>0.5</BMT_Dryosaurus>
+			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
+			<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
+			<BMT_Titanoboa>0.1</BMT_Titanoboa>
+			<BMT_Ankylosaurus>0.7</BMT_Ankylosaurus>
+			<BMT_Triceratops>0.7</BMT_Triceratops>
+			<BMT_Gallimimus>0.03</BMT_Gallimimus>
+			<BMT_Baryonyx>0.03</BMT_Baryonyx>
+			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
+			<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
+			<BMT_Parasaur>0.2</BMT_Parasaur>
+			<BMT_Iguanodon>0.4</BMT_Iguanodon>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

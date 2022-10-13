@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>BiomesIslands_Seaweed</defName>
+		<label>seaweed</label>
+		<description>An aquatic plant</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<pathCost>10</pathCost>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>BiomesIslands_Things/Plant/Seaweed</texPath>
+		</graphicData>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+				<terrainTags>
+					<li>Water</li>
+					<li>Salty</li>
+					<li>Shallow</li>
+					<li>Deep</li>
+				</terrainTags>
+			</li>
+		</modExtensions>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.7~1.3</visualSizeRange>
+			<wildClusterRadius>8</wildClusterRadius>
+			<wildClusterWeight>150</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+</Defs>

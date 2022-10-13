@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>BMT_LeopoldaeBetula</defName>
+    <label>betula leopoldae</label>
+    <description>A temperate-biome tree known for its thin, white, paper-like bark.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/LeopoldaeBetula</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>20</growDays>
+      <harvestWork>800</harvestWork>
+      <harvestYield>10</harvestYield>
+      <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
+      <visualSizeRange>1.0~1.5</visualSizeRange>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>
