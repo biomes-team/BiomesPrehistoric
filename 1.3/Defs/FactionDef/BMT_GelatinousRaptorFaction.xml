@@ -4,7 +4,7 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>BMT_GelGuardFaction</defName>
 		<label>gelatinous guardians</label>
-		<description>.</description>
+		<description>These horrific gelatinous-like dinosaurs are the result of an attempt to turn otherwise normal animals into those created purely for combat. While they created to be loyal to ancient masters, their bizarre means of reforming upon "death" has nullified any once implanted control means.</description>
 		<pawnSingular>gelatinous guard</pawnSingular>
 		<pawnsPlural>gelatinous guards</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>

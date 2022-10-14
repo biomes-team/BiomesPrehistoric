@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_GelatinousRaptor</defName>
         <label>gelatinous raptor</label>
-        <description>./n/nScientific name:</description>
+        <description>One of the smaller types of gelatinous "dinosaurs", its origins can be traced back to raptors and still remains just as deadly as them if not more. Upon death they can reassemble the gel-like parts of their body if it's not destroyed.</description>
         <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>450</MarketValue>
