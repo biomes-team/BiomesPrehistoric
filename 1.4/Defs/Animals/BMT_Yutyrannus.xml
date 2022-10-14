@@ -103,7 +103,7 @@
                     <li>Bite</li>
                 </capacities>
                 <power>28</power>
-                <cooldownTime>2</cooldownTime>
+                <cooldownTime>1</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <!--chanceFactor>0.7</chanceFactor-->
             </li>
