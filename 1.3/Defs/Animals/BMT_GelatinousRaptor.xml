@@ -197,11 +197,44 @@
         </lifeStages>
     </PawnKindDef>
 
-    <ThingDef ParentName="EggFertBase">
+    <!--ThingDef ParentName="EggFertBase">
         <defName>BMT_GelatinousRaptorEgg</defName>
         <label>gelatinous raptor egg</label>
         <description>A fertilized gelatinous raptor egg. If all goes well, it should hatch into a baby gelatinous raptor. It can be eaten raw, but it's much better cooked.</description>
         <stackLimit>3</stackLimit>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg</texPath>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <statBases>
+            <Mass>0.5</Mass>
+            <MaxHitPoints>20</MaxHitPoints>
+            <MarketValue>21.0</MarketValue>
+            <Flammability>0.7</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
+        </statBases>
+        <receivesSignals>true</receivesSignals>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>0.5</hatcherDaystoHatch>
+                <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
+            </li>
+            <li Class="CompProperties_CanBeDormant">
+                <startsDormant>true</startsDormant>
+                <canWakeUpFogged>false</canWakeUpFogged>
+            </li>
+            <li Class="CompProperties_WakeUpDormant">
+                <wakeUpOnDamage>true</wakeUpOnDamage>
+                <anyColonistCloseCheckRadius>30</anyColonistCloseCheckRadius>
+            </li>
+        </comps>
+    </ThingDef-->
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>BMT_GelatinousRaptorEgg</defName>
+        <label>gelatinous raptor egg</label>
+        <description>A fertilized gelatinous raptor egg. If all goes well, it should hatch into a baby gelatinous raptor. It can be eaten raw, but it's much better cooked.</description>
+        <stackLimit>1</stackLimit>
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg</texPath>
             <drawSize>1</drawSize>
