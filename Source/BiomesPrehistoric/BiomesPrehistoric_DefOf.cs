@@ -10,5 +10,9 @@ namespace BiomesPrehistoric
     {
         public static ThingDef BMT_SmallNest;
         public static ThingDef BMT_LargeNest;
+
+        public static ThingDef BMT_GelatinousRaptorEgg;
+        public static ThingDef BMT_GelatinousRaptorEggIncoming;
+        public static ThingDef Filth_GelatinousSlime;
     }
 }
