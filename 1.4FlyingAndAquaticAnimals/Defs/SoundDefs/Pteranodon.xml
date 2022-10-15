@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Pteranodon/Pteranodon_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Pteranodon/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Pteranodon/Pteranodon_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Pteranodon/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Pteranodon/Pteranodon_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Pteranodon/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Pteranodon/Pteranodon_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Pteranodon/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

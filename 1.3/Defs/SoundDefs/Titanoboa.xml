@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Titanoboa/Titanoboa_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Titanoboa/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Titanoboa/Titanoboa_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Titanoboa/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Titanoboa/Titanoboa_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Titanoboa/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Titanoboa/Titanoboa_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Titanoboa/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

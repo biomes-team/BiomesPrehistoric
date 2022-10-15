@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Gallimimus/Gallimimus_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Gallimimus/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Gallimimus/Gallimimus_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Gallimimus/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Gallimimus/Gallimimus_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Gallimimus/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Gallimimus/Gallimimus_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Gallimimus/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

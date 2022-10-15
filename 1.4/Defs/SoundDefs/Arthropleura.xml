@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Arthropleura/Arthropleura_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Arthropleura/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Arthropleura/Arthropleura_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Arthropleura/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Arthropleura/Arthropleura_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Arthropleura/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Arthropleura/Arthropleura_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Arthropleura/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

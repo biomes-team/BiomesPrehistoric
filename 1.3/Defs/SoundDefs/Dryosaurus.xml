@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Dryosaurus/Dryosaurus_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Dryosaurus/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Dryosaurus/Dryosaurus_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Dryosaurus/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Dryosaurus/Dryosaurus_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Dryosaurus/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Dryosaurus/Dryosaurus_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Dryosaurus/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

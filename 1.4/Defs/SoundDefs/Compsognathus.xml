@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Compsognathus/Compsognathus_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Compsognathus/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Compsognathus/Compsognathus_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Compsognathus/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Compsognathus/Compsognathus_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Compsognathus/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Compsognathus/Compsognathus_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Compsognathus/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

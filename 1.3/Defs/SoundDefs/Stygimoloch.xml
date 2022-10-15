@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Stygimoloch/Stygimoloch_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Stygimoloch/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Stygimoloch/Stygimoloch_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Stygimoloch/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Stygimoloch/Stygimoloch_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Stygimoloch/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Stygimoloch/Stygimoloch_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Stygimoloch/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

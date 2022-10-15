@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Ankylosaurus/Ankylosaurus_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Ankylosaurus/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Ankylosaurus/Ankylosaurus_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Ankylosaurus/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Ankylosaurus/Ankylosaurus_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Ankylosaurus/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Ankylosaurus/Ankylosaurus_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Ankylosaurus/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

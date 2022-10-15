@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/TRex/TRex_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/TRex/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/TRex/TRex_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/TRex/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/TRex/TRex_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/TRex/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/TRex/TRex_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/TRex/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

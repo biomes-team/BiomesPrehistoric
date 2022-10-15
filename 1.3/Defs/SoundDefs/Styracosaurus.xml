@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Styracosaurus/Styracosaurus_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Styracosaurus/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Styracosaurus/Styracosaurus_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Styracosaurus/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Styracosaurus/Styracosaurus_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Styracosaurus/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Styracosaurus/Styracosaurus_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Styracosaurus/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

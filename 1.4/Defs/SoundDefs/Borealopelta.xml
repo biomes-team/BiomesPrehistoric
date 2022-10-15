@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Borealopelta/Borealopelta_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Borealopelta/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Borealopelta/Borealopelta_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Borealopelta/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Borealopelta/Borealopelta_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Borealopelta/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Borealopelta/Borealopelta_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Borealopelta/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

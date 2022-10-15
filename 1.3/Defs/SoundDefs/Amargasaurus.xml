@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Amargasaurus/Amargasaurus_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Amargasaurus/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Amargasaurus/Amargasaurus_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Amargasaurus/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Amargasaurus/Amargasaurus_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Amargasaurus/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Amargasaurus/Amargasaurus_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Amargasaurus/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

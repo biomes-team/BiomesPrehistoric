@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Baryonyx/Baryonyx_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Baryonyx/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Baryonyx/Baryonyx_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Baryonyx/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Baryonyx/Baryonyx_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Baryonyx/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Baryonyx/Baryonyx_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Baryonyx/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>

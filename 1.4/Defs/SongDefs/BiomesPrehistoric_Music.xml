@@ -10,7 +10,7 @@
         <onCamera>True</onCamera>      
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>BMT_Animals/BMT_HugeDino/HugeDino_Call</clipPath>
+            <clipPath>BMT_Animals/HugeDino/Call/HugeDino_Call</clipPath>
           </li>
         </grains>      
         <volumeRange>30~30</volumeRange>

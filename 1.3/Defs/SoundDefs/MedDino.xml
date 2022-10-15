@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<Defs>
+
+<!-- Med Dino -->
+ <SoundDef>
+		<defName>BMT_MedDino_Call</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>BMT_Animals/MedDino/Call</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.49</min>
+					<max>17.80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.90</min>
+					<max>1.15</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>45.00</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+<SoundDef>
+		<defName>BMT_MedDino_Angry</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxVoices>2</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>BMT_Animals/MedDino/Angry</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>28</min>
+					<max>28</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.15</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+				<repeatMode>NeverTwice</repeatMode>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>BMT_MedDino_Death</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>BMT_Animals/MedDino/Death</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>20</min>
+					<max>20</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.93</min>
+					<max>1.11</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+</Defs>

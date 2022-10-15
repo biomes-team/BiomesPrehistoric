@@ -12,7 +12,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Diplocaulus/Diplocaulus_Call</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Diplocaulus/Call</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -41,7 +41,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Diplocaulus/Diplocaulus_Angry</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Diplocaulus/Angry</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -70,7 +70,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Diplocaulus/Diplocaulus_Wounded</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Diplocaulus/Wounded</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -99,7 +99,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>BMT_Animals/Diplocaulus/Diplocaulus_Death</clipFolderPath>
+						<clipFolderPath>BMT_Animals/Diplocaulus/Death</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
