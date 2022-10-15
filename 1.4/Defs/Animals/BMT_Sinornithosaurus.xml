@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Sinornithosaurus</defName>
         <label>sinornithosaurus</label>
-        <description>A dinosaur with feather structure virutally indeistinguishable from that of modern birds. It is the only known venemous dinosaur. \n\nScientific name: Sinornithosaurus millenii</description>
+        <description>A dinosaur with feather structure virutally indeistinguishable from that of modern birds. It is the only known venomous dinosaur. \n\nScientific name: Sinornithosaurus millenii</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
             <MarketValue>220</MarketValue>
