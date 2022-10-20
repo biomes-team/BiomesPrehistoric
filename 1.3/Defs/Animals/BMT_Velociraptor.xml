@@ -179,17 +179,17 @@
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorB</texPath>
-                    <drawSize>1.2</drawSize>
+                    <drawSize>.50</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>1.2</drawSize>
+                    <drawSize>.50</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorB</texPath>
-                    <drawSize>2.0</drawSize>
+                    <drawSize>.60</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -197,13 +197,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>2.0</drawSize>
+                    <drawSize>.60</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorB</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>.75</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -211,7 +211,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>3.0</drawSize>
+                    <drawSize>.75</drawSize>
                 </dessicatedBodyGraphicData>
                 <!--<butcherBodyPart>
                     <bodyPartGroup>BMT_SickleClaws</bodyPartGroup>
