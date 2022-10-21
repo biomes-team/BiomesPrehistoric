@@ -176,20 +176,20 @@
             </li>
         </alternateGraphics>
         <lifeStages>
-            <li>
+             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorB</texPath>
-                    <drawSize>.50</drawSize>
+                    <drawSize>.9</drawSize>
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>.50</drawSize>
+                    <drawSize>.9</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorB</texPath>
-                    <drawSize>.60</drawSize>
+                    <drawSize>1.5</drawSize>
                     <shadowData>
                         <volume>(0.3, 0.3, 0.3)</volume>
                         <offset>(0,0,-0.3)</offset>
@@ -197,13 +197,13 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>.60</drawSize>
+                    <drawSize>1.5</drawSize>
                 </dessicatedBodyGraphicData>
             </li>
             <li>
                 <bodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorB</texPath>
-                    <drawSize>.75</drawSize>
+                    <drawSize>2.2</drawSize>
                     <shadowData>
                         <volume>(0.4, 0.4, 0.4)</volume>
                         <offset>(0,0,-0.2)</offset>
@@ -211,7 +211,7 @@
                 </bodyGraphicData>
                 <dessicatedBodyGraphicData>
                     <texPath>BMT_Prehistoric/Animals/Velociraptor/Dessicated_Velociraptor</texPath>
-                    <drawSize>.75</drawSize>
+                    <drawSize>2.2</drawSize>
                 </dessicatedBodyGraphicData>
                 <!--<butcherBodyPart>
                     <bodyPartGroup>BMT_SickleClaws</bodyPartGroup>
