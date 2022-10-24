@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+**Biomes! Prehistoric** <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <!--
 BMT_Aboomasaurus - same as boomalope.
@@ -124,6 +124,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_TRex>0.1</BMT_TRex>
 		<BMT_Triceratops>0.3</BMT_Triceratops>
 		<BMT_Troodon>0.4</BMT_Troodon>
+		<BMT_Wuerhosaurus>0.25</BMT_Wuerhosaurus>
 		<BMT_Yinlong>0.2</BMT_Yinlong>
 		<BMT_Yutyrannus>0.2</BMT_Yutyrannus>
 	</value>
@@ -288,6 +289,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Sinornithosaurus>0.3</BMT_Sinornithosaurus>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Utahraptor>0.4</BMT_Utahraptor>
+		<BMT_Wuerhosaurus>0.25</BMT_Wuerhosaurus>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
 		<BMT_Yinlong>0.5</BMT_Yinlong>
 	</value>
