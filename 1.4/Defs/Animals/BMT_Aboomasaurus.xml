@@ -59,6 +59,12 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Chemfuel</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>30</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
+			</li>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_AboomasaurusEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>4</eggFertilizationCountMax>
