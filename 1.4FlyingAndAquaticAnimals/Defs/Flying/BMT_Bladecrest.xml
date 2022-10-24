@@ -68,7 +68,7 @@
 	<ThingDef MayRequire="biomesteam.oasis" ParentName="AnimalThingBase">
 		<defName>BMT_Bladecrest</defName>
 		<label>bladecrest</label>
-		<description>Bladecrest is a predator that can be found in the Chromatic Oasis. The blade-like base of the head allows the bladecrest to slash its prey.\n\nScientific name: Pteranodon ferrumcalvaria</description>
+		<description>Bladecrests are a predator that can be found in the Chromatic Oasis, using their razor shard crests to slash at their prey.\n\nScientific name: Pteranodon ferrumcalvaria</description>
 		<uiIconScale>1.5</uiIconScale>
 		<statBases>
 			<BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
