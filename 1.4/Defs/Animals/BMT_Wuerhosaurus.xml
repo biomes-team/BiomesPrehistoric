@@ -45,10 +45,6 @@
                     <li>(65,0)</li>
                 </points>
             </ageGenerationCurve>
-			<wildBiomes>
-				<TemperateForest>0.6</TemperateForest>
-				<AridShrubland>0.8</AridShrubland>
-			</wildBiomes>
             <lifeStageAges>
                 <li>
                     <def>AnimalBabyTiny</def>
