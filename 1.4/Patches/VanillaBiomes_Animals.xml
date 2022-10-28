@@ -199,7 +199,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
 		<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
 		<BMT_Dryosaurus>0.5</BMT_Dryosaurus>
-		<BMT_Gallimimus>0.08</BMT_Gallimimus>
+		<BMT_Gallimimus>0.1</BMT_Gallimimus>
 		<BMT_Iguanodon>0.4</BMT_Iguanodon>
 		<BMT_Juravenator>0.5</BMT_Juravenator>
 		<BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
@@ -214,6 +214,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Psittacosaurus>0.4</BMT_Psittacosaurus>
 		<BMT_Spinosaurus>0.1</BMT_Spinosaurus>
 		<BMT_Stegoceras>0.2</BMT_Stegoceras>
+		<BMT_Struthiomimus>0.2</BMT_Struthiomimus>
 		<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
 		<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
 		<BMT_Titanoboa>0.1</BMT_Titanoboa>
