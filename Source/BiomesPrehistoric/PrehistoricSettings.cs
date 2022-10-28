@@ -38,7 +38,7 @@ namespace BiomesPrehistoric
     // this class handles the interface
     public class BiomesPrehistoricMod : Mod
     {
-        public const int minCommonality = 20;
+        public const int minCommonality = 5;
         public const int maxCommonality = 500;
 
         public PrehistoricSettings settings;
