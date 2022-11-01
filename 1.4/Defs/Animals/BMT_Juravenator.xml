@@ -120,6 +120,7 @@
         <tradeTags>
             <li>AnimalPet</li>
 			<li>AnimalFarm</li>
+			<li>AnimalCommon</li>
         </tradeTags>
 		<modExtensions>
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">

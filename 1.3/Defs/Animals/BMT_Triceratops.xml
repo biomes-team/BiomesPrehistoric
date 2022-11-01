@@ -26,13 +26,11 @@
 			<predator>false</predator>
 			<packAnimal>true</packAnimal>
 			<wildness>0.40</wildness>
-			<roamMtbDays>3</roamMtbDays>
 			<lifeExpectancy>60</lifeExpectancy>
 			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-			<nuzzleMtbHours>6</nuzzleMtbHours>
 			<nameOnTameChance>1</nameOnTameChance>
-			<trainability>None</trainability>
+			<trainability>Intermediate</trainability>
 			<ageGenerationCurve>
 				<points>
 					<li>(0.0,0)</li>

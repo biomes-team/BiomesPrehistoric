@@ -26,7 +26,6 @@
             <maxPreyBodySize>1.0</maxPreyBodySize>
             <packAnimal>false</packAnimal>
             <wildness>0.35</wildness>
-            <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>40</lifeExpectancy>
             <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.35</manhunterOnDamageChance>

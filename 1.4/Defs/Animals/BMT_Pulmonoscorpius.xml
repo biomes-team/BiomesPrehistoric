@@ -114,7 +114,7 @@
 		</comps>
 		<tradeTags>
 			<li>AnimalInsect</li>
-			<li>AnimalExotic</li>
+			<li>AnimalUncommon</li>
 		</tradeTags>
 		<modExtensions>
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">

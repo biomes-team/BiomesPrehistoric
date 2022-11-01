@@ -31,6 +31,7 @@
             <lifeExpectancy>85</lifeExpectancy>
             <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+            <nuzzleMtbHours>12</nuzzleMtbHours>
             <trainability>None</trainability>
             <lifeStageAges>
                 <li>
@@ -134,9 +135,8 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalUncommon</li>
-			<li>AnimalExotic</li>
-			<li>AnimalPet</li>
+            <li>AnimalCommon</li>
+            <li>AnimalPet</li>
         </tradeTags>
     </ThingDef>
 

@@ -28,6 +28,7 @@
 			<petness>0.5</petness>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+            <nuzzleMtbHours>12</nuzzleMtbHours>
             <trainability>None</trainability>
             <lifeStageAges>
                 <li>
@@ -102,8 +103,7 @@
         </tools>
         <tradeTags>
             <li>AnimalUncommon</li>
-			<li>AnimalFarm</li>
-			<li>AnimalExotic</li>
+            <li>AnimalPet</li>
         </tradeTags>
 		<modExtensions>
 			<!-- <li Class="NocturnalAnimals.ExtendedRaceProperties"> -->

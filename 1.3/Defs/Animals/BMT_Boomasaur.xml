@@ -117,9 +117,7 @@
         </tools>
         <tradeTags>
             <li>AnimalUncommon</li>
-			<li>AnimalFighter</li>
 			<li>AnimalFarm</li>
-			<li>AnimalExotic</li>
         </tradeTags>
     </ThingDef>
 

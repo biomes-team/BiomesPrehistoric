@@ -25,7 +25,6 @@
             <predator>false</predator>
             <packAnimal>true</packAnimal>
             <wildness>0.20</wildness>
-            <roamMtbDays>2.5</roamMtbDays>
             <lifeExpectancy>57</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
@@ -162,7 +161,6 @@
         </tools>
         <tradeTags>
             <li>AnimalUncommon</li>
-			<li>AnimalExotic</li>
 			<li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>

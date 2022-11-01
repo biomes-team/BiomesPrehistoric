@@ -24,7 +24,6 @@
             <predator>true</predator>
             <maxPreyBodySize>0.80</maxPreyBodySize>
             <wildness>0.85</wildness>
-            <roamMtbDays>3</roamMtbDays>
             <lifeExpectancy>10</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>
@@ -97,7 +96,6 @@
         </tools>
         <tradeTags>
             <li>AnimalInsect</li>
-			<li>AnimalExotic</li>
             <li>AnimalUncommon</li>
         </tradeTags>
 		<modExtensions>

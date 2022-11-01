@@ -135,6 +135,7 @@
             </li>
         </tools>
         <tradeTags>
+            <li>AnimalFighter</li>
             <li>AnimalUncommon</li>
         </tradeTags>
     </ThingDef>

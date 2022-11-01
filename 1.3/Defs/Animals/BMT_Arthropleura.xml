@@ -23,7 +23,7 @@
             <predator>false</predator>
             <maxPreyBodySize>0.80</maxPreyBodySize>
             <wildness>0.85</wildness>
-            <roamMtbDays>3</roamMtbDays>
+            <roamMtbDays>5</roamMtbDays>
             <lifeExpectancy>15</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.45</manhunterOnDamageChance>

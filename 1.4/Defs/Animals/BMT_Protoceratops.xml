@@ -25,7 +25,6 @@
             <foodType>VegetarianRoughAnimal</foodType>
             <predator>false</predator>
             <wildness>0.10</wildness>
-            <roamMtbDays>2</roamMtbDays>
             <lifeExpectancy>60</lifeExpectancy>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
@@ -135,6 +134,7 @@
             </li>
         </tools>
         <tradeTags>
+            <li>AnimalFarm</li>
             <li>AnimalPet</li>
             <li>AnimalUncommon</li>
 			<li>AnimalFarm</li>

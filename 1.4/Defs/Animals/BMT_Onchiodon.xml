@@ -162,7 +162,7 @@
 <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 </race>
 <tradeTags>
-  <li>AnimalExotic</li>
+  <li>AnimalUncommon</li>
 </tradeTags>
 <modExtensions>
 	<li Class="NocturnalAnimals.ExtendedRaceProperties">

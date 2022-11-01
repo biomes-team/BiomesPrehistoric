@@ -33,7 +33,7 @@
             <lifeExpectancy>20</lifeExpectancy>
             <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
-            <trainability>Advanced</trainability>
+            <trainability>Intermediate</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -115,8 +115,8 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalCommon</li>
-			<li>AnimalFarm</li>
+            <li>AnimalUncommon</li>
+            <li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>
 

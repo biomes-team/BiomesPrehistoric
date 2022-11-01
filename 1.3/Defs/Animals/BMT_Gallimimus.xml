@@ -108,9 +108,8 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalUncommon</li>
-			<li>AnimalFarm</li>
-			<li>AnimalPet</li>
+            <li>AnimalCommon</li>
+            <li>AnimalFarm</li>
         </tradeTags>
     </ThingDef>
 

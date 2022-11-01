@@ -161,7 +161,7 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalUncommon</li>
+            <li>AnimalCommon</li>
 			<li>AnimalFighter</li>
         </tradeTags>
     </ThingDef>

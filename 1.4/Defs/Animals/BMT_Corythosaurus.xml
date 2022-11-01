@@ -25,11 +25,10 @@
             <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
             <predator>false</predator>
             <wildness>0.30</wildness>
-            <roamMtbDays>3</roamMtbDays>
             <lifeExpectancy>28</lifeExpectancy>
             <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-            <trainability>None</trainability>
+            <trainability>Intermediate</trainability>
             <ageGenerationCurve>
                 <points>
                     <li>(0.0,0)</li>
@@ -112,7 +111,8 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalCommon</li>
+            <li>AnimalFighter</li>
+            <li>AnimalUncommon</li>
         </tradeTags>
     </ThingDef>
 
