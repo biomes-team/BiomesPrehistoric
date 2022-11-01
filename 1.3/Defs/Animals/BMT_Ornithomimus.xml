@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Ornithomimus</defName>
         <label>ornithomimus</label>
-        <description>Much like the modern ostritch, the body of the ornithomimus was well suited for speed. Its large eyes indicate that it may have been nocturnal. \n\nScientific name: Ornithomimus velox</description>
+        <description>Much like the modern ostrich, the body of the ornithomimus was well suited for speed. Its large eyes indicate that it may have been nocturnal. \n\nScientific name: Ornithomimus velox</description>
         <statBases>
             <MoveSpeed>8</MoveSpeed>
             <MarketValue>450</MarketValue>

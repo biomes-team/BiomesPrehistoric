@@ -67,7 +67,7 @@
 
   <ThingDef ParentName="RoughPlantBase">
     <defName>BMT_RawNypa</defName>
-    <label>nypa leafs</label>
+    <label>nypa leaves</label>
     <description>Raw nypa. A flavoring and preserving agent that is necessary for making beer.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Item/Resource/Raw/RawNypa</texPath>

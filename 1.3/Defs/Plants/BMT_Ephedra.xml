@@ -52,7 +52,7 @@
   <ThingDef ParentName="BMT_EphedraBase">
     <defName>BMT_EphedraPlanted</defName>
     <label>planted jointfir</label>
-    <description>Tough firbrous vegetation that produces a variety of exciting chemicals.</description>
+    <description>Tough fibrous vegetation that produces a variety of exciting chemicals.</description>
     <plant>
       <fertilityMin>0.7</fertilityMin>
       <fertilitySensitivity>1</fertilitySensitivity>
