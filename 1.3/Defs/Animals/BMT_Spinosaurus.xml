@@ -98,7 +98,6 @@
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>
 			<wildness>0.83</wildness>
 			<trainability>Intermediate</trainability>
-			<petness>0.05</petness>
 			<lifeExpectancy>120</lifeExpectancy>
 			<manhunterOnDamageChance>0.7</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
@@ -126,7 +125,7 @@
 		</race>
 		<tradeTags>
 			<li>AnimalFighter</li>
-			<li>AnimalExotic</li>
+			<li>AnimalUncommon</li>
 		</tradeTags>
 	</ThingDef>
 

@@ -16,7 +16,6 @@
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
 			<useMeatFrom>BMT_Triceratops</useMeatFrom>
-			<petness>1</petness>
 			<body>BMT_QuadrupedWithNeckFrillBeakAndTailHorn</body>
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>
 			<herdAnimal>true</herdAnimal>
@@ -30,7 +29,6 @@
 			<lifeExpectancy>70</lifeExpectancy>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
-			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<ageGenerationCurve>
 				<points>

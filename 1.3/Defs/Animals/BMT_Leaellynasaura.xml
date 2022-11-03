@@ -29,6 +29,7 @@
             <manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
             <nuzzleMtbHours>6</nuzzleMtbHours>
+            <nameOnTameChance>1</nameOnTameChance>
             <trainability>None</trainability>
             <ageGenerationCurve>
                 <points>

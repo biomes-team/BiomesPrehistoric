@@ -15,7 +15,7 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
-            <petness>1</petness>
+            <petness>0.5</petness>
             <body>BMT_BipedWithClawsSickleTeethAndTail</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>

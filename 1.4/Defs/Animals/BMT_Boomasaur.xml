@@ -33,7 +33,6 @@
             <roamMtbDays>2.25</roamMtbDays>
 			<canBePredatorPrey>false</canBePredatorPrey>
             <lifeExpectancy>12</lifeExpectancy>
-			<petness>0.01</petness>
             <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.15</manhunterOnDamageChance>
             <trainability>None</trainability>

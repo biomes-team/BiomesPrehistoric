@@ -28,6 +28,7 @@
 			<petness>0.6</petness>
             <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0</manhunterOnDamageChance>
+            <nameOnTameChance>1</nameOnTameChance>
             <trainability>None</trainability>
             <lifeStageAges>
                 <li>

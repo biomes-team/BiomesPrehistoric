@@ -137,7 +137,6 @@
   <leatherDef>Leather_Lizard</leatherDef>
   <wildness>0.25</wildness>
   <trainability>None</trainability>
-  <petness>0.10</petness>
   <lifeExpectancy>17</lifeExpectancy>
   <lifeStageAges>
    <li>

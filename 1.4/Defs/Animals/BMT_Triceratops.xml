@@ -15,7 +15,6 @@
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
 			<meatLabel>ceratopsid meat</meatLabel>
-			<petness>1</petness>
 			<body>BMT_QuadrupedWithNeckFrillBeakAndTailThreeHorns</body>
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>
 			<herdAnimal>true</herdAnimal>
@@ -29,7 +28,6 @@
 			<lifeExpectancy>60</lifeExpectancy>
 			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Intermediate</trainability>
 			<ageGenerationCurve>
 				<points>

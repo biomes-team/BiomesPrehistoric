@@ -32,7 +32,6 @@
             <wildness>0.15</wildness>
             <roamMtbDays>2.6</roamMtbDays>
             <lifeExpectancy>22</lifeExpectancy>
-			<petness>0.05</petness>
             <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
             <trainability>None</trainability>
