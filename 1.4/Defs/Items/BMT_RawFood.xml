@@ -67,9 +67,8 @@
 			<texPath>BMT_Prehistoric/Item/Resource/Raw/RawSporophylls</texPath>
 		</graphicData>
 		<statBases>
-			<Nutrition>0.03</Nutrition>
-			<MarketValue>0.8</MarketValue>
-			<Mass>0.009</Mass>
+			<MarketValue>1.1</MarketValue>
+			<Mass>0.027</Mass>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Rottable">
@@ -79,7 +78,6 @@
 		</comps>
 		<ingestible>
 			<preferability>RawTasty</preferability>
-			<tasteThought></tasteThought>
 			<foodType>Seed</foodType>
 		</ingestible>
 	</ThingDef>

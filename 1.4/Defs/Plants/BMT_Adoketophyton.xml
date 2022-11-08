@@ -22,7 +22,7 @@
 			<dieIfLeafless>true</dieIfLeafless>
 			<growDays>3</growDays>
 			<immatureGraphicPath>BMT_Prehistoric/Plant/Adoketophyton/AdoketophytonImmature</immatureGraphicPath>
-			<harvestYield>4</harvestYield>
+			<harvestYield>6</harvestYield>
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>BMT_RawSporophylls</harvestedThingDef>
