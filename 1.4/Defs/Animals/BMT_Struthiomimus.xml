@@ -16,7 +16,6 @@
         <race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
             <useMeatFrom>BMT_Velociraptor</useMeatFrom>
-            <petness>1</petness>
             <body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
             <leatherDef>BMT_DinoHideFeathery</leatherDef>
             <herdAnimal>true</herdAnimal>
@@ -27,10 +26,9 @@
             <predator>false</predator>
             <wildness>0.40</wildness>
             <lifeExpectancy>20</lifeExpectancy>
+            <roamMtbDays>3</roamMtbDays>
             <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
             <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
-            <nuzzleMtbHours>12</nuzzleMtbHours>
-            <nameOnTameChance>1</nameOnTameChance>
             <trainability>None</trainability>
             <ageGenerationCurve>
                 <points>
@@ -119,7 +117,6 @@
             </li>
         </tools>
         <tradeTags>
-            <li>AnimalPet</li>
             <li>AnimalFarm</li>
             <li>AnimalUncommon</li>
         </tradeTags>
