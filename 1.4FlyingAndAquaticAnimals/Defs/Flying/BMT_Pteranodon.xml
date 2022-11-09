@@ -63,7 +63,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Pteranodon</defName>
 		<label>pteranodon</label>
-		<description>Pteranodon flies and hunts like modern albatross. Its streamlined skull and toothless jaws made diving into the water for fish an easy task.\n\nScientific name: Protoceratops andrewsi</description>
+		<description>Pteranodon flies and hunts like modern albatross. Its streamlined skull and toothless jaws made diving into the water for fish an easy task.\n\nScientific name: Pteranodon longiceps</description>
 		<statBases>
 			<BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
 			<SwimSpeed>5</SwimSpeed>

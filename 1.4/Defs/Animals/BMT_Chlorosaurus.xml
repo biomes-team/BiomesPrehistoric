@@ -10,7 +10,7 @@
 	<ThingDef MayRequire="biomesteam.oasis" ParentName="AnimalThingBase">
 		<defName>BMT_Chlorosaurus</defName>
 		<label>chlorosaurus</label>
-		<description>Chlorosaurus are carnivorous genetically engineered dinosaurs related to the dilophosaurus. They require little food as they use chlorophyll for most of their energy.\n\nScientific name: Dilophosaurus luxbibere</description>
+		<description>Chlorosaurus are carnivorous genetically engineered dinosaurs related to the dilophosaurus. They require little food as they use chlorophyll for most of their energy.\n\nScientific name: Chlorosaurus chroma</description>
 		<statBases>
 			<MoveSpeed>5.8</MoveSpeed>
 			<MarketValue>360</MarketValue>
