@@ -53,7 +53,7 @@
         </race>
         <comps>
             <li Class="CompProperties_EggLayer">
-                <eggFertilizedDef>BMT_Arthropleura</eggFertilizedDef>
+                <eggFertilizedDef>BMT_ArthropleuraEggFertilized</eggFertilizedDef>
                 <eggFertilizationCountMax>15</eggFertilizationCountMax>
                 <eggLayIntervalDays>7</eggLayIntervalDays>
                 <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
