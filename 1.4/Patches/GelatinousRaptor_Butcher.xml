@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation  Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef/fixedIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>BMT_CorpsesGel</li>
+		</value>
+	</Operation>
+</Patch>

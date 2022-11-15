@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="AnimalThingBase">
+        <defName>BMT_GelatinousRaptor</defName>
+        <label>gelatinous raptor</label>
+        <description>One of the smaller types of gelatinous "dinosaurs", its origins can be traced back to raptors and still remains just as deadly as them if not more. Upon death they can reassemble the gel-like parts of their body if it's not destroyed.</description>
+        <statBases>
+            <MoveSpeed>6</MoveSpeed>
+            <MarketValue>450</MarketValue>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>65</ComfyTemperatureMax>
+            <FilthRate>0</FilthRate>
+            <LeatherAmount>0</LeatherAmount>
+            <MeatAmount>1</MeatAmount>
+        </statBases>
+        <race>
+            <nameGenerator>BMT_NamerDino</nameGenerator>
+            <specificMeatDef>BMT_GelatinousRaptorDessicated</specificMeatDef>
+            <hasGenders>false</hasGenders>
+            <petness>1</petness>
+            <deathActionWorkerClass>BiomesCore.DeathActionWorker_CorpseThingSpawner</deathActionWorkerClass>
+            <bloodDef>Filth_GelatinousSlime</bloodDef>
+            <body>BMT_BipedWithClawsSickleTeethAndTail</body>
+            <leatherDef>BMT_DinoHideFeathery</leatherDef>
+            <herdAnimal>true</herdAnimal>
+            <baseBodySize>1.5</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <baseHungerRate>3</baseHungerRate>
+            <foodType>CarnivoreAnimalStrict</foodType>
+            <predator>true</predator>
+            <maxPreyBodySize>1.6</maxPreyBodySize>
+            <wildness>0.9</wildness>
+            <lifeExpectancy>99</lifeExpectancy>
+            <manhunterOnTameFailChance>0.90</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0.90</manhunterOnDamageChance>
+            <nuzzleMtbHours>24</nuzzleMtbHours>
+            <nameOnTameChance>1</nameOnTameChance>
+            <trainability>Advanced</trainability>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>0.4</minAge>
+                    <soundWounded>BMT_Compsognathus_Wounded</soundWounded>
+                    <soundDeath>BMT_Compsognathus_Death</soundDeath>
+                    <soundCall>BMT_Compsognathus_Call</soundCall>
+                    <soundAngry>BMT_Compsognathus_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+        </race>
+        <comps>
+            <li Class="CompProperties_Spawner">
+                <thingToSpawn>BMT_GelatinousRaptorEgg</thingToSpawn>
+                <spawnCount>1</spawnCount>
+                <spawnIntervalRange>30000~60000</spawnIntervalRange>
+                <spawnMaxAdjacent>3</spawnMaxAdjacent>
+                <saveKeysPrefix>BMT_GelatinousRaptorEgg</saveKeysPrefix>
+                <inheritFaction>true</inheritFaction>
+            </li>
+            <li Class="BiomesCore.CompProperties_CorpseThingSpawner">
+                <thingDef>BMT_GelatinousRaptorDessicated</thingDef>
+                <resourceAmount>1</resourceAmount>
+                <filthDef>Filth_GelatinousSlime</filthDef>
+                <filthAmount>10</filthAmount>
+            </li>
+            <li Class="BiomesCore.CompProperties_MakeFilthTrail">
+                <filthDef>Filth_GelatinousSlime</filthDef>
+                <cooldown>2</cooldown>
+            </li>
+            <li Class="CompProperties_CanBeDormant" />
+            <li Class="CompProperties_WakeUpDormant">
+                <wakeUpOnDamage>true</wakeUpOnDamage>
+                <wakeUpSound>BMT_Compsognathus_Angry</wakeUpSound>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>left sickle claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftSickleClaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right sickle claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearRightSickleClaw</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.7</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <tradeTags>
+            <li>AnimalPet</li>
+            <li>AnimalFighter</li>
+            <li>AnimalUncommon</li>
+        </tradeTags>
+        <receivesSignals>true</receivesSignals>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>BMT_GelatinousRaptor</defName>
+        <label>gelatinous raptor</label>
+        <race>BMT_GelatinousRaptor</race>
+        <combatPower>170</combatPower>
+        <wildGroupSize>5~9</wildGroupSize>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/GelatinousRaptor</texPath>
+                    <drawSize>3.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.4, 0.4)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/Dessicated_GelatinousRaptor</texPath>
+                    <drawSize>3.0</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <ThingDef ParentName="BMT_GelatinousEggBase">
+        <defName>BMT_GelatinousRaptorEgg</defName>
+        <label>gelatinous raptor egg</label>
+        <description>A fertilized gelatinous raptor egg. If all goes well, it should hatch into a gelatinous raptor.</description>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/GelatinousRaptorEgg</texPath>
+        </graphicData>
+        <building>
+          <combatPower>170</combatPower>
+        </building>
+        <comps>
+            <li Class="CompProperties_PawnSpawnOnWakeup">
+                <pawnSpawnRadius>0</pawnSpawnRadius>
+                <points>150</points>
+                <spawnablePawnKinds>
+                    <li>BMT_GelatinousRaptor</li>
+                </spawnablePawnKinds>
+                <lordJob>LordJob_AssaultColony</lordJob>
+                <shouldJoinParentLord>True</shouldJoinParentLord>
+                <!--mentalState>CocoonDisturbed</mentalState-->
+                <destroyAfterSpawn>true</destroyAfterSpawn>
+            </li>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>1</hatcherDaystoHatch>
+                <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="OrganicProductBase">
+        <defName>BMT_GelatinousRaptorDessicated</defName>
+        <label>dessicated gelatinous raptor</label>
+        <description>.</description>
+        <tickerType>Normal</tickerType>
+        <stackLimit>1</stackLimit>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Animals/GelatinousRaptor/Dessicated_GelatinousRaptor</texPath>
+            <color>(181,164,138)</color>
+            <drawSize>3.0</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.1</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>CorpsesAnimal</li>
+        </thingCategories>
+        <comps>
+            <li Class="CompProperties_Hatcher">
+                <hatcherDaystoHatch>0.2</hatcherDaystoHatch>
+                <hatcherPawn>BMT_GelatinousRaptor</hatcherPawn>
+            </li>
+            <li Class="BiomesCore.CompProperties_CleanFilthAround">
+                <tickRate>200</tickRate>
+                <radius>4</radius>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
