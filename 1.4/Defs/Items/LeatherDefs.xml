@@ -160,4 +160,24 @@
     </stuffProps>
   </ThingDef>
 
+  <ThingDef ParentName="LeatherBase">
+    <defName>BMT_DinoHideChromatic</defName>
+    <label>chromatic dino hide</label>
+    <description>Just the most beautiful parts of a chromatic dino.</description>
+    <graphicData>
+      <color>(255,103,0)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>10.0</MarketValue>
+    </statBases>
+    <stuffProps>
+      <color>(255,103,0)</color>
+      <commonality>0.0025</commonality>
+      <statFactors>
+        <MaxHitPoints>2.0</MaxHitPoints>
+        <Beauty>8</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
 </Defs>
