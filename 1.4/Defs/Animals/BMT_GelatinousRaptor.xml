@@ -179,7 +179,7 @@
         <comps>
             <li Class="CompProperties_PawnSpawnOnWakeup">
                 <pawnSpawnRadius>0</pawnSpawnRadius>
-                <points>150</points>
+                <points>170</points>
                 <spawnablePawnKinds>
                     <li>BMT_GelatinousRaptor</li>
                 </spawnablePawnKinds>
