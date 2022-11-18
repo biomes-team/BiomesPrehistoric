@@ -5,8 +5,10 @@ BMT_Ammonite - All island and shorelines except the coldest.
 BMT_Anhanguera - All warmer to cold, but not frozen coasts and islands.
 BMT_Anomalocaris - All island and shorelines except the coldest.
 BMT_Belemnite - All island and shorelines except the coldest.
+BMT_Bladecrest - Chromatic Oasis.
 BMT_Cameroceras - All island and shorelines.
 BMT_Coelacanth - Warmer coasts and islands.
+BMT_Cryodrakon - Cold Biomes (but not SeaIce, IceSheet).
 BMT_Dimorphodon - All lusher biomes except the coldest.
 BMT_Dunkleosteus - All island and coastal biomes.
 BMT_Elasmosaurus - All warmer to cool islands and shorelines. 
@@ -27,6 +29,7 @@ BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it.
 BMT_Quetzal - All arid and desert biomes.
 BMT_Shonisaurus - Cool to warm islands and shores.
 BMT_Tapejara - Warmer biomes but rarely in cooler.
+BMT_Thalassodromeus - All warmer to cool biomes with OCEAN tile next to it.
 BMT_Thalattosuchus - All island and shorelines.
 BMT_Trilobite - Can go onto sand but mostly remain in the water.
 -->
@@ -84,6 +87,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
 	<value>
+		<BMT_Cryodrakon>0.4</BMT_Cryodrakon>
 		<BMT_Dimorphodon>0.2</BMT_Dimorphodon>
 		<BMT_Henodus>0.6</BMT_Henodus>
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
@@ -93,6 +97,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
 	<value>	
+		<BMT_Cryodrakon>0.4</BMT_Cryodrakon>
 		<BMT_Pteranodon>0.3</BMT_Pteranodon>
 	</value>
 </Operation>

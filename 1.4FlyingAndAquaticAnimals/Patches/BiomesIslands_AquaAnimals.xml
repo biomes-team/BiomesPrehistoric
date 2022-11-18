@@ -5,29 +5,32 @@ BMT_Ammonite - All island and shorelines except the coldest.
 BMT_Anhanguera - All warmer to cold, but not frozen coasts and islands.
 BMT_Anomalocaris - All island and shorelines except the coldest.
 BMT_Belemnite - All island and shorelines except the coldest.
-BMT_Cameroceras - Warmer island and shorelines aand the open sea.
+BMT_Bladecrest - Chromatic Oasis.
+BMT_Cameroceras - All island and shorelines.
 BMT_Coelacanth - Warmer coasts and islands.
+BMT_Cryodrakon - Cold Biomes (but not SeaIce, IceSheet).
 BMT_Dimorphodon - All lusher biomes except the coldest.
 BMT_Dunkleosteus - All island and coastal biomes.
 BMT_Elasmosaurus - All warmer to cool islands and shorelines. 
 BMT_Eurypterid - All island and shorelines except the coldest. Prefers shallow waters?
 BMT_GiantAmmonite - All island and shorelines except the coldest.
-BMT_Henodus - Colder to Warmer freshwater shores, river and lakes.
+BMT_Henodus - Colder to Warmer Freshwater shores.
 BMT_Icthyosaurus - Cool to warm islands and shores.
 BMT_Jamoytius - All island and coastal biomes.
 BMT_Kaikaifilu - Cold to arctic islands.
-BMT_Kaiwhekea - All warmer islands and shorelines.
+BMT_Kaiwhekea - All warmer to cool islands and shorelines.
 BMT_Kronosaurus - Cold (But not freezing) to temperate islands and shores.
 BMT_Leedsichthys - Open sea, all island and coastal biomes.
 BMT_Liopleurodon - Cold (But not freezing) to temperate islands and shores.
-BMT_Megalodon - All open sea, island and shorelines, but sparse.
+BMT_Megalodon - All island and shorelines, but sparse.
 BMT_Mosasaurus - Cold (but not freezing) to tropical islands. 
 BMT_Orthoceras - All island and shorelines.
 BMT_Pteranodon - All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
 BMT_Quetzal - All arid and desert biomes.
 BMT_Shonisaurus - Cool to warm islands and shores.
 BMT_Tapejara - Warmer biomes but rarely in cooler.
-BMT_Thalattosuchus - Warmer island and shorelines.
+BMT_Thalassodromeus - All warmer to cool biomes with OCEAN tile next to it.
+BMT_Thalattosuchus - All island and shorelines.
 BMT_Trilobite - Can go onto sand but mostly remain in the water.
 -->
 	<Operation Class="PatchOperationFindMod">
@@ -59,6 +62,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Orthoceras>0.2</BMT_Orthoceras>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Tapejara>0.4</BMT_Tapejara>
+						<BMT_Thalassodromeus>0.2</BMT_Thalassodromeus>
 						<BMT_Thalattosuchus>0.2</BMT_Thalattosuchus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
@@ -71,6 +75,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Belemnite>0.5</BMT_Belemnite>
 						<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Cryodrakon>0.3</BMT_Cryodrakon>
 						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
@@ -86,6 +91,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
 						<BMT_Tapejara>0.1</BMT_Tapejara>
+						<BMT_Thalassodromeus>0.2</BMT_Thalassodromeus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
@@ -111,6 +117,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Quetzal>0.5</BMT_Quetzal>
 						<BMT_Tapejara>0.3</BMT_Tapejara>
+						<BMT_Thalassodromeus>0.2</BMT_Thalassodromeus>
 						<BMT_Thalattosuchus>0.5</BMT_Thalattosuchus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
@@ -139,6 +146,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
 						<BMT_Tapejara>0.4</BMT_Tapejara>
+						<BMT_Thalassodromeus>0.2</BMT_Thalassodromeus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
@@ -164,6 +172,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Orthoceras>0.2</BMT_Orthoceras>
 						<BMT_Pteranodon>0.05</BMT_Pteranodon>
 						<BMT_Tapejara>0.5</BMT_Tapejara>
+						<BMT_Thalassodromeus>0.2</BMT_Thalassodromeus>
 						<BMT_Thalattosuchus>0.3</BMT_Thalattosuchus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
@@ -174,6 +183,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Ammonite>0.5</BMT_Ammonite>
 						<BMT_Belemnite>0.5</BMT_Belemnite>
 						<BMT_Coelacanth>0.5</BMT_Coelacanth>
+						<BMT_Cryodrakon>0.4</BMT_Cryodrakon>
 						<BMT_Edmontosaurus>0.05</BMT_Edmontosaurus>
 						<BMT_Elasmosaurus>0.05</BMT_Elasmosaurus>
 						<BMT_GiantAmmonite>0.3</BMT_GiantAmmonite>
@@ -187,6 +197,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 						<BMT_Mosasaurus>0.05</BMT_Mosasaurus>
 						<BMT_Orthoceras>0.2</BMT_Orthoceras>
 						<BMT_Shonisaurus>0.3</BMT_Shonisaurus>
+						<BMT_Thalassodromeus>0.2</BMT_Thalassodromeus>
 						<BMT_Trilobite>0.5</BMT_Trilobite>
 					</value>
 				</li>
