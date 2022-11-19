@@ -290,9 +290,8 @@
         <label>chromatic ankylosaurus egg (fert.)</label>
         <description>A fertilized chromatic ankylosaurus egg. If all goes well, it should hatch into a baby chromatic ankylosaurus. Beautyful to look at.</description>
         <graphicData>
-            <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg/DinoOvoidEggA</texPath>
-            <color>(255,0,0)</color>
-            <drawSize>1.05</drawSize>
+            <texPath>BMT_Prehistoric/Item/Egg/ChromaticAnkylosaurusEgg/ChromaticAnkylosaurusEggA</texPath>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <tickerType>Normal</tickerType>
         <receivesSignals>true</receivesSignals>
@@ -309,9 +308,8 @@
         <label>chromatic ankylosaurus egg (unfert.)</label>
         <description>A unfertilized chromatic ankylosaurus egg. Beautyful to look at.</description>
         <graphicData>
-            <texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg/DinoOvoidEggA</texPath>
-            <color>(255,0,0)</color>
-            <drawSize>1.05</drawSize>
+            <texPath>BMT_Prehistoric/Item/Egg/ChromaticAnkylosaurusEgg/ChromaticAnkylosaurusEggA</texPath>
+            <drawSize>1.2</drawSize>
         </graphicData>
     </ThingDef>
 

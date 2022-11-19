@@ -141,9 +141,8 @@
         <label>arthropleura egg (fert.)</label>
         <description>A fertilized arthropleura egg. If all goes well, it should hatch into a baby arthropleura. It can be eaten raw, but it's much better cooked.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-            <color>(230,212,193)</color>
-            <drawSize>0.8</drawSize>
+            <texPath>BMT_Prehistoric/Item/Egg/ArthropleuraEgg</texPath>
+            <drawSize>1</drawSize>
         </graphicData>
         <statBases>
             <MarketValue>35</MarketValue>
