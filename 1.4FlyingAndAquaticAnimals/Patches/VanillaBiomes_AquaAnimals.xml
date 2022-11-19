@@ -32,6 +32,7 @@ BMT_Tapejara - Warmer biomes but rarely in cooler.
 BMT_Thalassodromeus - All warmer to cool biomes with OCEAN tile next to it.
 BMT_Thalattosuchus - All island and shorelines.
 BMT_Trilobite - Can go onto sand but mostly remain in the water.
+BMT_Xenacanthus - Freshwater River and Lakes specially marshy.
 -->
 <Operation Class="PatchOperationAdd">
 	<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
@@ -51,6 +52,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 		<BMT_Henodus>0.6</BMT_Henodus>
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
 		<BMT_Tapejara>0.4</BMT_Tapejara>
+		<BMT_Xenacanthus>0.8</BMT_Xenacanthus>
 	</value>
 </Operation>
 
@@ -72,6 +74,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 		<BMT_Henodus>0.6</BMT_Henodus>
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
 		<BMT_Tapejara>0.4</BMT_Tapejara>
+		<BMT_Xenacanthus>0.6</BMT_Xenacanthus>
 	</value>
 </Operation>
 
@@ -91,6 +94,7 @@ BMT_Trilobite - Can go onto sand but mostly remain in the water.
 		<BMT_Dimorphodon>0.2</BMT_Dimorphodon>
 		<BMT_Henodus>0.6</BMT_Henodus>
 		<BMT_Pteranodon>0.5</BMT_Pteranodon>
+		<BMT_Xenacanthus>0.4</BMT_Xenacanthus>
 	</value>
 </Operation>
 

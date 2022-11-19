@@ -32,6 +32,7 @@ BMT_Tapejara - Warmer biomes but rarely in cooler.
 BMT_Thalassodromeus - All warmer to cool biomes with OCEAN tile next to it.
 BMT_Thalattosuchus - All island and shorelines.
 BMT_Trilobite - Can go onto sand but mostly remain in the water.
+BMT_Xenacanthus - Freshwater River and Lakes specially marshy.
 -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>

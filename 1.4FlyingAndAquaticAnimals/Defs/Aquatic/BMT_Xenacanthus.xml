@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<LifeStageDef ParentName="AnimalBaby">
+        <defName>BMT_XenacanthusBabyTiny</defName>
+        <bodySizeFactor>0.1</bodySizeFactor>
+        <foodMaxFactor>4</foodMaxFactor>
+        <statFactors>
+            <MoveSpeed>0.8</MoveSpeed>
+            <SwimSpeed>0.8</SwimSpeed>
+        </statFactors>
+        <modExtensions>
+        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+            <bodyGraphicData>
+                <texPath>BMT_Prehistoric/Aquatic/Xenacanthus/XenacanthusSubmerged</texPath>
+                <drawSize>1.2</drawSize>
+            </bodyGraphicData>
+        </li>
+        </modExtensions>
+    </LifeStageDef>
+
+    <LifeStageDef>
+        <defName>BMT_XenacanthusJuvenile</defName>
+        <label>juvenile</label>
+        <voxPitch>1.2</voxPitch>
+        <bodySizeFactor>0.5</bodySizeFactor>
+        <foodMaxFactor>1.5</foodMaxFactor>
+        <healthScaleFactor>0.6</healthScaleFactor>
+        <hungerRateFactor>0.75</hungerRateFactor>
+        <marketValueFactor>0.75</marketValueFactor>
+        <meleeDamageFactor>0.75</meleeDamageFactor>
+        <statFactors>
+            <MoveSpeed>1.6</MoveSpeed>
+            <SwimSpeed>1.6</SwimSpeed>
+        </statFactors>
+        <modExtensions>
+        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+            <bodyGraphicData>
+                <texPath>BMT_Prehistoric/Aquatic/Xenacanthus/XenacanthusSubmerged</texPath>
+                <drawSize>2.2</drawSize>
+            </bodyGraphicData>
+        </li>
+        </modExtensions>
+    </LifeStageDef>
+
+    <LifeStageDef>
+        <defName>BMT_XenacanthusAdult</defName>
+        <label>adult</label>
+        <visible>false</visible>
+        <reproductive>true</reproductive>
+        <modExtensions>
+        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
+            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
+            <bodyGraphicData>
+                <texPath>BMT_Prehistoric/Aquatic/Xenacanthus/XenacanthusSubmerged</texPath>
+                <drawSize>3.2</drawSize>
+            </bodyGraphicData>
+        </li>
+        </modExtensions>
+    </LifeStageDef>
+
+	<ThingDef ParentName="BiomesCore_FreshWaterAnimal"  ADogSaidBody="Tail">
+		<defName>BMT_Xenacanthus</defName>
+		<label>xenacanthus</label>
+		<description>Also known as "freshwater sharks," the xenacanthus prey on primitive sauropsida and synapsida in addition to osteichthyes and chondrichthyes.</description>
+		<statBases>
+			<MoveSpeed>0</MoveSpeed>
+			<SwimSpeed>14</SwimSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<MarketValue>120</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<modExtensions>
+			<!-- <li Class="NocturnalAnimals.ExtendedRaceProperties"> -->
+				<!-- <bodyClock>Nocturnal</bodyClock> -->
+			<!-- </li> -->
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
+		<race>
+			<body>Biomes_SharkBody</body>
+			<leatherDef>BiomesIslands_Leather_Sharkskin</leatherDef>
+			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<useMeatFrom>BiomesIslands_WhiteShark</useMeatFrom>
+			<baseHungerRate>0.8</baseHungerRate>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>0.8</baseHealthScale>
+            <foodType>CarnivoreAnimalStrict</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>0.8</maxPreyBodySize>
+			<gestationPeriodDays>30</gestationPeriodDays>
+			<packAnimal>false</packAnimal>
+			<wildness>0.5</wildness>
+			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<lifeStageAges Inherit="False">
+				<li>
+					<def>BMT_XenacanthusBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_XenacanthusJuvenile</def>
+					<minAge>0.14</minAge>
+				</li>
+				<li>
+					<def>BMT_XenacanthusAdult</def>
+					<minAge>0.27</minAge>
+					<soundDeath>Pawn_Rodent_Death</soundDeath>
+				</li>
+			</lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Fishing.</consumingFoodReportString>
+				<effecterDef>EatFish</effecterDef>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_EggXenacanthusFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>2</eggFertilizationCountMax>
+				<eggLayIntervalDays>9</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>2</eggCountRange>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Xenacanthus</defName>
+		<label>xenacanthus</label>
+		<description>Also known as "freshwater sharks," the xenacanthus prey on primitive sauropsida and synapsida in addition to osteichthyes and chondrichthyes.</description>
+		<race>BMT_Xenacanthus</race>
+		<combatPower>150</combatPower>
+		<ecoSystemWeight>0.4</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Xenacanthus/Xenacanthus</texPath>
+					<drawSize>1.2</drawSize>
+                    <shadowData>
+                        <volume>(0.6, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Xenacanthus/Dessicated_Xenacanthus</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Xenacanthus/Xenacanthus</texPath>
+					<drawSize>2.2</drawSize>
+                    <shadowData>
+                        <volume>(0.8, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Xenacanthus/Dessicated_Xenacanthus</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Xenacanthus/Xenacanthus</texPath>
+					<drawSize>3.2</drawSize>
+                    <shadowData>
+                        <volume>(1, 0.3, 0.1)</volume>
+                        <offset>(0,0,-0.2)</offset>
+                    </shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Xenacanthus/Dessicated_Xenacanthus</texPath>
+					<drawSize>3.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_EggXenacanthusFertilized</defName>
+		<label>xenacanthus egg (fert.)</label>
+		<description>A fertilized xenacanthus egg. If all goes well, it should hatch into a baby xenacanthus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(104,70,45)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>35.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Xenacanthus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>   
