@@ -9,7 +9,7 @@
 		<pawnsPlural>gelatinous guards</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Gelatinous Guardians</fixedName>
-		<factionIconPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg/GelatinousRaptorEggA</factionIconPath>
+		<factionIconPath>BMT_Prehistoric/Item/Egg/GelatinousRaptorEgg/GelatinousRaptorEgg</factionIconPath>
 		<colorSpectrum>
 			<li>(200, 148, 146)</li>
 		</colorSpectrum>
