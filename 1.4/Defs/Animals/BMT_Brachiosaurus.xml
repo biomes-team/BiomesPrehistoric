@@ -224,6 +224,7 @@
             <drawSize>1.2</drawSize>
         </graphicData>
         <statBases>
+			<Nutrition>2.375</Nutrition>
             <MarketValue>22.0</MarketValue>
         </statBases>
         <comps>

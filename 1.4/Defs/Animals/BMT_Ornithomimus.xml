@@ -180,6 +180,7 @@
             <drawSize>0.8</drawSize>
         </graphicData>
         <statBases>
+			<Nutrition>0.5</Nutrition>
             <MarketValue>21.0</MarketValue>
         </statBases>
         <comps>

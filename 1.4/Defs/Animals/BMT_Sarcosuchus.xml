@@ -183,6 +183,7 @@
             <drawSize>1.0</drawSize>
         </graphicData>
         <statBases>
+			<Nutrition>0.7</Nutrition>
             <MarketValue>65</MarketValue>
         </statBases>
         <comps>

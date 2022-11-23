@@ -254,6 +254,7 @@
 		<drawSize>1</drawSize>
 	</graphicData>
 	<statBases>
+			<Nutrition>0.45</Nutrition>
 		<MarketValue>26.0</MarketValue>
         <DeteriorationRate>0</DeteriorationRate>
 	</statBases>
