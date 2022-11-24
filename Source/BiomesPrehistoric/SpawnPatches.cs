@@ -49,36 +49,36 @@ namespace BiomesPrehistoric
         static bool Prefix(float points, int tile, ref PawnKindDef animalKind, ref bool __result)
         {
 
-            Log.Message("[Biomes! Prehistoric] Evaluating manhunter pack");
+            // Log.Message("[Biomes! Prehistoric] Evaluating manhunter pack");
             if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
             {
-                Log.Message("[Biomes! Prehistoric] DINO world is off. Running vanilla manhunter pack");
+                // Log.Message("[Biomes! Prehistoric] DINO world is off. Running vanilla manhunter pack");
                 return true;
             }
 
             else
             {
-                Log.Message(String.Format("[Biomes! Prehistoric] DINO world is ON. Points: {0}", points));
+                // Log.Message(String.Format("[Biomes! Prehistoric] DINO world is ON. Points: {0}", points));
                 IEnumerable<PawnKindDef> source = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.canArriveManhunter && (tile == -1 || Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)));
                 source = source.Where(k => Util.IsPrehistoric(k));
                 if (source.Any())
                 {
                     if (source.TryRandomElementByWeight((PawnKindDef a) => ManhunterPackIncidentUtility.ManhunterAnimalWeight(a, points), out animalKind))
                     {
-                        Log.Message("[Biomes! Prehistoric] Branch A: selected " + animalKind?.defName);
+                        // Log.Message("[Biomes! Prehistoric] Branch A: selected " + animalKind?.defName);
                         __result = true;
                         return false;
                     }
                     else if (points > source.Min((PawnKindDef a) => a.combatPower) * 2f)
                     {
                         animalKind = source.MaxBy((PawnKindDef a) => a.combatPower);
-                        Log.Message("[Biomes! Prehistoric] Branch B: selected " + animalKind?.defName);
+                        // Log.Message("[Biomes! Prehistoric] Branch B: selected " + animalKind?.defName);
                         __result = true;
                         return false;
                     }
                 }
 
-                Log.Message("[Biomes! Prehistoric] Branch C");
+                // Log.Message("[Biomes! Prehistoric] Branch C");
                 animalKind = null;
                 __result = false;
                 return false;
@@ -87,59 +87,53 @@ namespace BiomesPrehistoric
         }
     }
 
-
-
-    /// <summary>
-    /// patch replaces pack animals in AI trader caravans with dinos
-    /// </summary>
-    [HarmonyPatch(typeof(PawnGroupKindWorker_Trader), "GenerateCarriers")]
-    public static class TraderPackAnimalPatch
+    [HarmonyPatch(typeof(BiomeDef), nameof(BiomeDef.IsPackAnimalAllowed))]
+    internal static class TraderPackAnimalPatch
     {
-        static void Postfix(ref List<Pawn> outPawns)
+        private static readonly Dictionary<ushort, HashSet<PawnKindDef>> PrehPackByBiome =
+            new Dictionary<ushort, HashSet<PawnKindDef>>();
+
+        static void InitCache(BiomeDef def)
         {
-            if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
+            if (PrehPackByBiome.ContainsKey(def.shortHash))
             {
-                foreach(Pawn pawn in outPawns)
+                return;
+            }
+
+            var prehistoricAnimalsInBiome = new HashSet<PawnKindDef>();
+            foreach (var animal in def.AllWildAnimals)
+            {
+                if (animal.RaceProps != null && animal.RaceProps.packAnimal && Util.IsPrehistoric(animal))
                 {
-                    switch (pawn.kindDef.defName)
-                    {
-                        case "Muffalo":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Pachyrhinosaurus");
-                            break;
-                        case "Bison":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Apatosaurus");
-                            break;
-                        case "Dromedary":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Parasaur");
-                            break;
-                        case "Yak":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Pachyrhinosaurus");
-                            break;
-                        case "Horse":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Gallimimus");
-                            break;
-                        case "Donkey":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Gallimimus");
-                            break;
-                        case "Elephant":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Brachiosaurus");
-                            break;
-                        case "Alpaca":
-                            pawn.kindDef = PawnKindDef.Named("BMT_Iguanodon");
-                            break;
-                        //default:
-                        //    pawn.kindDef = PawnKindDef.Named("BMT_Brachiosaurus");
-                        //    break;
-
-                    }
-
+                    prehistoricAnimalsInBiome.Add(animal);
                 }
             }
 
+            PrehPackByBiome[def.shortHash] = prehistoricAnimalsInBiome;
+        }
+
+        static void Postfix(ref BiomeDef __instance, ref bool __result, ThingDef pawn)
+        {
+            InitCache(__instance);
+
+            var isPrehistoric = Util.IsPrehistoric(pawn);
+            if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld && !isPrehistoric)
+            {
+                __result = false;
+            }
+            else
+            {
+                var prehistoricPackAnimals = PrehPackByBiome[__instance.shortHash];
+
+                __result = __result
+                           // Assume that biomes without prehistoric pack animals are arctic biomes. In that case,
+                           // allow the Borealopelta as a fallback.
+                           || prehistoricPackAnimals.Count == 0 && pawn.defName == "BMT_Borealopelta"
+                           // Any prehistoric pack animal that can spawn in the biome is allowed in caravans.
+                           || prehistoricPackAnimals.Any(pawnKindDef => pawnKindDef.race == pawn);
+            }
         }
     }
-
-
 
     /// <summary>
     /// farm animals event

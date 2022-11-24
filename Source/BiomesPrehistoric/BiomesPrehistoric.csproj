@@ -74,6 +74,7 @@
     <Compile Include="BiomesPrehistoric.cs" />
     <Compile Include="BiomesPrehistoric_DefOf.cs" />
     <Compile Include="IncidentWorker_SaurumboPasses.cs" />
+    <Compile Include="PrehistoricPackAnimals.cs" />
     <Compile Include="PrehistoricSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quests\GenStep_NestingSite.cs" />
