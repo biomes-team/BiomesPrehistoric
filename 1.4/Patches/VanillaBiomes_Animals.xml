@@ -311,6 +311,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Utahraptor>0.3</BMT_Utahraptor>
 		<BMT_Velociraptor>0.5</BMT_Velociraptor>
+		<BMT_Styracosaurus>0.01</BMT_Styracosaurus>
 	</value>
 </Operation>
 
@@ -400,6 +401,7 @@ BMT_Yutyrannus - Cold and temperate biomes.
 		<BMT_Nanosaurus>0.3</BMT_Nanosaurus>
 		<BMT_Protoceratops>0.5</BMT_Protoceratops>
 		<BMT_Utahraptor>0.1</BMT_Utahraptor>
+		<BMT_Styracosaurus>0.01</BMT_Styracosaurus>
 	</value>
 </Operation>
 
