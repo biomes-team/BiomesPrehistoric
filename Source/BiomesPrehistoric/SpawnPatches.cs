@@ -333,9 +333,6 @@ namespace BiomesPrehistoric
         }
     }
 
-
-
-
     // this exists in case we change the definition of "prehistoric" later
     public static class Util
     {
@@ -345,7 +342,8 @@ namespace BiomesPrehistoric
             "regrowth2.extinctanimals",
             "regrowth.botr.extinctanimalspack",
             "spincrus.dinosauria",
-            "spino.megafauna"
+            "spino.megafauna",
+            "kikohi.berf" // Biome Expansion: Redwood forest
         };
 
         public static bool IsPrehistoric(Def thing)
