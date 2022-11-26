@@ -10,6 +10,9 @@
             <MarketValue>740</MarketValue>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
+            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
             <FilthRate>16</FilthRate>
         </statBases>
         <race>
@@ -151,7 +154,7 @@
         <defName>BMT_Polacanthus</defName>
         <label>polacanthus</label>
         <race>BMT_Polacanthus</race>
-        <combatPower>85</combatPower>
+        <combatPower>145</combatPower>
         <wildGroupSize>1~2</wildGroupSize>
         <lifeStages>
             <li>

@@ -10,6 +10,9 @@
             <MarketValue>940</MarketValue>
             <ComfyTemperatureMin>-25</ComfyTemperatureMin>
             <ComfyTemperatureMax>40</ComfyTemperatureMax>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
             <FilthRate>16</FilthRate>
         </statBases>
         <race>
@@ -170,7 +173,7 @@
         <defName>BMT_Borealopelta</defName>
         <label>borealopelta</label>
         <race>BMT_Borealopelta</race>
-        <combatPower>100</combatPower>
+        <combatPower>150</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
         <lifeStages>
             <li>
