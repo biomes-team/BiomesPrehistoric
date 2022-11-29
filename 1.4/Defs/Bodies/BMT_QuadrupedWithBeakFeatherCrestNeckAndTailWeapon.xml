@@ -61,7 +61,7 @@
             <li>BMT_NeckAttackTool</li>
           </groups>
           <parts>
-            <li>
+            <!--li>
               <def>BMT_FeatherCrest</def>
               <coverage>0.02</coverage>
               <height>Top</height>
@@ -69,7 +69,7 @@
               <groups>
                 <li>BMT_BladeFeatherAttackTool</li>
               </groups>
-            </li>
+            </li-->
             <li>
               <def>Head</def>
               <coverage>0.75</coverage>
