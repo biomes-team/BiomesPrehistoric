@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Borealopelta</defName>
         <label>borealopelta</label>
-        <description>A relative of the ankylosaurus. Well known on Earth for the discovery of a near-perfect fossil specimen. Despite the spikes, these gentle beasts make good pack animals.\n\nScientific name: Borealopelta markmitchelli</description>
+        <description>A relative of Ankylosaurus that lacks a tail club and is considerably calmer. Despite the spikes, these gentle beasts make good pack animals.\n\nScientific name: Borealopelta markmitchelli</description>
         <statBases>
             <MoveSpeed>4</MoveSpeed>
             <MarketValue>940</MarketValue>

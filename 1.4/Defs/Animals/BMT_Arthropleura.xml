@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Arthropleura</defName>
         <label>arthropleura</label>
-        <description>Arthropleura, a millipede arthropod, is one of the largest land invertebrates of all time. Once thought to be a predator like modern centipedes, it was discovered that it was largely an herbivore.</description>
+        <description>Arthropleura, a millipede arthropod, is one of the largest land invertebrates of all time. Though it may look intimidating to those used to the engineered bioweapon insectoids common on the rim, it isn't particularly aggressive and primarily feeds on plants. \n\nScientific name: Arthropleura armata</description>
         <statBases>
             <MoveSpeed>4.8</MoveSpeed>
             <MarketValue>200</MarketValue>

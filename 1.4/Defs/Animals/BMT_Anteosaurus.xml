@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Anteosaurus</defName>
         <label>anteosaurus</label>
-        <description>A synapsid like the more well known dimetrodon. While it was originally believed to behave similar to modern crocodiles, further study indicates that it was actually a capable terrestrial hunter.\n\nScientific Name: Anteosaurus magnificus</description>
+        <description>One of the largest predators of the Permian period, Anteosaurus is not a dinosaur but a synapsid, a mammal-like reptile. While it posesses stout legs and a wide snout like a hippo or crocodile, it is a capable terrestrial hunter.\n\nScientific Name: Anteosaurus magnificus</description>
         <statBases>
             <MoveSpeed>5.5</MoveSpeed>
             <MarketValue>500</MarketValue>

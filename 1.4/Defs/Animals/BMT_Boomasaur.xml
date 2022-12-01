@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Boomasaur</defName>
         <label>boomasaurolophus</label>
-        <description>Engineered for chemicals production, the boomasaur was created from the genetic base of a Parasaur; it grows large sacs of volatile chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge explosion it produces when it dies. It can be milked to produce chemfuel - very carefully.\n\nScientific name: Parasaurolophus fragor</description>
+        <description>Engineered for chemical production, the boomasaur was created from the genetic base of a Parasaur; with the addition of large sacs of volatile chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge explosion it produces when it dies. It can be milked to produce chemfuel - very carefully.</description>
         <statBases>
             <MoveSpeed>4.0</MoveSpeed>
             <MarketValue>450</MarketValue>
