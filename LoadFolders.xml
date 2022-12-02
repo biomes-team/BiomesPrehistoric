@@ -13,5 +13,6 @@
 		<li IfModActive="BiomesTeam.BiomesIslands">1.4FlyingAndAquaticAnimals</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.4VEFPatch</li>
 		<li IfModActive="vanillaexpanded.backgrounds">1.4VBgE</li>
+		<li IfModActive="musicexpanded.framework">MusicExpanded</li>
 	</v1.4>
 </loadFolders>

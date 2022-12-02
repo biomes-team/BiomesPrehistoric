@@ -1,0 +1,17 @@
+<Defs>
+    <SoundDef>
+        <defName>BMT_Prehistoric_Scenario_Begin</defName>
+        <modExtensions><li Class="MusicExpanded.ModExtension.ReplacesSounds"><sounds><li>GameStartSting</li></sounds></li></modExtensions>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>      
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>BMT_Animals/HugeDino/Call/HugeDino_Call</clipPath>
+                    </li>
+                </grains>      
+                <volumeRange>100~100</volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+</Defs>

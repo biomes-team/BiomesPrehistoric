@@ -1,0 +1,25 @@
+<Defs>
+    <MusicExpanded.ThemeDef>
+        <defName>BMT_Prehistoric</defName>
+        <label>Biomes! Prehistoric</label>
+		<iconPath>BMT_Prehistoric/UI/Icon/Prehistoric</iconPath>
+        <description>Roar! Graul.</description>
+        <sounds>
+            <li>BMT_Prehistoric_Scenario_Begin</li>
+        </sounds>
+        <tracks>
+            <li MayRequire="musicexpanded.core">ME_Shared_ManInBlack</li>
+            <li>BMT_Prehistoric_Little_Guy_MainMenu</li>
+            <li>BMT_Prehistoric_Little_Guy</li>
+            <li>BMT_Prehistoric_Our_Story_Begins</li>
+            <li>BMT_Prehistoric_It_Looks_Angry</li>
+            <li>BMT_Prehistoric_Night_Falls</li>
+            <li>BMT_Prehistoric_Valley_of_Bones</li>
+            <li>BMT_Prehistoric_Giants_Among_Us</li>
+            <li>BMT_Prehistoric_Harmony</li>
+            <li>BMT_Prehistoric_Hunting_Sauropods</li>
+            <li>BMT_Prehistoric_Lizard_Hipped</li>
+            <li>BMT_Prehistoric_Pristine_and_Primal</li>
+        </tracks>
+    </MusicExpanded.ThemeDef>
+</Defs>

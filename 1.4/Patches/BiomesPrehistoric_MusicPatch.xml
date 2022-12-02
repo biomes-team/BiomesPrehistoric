@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Music Expanded Framework</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Little_Guy</clipPath>
+							<allowedTimeOfDay>Day</allowedTimeOfDay>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/It_Looks_Angry</clipPath>
+							<tense>true</tense>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Giants_Among_Us</clipPath>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Harmony</clipPath>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Hunting_Sauropods</clipPath>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Lizard_Hipped</clipPath>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Night_Falls</clipPath>
+							<allowedTimeOfDay>Night</allowedTimeOfDay>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Our_Story_Begins</clipPath>
+							<allowedTimeOfDay>Day</allowedTimeOfDay>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Pristine_and_Primal</clipPath>
+						</SongDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SongDef>
+							<clipPath>BMT_Prehistoric_Music/Valley_of_Bones</clipPath>
+							<allowedTimeOfDay>Night</allowedTimeOfDay>
+						</SongDef>
+					</value>
+				</li>
+
+			</operations>
+		</nomatch>
+	</Operation>
+</Patch>
