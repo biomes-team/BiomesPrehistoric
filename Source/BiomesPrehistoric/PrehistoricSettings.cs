@@ -7,9 +7,9 @@ namespace BiomesPrehistoric
 {
     public enum SpawnOption
     {
-        DinoAndVanilla,           // Dinos are added to the game, no plants. Vanilla stuff still spawns
-        DinoAndPlant,       // Prehistoric animals and plants, vanilla stuff still spawns
-        DinoWorld           // Prehistoric Only
+        DinoAndVanilla,              // Dinos are added to the game, no plants. Vanilla stuff still spawns
+        DinoAndPlant,               // Prehistoric animals and plants, vanilla stuff still spawns
+        DinoWorld                  // Prehistoric Only
     }
     // this class handles the settings
     public class PrehistoricSettings : ModSettings
@@ -23,7 +23,7 @@ namespace BiomesPrehistoric
         public int plantCommonality = 100;
         
         // Custom music on main menu enabled
-        public bool mainMenuMusic = true;
+        //public bool mainMenuMusic = true;
 
         // this is what saves the settings when the user closes the game
         public override void ExposeData()
@@ -31,7 +31,7 @@ namespace BiomesPrehistoric
             Scribe_Values.Look(ref spawnOption, "spawnOption", SpawnOption.DinoAndPlant);
             Scribe_Values.Look(ref animalCommonality, "animalCommonality", 100, true);
             Scribe_Values.Look(ref plantCommonality, "plantCommonality", 100, true);
-            Scribe_Values.Look(ref mainMenuMusic, "mainMenuMusic", true, true);
+            //Scribe_Values.Look(ref mainMenuMusic, "mainMenuMusic", true, true);
         }
     }
 
@@ -45,7 +45,7 @@ namespace BiomesPrehistoric
         public static BiomesPrehistoricMod mod;
 
         public static ModContentPack ModContentPack;
-        
+
         public BiomesPrehistoricMod(ModContentPack content) : base(content)
         {
             this.settings = GetSettings<PrehistoricSettings>();
@@ -59,7 +59,7 @@ namespace BiomesPrehistoric
         {
             return "BMT_BiomesPrehistoric".Translate();
         }
-        
+
         public override void WriteSettings()
         {
             base.WriteSettings();
@@ -73,7 +73,7 @@ namespace BiomesPrehistoric
         {
             var rect = new Rect(0.0f, 0.0f, inRect.width, 800f);
             rect.xMax *= 0.95f;
-        
+
             var mainListing = new Listing_Standard();
             mainListing.Begin(rect);
             GUI.EndGroup();
@@ -86,7 +86,7 @@ namespace BiomesPrehistoric
 
             // Dino and plants
             SpawnPicker(mainListing, BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndPlant, delegate { BiomesPrehistoricMod.mod.settings.spawnOption = SpawnOption.DinoAndPlant; }, "BMT_DinoAndPlantLabel", "BMT_DinoAndPlantDesc", "DinoAndPlant");
-            
+
             // DINO WORLD!!!
             SpawnPicker(mainListing, BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld, delegate { BiomesPrehistoricMod.mod.settings.spawnOption = SpawnOption.DinoWorld; }, "BMT_DinoWorldLabel", "BMT_DinoWorldDesc", "DinoWorld");
 
@@ -102,19 +102,21 @@ namespace BiomesPrehistoric
                 }
             }
 
-            mainListing.Gap();
-            mainListing.CheckboxLabeled("BMT_MainMenuMusicEnabled".Translate(), ref mod.settings.mainMenuMusic);
+            //mainListing.Gap();
+            //mainListing.CheckboxLabeled("BMT_MainMenuMusicEnabled".Translate(), ref mod.settings.mainMenuMusic);
 
             Widgets.EndScrollView();
             base.DoSettingsWindowContents(inRect);
 
         }
 
+        /*
         public static void UpdateMainMenuSongDef()
         {
             var def = DefDatabase<SongDef>.GetNamedSilentFail(mod.settings.mainMenuMusic ? "EntrySongPrehistoric" : "EntrySong");
             if (def != null) SongDefOf.EntrySong = def;
         }
+        */
 
         public static void SpawnPicker(Listing_Standard listing, bool active, Action action, string label, string desc, string iconPath)
         {
@@ -154,11 +156,5 @@ namespace BiomesPrehistoric
             selectButtonListing.End();
             textListing.End();
         }
-
     }
-
-
-
-
-
 }
