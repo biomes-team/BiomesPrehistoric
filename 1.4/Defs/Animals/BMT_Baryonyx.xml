@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Baryonyx</defName>
         <label>baryonyx</label>
-        <description>A large predatory dinosaur that specializes in hunting fish as well as small to medium prey. With a neck like a pelican it swallows smaller animals whole, larger ones are dismembered with the large claws on its forelimbs. \n\nScientific name: Baryonyx walkeri</description>
+        <description>A large predatory dinosaur that specializes in hunting fish as well as small to medium prey. With a neck like a pelican it swallows smaller animals whole, larger ones are dismembered with the large claws on its forelimbs. \n\nScientific name: Baryonyx walkeri (Walker's heavy claw) \n\nThe first specimen was found in a clay pit used for making bricks.</description>
         <statBases>
             <MoveSpeed>4.5</MoveSpeed>
             <MarketValue>730</MarketValue>

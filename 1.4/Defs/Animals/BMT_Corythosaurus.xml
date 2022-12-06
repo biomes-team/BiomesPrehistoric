@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Corythosaurus</defName>
         <label>corythosaurus</label>
-        <description>Corythosaurus were a contemporary of Parasaurolophus and lived in much the same environments. It is possible that their hearing was as sensitive as that of crocodiles. They were likely sporadically active throughout the day at short intervals.\n\nScientific name: Corythosaurus casuarius</description>
+        <description>Corythosaurus is a large herbivore with sensitive hearing. They are sporadically active throughout the day at short intervals. \n\nScientific name: Corythosaurus casuarius (Cassowary-like helmet lizard) \n\nThey were initially assumed to be aquatic, because the first fossil had been a carcass that had washed up on a beach.</description>
         <statBases>
             <MoveSpeed>3.5</MoveSpeed>
             <MarketValue>270</MarketValue>

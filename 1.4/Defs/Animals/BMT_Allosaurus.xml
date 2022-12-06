@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Allosaurus</defName>
         <label>allosaurus</label>
-        <description>The loosely jointed jaws of Allosaurus allow it to open its jaws extremely wide, similar to snakes. While they lack the bone crushing abilities of the Tyrannosaurs, their teeth are very effective at tearing away chunks of flesh as they attack.\n\nScientific name: Allosaurus fragilis</description>
+        <description>The loosely jointed jaws of Allosaurus allow it to open its jaws extremely wide, similar to snakes. While they lack the bone crushing abilities of the Tyrannosaurs, their teeth are very effective at tearing away chunks of flesh as they attack. \n\nScientific name: Allosaurus fragilis (Fragile different lizard) \n\nThe first Allosaurus fossils found were vertebrae, which locals has assumed were petrified horse hooves.</description>
         <statBases>
             <MoveSpeed>5.5</MoveSpeed>
             <MarketValue>1500</MarketValue>

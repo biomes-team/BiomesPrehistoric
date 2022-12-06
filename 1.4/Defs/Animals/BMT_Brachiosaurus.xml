@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Brachiosaurus</defName>
         <label>brachiosaurus</label>
-        <description>A huge herbivorous dinosaur. Their long necks are better suited to being held upright than those of other sauropods, in large part due to their body posture, making them efficient defoliators of trees.\n\nScientific name: Brachiosaurus altithorax</description>
+        <description>A huge herbivorous dinosaur. Their long necks are better suited to being held upright than those of other sauropods, in large part due to their body posture, making them efficient defoliators of trees. \n\nScientific name: Brachiosaurus altithorax (Arm lizard with a deep chest) \n\nAs with many dinosaurs excavated during the bone wars, the site where Brachiosaurus was discovered had to be guarded to prevent sabotage and looting.</description>
         <statBases>
             <MoveSpeed>5.5</MoveSpeed>
             <MarketValue>3520</MarketValue>

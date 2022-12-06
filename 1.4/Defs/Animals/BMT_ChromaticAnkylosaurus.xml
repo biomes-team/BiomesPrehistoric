@@ -4,7 +4,7 @@
     <ThingDef MayRequire="biomesteam.oasis" ParentName="AnimalThingBase">
         <defName>BMT_ChromaticAnkylosaurus</defName>
         <label>chromatic ankylosaurus</label>
-        <description>.\n\nScientific name: .</description>
+        <description>For some glitterworld artists, animals are merely another canvas. It's unclear what (if anything) the artist behind the chromatic ankylosaur was trying to say, except perhaps that dangerous animals in crazy colours are rad.</description>
         <statBases>
             <MoveSpeed>3</MoveSpeed>
             <MarketValue>1520</MarketValue>
@@ -288,7 +288,7 @@
     <ThingDef MayRequire="biomesteam.oasis" ParentName="BMT_ArtEggBase">
         <defName>BMT_ChromaticAnkylosaurusEggFertilized</defName>
         <label>chromatic ankylosaurus egg (fert.)</label>
-        <description>A fertilized chromatic ankylosaurus egg. If all goes well, it should hatch into a baby chromatic ankylosaurus. Beautyful to look at.</description>
+        <description>A fertilized chromatic ankylosaurus egg. If all goes well, it should hatch into a baby chromatic ankylosaurus. Beautiful to look at.</description>
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/ChromaticAnkylosaurusEgg/ChromaticAnkylosaurusEggA</texPath>
             <drawSize>1.2</drawSize>
@@ -306,7 +306,7 @@
     <ThingDef MayRequire="biomesteam.oasis" ParentName="BMT_ArtEggBase">
         <defName>BMT_ChromaticAnkylosaurusEggUnfertilized</defName>
         <label>chromatic ankylosaurus egg (unfert.)</label>
-        <description>A unfertilized chromatic ankylosaurus egg. Beautyful to look at.</description>
+        <description>A unfertilized chromatic ankylosaurus egg. Beautiful to look at.</description>
         <graphicData>
             <texPath>BMT_Prehistoric/Item/Egg/ChromaticAnkylosaurusEgg/ChromaticAnkylosaurusEggA</texPath>
             <drawSize>1.2</drawSize>

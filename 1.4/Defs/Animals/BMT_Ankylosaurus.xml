@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Ankylosaurus</defName>
         <label>ankylosaurus</label>
-        <description>Ankylosaurus is perhaps the largest of its kind and has formidible defences, with a thick skull, bony plates covering its back and a collar of bone protecting its neck. If any predators do try to find a gap in its armour the dense club on its tail is more than capable of shattering the bones of large therapods - and the bodies of smaller ones.\n\nScientific name: Ankylosaurus magniventris.</description>
+        <description>Ankylosaurus is perhaps the largest of its kind and has formidible defences, with a thick skull, bony plates covering its back and a collar of bone protecting its neck. If any predators do try to find a gap in its armour the dense club on its tail is more than capable of shattering the bones of large therapods - and the bodies of smaller ones. \n\nScientific name: Ankylosaurus magniventris (Fused lizard with a wide belly) \n\nThere have been relatively few fossils found of Ankylosaurus compared to other related dinosaurs, it owes its fame largely to a scale model of it being displayed at the 1964 World's Fair.</description>
         <statBases>
             <MoveSpeed>3</MoveSpeed>
             <MarketValue>1520</MarketValue>

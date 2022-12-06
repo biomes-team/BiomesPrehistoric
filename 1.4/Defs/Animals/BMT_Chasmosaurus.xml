@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Chasmosaurus</defName>
 		<label>chasmosaurus</label>
-		<description>The size and shape of its frill make it somewhat unhelpful in defense, instead being used for display and or thermoregulation. Like Triceratops, it cared for its young. Neither the adults nor the young moved very fast. \n\nScientific name: Chasmosaurus belli</description>
+		<description>The size and shape of its frill make it somewhat unhelpful in defense, instead being used for thermoregulation or display. Like Triceratops, it cares for its young, with juveniles remaining with their parents for extended periods of time. \n\nScientific name: Chasmosaurus belli (Bell's hollow lizard) \n\nBecause the most obvious feature of ceratopsians is their frills, which change over the lifetime of the animal as well as between species, ceratopsian taxonomy is a hotly debated topic with a lot of disagreements.</description>
 		<statBases>
 			<MoveSpeed>3.25</MoveSpeed>
 			<MarketValue>520</MarketValue>

@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Compsognathus</defName>
         <label>compsognathus</label>
-        <description>Compsognathus is one of the smallest dinosaur species. Its original discovery changed how people viewed dinosaurs, no longer thinking that they were only giants. Like many of their relatives, they are covered in proto-feathers. These tiny predators can run amazingly fast.\n\nScientific name: Compsognathus longipes</description>
+        <description>Compsognathus is one of the smaller dinosaur species and like many of their relatives, they are covered in proto-feathers. These tiny predators can run amazingly fast.\n\nScientific name: Compsognathus longipes (Dainty jaw long legs) \n\nThe discovery of Compsognathus changed how people viewed dinosaurs, no longer thinking that they were only giants. They were initially thought to be chicken sized due to the fact that the first fossil discovered was a juvenile.</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
             <MarketValue>250</MarketValue>

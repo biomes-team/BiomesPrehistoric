@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Chungkingosaurus</defName>
         <label>chungkingosaurus</label>
-       <description>A small grazing animal with distinctive plates and spikes along its back and tail. These dinosaurs are often found in groups. \n\nScientific name: Chungkingosaurus jiangbeiensis</description>
+       <description>A small grazing animal with distinctive plates and spikes along its back and tail. These dinosaurs are often found in groups. \n\nScientific name: Chungkingosaurus jiangbeiensis (Chongqing lizard of Jiangbei) \n\nThe thagomizer is only known from disarticulated fossils, but has been described as a "pin-cushion array".</description>
         <statBases>
             <MoveSpeed>5.4</MoveSpeed>
             <MarketValue>570</MarketValue>

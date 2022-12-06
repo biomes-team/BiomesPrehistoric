@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Anteosaurus</defName>
         <label>anteosaurus</label>
-        <description>One of the largest predators of the Permian period, Anteosaurus is not a dinosaur but a synapsid, a mammal-like reptile. While it posesses stout legs and a wide snout like a hippo or crocodile, it is a capable terrestrial hunter.\n\nScientific Name: Anteosaurus magnificus</description>
+        <description>One of the largest predators of the Permian period, Anteosaurus is not a dinosaur but a synapsid, a mammal-like reptile. While it posesses stout legs and a wide snout like a hippo or crocodile, it is a capable terrestrial hunter. \n\nScientific Name: Anteosaurus magnificus (Magnificent giant lizard) \n\nAnteosaurus is named after Antaeus, a half-giant slain by Hercules as one of his twelve labours.</description>
         <statBases>
             <MoveSpeed>5.5</MoveSpeed>
             <MarketValue>500</MarketValue>
