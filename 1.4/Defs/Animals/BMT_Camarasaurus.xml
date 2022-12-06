@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Camarasaurus</defName>
         <label>camarasaurus</label>
-        <description>A contemporary of both Apatosaurus and Brachiosaurus, it fed off of different vegetation than both, allowing them to coexist without competition. It was warm blooded like other sauropods. \n\nScientific name: Camarasaurus supremus</description>
+        <description>A huge warm blooded herbivore like other sauropods, Camarasaurus specialises in stripping everything even slightly edible from the upper canopy. This tree specific diet allows them to coexist with other sauropods without competition. \n\nScientific name: Camarasaurus supremus (Supreme chambered lizard) \n\nThe name chambered lizard refers to the fact that Camarasaurus has hollow bones like a bird, probably to reduce weight.</description>
         <statBases>
             <MoveSpeed>5.3</MoveSpeed>
             <MarketValue>2420</MarketValue>

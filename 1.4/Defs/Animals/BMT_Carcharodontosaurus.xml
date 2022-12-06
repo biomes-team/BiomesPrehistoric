@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Carcharodontosaurus</defName>
         <label>carcharodontosaurus</label>
-        <description>Carcharodontosaurus is named after the great white shark and was one of the largest land carnivores known. First fossils found consisted only of teeth, later found ones were destroyed in an air raid and at last the species was rediscovered for future research.\n\nScientific name: Carcharodontosaurus saharicus</description>
+        <description>Carcharodontosaurus is one of the largest land carnivores, and is strong enough to allow it pick up and shake animals as large as horses to death in its mighty jaws. \n\nScientific name: Carcharodontosaurus saharicus (Great white shark lizard of the sahara) \n\n The first fossils found consisted only of teeth, later found ones were destroyed in an air raid and at last the species was rediscovered for future research.</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
             <MarketValue>2500</MarketValue>
