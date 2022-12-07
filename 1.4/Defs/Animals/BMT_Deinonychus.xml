@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Deinonychus</defName>
         <label>deinonychus</label>
-        <description>One of the first dinosaurs used to show that they were not all cold-blooded like modern reptiles. Its long fingers were equipped with three large curved claws that it can use to decimate prey./n/nScientific name: Deinonychus antirrhopus</description>
+        <description>Its long fingers are equipped with three large curved claws, but it is the sickle claws on its feet that are its deadliest weapons. /n/nScientific name: Deinonychus antirrhopus (Counterbalanced terrible claw) /n/nThe discovery of Deinonychus, an active, agile predator, was strong evidence against the previously held assumption that dinosaurs were slow-moving, cold blooded reptiles.</description>
         <statBases>
             <MoveSpeed>6</MoveSpeed>
             <MarketValue>450</MarketValue>

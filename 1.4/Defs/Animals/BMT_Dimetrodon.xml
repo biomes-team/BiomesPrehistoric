@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Dimetrodon</defName>
         <label>dimetrodon</label>
-        <description>Despite often being called a dinosaur, it is in fact more closely related to mammals than actual dinosaurs. It was a fearsome predator for its time, using its sail to warm up in the morning before its prey did.\n\nScientific name: Dimetrodon limbatus</description>
+        <description>Dimetrodon have huge heads relative to their body size, giving them a disproportionately strong bite which makes up for their stumpy legs and ineffective claws. \n\nScientific name: Dimetrodon limbatus(Limbed two measures of teeth) \n\nThe function of the sail is still disputed, but whether influenced by the sail or not they most likely had a constant, warm body temperature.</description>
         <statBases>
             <MoveSpeed>5</MoveSpeed>
             <MarketValue>460</MarketValue>
@@ -67,7 +67,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>11</power>
+                <power>6</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
             </li>
@@ -76,7 +76,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>11</power>
+                <power>6</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
             </li>
@@ -84,7 +84,7 @@
                 <capacities>
                     <li>Bite</li>
                 </capacities>
-                <power>15</power>
+                <power>18</power>
                 <cooldownTime>2.5</cooldownTime>
                 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
                 <chanceFactor>0.7</chanceFactor>
@@ -94,7 +94,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>10</power>
+                <power>12</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

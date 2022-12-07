@@ -64,7 +64,7 @@
     <ThingDef ParentName="AnimalThingBase">
     <defName>BMT_Diplocaulus</defName>
     <label>diplocaulus</label>
-    <description>The Diplocaulus closely resembles modern salamanders and newts but is easily identified for its boomerang shaped skull. Some scientists think that its skull shape acted as a hydrofoil, allowing it to move up and down in the water with ease. \n\nScientific name: Diplocaulus salamandroides</description>
+    <description>An amphibian somewhat like a salamander or newt but with a huge boomerang shaped skull. \n\nScientific name: Diplocaulus salamandroides (Salamader-like double caul) \n\nSome scientists think that its skull shape acted as a hydrofoil, allowing it to move up and down in the water with ease.</description>
     <statBases>
 		<MoveSpeed>3.2</MoveSpeed>
 		<SwimSpeed MayRequire="biomesteam.biomesislands">7.5</SwimSpeed>
@@ -148,7 +148,7 @@
 	    <maxPreyBodySize>0.25</maxPreyBodySize>
 		<meatLabel>amphibian meat</meatLabel>
 		<leatherDef>Leather_Lizard</leatherDef>
-		<wildness>0.15</wildness>
+		<wildness>0.55</wildness>
 		<trainability>None</trainability>
 		<lifeExpectancy>17</lifeExpectancy>
 		<lifeStageAges>

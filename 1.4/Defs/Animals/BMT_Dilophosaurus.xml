@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>BMT_Dilophosaurus</defName>
         <label>dilophosaurus</label>
-        <description>Roughly as tall as a person, Dilophosaurus is best known for the large crests along its skull, thought to be used for display. Despite how it was depicted in a popular movie from the 20th century, it did not actually possess frills nor did it spit venom.\n\nScientific name: Dilophosaurus wetherilli</description>
+        <description>Larger than a bear but far more lightly built and agile, Dilophosaurus is more than capable of preying on humans and livestock; colonists of the rim beware. \n\nScientific name: Dilophosaurus wetherilli (Wetherill's two-crested lizard) \n\nThe cliffs where Dilophosaurus fossils are found are covered in petroglyphs, and their tracks feature in the culture and art of the Navajo.</description>
         <statBases>
             <MoveSpeed>5.4</MoveSpeed>
             <MarketValue>570</MarketValue>
