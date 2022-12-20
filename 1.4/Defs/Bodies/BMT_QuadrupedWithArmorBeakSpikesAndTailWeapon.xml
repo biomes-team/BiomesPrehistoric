@@ -9,56 +9,56 @@
 			<depth>Outside</depth>
 			<parts>
 				<li>
+					<def>Spine</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Stomach</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Heart</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Lung</def>
+					<customLabel>left lung</customLabel>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Lung</def>
+					<customLabel>right lung</customLabel>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Kidney</def>
+					<customLabel>left kidney</customLabel>
+					<coverage>0.02</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Kidney</def>
+					<customLabel>right kidney</customLabel>
+					<coverage>0.02</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Liver</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
 					<def>BMT_Osteoderm</def>
-					<coverage>0.6</coverage>
+					<coverage>0.4</coverage>
 					<height>Top</height>
 					<depth>Outside</depth>
-					<parts>
-						<li>
-							<def>Spine</def>
-							<coverage>0.03</coverage>
-							<depth>Inside</depth>
-						</li>
-						<li>
-							<def>Stomach</def>
-							<coverage>0.03</coverage>
-							<depth>Inside</depth>
-						</li>
-						<li>
-							<def>Heart</def>
-							<coverage>0.03</coverage>
-							<depth>Inside</depth>
-						</li>
-						<li>
-							<def>Lung</def>
-							<customLabel>left lung</customLabel>
-							<coverage>0.03</coverage>
-							<depth>Inside</depth>
-						</li>
-						<li>
-							<def>Lung</def>
-							<customLabel>right lung</customLabel>
-							<coverage>0.03</coverage>
-							<depth>Inside</depth>
-						</li>
-						<li>
-							<def>Kidney</def>
-							<customLabel>left kidney</customLabel>
-							<coverage>0.02</coverage>
-							<depth>Inside</depth>
-						</li>
-						<li>
-							<def>Kidney</def>
-							<customLabel>right kidney</customLabel>
-							<coverage>0.02</coverage>
-							<depth>Inside</depth>
-						</li>
-						<li>
-							<def>Liver</def>
-							<coverage>0.03</coverage>
-							<depth>Inside</depth>
-						</li>
-					</parts>
+					<!-- <parts> -->
+					<!-- </parts> -->
 				</li>
 				<li>
 					<def>Neck</def>
