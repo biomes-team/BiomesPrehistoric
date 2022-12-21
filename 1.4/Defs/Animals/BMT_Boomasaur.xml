@@ -59,7 +59,6 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <comps>
-		
 			<li Class="CompProperties_Milkable">
 				<milkDef>Chemfuel</milkDef>
 				<milkIntervalDays>1.5</milkIntervalDays>
