@@ -17,7 +17,7 @@
 					</value>
 				</li>
 
-				<li Class="PatchOperationAdd">
+				<!--li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
 						<SongDef>
@@ -25,16 +25,16 @@
 							<tense>true</tense>
 						</SongDef>
 					</value>
-				</li>
+				</li-->
 
-				<li Class="PatchOperationAdd">
+				<!--li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
 						<SongDef>
 							<clipPath>BMT_Prehistoric_Music/Giants_Among_Us</clipPath>
 						</SongDef>
 					</value>
-				</li>
+				</li-->
 
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>

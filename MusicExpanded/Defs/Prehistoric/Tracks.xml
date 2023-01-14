@@ -31,13 +31,13 @@
         <defName>BMT_Prehistoric_Valley_of_Bones</defName>
         <clipPath>BMT_Prehistoric_Music/Valley_of_Bones</clipPath>
     </MusicExpanded.TrackDef>
-    <MusicExpanded.TrackDef>
+    <!--MusicExpanded.TrackDef>
         <label>Prehistoric - Giants Among Us</label>
         <defName>BMT_Prehistoric_Giants_Among_Us</defName>
         <clipPath>BMT_Prehistoric_Music/Giants_Among_Us</clipPath>
         <vanillaLogic>true</vanillaLogic>
         <allowedTimeOfDay>Night</allowedTimeOfDay>
-    </MusicExpanded.TrackDef>
+    </MusicExpanded.TrackDef-->
     <MusicExpanded.TrackDef>
         <label>Prehistoric - Harmony</label>
         <defName>BMT_Prehistoric_Harmony</defName>
@@ -58,11 +58,11 @@
         <defName>BMT_Prehistoric_Pristine_and_Primal</defName>
         <clipPath>BMT_Prehistoric_Music/Pristine_and_Primal</clipPath>
     </MusicExpanded.TrackDef>
-    <MusicExpanded.TrackDef>
-        <label>Prehistoric - It Looks Angry</label> <!--tense-->
-        <defName>BMT_Prehistoric_It_Looks_Angry</defName>
+    <!--MusicExpanded.TrackDef>
+        <label>Prehistoric - It Looks Angry</label--> <!--tense-->
+        <!--defName>BMT_Prehistoric_It_Looks_Angry</defName>
         <clipPath>BMT_Prehistoric_Music/It_Looks_Angry</clipPath>
         <vanillaLogic>true</vanillaLogic>
         <tense>true</tense>
-    </MusicExpanded.TrackDef>
+    </MusicExpanded.TrackDef-->
 </Defs>
