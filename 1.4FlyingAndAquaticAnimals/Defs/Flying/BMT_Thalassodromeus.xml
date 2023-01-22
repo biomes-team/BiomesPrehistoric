@@ -62,7 +62,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Thalassodromeus</defName>
 		<label>thalassodromeus</label>
-		<description>.\n\nScientific name: Thalassodromeus sethi</description>
+		<description>A contemporary of Anhanguera, this species had one of the largest skulls of any known pterosaurs. There is evidence that they had strong jaw muscles and thus could hunt fairly large prey.\n\nScientific name: Thalassodromeus sethi</description>
 		<statBases>
 			<BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
 			<SwimSpeed>1</SwimSpeed>

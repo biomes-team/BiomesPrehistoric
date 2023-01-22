@@ -62,7 +62,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Cryodrakon</defName>
 		<label>cryodrakon</label>
-		<description>.\n\nScientific name: Cryodrakon boreas</description>
+		<description>Close in size to the better known Quetzal, the Cryodrakon is thought to be slightly more robust in the neck as well as slightly heavier overall. Its name means "Cold dragon of the north." \n\nScientific name: Cryodrakon boreas</description>
 		<statBases>
 			<BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
 			<SwimSpeed>1</SwimSpeed>
