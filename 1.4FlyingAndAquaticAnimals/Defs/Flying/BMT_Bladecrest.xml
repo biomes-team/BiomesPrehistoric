@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- =============================================================== -->
-
 	<LifeStageDef MayRequire="biomesteam.oasis" ParentName="AnimalBaby">
 		<defName>BMT_BladecrestBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
@@ -21,6 +19,7 @@
 			</li>
 		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef MayRequire="biomesteam.oasis">
 		<defName>BMT_BladecrestJuvenile</defName>
 		<label>juvenile</label>
@@ -28,9 +27,9 @@
 		<bodySizeFactor>0.9</bodySizeFactor>
 		<foodMaxFactor>1.5</foodMaxFactor>
 		<healthScaleFactor>0.8</healthScaleFactor>
-		<hungerRateFactor>0.80</hungerRateFactor>
-		<marketValueFactor>0.80</marketValueFactor>
-		<meleeDamageFactor>0.80</meleeDamageFactor>
+		<hungerRateFactor>0.8</hungerRateFactor>
+		<marketValueFactor>0.8</marketValueFactor>
+		<meleeDamageFactor>0.8</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
 			<BiomesCore_FlySpeed>0.9</BiomesCore_FlySpeed>
@@ -45,13 +44,14 @@
 			</li>
 		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef MayRequire="biomesteam.oasis">
 		<defName>BMT_BladecrestAdult</defName>
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
-		<milkable>false</milkable>
-		<shearable>false</shearable>
+		<milkable>true</milkable>
+		<shearable>true</shearable>
 		<modExtensions>
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
@@ -63,13 +63,10 @@
 		</modExtensions>
 	</LifeStageDef>
 
-	<!-- =============================================================== -->
-
 	<ThingDef MayRequire="biomesteam.oasis" ParentName="AnimalThingBase">
 		<defName>BMT_Bladecrest</defName>
 		<label>bladecrest</label>
 		<description>Bladecrests are a predator that can be found in the Chromatic Oasis, using their razor shard crests to slash at their prey.\n\nScientific name: Pteranodon ferrumcalvaria</description>
-		<uiIconScale>1.5</uiIconScale>
 		<statBases>
 			<BiomesCore_FlySpeed>20</BiomesCore_FlySpeed>
 			<SwimSpeed>1</SwimSpeed>
@@ -98,7 +95,6 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			<wildBiomes>
-				<!-- <BMT_ChromaticOasis>110.7</BMT_ChromaticOasis> -->
 				<BMT_ChromaticOasis>0.8</BMT_ChromaticOasis>
 			</wildBiomes>
 			<ageGenerationCurve>
@@ -130,6 +126,7 @@
 				</li>
 			</lifeStageAges>
 		</race>
+		<uiIconScale>1.5</uiIconScale>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_BladecrestEggFertilized</eggFertilizedDef>
@@ -200,35 +197,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 		</tradeTags>
-		<!-- <butcherProducts> -->
-			<!-- <BMT_BladecrestBlade>1</BMT_BladecrestBlade> -->
-		<!-- </butcherProducts> -->
 	</ThingDef>
-
-	<!-- =============================================================== -->
-
-	<ThingDef MayRequire="biomesteam.oasis" ParentName="EggFertBase">
-		<defName>BMT_BladecrestEggFertilized</defName>
-		<label>bladecrest egg (fert.)</label>
-		<description>A fertilized bladecrest egg. If all goes well, it should hatch into a baby bladecrest. It can be eaten raw, but it's much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(152,95,81)</color>
-			<drawSize>1.1</drawSize>
-		</graphicData>
-		<statBases>
-			<Nutrition>0.65</Nutrition>
-			<MarketValue>61</MarketValue>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>6</hatcherDaystoHatch>
-				<hatcherPawn>BMT_Bladecrest</hatcherPawn>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<!-- =============================================================== -->
 
 	<PawnKindDef MayRequire="biomesteam.oasis" ParentName="BigBirdKindBase">
 		<defName>BMT_Bladecrest</defName>
@@ -287,5 +256,26 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+
+	<ThingDef MayRequire="biomesteam.oasis" ParentName="EggFertBase">
+		<defName>BMT_BladecrestEggFertilized</defName>
+		<label>bladecrest egg (fert.)</label>
+		<description>A fertilized bladecrest egg. If all goes well, it should hatch into a baby bladecrest. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(152,95,81)</color>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.65</Nutrition>
+			<MarketValue>61</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Bladecrest</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 </Defs>

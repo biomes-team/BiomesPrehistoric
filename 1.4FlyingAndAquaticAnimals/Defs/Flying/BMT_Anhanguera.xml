@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--Used Seagull as template!! -->
 <Defs>
+
 	<LifeStageDef ParentName="AnimalBaby">
 		<defName>BMT_AnhangueraBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
@@ -19,6 +19,7 @@
 			</li>
 		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_AnhangueraJuvenile</defName>
 		<label>juvenile</label>
@@ -26,9 +27,9 @@
 		<bodySizeFactor>0.9</bodySizeFactor>
 		<foodMaxFactor>1.5</foodMaxFactor>
 		<healthScaleFactor>0.8</healthScaleFactor>
-		<hungerRateFactor>0.80</hungerRateFactor>
-		<marketValueFactor>0.80</marketValueFactor>
-		<meleeDamageFactor>0.08</meleeDamageFactor>
+		<hungerRateFactor>0.8</hungerRateFactor>
+		<marketValueFactor>0.8</marketValueFactor>
+		<meleeDamageFactor>0.8</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
 			<BiomesCore_FlySpeed>0.9</BiomesCore_FlySpeed>
@@ -43,13 +44,14 @@
 			</li>
 		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_AnhangueraAdult</defName>
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
-		<milkable>false</milkable>
-		<shearable>false</shearable>
+		<milkable>true</milkable>
+		<shearable>true</shearable>
 		<modExtensions>
 			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
 				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
@@ -60,6 +62,7 @@
 			</li>
 		</modExtensions>
 	</LifeStageDef>
+
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>BMT_Anhanguera</defName>
 		<label>anhanguera</label>
@@ -72,11 +75,11 @@
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 		</statBases>
 		<race>
-			<leatherDef>BMT_DinoHideThin</leatherDef>
 			<useMeatFrom>BMT_Pteranodon</useMeatFrom>
+			<leatherDef>BMT_DinoHideThin</leatherDef>
 			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
-			<maxPreyBodySize>0.20</maxPreyBodySize>
+			<maxPreyBodySize>0.2</maxPreyBodySize>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
 			<baseHungerRate>0.6</baseHungerRate>
@@ -192,26 +195,7 @@
 			<li>AnimalUncommon</li>
 		</tradeTags>
 	</ThingDef>
-	<ThingDef ParentName="EggFertBase">
-		<defName>BMT_AnhangueraEggFertilized</defName>
-		<label>anhanguera egg (fert.)</label>
-		<description>A fertilized anhanguera egg. If all goes well, it should hatch into a baby anhanguera. It can be eaten raw, but it's much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(202,190,177)</color>
-			<drawSize>0.9</drawSize>
-		</graphicData>
-		<statBases>
-			<Nutrition>0.3</Nutrition>
-			<MarketValue>55</MarketValue>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>8</hatcherDaystoHatch>
-				<hatcherPawn>BMT_Anhanguera</hatcherPawn>
-			</li>
-		</comps>
-	</ThingDef>
+
 	<PawnKindDef ParentName="BigBirdKindBase">
 		<defName>BMT_Anhanguera</defName>
 		<label>anhanguera</label>
@@ -265,4 +249,26 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_AnhangueraEggFertilized</defName>
+		<label>anhanguera egg (fert.)</label>
+		<description>A fertilized anhanguera egg. If all goes well, it should hatch into a baby anhanguera. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(202,190,177)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.3</Nutrition>
+			<MarketValue>55</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>8</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Anhanguera</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
 </Defs>
