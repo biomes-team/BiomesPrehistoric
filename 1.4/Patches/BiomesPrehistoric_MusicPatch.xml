@@ -104,5 +104,169 @@
 
 			</operations>
 		</nomatch>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SoundDef>
+							<defName>BMT_Prehistoric_Scenario_Begin</defName>
+							<modExtensions><li Class="MusicExpanded.ModExtension.ReplacesSounds"><sounds><li>GameStartSting</li></sounds></li></modExtensions>
+							<subSounds>
+								<li>
+									<onCamera>True</onCamera>      
+									<grains>
+										<li Class="AudioGrain_Clip">
+											<clipPath>BMT_Animals/HugeDino/Call/HugeDino_Call</clipPath>
+										</li>
+									</grains>
+									<volumeRange>100~100</volumeRange>
+								</li>
+							</subSounds>
+						</SoundDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.ThemeDef>
+							<defName>BMT_Prehistoric</defName>
+							<label>Biomes! Prehistoric</label>
+							<iconPath>BMT_Prehistoric/UI/Icon/Prehistoric</iconPath>
+							<description>Roar! Graul.</description>
+							<sounds>
+								<li>BMT_Prehistoric_Scenario_Begin</li>
+							</sounds>
+							<tracks>
+								<li MayRequire="musicexpanded.core">ME_Shared_ManInBlack</li>
+								<li>BMT_Prehistoric_Little_Guy_MainMenu</li>
+								<li>BMT_Prehistoric_Little_Guy</li>
+								<li>BMT_Prehistoric_Our_Story_Begins</li>
+								<li>BMT_Prehistoric_Night_Falls</li>
+								<li>BMT_Prehistoric_Valley_of_Bones</li>
+								<li>BMT_Prehistoric_Harmony</li>
+								<li>BMT_Prehistoric_Hunting_Sauropods</li>
+								<li>BMT_Prehistoric_Lizard_Hipped</li>
+								<li>BMT_Prehistoric_Pristine_and_Primal</li>
+							</tracks>
+						</MusicExpanded.ThemeDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Little Guy</label> <!--MainMenu-->
+							<defName>BMT_Prehistoric_Little_Guy_MainMenu</defName>
+							<clipPath>BMT_Prehistoric_Music/Little_Guy</clipPath>
+							<cue>MainMenu</cue>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Little Guy</label> <!--Day-->
+							<defName>BMT_Prehistoric_Little_Guy</defName>
+							<clipPath>BMT_Prehistoric_Music/Little_Guy</clipPath>
+							<vanillaLogic>true</vanillaLogic>
+							<allowedTimeOfDay>Day</allowedTimeOfDay>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Our Story Begins</label> <!--Day-->
+							<defName>BMT_Prehistoric_Our_Story_Begins</defName>
+							<clipPath>BMT_Prehistoric_Music/Our_Story_Begins</clipPath>
+							<vanillaLogic>true</vanillaLogic>
+							<allowedTimeOfDay>Day</allowedTimeOfDay>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Night Falls</label> <!--Night-->
+							<defName>BMT_Prehistoric_Night_Falls</defName>
+							<clipPath>BMT_Prehistoric_Music/Night_Falls</clipPath>
+							<vanillaLogic>true</vanillaLogic>
+							<allowedTimeOfDay>Night</allowedTimeOfDay>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Valley of Bones</label> <!--Night-->
+							<defName>BMT_Prehistoric_Valley_of_Bones</defName>
+							<clipPath>BMT_Prehistoric_Music/Valley_of_Bones</clipPath>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Harmony</label>
+							<defName>BMT_Prehistoric_Harmony</defName>
+							<clipPath>BMT_Prehistoric_Music/Harmony</clipPath>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Hunting Sauropods</label>
+							<defName>BMT_Prehistoric_Hunting_Sauropods</defName>
+							<clipPath>BMT_Prehistoric_Music/Hunting_Sauropods</clipPath>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Lizard Hipped</label>
+							<defName>BMT_Prehistoric_Lizard_Hipped</defName>
+							<clipPath>BMT_Prehistoric_Music/Lizard_Hipped</clipPath>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<MusicExpanded.TrackDef>
+							<label>Prehistoric - Pristine and Primal</label>
+							<defName>BMT_Prehistoric_Pristine_and_Primal</defName>
+							<clipPath>BMT_Prehistoric_Music/Pristine_and_Primal</clipPath>
+						</MusicExpanded.TrackDef>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 </Patch>
