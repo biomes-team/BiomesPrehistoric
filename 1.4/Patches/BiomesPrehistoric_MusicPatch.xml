@@ -220,12 +220,6 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-					</value>
-				</li>
-
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
 						<MusicExpanded.TrackDef>
 							<label>Prehistoric - Harmony</label>
 							<defName>BMT_Prehistoric_Harmony</defName>
@@ -266,6 +260,7 @@
 						</MusicExpanded.TrackDef>
 					</value>
 				</li>
+
 			</operations>
 		</match>
 	</Operation>
