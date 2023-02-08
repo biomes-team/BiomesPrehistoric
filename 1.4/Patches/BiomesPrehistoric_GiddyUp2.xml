@@ -833,7 +833,7 @@
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="BMT_Titanoboa"]</xpath>
 					<value>
-						<li Class="GiddyUp.NotMountable" />
+						<li Class="GiddyUp.NotMountable"/>
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
@@ -1008,280 +1008,143 @@
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Ammonite"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Anomalocaris"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Belemnite"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Cameroceras"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Coelacanth"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Dunkleosteus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Elasmosaurus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Eurypterid"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_GiantAmmonite"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Henodus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Icthyosaurus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0.3</northOffset>
-										<southOffset>0,-1,0.3</southOffset>
-										<eastOffset>1,0,0.3</eastOffset>
-										<westOffset>-1,0,0.3</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Jamoytius"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0.3</northOffset>
-										<southOffset>0,-1,0.3</southOffset>
-										<eastOffset>1,0,0.3</eastOffset>
-										<westOffset>-1,0,0.3</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Kaikaifilu"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0.3</northOffset>
-										<southOffset>0,-1,0.3</southOffset>
-										<eastOffset>1,0,0.3</eastOffset>
-										<westOffset>-1,0,0.3</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Kaiwhekea"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0.3</northOffset>
-										<southOffset>0,-1,0.3</southOffset>
-										<eastOffset>1,0,0.3</eastOffset>
-										<westOffset>-1,0,0.3</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Kronosaurus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0.3</northOffset>
-										<southOffset>0,-1,0.3</southOffset>
-										<eastOffset>1,0,0.3</eastOffset>
-										<westOffset>-1,0,0.3</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Leedsichthys"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0.3</northOffset>
-										<southOffset>0,-1,0.3</southOffset>
-										<eastOffset>1,0,0.3</eastOffset>
-										<westOffset>-1,0,0.3</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Liopleurodon"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Megalodon"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Mosasaurus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Orthoceras"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Shonisaurus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Thalattosuchus"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Trilobite"]</xpath>
 								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,0,0</eastOffset>
-										<westOffset>0,0,0</westOffset>
-									</li>
+									<li Class="GiddyUp.NotMountable"/>
 								</value>
 							</li>
 
 							<!-- Aero -->
-							<li Class="PatchOperationAddModExtension">
-								<xpath>Defs/ThingDef[defName="BMT_Anhanguera"]</xpath>
-								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,-1,-0.3</eastOffset>
-										<westOffset>0,-1,-0.3</westOffset>
-									</li>
-								</value>
-							</li>
-							<li Class="PatchOperationAddModExtension">
-								<xpath>Defs/ThingDef[defName="BMT_Dimorphodon"]</xpath>
-								<value>
-									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
-										<eastOffset>0,-1,-0.3</eastOffset>
-										<westOffset>0,-1,-0.3</westOffset>
-									</li>
-								</value>
-							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Pteranodon"]</xpath>
 								<value>
@@ -1297,8 +1160,8 @@
 								<xpath>Defs/ThingDef[defName="BMT_Quetzal"]</xpath>
 								<value>
 									<li Class="GiddyUp.DrawingOffset">
-										<northOffset>0,0,0</northOffset>
-										<southOffset>0,0,0</southOffset>
+										<northOffset>0,0,0.4</northOffset>
+										<southOffset>0,0,0.6</southOffset>
 										<eastOffset>0.3,-1,0.8</eastOffset>
 										<westOffset>-0.3,-1,0.8</westOffset>
 									</li>
