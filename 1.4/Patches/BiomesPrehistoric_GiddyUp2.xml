@@ -6,7 +6,52 @@
 			<li>Giddy-Up 2</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<operations><!--x,y,z. x: horizontal axis, y: drawing priority, z: vertical axis -->
+			<operations>
+				<!-- Ankylosauria grant a small amount of extra protection to their rider. -->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName="BMT_Ankylosaurus" or defName="BMT_Borealopelta" or defName="BMT_Minmi" or
+						defName="BMT_Polacanthus"]
+					</xpath>
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<armorModifier>1.1</armorModifier>
+						</li>
+					</value>
+				</li>
+				<!-- Ceratopsia grant extra protection to their rider. -->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName="BMT_Centrosaurus" or defName="BMT_Chasmosaurus" or
+						defName="BMT_Styracosaurus" or defName="BMT_Triceratops"]
+					</xpath>
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<armorModifier>1.25</armorModifier>
+						</li>
+					</value>
+				</li>
+				<!-- Ornithomimosauria are faster when mounted. -->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName="BMT_Gallimimus" or defName="BMT_Ornithomimus" or
+						defName="BMT_Struthiomimus"]
+					</xpath>
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<speedModifier>1.4</speedModifier>
+						</li>
+					</value>
+				</li>
+				<!-- Stegosauria grant a small amount of extra protection to their rider. -->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName="BMT_Chungkingosaurus" or defName="BMT_Kentrosaurus" or
+						defName="BMT_Stegosaurus"]
+					</xpath>
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<armorModifier>1.15</armorModifier>
+						</li>
+					</value>
+				</li>
+				<!-- DrawingOffsets: x: -left, +right, y: drawing priority, z: -down, +up. -->
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="BMT_Aboomasaurus"]</xpath>
 					<value>
@@ -1003,8 +1048,19 @@
 						<li>Biomes! Islands</li>
 					</mods>
 					<match Class="PatchOperationSequence">
+						<!-- Aquatic animals are disabled from being mountable in Biomes! Islands. -->
 						<operations>
-							<!-- Aero -->
+							<!-- Pterosauria are slower when mounted, but grant some protections to their rider. -->
+							<li Class="PatchOperationAddModExtension">
+								<xpath>/Defs/PawnKindDef[defName="BMT_Pteranodon" or defName="BMT_Quetzal"]
+								</xpath>
+								<value>
+									<li Class="GiddyUp.CustomStats">
+										<speedModifier>0.9</speedModifier>
+										<armorModifier>1.2</armorModifier>
+									</li>
+								</value>
+							</li>
 							<li Class="PatchOperationAddModExtension">
 								<xpath>Defs/ThingDef[defName="BMT_Pteranodon"]</xpath>
 								<value>
