@@ -9,8 +9,8 @@
 			<operations>
 				<!-- Ankylosauria grant a small amount of extra protection to their rider. -->
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/PawnKindDef[defName="BMT_Ankylosaurus" or defName="BMT_Borealopelta" or defName="BMT_Minmi" or
-						defName="BMT_Polacanthus"]
+					<xpath>/Defs/PawnKindDef[defName="BMT_Ankylosaurus" or defName="BMT_Borealopelta" or
+						defName="BMT_ChromaticAnkylosaurus" or defName="BMT_Minmi" or defName="BMT_Polacanthus"]
 					</xpath>
 					<value>
 						<li Class="GiddyUp.CustomStats">
@@ -43,7 +43,7 @@
 				<!-- Stegosauria grant a small amount of extra protection to their rider. -->
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/PawnKindDef[defName="BMT_Chungkingosaurus" or defName="BMT_Kentrosaurus" or
-						defName="BMT_Stegosaurus"]
+						defName="BMT_Stegosaurus" or defName="BMT_Wuerhosaurus"]
 					</xpath>
 					<value>
 						<li Class="GiddyUp.CustomStats">
@@ -170,6 +170,17 @@
 							<southOffset>0,-1,0</southOffset>
 							<eastOffset>1,0,0.6</eastOffset>
 							<westOffset>-1,0,0.6</westOffset>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BMT_Carcharodontosaurus"]</xpath>
+					<value>
+						<li Class="GiddyUp.DrawingOffset">
+							<northOffset>0,0,0</northOffset>
+							<southOffset>0,-1,0</southOffset>
+							<eastOffset>0,0,0.2</eastOffset>
+							<westOffset>0,0,0.2</westOffset>
 						</li>
 					</value>
 				</li>
@@ -317,6 +328,17 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BMT_ChromaticAnkylosaurus"]</xpath>
+					<value>
+						<li Class="GiddyUp.DrawingOffset">
+							<northOffset>0,0,-0.4</northOffset>
+							<southOffset>0,0,-0.2</southOffset>
+							<eastOffset>0.3,0,0.4</eastOffset>
+							<westOffset>-0.3,0,0.4</westOffset>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="BMT_Chungkingosaurus"]</xpath>
 					<value>
 						<li Class="GiddyUp.DrawingOffset">
@@ -324,6 +346,17 @@
 							<southOffset>0,0,-0.25</southOffset>
 							<eastOffset>0,0,-0.25</eastOffset>
 							<westOffset>0,0,-0.25</westOffset>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BMT_Corythosaurus"]</xpath>
+					<value>
+						<li Class="GiddyUp.DrawingOffset">
+							<northOffset>0,0,0</northOffset>
+							<southOffset>0,1,-0.2</southOffset>
+							<eastOffset>0.4,0,0.2</eastOffset>
+							<westOffset>-0.4,0,0.2</westOffset>
 						</li>
 					</value>
 				</li>
@@ -991,6 +1024,17 @@
 							<southOffset>0,-1,0</southOffset>
 							<eastOffset>0.7,0,0.1</eastOffset>
 							<westOffset>-0.7,0,0.1</westOffset>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="BMT_Wuerhosaurus"]</xpath>
+					<value>
+						<li Class="GiddyUp.DrawingOffset">
+							<northOffset>0,0,-0.2</northOffset>
+							<southOffset>0,1,-0.2</southOffset>
+							<eastOffset>0.2,0,0</eastOffset>
+							<westOffset>-0.2,0,0</westOffset>
 						</li>
 					</value>
 				</li>
