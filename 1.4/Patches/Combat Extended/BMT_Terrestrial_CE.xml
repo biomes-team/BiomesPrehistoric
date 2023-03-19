@@ -881,7 +881,17 @@
                         <MeleeDodgeChance>0.09</MeleeDodgeChance>
                         <MeleeCritChance>0.29</MeleeCritChance>
                         <MeleeParryChance>0.31</MeleeParryChance>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="BMT_Borealopelta"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
                         <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="BMT_Borealopelta"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
                         <ArmorRating_Blunt>14.25</ArmorRating_Blunt>
                     </value>
                 </li>
@@ -4031,7 +4041,17 @@
                         <MeleeDodgeChance>0.09</MeleeDodgeChance>
                         <MeleeCritChance>0.5</MeleeCritChance>
                         <MeleeParryChance>0.465</MeleeParryChance>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="BMT_Polacanthus"]/statBases/ArmorRating_Sharp</xpath>
+                    <value>
                         <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="BMT_Polacanthus"]/statBases/ArmorRating_Blunt</xpath>
+                    <value>
                         <ArmorRating_Blunt>11.88</ArmorRating_Blunt>
                     </value>
                 </li>
