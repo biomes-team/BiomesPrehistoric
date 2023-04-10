@@ -24,6 +24,8 @@
     <loadAfter>
         <li>Ludeon.RimWorld</li>
         <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
         <li>BiomesTeam.BiomesCore</li>
         <li>BiomesTeam.BiomesIslands</li>
         <li>vanillaexpanded.vplantse</li>
