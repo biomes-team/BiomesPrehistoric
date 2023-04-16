@@ -122,7 +122,7 @@
 			<maxPreyBodySize>0.8</maxPreyBodySize>
 			<packAnimal>false</packAnimal>
 			<wildness>0.80</wildness>
-			<petness>0.2</petness>
+			<petness>0.0</petness>
 			<lifeExpectancy>10</lifeExpectancy>
 			<trainability>None</trainability>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>

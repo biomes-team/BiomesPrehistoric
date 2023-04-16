@@ -117,7 +117,7 @@
 			<gestationPeriodDays>12</gestationPeriodDays>
 			<packAnimal>false</packAnimal>
 			<wildness>0.95</wildness>
-			<petness>0.05</petness>
+			<petness>0.0</petness>
 			<lifeExpectancy>70</lifeExpectancy>
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>

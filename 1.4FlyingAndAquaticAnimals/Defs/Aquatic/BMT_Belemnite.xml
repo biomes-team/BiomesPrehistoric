@@ -120,7 +120,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<packAnimal>false</packAnimal>
 			<wildness>0.70</wildness>
-			<petness>0.5</petness>
+			<petness>0.0</petness>
 			<lifeExpectancy>15</lifeExpectancy>
 			<trainability>None</trainability>
 			<manhunterOnDamageChance>0.01</manhunterOnDamageChance>

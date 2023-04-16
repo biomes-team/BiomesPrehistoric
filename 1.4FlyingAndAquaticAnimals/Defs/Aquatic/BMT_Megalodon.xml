@@ -120,7 +120,7 @@
 			<packAnimal>false</packAnimal>
 			<wildness>0.95</wildness>
 			<nuzzleMtbHours>275</nuzzleMtbHours>
-			<petness>0.01</petness>
+			<petness>0.0</petness>
 			<lifeExpectancy>40</lifeExpectancy>
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
