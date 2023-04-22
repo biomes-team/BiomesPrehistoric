@@ -141,7 +141,7 @@
 			<ArrestSuccessChance>0.25</ArrestSuccessChance>
 			<MeleeHitChance>0.2</MeleeHitChance>
 			<MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
-			<PainShockThreshold>-0.15</PainShockThreshold>
+			<PainShockThreshold>0.15</PainShockThreshold>
 			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.033</PsychicEntropyRecoveryRate>
 			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
