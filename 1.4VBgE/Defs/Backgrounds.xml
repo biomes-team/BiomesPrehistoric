@@ -5,6 +5,6 @@
         <description>Splash Screen Included in Prehistoric.</description>
         <defName>BMT_Dino_Splash</defName>
         <path>BMT_Prehistoric/UI/BG/BGDino</path>
-        <iconPath>BMT_Prehistoric/UI/Icon/Biomes!Palm</iconPath>
+        <iconPath>BMT_Core/UI/Icon/Biomes!Palm</iconPath>
     </VBE.BackgroundImageDef>
 </Defs>
