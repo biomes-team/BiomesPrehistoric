@@ -146,7 +146,7 @@
 		<foodType>CarnivoreAnimal</foodType>
 	    <predator>true</predator>
 	    <maxPreyBodySize>0.25</maxPreyBodySize>
-		<meatLabel>amphibian meat</meatLabel>
+		<meatLabel>diplocaulus meat</meatLabel>
 		<leatherDef>Leather_Lizard</leatherDef>
 		<wildness>0.55</wildness>
 		<trainability>None</trainability>
