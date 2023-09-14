@@ -54,7 +54,7 @@
             <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
-        <uiIconScale>4</uiIconScale>
+        <uiIconScale>1</uiIconScale>
         <comps>
             <li Class="CompProperties_EggLayer">
                 <eggFertilizedDef>BMT_CarcharodontosaurusEggFertilized</eggFertilizedDef>
