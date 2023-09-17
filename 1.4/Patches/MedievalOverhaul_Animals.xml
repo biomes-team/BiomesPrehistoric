@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="DankPyon_DarkForest"]/wildAnimals</xpath>
+					<value>
+						<BMT_Amargasaurus>0.3</BMT_Amargasaurus>
+						<BMT_Ankylosaurus>0.3</BMT_Ankylosaurus>
+						<BMT_Apatosaurus>0.2</BMT_Apatosaurus>
+						<BMT_Arthropleura>0.5</BMT_Arthropleura>
+						<BMT_Boomasaur>0.3</BMT_Boomasaur>
+						<BMT_Aboomasaurus>0.1</BMT_Aboomasaurus>
+						<BMT_Borealopelta>0.5</BMT_Borealopelta>
+						<BMT_Brachiosaurus>0.15</BMT_Brachiosaurus>
+						<BMT_Camarasaurus>0.2</BMT_Camarasaurus>
+						<BMT_Centrosaurus>0.5</BMT_Centrosaurus>
+						<BMT_Chasmosaurus>0.5</BMT_Chasmosaurus>
+						<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
+						<BMT_Compsognathus>0.8</BMT_Compsognathus>
+						<BMT_Corythosaurus>0.3</BMT_Corythosaurus>
+						<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+						<BMT_Diplocaulus>0.5</BMT_Diplocaulus>
+						<BMT_Dryosaurus>0.1</BMT_Dryosaurus>
+						<BMT_Edmontosaurus>0.3</BMT_Edmontosaurus>
+						<BMT_Gallimimus>0.3</BMT_Gallimimus>
+						<BMT_Homalocephale>0.1</BMT_Homalocephale>
+						<BMT_Hypsilophodon>1</BMT_Hypsilophodon>
+						<BMT_Iguanodon>0.3</BMT_Iguanodon>
+						<BMT_Inostrancevia>0.1</BMT_Inostrancevia>
+						<BMT_Juravenator>0.3</BMT_Juravenator>
+						<BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
+						<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
+						<BMT_Lystrosaur>0.9</BMT_Lystrosaur>
+						<BMT_Maiasaura>0.4</BMT_Maiasaura>
+						<BMT_Minmi>0.3</BMT_Minmi>
+						<BMT_Olorotitan>0.25</BMT_Olorotitan>
+						<BMT_Ornithomimus>0.05</BMT_Ornithomimus>
+						<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
+						<BMT_Pachyrhinosaurus>0.2</BMT_Pachyrhinosaurus>
+						<BMT_Panphagia>0.7</BMT_Panphagia>
+						<BMT_Parasaur>0.4</BMT_Parasaur>
+						<BMT_Pisanosaurus>0.6</BMT_Pisanosaurus>
+						<BMT_Polacanthus>0.5</BMT_Polacanthus>
+						<BMT_Protoceratops>0.5</BMT_Protoceratops>
+						<BMT_Psittacosaurus>0.3</BMT_Psittacosaurus>
+						<BMT_Stegoceras>0.4</BMT_Stegoceras>
+						<BMT_Stegosaurus>0.5</BMT_Stegosaurus>
+						<BMT_Struthiomimus>0.4</BMT_Struthiomimus>
+						<BMT_Stygimoloch>0.4</BMT_Stygimoloch>
+						<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+						<BMT_Therizinosaurus>0.3</BMT_Therizinosaurus>
+						<BMT_Timimus>0.2</BMT_Timimus>
+						<BMT_TRex>0.1</BMT_TRex>
+						<BMT_Triceratops>0.3</BMT_Triceratops>
+						<BMT_Troodon>0.4</BMT_Troodon>
+						<BMT_Wuerhosaurus>0.25</BMT_Wuerhosaurus>
+						<BMT_Yinlong>0.2</BMT_Yinlong>
+						<BMT_Yutyrannus>0.2</BMT_Yutyrannus>
+					</value>
+				</li>
+					
+			</operations>
+		</match>
+	</Operation>
+
+	
+</Patch>
