@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BiomesPrehistoric.Defs.PrehistoricModDef>
+		<defName>BMT_PrehistoricModDef</defName>
+		<packageIds>
+			<!-- Biomes! Prehistoric -->
+			<li>biomesteam.biomesprehistoric</li>
+			<!-- ReGrowth: Extinct Animals -->
+			<li>regrowth.botr.extinctanimalspack</li>
+			<!-- Dinosauria -->
+			<li>spincrus.dinosauria</li>
+			<!-- Megafauna -->
+			<li>spino.megafauna</li>
+			<!-- Biome Expansion: Redwood forest -->
+			<li>kikohi.berf</li>
+			<!-- Medieval Overhaul -->
+			<li>DankPyon.Medieval.Overhaul</li>
+		</packageIds>
+	</BiomesPrehistoric.Defs.PrehistoricModDef>
+
+</Defs>

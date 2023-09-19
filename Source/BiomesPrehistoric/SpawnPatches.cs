@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using BiomesPrehistoric.Defs;
 using HarmonyLib;
 using RimWorld;
 using UnityEngine;
@@ -333,22 +334,11 @@ namespace BiomesPrehistoric
         }
     }
 
-    // this exists in case we change the definition of "prehistoric" later
     public static class Util
     {
-        private static readonly HashSet<string> PrehistoricPackageIds = new HashSet<string>
-        {
-            "biomesteam.biomesprehistoric",
-            "regrowth2.extinctanimals",
-            "regrowth.botr.extinctanimalspack",
-            "spincrus.dinosauria",
-            "spino.megafauna",
-            "kikohi.berf" // Biome Expansion: Redwood forest
-        };
-
         public static bool IsPrehistoric(Def thing)
         {
-            return PrehistoricPackageIds.Contains(thing.modContentPack?.PackageId);
+            return PrehistoricModDef.AllPackageIds.Contains(thing.modContentPack?.PackageId);
         }
     }
 
