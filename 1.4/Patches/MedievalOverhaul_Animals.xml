@@ -8,7 +8,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd"> 
-					<xpath>Defs/BiomeDef[defName="DankPyon_DarkForest"]/wildAnimals</xpath>
+					<xpath>Defs/BiomeDef[defName="DankPyon_AncientForest" or defName="DankPyon_DarkForest"]/wildAnimals</xpath>
 					<value>
 						<BMT_Amargasaurus>0.3</BMT_Amargasaurus>
 						<BMT_Ankylosaurus>0.3</BMT_Ankylosaurus>
