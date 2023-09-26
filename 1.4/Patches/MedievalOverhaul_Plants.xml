@@ -7,15 +7,16 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/BiomeDef[defName="DankPyon_AncientForest" or defName="DankPyon_DarkForest"]/wildPlants</xpath>
 			<value>
-				<BMT_Matoniaceae>6.0</BMT_Matoniaceae>
-				<BMT_Dipteridaceae>3.0</BMT_Dipteridaceae>
-				<BMT_Coniopteris>2.0</BMT_Coniopteris>
-				<BMT_Cycas>0.6</BMT_Cycas>
-				<BMT_Podozamites>0.5</BMT_Podozamites>
-				<BMT_Araucaria>0.5</BMT_Araucaria>
-				<BMT_Gnetum>0.1</BMT_Gnetum>
-				<BMT_HealrootFern>0.1</BMT_HealrootFern>
-				<BMT_JurassicHorsetail>1.0</BMT_JurassicHorsetail>
+			<BMT_Matoniaceae>9.0</BMT_Matoniaceae>
+			<BMT_Cycas>3.0</BMT_Cycas>
+			<BMT_Coniopteris>2.0</BMT_Coniopteris>
+			<BMT_Araucaria>1.2</BMT_Araucaria>
+			<BMT_Gnetum>0.16</BMT_Gnetum>
+			<BMT_HealrootFern>0.16</BMT_HealrootFern>
+			<BMT_Zamiaceae>1.5</BMT_Zamiaceae>
+			<BMT_Polytrichaceae>4.0</BMT_Polytrichaceae>
+			<BMT_JurassicHorsetail>2.0</BMT_JurassicHorsetail>
+			<BMT_Eathiestrobus>5.0</BMT_Eathiestrobus>
 			</value>
 		</match>
 	</Operation>
