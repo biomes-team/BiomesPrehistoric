@@ -211,7 +211,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_PachyrhinosaurusEggFertilized</defName>
 		<label>pachyrhinosaurus egg (fert.)</label>
-		<description>A fertilized protoceratops egg. If all goes well, it should hatch into a baby protoceratops. It can be eaten raw, but it's much better cooked.</description>
+		<description>A fertilized pachyrhinosaurus egg. If all goes well, it should hatch into a baby pachyrhinosaurus. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(89,99,113)</color>
