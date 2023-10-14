@@ -201,11 +201,9 @@ namespace BiomesPrehistoric
         }
     }
 
-
-
-   //blocks thrumbo event
-   [HarmonyPatch(typeof(IncidentWorker_ThrumboPasses), "CanFireNowSub")]
-   public static class ThrumboPatch
+    //blocks thrumbo event
+    [HarmonyPatch(typeof(IncidentWorker_ThrumboPasses), "CanFireNowSub")]
+    public static class ThrumboPatch
     {
         static bool Prefix(ref bool __result)
         {
@@ -218,7 +216,6 @@ namespace BiomesPrehistoric
             return false;
         }
     }
-
 
     //blocks alphabeaver event
     [HarmonyPatch("IncidentWorker_Alphabeavers", "CanFireNowSub")]
@@ -260,38 +257,31 @@ namespace BiomesPrehistoric
     }
 
 
-
-
-
-
-
-
-
+    
     // Plant spawn options
-
-    [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
-    public static class PlantSpawnPatch
+    
+    [HarmonyPatch(typeof(WildPlantSpawner), "CalculatePlantsWhichCanGrowAt")]
+    public static class PlantSpawnerPatch
     {
-        static void Postfix(ThingDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
+        static void Postfix(List<ThingDef> outPlants)
         {
             if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
             {
-                if(___wildPlants.Any(p => Util.IsPrehistoric(p.plant)))
-                {
-                    if(!Util.IsPrehistoric(plantDef))
-                    {
-                        __result *= 0.000000001f;
-                    }
-                }
+                outPlants.RemoveAll(p => !Util.IsPrehistoric(p));
             }
             else if(BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndVanilla)
             {
-                if(Util.IsPrehistoric(plantDef))
-                {
-                    __result *= 0.000000001f;
-                }
+                outPlants.RemoveAll(Util.IsPrehistoric);
             }
-            else if(Util.IsPrehistoric(plantDef))
+        }
+    }
+ 
+    [HarmonyPatch(typeof(BiomeDef), "CommonalityOfPlant")]
+    public static class PlantCommonalityPatch
+    {
+        static void Postfix(ThingDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
+        {
+            if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoAndPlant && Util.IsPrehistoric(plantDef))
             {
                 __result *= BiomesPrehistoricMod.mod.settings.plantCommonality;
                 __result /= 100.0f;
