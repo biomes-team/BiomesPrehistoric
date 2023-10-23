@@ -6,17 +6,7 @@
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
 			<MoveSpeed>0.5</MoveSpeed>
-			<SwimSpeed>0.5</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/HenodusSubmerged</texPath>
-					<drawSize>0.5</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<LifeStageDef>
@@ -31,17 +21,7 @@
 		<meleeDamageFactor>0.75</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
-			<SwimSpeed>0.9</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/HenodusSubmerged</texPath>
-					<drawSize>1.0</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<LifeStageDef>
@@ -49,15 +29,6 @@
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/HenodusSubmerged</texPath>
-					<drawSize>1.5</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<ThingDef ParentName="AnimalThingBase">
@@ -65,8 +36,7 @@
 		<label>henodus</label>
 		<description>A small prehistoric turtle. Its weak legs mean that it spends very little time on land, likely only going on land to lay eggs. It uses baleen in its mouth similar to whales to filter feed.\n\nScientific name:Henodus chelyops</description>
 		<statBases>
-			<MoveSpeed>0.5</MoveSpeed>
-			<SwimSpeed>5</SwimSpeed>
+			<MoveSpeed>5</MoveSpeed>
 			<MarketValue>750</MarketValue>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
@@ -118,6 +88,16 @@
 			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Henodus/HenodusSubmerged</texPath>
+				</graphicData>
+			</li>
 		</modExtensions>
 		<race>
 			<body>TurtleLike</body>
@@ -130,7 +110,7 @@
 			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
 			<lifeExpectancy>140</lifeExpectancy>
-			<useMeatFrom>BiomesIslands_SeaTurtle</useMeatFrom>
+			<useMeatFrom>Tortoise</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

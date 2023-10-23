@@ -7,7 +7,6 @@
 		<description>A sail-backed, semi-aquatic theropod with a paddle-like tail, larger in size than any other known theropod. It prowls wetlands and waterways searching for fish and other prey, much like modern crocodilians.\n\nScientific name: Spinosaurus aegyptiacus</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
-			<SwimSpeed MayRequire="biomesteam.biomesislands">12</SwimSpeed>
 			<MarketValue>2400</MarketValue>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
@@ -66,6 +65,9 @@
 			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
+				<li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
+					<movementDef>PF_Movement_Amphibious</movementDef>
+				</li>
 		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">

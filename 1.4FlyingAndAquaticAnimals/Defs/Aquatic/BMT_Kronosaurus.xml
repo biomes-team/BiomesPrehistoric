@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 	<LifeStageDef ParentName="AnimalBaby">
 		<defName>BMT_KronosaurusBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
 			<MoveSpeed>0.8</MoveSpeed>
-			<SwimSpeed>0.8</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
-					<drawSize>2.3</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_KronosaurusJuvenile</defName>
 		<label>juvenile</label>
@@ -30,40 +22,22 @@
 		<meleeDamageFactor>0.75</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>1.6</MoveSpeed>
-			<SwimSpeed>1.6</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
-					<drawSize>4.4</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_KronosaurusAdult</defName>
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
-					<drawSize>6.5</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Kronosaurus</defName>
 		<label>kronosaurus</label>
 		<description>Kronosaurus was a carnivorous pliosaurs. It had an elongated head, a short neck, a stiff body propelled by four flippers, and a relatively short tail. The posterior flippers were larger than the anterior.\n\nScientific Name:Kronosaurus queenslandicus</description>
 		<statBases>
-			<MoveSpeed>3</MoveSpeed>
-			<SwimSpeed>10</SwimSpeed>
+			<MoveSpeed>10</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MarketValue>3400</MarketValue>
@@ -145,7 +119,20 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<comps />
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/KronosaurusSubmerged</texPath>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</ThingDef>
+
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Kronosaurus</defName>
 		<label>kronosaurus</label>

@@ -7,17 +7,7 @@
 		<foodMaxFactor>6</foodMaxFactor>
 		<statFactors>
 			<MoveSpeed>0.5</MoveSpeed>
-			<BiomesCore_FlySpeed>0.5</BiomesCore_FlySpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonFlying</texPath>
-					<drawSize>1</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<LifeStageDef>
@@ -32,17 +22,7 @@
 		<meleeDamageFactor>0.8</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
-			<BiomesCore_FlySpeed>0.9</BiomesCore_FlySpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonFlying</texPath>
-					<drawSize>1.5</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<LifeStageDef>
@@ -52,15 +32,6 @@
 		<reproductive>true</reproductive>
 		<milkable>true</milkable>
 		<shearable>true</shearable>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>BiomesCore_FlySpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonFlying</texPath>
-					<drawSize>2</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<ThingDef ParentName="AnimalThingBase">
@@ -68,8 +39,7 @@
 		<label>dimorphodon</label>
 		<description>Dimorphodon is a small pterosaur with a skull nearly one-third of its total body length. Their skull, however, is surprisingly light since it's virtually just scaffolding. It is able to run along the ground using its wings like legs, much like certain bats. The Dimorphodon hunts small prey.\n\nScientific name: Dimorphodon macronyx</description>
 		<statBases>
-			<BiomesCore_FlySpeed>10</BiomesCore_FlySpeed>
-			<SwimSpeed>5</SwimSpeed>
+			<MoveSpeed>3</MoveSpeed>
 			<MarketValue>730</MarketValue>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
@@ -187,6 +157,19 @@
 		<modExtensions>
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">
 				<bodyClock>Crepuscular</bodyClock>
+			</li>
+			<li Class="PathfindingFramework.MovementExtension">
+				<movementDef>PF_Movement_Flying</movementDef>
+			</li>
+			<li Class="PathfindingFramework.LocomotionExtension">
+				<locomotionUrgencies>
+					<li>Jog</li>
+					<li>Sprint</li>
+				</locomotionUrgencies>
+				<moveSpeedMultiplier>4</moveSpeedMultiplier>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonFlying</texPath>
+				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>

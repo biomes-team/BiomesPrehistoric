@@ -7,7 +7,6 @@
         <description>Kaprosuchus has three sets of tusk-like teeth, with this type of teeth not being known in any other crocodilian. It is primarily a terrestrial predator with a powerful bite that it uses to shred its prey to pieces.\n\nScientific name: Kaprosuchus saharicus</description>
         <statBases>
             <MoveSpeed>4</MoveSpeed>
-            <SwimSpeed MayRequire="biomesteam.biomesislands">10</SwimSpeed>
             <MarketValue>360</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>50</ComfyTemperatureMax>

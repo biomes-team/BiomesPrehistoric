@@ -3,15 +3,16 @@
 	<v1.3>
 		<li>1.3</li>
 		<li>\</li>
-        <li IfModActive="BiomesTeam.BiomesIslands">1.3FlyingAndAquaticAnimals</li>
-        <li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.3VEFPatch</li>
-        <li IfModActive="vanillaexpanded.backgrounds">1.3VBgE</li>
-	 </v1.3>
+		<li IfModActive="BiomesTeam.BiomesIslands">1.3FlyingAndAquaticAnimals</li>
+		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.3VEFPatch</li>
+		<li IfModActive="vanillaexpanded.backgrounds">1.3VBgE</li>
+	</v1.3>
 	<v1.4>
 		<li>1.4</li>
 		<li>\</li>
-		<li IfModActive="BiomesTeam.BiomesIslands">1.4FlyingAndAquaticAnimals</li>
+		<li IfModActive="BiomesTeam.BiomesIslands">1.4/Mods/BiomesIslands</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.4VEFPatch</li>
+		<li IfModActive="pathfinding.framework">1.4FlyingAndAquaticAnimals</li>
 		<li IfModActive="vanillaexpanded.backgrounds">1.4VBgE</li>
 		<!--<li IfModActive="musicexpanded.framework">MusicExpandedPatch</li>-->
 	</v1.4>

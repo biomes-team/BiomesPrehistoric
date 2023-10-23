@@ -7,17 +7,7 @@
         <foodMaxFactor>4</foodMaxFactor>
         <statFactors>
             <MoveSpeed>0.6</MoveSpeed>
-            <SwimSpeed MayRequire="biomesteam.biomesislands">0.6</SwimSpeed>
         </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
-                <drawSize>1.2</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
     </LifeStageDef>
 
     <LifeStageDef>
@@ -32,16 +22,8 @@
         <meleeDamageFactor>0.75</meleeDamageFactor>
         <statFactors>
             <MoveSpeed>0.9</MoveSpeed>
-            <SwimSpeed MayRequire="biomesteam.biomesislands">0.9</SwimSpeed>
         </statFactors>
         <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
-                <drawSize>1.5</drawSize>
-            </bodyGraphicData>
-        </li>
         </modExtensions>
     </LifeStageDef>
 
@@ -51,13 +33,6 @@
         <visible>false</visible>
         <reproductive>true</reproductive>
         <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
-                <drawSize>1.8</drawSize>
-            </bodyGraphicData>
-        </li>
         </modExtensions>
     </LifeStageDef>
 
@@ -67,7 +42,6 @@
     <description>An amphibian somewhat like a salamander or newt but with a huge boomerang shaped skull. \n\nScientific name: Diplocaulus salamandroides (Salamader-like double caul) \n\nSome scientists think that its skull shape acted as a hydrofoil, allowing it to move up and down in the water with ease.</description>
     <statBases>
 		<MoveSpeed>3.2</MoveSpeed>
-		<SwimSpeed MayRequire="biomesteam.biomesislands">7.5</SwimSpeed>
 		<MarketValue>200</MarketValue>
 		<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 		<ComfyTemperatureMax>60</ComfyTemperatureMax>
@@ -119,6 +93,19 @@
         <li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
             <isBottomFeeder>true</isBottomFeeder>
         </li>
+	    <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
+		    <movementDef>PF_Movement_Amphibious</movementDef>
+	    </li>
+		    <li MayRequire="pathfinding.framework" Class="PathfindingFramework.TerrainTagGraphicExtension">
+			    <terrainTags>
+				    <li>PF_TerrainTag_WaterShallow</li>
+				    <li>PF_TerrainTag_WaterChest</li>
+				    <li>PF_TerrainTag_WaterDeep</li>
+			    </terrainTags>
+			    <graphicData>
+				    <texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
+			    </graphicData>
+		    </li>
     </modExtensions>
     <comps>
 		<li Class="CompProperties_EggLayer">

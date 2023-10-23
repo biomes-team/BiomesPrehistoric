@@ -7,17 +7,7 @@
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
 			<MoveSpeed>0.5</MoveSpeed>
-			<SwimSpeed>0.5</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/MegalodonSubmerged</texPath>
-					<drawSize>8</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<LifeStageDef>
@@ -32,17 +22,7 @@
 		<meleeDamageFactor>0.75</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
-			<SwimSpeed>0.9</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/MegalodonSubmerged</texPath>
-					<drawSize>10</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<LifeStageDef>
@@ -52,15 +32,6 @@
 		<reproductive>true</reproductive>
 		<milkable>true</milkable>
 		<shearable>true</shearable>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/MegalodonSubmerged</texPath>
-					<drawSize>16</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 
 	<ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
@@ -68,8 +39,7 @@
 		<label>megalodon</label>
 		<description>The largest known shark species of all time. Their range covers virtually all warm oceans, with their young living in the warmer shallower waters. They tend to feed upon large prey, such as whales and sea turtles.\n\nScientific name: Otodus megalodon</description>
 		<statBases>
-			<MoveSpeed>0</MoveSpeed>
-			<SwimSpeed>16</SwimSpeed>
+			<MoveSpeed>16</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<MarketValue>3000</MarketValue>
@@ -125,7 +95,7 @@
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
-			<useMeatFrom>BiomesIslands_WhiteShark</useMeatFrom>
+			<specificMeatDef>BMT_FishMeat</specificMeatDef>
 			<litterSizeCurve>
                 <points>
                     <li>(0.5, 0)</li>
@@ -154,6 +124,18 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<comps />
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Megalodon/MegalodonSubmerged</texPath>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

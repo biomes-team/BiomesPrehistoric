@@ -1,103 +1,72 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 
+<Defs>
 
-<Defs>   
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_LiopleurodonBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.6</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
 
-    <LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_LiopleurodonBabyTiny</defName>
-        <bodySizeFactor>0.1</bodySizeFactor>
-        <foodMaxFactor>4</foodMaxFactor>
-        <statFactors>
-            <MoveSpeed>0.6</MoveSpeed>
-            <SwimSpeed>0.6</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/LiopleurodonSubmerged</texPath>
-                <drawSize>2</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+	<LifeStageDef>
+		<defName>BMT_LiopleurodonJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
 
-    <LifeStageDef>
-        <defName>BMT_LiopleurodonJuvenile</defName>
-        <label>juvenile</label>
-        <voxPitch>1.2</voxPitch>
-        <bodySizeFactor>0.5</bodySizeFactor>
-        <foodMaxFactor>1.5</foodMaxFactor>
-        <healthScaleFactor>0.6</healthScaleFactor>
-        <hungerRateFactor>0.75</hungerRateFactor>
-        <marketValueFactor>0.75</marketValueFactor>
-        <meleeDamageFactor>0.75</meleeDamageFactor>
-        <statFactors>
-            <MoveSpeed>0.9</MoveSpeed>
-            <SwimSpeed>0.9</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/LiopleurodonSubmerged</texPath>
-                <drawSize>3.2</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+	<LifeStageDef>
+		<defName>BMT_LiopleurodonAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
 
-    <LifeStageDef>
-        <defName>BMT_LiopleurodonAdult</defName>
-        <label>adult</label>
-        <visible>false</visible>
-        <reproductive>true</reproductive>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/LiopleurodonSubmerged</texPath>
-                <drawSize>4</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
-
-    <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
-        <defName>BMT_Liopleurodon</defName>
-        <label>liopleurodon</label>
-        <description>The Liopleurodon was the apex predator of Europe’s seas during the mid-to-late Jurassic and reached sizes larger than a killer whale. While most plesiosaurs fed on fish and had long necks, Liopleurodon had a shorter neck and a larger head, indicating that it predated on other marine reptiles as well as fish. It is also perfectly willing to eat any unlucky humanoid that is swimming through its domain.\n\nScientific name: L. ferox</description>
-        <statBases>
-            <MoveSpeed>0</MoveSpeed>
-            <SwimSpeed>7</SwimSpeed>
-            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-            <ComfyTemperatureMax>46</ComfyTemperatureMax>
-            <MarketValue>2800</MarketValue>
-        </statBases>
-        <tools>
-            <li>
-                <label>teeth</label>
-                <capacities>
-                    <li>Bite</li>
-                </capacities>
-                <power>35</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
+		<defName>BMT_Liopleurodon</defName>
+		<label>liopleurodon</label>
+		<description>The Liopleurodon was the apex predator of Europe’s seas during the mid-to-late Jurassic and reached sizes larger than a killer whale. While most plesiosaurs fed on fish and had long necks, Liopleurodon had a shorter neck and a larger head, indicating that it predated on other marine reptiles as well as fish. It is also perfectly willing to eat any unlucky humanoid that is swimming through its domain.\n\nScientific name: L. ferox</description>
+		<statBases>
+			<MoveSpeed>7</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>46</ComfyTemperatureMax>
+			<MarketValue>2800</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>35</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>30</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
-            </li>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>30</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
 			<li>
 				<label>head</label>
 				<capacities>
-				  <li>Blunt</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>25</power>
 				<cooldownTime>2</cooldownTime>
@@ -105,112 +74,124 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.3</chanceFactor>
 			</li>
-        </tools>
-        <race>
-            <predator>true</predator>
-            <body>Biomes_WhaleBody</body>
+		</tools>
+		<race>
+			<predator>true</predator>
+			<body>Biomes_WhaleBody</body>
 			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
-            <baseHungerRate>2.7</baseHungerRate>
-            <baseBodySize>4</baseBodySize>
-            <baseHealthScale>5</baseHealthScale>
-            <foodType>CarnivoreAnimal</foodType>
+			<baseHungerRate>2.7</baseHungerRate>
+			<baseBodySize>4</baseBodySize>
+			<baseHealthScale>5</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
 			<maxPreyBodySize>3</maxPreyBodySize>
-            <gestationPeriodDays>12</gestationPeriodDays>
-            <packAnimal>false</packAnimal>
-            <wildness>0.95</wildness>
-            <petness>0.0</petness>
-            <lifeExpectancy>65</lifeExpectancy>
-            <trainability>Intermediate</trainability>
-            <manhunterOnTameFailChance>0.75</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.85</manhunterOnDamageChance>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<packAnimal>false</packAnimal>
+			<wildness>0.95</wildness>
+			<petness>0.0</petness>
+			<lifeExpectancy>65</lifeExpectancy>
+			<trainability>Intermediate</trainability>
+			<manhunterOnTameFailChance>0.75</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<useMeatFrom>BMT_Elasmosaurus</useMeatFrom>
 			<litterSizeCurve>
-                <points>
-                    <li>(0.5, 0)</li>
-                    <li>(1, 1)</li>
-                    <li>(2, 1.5)</li>
-                    <li>(3, 1)</li>
-                    <li>(3.5, 0)</li>
-                </points>
-            </litterSizeCurve>
-            <lifeStageAges>
-                <li>
-                    <def>BMT_LiopleurodonBabyTiny</def>
-                    <minAge>0</minAge>
-                </li>
-                <li>
-                    <def>BMT_LiopleurodonJuvenile</def>
-                    <minAge>1.8</minAge>
-                </li>
-                <li>
-                    <def>BMT_LiopleurodonAdult</def>
-                    <minAge>3.5</minAge>
-                    <soundWounded>BMT_Gallimimus_Wounded</soundWounded>
-                    <soundDeath>BMT_Gallimimus_Death</soundDeath>
-                    <soundCall>BMT_Gallimimus_Call</soundCall>
-                    <soundAngry>BMT_Gallimimus_Angry</soundAngry>
-                </li>
-            </lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-        </race>
-        <comps />
-    </ThingDef>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.5)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>BMT_LiopleurodonBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_LiopleurodonJuvenile</def>
+					<minAge>1.8</minAge>
+				</li>
+				<li>
+					<def>BMT_LiopleurodonAdult</def>
+					<minAge>3.5</minAge>
+					<soundWounded>BMT_Gallimimus_Wounded</soundWounded>
+					<soundDeath>BMT_Gallimimus_Death</soundDeath>
+					<soundCall>BMT_Gallimimus_Call</soundCall>
+					<soundAngry>BMT_Gallimimus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<comps/>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/LiopleurodonSubmerged</texPath>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
-    <PawnKindDef ParentName="AnimalKindBase">
-        <defName>BMT_Liopleurodon</defName>
-        <label>liopleurodon</label>
-        <race>BMT_Liopleurodon</race>
-        <combatPower>270</combatPower>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Liopleurodon</defName>
+		<label>liopleurodon</label>
+		<race>BMT_Liopleurodon</race>
+		<combatPower>270</combatPower>
 		<ecoSystemWeight>3.0</ecoSystemWeight>
-        <lifeStages>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
-                    <drawSize>2.0</drawSize>
-                    <shadowData>
-                        <volume>(1, 0.5, 0.2)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-				
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
-                    <drawSize>2.0</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
-                    <drawSize>3.2</drawSize>
-                    <shadowData>
-                        <volume>(1, 0.5, 0.2)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-				
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
-                    <drawSize>3.2</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
-                    <drawSize>4</drawSize>
-                    <shadowData>
-                        <volume>(1.2, 0.5, 0.2)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-				
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
-                    <drawSize>4</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-        </lifeStages>
-    </PawnKindDef>
-	
-	</Defs>   
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+					<drawSize>2.0</drawSize>
+					<shadowData>
+						<volume>(1, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+					<drawSize>2.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+					<drawSize>3.2</drawSize>
+					<shadowData>
+						<volume>(1, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+					<drawSize>3.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+					<drawSize>4</drawSize>
+					<shadowData>
+						<volume>(1.2, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>   

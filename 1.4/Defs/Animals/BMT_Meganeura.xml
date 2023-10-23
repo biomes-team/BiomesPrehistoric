@@ -6,8 +6,7 @@
         <label>meganeura</label>
         <description>Meganeura, a giant dragonfly-like insect which eats small animals and plants. Despite looking like a dragonfly, it is actually more closely related to Damselflies.\n\nScientific name: Meganeura brongniarti</description>
         <statBases>
-            <MoveSpeed>5</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
-            <BiomesCore_FlySpeed MayRequire="biomesteam.biomesislands">5</BiomesCore_FlySpeed>
+            <MoveSpeed>4</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
             <MarketValue>225</MarketValue>
             <ComfyTemperatureMin>-10</ComfyTemperatureMin>
             <ComfyTemperatureMax>57</ComfyTemperatureMax>
@@ -102,6 +101,9 @@
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">
 				<bodyClock>Nocturnal</bodyClock>
 			</li>
+        <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
+            <movementDef>PF_Movement_Flying</movementDef>
+        </li>
 		</modExtensions>
     </ThingDef>
 

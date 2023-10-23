@@ -1,103 +1,70 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_MosasaurusBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.8</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
 
+	<LifeStageDef>
+		<defName>BMT_MosasaurusJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>1.6</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
 
-<Defs>   
+	<LifeStageDef>
+		<defName>BMT_MosasaurusAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
 
-    <LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_MosasaurusBabyTiny</defName>
-        <bodySizeFactor>0.1</bodySizeFactor>
-        <foodMaxFactor>4</foodMaxFactor>
-        <statFactors>
-            <MoveSpeed>0.8</MoveSpeed>
-            <SwimSpeed>0.8</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/MosasaurusSubmerged</texPath>
-                <drawSize>5.5</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
-
-    <LifeStageDef>
-        <defName>BMT_MosasaurusJuvenile</defName>
-        <label>juvenile</label>
-        <voxPitch>1.2</voxPitch>
-        <bodySizeFactor>0.5</bodySizeFactor>
-        <foodMaxFactor>1.5</foodMaxFactor>
-        <healthScaleFactor>0.6</healthScaleFactor>
-        <hungerRateFactor>0.75</hungerRateFactor>
-        <marketValueFactor>0.75</marketValueFactor>
-        <meleeDamageFactor>0.75</meleeDamageFactor>
-        <statFactors>
-            <MoveSpeed>1.6</MoveSpeed>
-            <SwimSpeed>1.6</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/MosasaurusSubmerged</texPath>
-                <drawSize>8.0</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
-
-    <LifeStageDef>
-        <defName>BMT_MosasaurusAdult</defName>
-        <label>adult</label>
-        <visible>false</visible>
-        <reproductive>true</reproductive>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/MosasaurusSubmerged</texPath>
-                <drawSize>10.5</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
-
-    <ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
-        <defName>BMT_Mosasaurus</defName>
-        <label>mosasaurus</label>
-        <description>Mosasaurus swam using its long crocodile-like body in an undulating motion to swim and devoured all kinds of prey with its massive jaws and sharp, cone-shaped teeth. It lives and hunts the well-lit surface waters of the oceans.\n\nScientific name: Mosasaurus hoffmannii</description>
-        <statBases>
-            <MoveSpeed>3</MoveSpeed>
-            <SwimSpeed>9.5</SwimSpeed>
-            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-            <ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <MarketValue>3800</MarketValue>
-        </statBases>
-        <tools>
-            <li>
-                <label>teeth</label>
-                <capacities>
-                    <li>Bite</li>
-                </capacities>
-                <power>30</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
+		<defName>BMT_Mosasaurus</defName>
+		<label>mosasaurus</label>
+		<description>Mosasaurus swam using its long crocodile-like body in an undulating motion to swim and devoured all kinds of prey with its massive jaws and sharp, cone-shaped teeth. It lives and hunts the well-lit surface waters of the oceans.\n\nScientific name: Mosasaurus hoffmannii</description>
+		<statBases>
+			<MoveSpeed>9.5</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MarketValue>3800</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>30</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
-            </li>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>30</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
 			<li>
 				<label>head</label>
 				<capacities>
-				  <li>Blunt</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>35</power>
 				<cooldownTime>2</cooldownTime>
@@ -105,112 +72,125 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.3</chanceFactor>
 			</li>
-        </tools>
-        <race>
-		    <meatLabel>mosasaur meat</meatLabel>
-            <predator>true</predator>
-            <body>Biomes_WhaleBody</body>
+		</tools>
+		<race>
+			<meatLabel>mosasaur meat</meatLabel>
+			<predator>true</predator>
+			<body>Biomes_WhaleBody</body>
 			<leatherDef>BiomesIslands_Leather_Whaleskin</leatherDef>
-            <baseHungerRate>2.7</baseHungerRate>
-            <baseBodySize>7</baseBodySize>
-            <baseHealthScale>4.5</baseHealthScale>
-            <foodType>CarnivoreAnimal</foodType>
+			<baseHungerRate>2.7</baseHungerRate>
+			<baseBodySize>7</baseBodySize>
+			<baseHealthScale>4.5</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
 			<maxPreyBodySize>6.9</maxPreyBodySize>
-            <gestationPeriodDays>15</gestationPeriodDays>
-            <packAnimal>false</packAnimal>
-            <wildness>0.95</wildness>
-            <petness>0.0</petness>
-            <lifeExpectancy>70</lifeExpectancy>
-            <trainability>Intermediate</trainability>
-            <manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
-            <manhunterOnDamageChance>0.90</manhunterOnDamageChance>
+			<gestationPeriodDays>15</gestationPeriodDays>
+			<packAnimal>false</packAnimal>
+			<wildness>0.95</wildness>
+			<petness>0.0</petness>
+			<lifeExpectancy>70</lifeExpectancy>
+			<trainability>Intermediate</trainability>
+			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.90</manhunterOnDamageChance>
 			<litterSizeCurve>
-                <points>
-                    <li>(0.5, 0)</li>
-                    <li>(1, 1)</li>
-                    <li>(2, 1.5)</li>
-                    <li>(3, 1)</li>
-                    <li>(3.5, 0)</li>
-                </points>
-            </litterSizeCurve>
-            <lifeStageAges>
-                <li>
-                    <def>BMT_MosasaurusBabyTiny</def>
-                    <minAge>0</minAge>
-                </li>
-                <li>
-                    <def>BMT_MosasaurusJuvenile</def>
-                    <minAge>2</minAge>
-                </li>
-                <li>
-                    <def>BMT_MosasaurusAdult</def>
-                    <minAge>3</minAge>
-                    <soundWounded>BMT_Gallimimus_Wounded</soundWounded>
-                    <soundDeath>BMT_Gallimimus_Death</soundDeath>
-                    <soundCall>BMT_Gallimimus_Call</soundCall>
-                    <soundAngry>BMT_Gallimimus_Angry</soundAngry>
-                </li>
-            </lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-        </race>
-        <comps />
-    </ThingDef>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.5)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>BMT_MosasaurusBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_MosasaurusJuvenile</def>
+					<minAge>2</minAge>
+				</li>
+				<li>
+					<def>BMT_MosasaurusAdult</def>
+					<minAge>3</minAge>
+					<soundWounded>BMT_Gallimimus_Wounded</soundWounded>
+					<soundDeath>BMT_Gallimimus_Death</soundDeath>
+					<soundCall>BMT_Gallimimus_Call</soundCall>
+					<soundAngry>BMT_Gallimimus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<comps/>
 
-    <PawnKindDef ParentName="AnimalKindBase">
-        <defName>BMT_Mosasaurus</defName>
-        <label>mosasaurus</label>
-        <race>BMT_Mosasaurus</race>
-        <combatPower>270</combatPower>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/MosasaurusSubmerged</texPath>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Mosasaurus</defName>
+		<label>mosasaurus</label>
+		<race>BMT_Mosasaurus</race>
+		<combatPower>270</combatPower>
 		<ecoSystemWeight>4.0</ecoSystemWeight>
-        <lifeStages>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
-                    <drawSize>5.5</drawSize>
-                    <shadowData>
-                        <volume>(1, 0.5, 0.3)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-				
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
-                    <drawSize>5.5</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
-                    <drawSize>8.0</drawSize>
-                    <shadowData>
-                        <volume>(1, 0.5, 0.3)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-				
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
-                    <drawSize>8.0</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
-                    <drawSize>10.5</drawSize>
-                    <shadowData>
-                        <volume>(1, 0.5, 0.3)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-				
-                <dessicatedBodyGraphicData>
-                    <texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
-                    <drawSize>10.5</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-        </lifeStages>
-    </PawnKindDef>
-	
-	</Defs>   
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
+					<drawSize>5.5</drawSize>
+					<shadowData>
+						<volume>(1, 0.5, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<drawSize>5.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
+					<drawSize>8.0</drawSize>
+					<shadowData>
+						<volume>(1, 0.5, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<drawSize>8.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Mosasaurus</texPath>
+					<drawSize>10.5</drawSize>
+					<shadowData>
+						<volume>(1, 0.5, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<drawSize>10.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>   

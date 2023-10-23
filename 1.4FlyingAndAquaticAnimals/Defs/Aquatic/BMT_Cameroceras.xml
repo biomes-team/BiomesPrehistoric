@@ -6,17 +6,7 @@
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
 			<MoveSpeed>0.5</MoveSpeed>
-			<SwimSpeed>0.5</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/CamerocerasSubmerged</texPath>
-					<drawSize>3</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 	<LifeStageDef>
 		<defName>BMT_CamerocerasJuvenile</defName>
@@ -30,17 +20,7 @@
 		<meleeDamageFactor>0.75</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
-			<SwimSpeed>0.9</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/CamerocerasSubmerged</texPath>
-					<drawSize>6</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 	<LifeStageDef>
 		<defName>BMT_CamerocerasAdult</defName>
@@ -49,23 +29,13 @@
 		<reproductive>true</reproductive>
 		<milkable>true</milkable>
 		<shearable>true</shearable>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/CamerocerasSubmerged</texPath>
-					<drawSize>9</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
 	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Cameroceras</defName>
 		<label>cameroceras</label>
 		<description>A gigantic species of cephalopod, once quite common in some areas during the Ordovician period on Earth. It is thought to be largely an ambush predator, lying in wait for its prey rather than actively hunting.\n\nScientific name:Cameroceras trentonense</description>
 		<statBases>
-			<MoveSpeed>0</MoveSpeed>
-			<SwimSpeed>4</SwimSpeed>
+			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<MarketValue>420</MarketValue>
@@ -153,7 +123,20 @@
 		<butcherProducts>
 			<BMT_Molluskshell>60</BMT_Molluskshell>
 		</butcherProducts>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/CamerocerasSubmerged</texPath>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</ThingDef>
+
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Cameroceras</defName>
 		<label>cameroceras</label>

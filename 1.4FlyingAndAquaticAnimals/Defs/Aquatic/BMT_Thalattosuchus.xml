@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 	<LifeStageDef ParentName="AnimalBaby">
 		<defName>BMT_ThalattosuchusBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
 			<MoveSpeed>0.5</MoveSpeed>
-			<SwimSpeed>0.5</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedA</texPath>
-					<drawSize>1.4</drawSize>
-				</bodyGraphicData>
-				<alternateGraphicsData>
-					<li>
-						<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedB</texPath>
-						<drawSize>1.4</drawSize>
-					</li>
-				</alternateGraphicsData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_ThalattosuchusJuvenile</defName>
 		<label>juvenile</label>
@@ -36,24 +22,9 @@
 		<meleeDamageFactor>0.75</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
-			<SwimSpeed>0.9</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedA</texPath>
-					<drawSize>2</drawSize>
-				</bodyGraphicData>
-				<alternateGraphicsData>
-					<li>
-						<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedB</texPath>
-						<drawSize>2</drawSize>
-					</li>
-				</alternateGraphicsData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_ThalattosuchusAdult</defName>
 		<label>adult</label>
@@ -61,29 +32,14 @@
 		<reproductive>true</reproductive>
 		<milkable>true</milkable>
 		<shearable>true</shearable>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedA</texPath>
-					<drawSize>2.4</drawSize>
-				</bodyGraphicData>
-				<alternateGraphicsData>
-					<li>
-						<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedB</texPath>
-						<drawSize>2.4</drawSize>
-					</li>
-				</alternateGraphicsData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Thalattosuchus</defName>
 		<label>thalattosuchus</label>
 		<description>While comparable in size to modern crocodilians, this species instead had a streamlined and finned body suited for the open ocean. Like many other aquatic predators, it had "salt glands" that allowed it to filter out the salt from the water it ingests as well as its salty prey.\n\nScientific Name:Metriorhynchus brevirostris</description>
 		<statBases>
-			<MoveSpeed>0</MoveSpeed>
-			<SwimSpeed>7</SwimSpeed>
+			<MoveSpeed>7</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<MarketValue>120</MarketValue>
@@ -145,7 +101,7 @@
 			<trainability>None</trainability>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
-			<useMeatFrom>BiomesIslands_WhiteShark</useMeatFrom>
+			<specificMeatDef>BMT_FishMeat</specificMeatDef>
 			<lifeStageAges>
 				<li>
 					<def>BMT_ThalattosuchusBabyTiny</def>
@@ -168,7 +124,25 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedA</texPath>
+				</graphicData>
+				<alternateGraphicsData>
+					<li>
+						<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedB</texPath>
+					</li>
+				</alternateGraphicsData>
+			</li>
+		</modExtensions>
 	</ThingDef>
+
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Thalattosuchus</defName>
 		<label>thalattosuchus</label>

@@ -1,72 +1,42 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<LifeStageDef ParentName="AnimalBaby">
-        <defName>BMT_EurypteridBabyTiny</defName>
-        <bodySizeFactor>0.1</bodySizeFactor>
-        <foodMaxFactor>4</foodMaxFactor>
-        <statFactors>
-            <MoveSpeed>0.8</MoveSpeed>
-            <SwimSpeed>0.8</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/EurypteridSubmerged</texPath>
-                <drawSize>1.2</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+		<defName>BMT_EurypteridBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.8</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
 
-    <LifeStageDef>
-        <defName>BMT_EurypteridJuvenile</defName>
-        <label>juvenile</label>
-        <voxPitch>1.2</voxPitch>
-        <bodySizeFactor>0.5</bodySizeFactor>
-        <foodMaxFactor>1.5</foodMaxFactor>
-        <healthScaleFactor>0.6</healthScaleFactor>
-        <hungerRateFactor>0.75</hungerRateFactor>
-        <marketValueFactor>0.75</marketValueFactor>
-        <meleeDamageFactor>0.75</meleeDamageFactor>
-        <statFactors>
-            <MoveSpeed>1.6</MoveSpeed>
-            <SwimSpeed>1.6</SwimSpeed>
-        </statFactors>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/EurypteridSubmerged</texPath>
-                <drawSize>2.2</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+	<LifeStageDef>
+		<defName>BMT_EurypteridJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>1.6</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
 
-    <LifeStageDef>
-        <defName>BMT_EurypteridAdult</defName>
-        <label>adult</label>
-        <visible>false</visible>
-        <reproductive>true</reproductive>
-        <modExtensions>
-        <li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-            <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-            <bodyGraphicData>
-                <texPath>BMT_Prehistoric/Aquatic/Eurypterid/EurypteridSubmerged</texPath>
-                <drawSize>3.2</drawSize>
-            </bodyGraphicData>
-        </li>
-        </modExtensions>
-    </LifeStageDef>
+	<LifeStageDef>
+		<defName>BMT_EurypteridAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
 
-	<ThingDef ParentName="BiomesCore_WaterAnimal"  ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_WaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Eurypterid</defName>
 		<label>eurypterid</label>
-		<description>Despite being commonly known as “sea scorpions,” Only the earliest forms of Eurypterid were marine, with most of the later ones living in brackish or freshwater. Some may have had dual respiratory systems and may have been able to go on land for short periods of time, like some modern crabs.</description>
+		<description>Despite being commonly known as “sea scorpions”, only the earliest forms of Eurypterid were marine, with most of the later ones living in brackish or freshwater. Some may have had dual respiratory systems and may have been able to go on land for short periods of time, like some modern crabs.</description>
 		<statBases>
-			<MoveSpeed>0</MoveSpeed>
-			<SwimSpeed>14</SwimSpeed>
+			<MoveSpeed>14</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
@@ -104,9 +74,16 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<!-- <li Class="NocturnalAnimals.ExtendedRaceProperties"> -->
-				<!-- <bodyClock>Nocturnal</bodyClock> -->
-			<!-- </li> -->
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/EurypteridSubmerged</texPath>
+				</graphicData>
+			</li>
 			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
@@ -120,7 +97,7 @@
 			<baseHungerRate>0.8</baseHungerRate>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>0.8</baseHealthScale>
-            <foodType>CarnivoreAnimalStrict</foodType>
+			<foodType>CarnivoreAnimalStrict</foodType>
 			<predator>true</predator>
 			<maxPreyBodySize>0.8</maxPreyBodySize>
 			<gestationPeriodDays>30</gestationPeriodDays>
@@ -143,9 +120,9 @@
 					<soundDeath>Pawn_Rodent_Death</soundDeath>
 				</li>
 			</lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<comps>
 			<li Class="BiomesCore.CompProperties_BottomFeeder">
@@ -165,7 +142,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Eurypterid</defName>
 		<label>eurypterid</label>
-		<description>Despite being commonly known as “sea scorpions,” Only the earliest forms of Eurypterid were marine, with most of the later ones living in brackish or freshwater. Some may have had dual respiratory systems and may have been able to go on land for short periods of time, like some modern crabs.</description>
+		<description>Despite being commonly known as “sea scorpions”, Only the earliest forms of Eurypterid were marine, with most of the later ones living in brackish or freshwater. Some may have had dual respiratory systems and may have been able to go on land for short periods of time, like some modern crabs.</description>
 		<race>BMT_Eurypterid</race>
 		<combatPower>50</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
@@ -174,10 +151,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
 					<drawSize>1.2</drawSize>
-                    <shadowData>
-                        <volume>(0.6, 0.3, 0.1)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(0.6, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
@@ -188,10 +165,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
 					<drawSize>2.2</drawSize>
-                    <shadowData>
-                        <volume>(0.8, 0.3, 0.1)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(0.8, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
@@ -202,10 +179,10 @@
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
 					<drawSize>3.2</drawSize>
-                    <shadowData>
-                        <volume>(1, 0.3, 0.1)</volume>
-                        <offset>(0,0,-0.2)</offset>
-                    </shadowData>
+					<shadowData>
+						<volume>(1, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
@@ -214,6 +191,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_EggEurypteridFertilized</defName>
 		<label>eurypterid egg (fert.)</label>

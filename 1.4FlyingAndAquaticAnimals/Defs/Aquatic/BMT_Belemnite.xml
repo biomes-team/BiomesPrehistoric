@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 	<LifeStageDef ParentName="AnimalBaby">
 		<defName>BMT_BelemniteBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
 		<foodMaxFactor>4</foodMaxFactor>
 		<statFactors>
 			<MoveSpeed>0.5</MoveSpeed>
-			<SwimSpeed>0.5</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Belemnite/BelemniteSubmerged</texPath>
-					<drawSize>0.5</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_BelemniteJuvenile</defName>
 		<label>juvenile</label>
@@ -30,18 +22,9 @@
 		<meleeDamageFactor>0.75</meleeDamageFactor>
 		<statFactors>
 			<MoveSpeed>0.9</MoveSpeed>
-			<SwimSpeed>0.9</SwimSpeed>
 		</statFactors>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Belemnite/BelemniteSubmerged</texPath>
-					<drawSize>1</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<LifeStageDef>
 		<defName>BMT_BelemniteAdult</defName>
 		<label>adult</label>
@@ -49,23 +32,14 @@
 		<reproductive>true</reproductive>
 		<milkable>true</milkable>
 		<shearable>true</shearable>
-		<modExtensions>
-			<li Class="TerrainMovement.TerrainMovementPawnKindGraphics">
-				<pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Belemnite/BelemniteSubmerged</texPath>
-					<drawSize>1.6</drawSize>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</LifeStageDef>
+
 	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Belemnite</defName>
 		<label>belemnite</label>
 		<description>An Belemnite.</description>
 		<statBases>
-			<MoveSpeed>0</MoveSpeed>
-			<SwimSpeed>4</SwimSpeed>
+			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<MarketValue>320</MarketValue>
@@ -151,7 +125,20 @@
 		<butcherProducts>
 			<BMT_Molluskshell>20</BMT_Molluskshell>
 		</butcherProducts>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<graphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Belemnite/BelemniteSubmerged</texPath>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</ThingDef>
+
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Belemnite</defName>
 		<label>belemnite</label>

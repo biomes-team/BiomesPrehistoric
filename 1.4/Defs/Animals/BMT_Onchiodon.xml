@@ -7,17 +7,7 @@
     <foodMaxFactor>4</foodMaxFactor>
     <statFactors>
       <MoveSpeed>0.6</MoveSpeed>
-      <SwimSpeed MayRequire="biomesteam.biomesislands">0.6</SwimSpeed>
     </statFactors>
-    <modExtensions>
-      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-        <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
-          <drawSize>1.4</drawSize>
-        </bodyGraphicData>
-      </li>
-    </modExtensions>
   </LifeStageDef>
 
   <LifeStageDef>
@@ -32,17 +22,7 @@
     <meleeDamageFactor>0.75</meleeDamageFactor>
     <statFactors>
       <MoveSpeed>0.9</MoveSpeed>
-      <SwimSpeed MayRequire="biomesteam.biomesislands">0.9</SwimSpeed>
     </statFactors>
-    <modExtensions>
-      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-        <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
-          <drawSize>1.7</drawSize>
-        </bodyGraphicData>
-      </li>
-    </modExtensions>
   </LifeStageDef>
 
   <LifeStageDef>
@@ -50,15 +30,6 @@
     <label>adult</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
-    <modExtensions>
-      <li Class="TerrainMovement.TerrainMovementPawnKindGraphics" MayRequire="biomesteam.biomesislands">
-        <pawnSpeedStat>SwimSpeed</pawnSpeedStat>
-        <bodyGraphicData>
-          <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
-          <drawSize>2.0</drawSize>
-        </bodyGraphicData>
-      </li>
-    </modExtensions>
   </LifeStageDef>
 
   <ThingDef ParentName="AnimalThingBase">
@@ -67,7 +38,6 @@
     <description>The "Manebacher Saurier" looks like today's crocodiles and was a similarly voracious predator. It was not a reptile but an amphibian and thus more closely related to today's giant salamander. \n\nScientific name: Onchiodon manebachensis</description>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
-      <SwimSpeed MayRequire="biomesteam.biomesislands">5.5</SwimSpeed>
       <MarketValue>155</MarketValue>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
@@ -167,7 +137,20 @@
 	<li Class="NocturnalAnimals.ExtendedRaceProperties">
 		<bodyClock>Nocturnal</bodyClock>
 	</li>
-</modExtensions>
+  <li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
+    <movementDef>PF_Movement_Amphibious</movementDef>
+  </li>
+      <li MayRequire="pathfinding.framework" Class="PathfindingFramework.TerrainTagGraphicExtension">
+        <terrainTags>
+          <li>PF_TerrainTag_WaterShallow</li>
+          <li>PF_TerrainTag_WaterChest</li>
+          <li>PF_TerrainTag_WaterDeep</li>
+        </terrainTags>
+        <graphicData>
+          <texPath>BMT_Prehistoric/Animals/Onchiodon/OnchiodonSubmerged</texPath>
+        </graphicData>
+      </li>
+    </modExtensions>
 </ThingDef>
 
 <ThingDef ParentName="EggFertBase">
