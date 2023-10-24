@@ -129,23 +129,6 @@
 		<butcherProducts>
 			<BMT_Molluskshell>30</BMT_Molluskshell>
 		</butcherProducts>
-		<modExtensions>
-			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
-				<terrainTags>
-					<li>PF_TerrainTag_WaterShallow</li>
-					<li>PF_TerrainTag_WaterChest</li>
-					<li>PF_TerrainTag_WaterDeep</li>
-				</terrainTags>
-				<graphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedA</texPath>
-				</graphicData>
-				<alternateGraphicsData>
-					<li>
-						<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedB</texPath>
-					</li>
-				</alternateGraphicsData>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -207,8 +190,24 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedA</texPath>
+				</bodyGraphicData>
+				<alternateGraphics>
+					<li>
+						<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasSubmergedB</texPath>
+					</li>
+				</alternateGraphics>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
-
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_EggOrthocerasFertilized</defName>

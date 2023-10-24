@@ -77,15 +77,6 @@
 			<li Class="NocturnalAnimals.ExtendedRaceProperties">
 				<bodyClock>Nocturnal</bodyClock>
 			</li>
-			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
-				<terrainTags>
-					<li>PF_TerrainTag_WaterChest</li>
-					<li>PF_TerrainTag_WaterDeep</li>
-				</terrainTags>
-				<graphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/KaikaifiluSubmerged</texPath>
-				</graphicData>
-			</li>
 		</modExtensions>
 		<race>
 			<useMeatFrom>BMT_Mosasaurus</useMeatFrom>
@@ -129,6 +120,7 @@
 		</race>
 		<comps />
 	</ThingDef>
+
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Kaikaifilu</defName>
 		<label>kaikaifilu</label>
@@ -179,5 +171,20 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<modExtensions>
+			<li Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/KaikaifiluSubmerged</texPath>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
-</Defs>   
+
+</Defs>

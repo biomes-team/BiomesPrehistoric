@@ -89,16 +89,6 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
-				<terrainTags>
-					<li>PF_TerrainTag_WaterShallow</li>
-					<li>PF_TerrainTag_WaterChest</li>
-					<li>PF_TerrainTag_WaterDeep</li>
-				</terrainTags>
-				<graphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Leedsichthys/LeedsichthysSubmerged</texPath>
-				</graphicData>
-			</li>
 			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
@@ -142,6 +132,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 	</ThingDef>
+
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>BMT_Leedsichthys</defName>
 		<label>leedsichthys</label>
@@ -192,7 +183,20 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Leedsichthys/LeedsichthysSubmerged</texPath>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
+
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_EggLeedsichthysFertilized</defName>
 		<label>leedsichthys egg (fert.)</label>

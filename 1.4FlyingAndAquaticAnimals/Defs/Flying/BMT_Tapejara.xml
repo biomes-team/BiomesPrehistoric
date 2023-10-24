@@ -156,15 +156,12 @@
 			<li Class="PathfindingFramework.MovementExtension">
 				<movementDef>PF_Movement_Flying</movementDef>
 			</li>
-			<li Class="PathfindingFramework.LocomotionExtension">
+			<li Class="PathfindingFramework.LocomotionMovementExtension">
 				<locomotionUrgencies>
 					<li>Jog</li>
 					<li>Sprint</li>
 				</locomotionUrgencies>
 				<moveSpeedMultiplier>4</moveSpeedMultiplier>
-				<graphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Tapejara/TapejaraFlying</texPath>
-				</graphicData>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -221,6 +218,17 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<modExtensions>
+			<li Class="PathfindingFramework.LocomotionGraphicExtension">
+				<locomotionUrgencies>
+					<li>Jog</li>
+					<li>Sprint</li>
+				</locomotionUrgencies>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Pterosaur/Tapejara/TapejaraFlying</texPath>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
 	<ThingDef ParentName="EggFertBase">

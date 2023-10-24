@@ -124,23 +124,6 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		<modExtensions>
-			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
-				<terrainTags>
-					<li>PF_TerrainTag_WaterShallow</li>
-					<li>PF_TerrainTag_WaterChest</li>
-					<li>PF_TerrainTag_WaterDeep</li>
-				</terrainTags>
-				<graphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedA</texPath>
-				</graphicData>
-				<alternateGraphicsData>
-					<li>
-						<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedB</texPath>
-					</li>
-				</alternateGraphicsData>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -199,7 +182,25 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedA</texPath>
+				</bodyGraphicData>
+				<alternateGraphics>
+					<li>
+						<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusSubmergedB</texPath>
+					</li>
+				</alternateGraphics>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
+
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_EggThalattosuchusFertilized</defName>
 		<label>thalattosuchus egg (fert.)</label>
