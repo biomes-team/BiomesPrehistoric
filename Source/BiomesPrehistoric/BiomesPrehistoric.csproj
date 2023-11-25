@@ -76,6 +76,7 @@
     <Compile Include="Defs\PrehistoricModDef.cs" />
     <Compile Include="IncidentWorker_GelatinousGuardiansEggDrop.cs" />
     <Compile Include="IncidentWorker_SaurumboPasses.cs" />
+    <Compile Include="Patches\PrehistoricWorld\IncidentWorker_FarmAnimalsWanderIn_IncidentWorker_FarmAnimalsWanderIn_Patch.cs" />
     <Compile Include="PrehistoricPackAnimals.cs" />
     <Compile Include="PrehistoricSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
