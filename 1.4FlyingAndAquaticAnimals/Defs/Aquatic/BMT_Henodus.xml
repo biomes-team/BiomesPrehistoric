@@ -88,6 +88,9 @@
 			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
+			<li Class="PathfindingFramework.MovementExtension">
+				<movementDef>PF_Movement_Aquatic</movementDef>
+			</li>
 		</modExtensions>
 		<race>
 			<body>TurtleLike</body>
@@ -126,11 +129,6 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 		</tradeTags>
-		<modExtensions>
-			<li Class="PathfindingFramework.MovementExtension">
-				<movementDef>PF_Movement_Aquatic</movementDef>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
