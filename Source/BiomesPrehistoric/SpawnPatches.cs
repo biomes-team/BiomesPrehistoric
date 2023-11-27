@@ -40,54 +40,6 @@ namespace BiomesPrehistoric
         }
     }
 
-
-    /// <summary>
-    /// prevents manhunter non-dinos when dinoworld is enabled
-    /// </summary>
-    [HarmonyPatch(typeof(ManhunterPackIncidentUtility), "TryFindManhunterAnimalKind")]
-    public static class ManhunterAnimalPatch
-    {
-        static bool Prefix(float points, int tile, ref PawnKindDef animalKind, ref bool __result)
-        {
-
-            // Log.Message("[Biomes! Prehistoric] Evaluating manhunter pack");
-            if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
-            {
-                // Log.Message("[Biomes! Prehistoric] DINO world is off. Running vanilla manhunter pack");
-                return true;
-            }
-
-            else
-            {
-                // Log.Message(String.Format("[Biomes! Prehistoric] DINO world is ON. Points: {0}", points));
-                IEnumerable<PawnKindDef> source = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => k.RaceProps.Animal && k.canArriveManhunter && (tile == -1 || Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)));
-                source = source.Where(k => Util.IsPrehistoric(k));
-                if (source.Any())
-                {
-                    if (source.TryRandomElementByWeight((PawnKindDef a) => ManhunterPackIncidentUtility.ManhunterAnimalWeight(a, points), out animalKind))
-                    {
-                        // Log.Message("[Biomes! Prehistoric] Branch A: selected " + animalKind?.defName);
-                        __result = true;
-                        return false;
-                    }
-                    else if (points > source.Min((PawnKindDef a) => a.combatPower) * 2f)
-                    {
-                        animalKind = source.MaxBy((PawnKindDef a) => a.combatPower);
-                        // Log.Message("[Biomes! Prehistoric] Branch B: selected " + animalKind?.defName);
-                        __result = true;
-                        return false;
-                    }
-                }
-
-                // Log.Message("[Biomes! Prehistoric] Branch C");
-                animalKind = null;
-                __result = false;
-                return false;
-            }
-            
-        }
-    }
-
     [HarmonyPatch(typeof(BiomeDef), nameof(BiomeDef.IsPackAnimalAllowed))]
     internal static class TraderPackAnimalPatch
     {

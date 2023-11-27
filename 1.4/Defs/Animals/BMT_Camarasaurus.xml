@@ -155,7 +155,7 @@
 
     <PawnKindDef ParentName="AnimalKindBase">
         <defName>BMT_Camarasaurus</defName>
-        <label>Camarasaurus</label>
+        <label>camarasaurus</label>
         <race>BMT_Camarasaurus</race>
         <combatPower>275</combatPower>
         <wildGroupSize>2~3</wildGroupSize>
