@@ -8,7 +8,7 @@ namespace BiomesPrehistoric
 	{
 		protected override bool CanFireNowSub(IncidentParms parms)
 		{
-			if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
+			if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld)
 			{
 				return false;
 			}

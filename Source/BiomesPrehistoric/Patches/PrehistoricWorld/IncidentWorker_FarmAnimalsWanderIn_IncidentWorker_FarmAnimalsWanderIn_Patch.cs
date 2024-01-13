@@ -13,7 +13,7 @@ namespace BiomesPrehistoric.Patches.PrehistoricWorld
 	{
 		public static bool Prefix(Map map, ref PawnKindDef kind, ref bool __result)
 		{
-			if (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld)
+			if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld)
 			{
 				return true;
 			}

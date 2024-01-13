@@ -76,7 +76,7 @@ namespace BiomesPrehistoric
 				FactionPackAnimalsBackup[factionDef.shortHash] = new List<PawnGenOption>(traderGroupMaker.carriers);
 			}
 
-			if (BiomesPrehistoricMod.mod.settings.spawnOption == SpawnOption.DinoWorld)
+			if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoWorld)
 			{
 				// When dino world is enabled, the list is just replaced with the available prehistoric animals.
 				traderGroupMaker.carriers = _data.options;
@@ -90,7 +90,7 @@ namespace BiomesPrehistoric
 			var regularWeight = traderGroupMaker.carriers.Sum(option => option.selectionWeight);
 
 			var prehistoricAdjustment =
-				regularWeight / _data.totalWeight * BiomesPrehistoricMod.mod.settings.animalCommonality / 100.0f;
+				regularWeight / _data.totalWeight * PrehistoricSettings.Values.animalCommonality / 100.0f;
 
 			foreach (var prehistoricOption in _data.options)
 			{

@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BiomesPrehistoric.cs" />
+    <Compile Include="BiomesPrehistoricMod.cs" />
     <Compile Include="BiomesPrehistoric_DefOf.cs" />
     <Compile Include="Defs\PrehistoricModDef.cs" />
     <Compile Include="IncidentWorker_GelatinousGuardiansEggDrop.cs" />

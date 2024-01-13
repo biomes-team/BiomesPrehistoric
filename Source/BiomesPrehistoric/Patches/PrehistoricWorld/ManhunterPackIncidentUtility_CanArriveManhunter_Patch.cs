@@ -12,7 +12,7 @@ namespace BiomesPrehistoric.Patches.PrehistoricWorld
 	{
 		public static void Postfix(ref bool __result, PawnKindDef kind)
 		{
-			__result = __result && (BiomesPrehistoricMod.mod.settings.spawnOption != SpawnOption.DinoWorld ||
+			__result = __result && (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld ||
 			                        Util.IsPrehistoric(kind));
 		}
 	}
