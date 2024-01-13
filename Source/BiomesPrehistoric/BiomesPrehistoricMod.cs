@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using BiomesPrehistoric.SettingsUI;
 using UnityEngine;
 using Verse;
 
@@ -8,6 +10,34 @@ namespace BiomesPrehistoric
 	{
 		private const int MinCommonality = 5;
 		private const int MaxCommonality = 500;
+
+		/// <summary>
+		/// Space taken by the title of the mod in the mod settings window.
+		/// </summary>
+		private const float TitleHeight = GenUI.ListSpacing;
+
+		/// <summary>
+		/// Height of the tabs part of the settings window.
+		/// </summary>
+		private const float TabsHeight = GenUI.ListSpacing;
+
+		/// <summary>
+		/// The names of these labels must match the format used in the BMT_{}Tab translatable strings.
+		/// </summary>
+		public enum SettingsWindowTab
+		{
+			General,
+			PrehistoricAnimals,
+		}
+
+		/// <summary>
+		/// Current tab shown in the UI.
+		/// </summary>
+		private static SettingsWindowTab _tab = SettingsWindowTab.General;
+
+		private static readonly PrehistoricAnimalsTabUI PrehistoricAnimalsTabUI = new PrehistoricAnimalsTabUI();
+
+		private static Vector2 _scrollPos = Vector2.zero;
 
 		public static ModContentPack ModContentPack;
 
@@ -31,9 +61,53 @@ namespace BiomesPrehistoric
 			PrehistoricPackAnimals.Patch();
 		}
 
-		private static Vector2 _scrollPos = Vector2.zero;
+		private List<TabRecord> Tabs()
+		{
+			Type enumType = typeof(SettingsWindowTab);
+			List<TabRecord> tabs = new List<TabRecord>();
+			foreach (SettingsWindowTab tab in Enum.GetValues(enumType))
+			{
+				string tabStr = Enum.GetName(enumType, tab);
+				tabs.Add(new TabRecord($"BMT_{tabStr}Tab".Translate(), () =>
+				{
+					_tab = tab;
+					WriteSettings();
+				}, _tab == tab));
+			}
+
+			return tabs;
+		}
+
+		private void DoTabContents(Rect inRect)
+		{
+			switch (_tab)
+			{
+				case SettingsWindowTab.General:
+					GeneralTabUI(inRect);
+					break;
+				case SettingsWindowTab.PrehistoricAnimals:
+					PrehistoricAnimalsTabUI.Contents(inRect);
+					break;
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
+		}
 
 		public override void DoSettingsWindowContents(Rect inRect)
+		{
+			Rect settingsArea = inRect.BottomPartPixels(inRect.height - TitleHeight);
+			Rect tabArea = settingsArea.TopPartPixels(TabsHeight);
+
+			Widgets.DrawMenuSection(settingsArea);
+			TabDrawer.DrawTabs(tabArea, Tabs());
+
+			DoTabContents(settingsArea.ContractedBy(15.0f));
+			
+			DrawBottomButtons(inRect);
+			base.DoSettingsWindowContents(inRect);
+		}
+
+		public void GeneralTabUI(Rect inRect)
 		{
 			var rect = new Rect(0.0f, 0.0f, inRect.width, 800f);
 			rect.xMax *= 0.95f;
@@ -84,8 +158,7 @@ namespace BiomesPrehistoric
 
 			Widgets.EndScrollView();
 
-			DrawBottomButtons(inRect);
-			base.DoSettingsWindowContents(inRect);
+
 		}
 
 		/*

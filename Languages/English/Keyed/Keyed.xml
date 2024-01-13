@@ -2,7 +2,9 @@
 <LanguageData>
 
 	<BMT_BiomesPrehistoric>Biomes! Prehistoric</BMT_BiomesPrehistoric>
-	
+
+	<BMT_GeneralTab>General</BMT_GeneralTab>
+
 	<BMT_PrehistoricSettingsDesc>You can change your settings at any time, including mid-game. It will affect plant/animal spawns after you change it, but not anything that's already spawned.\n\nSettings will only apply to supported biomes. If your favorite biome isn't patched yet, tell us on Steam or on Discord!</BMT_PrehistoricSettingsDesc>
 	
 	<BMT_DinoAndVanillaLabel>Animals Only</BMT_DinoAndVanillaLabel>
@@ -19,6 +21,9 @@
 
 	<BMT_PrehistoricPlantCommonality>Prehistoric Plant Commonality: {0}%</BMT_PrehistoricPlantCommonality>
 	<BMT_PrehistoricPlantCommonalityTooltip>Changes how common wild prehistoric plants are when compared to other plants. By default they are as common as other plants. Values below 100% will make prehistoric plants less common, while values above it will make them appear more frequently.</BMT_PrehistoricPlantCommonalityTooltip>
+
+	<BMT_PrehistoricAnimalsTab>Prehistoric Animals</BMT_PrehistoricAnimalsTab>
+	<BMT_PrehistoricAnimalsTabDescription>Choose which animals will be considered prehistoric animals.</BMT_PrehistoricAnimalsTabDescription>
 
 	<BMT_ResetSettingsLabel>Reset</BMT_ResetSettingsLabel>
 	<BMT_ResetSettingsHover>Reset all options of the mod to their default values.</BMT_ResetSettingsHover>

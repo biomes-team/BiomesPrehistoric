@@ -90,6 +90,7 @@
     <Compile Include="Quests\GenStep_NestingSite.cs" />
     <Compile Include="Quests\SitePartWorker_NestingSite.cs" />
     <Compile Include="Quests\CompNestAlertNearby.cs" />
+    <Compile Include="SettingsUI\PrehistoricAnimalsTabUI.cs" />
     <Compile Include="SpawnPatches.cs" />
   </ItemGroup>
   <ItemGroup>
