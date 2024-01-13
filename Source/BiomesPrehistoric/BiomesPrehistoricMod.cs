@@ -83,6 +83,8 @@ namespace BiomesPrehistoric
 			//mainListing.CheckboxLabeled("BMT_MainMenuMusicEnabled".Translate(), ref PrehistoricSettings.Values.mainMenuMusic);
 
 			Widgets.EndScrollView();
+
+			DrawBottomButtons(inRect);
 			base.DoSettingsWindowContents(inRect);
 		}
 
@@ -93,6 +95,22 @@ namespace BiomesPrehistoric
 		    if (def != null) SongDefOf.EntrySong = def;
 		}
 		*/
+
+		private void DrawBottomButtons(Rect inRect)
+		{
+			float resetX = inRect.width - Window.CloseButSize.x;
+			// Dialog_ModSettings leaves a margin of Window.CloseButSize.y at the bottom for the close button.
+			// Then, there are three pixels between the top border of the close button and the rest of this window.
+			float resetY = inRect.height + Window.CloseButSize.y + 3;
+			Rect resetButtonArea = new Rect(resetX, resetY, Window.CloseButSize.x, Window.CloseButSize.y);
+
+			if (Widgets.ButtonText(resetButtonArea, "BMT_ResetSettingsLabel".Translate()))
+			{
+				PrehistoricSettings.Reset();
+			}
+
+			TooltipHandler.TipRegion(resetButtonArea, "BMT_ResetSettingsHover".Translate());
+		}
 
 		public static void SpawnPicker(Listing_Standard listing, bool active, Action action, string label, string desc,
 			string iconPath)

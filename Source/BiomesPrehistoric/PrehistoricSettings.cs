@@ -25,7 +25,15 @@ namespace BiomesPrehistoric
 		/// <summary>
 		/// Single instance of the setting values of this mod. Uses static for performance reasons.
 		/// </summary>
-		public static readonly SettingValues Values = new SettingValues();
+		public static SettingValues Values = new SettingValues();
+
+		/// <summary>
+		/// Set all settings to their default values.
+		/// </summary>
+		public static void Reset()
+		{
+			Values = new SettingValues();
+		}
 
 		// this is what saves the settings when the user closes the game
 		public override void ExposeData()
