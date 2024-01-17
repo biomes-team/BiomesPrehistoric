@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using System.Collections.Generic;
+using Verse;
 
 namespace BiomesPrehistoric
 {
@@ -18,6 +19,15 @@ namespace BiomesPrehistoric
 
 		// Prehistoric plant commonality. Only active with DinoAndPlant.
 		public int plantCommonality = 100;
+
+		/// <summary>
+		/// Stores the prehistoric animal status override for each pawnKindDef.race ThingDef.
+		/// This should not be accessed directly for read, use PrehistoricStatus instead.
+		/// Write access should be followed by PrehistoricStatus.Update.
+		/// Keys stored as defName strings to avoid issues when the modlist of a user changes.
+		/// Pawns no longer present are silently ignored, and will be deleted if the settings are saved.
+		/// </summary>
+		public Dictionary<string, bool> PrehistoricAnimalOverride = new Dictionary<string, bool>();
 	}
 
 	public class PrehistoricSettings : ModSettings
@@ -41,6 +51,13 @@ namespace BiomesPrehistoric
 			Scribe_Values.Look(ref Values.spawnOption, "spawnOption", SpawnOption.DinoAndPlant);
 			Scribe_Values.Look(ref Values.animalCommonality, "animalCommonality", 100, true);
 			Scribe_Values.Look(ref Values.plantCommonality, "plantCommonality", 100, true);
+			Scribe_Collections.Look(ref Values.PrehistoricAnimalOverride, nameof(Values.PrehistoricAnimalOverride), LookMode.Value,
+				LookMode.Value);
+			if (Scribe.mode == LoadSaveMode.LoadingVars && Values.PrehistoricAnimalOverride == null)
+			{
+				// Ensure that this dict is initialized after loading older configuration files.
+				Values.PrehistoricAnimalOverride = new Dictionary<string, bool>();
+			}
 		}
 	}
 }

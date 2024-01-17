@@ -82,20 +82,17 @@ namespace BiomesPrehistoric.SettingsUI
 			}
 
 			_entries = new List<AnimalEntry>();
-			HashSet<ThingDef> ignoreDuplicates = new HashSet<ThingDef>();
-
 			List<PawnKindDef> pawnKindDefs = DefDatabase<PawnKindDef>.AllDefsListForReading;
 			for (int pawnIndex = 0; pawnIndex < pawnKindDefs.Count; ++pawnIndex)
 			{
 				PawnKindDef pawnKindDef = pawnKindDefs[pawnIndex];
 				try
 				{
-					if (!IsValidPawnKindDef(pawnKindDef, ignoreDuplicates))
+					if (!PrehistoricStatus.IsAnimal(pawnKindDef.race))
 					{
 						continue;
 					}
 
-					ignoreDuplicates.Add(pawnKindDef.race);
 					_entries.Add(GetAnimalEntry(pawnKindDef));
 				}
 				catch (Exception exception)
@@ -146,9 +143,16 @@ namespace BiomesPrehistoric.SettingsUI
 
 
 			Widgets.Label(modRect, ModOf(pawnKindDef));
-			bool placeholder = Util.IsPrehistoric(pawnKindDef);
 			Vector2 position = new Vector2(checkboxRect.center.x, checkboxRect.center.y - Widgets.CheckboxSize / 2.0F);
-			Widgets.Checkbox(position, ref placeholder);
+			bool currentValue = PrehistoricStatus.IsPrehistoric(pawnKindDef);
+			bool previousValue = currentValue;
+			Widgets.Checkbox(position, ref currentValue);
+			if (previousValue != currentValue)
+			{
+				// When the user modifies one of the values, set the override and then trigger a prehistoric status update.
+				PrehistoricSettings.Values.PrehistoricAnimalOverride[pawnKindDef.race.defName] = currentValue;
+				PrehistoricStatus.Update(pawnKindDef);
+			}
 
 			if (Mouse.IsOver(rowRect))
 			{
@@ -203,7 +207,7 @@ namespace BiomesPrehistoric.SettingsUI
 			TextAnchor anchorBackup = Text.Anchor;
 
 			InitializeEntries();
-			Rect topRect =  inRect.TopPartPixels(GenUI.GapWide * 2 + GenUI.GapSmall);
+			Rect topRect = inRect.TopPartPixels(GenUI.GapWide * 2 + GenUI.GapSmall);
 			Rect labelRect = topRect.TopPartPixels(GenUI.GapWide);
 			Widgets.Label(labelRect, "BMT_PrehistoricAnimalsTabDescription".Translate());
 			Rect filterRect = topRect.BottomPartPixels(GenUI.GapWide);

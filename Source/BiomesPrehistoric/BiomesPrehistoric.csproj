@@ -84,6 +84,7 @@
     <Compile Include="IncidentWorker_SaurumboPasses.cs" />
     <Compile Include="Patches\PrehistoricWorld\IncidentWorker_FarmAnimalsWanderIn_IncidentWorker_FarmAnimalsWanderIn_Patch.cs" />
     <Compile Include="Patches\PrehistoricWorld\ManhunterPackIncidentUtility_CanArriveManhunter_Patch.cs" />
+    <Compile Include="PrehistoricStatus.cs" />
     <Compile Include="PrehistoricPackAnimals.cs" />
     <Compile Include="PrehistoricSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -26,16 +26,11 @@ namespace BiomesPrehistoric
 
 		private static void SetPrehistoricPackAnimalData()
 		{
-			if (_data.options != null && _data.options.Count > 0)
-			{
-				return;
-			}
-
 			_data.totalWeight = 0.0f;
 			_data.options = new List<PawnGenOption>();
 			foreach (var pawnKindDef in DefDatabase<PawnKindDef>.AllDefs)
 			{
-				if (!pawnKindDef.RaceProps.packAnimal || !Util.IsPrehistoric(pawnKindDef))
+				if (!pawnKindDef.RaceProps.packAnimal || !PrehistoricStatus.IsPrehistoric(pawnKindDef))
 				{
 					continue;
 				}

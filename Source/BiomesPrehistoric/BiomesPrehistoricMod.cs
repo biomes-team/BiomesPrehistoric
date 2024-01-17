@@ -45,8 +45,17 @@ namespace BiomesPrehistoric
 		{
 			GetSettings<PrehistoricSettings>();
 			ModContentPack = content;
-			// Patch factions with prehistoric pack animals after the game is fully loaded.
-			LongEventHandler.ExecuteWhenFinished(PrehistoricPackAnimals.Patch);
+			LongEventHandler.ExecuteWhenFinished(InitializeWhenLoadingFinished);
+		}
+
+		/// <summary>
+		/// Initialization steps that must take place after the game is fully loaded.
+		/// </summary>
+		private void InitializeWhenLoadingFinished()
+		{
+			PrehistoricStatus.Initialize();
+			// Patch factions with prehistoric pack animals.
+			PrehistoricPackAnimals.Patch();
 		}
 
 		public override string SettingsCategory()
@@ -180,6 +189,7 @@ namespace BiomesPrehistoric
 			if (Widgets.ButtonText(resetButtonArea, "BMT_ResetSettingsLabel".Translate()))
 			{
 				PrehistoricSettings.Reset();
+				PrehistoricStatus.Initialize();
 			}
 
 			TooltipHandler.TipRegion(resetButtonArea, "BMT_ResetSettingsHover".Translate());

@@ -17,9 +17,9 @@ namespace BiomesPrehistoric
         {
             if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoWorld)
             {
-                if(___wildAnimals?.Any(d => Util.IsPrehistoric(d.animal)) == true)
+                if(___wildAnimals?.Any(d => PrehistoricStatus.IsPrehistoric(d.animal)) == true)
                 {
-                    if (!Util.IsPrehistoric(animalDef))
+                    if (!PrehistoricStatus.IsPrehistoric(animalDef))
                     {
                         __result = 0f;
                         return false;
@@ -32,7 +32,7 @@ namespace BiomesPrehistoric
 
         static void Postfix(PawnKindDef animalDef, ref float __result)
         {
-            if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld && Util.IsPrehistoric(animalDef))
+            if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld && PrehistoricStatus.IsPrehistoric(animalDef))
             {
                 __result *= PrehistoricSettings.Values.animalCommonality;
                 __result /= 100.0f;
@@ -56,7 +56,7 @@ namespace BiomesPrehistoric
             var prehistoricAnimalsInBiome = new HashSet<PawnKindDef>();
             foreach (var animal in def.AllWildAnimals)
             {
-                if (animal.RaceProps != null && animal.RaceProps.packAnimal && Util.IsPrehistoric(animal))
+                if (animal.RaceProps != null && animal.RaceProps.packAnimal && PrehistoricStatus.IsPrehistoric(animal))
                 {
                     prehistoricAnimalsInBiome.Add(animal);
                 }
@@ -69,7 +69,7 @@ namespace BiomesPrehistoric
         {
             InitCache(__instance);
 
-            var isPrehistoric = Util.IsPrehistoric(pawn);
+            var isPrehistoric = PrehistoricStatus.IsPrehistoric(pawn);
             if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoWorld && !isPrehistoric)
             {
                 __result = false;
@@ -100,7 +100,7 @@ namespace BiomesPrehistoric
             {
                 return;
             }
-            __result = __result.Where(p => Util.IsPrehistoric(p));
+            __result = __result.Where(PrehistoricStatus.IsPrehistoric);
         }
     }
 
@@ -118,7 +118,7 @@ namespace BiomesPrehistoric
                 return true;
             }
 
-            __result = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => Util.IsPrehistoric(k) && k.RaceProps.CanDoHerdMigration && Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)).TryRandomElementByWeight((PawnKindDef x) => Mathf.Lerp(0.2f, 1f, x.RaceProps.wildness), out animalKind);
+            __result = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => PrehistoricStatus.IsPrehistoric(k) && k.RaceProps.CanDoHerdMigration && Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)).TryRandomElementByWeight((PawnKindDef x) => Mathf.Lerp(0.2f, 1f, x.RaceProps.wildness), out animalKind);
             
             return false;
         }
@@ -169,7 +169,7 @@ namespace BiomesPrehistoric
                 return true;
             }
 
-            if (Util.IsPrehistoric(k))
+            if (PrehistoricStatus.IsPrehistoric(k))
             {
                 return true;
             }
@@ -190,11 +190,11 @@ namespace BiomesPrehistoric
         {
             if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoWorld)
             {
-                outPlants.RemoveAll(p => !Util.IsPrehistoric(p));
+                outPlants.RemoveAll(p => !PrehistoricStatus.IsPrehistoric(p));
             }
             else if(PrehistoricSettings.Values.spawnOption == SpawnOption.DinoAndVanilla)
             {
-                outPlants.RemoveAll(Util.IsPrehistoric);
+                outPlants.RemoveAll(PrehistoricStatus.IsPrehistoric);
             }
         }
     }
@@ -204,15 +204,13 @@ namespace BiomesPrehistoric
     {
         static void Postfix(ThingDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
         {
-            if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoAndPlant && Util.IsPrehistoric(plantDef))
+            if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoAndPlant && PrehistoricStatus.IsPrehistoric(plantDef))
             {
                 __result *= PrehistoricSettings.Values.plantCommonality;
                 __result /= 100.0f;
             }
         }
     }
-
-
 
     /// <summary>
     /// foraged food
@@ -246,13 +244,4 @@ namespace BiomesPrehistoric
             return false;
         }
     }
-
-    public static class Util
-    {
-        public static bool IsPrehistoric(Def thing)
-        {
-            return PrehistoricModDef.AllPackageIds.Contains(thing.modContentPack?.PackageId);
-        }
-    }
-
 }

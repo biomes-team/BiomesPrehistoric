@@ -21,7 +21,7 @@ namespace BiomesPrehistoric.Patches.PrehistoricWorld
 			List<PawnKindDef> availableFarmAnimals = new List<PawnKindDef>();
 			foreach (PawnKindDef pawnKindDef in DefDatabase<PawnKindDef>.AllDefsListForReading)
 			{
-				if (pawnKindDef.RaceProps.Animal && Util.IsPrehistoric(pawnKindDef) && pawnKindDef.RaceProps.wildness < 0.35F &&
+				if (pawnKindDef.RaceProps.Animal && PrehistoricStatus.IsPrehistoric(pawnKindDef) && pawnKindDef.RaceProps.wildness < 0.35F &&
 				    map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(pawnKindDef.race) &&
 				    !pawnKindDef.race.tradeTags.NullOrEmpty() && pawnKindDef.race.tradeTags.Contains("AnimalFarm") &&
 				    !pawnKindDef.RaceProps.Dryad)
