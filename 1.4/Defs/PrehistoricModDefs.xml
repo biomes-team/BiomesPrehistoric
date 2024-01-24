@@ -15,7 +15,7 @@
 			<!-- Biome Expansion: Redwood forest -->
 			<li>kikohi.berf</li>
 			<!-- Medieval Overhaul -->
-			<li>DankPyon.Medieval.Overhaul</li>
+			<!-- <li>DankPyon.Medieval.Overhaul</li> -->
 		</packageIds>
 	</BiomesPrehistoric.Defs.PrehistoricModDef>
 
