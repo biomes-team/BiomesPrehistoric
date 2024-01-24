@@ -19,6 +19,10 @@ namespace BiomesPrehistoric
             {
                 if(___wildAnimals?.Any(d => PrehistoricStatus.IsPrehistoric(d.animal)) == true)
                 {
+					if (PrehistoricStatus.AlwaysSpawn(animalDef))
+					{
+						return true;
+					}
                     if (!PrehistoricStatus.IsPrehistoric(animalDef))
                     {
                         __result = 0f;
@@ -32,6 +36,10 @@ namespace BiomesPrehistoric
 
         static void Postfix(PawnKindDef animalDef, ref float __result)
         {
+			if (PrehistoricStatus.AlwaysSpawn(animalDef))
+			{
+				return;
+			}
             if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld && PrehistoricStatus.IsPrehistoric(animalDef))
             {
                 __result *= PrehistoricSettings.Values.animalCommonality;
@@ -67,8 +75,11 @@ namespace BiomesPrehistoric
 
         static void Postfix(ref BiomeDef __instance, ref bool __result, ThingDef pawn)
         {
+            if (PrehistoricStatus.AlwaysSpawn(pawn))
+            {
+                return;
+            }
             InitCache(__instance);
-
             var isPrehistoric = PrehistoricStatus.IsPrehistoric(pawn);
             if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoWorld && !isPrehistoric)
             {
@@ -113,6 +124,10 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(int tile, ref PawnKindDef animalKind, ref bool __result)
         {
+			if (PrehistoricStatus.AlwaysSpawn(animalKind))
+			{
+				return true;
+			}
             if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
@@ -164,6 +179,10 @@ namespace BiomesPrehistoric
     {
         static bool Prefix(PawnKindDef k, ref float __result)
         {
+			if (PrehistoricStatus.AlwaysSpawn(k))
+			{
+				return true;
+			}
             if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld)
             {
                 return true;
@@ -188,13 +207,17 @@ namespace BiomesPrehistoric
     {
         static void Postfix(List<ThingDef> outPlants)
         {
+			// if (PrehistoricStatus.AlwaysSpawn(k))
+			// {
+                // outPlants.RemoveAll(p => !PrehistoricStatus.IsPrehistoric(p));
+			// }
             if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoWorld)
             {
-                outPlants.RemoveAll(p => !PrehistoricStatus.IsPrehistoric(p));
+                outPlants.RemoveAll(p => !PrehistoricStatus.IsPrehistoric(p) && !PrehistoricStatus.AlwaysSpawn(p));
             }
             else if(PrehistoricSettings.Values.spawnOption == SpawnOption.DinoAndVanilla)
             {
-                outPlants.RemoveAll(PrehistoricStatus.IsPrehistoric);
+                outPlants.RemoveAll(p => PrehistoricStatus.IsPrehistoric(p) && !PrehistoricStatus.AlwaysSpawn(p));
             }
         }
     }
@@ -204,7 +227,7 @@ namespace BiomesPrehistoric
     {
         static void Postfix(ThingDef plantDef, List<BiomePlantRecord> ___wildPlants, ref float __result)
         {
-            if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoAndPlant && PrehistoricStatus.IsPrehistoric(plantDef))
+            if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoAndPlant && (PrehistoricStatus.IsPrehistoric(plantDef) || PrehistoricStatus.AlwaysSpawn(plantDef)))
             {
                 __result *= PrehistoricSettings.Values.plantCommonality;
                 __result /= 100.0f;

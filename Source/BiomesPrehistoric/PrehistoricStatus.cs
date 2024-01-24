@@ -25,6 +25,10 @@ namespace BiomesPrehistoric
 		{
 			return PrehistoricModDef.AllPackageIds.Contains(def.modContentPack?.PackageId);
 		}
+		public static bool AlwaysSpawn(Def def)
+		{
+			return PrehistoricModDef.AlwaysSpawnPackageIds.Contains(def.modContentPack?.PackageId);
+		}
 
 		/// <summary>
 		/// Sets up prehistoric animal status values after game load.

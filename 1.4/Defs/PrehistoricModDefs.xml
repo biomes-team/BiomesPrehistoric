@@ -14,9 +14,11 @@
 			<li>spino.megafauna</li>
 			<!-- Biome Expansion: Redwood forest -->
 			<li>kikohi.berf</li>
-			<!-- Medieval Overhaul -->
-			<!-- <li>DankPyon.Medieval.Overhaul</li> -->
 		</packageIds>
+		<packageIds_AlwaysSpawn>
+			<!-- Medieval Overhaul -->
+			<li>DankPyon.Medieval.Overhaul</li>
+		</packageIds_AlwaysSpawn>
 	</BiomesPrehistoric.Defs.PrehistoricModDef>
 
 </Defs>
