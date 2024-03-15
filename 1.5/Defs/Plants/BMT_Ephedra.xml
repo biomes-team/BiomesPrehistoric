@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- plant -->
+  <ThingDef ParentName="PlantBase" Name="BMT_EphedraBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Ephedra</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+        <offset>(0,0,-0.25)</offset>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <pathCost>14</pathCost>
+    <fillPercent>0.20</fillPercent>
+    <ingestible />
+    <plant>
+      <growDays>6</growDays>
+      <harvestYield>1</harvestYield>
+      <harvestWork>400</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestMinGrowth>0.90</harvestMinGrowth>
+      <harvestedThingDef>BMT_EphedraLeaves</harvestedThingDef>
+      <visualSizeRange>0.75~1.05</visualSizeRange>
+      <topWindExposure>0.1</topWindExposure>
+      <interferesWithRoof>false</interferesWithRoof>
+      <dieIfLeafless>true</dieIfLeafless>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BMT_EphedraBase">
+    <defName>BMT_Ephedra</defName>
+    <label>jointfir</label>
+    <description>Tough fibrous vegetation that produces a variety of exciting chemicals.</description>
+    <plant>
+      <fertilityMin>0.7</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <wildOrder>2</wildOrder>
+      <maxMeshCount>4</maxMeshCount>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BMT_EphedraBase">
+    <defName>BMT_EphedraPlanted</defName>
+    <label>planted jointfir</label>
+    <description>Tough fibrous vegetation that produces a variety of exciting chemicals.</description>
+    <plant>
+      <fertilityMin>0.7</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <visualSizeRange>0.65~0.85</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+  <!-- drug -->
+  <ThingDef ParentName="DrugBase">
+    <defName>BMT_EphedraLeaves</defName>
+    <label>ephedra leaves</label>
+    <description>Raw cut leaves of a ephedra. Can be refined into various form of the stimulant drug psychite.</description>
+    <descriptionHyperlinks>
+      <HediffDef>BMT_EphedraHigh</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Item/Resource/Raw/RawEphedra</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <tickerType>Rare</tickerType>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>0.05</Nutrition>
+      <Flammability>1.3</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <baseIngestTicks>80</baseIngestTicks>
+      <chairSearchRadius>4</chairSearchRadius>
+      <preferability>DesperateOnly</preferability>
+      <tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.2</joy>
+      <nurseable>false</nurseable>
+      <drugCategory>Social</drugCategory>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BMT_EphedraHigh</hediffDef>
+          <severity>0.333</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <allowedArchonexusCount>50</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- hediff -->
+  <HediffDef>
+    <defName>BMT_EphedraHigh</defName>
+    <label>ephedra high</label>
+    <description>Recently chew ephedra. I am awake.</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <defaultLabelColor>(0,0.7,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <restFallFactorOffset>-0.3</restFallFactorOffset>
+        <statOffsets>
+          <InjuryHealingFactor>-0.2</InjuryHealingFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- thought-->
+  <ThoughtDef>
+    <defName>BMT_EphedraThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BMT_EphedraHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>ephedra high</label>
+        <description>I can do this all day.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

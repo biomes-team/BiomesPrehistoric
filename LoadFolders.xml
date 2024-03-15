@@ -13,7 +13,17 @@
 		<li IfModActive="BiomesTeam.BiomesIslands">1.4/Mods/BiomesIslands</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.4VEFPatch</li>
 		<li IfModActive="pathfinding.framework">1.4FlyingAndAquaticAnimals</li>
+		<li IfModActive="pathfinding.framework">PathfindingFramework</li>
 		<li IfModActive="vanillaexpanded.backgrounds">1.4VBgE</li>
 		<!--<li IfModActive="musicexpanded.framework">MusicExpandedPatch</li>-->
 	</v1.4>
+	<v1.5>
+		<li>1.5</li>
+		<li>\</li>
+		<li IfModActive="BiomesTeam.BiomesIslands">1.5/Mods/BiomesIslands</li>
+		<li IfModActive="BiomesTeam.Oasis">1.5/Mods/BiomesOasis</li>
+		<li IfModActive="zylle.MoreVanillaBiomes">1.5/Mods/MoreVanillaBiomes</li>
+		<li IfModActive="pathfinding.framework">1.5/Mods/PathfindingFramework</li>
+		<li IfModActive="pathfinding.framework">PathfindingFramework</li>
+	</v1.5>
 </loadFolders>

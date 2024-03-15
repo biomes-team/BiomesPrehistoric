@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>BMT_Crinoid</defName>
+		<label>sea lilies</label>
+		<description>Adult crinoids are called sea lilies and are attached to the sea bottom by a stalk. While they may appear to be a plant, they are actually an animal, much like sea anemone.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Flammability>0.15</Flammability>
+			<Nutrition>1.20</Nutrition>
+		</statBases>
+		<selectable>true</selectable>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+				<terrainTags>
+					<li>Water</li>
+					<li>Salty</li>
+					<li>Shallow</li>
+					<li>Deep</li>
+				</terrainTags>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Plant/Crinoid</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Plant</foodType>
+			<preferability>RawTasty</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+		</ingestible>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>3</growDays>
+			<harvestWork>80</harvestWork>
+			<visualSizeRange>0.8~1.0</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>4</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<interferesWithRoof>false</interferesWithRoof>
+		</plant>
+	</ThingDef>
+
+</Defs>

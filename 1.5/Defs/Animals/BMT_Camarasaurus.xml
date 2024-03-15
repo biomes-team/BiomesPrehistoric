@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Camarasaurus</defName>
+		<label>camarasaurus</label>
+		<description>A huge warm blooded herbivore like other sauropods, Camarasaurus specialises in stripping everything even slightly edible from the upper canopy. This tree specific diet allows them to coexist with other sauropods without competition.\n\nScientific name: Camarasaurus supremus (Supreme chambered lizard)\n\nThe name chambered lizard refers to the fact that Camarasaurus has hollow bones like a bird, probably to reduce weight.</description>
+		<statBases>
+			<MoveSpeed>5.3</MoveSpeed>
+			<MarketValue>2420</MarketValue>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<FilthRate>22</FilthRate>
+			<CaravanRidingSpeedFactor>1.2</CaravanRidingSpeedFactor>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Brachiosaurus</useMeatFrom>
+			<body>BMT_QuadrupedWithNeckAndTailWeapon</body>
+			<leatherDef>BMT_DinoHideHeavy</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>9.0</baseBodySize>
+			<baseHealthScale>7.3</baseHealthScale>
+			<baseHungerRate>2.535</baseHungerRate>
+			<packAnimal>false</packAnimal>
+			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+			<willNeverEat>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+			</willNeverEat>
+			<predator>false</predator>
+			<wildness>0.50</wildness>
+			<lifeExpectancy>95</lifeExpectancy>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+			<trainability>None</trainability>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>1.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>2.25</minAge>
+					<soundWounded>BMT_Brachiosaurus_Wounded</soundWounded>
+					<soundDeath>BMT_Brachiosaurus_Death</soundDeath>
+					<soundCall>BMT_Brachiosaurus_Call</soundCall>
+					<soundAngry>BMT_Brachiosaurus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_CamarasaurusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>4</eggFertilizationCountMax>
+				<eggLayIntervalDays>13.5</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~4</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>front left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4.8</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>front right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4.8</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4.8</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4.8</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>tail</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>3</cooldownTime>
+				<linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>neck</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>4</cooldownTime>
+				<linkedBodyPartsGroup>BMT_NeckAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Camarasaurus</defName>
+		<label>camarasaurus</label>
+		<race>BMT_Camarasaurus</race>
+		<combatPower>275</combatPower>
+		<wildGroupSize>2~3</wildGroupSize>
+		<alternateGraphicChance>0.50</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusB</texPath>
+			</li>
+		</alternateGraphics>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusA</texPath>
+					<drawSize>2.0</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Camarasaurus/Dessicated_Camarasaurus</texPath>
+					<drawSize>2.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusA</texPath>
+					<drawSize>5</drawSize>
+					<shadowData>
+						<volume>(1.5, 1.1, 0.8)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Camarasaurus/Dessicated_Camarasaurus</texPath>
+					<drawSize>5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusA</texPath>
+					<drawSize>10.0</drawSize>
+					<shadowData>
+						<volume>(2, 1.5, 1.0)</volume>
+						<offset>(0,0,-1.0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Camarasaurus/Dessicated_Camarasaurus</texPath>
+					<drawSize>10.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_CamarasaurusEggFertilized</defName>
+		<label>camarasaurus egg (fert.)</label>
+		<description>A fertilized camarasaurus egg. If all goes well, it should hatch into a baby camarasaurus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
+			<color>(230,212,193)</color>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>2.25</Nutrition>
+			<MarketValue>20.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>8</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Camarasaurus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Timimus</defName>
+		<label>timimus</label>
+		<description>Timimus is one of the very few dinosaurs known to have inhabited polar regions and is believed to have cared for its young. It likely hibernated during colder months like modern bears.\n\nScientific name: Timimus hermani</description>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<MarketValue>350</MarketValue>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>35</ComfyTemperatureMax>
+			<FilthRate>10</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Velociraptor</useMeatFrom>
+			<body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
+			<leatherDef>BMT_DinoHideFeathery</leatherDef>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>0.9</baseBodySize>
+			<baseHealthScale>0.55</baseHealthScale>
+			<baseHungerRate>0.20</baseHungerRate>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<predator>true</predator>
+			<wildness>0.20</wildness>
+			<lifeExpectancy>13</lifeExpectancy>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+			<nuzzleMtbHours>20</nuzzleMtbHours>
+			<trainability>Advanced</trainability>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.11</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.25</minAge>
+					<soundWounded>BMT_Compsognathus_Wounded</soundWounded>
+					<soundDeath>BMT_Compsognathus_Death</soundDeath>
+					<soundCall>BMT_Compsognathus_Call</soundCall>
+					<soundAngry>BMT_Compsognathus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_Shearable">
+				<woolDef>BMT_DinoFeather</woolDef>
+				<shearIntervalDays>60</shearIntervalDays>
+				<woolAmount>5</woolAmount>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_TimimusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~3</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<modExtensions>
+			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Timimus</defName>
+		<label>timimus</label>
+		<race>BMT_Timimus</race>
+		<combatPower>75</combatPower>
+		<wildGroupSize>1</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Timimus/Timimus</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Timimus/Dessicated_Timimus</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Timimus/Timimus</texPath>
+					<drawSize>2.3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Timimus/Dessicated_Timimus</texPath>
+					<drawSize>2.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Timimus/Timimus</texPath>
+					<drawSize>3.3</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Timimus/Dessicated_Timimus</texPath>
+					<drawSize>3.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_TimimusEggFertilized</defName>
+		<label>timimus egg (fert.)</label>
+		<description>A fertilized timimus egg. If all goes well, it should hatch into a baby timimus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(181,164,138)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.4</Nutrition>
+			<MarketValue>21.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5.8</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Timimus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/RecipeDef[defName="Make_Wort"]/allowMixingIngredients</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="Make_Wort"]</xpath>
+			<value>
+				<allowMixingIngredients>true</allowMixingIngredients>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="Make_Wort"]/allowMixingIngredients</xpath>
+			<value>
+				<allowMixingIngredients>true</allowMixingIngredients>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="Make_Wort"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>BMT_RawNypa</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="Make_Wort"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>BMT_RawNypa</li>
+		</value>
+	</Operation>
+</Patch>

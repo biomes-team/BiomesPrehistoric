@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Carcharodontosaurus</defName>
+		<label>carcharodontosaurus</label>
+		<description>Carcharodontosaurus is one of the largest land carnivores, and is strong enough to allow it pick up and shake animals as large as horses to death in its mighty jaws.\n\nScientific name: Carcharodontosaurus saharicus (Great white shark lizard of the sahara).\n\nThe first fossils found consisted only of teeth, later found ones were destroyed in an air raid and at last the species was rediscovered for future research.</description>
+		<statBases>
+			<MoveSpeed>5</MoveSpeed>
+			<MarketValue>2500</MarketValue>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<FilthRate>12</FilthRate>
+			<CaravanRidingSpeedFactor>1.4</CaravanRidingSpeedFactor>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Velociraptor</useMeatFrom>
+			<body>BMT_BipedWithClawsTeethAndTailThreeDH</body>
+			<leatherDef>BMT_DinoHideHeavy</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>5.8</baseBodySize>
+			<baseHealthScale>4.7</baseHealthScale>
+			<baseHungerRate>0.60</baseHungerRate>
+			<foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>5</maxPreyBodySize>
+			<wildness>0.85</wildness>
+			<lifeExpectancy>20</lifeExpectancy>
+			<manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
+			<trainability>Advanced</trainability>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.6</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1.3</minAge>
+					<soundWounded>BMT_TRex_Wounded</soundWounded>
+					<soundDeath>BMT_TRex_Death</soundDeath>
+					<soundCall>BMT_TRex_Call</soundCall>
+					<soundAngry>BMT_TRex_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<uiIconScale>1</uiIconScale>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_CarcharodontosaurusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>4</eggFertilizationCountMax>
+				<eggLayIntervalDays>14</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.3</chanceFactor>
+			</li>
+			<li>
+				<label>right claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.3</chanceFactor>
+			</li>
+			<li>
+				<label>left foot</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>6</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right foot</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>6</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<!--chanceFactor>0.7</chanceFactor-->
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalFighter</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Carcharodontosaurus</defName>
+		<label>carcharodontosaurus</label>
+		<race>BMT_Carcharodontosaurus</race>
+		<combatPower>360</combatPower>
+		<wildGroupSize>2~4</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Carcharodontosaurus/Carcharodontosaurus</texPath>
+					<drawSize>1.9</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Carcharodontosaurus/Dessicated_Carcharodontosaurus</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Carcharodontosaurus/Carcharodontosaurus</texPath>
+					<drawSize>4.9</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Carcharodontosaurus/Dessicated_Carcharodontosaurus</texPath>
+					<drawSize>4.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Carcharodontosaurus/Carcharodontosaurus</texPath>
+					<drawSize>8.1</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Carcharodontosaurus/Dessicated_Carcharodontosaurus</texPath>
+					<drawSize>8.1</drawSize>
+				</dessicatedBodyGraphicData>
+				<!--butcherBodyPart>
+						<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+						<thing>BMT_TyrannoSkull</thing>
+				</butcherBodyPart-->
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_CarcharodontosaurusEggFertilized</defName>
+		<label>carcharodontosaurus egg (fert.)</label>
+		<description>A fertilized carcharodontosaurus egg. If all goes well, it should hatch into a baby carcharodontosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
+			<color>(236,206,196)</color>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>1.7</Nutrition>
+			<MarketValue>63</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>12</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Carcharodontosaurus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

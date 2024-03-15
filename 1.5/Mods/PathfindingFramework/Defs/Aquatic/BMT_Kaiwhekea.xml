@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_KaiwhekeaBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.8</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_KaiwhekeaJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>1.6</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_KaiwhekeaAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
+
+	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+		<defName>BMT_Kaiwhekea</defName>
+		<label>kaiwhekea</label>
+		<description>Despite weighing over one ton, it was actually rather small for a plesiosaur. Its mouth is filled with a multitude of small conical teeth that make it an expert at catching fish.\n\nScientific Name:Kaiwhekea katiki</description>
+		<statBases>
+			<MoveSpeed>8.8</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MarketValue>3400</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>30</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.3</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<predator>true</predator>
+			<body>BMT_WhaleBody</body>
+			<leatherDef>BMT_Leather_Whaleskin</leatherDef>
+			<baseHungerRate>2.7</baseHungerRate>
+			<baseBodySize>3.8</baseBodySize>
+			<baseHealthScale>4.5</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<maxPreyBodySize>0.9</maxPreyBodySize>
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<packAnimal>false</packAnimal>
+			<wildness>0.95</wildness>
+			<petness>0.0</petness>
+			<lifeExpectancy>90</lifeExpectancy>
+			<trainability>Intermediate</trainability>
+			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
+			<useMeatFrom>BMT_Elasmosaurus</useMeatFrom>
+			<lifeStageAges>
+				<li>
+					<def>BMT_KaiwhekeaBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_KaiwhekeaJuvenile</def>
+					<minAge>1.5</minAge>
+				</li>
+				<li>
+					<def>BMT_KaiwhekeaAdult</def>
+					<minAge>2.5</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Fishing.</consumingFoodReportString>
+				<effecterDef>BMT_EatFish</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Kaiwhekea</defName>
+		<label>kaiwhekea</label>
+		<race>BMT_Kaiwhekea</race>
+		<combatPower>250</combatPower>
+		<ecoSystemWeight>3.0</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
+					<drawSize>2.0</drawSize>
+					<shadowData>
+						<volume>(1, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+					<drawSize>2.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
+					<drawSize>3.4</drawSize>
+					<shadowData>
+						<volume>(1, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+					<drawSize>3.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
+					<drawSize>4.8</drawSize>
+					<shadowData>
+						<volume>(1, 0.3, 0.1)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+					<drawSize>4.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/KaiwhekeaSubmerged</texPath>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+</Defs>   

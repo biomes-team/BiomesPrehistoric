@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>BMT_RaptorClaw</defName>
+		<label>sickle claw</label>
+		<description>A raptors razor-sharp sickle claw. This is a true trophy, as well as a deadly melee weapon.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/RaptorClaw</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<statBases>
+			<MarketValue>80</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>2</Beauty>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Scratch</li>
+					<li>Stab</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>Trophy</li>
+			<li>InertRelics</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<relicChance>2</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>BMT_CeratopsidHorn</defName>
+		<label>ceratopsid horn</label>
+		<description>An ceratopsia's horn. It is very durable but mostly hollow. While somewhat complicated to wield as a melee weapon, it can be used quickly and deadly.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/TriceratopsHorn</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<equippedAngleOffset>-40</equippedAngleOffset>
+		<statBases>
+			<MarketValue>90</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.8</Mass>
+			<Flammability>0.9</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>2</Beauty>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Scratch</li>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>base</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>Trophy</li>
+			<li>InertRelics</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<relicChance>2</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>BMT_TyrannoSkull</defName>
+		<label>tyrannosaurus skull</label>
+		<description>A tyrannosaurus skull. This is a true trophy.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/RexSkull/RexSkull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Standard_Pickup</soundInteract>
+		<soundDrop>Standard_Pickup</soundDrop>
+		<smeltable>false</smeltable>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>3</Mass>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Flammability>0.25</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<EquipDelay>1.5</EquipDelay>
+			<Beauty>3</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<ArrestSuccessChance>0.25</ArrestSuccessChance>
+			<MeleeHitChance>0.2</MeleeHitChance>
+			<MeleeWeapon_CooldownMultiplier>-0.15</MeleeWeapon_CooldownMultiplier>
+			<PainShockThreshold>0.15</PainShockThreshold>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.033</PsychicEntropyRecoveryRate>
+			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.3</SuppressionPower>
+		</equippedStatOffsets>
+		<generateCommonality>0.05</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>BMT_Prehistoric/Item/Headgear/RexHelm/TrexHelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>Psychic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Trophy</li>
+			<li>InertRelics</li>
+			<li>HeadgearNoble</li>
+			<li>Headgear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>PsychicApparel</li>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>BMT_DilophosaurusSkull</defName>
+		<label>dilophosaurus skull</label>
+		<description>A dilophosaurus skull. This is a true trophy.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/DilophosaurusSkull/DilophosaurusSkull</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Standard_Pickup</soundInteract>
+		<soundDrop>Standard_Pickup</soundDrop>
+		<smeltable>false</smeltable>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>3</Mass>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Flammability>0.25</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<EquipDelay>1.5</EquipDelay>
+			<Beauty>3</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+			<HuntingStealth>0.1</HuntingStealth>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
+			<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.033</PsychicEntropyRecoveryRate>
+			<PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+			<ToxicResistance>0.1</ToxicResistance>
+		</equippedStatOffsets>
+		<generateCommonality>0.05</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>BMT_Prehistoric/Item/Headgear/DiloHelm/DiloHelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>Psychic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Trophy</li>
+			<li>InertRelics</li>
+			<li>HeadgearNoble</li>
+			<li>Headgear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>PsychicApparel</li>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>BMT_SpinoSail</defName>
+		<label>spinosaurus sail</label>
+		<description>A spinosaurus sail. This is a true trophy.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/SpinoSail</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Standard_Pickup</soundInteract>
+		<soundDrop>Standard_Pickup</soundDrop>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>4</Beauty>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<stackLimit>5</stackLimit>
+		<thingCategories>
+			<li>Trophy</li>
+			<li>InertRelics</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>BMT_BladeFeather</defName>
+		<label>saurumbo blade feather</label>
+		<description>A saurumbo blade feather. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/BladeFeather/BladeFeather</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Scratch</li>
+					<li>Stab</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>base</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>Trophy</li>
+			<li>InertRelics</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<relicChance>1</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+
+</Defs>

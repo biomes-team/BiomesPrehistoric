@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_DunkleosteusBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.5</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_DunkleosteusJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_DunkleosteusAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+		<milkable>true</milkable>
+		<shearable>true</shearable>
+	</LifeStageDef>
+
+	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+		<defName>BMT_Dunkleosteus</defName>
+		<label>dunkleosteus</label>
+		<description>A heavily armored fish from the late Devonian period, it lacked normal teeth but instead had tooth “plates.” Despite its large size and armoring, it was hunted by other predators of its time.\n\nScientific name: Dunkleosteus terrelli</description>
+		<statBases>
+			<MoveSpeed>7</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<MarketValue>120</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>30</power>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<cooldownTime>2.2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.1</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.1</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_EggDunkleosteusFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>8</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>2~3</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>BMT_FishBody</body>
+			<leatherDef>BMT_Leather_Fishskin</leatherDef>
+			<baseHungerRate>0.8</baseHungerRate>
+			<baseBodySize>4</baseBodySize>
+			<baseHealthScale>2.4</baseHealthScale>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>3.6</maxPreyBodySize>
+			<packAnimal>false</packAnimal>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>100</nuzzleMtbHours>
+			<petness>0.0</petness>
+			<lifeExpectancy>20</lifeExpectancy>
+			<trainability>None</trainability>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
+			<specificMeatDef>BMT_FishMeat</specificMeatDef>
+			<lifeStageAges>
+				<li>
+					<def>BMT_DunkleosteusBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_DunkleosteusJuvenile</def>
+					<minAge>0.30</minAge>
+				</li>
+				<li>
+					<def>BMT_DunkleosteusAdult</def>
+					<minAge>0.55</minAge>
+					<soundWounded>BMT_Coelacanth_Wounded</soundWounded>
+					<soundDeath>BMT_Coelacanth_Death</soundDeath>
+					<soundCall>BMT_Coelacanth_Call</soundCall>
+					<soundAngry>BMT_Coelacanth_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Dunkleosteus</defName>
+		<label>dunkleosteus</label>
+		<description>A heavily armored fish from the late Devonian period, it lacked normal teeth but instead had tooth “plates.” Despite its large size and armoring, it was hunted by other predators of its time.\n\nScientific name: Dunkleosteus terrelli</description>
+		<race>BMT_Dunkleosteus</race>
+		<combatPower>90</combatPower>
+		<ecoSystemWeight>0.7</ecoSystemWeight>
+		<alternateGraphicChance>0.5</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusB</texPath>
+			</li>
+		</alternateGraphics>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusA</texPath>
+					<drawSize>1.9</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/Dessicated_Dunkleosteus</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusA</texPath>
+					<drawSize>2.6</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/Dessicated_Dunkleosteus</texPath>
+					<drawSize>2.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusA</texPath>
+					<drawSize>3.2</drawSize>
+					<shadowData>
+						<volume>(1, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/Dessicated_Dunkleosteus</texPath>
+					<drawSize>3.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedA</texPath>
+				</bodyGraphicData>
+				<alternateGraphics>
+					<li>
+						<texPath>BMT_Prehistoric/Aquatic/Dunkleosteus/DunkleosteusSubmergedB</texPath>
+					</li>
+				</alternateGraphics>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_EggDunkleosteusFertilized</defName>
+		<label>dunkleosteus egg (fert.)</label>
+		<description>A fertilized dunkleosteus egg. If all goes well, it should hatch into a baby dunkleosteus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>1.0</Nutrition>
+			<MarketValue>28.0</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>8</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Dunkleosteus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

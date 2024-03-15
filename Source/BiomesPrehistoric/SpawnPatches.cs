@@ -116,28 +116,7 @@ namespace BiomesPrehistoric
     }
 
 
-    /// <summary>
-    /// herd migration event
-    /// </summary>
-    [HarmonyPatch(typeof(IncidentWorker_HerdMigration), "TryFindAnimalKind")]
-    public static class HerdMigrationPatch
-    {
-        static bool Prefix(int tile, ref PawnKindDef animalKind, ref bool __result)
-        {
-			if (PrehistoricStatus.AlwaysSpawn(animalKind))
-			{
-				return true;
-			}
-            if (PrehistoricSettings.Values.spawnOption != SpawnOption.DinoWorld)
-            {
-                return true;
-            }
 
-            __result = DefDatabase<PawnKindDef>.AllDefs.Where((PawnKindDef k) => PrehistoricStatus.IsPrehistoric(k) && k.RaceProps.CanDoHerdMigration && Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, k.race)).TryRandomElementByWeight((PawnKindDef x) => Mathf.Lerp(0.2f, 1f, x.RaceProps.wildness), out animalKind);
-            
-            return false;
-        }
-    }
 
     //blocks thrumbo event
     [HarmonyPatch(typeof(IncidentWorker_ThrumboPasses), "CanFireNowSub")]

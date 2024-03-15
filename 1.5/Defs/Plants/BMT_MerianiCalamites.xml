@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_MerianiCalamites</defName>
+    <label>Meriani</label>
+    <description>The trunks of Meriani had a distinctive segmented, bamboo-like appearance and vertical ribbing, but were made of wood.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/MerianiCalamites</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.24, 0.35, 0.13)</volume>
+        <offset>(0,0,-0.38)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>15</growDays>
+      <harvestWork>750</harvestWork>
+      <harvestYield>25</harvestYield>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>50</wildClusterWeight>
+      <visualSizeRange>3~3.5</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>

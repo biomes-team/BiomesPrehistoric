@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_JamoytiusBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.5</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_JamoytiusJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_JamoytiusAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+		<milkable>true</milkable>
+		<shearable>true</shearable>
+	</LifeStageDef>
+
+	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+		<defName>BMT_Jamoytius</defName>
+		<label>jamoytius</label>
+		<description>Primitive and eel-like, this jawless fish fed primarily upon detritus.\n\nScientific Name:Jamoytius kerwoodi</description>
+		<statBases>
+			<MoveSpeed>7</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<MarketValue>30</MarketValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.1</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_EggJamoytiusFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>5</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~3</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>BMT_FishBody</body>
+			<leatherDef>BMT_Leather_Fishskin</leatherDef>
+			<baseHungerRate>0.8</baseHungerRate>
+			<baseBodySize>0.8</baseBodySize>
+			<baseHealthScale>2.4</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<predator>false</predator>
+			<maxPreyBodySize>0.5</maxPreyBodySize>
+			<packAnimal>false</packAnimal>
+			<wildness>0.75</wildness>
+			<nuzzleMtbHours>100</nuzzleMtbHours>
+			<petness>0.0</petness>
+			<lifeExpectancy>15</lifeExpectancy>
+			<trainability>None</trainability>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
+			<specificMeatDef>BMT_FishMeat</specificMeatDef>
+			<lifeStageAges>
+				<li>
+					<def>BMT_JamoytiusBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_JamoytiusJuvenile</def>
+					<minAge>0.30</minAge>
+				</li>
+				<li>
+					<def>BMT_JamoytiusAdult</def>
+					<minAge>0.55</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Jamoytius</defName>
+		<label>jamoytius</label>
+		<race>BMT_Jamoytius</race>
+		<combatPower>10</combatPower>
+		<ecoSystemWeight>0.01</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius</texPath>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Dessicated_Jamoytius</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius</texPath>
+					<drawSize>1.6</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Dessicated_Jamoytius</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(1, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Dessicated_Jamoytius</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<modExtensions>
+			<li Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/JamoytiusSubmerged</texPath>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_EggJamoytiusFertilized</defName>
+		<label>jamoytius egg (fert.)</label>
+		<description>A fertilized jamoytius egg. If all goes well, it should hatch into a baby jamoytius. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>28.0</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>8</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Jamoytius</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

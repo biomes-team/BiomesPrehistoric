@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_ChromaticAnkylosaurus</defName>
+		<label>chromatic ankylosaurus</label>
+		<description>For some glitterworld artists, animals are merely another canvas. It's unclear what (if anything) the artist behind the chromatic ankylosaur was trying to say, except perhaps that dangerous animals in crazy colours are rad.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<MarketValue>1520</MarketValue>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
+			<FilthRate>17</FilthRate>
+			<PawnBeauty>2</PawnBeauty>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Ankylosaurus</useMeatFrom>
+			<body>BMT_QuadrupedWithArmorBeakAndTailWeapon</body>
+			<leatherDef>BMT_DinoHideChromatic</leatherDef>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>2.8</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
+			<baseHungerRate>0.95</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<predator>false</predator>
+			<packAnimal>false</packAnimal>
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<wildness>0.20</wildness>
+			<lifeExpectancy>80</lifeExpectancy>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.30</manhunterOnDamageChance>
+			<trainability>Intermediate</trainability>
+			<wildBiomes>
+				<BMT_ChromaticOasis>0.3</BMT_ChromaticOasis>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundWounded>BMT_Ankylosaurus_Wounded</soundWounded>
+					<soundDeath>BMT_Ankylosaurus_Death</soundDeath>
+					<soundCall>BMT_Ankylosaurus_Call</soundCall>
+					<soundAngry>BMT_Ankylosaurus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>BMT_ChromaticAnkylosaurusEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>BMT_ChromaticAnkylosaurusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>front left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>front right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>tail-club</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalFighter</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef MayRequire="biomesteam.oasis" ParentName="AnimalKindBase">
+		<defName>BMT_ChromaticAnkylosaurus</defName>
+		<label>chromatic ankylosaurus</label>
+		<race>BMT_ChromaticAnkylosaurus</race>
+		<combatPower>80</combatPower>
+		<wildGroupSize>1~2</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/ChromaticAnkylosaurus/ChromaticAnkylosaurus</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/ChromaticAnkylosaurus/Dessicated_ChromaticAnkylosaurus</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/ChromaticAnkylosaurus/ChromaticAnkylosaurus</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.125)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/ChromaticAnkylosaurus/Dessicated_ChromaticAnkylosaurus</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/ChromaticAnkylosaurus/ChromaticAnkylosaurus</texPath>
+					<drawSize>4.5</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/ChromaticAnkylosaurus/Dessicated_ChromaticAnkylosaurus</texPath>
+					<drawSize>4.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="BuildingNaturalBase" Name="BMT_ArtEggBase" Abstract="True">
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<fillPercent>0.35</fillPercent>
+		<stackLimit>1</stackLimit>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_AmnioticFluid</filthLeaving>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>300</MarketValue>
+			<Flammability>0</Flammability>
+			<MeditationFocusStrength>0.30</MeditationFocusStrength>
+			<Beauty>100</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<blockWind>false</blockWind>
+		<comps>
+			<li Class="CompProperties_Art">
+				<nameMaker>BMT_NamerArtEgg</nameMaker>
+				<descriptionMaker>BMT_ArtDescription_Egg</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Natural</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_ArtificialBuildings">
+						<radius>34.9</radius>
+						<curve>
+							<points>
+								<li>(0, 0.0)</li>
+								<li>(5, -0.06)</li>
+								<li>(10, -0.12)</li>
+								<li>(50, -0.22)</li>
+							</points>
+						</curve>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefs">
+						<defs>
+							<AnimusStone>0.02</AnimusStone>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>4</maxBuildings>
+						<explanationKey>MeditationFocusPerAnimusStone</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerAnimusStoneAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ArtificialBuildingsNear</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<tradeTags>
+			<li>Art</li>
+		</tradeTags>
+		<ritualFocus>
+			<spectateDistance>2</spectateDistance>
+			<allowedSpectateSides>Down</allowedSpectateSides>
+		</ritualFocus>
+		<forceDebugSpawnable>true</forceDebugSpawnable>
+		<building>
+			<expandHomeArea>false</expandHomeArea>
+			<repairable>false</repairable>
+			<isInert>true</isInert>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<ai_chillDestination>false</ai_chillDestination>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="BMT_ArtEggBase">
+		<defName>BMT_ChromaticAnkylosaurusEggFertilized</defName>
+		<label>chromatic ankylosaurus egg (fert.)</label>
+		<description>A fertilized chromatic ankylosaurus egg. If all goes well, it should hatch into a baby chromatic ankylosaurus. Beautiful to look at.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/ChromaticAnkylosaurusEgg/ChromaticAnkylosaurusEggA</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<receivesSignals>true</receivesSignals>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>10</hatcherDaystoHatch>
+				<hatcherPawn>BMT_ChromaticAnkylosaurus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BMT_ArtEggBase">
+		<defName>BMT_ChromaticAnkylosaurusEggUnfertilized</defName>
+		<label>chromatic ankylosaurus egg (unfert.)</label>
+		<description>A unfertilized chromatic ankylosaurus egg. Beautiful to look at.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/ChromaticAnkylosaurusEgg/ChromaticAnkylosaurusEggA</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<RulePackDef>
+		<defName>BMT_ArtDescription_Egg</defName>
+		<rulePack>
+			<rulesFiles>
+				<li>BMT_NameDino->Names/BMT_EggDescription</li>
+			</rulesFiles>
+			<rulesStrings>
+				<li>physical_description_root->[BMT_EggDescription]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>BMT_NamerArtEgg</defName>
+		<rulePack>
+			<rulesFiles>
+				<li>BMT_NameDino->Names/BMT_Egg</li>
+			</rulesFiles>
+			<rulesStrings>
+				<li>r_name(p=6)->[BMT_Egg]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

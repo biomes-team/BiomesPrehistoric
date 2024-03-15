@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BushBase">
+		<defName>BMT_Pecopteris</defName>
+		<label>comb fern</label>
+		<description>A lover of damp environments, comb ferns thrive in the humid environment of tropical swamps.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Plant/Pecopteris</texPath>
+			<drawSize>2</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.17, 0.15)</volume>
+				<offset>(0,0,-0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<plant>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>7.5</wildClusterWeight>
+		</plant>
+	</ThingDef>
+
+</Defs>

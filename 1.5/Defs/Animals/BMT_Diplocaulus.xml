@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_DiplocaulusBabyTiny</defName>
+		<bodySizeFactor>0.1</bodySizeFactor>
+		<foodMaxFactor>4</foodMaxFactor>
+		<statFactors>
+			<MoveSpeed>0.6</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_DiplocaulusJuvenile</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.5</bodySizeFactor>
+		<foodMaxFactor>1.5</foodMaxFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<meleeDamageFactor>0.75</meleeDamageFactor>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+		</statFactors>
+		<modExtensions>
+		</modExtensions>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>BMT_DiplocaulusAdult</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+		<modExtensions>
+		</modExtensions>
+	</LifeStageDef>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Diplocaulus</defName>
+		<label>diplocaulus</label>
+		<description>An amphibian somewhat like a salamander or newt but with a huge boomerang shaped skull.\n\nScientific name: Diplocaulus salamandroides (Salamader-like double caul)\n\nSome scientists think that its skull shape acted as a hydrofoil, allowing it to move up and down in the water with ease.</description>
+		<statBases>
+			<MoveSpeed>3.2</MoveSpeed>
+			<MarketValue>200</MarketValue>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.8</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<modExtensions>
+			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+			<li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
+				<movementDef>PF_Movement_Amphibious</movementDef>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_DiplocaulusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>15</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>3</min>
+					<max>6</max>
+				</eggCountRange>
+			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Fishing.</consumingFoodReportString>
+				<effecterDef>BMT_EatFish</effecterDef>
+			</li>
+		</comps>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+			<baseBodySize>0.30</baseBodySize>
+			<baseHealthScale>0.75</baseHealthScale>
+			<baseHungerRate>0.30</baseHungerRate>
+			<foodType>CarnivoreAnimal</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<meatLabel>diplocaulus meat</meatLabel>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<wildness>0.55</wildness>
+			<trainability>None</trainability>
+			<lifeExpectancy>17</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>BMT_DiplocaulusBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>BMT_DiplocaulusJuvenile</def>
+					<minAge>0.09</minAge>
+				</li>
+				<li>
+					<def>BMT_DiplocaulusAdult</def>
+					<minAge>0.25</minAge>
+					<soundWounded>BMT_Diplocaulus_Wounded</soundWounded>
+					<soundDeath>BMT_Diplocaulus_Death</soundDeath>
+					<soundCall>BMT_Diplocaulus_Call</soundCall>
+					<soundAngry>BMT_Diplocaulus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_DiplocaulusEggFertilized</defName>
+		<label>diplocaulus egg (fert.)</label>
+		<description>A fertilized Diplocaulus egg. If all goes well, it should hatch into a baby diplocaulus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(218,218,216)</color>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>50</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5.5</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Diplocaulus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Diplocaulus</defName>
+		<label>diplocaulus</label>
+		<race>BMT_Diplocaulus</race>
+		<combatPower>30</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Diplocaulus/Diplocaulus</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Diplocaulus/Dessicated_Diplocaulus</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<modExtensions>
+			<li MayRequire="pathfinding.framework" Class="PathfindingFramework.TerrainTagGraphicExtension">
+				<terrainTags>
+					<li>PF_TerrainTag_WaterShallow</li>
+					<li>PF_TerrainTag_WaterChest</li>
+					<li>PF_TerrainTag_WaterDeep</li>
+				</terrainTags>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Diplocaulus/DiplocaulusSubmerged</texPath>
+				</bodyGraphicData>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

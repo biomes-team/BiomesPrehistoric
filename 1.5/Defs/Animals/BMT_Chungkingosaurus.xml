@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Chungkingosaurus</defName>
+		<label>chungkingosaurus</label>
+		<description>A small grazing animal with distinctive plates and spikes along its back and tail. These dinosaurs are often found in groups.\n\nScientific name: Chungkingosaurus jiangbeiensis (Chongqing lizard of Jiangbei)\n\nThe thagomizer is only known from disarticulated fossils, but has been described as a "pin-cushion array".</description>
+		<statBases>
+			<MoveSpeed>5.4</MoveSpeed>
+			<MarketValue>570</MarketValue>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
+			<FilthRate>14</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Stegosaurus</useMeatFrom>
+			<body>BMT_QuadrupedWithPlatesBeakAndTailWeapon</body>
+			<leatherDef>BMT_DinoHideMedium</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>2.8</baseBodySize>
+			<baseHealthScale>2</baseHealthScale>
+			<baseHungerRate>0.55</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<predator>false</predator>
+			<wildness>0.20</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<lifeExpectancy>80</lifeExpectancy>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
+			<trainability>None</trainability>
+			<ageGenerationCurve>
+				<points>
+					<li>(0.0,0)</li>
+					<li>(0.1,350)</li>
+					<li>(0.9,150)</li>
+					<li>(1.5,5)</li>
+					<li>(20,4)</li>
+					<li>(65,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundWounded>BMT_Chungkingosaurus_Wounded</soundWounded>
+					<soundDeath>BMT_Chungkingosaurus_Death</soundDeath>
+					<soundCall>BMT_Chungkingosaurus_Call</soundCall>
+					<soundAngry>BMT_Chungkingosaurus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_ChungkingosaurusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>2</eggFertilizationCountMax>
+				<eggLayIntervalDays>6</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>front left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>front right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>thagomizer</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Chungkingosaurus</defName>
+		<label>chungkingosaurus</label>
+		<race>BMT_Chungkingosaurus</race>
+		<combatPower>65</combatPower>
+		<wildGroupSize>2~5</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
+					<drawSize>1.1</drawSize>
+					<shadowData>
+						<volume>(0.30, 0.18, 0.18)</volume>
+						<offset>(0,0,-0.12)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Dessicated_Chungkingosaurus</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.42, 0.36, 0.24)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Dessicated_Chungkingosaurus</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Chungkingosaurus</texPath>
+					<drawSize>3.7</drawSize>
+					<shadowData>
+						<volume>(.6, 0.48, 0.35)</volume>
+						<offset>(0,0,-0.35)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Chungkingosaurus/Dessicated_Chungkingosaurus</texPath>
+					<drawSize>3.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_ChungkingosaurusEggFertilized</defName>
+		<label>chungkingosaurus egg (fert.)</label>
+		<description>A fertilized Chungkingosaurus egg. If all goes well, it should hatch into a baby chungkingosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(193,197,169)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.7</Nutrition>
+			<MarketValue>55</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Chungkingosaurus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

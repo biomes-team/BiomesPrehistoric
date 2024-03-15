@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Utahraptor</defName>
+		<label>utahraptor</label>
+		<description>One of the largest species of raptor, it used a large curved claw to help disable prey. Slower than smaller raptors, it was roughly equal to iguanodons in speed. A 20th century movie on Earth got it mixed up with Velociraptors.\n\nScientific name: Utahraptor ostrommaysi</description>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<MarketValue>450</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<FilthRate>2</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Velociraptor</useMeatFrom>
+			<petness>0.4</petness>
+			<body>BMT_BipedWithClawsSickleTeethAndTail</body>
+			<leatherDef>BMT_DinoHideFeathery</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>2</baseBodySize>
+			<baseHealthScale>2.5</baseHealthScale>
+			<baseHungerRate>0.40</baseHungerRate>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>1.8</maxPreyBodySize>
+			<wildness>0.70</wildness>
+			<lifeExpectancy>15</lifeExpectancy>
+			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.6</manhunterOnDamageChance>
+			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<ageGenerationCurve>
+				<points>
+					<li>(0.0,0)</li>
+					<li>(0.1,350)</li>
+					<li>(0.9,150)</li>
+					<li>(1.5,5)</li>
+					<li>(20,4)</li>
+					<li>(65,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>BMT_Compsognathus_Wounded</soundWounded>
+					<soundDeath>BMT_Compsognathus_Death</soundDeath>
+					<soundCall>BMT_Compsognathus_Call</soundCall>
+					<soundAngry>BMT_Compsognathus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_Shearable">
+				<woolDef>BMT_DinoFeather</woolDef>
+				<shearIntervalDays>45</shearIntervalDays>
+				<woolAmount>7</woolAmount>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_UtahraptorEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~3</eggCountRange>
+			</li>
+			<li Class="BiomesCore.CompProperties_PackHunter">
+				<joinHuntRange>24</joinHuntRange>
+				<packConfidenceBonusPerMember>0.25</packConfidenceBonusPerMember>
+			</li>
+			<li Class="BiomesCore.CompProperties_PackDefense">
+				<baseChance>0.3</baseChance>
+				<attackerMaxDistance>30</attackerMaxDistance>
+				<joinDefenseRange>20</joinDefenseRange>
+				<joinMaxPain>0.3</joinMaxPain>
+				<maxNumMeleeAttacks>3</maxNumMeleeAttacks>
+				<expiryInterval>500</expiryInterval>
+				<attackDoorIfTargetLost>true</attackDoorIfTargetLost>
+				<canBashFences>false</canBashFences>
+				<predatorConfidencePenalty>100</predatorConfidencePenalty>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>left sickle claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearLeftSickleClaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right sickle claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearRightSickleClaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalPet</li>
+			<li>AnimalFighter</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Utahraptor</defName>
+		<label>utahraptor</label>
+		<race>BMT_Utahraptor</race>
+		<combatPower>190</combatPower>
+		<wildGroupSize>2~4</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Utahraptor/Utahraptor</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Utahraptor/Dessicated_Raptor</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Utahraptor/Utahraptor</texPath>
+					<drawSize>2.8</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Utahraptor/Dessicated_Raptor</texPath>
+					<drawSize>2.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Utahraptor/Utahraptor</texPath>
+					<drawSize>3.8</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Utahraptor/Dessicated_Raptor</texPath>
+					<drawSize>3.8</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<bodyPartGroup>BMT_SickleClaws</bodyPartGroup>
+					<thing>BMT_RaptorClaw</thing>
+				</butcherBodyPart>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_UtahraptorEggFertilized</defName>
+		<label>utahraptor egg (fert.)</label>
+		<description>A fertilized utahraptor egg. If all goes well, it should hatch into a baby utahraptor. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(181,164,138)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>21.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Utahraptor</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

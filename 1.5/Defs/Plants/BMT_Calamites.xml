@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="TreeBase">
+        <defName>BMT_Calamites</defName>
+        <label>horsetail tree</label>
+        <description>A fast growing giant horsetail. It doesn't yield as much usable wood as other trees.</description>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Plant/Calamites</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.3, 0.13)</volume>
+                <offset>(0,0,-0.44)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>2</Beauty>
+        </statBases>
+        <modExtensions>
+            <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+                <terrainTags>
+                    <li>Water</li>
+                    <li>Shallow</li>
+                    <li>Boggy</li>
+					<li>Muddy</li>
+                    <li>Soil</li>
+                </terrainTags>
+            </li>
+        </modExtensions>
+        <plant>
+            <fertilityMin>0.2</fertilityMin>
+            <fertilitySensitivity>0.5</fertilitySensitivity>
+            <growDays>13</growDays>
+            <harvestWork>800</harvestWork>
+            <harvestYield>27</harvestYield>
+            <wildClusterRadius>17</wildClusterRadius>
+            <wildClusterWeight>25</wildClusterWeight>
+            <visualSizeRange>1.6~2.4</visualSizeRange>
+        </plant>
+    </ThingDef>
+
+</Defs>

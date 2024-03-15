@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Meganeura</defName>
+		<label>meganeura</label>
+		<description>Meganeura, a giant dragonfly-like insect which eats small animals and plants. Despite looking like a dragonfly, it is actually more closely related to Damselflies.\n\nScientific name: Meganeura brongniarti</description>
+		<statBases>
+			<MoveSpeed>4</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
+			<MarketValue>225</MarketValue>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>57</ComfyTemperatureMax>
+			<FilthRate>.7</FilthRate>
+		</statBases>
+		<race>
+			<body>BMT_BeetleLikeWithStinger</body>
+			<leatherDef>BMT_PrimordialChitin</leatherDef>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>0.77</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<baseHungerRate>0.35</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>0.80</maxPreyBodySize>
+			<wildness>0.85</wildness>
+			<lifeExpectancy>10</lifeExpectancy>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+			<trainability>None</trainability>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.5</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1</minAge>
+					<soundWounded>BMT_Arthropleura_Wounded</soundWounded>
+					<soundDeath>BMT_Arthropleura_Death</soundDeath>
+					<soundCall>BMT_Arthropleura_Call</soundCall>
+					<soundAngry>BMT_Arthropleura_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_MeganeuraEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>20</eggFertilizationCountMax>
+				<eggLayIntervalDays>14</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>5~20</eggCountRange>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_Floating" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<!--li>
+					<label>stinger</label>
+					<capacities>
+							<li>BMT_ToxicSting</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>5</cooldownTime>
+					<linkedBodyPartsGroup>BMT_StingerGroup</linkedBodyPartsGroup>
+					<chanceFactor>0.2</chanceFactor>
+			</li-->
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.85</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalInsect</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+		<modExtensions>
+			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+			<li MayRequire="pathfinding.framework" Class="PathfindingFramework.MovementExtension">
+				<movementDef>PF_Movement_Flying</movementDef>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Meganeura</defName>
+		<label>meganeura</label>
+		<race>BMT_Meganeura</race>
+		<combatPower>40</combatPower>
+		<wildGroupSize>1</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
+					<drawSize>0.9</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.5, 0.1)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
+					<drawSize>1.1</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.1)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Meganeura/Meganeura</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.5, 0.1)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Meganeura/Dessicated_Meganeura</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_MeganeuraEggFertilized</defName>
+		<label>meganeura egg (fert.)</label>
+		<description>A fertilized meganeura egg. If all goes well, it should hatch into a baby meganeura. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/MeganeuraEgg</texPath>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.3</Nutrition>
+			<MarketValue>40</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5.5</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Meganeura</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
