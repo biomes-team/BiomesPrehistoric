@@ -75,8 +75,8 @@
 		</tools>
 		<race>
 			<predator>true</predator>
-			<body>BMT_WhaleBody</body>
-			<leatherDef>BMT_Leather_Whaleskin</leatherDef>
+			<body>Biomes_WhaleBody</body>
+			<leatherDef>BiomesIslands_Leather_Whaleskin</leatherDef>
 			<baseHungerRate>2.7</baseHungerRate>
 			<baseBodySize>5.5</baseBodySize>
 			<baseHealthScale>6.5</baseHealthScale>
@@ -138,7 +138,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
 					<drawSize>2.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -152,7 +152,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
 					<drawSize>4.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -166,7 +166,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
 					<drawSize>6.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

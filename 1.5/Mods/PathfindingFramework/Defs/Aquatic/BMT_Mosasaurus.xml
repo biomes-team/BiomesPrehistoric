@@ -76,8 +76,8 @@
 		<race>
 			<meatLabel>mosasaur meat</meatLabel>
 			<predator>true</predator>
-			<body>BMT_WhaleBody</body>
-			<leatherDef>BMT_Leather_Whaleskin</leatherDef>
+			<body>Biomes_WhaleBody</body>
+			<leatherDef>BiomesIslands_Leather_Whaleskin</leatherDef>
 			<baseHungerRate>2.7</baseHungerRate>
 			<baseBodySize>7</baseBodySize>
 			<baseHealthScale>4.5</baseHealthScale>

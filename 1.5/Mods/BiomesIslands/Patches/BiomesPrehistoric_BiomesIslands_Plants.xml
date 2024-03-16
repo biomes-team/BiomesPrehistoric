@@ -4,7 +4,7 @@
 
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[defName="BMT_Atoll"]/wildPlants</xpath>
+				<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildPlants</xpath>
 				<value>
 					<BMT_Horsetail>4.8</BMT_Horsetail>
 					<BMT_Calamites>0.2</BMT_Calamites>
@@ -23,7 +23,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[@Name="BMT_BorealIslandBase"]/wildPlants</xpath>
+				<xpath>Defs/BiomeDef[@Name="BiomesIslands_BorealIslandBase"]/wildPlants</xpath>
 				<value>
 					<BMT_Matoniaceae>9.0</BMT_Matoniaceae>
 					<BMT_Coniopteris>2.0</BMT_Coniopteris>
@@ -34,7 +34,7 @@
 					<BMT_Araucaria>1.2</BMT_Araucaria>
 					<BMT_Gnetum>0.16</BMT_Gnetum>
 					<BMT_HealrootFern>0.16</BMT_HealrootFern>
-					<!--BMT_Lavender>1</BMT_Lavender-->
+					<!--BiomesIslands_Lavender>1</BiomesIslands_Lavender-->
 
 					<BMT_Crinoid>1.0</BMT_Crinoid>
 					<BMT_Gryphaea>1.0</BMT_Gryphaea>
@@ -43,7 +43,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[@Name="BMT_DesertIslandBase"]/wildPlants</xpath>
+				<xpath>Defs/BiomeDef[@Name="BiomesIslands_DesertIslandBase"]/wildPlants</xpath>
 				<value>
 					<BMT_Lyginopteridales>7.0</BMT_Lyginopteridales>
 					<!--Plant_Dandelion>0.8</Plant_Dandelion-->
@@ -53,7 +53,7 @@
 					<BMT_Glossopteris>0.26</BMT_Glossopteris>
 					<BMT_Walchia>0.20</BMT_Walchia>
 					<BMT_Aetheophyllum>0.10</BMT_Aetheophyllum>
-					<!--BMT_CoconutPalm>0.03</BMT_CoconutPalm-->
+					<!--BiomesIslands_CoconutPalm>0.03</BiomesIslands_CoconutPalm-->
 
 					<BMT_Crinoid>1.0</BMT_Crinoid>
 					<BMT_Gryphaea>1.0</BMT_Gryphaea>
@@ -62,7 +62,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[@Name="BMT_TemperateIslandBase"]/wildPlants</xpath>
+				<xpath>Defs/BiomeDef[@Name="BiomesIslands_TemperateIslandBase"]/wildPlants</xpath>
 				<value>
 					<BMT_Matoniaceae>5.0</BMT_Matoniaceae>
 					<BMT_Dipteridaceae>2.0</BMT_Dipteridaceae>
@@ -74,10 +74,10 @@
 					<BMT_Gnetum>0.05</BMT_Gnetum>
 					<BMT_HealrootFern>0.05</BMT_HealrootFern>
 					<BMT_JurassicHorsetail>1.0</BMT_JurassicHorsetail>
-					<!--BMT_OrangeTree>0.3</BMT_OrangeTree-->
-					<!--BMT_Fern>0.8</BMT_Fern-->
-					<!--BMT_FloweringFern>0.1</BMT_FloweringFern-->
-					<!--BMT_Lavender>0.1</BMT_Lavender-->
+					<!--BiomesIslands_OrangeTree>0.3</BiomesIslands_OrangeTree-->
+					<!--BiomesIslands_Fern>0.8</BiomesIslands_Fern-->
+					<!--BiomesIslands_FloweringFern>0.1</BiomesIslands_FloweringFern-->
+					<!--BiomesIslands_Lavender>0.1</BiomesIslands_Lavender-->
 
 					<BMT_Crinoid>1.0</BMT_Crinoid>
 					<BMT_Gryphaea>1.0</BMT_Gryphaea>
@@ -86,7 +86,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[@Name="BMT_TropicalIslandBase"]/wildPlants</xpath>
+				<xpath>Defs/BiomeDef[@Name="BiomesIslands_TropicalIslandBase"]/wildPlants</xpath>
 				<value>
 					<BMT_JungleGrass>2.0</BMT_JungleGrass>
 					<BMT_Davallia>0.4</BMT_Davallia>
@@ -109,7 +109,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[@Name="BMT_TundraIslandBase"]/wildPlants</xpath>
+				<xpath>Defs/BiomeDef[@Name="BiomesIslands_TundraIslandBase"]/wildPlants</xpath>
 				<value>
 					<BMT_Sedge>3.6</BMT_Sedge>
 					<BMT_RedSphagnum>0.5</BMT_RedSphagnum>

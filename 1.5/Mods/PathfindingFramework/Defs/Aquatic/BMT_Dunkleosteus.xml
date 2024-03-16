@@ -88,8 +88,8 @@
 			</li>
 		</comps>
 		<race>
-			<body>BMT_FishBody</body>
-			<leatherDef>BMT_Leather_Fishskin</leatherDef>
+			<body>Biomes_FishBody</body>
+			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
 			<baseHungerRate>0.8</baseHungerRate>
 			<baseBodySize>4</baseBodySize>
 			<baseHealthScale>2.4</baseHealthScale>

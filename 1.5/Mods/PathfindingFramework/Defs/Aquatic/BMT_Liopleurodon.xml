@@ -77,8 +77,8 @@
 		</tools>
 		<race>
 			<predator>true</predator>
-			<body>BMT_WhaleBody</body>
-			<leatherDef>BMT_Leather_Fishskin</leatherDef>
+			<body>Biomes_WhaleBody</body>
+			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
 			<baseHungerRate>2.7</baseHungerRate>
 			<baseBodySize>4</baseBodySize>
 			<baseHealthScale>5</baseHealthScale>

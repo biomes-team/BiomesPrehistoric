@@ -31,7 +31,7 @@
 		<reproductive>true</reproductive>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_CrabThingBase">
+	<ThingDef ParentName="BiomesIslands_CrabThingBase">
 		<defName>BMT_Trilobite</defName>
 		<label>trilobite</label>
 		<description>Trilobites were one of the most common arthropods on the planet, with as much if not more variety in diet, habitat, and size than modern crabs. They survived in one form or another from the early Cambrian to the end of the Permian. Because of their wide diversity and an easily fossilized exoskeleton, they left extensive fossil records.</description>
@@ -119,7 +119,7 @@
 			<li Class="BiomesCore.CompProperties_BottomFeeder">
 				<feedingTerrainTag>Water</feedingTerrainTag>
 				<consumingFoodReportString>Fishing.</consumingFoodReportString>
-				<effecterDef>BMT_EatFish</effecterDef>
+				<effecterDef>EatFish</effecterDef>
 			</li>
 		</comps>
 	</ThingDef>

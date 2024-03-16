@@ -78,8 +78,8 @@
 		<race>
 			<meatLabel>icthyosaur meat</meatLabel>
 			<predator>true</predator>
-			<body>BMT_SharkBody</body>
-			<leatherDef>BMT_Leather_Fishskin</leatherDef>
+			<body>Biomes_SharkBody</body>
+			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
 			<baseHungerRate>2.7</baseHungerRate>
 			<baseBodySize>3</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>

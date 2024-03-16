@@ -35,7 +35,7 @@
 	-->
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="BMT_Atoll"]/wildAnimals</xpath>
+		<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
 		<value>
 			<BMT_Allosaurus>0.1</BMT_Allosaurus>
 			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
@@ -90,7 +90,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[@Name="BMT_BorealIslandBase"]/wildAnimals</xpath>
+		<xpath>Defs/BiomeDef[@Name="BiomesIslands_BorealIslandBase"]/wildAnimals</xpath>
 		<value>
 			<BMT_Ammonite>0.5</BMT_Ammonite>
 			<BMT_Anhanguera>0.2</BMT_Anhanguera>
@@ -134,7 +134,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[@Name="BMT_DesertIslandBase"]/wildAnimals</xpath>
+		<xpath>Defs/BiomeDef[@Name="BiomesIslands_DesertIslandBase"]/wildAnimals</xpath>
 		<value>
 			<BMT_Allosaurus>0.4</BMT_Allosaurus>
 			<BMT_Ammonite>0.5</BMT_Ammonite>
@@ -169,7 +169,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[@Name="BMT_TemperateIslandBase"]/wildAnimals</xpath>
+		<xpath>Defs/BiomeDef[@Name="BiomesIslands_TemperateIslandBase"]/wildAnimals</xpath>
 		<value>
 			<BMT_Amargasaurus>0.3</BMT_Amargasaurus>
 			<BMT_Ammonite>0.5</BMT_Ammonite>
@@ -228,7 +228,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[@Name="BMT_TropicalIslandBase"]/wildAnimals</xpath>
+		<xpath>Defs/BiomeDef[@Name="BiomesIslands_TropicalIslandBase"]/wildAnimals</xpath>
 		<value>
 			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
 			<BMT_Ammonite>0.5</BMT_Ammonite>
@@ -280,7 +280,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[@Name="BMT_TundraIslandBase"]/wildAnimals</xpath>
+		<xpath>Defs/BiomeDef[@Name="BiomesIslands_TundraIslandBase"]/wildAnimals</xpath>
 		<value>
 			<BMT_Ammonite>0.5</BMT_Ammonite>
 			<BMT_Belemnite>0.5</BMT_Belemnite>

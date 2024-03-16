@@ -94,8 +94,8 @@
 			</li>
 		</modExtensions>
 		<race>
-			<body>BMT_FishBody</body>
-			<leatherDef>BMT_Leather_Fishskin</leatherDef>
+			<body>Biomes_FishBody</body>
+			<leatherDef>BiomesIslands_Leather_Fishskin</leatherDef>
 			<baseHungerRate>0.50</baseHungerRate>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>

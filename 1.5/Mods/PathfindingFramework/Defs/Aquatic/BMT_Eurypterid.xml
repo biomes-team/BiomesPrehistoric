@@ -118,7 +118,7 @@
 			<li Class="BiomesCore.CompProperties_BottomFeeder">
 				<feedingTerrainTag>Water</feedingTerrainTag>
 				<consumingFoodReportString>Fishing.</consumingFoodReportString>
-				<effecterDef>BMT_EatFish</effecterDef>
+				<effecterDef>EatFish</effecterDef>
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggEurypteridFertilized</eggFertilizedDef>

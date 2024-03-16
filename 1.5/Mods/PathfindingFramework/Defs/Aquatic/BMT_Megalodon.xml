@@ -80,8 +80,8 @@
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<body>BMT_SharkBody</body>
-			<leatherDef>BMT_Leather_Sharkskin</leatherDef>
+			<body>Biomes_SharkBody</body>
+			<leatherDef>BiomesIslands_Leather_Sharkskin</leatherDef>
 			<baseHungerRate>0.7</baseHungerRate>
 			<baseBodySize>6</baseBodySize>
 			<baseHealthScale>5.0</baseHealthScale>
