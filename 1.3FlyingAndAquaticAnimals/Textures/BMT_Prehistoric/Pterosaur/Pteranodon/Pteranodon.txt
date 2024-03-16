@@ -1,9 +1,0 @@
-How big is it? A bit bigger than wargs?
-What does it eat? (is it a predator?) Piscivore, "fishes" in water tiles like Spino?
-Where does it live? All warmer to cool biomes with LAKE OR OCEAN tile next to it. 
-Does it spawn in packs? Maybe.
-Other info-- good pets? shearable? do you want it to have a specific type of leather? etc. Gives a weak leather, tends to flee rather than fight.
-
-Pteranodon longiceps
-
-Pterosaur (meat)
