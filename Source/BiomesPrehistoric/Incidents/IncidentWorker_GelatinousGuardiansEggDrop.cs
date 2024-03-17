@@ -5,7 +5,7 @@ using UnityEngine;
 using Verse;
 using BiomesPrehistoric;
 
-namespace BiomesPrehistoric
+namespace BiomesPrehistoric.Incidents
 {
     public class IncidentWorker_GelatinousGuardiansEggDrop : IncidentWorker
     {

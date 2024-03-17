@@ -3,7 +3,7 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 
-namespace BiomesPrehistoric.Patches.PrehistoricWorld
+namespace BiomesPrehistoric.Patches.AnimalSpawning
 {
 	/// <summary>
 	/// When the Prehistoric World setting is enabled, only allow prehistoric farm animals to be spawned through the farm animals wander in event.

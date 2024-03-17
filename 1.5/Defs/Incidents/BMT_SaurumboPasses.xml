@@ -8,7 +8,7 @@
 		<targetTags>
 			<li>Map_PlayerHome</li>
 		</targetTags>
-		<workerClass>BiomesPrehistoric.IncidentWorker_SaurumboPasses</workerClass>
+		<workerClass>BiomesPrehistoric.Incidents.IncidentWorker_SaurumboPasses</workerClass>
 		<baseChance>0.7</baseChance>
 		<minRefireDays>13</minRefireDays>
 	</IncidentDef>

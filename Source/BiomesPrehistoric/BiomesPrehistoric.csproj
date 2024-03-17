@@ -80,11 +80,11 @@
     <Compile Include="BiomesPrehistoricMod.cs" />
     <Compile Include="BiomesPrehistoric_DefOf.cs" />
     <Compile Include="Defs\PrehistoricModDef.cs" />
-    <Compile Include="IncidentWorker_GelatinousGuardiansEggDrop.cs" />
-    <Compile Include="IncidentWorker_SaurumboPasses.cs" />
-    <Compile Include="Patches\PrehistoricWorld\IncidentWorker_FarmAnimalsWanderIn_IncidentWorker_FarmAnimalsWanderIn_Patch.cs" />
-    <Compile Include="Patches\PrehistoricWorld\AggressiveAnimalIncidentUtility_CanArriveManhunter_Patch.cs" />
-    <Compile Include="Patches\Spawning\IncidentWorker_HerdMigration_TryFindAnimalKind_Patch.cs" />
+    <Compile Include="Incidents\IncidentWorker_GelatinousGuardiansEggDrop.cs" />
+    <Compile Include="Incidents\IncidentWorker_SaurumboPasses.cs" />
+    <Compile Include="Patches\AnimalSpawning\AggressiveAnimalIncidentUtility_CanArriveManhunter_Patch.cs" />
+    <Compile Include="Patches\AnimalSpawning\IncidentWorker_FarmAnimalsWanderIn_IncidentWorker_FarmAnimalsWanderIn_Patch.cs" />
+    <Compile Include="Patches\AnimalSpawning\IncidentWorker_HerdMigration_TryFindAnimalKind_Patch.cs" />
     <Compile Include="PrehistoricStatus.cs" />
     <Compile Include="PrehistoricPackAnimals.cs" />
     <Compile Include="PrehistoricSettings.cs" />

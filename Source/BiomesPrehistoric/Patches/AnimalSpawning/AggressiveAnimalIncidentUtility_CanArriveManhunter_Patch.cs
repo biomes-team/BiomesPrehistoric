@@ -2,7 +2,7 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 
-namespace BiomesPrehistoric.Patches.PrehistoricWorld
+namespace BiomesPrehistoric.Patches.AnimalSpawning
 {
 	/// <summary>
 	/// Filter out any non-prehistoric animal from the list of available manhunter animals.

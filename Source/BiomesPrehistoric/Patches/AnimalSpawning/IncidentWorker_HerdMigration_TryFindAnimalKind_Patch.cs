@@ -4,7 +4,7 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace BiomesPrehistoric.Patches.Spawning
+namespace BiomesPrehistoric.Patches.AnimalSpawning
 {
 	/// <summary>
 	/// herd migration event

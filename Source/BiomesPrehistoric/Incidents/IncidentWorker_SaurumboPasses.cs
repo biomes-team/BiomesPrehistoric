@@ -2,7 +2,7 @@
 using UnityEngine;
 using Verse;
 
-namespace BiomesPrehistoric
+namespace BiomesPrehistoric.Incidents
 {
 	public class IncidentWorker_SaurumboPasses : IncidentWorker
 	{
@@ -12,26 +12,30 @@ namespace BiomesPrehistoric
 			{
 				return false;
 			}
-			Map map = (Map)parms.target;
+
+			Map map = (Map) parms.target;
 			if (map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout))
 			{
 				return false;
 			}
-			if (!map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("BMT_Saurumbo")))
+
+			if (!map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(BiomesPrehistoric_DefOf.BMT_Saurumbo))
 			{
 				return false;
 			}
+
 			IntVec3 cell;
 			return TryFindEntryCell(map, out cell);
 		}
 
 		protected override bool TryExecuteWorker(IncidentParms parms)
 		{
-			Map map = (Map)parms.target;
+			Map map = (Map) parms.target;
 			if (!TryFindEntryCell(map, out var cell))
 			{
 				return false;
 			}
+
 			PawnKindDef saurumbo = PawnKindDef.Named("BMT_Saurumbo");
 			int value = GenMath.RoundRandom(StorytellerUtility.DefaultThreatPointsNow(map) / saurumbo.combatPower);
 			int max = Rand.RangeInclusive(3, 6);
@@ -42,6 +46,7 @@ namespace BiomesPrehistoric
 			{
 				result = IntVec3.Invalid;
 			}
+
 			Pawn pawn = null;
 			for (int i = 0; i < value; i++)
 			{
@@ -54,7 +59,9 @@ namespace BiomesPrehistoric
 					pawn.mindState.forcedGotoPosition = CellFinder.RandomClosewalkCellNear(result, map, 10);
 				}
 			}
-			SendStandardLetter("BMT_LetterLabelSaurumboPasses".Translate(saurumbo.label).CapitalizeFirst(), "BMT_LetterSaurumboPasses".Translate(saurumbo.label), LetterDefOf.PositiveEvent, parms, pawn);
+
+			SendStandardLetter("BMT_LetterLabelSaurumboPasses".Translate(saurumbo.label).CapitalizeFirst(),
+				"BMT_LetterSaurumboPasses".Translate(saurumbo.label), LetterDefOf.PositiveEvent, parms, pawn);
 			return true;
 		}
 
@@ -64,4 +71,3 @@ namespace BiomesPrehistoric
 		}
 	}
 }
-
