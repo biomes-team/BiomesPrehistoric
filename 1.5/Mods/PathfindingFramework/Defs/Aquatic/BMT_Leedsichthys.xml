@@ -34,7 +34,7 @@
 		<shearable>true</shearable>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Leedsichthys</defName>
 		<label>leedsichthys</label>
 		<description>The largest ray-finned fish and one of the largest fish of all time, it was actually a gentle giant of sorts, filtering the water for food instead of hunting down prey.\n\nScientific Name:Leedsichthys problematicus</description>

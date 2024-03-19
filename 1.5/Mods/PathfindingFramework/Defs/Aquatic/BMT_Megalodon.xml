@@ -34,7 +34,7 @@
 		<shearable>true</shearable>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal"  ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal"  ADogSaidBody="Tail">
 		<defName>BMT_Megalodon</defName>
 		<label>megalodon</label>
 		<description>The largest known shark species of all time. Their range covers virtually all warm oceans, with their young living in the warmer shallower waters. They tend to feed upon large prey, such as whales and sea turtles.\n\nScientific name: Otodus megalodon</description>

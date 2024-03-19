@@ -30,7 +30,7 @@
 		<milkable>true</milkable>
 		<shearable>true</shearable>
 	</LifeStageDef>
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Cameroceras</defName>
 		<label>cameroceras</label>
 		<description>A gigantic species of cephalopod, once quite common in some areas during the Ordovician period on Earth. It is thought to be largely an ambush predator, lying in wait for its prey rather than actively hunting.\n\nScientific name:Cameroceras trentonense</description>

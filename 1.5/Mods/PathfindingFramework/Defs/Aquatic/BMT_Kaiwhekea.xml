@@ -32,7 +32,7 @@
 		<reproductive>true</reproductive>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Kaiwhekea</defName>
 		<label>kaiwhekea</label>
 		<description>Despite weighing over one ton, it was actually rather small for a plesiosaur. Its mouth is filled with a multitude of small conical teeth that make it an expert at catching fish.\n\nScientific Name:Kaiwhekea katiki</description>

@@ -34,7 +34,7 @@
 		<reproductive>true</reproductive>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Icthyosaurus</defName>
 		<label>icthyosaurus</label>
 		<description>The Ichthyosaurus may look superficially like a prehistoric dolphin, but Ichthyosaurus was actually an aquatic reptile. Its hands and feed had over time modified into flippers.\n\nScientific name: Ichthyosaurus communis</description>

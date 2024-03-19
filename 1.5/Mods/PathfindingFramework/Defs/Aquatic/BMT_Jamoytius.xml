@@ -34,7 +34,7 @@
 		<shearable>true</shearable>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Jamoytius</defName>
 		<label>jamoytius</label>
 		<description>Primitive and eel-like, this jawless fish fed primarily upon detritus.\n\nScientific Name:Jamoytius kerwoodi</description>

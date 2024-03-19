@@ -32,7 +32,7 @@
 		<reproductive>true</reproductive>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Kaikaifilu</defName>
 		<label>kaikaifilu</label>
 		<description>The largest of antarctic tylosaurs, it was one of the few large predators in its environment. It likely predates upon anything smaller than it.\n\nScientific Name:Kaikaifilu hervei</description>

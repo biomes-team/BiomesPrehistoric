@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_FeraliskInfestedJungle"]/wildAnimals</xpath>
+		<value>
+			<BMT_Ankylosaurus>0.01</BMT_Ankylosaurus>
+			<BMT_Arthropleura>0.02</BMT_Arthropleura>
+			<BMT_Baryonyx>0.01</BMT_Baryonyx>
+			<BMT_Boomasaur>0.02</BMT_Boomasaur>
+			<BMT_Compsognathus>0.01</BMT_Compsognathus>
+			<BMT_Gallimimus>0.01</BMT_Gallimimus>
+			<BMT_Hypsilophodon>0.01</BMT_Hypsilophodon>
+			<BMT_Kaprosuchus>0.01</BMT_Kaprosuchus>
+			<BMT_Kentrosaurus>0.01</BMT_Kentrosaurus>
+			<BMT_Lystrosaur>0.01</BMT_Lystrosaur>
+			<BMT_Meganeura>0.03</BMT_Meganeura>
+			<BMT_Protoceratops>0.01</BMT_Protoceratops>
+			<BMT_Pulmonoscorpius>0.02</BMT_Pulmonoscorpius>
+			<BMT_Styracosaurus>0.01</BMT_Styracosaurus>
+			<BMT_TRex>0.01</BMT_TRex>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_GallatrossGraveyard"]/wildAnimals</xpath>
+		<value>
+			<BMT_Allosaurus>0.05</BMT_Allosaurus>
+			<BMT_Boomasaur>0.05</BMT_Boomasaur>
+			<BMT_Brachiosaurus>0.01</BMT_Brachiosaurus>
+			<BMT_Carnotaurus>0.04</BMT_Carnotaurus>
+			<BMT_Dilophosaurus>0.02</BMT_Dilophosaurus>
+			<BMT_Dryosaurus>0.01</BMT_Dryosaurus>
+			<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
+			<BMT_Meganeura>0.05</BMT_Meganeura>
+			<BMT_Nanosaurus>0.05</BMT_Nanosaurus>
+			<BMT_Parasaur>0.05</BMT_Parasaur>
+			<BMT_Troodon>0.1</BMT_Troodon>
+			<BMT_Utahraptor>0.02</BMT_Utahraptor>
+			<BMT_Velociraptor>0.04</BMT_Velociraptor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_GelatinousSuperorganism"]/wildAnimals</xpath>
+		<value>
+			<BMT_Amargasaurus>0.05</BMT_Amargasaurus>
+			<BMT_Apatosaurus>0.08</BMT_Apatosaurus>
+			<BMT_Arthropleura>0.2</BMT_Arthropleura>
+			<BMT_Baryonyx>0.02</BMT_Baryonyx>
+			<BMT_Boomasaur>0.08</BMT_Boomasaur>
+			<BMT_Chasmosaurus>0.01</BMT_Chasmosaurus>
+			<BMT_Deinonychus>0.05</BMT_Deinonychus>
+			<BMT_Dimetrodon>0.08</BMT_Dimetrodon>
+			<BMT_Diplocaulus>0.05</BMT_Diplocaulus>
+			<BMT_Gallimimus>0.05</BMT_Gallimimus>
+			<BMT_Iguanodon>0.05</BMT_Iguanodon>
+			<BMT_Kaprosuchus>0.05</BMT_Kaprosuchus>
+			<BMT_Meganeura>0.1</BMT_Meganeura>
+			<BMT_Olorotitan>0.05</BMT_Olorotitan>
+			<BMT_Onchiodon>0.1</BMT_Onchiodon>
+			<BMT_Panphagia>0.05</BMT_Panphagia>
+			<BMT_Protoceratops>0.1</BMT_Protoceratops>
+			<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
+			<BMT_Stegoceras>0.05</BMT_Stegoceras>
+			<BMT_Stygimoloch>0.05</BMT_Stygimoloch>
+			<BMT_Therizinosaurus>0.01</BMT_Therizinosaurus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_IdyllicMeadows"]/wildAnimals</xpath>
+		<value>
+			<BMT_Amargasaurus>0.1</BMT_Amargasaurus>
+			<BMT_Boomasaur>0.05</BMT_Boomasaur>
+			<BMT_Borealopelta>0.05</BMT_Borealopelta>
+			<BMT_Camarasaurus>0.06</BMT_Camarasaurus>
+			<BMT_Centrosaurus>0.05</BMT_Centrosaurus>
+			<BMT_Edmontosaurus>0.08</BMT_Edmontosaurus>
+			<BMT_Homalocephale>0.03</BMT_Homalocephale>
+			<BMT_Leaellynasaura>0.02</BMT_Leaellynasaura>
+			<BMT_Meganeura>0.03</BMT_Meganeura>
+			<BMT_Minmi>0.08</BMT_Minmi>
+			<BMT_Olorotitan>0.02</BMT_Olorotitan>
+			<BMT_Pachyrhinosaurus>0.02</BMT_Pachyrhinosaurus>
+			<BMT_Polacanthus>0.02</BMT_Polacanthus>
+			<BMT_Protoceratops>0.05</BMT_Protoceratops>
+			<BMT_Psittacosaurus>0.04</BMT_Psittacosaurus>
+			<BMT_Struthiomimus>0.08</BMT_Struthiomimus>
+			<BMT_Styracosaurus>0.04</BMT_Styracosaurus>
+			<BMT_Triceratops>0.03</BMT_Triceratops>
+			<BMT_Troodon>0.02</BMT_Troodon>
+			<BMT_Yinlong>0.05</BMT_Yinlong>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_MechanoidIntrusion"]/wildAnimals</xpath>
+		<value>
+			<BMT_Compsognathus>0.01</BMT_Compsognathus>
+			<BMT_Gallimimus>0.01</BMT_Gallimimus>
+			<BMT_Hypsilophodon>0.2</BMT_Hypsilophodon>
+			<BMT_Nanosaurus>0.02</BMT_Nanosaurus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_MiasmicMangrove"]/wildAnimals</xpath>
+		<value>
+			<BMT_Apatosaurus>0.02</BMT_Apatosaurus>
+			<BMT_Arthropleura>0.1</BMT_Arthropleura>
+			<BMT_Baryonyx>0.02</BMT_Baryonyx>
+			<BMT_Boomasaur>0.01</BMT_Boomasaur>
+			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
+			<BMT_Chungkingosaurus>0.05</BMT_Chungkingosaurus>
+			<BMT_Deinonychus>0.01</BMT_Deinonychus>
+			<BMT_Diplocaulus>0.03</BMT_Diplocaulus>
+			<BMT_Dryosaurus>0.02</BMT_Dryosaurus>
+			<BMT_Iguanodon>0.04</BMT_Iguanodon>
+			<BMT_Kaprosuchus>0.15</BMT_Kaprosuchus>
+			<BMT_Lystrosaur>0.1</BMT_Lystrosaur>
+			<BMT_Maiasaura>0.05</BMT_Maiasaura>
+			<BMT_Meganeura>0.08</BMT_Meganeura>
+			<BMT_Onchiodon>0.05</BMT_Onchiodon>
+			<BMT_Ouranosaurus>0.02</BMT_Ouranosaurus>
+			<BMT_Pachycephalosaurus>0.02</BMT_Pachycephalosaurus>
+			<BMT_Protoceratops>0.02</BMT_Protoceratops>
+			<BMT_Psittacosaurus>0.03</BMT_Psittacosaurus>
+			<BMT_Pulmonoscorpius>0.1</BMT_Pulmonoscorpius>
+			<BMT_Spinosaurus>0.03</BMT_Spinosaurus>
+			<BMT_Stegoceras>0.02</BMT_Stegoceras>
+			<BMT_Titanoboa>0.08</BMT_Titanoboa>
+			<BMT_Wannanosaurus>0.05</BMT_Wannanosaurus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_MycoticJungle"]/wildAnimals</xpath>
+		<value>
+			<BMT_Amargasaurus>0.03</BMT_Amargasaurus>
+			<BMT_Ankylosaurus>0.1</BMT_Ankylosaurus>
+			<BMT_Baryonyx>0.02</BMT_Baryonyx>
+			<BMT_Boomasaur>0.1</BMT_Boomasaur>
+			<BMT_Centrosaurus>0.02</BMT_Centrosaurus>
+			<BMT_Chungkingosaurus>0.06</BMT_Chungkingosaurus>
+			<BMT_Compsognathus>0.1</BMT_Compsognathus>
+			<BMT_Edmontosaurus>0.06</BMT_Edmontosaurus>
+			<BMT_Gallimimus>0.02</BMT_Gallimimus>
+			<BMT_Hypsilophodon>0.02</BMT_Hypsilophodon>
+			<BMT_Iguanodon>0.05</BMT_Iguanodon>
+			<BMT_Kentrosaurus>0.07</BMT_Kentrosaurus>
+			<BMT_Lystrosaur>0.08</BMT_Lystrosaur>
+			<BMT_Meganeura>0.04</BMT_Meganeura>
+			<BMT_Minmi>0.07</BMT_Minmi>
+			<BMT_Pachycephalosaurus>0.06</BMT_Pachycephalosaurus>
+			<BMT_Pachyrhinosaurus>0.02</BMT_Pachyrhinosaurus>
+			<BMT_Parasaur>0.03</BMT_Parasaur>
+			<BMT_Spinosaurus>0.01</BMT_Spinosaurus>
+			<BMT_Stygimoloch>0.1</BMT_Stygimoloch>
+			<BMT_Therizinosaurus>0.07</BMT_Therizinosaurus>
+			<BMT_Titanoboa>0.05</BMT_Titanoboa>
+			<BMT_TRex>0.03</BMT_TRex>
+			<BMT_Triceratops>0.08</BMT_Triceratops>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_OcularForest"]/wildAnimals</xpath>
+		<value>
+			<BMT_Ankylosaurus>0.05</BMT_Ankylosaurus>
+			<BMT_Arthropleura>0.05</BMT_Arthropleura>
+			<BMT_Brachiosaurus>0.02</BMT_Brachiosaurus>
+			<BMT_Chasmosaurus>0.02</BMT_Chasmosaurus>
+			<BMT_Chungkingosaurus>0.05</BMT_Chungkingosaurus>
+			<BMT_Compsognathus>0.08</BMT_Compsognathus>
+			<BMT_Dimetrodon>0.05</BMT_Dimetrodon>
+			<BMT_Dryosaurus>0.03</BMT_Dryosaurus>
+			<BMT_Gallimimus>0.05</BMT_Gallimimus>
+			<BMT_Homalocephale>0.01</BMT_Homalocephale>
+			<BMT_Minmi>0.02</BMT_Minmi>
+			<BMT_Pachycephalosaurus>0.03</BMT_Pachycephalosaurus>
+			<BMT_Panphagia>0.05</BMT_Panphagia>
+			<BMT_Parasaur>0.05</BMT_Parasaur>
+			<BMT_Polacanthus>0.05</BMT_Polacanthus>
+			<BMT_Protoceratops>0.1</BMT_Protoceratops>
+			<BMT_Stegosaurus>0.08</BMT_Stegosaurus>
+			<BMT_Styracosaurus>0.08</BMT_Styracosaurus>
+			<BMT_TRex>0.01</BMT_TRex>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_PropaneLakes"]/wildAnimals</xpath>
+		<value>
+			<BMT_Borealopelta>0.05</BMT_Borealopelta>
+			<BMT_Homalocephale>0.02</BMT_Homalocephale>
+			<BMT_Leaellynasaura>0.05</BMT_Leaellynasaura>
+			<BMT_Polacanthus>0.02</BMT_Polacanthus>
+			<BMT_Timimus>0.05</BMT_Timimus>
+			<BMT_Yutyrannus>0.05</BMT_Yutyrannus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_PyroclasticConflagration"]/wildAnimals</xpath>
+		<value>
+			<BMT_Allosaurus>0.05</BMT_Allosaurus>
+			<BMT_Boomasaur>0.1</BMT_Boomasaur>
+			<BMT_Dilophosaurus>0.05</BMT_Dilophosaurus>
+			<BMT_Hypsilophodon>0.2</BMT_Hypsilophodon>
+			<BMT_Inostrancevia>0.1</BMT_Inostrancevia>
+			<BMT_Kentrosaurus>0.15</BMT_Kentrosaurus>
+			<BMT_Lystrosaur>0.2</BMT_Lystrosaur>
+			<BMT_Nanosaurus>0.05</BMT_Nanosaurus>
+			<BMT_Oviraptor>0.01</BMT_Oviraptor>
+			<BMT_Struthiomimus>0.05</BMT_Struthiomimus>
+			<BMT_Styracosaurus>0.01</BMT_Styracosaurus>
+			<BMT_Velociraptor>0.05</BMT_Velociraptor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_RockyCrags"]/wildAnimals</xpath>
+		<value>
+			<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
+			<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
+			<BMT_Hypsilophodon>0.1</BMT_Hypsilophodon>
+			<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
+			<BMT_Leaellynasaura>0.03</BMT_Leaellynasaura>
+			<BMT_Nanosaurus>0.05</BMT_Nanosaurus>
+			<BMT_Ouranosaurus>0.01</BMT_Ouranosaurus>
+			<BMT_Therizinosaurus>0.01</BMT_Therizinosaurus>
+			<BMT_Velociraptor>0.15</BMT_Velociraptor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AB_TarPits"]/wildAnimals</xpath>
+		<value>
+			<BMT_Allosaurus>0.1</BMT_Allosaurus>
+			<BMT_Boomasaur>0.1</BMT_Boomasaur>
+			<BMT_Carnotaurus>0.03</BMT_Carnotaurus>
+			<BMT_Dilophosaurus>0.07</BMT_Dilophosaurus>
+			<BMT_Inostrancevia>0.01</BMT_Inostrancevia>
+			<BMT_Maiasaura>0.05</BMT_Maiasaura>
+			<BMT_Meganeura>0.15</BMT_Meganeura>
+			<BMT_Nanosaurus>0.05</BMT_Nanosaurus>
+			<BMT_Ouranosaurus>0.1</BMT_Ouranosaurus>
+			<BMT_Oviraptor>0.05</BMT_Oviraptor>
+			<BMT_Protoceratops>0.1</BMT_Protoceratops>
+			<BMT_Utahraptor>0.1</BMT_Utahraptor>
+			<BMT_Velociraptor>0.05</BMT_Velociraptor>
+			<BMT_Yinlong>0.1</BMT_Yinlong>
+		</value>
+	</Operation>
+
+</Patch>
+

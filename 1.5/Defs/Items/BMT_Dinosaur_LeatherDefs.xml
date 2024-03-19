@@ -120,7 +120,7 @@
 		</stuffProps>
 	</ThingDef>
 
-	<ThingDef ParentName="BMT_ChitinBase">
+	<ThingDef ParentName="BiomesCore_ChitinBase">
 		<defName>BMT_PrimordialChitin</defName>
 		<label>primordial chitin</label>
 		<description>Dark chitin from a prehistoric creature. Blades tend to glance off of it.</description>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<!-- Saurumbo MO Pelt -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="BMT_Saurumbo"]/lifeStages/li[3]/butcherBodyPart</xpath>
+		<value>
+			<butcherBodyPart>
+				<bodyPartGroup>HeadAttackTool</bodyPartGroup>
+				<thing>DankPyon_Hide_Saurumbo</thing>
+				<allowFemale>true</allowFemale>
+			</butcherBodyPart>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BMT_Saurumbo"]</xpath>
+		<value>
+			<li Class="DankPyon.AdditionalButcherProducts">
+				<butcherOptions>
+					<li>
+						<thingDef>BMT_BladeFeather</thingDef>
+						<amount>1</amount>
+						<chance>100</chance>
+					</li>
+				</butcherOptions>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

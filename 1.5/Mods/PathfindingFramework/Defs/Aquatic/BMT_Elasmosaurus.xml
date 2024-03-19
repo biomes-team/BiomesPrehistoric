@@ -34,7 +34,7 @@
 		<reproductive>true</reproductive>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Elasmosaurus</defName>
 		<label>elasmosaurus</label>
 		<description>Very fast swiming carnivorous hunter which used its long neck to get close to prey without them noticing. A swift flick of the neck could catch them unawares. Its small head limited the size of what it could eat. Scientific name: Elasmosaurus platyurus</description>

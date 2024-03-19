@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--========== Trophies ==========-->
+				<!--========== Bladecrest Blade ==========-->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BMT_BladecrestBlade"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>bladecrest blade</label>
+								<capacities>
+									<li>Cut</li>
+								</capacities>
+								<power>14</power>
+								<cooldownTime>2</cooldownTime>
+								<chanceFactor>0.65</chanceFactor>
+								<armorPenetrationSharp>1.38</armorPenetrationSharp>
+								<armorPenetrationBlunt>16</armorPenetrationBlunt>
+								<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>bladecrest blade</label>
+								<capacities>
+									<li>Stab</li>
+								</capacities>
+								<power>36</power>
+								<cooldownTime>1.5</cooldownTime>
+								<chanceFactor>0.35</chanceFactor>
+								<armorPenetrationSharp>6.5</armorPenetrationSharp>
+								<armorPenetrationBlunt>5.8</armorPenetrationBlunt>
+								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+							</li>
+						</tools>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_BladecrestBlade"]/statBases</xpath>
+					<value>
+						<Bulk>3</Bulk>
+						<MeleeCounterParryBonus>0.18</MeleeCounterParryBonus>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_BladecrestBlade"]</xpath>
+					<value>
+						<equippedStatOffsets>
+							<MeleeCritChance>0.25</MeleeCritChance>
+							<MeleeDodgeChance>0.12</MeleeDodgeChance>
+						</equippedStatOffsets>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_BladecrestBlade"]</xpath>
+					<value>
+						<weaponTags>
+							<li>CE_OneHandedWeapon</li>
+						</weaponTags>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

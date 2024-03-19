@@ -34,7 +34,7 @@
 		<shearable>true</shearable>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Thalattosuchus</defName>
 		<label>thalattosuchus</label>
 		<description>While comparable in size to modern crocodilians, this species instead had a streamlined and finned body suited for the open ocean. Like many other aquatic predators, it had "salt glands" that allowed it to filter out the salt from the water it ingests as well as its salty prey.\n\nScientific Name:Metriorhynchus brevirostris</description>

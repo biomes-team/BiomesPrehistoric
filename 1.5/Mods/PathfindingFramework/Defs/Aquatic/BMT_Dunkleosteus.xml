@@ -37,7 +37,7 @@
 		<shearable>true</shearable>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Dunkleosteus</defName>
 		<label>dunkleosteus</label>
 		<description>A heavily armored fish from the late Devonian period, it lacked normal teeth but instead had tooth “plates.” Despite its large size and armoring, it was hunted by other predators of its time.\n\nScientific name: Dunkleosteus terrelli</description>

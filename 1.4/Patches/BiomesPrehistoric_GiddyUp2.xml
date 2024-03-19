@@ -1089,7 +1089,7 @@
 				</li>
 				<li Class="PatchOperationFindMod">
 					<mods>
-						<li>Biomes! Islands</li>
+						<li>Pathfinding Framework</li>
 					</mods>
 					<match Class="PatchOperationSequence">
 						<!-- Aquatic animals are disabled from being mountable in Biomes! Islands. -->

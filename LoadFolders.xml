@@ -25,10 +25,20 @@
 	<v1.5>
 		<li>1.5</li>
 		<li>\</li>
+		<li IfModActive="sarg.alphabiomes">1.5/Mods/AlphaBiomes</li>
 		<li IfModActive="BiomesTeam.BiomesIslands">1.5/Mods/BiomesIslands</li>
 		<li IfModActive="BiomesTeam.Oasis">1.5/Mods/BiomesOasis</li>
+		<li IfModActive="CETeam.CombatExtended">1.5/Mods/CombatExtended</li>
+		<li IfModActive="Owlchemist.GiddyUp">1.5/Mods/GiddyUp2</li>
+		<li IfModActive="DankPyon.Medieval.Overhaul">1.5/Mods/MedievalOverhaul</li>
 		<li IfModActive="zylle.MoreVanillaBiomes">1.5/Mods/MoreVanillaBiomes</li>
 		<li IfModActive="pathfinding.framework">1.5/Mods/PathfindingFramework</li>
 		<li IfModActive="pathfinding.framework">PathfindingFramework</li>
+		<li IfModActive="WindowsXP.RealisticPlanets">1.5/Mods/RealisticPlanets</li>
+		<li IfModActive="kikohi.BERF">1.5/Mods/RedwoodForest</li>
+		<li IfModActive="ReGrowth.BOTR.Core">1.5/Mods/ReGrowthCore</li>
+		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.5/Mods/VanillaExpandedFramework</li>
+		<li IfModActive="vanillaexpanded.backgrounds">1.5/Mods/VanillaBackgroundsExpanded</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore">1.5/Mods/VanillaPlantsExpandedMore</li>
 	</v1.5>
 </loadFolders>

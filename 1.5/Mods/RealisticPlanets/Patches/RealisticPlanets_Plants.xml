@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="RRP_Grassland"]/wildPlants</xpath>
+		<value>
+			<BMT_Horsetail>3.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="RRP_Savanna"]/wildPlants</xpath>
+		<value>
+			<BMT_Horsetail>3.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+		</value>
+	</Operation>
+
+	<!--
+	<li Class="PatchOperationAdd"> 
+		<xpath>Defs/BiomeDef[defName="RRP_Steppes"]/wildPlants</xpath>
+		<value>
+			<ZDuck_DesertRazorbill>0.1</ZDuck_DesertRazorbill>
+			<ZDuck_ArcticRazorbill>0.07</ZDuck_ArcticRazorbill>
+			<ZDuck_Bufflehead>0.1</ZDuck_Bufflehead>
+			<ZDuck_Cayuga>0.02</ZDuck_Cayuga>
+			<ZDuck_EiderPintail>0.2</ZDuck_EiderPintail>
+		</value>
+	</li>
+	-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="RRP_TemperateDesert"]/wildPlants</xpath>
+		<value>
+			<BMT_Horsetail>1.0</BMT_Horsetail>
+		</value>
+	</Operation>
+	<!--
+	<li Class="PatchOperationAdd"> 
+		<xpath>Defs/BiomeDef[defName="RRP_Permafrost"]/wildPlants</xpath>
+		<value>
+			<ZDuck_ArcticRazorbill>0.1</ZDuck_ArcticRazorbill>
+			<ZDuck_Bufflehead>0.1</ZDuck_Bufflehead>
+			<ZDuck_GreaterMallard>0.05</ZDuck_GreaterMallard>
+			<ZDuck_EiderPintail>0.2</ZDuck_EiderPintail>
+		</value>
+	</li>
+	-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="RRP_Oasis"]/wildPlants</xpath>
+		<value>
+			<BMT_Calamites>0.7</BMT_Calamites>
+			<BMT_Clubmoss>1.0</BMT_Clubmoss>
+		</value>
+	</Operation>
+
+
+</Patch>

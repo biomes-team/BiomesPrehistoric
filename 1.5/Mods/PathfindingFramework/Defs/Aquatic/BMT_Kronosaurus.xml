@@ -32,7 +32,7 @@
 		<reproductive>true</reproductive>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Kronosaurus</defName>
 		<label>kronosaurus</label>
 		<description>Kronosaurus was a carnivorous pliosaurs. It had an elongated head, a short neck, a stiff body propelled by four flippers, and a relatively short tail. The posterior flippers were larger than the anterior.\n\nScientific Name:Kronosaurus queenslandicus</description>

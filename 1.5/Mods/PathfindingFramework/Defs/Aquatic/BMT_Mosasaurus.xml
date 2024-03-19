@@ -32,7 +32,7 @@
 		<reproductive>true</reproductive>
 	</LifeStageDef>
 
-	<ThingDef ParentName="BMT_SaltWaterAnimal" ADogSaidBody="Tail">
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal" ADogSaidBody="Tail">
 		<defName>BMT_Mosasaurus</defName>
 		<label>mosasaurus</label>
 		<description>Mosasaurus swam using its long crocodile-like body in an undulating motion to swim and devoured all kinds of prey with its massive jaws and sharp, cone-shaped teeth. It lives and hunts the well-lit surface waters of the oceans.\n\nScientific name: Mosasaurus hoffmannii</description>

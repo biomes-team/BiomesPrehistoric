@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_Calamites"]/plant|
+			Defs/ThingDef[defName="BMT_Horsetail"]/plant
+		</xpath>
+		<value>
+			<sowTags>
+				<li>VCE_Aquatic</li>
+			</sowTags>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_NypaFruticans"]/plant/sowTags</xpath>
+		<value>
+			<li>VCE_Sandy</li>
+			<li>VCE_Aquatic</li>
+		</value>
+	</Operation>
+</Patch>
+
