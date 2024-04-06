@@ -23,11 +23,11 @@ namespace BiomesPrehistoric
 		/// <returns>True if def's mod is prehistoric.</returns>
 		private static bool FromPrehistoricMod(Def def)
 		{
-			return PrehistoricModDef.AllPackageIds.Contains(def.modContentPack?.PackageId);
+			return PrehistoricModDef.AllPackageIds.Contains(def?.modContentPack?.PackageId);
 		}
 		public static bool AlwaysSpawn(Def def)
 		{
-			return PrehistoricModDef.AlwaysSpawnPackageIds.Contains(def.modContentPack?.PackageId);
+			return PrehistoricModDef.AlwaysSpawnPackageIds.Contains(def?.modContentPack?.PackageId);
 		}
 
 		/// <summary>
