@@ -27,7 +27,7 @@ namespace BiomesPrehistoric
 		}
 		public static bool AlwaysSpawn(Def def)
 		{
-			return PrehistoricModDef.AlwaysSpawnPackageIds.Contains(def.modContentPack?.PackageId);
+			return PrehistoricModDef.AlwaysSpawnPackageIds.Contains(def?.modContentPack?.PackageId);
 		}
 
 		/// <summary>
