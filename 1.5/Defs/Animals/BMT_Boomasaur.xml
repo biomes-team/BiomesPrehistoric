@@ -63,7 +63,7 @@
 		<comps>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Chemfuel</milkDef>
-				<milkIntervalDays>1.5</milkIntervalDays>
+				<milkIntervalDays>2</milkIntervalDays>
 				<milkAmount>15</milkAmount>
 				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
