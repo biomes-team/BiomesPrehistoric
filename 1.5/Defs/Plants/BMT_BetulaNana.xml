@@ -15,9 +15,6 @@
     <uiIconScale>0.85</uiIconScale>
     <plant>
       <growDays>5</growDays>
-      <harvestWork>200</harvestWork>
-      <harvestYield>3</harvestYield>
-      <!--leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath-->
     </plant>
   </ThingDef>
 
