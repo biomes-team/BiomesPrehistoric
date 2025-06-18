@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Triceratops</defName>
+		<label>triceratops</label>
+		<description>One of the most well-known dinosaurs to even the least educated on the Rim, Triceratops had a large neck frill, two large brow horns, and a smaller nasal horn. They sometimes fought among themselves, whether it be for mates or territory and some remains even showed signs of having fought Tyrannosaurs.\n\nScientific name: Triceratops horridus</description> 
+		<statBases>
+			<MoveSpeed>4</MoveSpeed>
+			<MarketValue>570</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<FilthRate>16</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<meatLabel>ceratopsid meat</meatLabel>
+			<body>BMT_QuadrupedWithNeckFrillBeakAndTailThreeHorns</body>
+			<leatherDef>BMT_DinoHideHeavy</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>3.0</baseBodySize>
+			<baseHealthScale>3.5</baseHealthScale>
+			<baseHungerRate>0.75</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<predator>false</predator>
+			<packAnimal>true</packAnimal>
+			<wildness>0.40</wildness>
+			<lifeExpectancy>60</lifeExpectancy>
+			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+			<trainability>Intermediate</trainability>
+			<ageGenerationCurve>
+				<points>
+					<li>(0.0,0)</li>
+					<li>(0.1,350)</li>
+					<li>(0.9,150)</li>
+					<li>(1.5,5)</li>
+					<li>(20,4)</li>
+					<li>(65,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1.5</minAge>
+					<soundWounded>BMT_LargeDino_Angry</soundWounded>
+					<soundDeath>BMT_LargeDino_Death</soundDeath>
+					<soundCall>BMT_LargeDino_Call</soundCall>
+					<soundAngry>BMT_LargeDino_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_TriceratopsEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>5</eggFertilizationCountMax>
+				<eggLayIntervalDays>15</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>2~5</eggCountRange>
+			</li>
+			<li Class="BiomesCore.CompProperties_PackDefense">
+				<baseChance>0.3</baseChance>
+				<attackerMaxDistance>10</attackerMaxDistance>
+				<joinDefenseRange>20</joinDefenseRange>
+				<joinMaxPain>0.3</joinMaxPain>
+				<maxNumMeleeAttacks>3</maxNumMeleeAttacks>
+				<expiryInterval>500</expiryInterval>
+				<attackDoorIfTargetLost>true</attackDoorIfTargetLost>
+				<canBashFences>false</canBashFences>
+				<predatorConfidencePenalty>100</predatorConfidencePenalty>
+			</li>
+		</comps>
+		<tools>
+            <li>
+                <label>front left foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>front right foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>rear left foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>rear right foot</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3</power>
+                <cooldownTime>6</cooldownTime>
+                <linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+			<li>
+				<label>horn</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Triceratops</defName>
+		<label>triceratops</label>
+		<race>BMT_Triceratops</race>
+		<combatPower>287</combatPower>
+		<wildGroupSize>4~10</wildGroupSize>
+        <alternateGraphicChance>0.50</alternateGraphicChance>
+        <alternateGraphics>
+            <li>
+                <texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsB</texPath>
+            </li>
+        </alternateGraphics>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsA</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsA</texPath>
+					<drawSize>4.6</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+				<texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
+				<drawSize>4.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Triceratops/TriceratopsA</texPath>
+					<drawSize>6</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Triceratops/Dessicated_Triceratops</texPath>
+					<drawSize>6</drawSize>
+				</dessicatedBodyGraphicData>
+                <butcherBodyPart>
+                    <bodyPartGroup>HornAttackTool</bodyPartGroup>
+                    <thing>BMT_CeratopsidHorn</thing>
+                </butcherBodyPart>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_TriceratopsEggFertilized</defName>
+		<label>triceratops egg (fert.)</label>
+		<description>A fertilized triceratops egg. If all goes well, it should hatch into a baby triceratops. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(164,109,98)</color>
+			<drawSize>1.05</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.75</Nutrition>
+			<MarketValue>60</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Triceratops</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

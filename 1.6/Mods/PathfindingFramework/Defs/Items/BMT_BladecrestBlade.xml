@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef MayRequire="biomesteam.oasis" ParentName="ResourceVerbBase">
+		<defName>BMT_BladecrestBlade</defName>
+		<label>bladecrest blade</label>
+		<description>The blade-sharp part of the bladecrest's head. This is a true trophy, as well as a deadly melee weapon.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Trophie/BladecrestBlade/BladecrestBlade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<statBases>
+			<MarketValue>190</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Beauty>2</Beauty>
+		</statBases>
+		<stackLimit>1</stackLimit>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+					<li>Stab</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>Trophy</li>
+			<li>InertRelics</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<relicChance>2</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="PlantBase">
+        <defName>BMT_JurassicHorsetail</defName>
+        <label>horsetail</label>
+        <description>Wild horsetail, while nutritionally comparable to grasses, their high silicon content makes them difficult to digest. Slows down anyone moving over them.</description>
+        <statBases>
+            <MaxHitPoints>90</MaxHitPoints>
+            <Flammability>1.3</Flammability>
+            <Nutrition>0.30</Nutrition>
+        </statBases>
+        <modExtensions>
+            <li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+                <terrainTags>
+                    <li>Water</li>
+                    <li>Fresh</li>
+                    <li>Shallow</li>
+                    <li>Soil</li>
+                    <li>Boggy</li>
+                    <li>Muddy</li>
+                </terrainTags>
+            </li>
+        </modExtensions>
+        <pathCost>14</pathCost>
+        <graphicData>
+            <texPath>BMT_Prehistoric/Plant/JurassicHorsetail</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.5</hideAtSnowDepth>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.2</fertilityMin>
+            <fertilitySensitivity>0.5</fertilitySensitivity>
+            <growDays>3</growDays>
+            <harvestWork>80</harvestWork>
+            <maxMeshCount>9</maxMeshCount>
+            <visualSizeRange>0.7~0.85</visualSizeRange>
+            <topWindExposure>0.4</topWindExposure>
+            <wildClusterRadius>4</wildClusterRadius>
+            <wildClusterWeight>10</wildClusterWeight>
+            <wildOrder>1</wildOrder>
+        </plant>
+    </ThingDef>
+
+</Defs>

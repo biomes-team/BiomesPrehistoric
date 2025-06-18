@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BushBase">
+    <defName>BMT_Cycas</defName>
+    <label>cycad shrub</label>
+    <description>A short shruby cycad. Does not typically talk.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Cycas</texPath>
+      <drawSize>1.15</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <plant>
+      <growDays>3</growDays>
+    </plant>
+  </ThingDef>
+
+</Defs>

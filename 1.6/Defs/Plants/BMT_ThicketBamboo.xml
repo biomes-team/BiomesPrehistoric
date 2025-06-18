@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_ThicketBamboo</defName>
+    <label>bamboo thicket</label>
+    <description>A fast-growing tree-like plant that grows in dense groves. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</description>
+    <statBases>
+      <Nutrition>1.5</Nutrition>
+      <Mass>75</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/ThicketBamboo</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.38, 0.3, 0.15)</volume>
+        <offset>(0,0,-0.47)</offset>
+      </shadowData>
+    </graphicData>
+    <plant>
+      <growDays>12</growDays>
+      <harvestWork>550</harvestWork>
+      <harvestYield>10</harvestYield>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>15</wildClusterWeight>
+    </plant>
+    <ingestible />
+  </ThingDef>
+
+</Defs>

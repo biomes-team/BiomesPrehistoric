@@ -21,7 +21,7 @@ namespace BiomesPrehistoric.Patches.AnimalSpawning
 			List<PawnKindDef> availableFarmAnimals = new List<PawnKindDef>();
 			foreach (PawnKindDef pawnKindDef in DefDatabase<PawnKindDef>.AllDefsListForReading)
 			{
-				if (pawnKindDef.RaceProps.Animal && PrehistoricStatus.IsPrehistoric(pawnKindDef) && pawnKindDef.RaceProps.wildness < 0.35F &&
+				if (pawnKindDef.RaceProps.Animal && PrehistoricStatus.IsPrehistoric(pawnKindDef) && pawnKindDef.race.GetStatValueAbstract(StatDefOf.Wildness) < 0.35F &&
 				    map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(pawnKindDef.race) &&
 				    !pawnKindDef.race.tradeTags.NullOrEmpty() && pawnKindDef.race.tradeTags.Contains("AnimalFarm") &&
 				    !pawnKindDef.RaceProps.Dryad)
@@ -36,7 +36,7 @@ namespace BiomesPrehistoric.Patches.AnimalSpawning
 
 		public static float SelectionChance(PawnKindDef pawnKind)
 		{
-			float num = 0.42F - pawnKind.RaceProps.wildness;
+			float num = 0.42F - pawnKind.race.GetStatValueAbstract(StatDefOf.Wildness);
 			if (PawnUtility.PlayerHasReproductivePair(pawnKind))
 			{
 				num *= 0.5f;

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<BodyDef>
+		<defName>BMT_AmmoniteBody</defName>
+		<label>ammonite</label>
+		<corePart>
+			<def>TurtleShell</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<customLabel>ammonite shell</customLabel>
+			<parts>
+				<li>
+					<def>Stomach</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>InsectHeart</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>BMT_AmmoniteSiphon</def>
+					<coverage>0.03</coverage>
+				</li>
+
+
+				<li>
+					<def>BMT_AmmoniteGillChamber</def>
+					<coverage>0.03</coverage>
+					<depth>Outside</depth>
+					<parts>
+						<li>
+							<def>BMT_AmmoniteGill</def>
+							<coverage>0.18</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>BMT_AmmoniteGill</def>
+							<coverage>0.18</coverage>
+							<depth>Inside</depth>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>BMT_AmmoniteMantle</def>
+					<groups>
+						<li>HeadAttackTool</li>
+					</groups>
+					<coverage>0.03</coverage>
+					<depth>Outside</depth>
+					<parts>
+						<li>
+							<def>Jaw</def>
+							<coverage>0.18</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>BMT_AmmoniteHood</def>
+							<coverage>0.18</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>Brain</def>
+							<coverage>0.18</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>Eye</def>
+							<customLabel>left eye</customLabel>
+							<coverage>0.15</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>Eye</def>
+							<customLabel>right eye</customLabel>
+							<coverage>0.15</coverage>
+							<depth>Outside</depth>
+						</li>
+
+
+					</parts>
+				</li>
+
+
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>first tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>second tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>third tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>fourth tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>fifth tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>sixth tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>seventh tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+				<li>
+					<def>BMT_AmmoniteTentacle</def>
+					<customLabel>eighth tentacle</customLabel>
+					<coverage>0.03</coverage>
+					<groups>
+						<li>BMT_AmmoniteTentacleGroup</li>
+					</groups>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+
+
+</Defs>

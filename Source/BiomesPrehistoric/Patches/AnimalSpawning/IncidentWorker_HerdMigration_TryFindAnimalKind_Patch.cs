@@ -27,7 +27,7 @@ namespace BiomesPrehistoric.Patches.AnimalSpawning
 			__result = DefDatabase<PawnKindDef>.AllDefs
 				.Where(k => PrehistoricStatus.IsPrehistoric(k) && k.RaceProps.CanDoHerdMigration &&
 				            map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(k.race))
-				.TryRandomElementByWeight(x => Mathf.Lerp(0.2F, 1.0F, x.RaceProps.wildness), out animalKind);
+				.TryRandomElementByWeight(x => Mathf.Lerp(0.2F, 1.0F, x.race.GetStatValueAbstract(StatDefOf.Wildness)), out animalKind);
 
 			return false;
 		}

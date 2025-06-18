@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="RG_TemperateGrassland"]/wildPlants</xpath>
+		<value>
+			<!-- Grasses and small bushes -->
+			<BMT_Dicroidium>5.0</BMT_Dicroidium>
+			<BMT_Sedge>0.5</BMT_Sedge>
+			<BMT_Potentilla>0.03</BMT_Potentilla>
+			<BMT_RubusChamaemorus>0.03</BMT_RubusChamaemorus>
+			<BMT_Voltzia>5.5</BMT_Voltzia>
+			<!-- Large Bushes -->
+			<BMT_Aetheophyllum>0.1</BMT_Aetheophyllum>
+			<BMT_Coniopteris>0.25</BMT_Coniopteris>
+			<BMT_Dipteridaceae>0.25</BMT_Dipteridaceae>
+			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+			<!-- Water plants -->
+			<BMT_Horsetail>1.5</BMT_Horsetail>
+			<BMT_JurassicHorsetail>1.0</BMT_JurassicHorsetail>
+			<!-- Trees -->
+			<BMT_Pleuromeia>0.02</BMT_Pleuromeia>
+			<BMT_MerianiCalamites>0.03</BMT_MerianiCalamites>
+			<BMT_Podozamites>0.01</BMT_Podozamites>
+		</value>
+	</Operation>
+
+</Patch>
+

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>BMT_Potentilla</defName>
+    <label>five fingers</label>
+    <description>A tiny yellow flower which grows in large clusters. Though it is often considered a weed, five fingers in bloom are quite beautiful.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>4</Beauty>
+      <BeautyOutdoors>4</BeautyOutdoors>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Potentilla</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.0</fertilitySensitivity>
+      <growDays>2.5</growDays>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <fertilityMin>0.05</fertilityMin>
+      <visualSizeRange>0.5~0.6</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildClusterRadius>20</wildClusterRadius>
+      <wildClusterWeight>50</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+</Defs>

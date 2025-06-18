@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>BMT_Artemisia</defName>
+    <label>woormwood</label>
+    <description>Wormwood herb contains bitter substances.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>4</Beauty>
+      <BeautyOutdoors>4</BeautyOutdoors>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Artemisia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.05</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <growDays>2.5</growDays>
+      <visualSizeRange>0.7~1</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildClusterRadius>8</wildClusterRadius>
+      <wildClusterWeight>200</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+    </plant>
+  </ThingDef>
+
+</Defs>

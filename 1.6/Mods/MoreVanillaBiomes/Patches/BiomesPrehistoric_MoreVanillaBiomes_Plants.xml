@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_AlpineMeadow"]/wildPlants</xpath>
+		<value>
+			<BMT_Matoniaceae>9.0</BMT_Matoniaceae>
+			<BMT_Cycas>3.0</BMT_Cycas>
+			<BMT_Coniopteris>2.0</BMT_Coniopteris>
+			<BMT_Araucaria>1.2</BMT_Araucaria>
+			<BMT_Gnetum>0.16</BMT_Gnetum>
+			<BMT_HealrootFern>0.16</BMT_HealrootFern>
+			<BMT_Zamiaceae>1.5</BMT_Zamiaceae>
+			<BMT_Polytrichaceae>4.0</BMT_Polytrichaceae>
+			<BMT_JurassicHorsetail>2.0</BMT_JurassicHorsetail>
+			<BMT_Eathiestrobus>5.0</BMT_Eathiestrobus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_CoastalDunes"]/wildPlants</xpath>
+		<value>
+			<BMT_Horsetail>4.8</BMT_Horsetail>
+			<BMT_Calamites>1.72</BMT_Calamites>
+			<BMT_Clubmoss>2.0</BMT_Clubmoss>
+			<BMT_Sigillaria>1.72</BMT_Sigillaria>
+			<BMT_Lepidodendron>1.72</BMT_Lepidodendron>
+			<BMT_Sphenophyllum>0.8</BMT_Sphenophyllum>
+			<BMT_Pecopteris>0.8</BMT_Pecopteris>
+			<BMT_Medullosa>0.15</BMT_Medullosa>
+			<BMT_Alethopteris>0.05</BMT_Alethopteris>
+
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_DesertOasis"]/wildPlants</xpath>
+		<value>
+			<BMT_JungleGrass>3.0</BMT_JungleGrass>
+			<BMT_Davallia>2.0</BMT_Davallia>
+			<BMT_Ephedra>0.1</BMT_Ephedra>
+			<BMT_Angiopteris>0.8</BMT_Angiopteris>
+			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
+			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
+			<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
+			<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
+			<BMT_Berberis>0.05</BMT_Berberis>
+			<BMT_Sagaria>0.2</BMT_Sagaria>
+			<BMT_MayoaPortugallica>0.15</BMT_MayoaPortugallica>
+			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_Grasslands"]/wildPlants</xpath>
+		<value>
+			<BMT_Dicroidium>7.0</BMT_Dicroidium>
+			<BMT_Voltzia>0.7</BMT_Voltzia>
+			<BMT_Clathropteris>0.6</BMT_Clathropteris>
+			<BMT_Cycadales>0.2</BMT_Cycadales>
+			<BMT_Pleuromeia>0.26</BMT_Pleuromeia>
+			<BMT_MerianiCalamites>0.20</BMT_MerianiCalamites>
+			<BMT_Aetheophyllum>0.10</BMT_Aetheophyllum>
+			<BMT_Horsetail>3.0</BMT_Horsetail>
+			<BMT_Clubmoss>0.3</BMT_Clubmoss>
+		</value>
+	</Operation>
+
+	<!--
+	<li Class="PatchOperationAdd"> 
+		<xpath>Defs/BiomeDef[defName="ZBiome_Iceberg_NoBeach"]/wildPlants</xpath>
+		<value>
+			<Placeholder>999999999</Placeholder>
+		</value>
+	</li>
+	
+	-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_Marsh"]/wildPlants</xpath>
+		<value>
+			<BMT_Lindsaeaceae>3.0</BMT_Lindsaeaceae>
+			<BMT_PolarGrass>2.4</BMT_PolarGrass>
+			<BMT_BogMoss>0.5</BMT_BogMoss>
+			<BMT_Podocarpaceae>0.3</BMT_Podocarpaceae>
+			<BMT_Archaefructus>0.1</BMT_Archaefructus>
+			<BMT_Ginkgo>0.6</BMT_Ginkgo>
+			<BMT_Metasequoia>0.6</BMT_Metasequoia>
+			<BMT_Caytoniales>0.6</BMT_Caytoniales>
+			<BMT_Taxaceae>0.07</BMT_Taxaceae>
+			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_CloudForest"]/wildPlants</xpath>
+		<value>
+			<BMT_JungleGrass>3.0</BMT_JungleGrass>
+			<BMT_Davallia>2.0</BMT_Davallia>
+			<BMT_Ephedra>0.1</BMT_Ephedra>
+			<BMT_Angiopteris>0.8</BMT_Angiopteris>
+			<BMT_Archaeanthus>0.3</BMT_Archaeanthus>
+			<BMT_NypaFruticans>0.5</BMT_NypaFruticans>
+			<BMT_ThicketBamboo>0.2</BMT_ThicketBamboo>
+			<BMT_Cercidiphyllum>0.3</BMT_Cercidiphyllum>
+			<BMT_Berberis>0.05</BMT_Berberis>
+			<BMT_Sagaria>0.2</BMT_Sagaria>
+			<BMT_MayoaPortugallica>0.15</BMT_MayoaPortugallica>
+			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_Sandbar_NoBeach"]/wildPlants</xpath>
+		<value>
+			<BMT_Dicroidium>6</BMT_Dicroidium>
+			<BMT_Pleuromeia>1.0</BMT_Pleuromeia>
+			<BMT_Cycadales>0.25</BMT_Cycadales>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_Badlands"]/wildPlants</xpath>
+		<value>
+			<BMT_Lyginopteridales>4</BMT_Lyginopteridales>
+			<BMT_Peltaspermaceae>1.0</BMT_Peltaspermaceae>
+			<BMT_Glossopteris>1.0</BMT_Glossopteris>
+			<BMT_Walchia>0.7</BMT_Walchia>
+			<BMT_Cycadales>0.5</BMT_Cycadales>
+			<BMT_Sphenobaiera>0.25</BMT_Sphenobaiera>
+			<BMT_Horsetail>1.0</BMT_Horsetail>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZBiome_GlacialShield"]/wildPlants</xpath>
+		<value>
+			<BMT_Sedge>6.0</BMT_Sedge>
+			<BMT_RedSphagnum>1.2</BMT_RedSphagnum>
+			<BMT_NanaBetula>1.2</BMT_NanaBetula>
+			<BMT_Potentilla>0.1</BMT_Potentilla>
+			<BMT_Artemisia>0.1</BMT_Artemisia>
+			<BMT_Pinus>0.08</BMT_Pinus>
+			<BMT_LeopoldaeBetula>0.08</BMT_LeopoldaeBetula>
+			<BMT_RubusChamaemorus>0.07</BMT_RubusChamaemorus>
+			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+			<BMT_SwimmingBioMass>1</BMT_SwimmingBioMass>
+		</value>
+	</Operation>
+
+</Patch>
+

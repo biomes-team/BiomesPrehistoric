@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Deinonychus</defName>
+		<label>deinonychus</label>
+		<description>Its long fingers are equipped with three large curved claws, but it is the sickle claws on its feet that are its deadliest weapons.\n\nScientific name: Deinonychus antirrhopus (Counterbalanced terrible claw) \n\nThe discovery of Deinonychus, an active, agile predator, was strong evidence against the previously held assumption that dinosaurs were slow-moving, cold blooded reptiles.</description>
+		<statBases>
+			<MoveSpeed>6</MoveSpeed>
+			<MarketValue>450</MarketValue>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<FilthRate>2</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Velociraptor</useMeatFrom>
+			<petness>0.5</petness>
+			<body>BMT_BipedWithClawsSickleTeethAndTail</body>
+			<leatherDef>BMT_DinoHideFeathery</leatherDef>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<baseHungerRate>0.45</baseHungerRate>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<predator>true</predator>
+			<maxPreyBodySize>1.6</maxPreyBodySize>
+			<wildness>0.55</wildness>
+			<lifeExpectancy>10</lifeExpectancy>
+			<manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<ageGenerationCurve>
+				<points>
+					<li>(0.0,0)</li>
+					<li>(0.1,350)</li>
+					<li>(0.9,150)</li>
+					<li>(1.5,2)</li>
+					<li>(20,2)</li>
+					<li>(65,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>BMT_Compsognathus_Wounded</soundWounded>
+					<soundDeath>BMT_Compsognathus_Death</soundDeath>
+					<soundCall>BMT_Compsognathus_Call</soundCall>
+					<soundAngry>BMT_Compsognathus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_Shearable">
+				<woolDef>BMT_DinoFeather</woolDef>
+				<shearIntervalDays>30</shearIntervalDays>
+				<woolAmount>15</woolAmount>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_DeinonychusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>12</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>2~4</eggCountRange>
+			</li>
+			<li Class="BiomesCore.ThingComponents.CompProperties_AnimalThingSpawner">
+				<thingToSpawn>BMT_DinoFeather</thingToSpawn>
+				<spawnCount>2</spawnCount>
+				<spawnIntervalRange>60000~120000</spawnIntervalRange>
+				<saveKeysPrefix>DinoFeather</saveKeysPrefix>
+			</li>
+			<li Class="BiomesCore.CompProperties_PackHunter">
+				<joinHuntRange>24</joinHuntRange>
+				<packConfidenceBonusPerMember>0.25</packConfidenceBonusPerMember>
+			</li>
+			<li Class="BiomesCore.CompProperties_PackDefense">
+				<baseChance>0.3</baseChance>
+				<attackerMaxDistance>30</attackerMaxDistance>
+				<joinDefenseRange>20</joinDefenseRange>
+				<joinMaxPain>0.3</joinMaxPain>
+				<maxNumMeleeAttacks>3</maxNumMeleeAttacks>
+				<expiryInterval>500</expiryInterval>
+				<attackDoorIfTargetLost>true</attackDoorIfTargetLost>
+				<canBashFences>false</canBashFences>
+				<predatorConfidencePenalty>100</predatorConfidencePenalty>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>left sickle claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearLeftSickleClaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right sickle claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearRightSickleClaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalPet</li>
+			<li>AnimalFighter</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Deinonychus</defName>
+		<label>deinonychus</label>
+		<race>BMT_Deinonychus</race>
+		<combatPower>170</combatPower>
+		<wildGroupSize>1~3</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Deinonychus/Deinonychus</texPath>
+					<drawSize>1.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Deinonychus/Dessicated_Raptor</texPath>
+					<drawSize>1.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Deinonychus/Deinonychus</texPath>
+					<drawSize>2.6</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Deinonychus/Dessicated_Raptor</texPath>
+					<drawSize>2.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Deinonychus/Deinonychus</texPath>
+					<drawSize>3.6</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Deinonychus/Dessicated_Raptor</texPath>
+					<drawSize>3.6</drawSize>
+				</dessicatedBodyGraphicData>
+				<!--<butcherBodyPart>
+						<bodyPartGroup>BMT_SickleClaws</bodyPartGroup>
+						<thing>BMT_RaptorClaw</thing>
+				</butcherBodyPart>-->
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_DeinonychusEggFertilized</defName>
+		<label>deinonychus egg (fert.)</label>
+		<description>A fertilized deinonychus egg. If all goes well, it should hatch into a baby deinonychus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(181,164,138)</color>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.35</Nutrition>
+			<MarketValue>21.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Deinonychus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

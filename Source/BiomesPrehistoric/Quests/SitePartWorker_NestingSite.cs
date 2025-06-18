@@ -25,7 +25,7 @@ namespace BiomesPrehistoric
 
             part.things = new ThingOwner<Thing>(part, false);
 
-            var biome = tile < 0 ? BiomeDefOf.TemperateForest : Find.World?.grid[tile]?.biome ?? BiomeDefOf.TemperateForest;
+            var biome = tile < 0 ? BiomeDefOf.TemperateForest : Find.World?.grid[tile]?.PrimaryBiome ?? BiomeDefOf.TemperateForest;
 
             var dinoDefs = biome.AllWildAnimals
                 .Where(animalDef => animalDef != null && animalDef.modContentPack == BiomesPrehistoricMod.ModContentPack)
@@ -71,8 +71,10 @@ namespace BiomesPrehistoric
                 
                 for (int i = 0; i < adultCount; i++)
                 {
-                    var request = new PawnGenerationRequest(dinoDef);
-                    request.FixedGender = i < nestCount ? Gender.Female : Gender.Male;
+                    var request = new PawnGenerationRequest(dinoDef)
+                    {
+                        FixedGender = i < nestCount ? Gender.Female : Gender.Male
+                    };
                     var dino = PawnGenerator.GeneratePawn(request);
                     part.things.TryAdd(dino, false);
                 }

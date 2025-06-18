@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>BMT_Stromatolite</defName>
+		<label>layer rock</label>
+		<description>These microorganisms produce adhesive compounds that cement sand and other rocky materials to form mineral "microbial mats". In turn, these mats build up layer by layer, growing gradually over time.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Flammability>0.15</Flammability>
+			<Nutrition>1.20</Nutrition>
+		</statBases>
+		<selectable>true</selectable>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_PlantControl">
+				<terrainTags>
+					<li>Water</li>
+					<li>Salty</li>
+					<li>Shallow</li>
+					<li>Deep</li>
+				</terrainTags>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Plant/Stromatolite</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<fertilityMin>0.50</fertilityMin>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
+			<growDays>10</growDays>
+			<lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+			<maxMeshCount>4</maxMeshCount>
+			<harvestWork>80</harvestWork>
+			<visualSizeRange>0.7~0.85</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>10</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<interferesWithRoof>false</interferesWithRoof>
+		</plant>
+	</ThingDef>
+
+</Defs>

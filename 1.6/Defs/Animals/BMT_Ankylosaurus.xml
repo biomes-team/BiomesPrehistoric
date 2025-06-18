@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Ankylosaurus</defName>
+		<label>ankylosaurus</label>
+		<description>Ankylosaurus is perhaps the largest of its kind and has formidible defences, with a thick skull, bony plates covering its back and a collar of bone protecting its neck. If any predators do try to find a gap in its armour the dense club on its tail is more than capable of shattering the bones of large therapods - and the bodies of smaller ones.\n\nScientific name: Ankylosaurus magniventris (Fused lizard with a wide belly)\n\nThere have been relatively few fossils found of Ankylosaurus compared to other related dinosaurs, it owes its fame largely to a scale model of it being displayed at the 1964 World's Fair.</description>
+		<statBases>
+			<MoveSpeed>3</MoveSpeed>
+			<MarketValue>1520</MarketValue>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
+			<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
+			<FilthRate>17</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<meatLabel>ankylosid meat</meatLabel>
+			<body>BMT_QuadrupedWithArmorBeakAndTailWeapon</body>
+			<leatherDef>BMT_DinoHideArmored</leatherDef>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>3.5</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
+			<baseHungerRate>0.86</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<predator>false</predator>
+			<packAnimal>true</packAnimal>
+			<wildness>0.45</wildness>
+			<lifeExpectancy>80</lifeExpectancy>
+			<manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+			<trainability>Intermediate</trainability>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.4</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.8</minAge>
+					<soundWounded>BMT_Ankylosaurus_Wounded</soundWounded>
+					<soundDeath>BMT_Ankylosaurus_Death</soundDeath>
+					<soundCall>BMT_Ankylosaurus_Call</soundCall>
+					<soundAngry>BMT_Ankylosaurus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_AnkylosaurusEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>4</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~4</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>front left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>front right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear left foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearLeftClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>rear right foot</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>6</cooldownTime>
+				<linkedBodyPartsGroup>BMT_RearRightClaw</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_DinoBeakAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>tail-club</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>BMT_TailGroup</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalFighter</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Ankylosaurus</defName>
+		<label>ankylosaurus</label>
+		<race>BMT_Ankylosaurus</race>
+		<combatPower>180</combatPower>
+		<wildGroupSize>2~3</wildGroupSize>
+		<alternateGraphicChance>0.50</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusB</texPath>
+			</li>
+		</alternateGraphics>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
+					<drawSize>4</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.125)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
+					<drawSize>4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ankylosaurus/AnkylosaurusA</texPath>
+					<drawSize>6</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ankylosaurus/Dessicated_Ankylosaurus</texPath>
+					<drawSize>6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_AnkylosaurusEggFertilized</defName>
+		<label>ankylosaurus egg (fert.)</label>
+		<description>A fertilized Ankylosaurus egg. If all goes well, it should hatch into a baby ankylosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(216,170,123)</color>
+			<drawSize>1.05</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.875</Nutrition>
+			<MarketValue>80</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Ankylosaurus</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

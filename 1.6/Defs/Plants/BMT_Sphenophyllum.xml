@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>BMT_Sphenophyllum</defName>
+		<label>fanvine</label>
+		<description>Tangled masses of cord-like vines which coil in great masses along the ground. The leaves are thick and tough and difficult to brush aside. Fanvine greatly slows down anyone who moves over it.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<pathCost>42</pathCost>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Plant/Sphenophyllum</texPath>
+			<drawSize>2.25</drawSize>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible />
+		<plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>5</growDays>
+			<harvestWork>150</harvestWork>
+			<maxMeshCount>1</maxMeshCount>
+			<visualSizeRange>0.78~0.88</visualSizeRange>
+			<topWindExposure>0.16</topWindExposure>
+			<wildClusterRadius>6</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		</plant>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Panphagia</defName>
+		<label>panphagia</label>
+		<description>Despite its size and appearance, the panhagia is actually an early relative of the sauropods.\n\nScientific name: Panphagia protos</description>
+		<statBases>
+			<MoveSpeed>4.0</MoveSpeed>
+			<MarketValue>100</MarketValue>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<FilthRate>2</FilthRate>
+		</statBases>
+		<race>
+			<nameGenerator>BMT_NamerDino</nameGenerator>
+			<useMeatFrom>BMT_Brachiosaurus</useMeatFrom>
+			<body>BMT_BipedWithClawsTeethAndTailFiveDH</body>
+			<leatherDef>BMT_DinoHideThin</leatherDef>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>0.35</baseBodySize>
+			<baseHealthScale>1.15</baseHealthScale>
+			<baseHungerRate>0.325</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<predator>false</predator>
+			<wildness>0.30</wildness>
+			<lifeExpectancy>18</lifeExpectancy>
+			<petness>0.6</petness>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>None</trainability>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.27</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.51</minAge>
+					<soundWounded>BMT_Dryosaurus_Wounded</soundWounded>
+					<soundDeath>BMT_Dryosaurus_Death</soundDeath>
+					<soundCall>BMT_Dryosaurus_Call</soundCall>
+					<soundAngry>BMT_Dryosaurus_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>BMT_PanphagiaEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>4</eggFertilizationCountMax>
+				<eggLayIntervalDays>5</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~4</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>BMT_FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalPet</li>
+		</tradeTags>
+		<modExtensions>
+			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Nocturnal</bodyClock>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>BMT_Panphagia</defName>
+		<label>panphagia</label>
+		<race>BMT_Panphagia</race>
+		<combatPower>35</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Panphagia/Panphagia</texPath>
+					<drawSize>.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Panphagia/Dessicated_Panphagia</texPath>
+					<drawSize>.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Panphagia/Panphagia</texPath>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.2, 0.2)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Panphagia/Dessicated_Panphagia</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Panphagia/Panphagia</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Panphagia/Dessicated_Panphagia</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_PanphagiaEggFertilized</defName>
+		<label>panphagia egg (fert.)</label>
+		<description>A fertilized Panphagia egg. If all goes well, it should hatch into a baby Panphagia. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(79,81,115)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.25</Nutrition>
+			<MarketValue>20.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Panphagia</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
