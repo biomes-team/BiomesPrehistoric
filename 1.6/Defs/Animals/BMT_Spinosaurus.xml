@@ -11,6 +11,7 @@
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<FilthRate>17</FilthRate>
+			<Wildness>0.85</Wildness>
 		</statBases>
 		<tools>
 			<li>
@@ -98,7 +99,6 @@
 			<baseHungerRate>0.30</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>BMT_DinoHideHeavy</leatherDef>
-			<wildness>0.83</wildness>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>120</lifeExpectancy>
 			<manhunterOnDamageChance>0.7</manhunterOnDamageChance>

@@ -13,6 +13,7 @@
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<FilthRate>17</FilthRate>
+			<Wildness>0.80</Wildness>
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
@@ -26,7 +27,6 @@
 			<foodType>CarnivoreAnimalStrict, OvivoreAnimal</foodType>
 			<predator>true</predator>
 			<maxPreyBodySize>3.5</maxPreyBodySize>
-			<wildness>0.80</wildness>
 			<lifeExpectancy>20</lifeExpectancy>
 			<manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>

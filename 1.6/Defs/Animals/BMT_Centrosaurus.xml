@@ -12,6 +12,7 @@
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<FilthRate>17</FilthRate>
 			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
+			<Wildness>0.25</Wildness>
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
@@ -25,7 +26,6 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<predator>false</predator>
 			<packAnimal>true</packAnimal>
-			<wildness>0.25</wildness>
 			<lifeExpectancy>70</lifeExpectancy>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>

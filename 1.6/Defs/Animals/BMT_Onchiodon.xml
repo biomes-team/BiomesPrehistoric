@@ -41,6 +41,7 @@
 			<MarketValue>155</MarketValue>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<Wildness>0.25</Wildness>
 		</statBases>
 		<tools>
 			<li>
@@ -105,7 +106,6 @@
 			<maxPreyBodySize>0.35</maxPreyBodySize>
 			<useMeatFrom>BMT_Diplocaulus</useMeatFrom>
 			<leatherDef>Leather_Lizard</leatherDef>
-			<wildness>0.25</wildness>
 			<trainability>None</trainability>
 			<lifeExpectancy>17</lifeExpectancy>
 			<lifeStageAges>

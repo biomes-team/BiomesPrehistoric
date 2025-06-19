@@ -11,6 +11,7 @@
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<FilthRate>18</FilthRate>
+			<Wildness>0.6</Wildness>
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
@@ -31,7 +32,6 @@
 			</willNeverEat>
 			<predator>false</predator>
 			<packAnimal>false</packAnimal>
-			<wildness>0.6</wildness>
 			<roamMtbDays>2.25</roamMtbDays>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<lifeExpectancy>12</lifeExpectancy>

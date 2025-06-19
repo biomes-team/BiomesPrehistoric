@@ -15,6 +15,7 @@
 			<ArmorRating_Heat>0.30</ArmorRating_Heat>
 			<FilthRate>20</FilthRate>
 			<CaravanRidingSpeedFactor>1.8</CaravanRidingSpeedFactor>
+			<Wildness>0.985</Wildness>
 		</statBases>
 		<uiIconScale>1.75</uiIconScale>
 		<tools>
@@ -120,7 +121,6 @@
 			<leatherDef>Leather_Thrumbo</leatherDef>
 			<trainability>Advanced</trainability>
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
-			<wildness>0.985</wildness>
 			<predator>false</predator>
 			<lifeExpectancy>220</lifeExpectancy>
 			<willNeverEat>

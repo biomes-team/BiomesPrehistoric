@@ -12,6 +12,7 @@
 			<MarketValue>120</MarketValue>
 			<ToxicResistance>0.2</ToxicResistance>
 			<FilthRate>.5</FilthRate>
+			<Wildness>0.95</Wildness>
 		</statBases>
 		<uiIconScale>2</uiIconScale>
 		<tools>
@@ -69,7 +70,6 @@
 			<baseHungerRate>0.10</baseHungerRate>
 			<baseHealthScale>0.4</baseHealthScale>
 			<useMeatFrom>Megaspider</useMeatFrom>
-			<wildness>0.95</wildness>
 			<trainability>None</trainability>
 			<lifeExpectancy>6</lifeExpectancy>
 			<fleshType>Insectoid</fleshType>

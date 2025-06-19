@@ -12,6 +12,7 @@
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<CaravanRidingSpeedFactor>1.0</CaravanRidingSpeedFactor>
 			<FilthRate>16</FilthRate>
+			<Wildness>0.15</Wildness>
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
@@ -30,7 +31,6 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
 			</willNeverEat>
 			<predator>false</predator>
-			<wildness>0.15</wildness>
 			<lifeExpectancy>20</lifeExpectancy>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>

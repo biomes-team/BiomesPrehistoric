@@ -11,6 +11,7 @@
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<FilthRate>8</FilthRate>
+			<Wildness>0.20</Wildness>
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
@@ -23,7 +24,6 @@
 			<baseHungerRate>0.20</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<predator>false</predator>
-			<wildness>0.20</wildness>
 			<lifeExpectancy>30</lifeExpectancy>
 			<petness>0.3</petness>
 			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>

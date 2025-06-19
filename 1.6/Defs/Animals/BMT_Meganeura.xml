@@ -11,6 +11,7 @@
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>57</ComfyTemperatureMax>
 			<FilthRate>.7</FilthRate>
+			<Wildness>0.85</Wildness>
 		</statBases>
 		<race>
 			<body>BMT_BeetleLikeWithStinger</body>
@@ -22,7 +23,6 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<predator>true</predator>
 			<maxPreyBodySize>0.80</maxPreyBodySize>
-			<wildness>0.85</wildness>
 			<lifeExpectancy>10</lifeExpectancy>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.45</manhunterOnDamageChance>
