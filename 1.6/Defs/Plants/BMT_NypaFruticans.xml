@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿	<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <ThingDef ParentName="TreeBase">
@@ -33,7 +33,7 @@
       <sowResearchPrerequisites>
         <li>TreeSowing</li>
       </sowResearchPrerequisites>
-      <mustBeWildToSow>true</mustBeWildToSow>
+      <mustBeWildToSow>false</mustBeWildToSow>
       <blockAdjacentSow>false</blockAdjacentSow>
       <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
       <treeCategory>Full</treeCategory>
