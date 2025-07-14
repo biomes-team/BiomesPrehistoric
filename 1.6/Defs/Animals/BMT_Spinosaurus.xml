@@ -73,6 +73,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_SpinosaurusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_SpinosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>6</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -103,6 +104,8 @@
 			<lifeExpectancy>120</lifeExpectancy>
 			<manhunterOnDamageChance>0.7</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+			<waterSeeker>true</waterSeeker>
+			<waterCellCost>1</waterCellCost>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -140,13 +143,31 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinosaurusFemale</texPath>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinosaurusMale</texPath>
 					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Swimming_SpinosaurusMale</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.4</drawSize>
+				</swimmingGraphicData>
+				<femaleGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinosaurusFemale</texPath>
+					<drawSize>2.4</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<femaleSwimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Swimming_SpinosaurusFemale</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.4</drawSize>
+				</femaleSwimmingGraphicData>				
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
 					<drawSize>2.4</drawSize>
@@ -161,6 +182,11 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Swimming_SpinosaurusMale</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>8</drawSize>
+				</swimmingGraphicData>				
 				<femaleGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinosaurusFemale</texPath>
 					<drawSize>8</drawSize>
@@ -169,6 +195,11 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</femaleGraphicData>
+				<femaleSwimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Swimming_SpinosaurusFemale</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>8</drawSize>
+				</femaleSwimmingGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
 					<drawSize>8</drawSize>
@@ -183,6 +214,11 @@
 						<offset>(0,0,-0.5)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Swimming_SpinosaurusMale</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>15</drawSize>
+				</swimmingGraphicData>
 				<femaleGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/SpinosaurusFemale</texPath>
 					<drawSize>15</drawSize>
@@ -191,6 +227,11 @@
 						<offset>(0,0,-0.5)</offset>
 					</shadowData>
 				</femaleGraphicData>
+				<femaleSwimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Swimming_SpinosaurusFemale</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>15</drawSize>
+				</femaleSwimmingGraphicData>				
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Spinosaurus/Dessicated_Spino</texPath>
 					<drawSize>15</drawSize>
@@ -224,5 +265,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_SpinosaurusEggUnfertilized</defName>
+		<label>spinosaurus egg (unfert.)</label>
+		<description>An unfertilized spinosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
+			<color>(230,212,193)</color>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+		</statBases>
+	</ThingDef>
   </Defs>

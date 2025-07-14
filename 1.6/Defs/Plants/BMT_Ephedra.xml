@@ -17,7 +17,7 @@
     </graphicData>
     <selectable>true</selectable>
     <neverMultiSelect>false</neverMultiSelect>
-    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
     <pathCost>14</pathCost>
     <fillPercent>0.20</fillPercent>
     <ingestible />

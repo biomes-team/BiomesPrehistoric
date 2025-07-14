@@ -61,6 +61,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_BaryonyxEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_BaryonyxEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>12</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -189,6 +190,19 @@
 				<hatcherPawn>BMT_Baryonyx</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+		<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_BaryonyxEggUnfertilized</defName>
+		<label>baryonyx egg (unfert.)</label>
+		<description>An unfertilized baryonyx egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(226,225,214)</color>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
 	</ThingDef>
 
 </Defs>

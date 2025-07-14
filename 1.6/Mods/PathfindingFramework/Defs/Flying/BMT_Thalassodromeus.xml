@@ -64,6 +64,13 @@
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<flyingAnimationFramePathPrefix>Things/Pawn/Animal/Duck/DuckMale_Flying_</flyingAnimationFramePathPrefix>
+			<flyingAnimationFramePathPrefixFemale>Things/Pawn/Animal/Duck/DuckFemale_Flying_</flyingAnimationFramePathPrefixFemale>
+			<flyingAnimationFrameCount>8</flyingAnimationFrameCount>
+			<flyingAnimationTicksPerFrame>2</flyingAnimationTicksPerFrame>
+			<flyingAnimationDrawSize>1.7</flyingAnimationDrawSize>
+			<flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
+			<flyingAnimationInheritColors>false</flyingAnimationInheritColors>
 			<ageGenerationCurve>
 				<points>
 					<li>(0.0,0)</li>
@@ -112,6 +119,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_ThalassodromeusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_ThalassodromeusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>12</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -261,5 +269,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_ThalassodromeusEggUnfertilized</defName>
+		<label>thalassodromeus egg (unfert.)</label>
+		<description>An unfertilized thalassodromeus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(152,95,81)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

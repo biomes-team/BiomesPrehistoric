@@ -54,6 +54,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_WannanosaurusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_WannanosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -155,8 +156,8 @@
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_WannanosaurusEggFertilized</defName>
-		<label>Wannanosaurus egg (fert.)</label>
-		<description>A fertilized Wannanosaurus egg. If all goes well, it should hatch into a baby Wannanosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<label>wannanosaurus egg (fert.)</label>
+		<description>A fertilized wannanosaurus egg. If all goes well, it should hatch into a baby wannanosaurus. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(227,219,213)</color>
@@ -173,5 +174,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_WannanosaurusEggUnfertilized</defName>
+		<label>wannanosaurus egg (unfert.)</label>
+		<description>An unfertilized wannanosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(227,219,213)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>
