@@ -54,7 +54,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_InostranceviaEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_InostranceviaEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>12</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -178,17 +177,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_InostranceviaEggUnfertilized</defName>
-		<label>inostrancevia egg (unfert.)</label>
-		<description>An unfertilized inostrancevia egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(230,212,193)</color>
-			<drawSize>0.85</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>25</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

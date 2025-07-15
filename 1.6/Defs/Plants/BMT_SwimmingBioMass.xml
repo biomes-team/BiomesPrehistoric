@@ -24,7 +24,7 @@
       <graphicClass>Graphic_Random</graphicClass>
       <drawSize>1.8</drawSize>
     </graphicData>
-    <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible />
     <plant>
       <fertilityMin>0.05</fertilityMin>

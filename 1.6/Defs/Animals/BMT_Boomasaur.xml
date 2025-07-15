@@ -69,7 +69,6 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_BoomasaurEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_BoomasaurEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
 				<eggLayIntervalDays>6.66</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -190,17 +189,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_BoomasaurEggUnfertilized</defName>
-		<label>boomasaurolophus egg (unfert.)</label>
-		<description>An unfertilized boomasaurolophus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(213,197,189)</color>
-			<drawSize>0.75</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>15</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

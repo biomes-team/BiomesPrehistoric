@@ -57,7 +57,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_AmargasaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_AmargasaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>12</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -246,17 +245,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_AmargasaurusEggUnfertilized</defName>
-		<label>amargasaurus egg (unfert.)</label>
-		<description>An unfertilized amargasaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
-			<color>(230,212,193)</color>
-			<drawSize>1.15</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>25</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

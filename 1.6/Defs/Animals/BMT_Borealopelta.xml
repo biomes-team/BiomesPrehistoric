@@ -67,7 +67,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_BorealopeltaEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_BorealopeltaEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>12</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -243,17 +242,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_BorealopeltaEggUnfertilized</defName>
-		<label>borealopelta egg (unfert.)</label>
-		<description>An unfertilized borealopelta egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(198,150,130)</color>
-			<drawSize>0.95</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>40</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

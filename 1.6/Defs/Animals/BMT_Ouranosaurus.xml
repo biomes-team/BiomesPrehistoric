@@ -66,7 +66,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_OuranosaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_OuranosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>6</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -186,17 +185,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_OuranosaurusEggUnfertilized</defName>
-		<label>ouranosaurus egg (unfert.)</label>
-		<description>An unfertilized ouranosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(213,197,189)</color>
-			<drawSize>0.95</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>11</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

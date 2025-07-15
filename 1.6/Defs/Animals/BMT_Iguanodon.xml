@@ -68,7 +68,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_IguanodonEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_IguanodonEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>8</eggFertilizationCountMax>
 				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -197,17 +196,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_IguanodonEggUnfertilized</defName>
-		<label>iguanodon egg (unfert.)</label>
-		<description>An unfertilized iguanodon egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(167,158,129)</color>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>12</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

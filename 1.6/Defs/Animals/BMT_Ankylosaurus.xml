@@ -57,7 +57,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_AnkylosaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_AnkylosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>10</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -220,17 +219,4 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_AnkylosaurusEggUnfertilized</defName>
-		<label>ankylosaurus egg (unfert.)</label>
-		<description>An unfertilized ankylosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(216,170,123)</color>
-			<drawSize>1.05</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>40</MarketValue>
-		</statBases>
-	</ThingDef>
 </Defs>

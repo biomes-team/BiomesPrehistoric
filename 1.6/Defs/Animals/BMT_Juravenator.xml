@@ -71,7 +71,6 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_JuravenatorEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_JuravenatorEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>6</eggFertilizationCountMax>
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -197,17 +196,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_JuravenatorEggUnfertilized</defName>
-		<label>juravenator egg (unfert.)</label>
-		<description>An unfertilized juravenator egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-			<color>(181,164,138)</color>
-			<drawSize>0.55</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>10</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

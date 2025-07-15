@@ -54,7 +54,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_OviraptorEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_OviraptorEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>9.5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -189,17 +188,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_OviraptorEggUnfertilized</defName>
-		<label>oviraptor egg (unfert.)</label>
-		<description>An unfertilized oviraptor egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-			<color>(181,164,138)</color>
-			<drawSize>0.85</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>12</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

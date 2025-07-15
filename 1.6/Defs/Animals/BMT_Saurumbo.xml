@@ -152,7 +152,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_SaurumboEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_SaurumboEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>20</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -243,17 +242,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_SaurumboEggUnfertilized</defName>
-		<label>saurumbo egg (unfert.)</label>
-		<description>An unfertilized saurumbo egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
-			<color>(180,173,150)</color>
-			<drawSize>1.3</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>500</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

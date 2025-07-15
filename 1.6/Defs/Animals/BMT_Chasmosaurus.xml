@@ -65,7 +65,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_ChasmosaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_ChasmosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
 				<eggLayIntervalDays>8</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -238,17 +237,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_ChasmosaurusEggUnfertilized</defName>
-		<label>chasmosaurus egg (unfert.)</label>
-		<description>An unfertilized chasmosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(135,113,74)</color>
-			<drawSize>0.95</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>25</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

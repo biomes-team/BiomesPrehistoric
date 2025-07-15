@@ -56,7 +56,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_AllosaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_AllosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>8</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -187,17 +186,4 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_AllosaurusEggUnfertilized</defName>
-		<label>allosaurus egg (unfert.)</label>
-		<description>An unfertilized allosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-			<color>(236,206,196)</color>
-			<drawSize>1.05</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>25</MarketValue>
-		</statBases>
-	</ThingDef>
 </Defs>

@@ -61,14 +61,6 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<comps>
-			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>BMT_TitanoboaEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_TitanoboaEggUnfertilized</eggUnfertilizedDef>
-				<eggFertilizationCountMax>2</eggFertilizationCountMax>
-				<eggLayIntervalDays>14</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~2</eggCountRange>
-			</li>
 		</comps>
 		<modExtensions>
 			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
@@ -141,30 +133,5 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_TitanoboaEggFertilized</defName>
-		<label>titanoboa egg (unfert.)</label>
-		<description>An unfertilized titanoboa egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(74,63,51)</color>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>25</MarketValue>
-		</statBases>
-	</ThingDef>
-		<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_TitanoboaEggUnfertilized</defName>
-		<label>titanoboa egg (unfert.)</label>
-		<description>An unfertilized titanoboa egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(74,63,51)</color>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>10</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

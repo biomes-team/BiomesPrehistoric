@@ -64,7 +64,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_KentrosaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_KentrosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -239,17 +238,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_KentrosaurusEggUnfertilized</defName>
-		<label>kentrosaurus egg (unfert.)</label>
-		<description>An unfertilized kentrosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(177,194,116)</color>
-			<drawSize>1.05</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>30</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

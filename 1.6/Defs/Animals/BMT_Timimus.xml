@@ -59,7 +59,6 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_TimimusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_TimimusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>10</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -185,17 +184,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_TimimusEggUnfertilized</defName>
-		<label>timimus egg (unfert.)</label>
-		<description>An unfertilized timimus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-			<color>(181,164,138)</color>
-			<drawSize>0.9</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>20</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

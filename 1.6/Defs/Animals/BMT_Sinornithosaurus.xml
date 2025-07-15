@@ -72,7 +72,6 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_SinornithosaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_SinornithosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -223,17 +222,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_SinornithosaurusEggUnfertilized</defName>
-		<label>sinornithosaurus egg (unfert.)</label>
-		<description>An unfertilized sinornithosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-			<color>(134,89,65)</color>
-			<drawSize>0.85</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>12</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

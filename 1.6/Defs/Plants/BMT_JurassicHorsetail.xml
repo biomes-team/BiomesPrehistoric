@@ -27,7 +27,7 @@
             <texPath>BMT_Prehistoric/Plant/JurassicHorsetail</texPath>
             <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
-        <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+        <hideAtSnowDepth>0.5</hideAtSnowDepth>
         <ingestible />
         <plant>
             <fertilityMin>0.2</fertilityMin>

@@ -70,7 +70,6 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_StruthiomimusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_StruthiomimusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>15</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -191,17 +190,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_StruthiomimusEggUnfertilized</defName>
-		<label>struthiomimus egg (unfert.)</label>
-		<description>An unfertilized struthiomimus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-			<color>(181,164,138)</color>
-			<drawSize>0.9</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>11</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

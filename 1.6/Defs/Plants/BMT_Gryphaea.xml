@@ -78,6 +78,7 @@
 		</ingestible>
 		<thingCategories>
 			<li>BMT_ShellFish</li>
+			<li MayRequire="vanillaexpanded.vcef">VCEF_RawFishCategory</li>
 		</thingCategories>
 		<generateCommonality>0</generateCommonality>
 	</ThingDef>

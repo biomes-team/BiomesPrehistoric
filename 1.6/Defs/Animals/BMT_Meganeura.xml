@@ -6,7 +6,7 @@
 		<label>meganeura</label>
 		<description>Meganeura, a giant dragonfly-like insect which eats small animals and plants. Despite looking like a dragonfly, it is actually more closely related to Damselflies.\n\nScientific name: Meganeura brongniarti</description>
 		<statBases>
-			<MoveSpeed>5</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
+			<MoveSpeed>4</MoveSpeed> <!-- Very fast dragonfly thing, fly -->
 			<MarketValue>225</MarketValue>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>57</ComfyTemperatureMax>
@@ -53,11 +53,12 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_MeganeuraEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_MeganeuraEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>20</eggFertilizationCountMax>
 				<eggLayIntervalDays>14</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>5~20</eggCountRange>
+			</li>
+			<li Class="AnimalBehaviours.CompProperties_Floating" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
 			</li>
 		</comps>
 		<tools>
@@ -177,16 +178,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_MeganeuraEggUnfertilized</defName>
-		<label>meganeura egg (unfert.)</label>
-		<description>An unfertilized meganeura egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/MeganeuraEgg</texPath>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>20</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

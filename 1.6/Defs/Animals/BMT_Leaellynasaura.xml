@@ -66,7 +66,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_LeaellynasauraEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_LeaellynasauraEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -211,17 +210,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_LeaellynasauraEggUnfertilized</defName>
-		<label>leaellynasaura egg (unfert.)</label>
-		<description>An unfertilized leaellynasaura egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
-			<color>(230,212,193)</color>
-			<drawSize>0.8</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>10</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>

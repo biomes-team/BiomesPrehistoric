@@ -69,7 +69,6 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_WuerhosaurusEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_WuerhosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -208,8 +207,8 @@
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_WuerhosaurusEggFertilized</defName>
-		<label>wuerhosaurus egg (fert.)</label>
-		<description>A fertilized wuerhosaurus egg. If all goes well, it should hatch into a baby wuerhosaurus. It can be eaten raw, but it's much better cooked.</description>
+		<label>Wuerhosaurus egg (fert.)</label>
+		<description>A fertilized Wuerhosaurus egg. If all goes well, it should hatch into a baby Wuerhosaurus. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(111,94,83)</color>
@@ -226,17 +225,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_WuerhosaurusEggUnfertilized</defName>
-		<label>wuerhosaurus egg (unfert.)</label>
-		<description>An unfertilized wuerhosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
-		<graphicData>
-			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(111,94,83)</color>
-			<drawSize>0.9</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>15</MarketValue>
-		</statBases>
-	</ThingDef>
+
 </Defs>
