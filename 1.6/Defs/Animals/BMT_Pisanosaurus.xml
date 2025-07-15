@@ -66,6 +66,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_PisanosaurusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_PisanosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -191,5 +192,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_PisanosaurusEggUnfertilized</defName>
+		<label>pisanosaurus egg (unfert.)</label>
+		<description>An unfertilized pisanosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(181,164,138)</color>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>11</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

@@ -71,6 +71,7 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_YutyrannusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_YutyrannusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>10</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -218,5 +219,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_YutyrannusEggUnfertilized</defName>
+		<label>yutyrannus egg (unfert.)</label>
+		<description>An unfertilized yutyrannus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
+			<color>(236,206,196)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

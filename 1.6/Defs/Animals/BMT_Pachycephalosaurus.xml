@@ -54,6 +54,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_PachycephalosaurusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_PachycephalosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>7.7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -177,5 +178,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_PachycephalosaurusEggUnfertilized</defName>
+		<label>pachycephalosaurus egg (unfert.)</label>
+		<description>An unfertilized pachycephalosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(207,207,207)</color>
+			<drawSize>0.95</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

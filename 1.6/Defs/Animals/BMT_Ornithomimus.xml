@@ -70,6 +70,7 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_OrnithomimusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_OrnithomimusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>13</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -190,5 +191,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_OrnithomimusEggUnfertilized</defName>
+		<label>ornithomimus egg (unfert.)</label>
+		<description>An unfertilized ornithomimus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(181,164,138)</color>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>11</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

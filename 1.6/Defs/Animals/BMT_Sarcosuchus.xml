@@ -31,6 +31,8 @@
 			<manhunterOnTameFailChance>0.60</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
 			<trainability>Intermediate</trainability>
+			<waterSeeker>true</waterSeeker>
+			<waterCellCost>1</waterCellCost>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
@@ -64,6 +66,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_SarcosuchusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_SarcosuchusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>12</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -137,6 +140,11 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Sarcosuchus/Swimming_Sarcosuchus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
 					<drawSize>1.0</drawSize>
@@ -151,6 +159,11 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Sarcosuchus/Swimming_Sarcosuchus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
 					<drawSize>2.0</drawSize>
@@ -165,6 +178,11 @@
 						<offset>(0,0,-0.5)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Sarcosuchus/Swimming_Sarcosuchus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Sarcosuchus/Dessicated_Sarcosuchus</texPath>
 					<drawSize>3.5</drawSize>
@@ -193,5 +211,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_SarcosuchusEggUnfertilized</defName>
+		<label>sarcosuchus egg (unfert.)</label>
+		<description>An unfertilized sarcosuchus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(226,225,214)</color>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

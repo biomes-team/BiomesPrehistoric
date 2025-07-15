@@ -58,6 +58,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_CarcharodontosaurusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_CarcharodontosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>14</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -233,5 +234,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_CarcharodontosaurusEggUnfertilized</defName>
+		<label>carcharodontosaurus egg (unfert.)</label>
+		<description>An unfertilized carcharodontosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoSpheroidEgg</texPath>
+			<color>(236,206,196)</color>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

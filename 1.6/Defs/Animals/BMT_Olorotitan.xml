@@ -69,6 +69,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_OlorotitanEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_OlorotitanEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
 				<eggLayIntervalDays>8</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -170,8 +171,8 @@
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_OlorotitanEggFertilized</defName>
-		<label>Olorotitan egg (fert.)</label>
-		<description>A fertilized Olorotitan egg. If all goes well, it should hatch into a baby Olorotitan. It can be eaten raw, but it's much better cooked.</description>
+		<label>olorotitan egg (fert.)</label>
+		<description>A fertilized olorotitan egg. If all goes well, it should hatch into a baby Olorotitan. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
 			<color>(201,159,122)</color>
@@ -188,5 +189,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_OlorotitanEggUnfertilized</defName>
+		<label>olorotitan egg (unfert.)</label>
+		<description>An unfertilized olorotitan egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(201,159,122)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

@@ -67,6 +67,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_YinlongEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_YinlongEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>5</eggFertilizationCountMax>
 				<eggLayIntervalDays>3</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -221,5 +222,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_YinlongEggUnfertilized</defName>
+		<label>yinlong egg (unfert.)</label>
+		<description>An unfertilized yinlong egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(135,113,74)</color>
+			<drawSize>0.95</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

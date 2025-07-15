@@ -55,6 +55,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_TherizinosaurusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_TherizinosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>15</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -170,7 +171,7 @@
 		</graphicData>
 		<statBases>
 			<Nutrition>1.0</Nutrition>
-			<MarketValue>63</MarketValue>
+			<MarketValue>60</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
@@ -179,5 +180,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_TherizinosaurusEggUnfertilized</defName>
+		<label>therizinosaurus egg (unfert.)</label>
+		<description>An unfertilized therizinosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoEllipsoidEgg</texPath>
+			<color>(236,206,196)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

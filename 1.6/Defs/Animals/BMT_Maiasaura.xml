@@ -69,6 +69,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_MaiasauraEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_MaiasauraEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>7</eggFertilizationCountMax>
 				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -189,5 +190,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_MaiasauraEggUnfertilized</defName>
+		<label>maiasaura egg (unfert.)</label>
+		<description>An unfertilized maiasaura egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(186,176,155)</color>
+			<drawSize>0.66</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

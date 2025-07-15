@@ -60,6 +60,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_MinmiEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_MinmiEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -205,7 +206,7 @@
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_MinmiEggFertilized</defName>
-		<label>Minmi egg (fert.)</label>
+		<label>minmi egg (fert.)</label>
 		<description>A fertilized minmi egg. If all goes well, it should hatch into a baby minmi. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
@@ -223,5 +224,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_MinmiEggUnfertilized</defName>
+		<label>minmi egg (unfert.)</label>
+		<description>An unfertilized minmi egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(216,170,123)</color>
+			<drawSize>.5</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

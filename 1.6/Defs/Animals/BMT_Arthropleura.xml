@@ -54,6 +54,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_ArthropleuraEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_ArthropleuraEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>15</eggFertilizationCountMax>
 				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -154,6 +155,18 @@
 				<hatcherPawn>BMT_Arthropleura</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+		<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_ArthropleuraEggUnfertilized</defName>
+		<label>arthropleura egg (unfert.)</label>
+		<description>An unfertilized arthropleura egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/ArthropleuraEgg</texPath>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
 	</ThingDef>
 
 </Defs>

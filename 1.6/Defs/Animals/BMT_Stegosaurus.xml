@@ -68,6 +68,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_StegosaurusEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_StegosaurusEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>4</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -248,5 +249,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_StegosaurusEggUnfertilized</defName>
+		<label>stegosaurus egg (unfert.)</label>
+		<description>An unfertilized stegosaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
+			<color>(111,94,83)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>
