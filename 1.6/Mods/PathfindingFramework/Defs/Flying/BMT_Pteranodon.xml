@@ -43,6 +43,9 @@
 			<MarketValue>950</MarketValue>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<MaxFlightTime>50</MaxFlightTime>
+			<FlightCooldown>10</FlightCooldown>
+			<Wildness>0.45</Wildness>			
 		</statBases>
 		<race>
 			<meatLabel>pterosaur meat</meatLabel>
@@ -54,7 +57,6 @@
 			<baseHealthScale>1.2</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
-			<wildness>0.45</wildness>
 			<trainability>Advanced</trainability>
 			<lifeExpectancy>35</lifeExpectancy>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
@@ -97,16 +99,6 @@
 		<modExtensions>
 			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
-			</li>
-			<li Class="PathfindingFramework.MovementExtension">
-				<movementDef>PF_Movement_Flying</movementDef>
-			</li>
-			<li Class="PathfindingFramework.LocomotionMovementExtension">
-				<locomotionUrgencies>
-					<li>Jog</li>
-					<li>Sprint</li>
-				</locomotionUrgencies>
-				<moveSpeedMultiplier>4</moveSpeedMultiplier>
 			</li>
 		</modExtensions>
 		<comps>
@@ -184,11 +176,17 @@
 		<combatPower>60</combatPower>
 		<ecoSystemWeight>0.35</ecoSystemWeight>
 		<wildGroupSize>1~5</wildGroupSize>
+			<flyingAnimationFramePathPrefix>BMT_Prehistoric/Animals/Pteranodon/Pteranodon_Flying_</flyingAnimationFramePathPrefix>
+			<flyingAnimationFrameCount>1</flyingAnimationFrameCount>
+			<flyingAnimationTicksPerFrame>2</flyingAnimationTicksPerFrame>
+			<flyingAnimationDrawSize>1.7</flyingAnimationDrawSize>
+			<flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
+			<flyingAnimationInheritColors>false</flyingAnimationInheritColors>
 		<lifeStages>
 			<li>
 				<label>pteranodon hatchling</label>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/PteranodonSitting</texPath>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.2)</volume>
@@ -196,13 +194,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/Dessicated_Pteranodon</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/PteranodonSitting</texPath>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
 					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.5, 0.4, 0.2)</volume>
@@ -210,13 +208,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/Dessicated_Pteranodon</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/PteranodonSitting</texPath>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
 					<drawSize>3.8</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.5, 0.2)</volume>
@@ -224,22 +222,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/Dessicated_Pteranodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/Dessicated_Pteranodon</texPath>
 					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-		<modExtensions>
-			<li Class="PathfindingFramework.LocomotionGraphicExtension">
-				<locomotionUrgencies>
-					<li>Jog</li>
-					<li>Sprint</li>
-				</locomotionUrgencies>
-				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Pteranodon/PteranodonFlying</texPath>
-				</bodyGraphicData>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 
 	<ThingDef ParentName="EggFertBase">

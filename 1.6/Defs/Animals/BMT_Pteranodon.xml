@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<LifeStageDef MayRequire="biomesteam.oasis" ParentName="AnimalBaby">
-		<defName>BMT_BladecrestBabyTiny</defName>
+	<LifeStageDef ParentName="AnimalBaby">
+		<defName>BMT_PteranodonBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
 		<foodMaxFactor>6</foodMaxFactor>
 		<statFactors>
@@ -10,8 +10,8 @@
 		</statFactors>
 	</LifeStageDef>
 
-	<LifeStageDef MayRequire="biomesteam.oasis">
-		<defName>BMT_BladecrestJuvenile</defName>
+	<LifeStageDef>
+		<defName>BMT_PteranodonJuvenile</defName>
 		<label>juvenile</label>
 		<voxPitch>1.2</voxPitch>
 		<bodySizeFactor>0.9</bodySizeFactor>
@@ -25,8 +25,8 @@
 		</statFactors>
 	</LifeStageDef>
 
-	<LifeStageDef MayRequire="biomesteam.oasis">
-		<defName>BMT_BladecrestAdult</defName>
+	<LifeStageDef>
+		<defName>BMT_PteranodonAdult</defName>
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
@@ -34,41 +34,38 @@
 		<shearable>true</shearable>
 	</LifeStageDef>
 
-	<ThingDef MayRequire="biomesteam.oasis" ParentName="AnimalThingBase">
-		<defName>BMT_Bladecrest</defName>
-		<label>bladecrest</label>
-		<description>Bladecrests are a predator that can be found in the Chromatic Oasis, using their razor shard crests to slash at their prey.\n\nScientific name: Pteranodon ferrumcalvaria</description>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>BMT_Pteranodon</defName>
+		<label>pteranodon</label>
+		<description>Pteranodon flies and hunts like modern albatross. Its streamlined skull and toothless jaws made diving into the water for fish an easy task.\n\nScientific name: Pteranodon longiceps</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
-			<MarketValue>1050</MarketValue>
+			<MarketValue>950</MarketValue>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
-			<MaxFlightTime>30</MaxFlightTime>
+			<MaxFlightTime>50</MaxFlightTime>
 			<FlightCooldown>10</FlightCooldown>
-			<Wildness>0.55</Wildness>
+			<Wildness>0.45</Wildness>			
 		</statBases>
 		<race>
-			<useMeatFrom>BMT_Pteranodon</useMeatFrom>
+			<meatLabel>pterosaur meat</meatLabel>
 			<leatherDef>BMT_DinoHideThin</leatherDef>
 			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
-			<maxPreyBodySize>1.2</maxPreyBodySize>
-			<baseBodySize>2.6</baseBodySize>
-			<baseHealthScale>1.0</baseHealthScale>
+			<maxPreyBodySize>0.20</maxPreyBodySize>
+			<baseBodySize>2</baseBodySize>
+			<baseHealthScale>1.2</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<trainability>Advanced</trainability>
-			<lifeExpectancy>30</lifeExpectancy>
-			<manhunterOnTameFailChance>0.45</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+			<lifeExpectancy>35</lifeExpectancy>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
 			<body>Bird</body>
-			<gestationPeriodDays>12</gestationPeriodDays>
+			<gestationPeriodDays>9</gestationPeriodDays>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-			<wildBiomes>
-				<BMT_ChromaticOasis>0.8</BMT_ChromaticOasis>
-			</wildBiomes>
 			<ageGenerationCurve>
 				<points>
 					<li>(0.0,0)</li>
@@ -81,16 +78,16 @@
 			</ageGenerationCurve>
 			<lifeStageAges>
 				<li>
-					<def>BMT_BladecrestBabyTiny</def>
+					<def>BMT_PteranodonBabyTiny</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>BMT_BladecrestJuvenile</def>
-					<minAge>0.7</minAge>
+					<def>BMT_PteranodonJuvenile</def>
+					<minAge>0.5</minAge>
 				</li>
 				<li>
-					<def>BMT_BladecrestAdult</def>
-					<minAge>1.3</minAge>
+					<def>BMT_PteranodonAdult</def>
+					<minAge>1</minAge>
 					<soundWounded>BMT_Pteranodon_Wounded</soundWounded>
 					<soundDeath>BMT_Pteranodon_Death</soundDeath>
 					<soundCall>BMT_Pteranodon_Call</soundCall>
@@ -99,14 +96,24 @@
 			</lifeStageAges>
 		</race>
 		<uiIconScale>1.5</uiIconScale>
+		<modExtensions>
+			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+				<isBottomFeeder>true</isBottomFeeder>
+			</li>
+		</modExtensions>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>BMT_BladecrestEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_BladecrestEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>BMT_PteranodonEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_PteranodonEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
-				<eggLayIntervalDays>12</eggLayIntervalDays>
+				<eggLayIntervalDays>8</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~3</eggCountRange>
+			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Fishing.</consumingFoodReportString>
+				<effecterDef>EatFish</effecterDef>
 			</li>
 		</comps>
 		<tools>
@@ -115,7 +122,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>5.2</power>
+				<power>4</power>
 				<cooldownTime>3</cooldownTime>
 				<chanceFactor>0.2</chanceFactor>
 				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
@@ -123,7 +130,7 @@
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>18</amount>
+							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -133,15 +140,14 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>19</power>
+				<power>10</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
-				<chanceFactor>0.2</chanceFactor>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>15</amount>
+							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -149,22 +155,13 @@
 			<li>
 				<label>head</label>
 				<capacities>
-					<li>Cut</li>
-					<li>Stab</li>
+					<li>Blunt</li>
 				</capacities>
-				<power>28</power>
+				<power>2</power>
 				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>1.0</chanceFactor>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>12</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
 		<tradeTags>
@@ -172,98 +169,94 @@
 		</tradeTags>
 	</ThingDef>
 
-	<PawnKindDef MayRequire="biomesteam.oasis" ParentName="BigBirdKindBase">
-		<defName>BMT_Bladecrest</defName>
-		<label>bladecrest</label>
-		<race>BMT_Bladecrest</race>
-		<combatPower>120</combatPower>
-		<ecoSystemWeight>0.70</ecoSystemWeight>
-		<wildGroupSize>1~2</wildGroupSize>
-			<flyingAnimationFramePathPrefix>BMT_Prehistoric/Animals/Bladecrest/Bladecrest_Flying_</flyingAnimationFramePathPrefix>
+	<PawnKindDef ParentName="BigBirdKindBase">
+		<defName>BMT_Pteranodon</defName>
+		<label>pteranodon</label>
+		<race>BMT_Pteranodon</race>
+		<combatPower>60</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
+		<wildGroupSize>1~5</wildGroupSize>
+			<flyingAnimationFramePathPrefix>BMT_Prehistoric/Animals/Pteranodon/Pteranodon_Flying_</flyingAnimationFramePathPrefix>
 			<flyingAnimationFrameCount>1</flyingAnimationFrameCount>
 			<flyingAnimationTicksPerFrame>2</flyingAnimationTicksPerFrame>
-			<flyingAnimationDrawSize>1.7</flyingAnimationDrawSize>
+			<flyingAnimationDrawSize>1.3</flyingAnimationDrawSize>
 			<flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
 			<flyingAnimationInheritColors>false</flyingAnimationInheritColors>
 		<lifeStages>
 			<li>
-				<label>bladecrest hatchling</label>
+				<label>pteranodon hatchling</label>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Bladecrest/BladecrestSitting</texPath>
-					<drawSize>2.3</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
+					<drawSize>1.5</drawSize>
 					<shadowData>
-						<volume>(0.3, 0.3, 0.1)</volume>
-						<offset>(0,0,-0.3)</offset>
+						<volume>(0.3, 0.3, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Bladecrest/Bladecrest_dessicated</texPath>
-					<drawSize>2.3</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/Dessicated_Pteranodon</texPath>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Bladecrest/BladecrestSitting</texPath>
-					<drawSize>3.3</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
+					<drawSize>2.5</drawSize>
 					<shadowData>
-						<volume>(0.6, 0.3, 0.15)</volume>
-						<offset>(0,0,-0.5)</offset>
+						<volume>(0.5, 0.4, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Bladecrest/Bladecrest_dessicated</texPath>
-					<drawSize>3.3</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/Dessicated_Pteranodon</texPath>
+					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Bladecrest/BladecrestSitting</texPath>
-					<drawSize>4.9</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/PteranodonSitting</texPath>
+					<drawSize>3.8</drawSize>
 					<shadowData>
-						<volume>(0.7, 0.5, 0.3)</volume>
-						<offset>(0,0,-0.5)</offset>
+						<volume>(0.8, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Bladecrest/Bladecrest_dessicated</texPath>
-					<drawSize>4.9</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Pteranodon/Dessicated_Pteranodon</texPath>
+					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
-				<butcherBodyPart>
-					<bodyPartGroup>HeadAttackTool</bodyPartGroup>
-					<thing>BMT_BladecrestBlade</thing>
-				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
 
-	<ThingDef MayRequire="biomesteam.oasis" ParentName="EggFertBase">
-		<defName>BMT_BladecrestEggFertilized</defName>
-		<label>bladecrest egg (fert.)</label>
-		<description>A fertilized bladecrest egg. If all goes well, it should hatch into a baby bladecrest. It can be eaten raw, but it's much better cooked.</description>
+	<ThingDef ParentName="EggFertBase">
+		<defName>BMT_PteranodonEggFertilized</defName>
+		<label>pteranodon egg (fert.)</label>
+		<description>A fertilized Pteranodon egg. If all goes well, it should hatch into a baby pteranodon. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(152,95,81)</color>
-			<drawSize>1.1</drawSize>
+			<color>(169,156,131)</color>
+			<drawSize>0.9</drawSize>
 		</graphicData>
 		<statBases>
-			<Nutrition>0.65</Nutrition>
-			<MarketValue>61</MarketValue>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>55</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>6</hatcherDaystoHatch>
-				<hatcherPawn>BMT_Bladecrest</hatcherPawn>
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Pteranodon</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_BladecrestEggUnfertilized</defName>
-		<label>bladecrest egg (unfert.)</label>
-		<description>An unfertilized bladecrest egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<defName>BMT_PteranodonEggUnfertilized</defName>
+		<label>pteranodon egg (unfert.)</label>
+		<description>An unfertilized pteranodon egg. It can be eaten raw, but it's much, much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(152,95,81)</color>
-			<drawSize>1.1</drawSize>
+			<color>(169,156,131)</color>
+			<drawSize>0.9</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>25</MarketValue>

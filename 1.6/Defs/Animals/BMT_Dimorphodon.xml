@@ -2,7 +2,7 @@
 <Defs>
 
 	<LifeStageDef ParentName="AnimalBaby">
-		<defName>BMT_QuetzalBabyTiny</defName>
+		<defName>BMT_DimorphodonBabyTiny</defName>
 		<bodySizeFactor>0.1</bodySizeFactor>
 		<foodMaxFactor>6</foodMaxFactor>
 		<statFactors>
@@ -11,7 +11,7 @@
 	</LifeStageDef>
 
 	<LifeStageDef>
-		<defName>BMT_QuetzalJuvenile</defName>
+		<defName>BMT_DimorphodonJuvenile</defName>
 		<label>juvenile</label>
 		<voxPitch>1.2</voxPitch>
 		<bodySizeFactor>0.9</bodySizeFactor>
@@ -26,7 +26,7 @@
 	</LifeStageDef>
 
 	<LifeStageDef>
-		<defName>BMT_QuetzalAdult</defName>
+		<defName>BMT_DimorphodonAdult</defName>
 		<label>adult</label>
 		<visible>false</visible>
 		<reproductive>true</reproductive>
@@ -35,34 +35,34 @@
 	</LifeStageDef>
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>BMT_Quetzal</defName>
-		<label>quetzal</label>
-		<description>Its name comes from the Aztec feathered serpent god, Quetzalcoatl. It was one of the largest known flying animals of all time and had the wingspan of a small plane. It also had the height of a giraffe. It is likely that it fueled its enormous metabolic needs by eating land vertebrates.\n\nScientific name: Quetzalcoatlus northropi</description>
+		<defName>BMT_Dimorphodon</defName>
+		<label>dimorphodon</label>
+		<description>Dimorphodon is a small pterosaur with a skull nearly one-third of its total body length. Their skull, however, is surprisingly light since it's virtually just scaffolding. It is able to run along the ground using its wings like legs, much like certain bats. The Dimorphodon hunts small prey.\n\nScientific name: Dimorphodon macronyx</description>
 		<statBases>
-			<MoveSpeed>4</MoveSpeed>
-			<MarketValue>950</MarketValue>
+			<MoveSpeed>3</MoveSpeed>
+			<MarketValue>730</MarketValue>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
-			<MaxFlightTime>120</MaxFlightTime>
-			<FlightCooldown>15</FlightCooldown>
-			<Wildness>0.55</Wildness>
+			<MaxFlightTime>25</MaxFlightTime>
+			<FlightCooldown>5</FlightCooldown>
+			<Wildness>0.30</Wildness>
 		</statBases>
 		<race>
 			<useMeatFrom>BMT_Pteranodon</useMeatFrom>
 			<leatherDef>BMT_DinoHideThin</leatherDef>
-			<herdAnimal>true</herdAnimal>
+			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
-			<maxPreyBodySize>1.6</maxPreyBodySize>
-			<baseBodySize>3.8</baseBodySize>
+			<maxPreyBodySize>0.20</maxPreyBodySize>
+			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1.2</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
-			<trainability>Advanced</trainability>
+			<trainability>Intermediate</trainability>
 			<lifeExpectancy>30</lifeExpectancy>
-			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.40</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
 			<body>Bird</body>
-			<gestationPeriodDays>12</gestationPeriodDays>
+			<gestationPeriodDays>9</gestationPeriodDays>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
@@ -78,30 +78,30 @@
 			</ageGenerationCurve>
 			<lifeStageAges>
 				<li>
-					<def>BMT_QuetzalBabyTiny</def>
+					<def>BMT_DimorphodonBabyTiny</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>BMT_QuetzalJuvenile</def>
-					<minAge>0.7</minAge>
+					<def>BMT_DimorphodonJuvenile</def>
+					<minAge>0.5</minAge>
 				</li>
 				<li>
-					<def>BMT_QuetzalAdult</def>
-					<minAge>1.3</minAge>
-					<soundWounded>BMT_Pteranodon_Wounded</soundWounded>
-					<soundDeath>BMT_Pteranodon_Death</soundDeath>
-					<soundCall>BMT_Pteranodon_Call</soundCall>
-					<soundAngry>BMT_Pteranodon_Angry</soundAngry>
+					<def>BMT_DimorphodonAdult</def>
+					<minAge>1</minAge>
+					<soundWounded>BMT_TinyDino_Angry</soundWounded>
+					<soundDeath>BMT_TinyDino_Death</soundDeath>
+					<soundCall>BMT_TinyDino_Call</soundCall>
+					<soundAngry>BMT_TinyDino_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 		</race>
 		<uiIconScale>1.5</uiIconScale>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>BMT_QuetzalEggFertilized</eggFertilizedDef>
-				<eggUnfertilizedDef>BMT_QuetzalEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>BMT_DimorphodonEggFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_DimorphodonEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
-				<eggLayIntervalDays>12</eggLayIntervalDays>
+				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~3</eggCountRange>
 			</li>
@@ -112,7 +112,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>4.5</power>
+				<power>1</power>
 				<cooldownTime>3</cooldownTime>
 				<chanceFactor>0.2</chanceFactor>
 				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
@@ -120,7 +120,7 @@
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>18</amount>
+							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -130,14 +130,14 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>22</power>
-				<cooldownTime>1.5</cooldownTime>
+				<power>8</power>
+				<cooldownTime>0.9</cooldownTime>
 				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>15</amount>
+							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -147,8 +147,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>10</power>
-				<cooldownTime>1.8</cooldownTime>
+				<power>3</power>
+				<cooldownTime>1.4</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
@@ -157,16 +157,21 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 		</tradeTags>
+		<modExtensions>
+			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
+				<bodyClock>Crepuscular</bodyClock>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="BigBirdKindBase">
-		<defName>BMT_Quetzal</defName>
-		<label>quetzal</label>
-		<race>BMT_Quetzal</race>
-		<combatPower>80</combatPower>
-		<ecoSystemWeight>0.70</ecoSystemWeight>
-		<wildGroupSize>1~3</wildGroupSize>
-			<flyingAnimationFramePathPrefix>BMT_Prehistoric/Animals/Quetzal/Quetzal_Flying_</flyingAnimationFramePathPrefix>
+		<defName>BMT_Dimorphodon</defName>
+		<label>dimorphodon</label>
+		<race>BMT_Dimorphodon</race>
+		<combatPower>60</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
+		<wildGroupSize>2~4</wildGroupSize>
+			<flyingAnimationFramePathPrefix>BMT_Prehistoric/Animals/Dimorphodon/Dimorphodon_Flying_</flyingAnimationFramePathPrefix>
 			<flyingAnimationFrameCount>1</flyingAnimationFrameCount>
 			<flyingAnimationTicksPerFrame>2</flyingAnimationTicksPerFrame>
 			<flyingAnimationDrawSize>1.7</flyingAnimationDrawSize>
@@ -174,46 +179,46 @@
 			<flyingAnimationInheritColors>false</flyingAnimationInheritColors>
 		<lifeStages>
 			<li>
-				<label>quetzal hatchling</label>
+				<label>dimorphodon hatchling</label>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Quetzal/QuetzalSitting</texPath>
-					<drawSize>3.2</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
+					<drawSize>1</drawSize>
 					<shadowData>
-						<volume>(0.5, 0.5, 0.2)</volume>
-						<offset>(0,0,-0.5)</offset>
+						<volume>(0.3, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Quetzal/Dessicated_Quetzal</texPath>
-					<drawSize>3.2</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/Dessicated_Dimorphodon</texPath>
+					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Quetzal/QuetzalSitting</texPath>
-					<drawSize>4.8</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
+					<drawSize>1.5</drawSize>
 					<shadowData>
-						<volume>(0.8, 0.5, 0.3)</volume>
-						<offset>(0,0,-0.5)</offset>
+						<volume>(0.4, 0.5, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Quetzal/Dessicated_Quetzal</texPath>
-					<drawSize>4.8</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/Dessicated_Dimorphodon</texPath>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Quetzal/QuetzalSitting</texPath>
-					<drawSize>7</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
+					<drawSize>2</drawSize>
 					<shadowData>
-						<volume>(1, 0.8, 0.5)</volume>
-						<offset>(0,0,-0.5)</offset>
+						<volume>(0.5, 0.4, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Quetzal/Dessicated_Quetzal</texPath>
-					<drawSize>7</drawSize>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/Dessicated_Dimorphodon</texPath>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
@@ -221,33 +226,32 @@
 	</PawnKindDef>
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>BMT_QuetzalEggFertilized</defName>
-		<label>quetzal egg (fert.)</label>
-		<description>A fertilized quetzal egg. If all goes well, it should hatch into a baby quetzal. It can be eaten raw, but it's much better cooked.</description>
+		<defName>BMT_DimorphodonEggFertilized</defName>
+		<label>dimorphodon egg (fert.)</label>
+		<description>A fertilized Dimorphodon egg. If all goes well, it should hatch into a baby dimorphodon. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(152,95,81)</color>
-			<drawSize>1.1</drawSize>
+			<color>(151,176,198)</color>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<statBases>
-			<Nutrition>0.95</Nutrition>
-			<MarketValue>61</MarketValue>
+			<MarketValue>55</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>6</hatcherDaystoHatch>
-				<hatcherPawn>BMT_Quetzal</hatcherPawn>
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>BMT_Dimorphodon</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>BMT_QuetzalEggUnfertilized</defName>
-		<label>quetzal egg (unfert.)</label>
-		<description>An unfertilized quetzal egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<defName>BMT_DimorphodonEggUnfertilized</defName>
+		<label>dimorphodon egg (unfert.)</label>
+		<description>An unfertilized dimorphodon egg. It can be eaten raw, but it's much, much better cooked.</description>
 		<graphicData>
 			<texPath>BMT_Prehistoric/Item/Egg/DinoOvoidEgg</texPath>
-			<color>(152,95,81)</color>
-			<drawSize>1.1</drawSize>
+			<color>(151,176,198)</color>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>25</MarketValue>

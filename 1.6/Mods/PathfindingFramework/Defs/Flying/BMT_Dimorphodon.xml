@@ -43,6 +43,9 @@
 			<MarketValue>730</MarketValue>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<MaxFlightTime>25</MaxFlightTime>
+			<FlightCooldown>5</FlightCooldown>
+			<Wildness>0.30</Wildness>
 		</statBases>
 		<race>
 			<useMeatFrom>BMT_Pteranodon</useMeatFrom>
@@ -54,7 +57,6 @@
 			<baseHealthScale>1.2</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
-			<wildness>0.30</wildness>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>30</lifeExpectancy>
 			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
@@ -159,16 +161,6 @@
 			<li MayRequire="Mlie.XNDNocturnalAnimals,OskarPotocki.VanillaFactionsExpanded.Core" Class="NocturnalAnimals.ExtendedRaceProperties">
 				<bodyClock>Crepuscular</bodyClock>
 			</li>
-			<li Class="PathfindingFramework.MovementExtension">
-				<movementDef>PF_Movement_Flying</movementDef>
-			</li>
-			<li Class="PathfindingFramework.LocomotionMovementExtension">
-				<locomotionUrgencies>
-					<li>Jog</li>
-					<li>Sprint</li>
-				</locomotionUrgencies>
-				<moveSpeedMultiplier>4</moveSpeedMultiplier>
-			</li>
 		</modExtensions>
 	</ThingDef>
 
@@ -179,11 +171,17 @@
 		<combatPower>60</combatPower>
 		<ecoSystemWeight>0.35</ecoSystemWeight>
 		<wildGroupSize>2~4</wildGroupSize>
+			<flyingAnimationFramePathPrefix>BMT_Prehistoric/Animals/Dimorphodon/Dimorphodon_Flying_</flyingAnimationFramePathPrefix>
+			<flyingAnimationFrameCount>1</flyingAnimationFrameCount>
+			<flyingAnimationTicksPerFrame>2</flyingAnimationTicksPerFrame>
+			<flyingAnimationDrawSize>1.7</flyingAnimationDrawSize>
+			<flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
+			<flyingAnimationInheritColors>false</flyingAnimationInheritColors>
 		<lifeStages>
 			<li>
 				<label>dimorphodon hatchling</label>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.5, 0.2)</volume>
@@ -191,13 +189,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/Dessicated_Dimorphodon</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.5, 0.2)</volume>
@@ -205,13 +203,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/Dessicated_Dimorphodon</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonSitting</texPath>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonSitting</texPath>
 					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.5, 0.4, 0.2)</volume>
@@ -219,7 +217,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/Dessicated_Dimorphodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/Dessicated_Dimorphodon</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -231,7 +229,7 @@
 					<li>Sprint</li>
 				</locomotionUrgencies>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Pterosaur/Dimorphodon/DimorphodonFlying</texPath>
+					<texPath>BMT_Prehistoric/Animals/Dimorphodon/DimorphodonFlying</texPath>
 				</bodyGraphicData>
 			</li>
 		</modExtensions>
