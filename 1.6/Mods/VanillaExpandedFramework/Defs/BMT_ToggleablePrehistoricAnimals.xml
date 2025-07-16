@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<AnimalBehaviours.GenericToggleableAnimalDef>
+	<VEF.GenericToggleableAnimalDef>
 		<defName>BMT_ToggleablePrehistoricAnimals</defName>
 		<toggleablePawns>
 			<li>BMT_Allosaurus</li>
@@ -55,5 +55,5 @@
 			<li>BMT_Velociraptor</li>
 			<li>BMT_Yutyrannus</li>
 		</toggleablePawns>
-	</AnimalBehaviours.GenericToggleableAnimalDef>
+	</VEF.GenericToggleableAnimalDef>
 </Defs>
