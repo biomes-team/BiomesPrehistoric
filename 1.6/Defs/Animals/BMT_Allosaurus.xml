@@ -31,6 +31,9 @@
 			<manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
 			<trainability>Advanced</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+			</specialTrainables>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>
