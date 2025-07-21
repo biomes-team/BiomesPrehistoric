@@ -35,6 +35,9 @@
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>

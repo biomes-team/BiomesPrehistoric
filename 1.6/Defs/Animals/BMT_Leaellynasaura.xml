@@ -31,6 +31,9 @@
 			<nuzzleMtbHours>6</nuzzleMtbHours>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>None</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Forage</li>
+			</specialTrainables>
 			<ageGenerationCurve>
 				<points>
 					<li>(0.0,0)</li>

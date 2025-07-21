@@ -36,6 +36,9 @@
 			<manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.55</manhunterOnDamageChance>
 			<trainability>None</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">WarTrumpet</li>
+			</specialTrainables>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>

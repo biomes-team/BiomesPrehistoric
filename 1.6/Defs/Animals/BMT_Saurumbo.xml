@@ -120,6 +120,9 @@
 			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<leatherDef>Leather_Thrumbo</leatherDef>
 			<trainability>Advanced</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">ThrumboRoar</li>
+			</specialTrainables>
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
 			<predator>false</predator>
 			<lifeExpectancy>220</lifeExpectancy>

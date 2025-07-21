@@ -31,6 +31,9 @@
 			<manhunterOnTameFailChance>0.70</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.70</manhunterOnDamageChance>
 			<trainability>Intermediate</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">TerrorRoar</li>
+			</specialTrainables>
 			<ageGenerationCurve>
 				<points>
 					<li>(0.0,0)</li>
