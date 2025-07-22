@@ -30,6 +30,9 @@
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
 			<trainability>None</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Forage</li>
+			</specialTrainables>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBabyTiny</def>

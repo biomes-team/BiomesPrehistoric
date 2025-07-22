@@ -32,6 +32,9 @@
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<ageGenerationCurve>
 				<points>
 					<li>(0.0,0)</li>
