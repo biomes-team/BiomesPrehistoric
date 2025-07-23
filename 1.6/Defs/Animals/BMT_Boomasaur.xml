@@ -29,6 +29,7 @@
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
 			</willNeverEat>
 			<predator>false</predator>
 			<packAnimal>false</packAnimal>
