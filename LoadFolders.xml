@@ -57,5 +57,6 @@
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.core">1.6/Mods/VanillaExpandedFramework</li>
 		<li IfModActive="vanillaexpanded.backgrounds">1.6/Mods/VanillaBackgroundsExpanded</li>
 		<li IfModActive="VanillaExpanded.VPlantsEMore">1.6/Mods/VanillaPlantsExpandedMore</li>
+		<li IfModActive="ludeon.rimworld.odyssey">1.6/Mods/Odyssey</li>
 	</v1.6>
 </loadFolders>
