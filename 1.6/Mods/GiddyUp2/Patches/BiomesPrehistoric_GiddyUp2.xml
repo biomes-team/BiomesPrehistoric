@@ -317,16 +317,21 @@
 			</li>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="BMT_ChromaticAnkylosaurus"]</xpath>
-		<value>
-			<li Class="GiddyUp.DrawingOffset">
-				<northOffset>0,0,-0.4</northOffset>
-				<southOffset>0,0,-0.2</southOffset>
-				<eastOffset>0.3,0,0.4</eastOffset>
-				<westOffset>-0.3,0,0.4</westOffset>
-			</li>
-		</value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes! Oasis</li>
+		</mods>
+		<match Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="BMT_ChromaticAnkylosaurus"]</xpath>
+			<value>
+				<li Class="GiddyUp.DrawingOffset">
+					<northOffset>0,0,-0.4</northOffset>
+					<southOffset>0,0,-0.2</southOffset>
+					<eastOffset>0.3,0,0.4</eastOffset>
+					<westOffset>-0.3,0,0.4</westOffset>
+				</li>
+			</value>
+		</match>
 	</Operation>
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="BMT_Chungkingosaurus"]</xpath>
