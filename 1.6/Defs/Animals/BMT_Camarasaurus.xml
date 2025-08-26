@@ -170,6 +170,9 @@
 				<texPath>BMT_Prehistoric/Animals/Camarasaurus/CamarasaurusB</texPath>
 			</li>
 		</alternateGraphics>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">WarTrumpet</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

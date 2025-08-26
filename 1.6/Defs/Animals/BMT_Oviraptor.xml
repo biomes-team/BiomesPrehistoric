@@ -122,6 +122,9 @@
 		<combatPower>55</combatPower>
 		<wildGroupSize>1~2</wildGroupSize>
 		<alternateGraphicChance>0.66</alternateGraphicChance>
+	    <abilities>
+			<li MayRequire="Ludeon.Rimworld.Odyssey">Forage</li>
+		</abilities>
 		<alternateGraphics>
 			<li>
 				<texPath>BMT_Prehistoric/Animals/Oviraptor/OviraptorB</texPath>

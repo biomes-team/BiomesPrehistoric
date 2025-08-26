@@ -123,6 +123,9 @@
 		<race>BMT_Homalocephale</race>
 		<combatPower>55</combatPower>
 		<wildGroupSize>2~3</wildGroupSize>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">Comfort</li>
+    </abilities>	
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

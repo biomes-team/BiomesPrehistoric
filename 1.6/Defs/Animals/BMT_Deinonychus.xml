@@ -179,6 +179,9 @@
 		<race>BMT_Deinonychus</race>
 		<combatPower>170</combatPower>
 		<wildGroupSize>1~3</wildGroupSize>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

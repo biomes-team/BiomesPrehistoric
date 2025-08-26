@@ -122,6 +122,9 @@
 		<race>BMT_Allosaurus</race>
 		<combatPower>200</combatPower>
 		<wildGroupSize>1~2</wildGroupSize>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

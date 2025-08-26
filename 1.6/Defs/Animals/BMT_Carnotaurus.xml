@@ -119,6 +119,9 @@
 		<combatPower>260</combatPower>
 		<wildGroupSize>1~4</wildGroupSize>
 		<alternateGraphicChance>0.50</alternateGraphicChance>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
+    </abilities>
 		<alternateGraphics>
 			<li>
 				<texPath>BMT_Prehistoric/Animals/Carnotaurus/CarnotaurusB</texPath>

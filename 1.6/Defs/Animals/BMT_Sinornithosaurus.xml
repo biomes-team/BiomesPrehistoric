@@ -164,6 +164,9 @@
 		<race>BMT_Sinornithosaurus</race>
 		<combatPower>55</combatPower>
 		<wildGroupSize>1</wildGroupSize>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">Comfort</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

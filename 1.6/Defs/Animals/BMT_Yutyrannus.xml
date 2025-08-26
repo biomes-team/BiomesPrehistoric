@@ -135,6 +135,9 @@
 		<race>BMT_Yutyrannus</race>
 		<combatPower>300</combatPower>
 		<wildGroupSize>1~2</wildGroupSize>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">TerrorRoar</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

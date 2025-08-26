@@ -161,6 +161,9 @@
 				<texPath>BMT_Prehistoric/Animals/Minmi/MinmiC</texPath>
 			</li>
 		</alternateGraphics>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">Comfort</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

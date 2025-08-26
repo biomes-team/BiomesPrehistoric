@@ -116,6 +116,9 @@
 		<race>BMT_Therizinosaurus</race>
 		<combatPower>150</combatPower>
 		<wildGroupSize>1~2</wildGroupSize>
+	    <abilities>
+			<li MayRequire="Ludeon.Rimworld.Odyssey">Forage</li>
+		</abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

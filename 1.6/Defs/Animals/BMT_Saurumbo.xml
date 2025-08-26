@@ -175,6 +175,9 @@
 		<combatPower>550</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>1</ecoSystemWeight>
+	    <abilities>
+			<li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+		</abilities>
 		<lifeStages>
 			<li>
 				<label>saurumbo calf</label>

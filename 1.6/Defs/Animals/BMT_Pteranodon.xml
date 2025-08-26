@@ -185,6 +185,9 @@
 			<flyingAnimationDrawSize>1.3</flyingAnimationDrawSize>
 			<flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
 			<flyingAnimationInheritColors>false</flyingAnimationInheritColors>
+	    <abilities>
+			<li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
+		</abilities>
 		<lifeStages>
 			<li>
 				<label>pteranodon hatchling</label>

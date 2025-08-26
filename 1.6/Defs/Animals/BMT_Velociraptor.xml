@@ -169,6 +169,9 @@
 				<texPath>BMT_Prehistoric/Animals/Velociraptor/VelociraptorA</texPath>
 			</li>
 		</alternateGraphics>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

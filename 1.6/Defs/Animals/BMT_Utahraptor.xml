@@ -168,6 +168,9 @@
 		<race>BMT_Utahraptor</race>
 		<combatPower>190</combatPower>
 		<wildGroupSize>2~4</wildGroupSize>
+    <abilities>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
+    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
