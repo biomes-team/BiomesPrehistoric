@@ -139,9 +139,6 @@
 		<race>BMT_Hypsilophodon</race>
 		<combatPower>25</combatPower>
 		<wildGroupSize>4~6</wildGroupSize>
-    <abilities>
-      <li MayRequire="Ludeon.Rimworld.Odyssey">Forage</li>
-    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

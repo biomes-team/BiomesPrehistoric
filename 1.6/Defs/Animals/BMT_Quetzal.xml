@@ -175,9 +175,6 @@
 			<flyingAnimationDrawSize>1.2</flyingAnimationDrawSize>
 			<flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
 			<flyingAnimationInheritColors>false</flyingAnimationInheritColors>
-	    <abilities>
-			<li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
-		</abilities>
 		<lifeStages>
 			<li>
 				<label>quetzal hatchling</label>

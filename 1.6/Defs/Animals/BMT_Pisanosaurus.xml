@@ -133,9 +133,6 @@
 		<label>pisanosaurus</label>
 		<race>BMT_Pisanosaurus</race>
 		<combatPower>25</combatPower>
-    <abilities>
-      <li MayRequire="Ludeon.Rimworld.Odyssey">Comfort</li>
-    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

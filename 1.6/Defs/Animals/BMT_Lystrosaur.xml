@@ -132,9 +132,6 @@
 				<texPath>BMT_Prehistoric/Animals/Lystrosaur/LystrosaurD</texPath>
 			</li>
 		</alternateGraphics>
-    <abilities>
-      <li MayRequire="Ludeon.Rimworld.Odyssey">Comfort</li>
-    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

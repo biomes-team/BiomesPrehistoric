@@ -133,9 +133,6 @@
 		<race>BMT_Leaellynasaura</race>
 		<combatPower>25</combatPower>
 		<wildGroupSize>4~9</wildGroupSize>
-    <abilities>
-      <li MayRequire="Ludeon.Rimworld.Odyssey">Forage</li>
-    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

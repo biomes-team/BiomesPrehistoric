@@ -146,9 +146,6 @@
 		<race>BMT_Troodon</race>
 		<combatPower>55</combatPower>
 		<wildGroupSize>1</wildGroupSize>
-    <abilities>
-      <li MayRequire="Ludeon.Rimworld.Odyssey">AttackTarget</li>
-    </abilities>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
