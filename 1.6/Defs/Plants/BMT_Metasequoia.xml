@@ -4,7 +4,7 @@
   <ThingDef ParentName="DeciduousTreeBase">
     <defName>BMT_Metasequoia</defName>
     <label>dawn redwood</label>
-    <description>The shortest of the redwood. i like the name primal world mammoth tree.</description>
+    <description>The shortest of the ancient redwoods.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Metasequoia/MetasequoiaGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>

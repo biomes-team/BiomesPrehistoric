@@ -4,7 +4,7 @@
   <ThingDef ParentName="DeciduousTreeBase">
     <defName>BMT_Ginkgo</defName>
     <label>silver apricot tree</label>
-    <description>silver apricot "jp", silver fruit "ch", white fruit "ch". Ginkgo nuts "weak poison"?</description>
+    <description>the silver apricot tree. Its fruits are weakly poisonous.</description>
     <graphicData>
       <texPath>BMT_Prehistoric/Plant/Ginkgo/GinkgoGrown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
