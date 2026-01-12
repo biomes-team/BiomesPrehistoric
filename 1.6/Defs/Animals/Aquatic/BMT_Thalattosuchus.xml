@@ -144,7 +144,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<swimmingGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_Thalattosuchus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_ThalattosuchusA</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>1.4</drawSize>
 				</swimmingGraphicData>
@@ -163,7 +163,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<swimmingGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_Thalattosuchus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_ThalattosuchusA</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>2</drawSize>
 				</swimmingGraphicData>
@@ -182,7 +182,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<swimmingGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_Thalattosuchus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_ThalattosuchusA</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>2.4</drawSize>
 				</swimmingGraphicData>
