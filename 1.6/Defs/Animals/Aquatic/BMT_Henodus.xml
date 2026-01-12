@@ -69,6 +69,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggHenodusFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggHenodusUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>30</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -136,35 +137,50 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Henodus</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Swimming_Henodus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Dessicated_Henodus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Dessicated_Henodus</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Henodus</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Swimming_Henodus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Dessicated_Henodus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Dessicated_Henodus</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Henodus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Henodus</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.45, 0.45, 0.45)</volume>
 						<offset>(0,0,0)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Swimming_Henodus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Henodus/Dessicated_Henodus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Henodus/Dessicated_Henodus</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -173,8 +189,8 @@
 
 	<ThingDef ParentName="EggFertBase">
 		<defName>BMT_EggHenodusFertilized</defName>
-		<label>Henodus egg (fert.)</label>
-		<description>A fertilized Henodus egg. If all goes well, it should hatch into a baby Henodus. It can be eaten raw, but it's much better cooked.</description>
+		<label>henodus egg (fert.)</label>
+		<description>A fertilized henodus egg. If all goes well, it should hatch into a baby Henodus. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(104,70,45)</color>
@@ -190,5 +206,18 @@
 				<hatcherPawn>BMT_Henodus</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggHenodusUnfertilized</defName>
+		<label>henodus egg (unfert.)</label>
+		<description>An unfertilized henodus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(104,70,45)</color>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
 	</ThingDef>
 </Defs>

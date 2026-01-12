@@ -75,6 +75,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggCamerocerasFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggCamerocerasUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>10</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -140,7 +141,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/Cameroceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Cameroceras</texPath>
 					<drawSize>3</drawSize>
 					<color>(180,170,160)</color>
 					<shadowData>
@@ -148,14 +149,19 @@
 						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Swimming_Cameroceras</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/Dessicated_Cameroceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Dessicated_Cameroceras</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/Cameroceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Cameroceras</texPath>
 					<drawSize>6</drawSize>
 					<color>(180,170,160)</color>
 					<shadowData>
@@ -163,22 +169,32 @@
 						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Swimming_Cameroceras</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>6</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/Dessicated_Cameroceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Dessicated_Cameroceras</texPath>
 					<drawSize>6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/Cameroceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Cameroceras</texPath>
 					<drawSize>9</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.1)</volume>
 						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Swimming_Cameroceras</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>9</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Cameroceras/Dessicated_Cameroceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Cameroceras/Dessicated_Cameroceras</texPath>
 					<drawSize>9</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -206,4 +222,17 @@
 			</li>
 		</comps>
 	</ThingDef>
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggCamerocerasUnfertilized</defName>
+		<label>cameroceras egg (unfert.)</label>
+		<description>An unfertilized cameroceras egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(210, 135, 226)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+		</statBases>
+	</ThingDef>	
 </Defs>

@@ -119,6 +119,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggAnomalocarisFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggAnomalocarisUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -142,31 +143,46 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Anomalocaris</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Swimming_Anomalocaris</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Dessicated_Anomalocaris</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Anomalocaris</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Swimming_Anomalocaris</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Dessicated_Anomalocaris</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Anomalocaris/Anomalocaris</texPath>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Anomalocaris</texPath>
 					<drawSize>1.5</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Swimming_Anomalocaris</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Anomalocaris/Dessicated_Anomalocaris</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -192,5 +208,18 @@
 				<hatcherPawn>BMT_Anomalocaris</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggAnomalocarisUnfertilized</defName>
+		<label>anomalocaris egg (unfert.)</label>
+		<description>An unfertilized aboomasaurus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(104,70,45)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
 	</ThingDef>
 </Defs>   

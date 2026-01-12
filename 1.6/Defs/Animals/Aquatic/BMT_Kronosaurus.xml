@@ -135,43 +135,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kronosaurus/Kronosaurus</texPath>
 					<drawSize>2.3</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kronosaurus/Swimming_Kronosaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.3</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Dessicated_Liopleurodon</texPath>
 					<drawSize>2.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kronosaurus/Kronosaurus</texPath>
 					<drawSize>4.4</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kronosaurus/Swimming_Kronosaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4.4</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Dessicated_Liopleurodon</texPath>
 					<drawSize>4.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kronosaurus/Kronosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kronosaurus/Kronosaurus</texPath>
 					<drawSize>6.5</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kronosaurus/Swimming_Kronosaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>6.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BiomesIslands_Things/Pawn/Animal/Dessicated/Whale</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Dessicated_Liopleurodon</texPath>
 					<drawSize>6.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

@@ -135,43 +135,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kaiwhekea/Kaiwhekea</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kaiwhekea/Swimming_Kaiwhekea</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kaiwhekea/Kaiwhekea</texPath>
 					<drawSize>3.4</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kaiwhekea/Swimming_Kaiwhekea</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.4</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
 					<drawSize>3.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaiwhekea/Kaiwhekea</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kaiwhekea/Kaiwhekea</texPath>
 					<drawSize>4.8</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kaiwhekea/Swimming_Kaiwhekea</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4.8</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Elasmosaurus/Dessicated_Elasmosaurus</texPath>
 					<drawSize>4.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

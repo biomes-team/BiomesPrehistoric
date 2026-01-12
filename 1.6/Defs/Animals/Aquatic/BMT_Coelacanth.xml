@@ -79,6 +79,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggCoelacanthFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggCoelacanthUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -139,43 +140,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Coelacanth</texPath>
 					<drawSize>0.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Swimming_Coelacanth</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Dessicated_Coelacanth</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Coelacanth</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Swimming_Coelacanth</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Dessicated_Coelacanth</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Coelacanth/Coelacanth</texPath>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Coelacanth</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Swimming_Coelacanth</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.6</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Coelacanth/Dessicated_Coelacanth</texPath>
+					<texPath>BMT_Prehistoric/Animals/Coelacanth/Dessicated_Coelacanth</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -202,6 +218,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggCoelacanthUnfertilized</defName>
+		<label>coelacanth egg (unfert.)</label>
+		<description>An unfertilized coelacanth egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>22</MarketValue>
+		</statBases>
+	</ThingDef>
 
 </Defs>

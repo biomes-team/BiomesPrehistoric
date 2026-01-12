@@ -138,46 +138,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Shonisaurus/Shonisaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Shonisaurus</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Swimming_Shonisaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Shonisaurus/Dessicated_Shonisaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Dessicated_Shonisaurus</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Shonisaurus/Shonisaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Shonisaurus</texPath>
 					<drawSize>4.0</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Swimming_Shonisaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Shonisaurus/Dessicated_Shonisaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Dessicated_Shonisaurus</texPath>
 					<drawSize>4.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Shonisaurus/Shonisaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Shonisaurus</texPath>
 					<drawSize>4.8</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Swimming_Shonisaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4.8</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Shonisaurus/Dessicated_Shonisaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Shonisaurus/Dessicated_Shonisaurus</texPath>
 					<drawSize>4.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

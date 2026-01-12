@@ -81,6 +81,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggOrthocerasFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggOrthocerasUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>10</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -146,13 +147,13 @@
 		<alternateGraphicChance>0.5</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
-				<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasB</texPath>
+				<texPath>BMT_Prehistoric/Animals/Orthoceras/OrthocerasB</texPath>
 			</li>
 		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/OrthocerasA</texPath>
 					<drawSize>2.2</drawSize>
 					<color>(180,170,160)</color>
 					<shadowData>
@@ -160,14 +161,19 @@
 						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/Swimming_OrthocerasA</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Dessicated_Orthoceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/Dessicated_Orthoceras</texPath>
 					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/OrthocerasA</texPath>
 					<drawSize>2.6</drawSize>
 					<color>(180,170,160)</color>
 					<shadowData>
@@ -175,22 +181,32 @@
 						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/Swimming_OrthocerasA</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.6</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Dessicated_Orthoceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/Dessicated_Orthoceras</texPath>
 					<drawSize>2.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/OrthocerasA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/OrthocerasA</texPath>
 					<drawSize>3.2</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.1)</volume>
 						<offset>(0,0,-0.1)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/Swimming_OrthocerasA</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Orthoceras/Dessicated_Orthoceras</texPath>
+					<texPath>BMT_Prehistoric/Animals/Orthoceras/Dessicated_Orthoceras</texPath>
 					<drawSize>3.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -218,5 +234,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggOrthocerasUnfertilized</defName>
+		<label>orthoceras egg (unfert.)</label>
+		<description>An unfertilized orthoceras egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(210, 135, 226)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

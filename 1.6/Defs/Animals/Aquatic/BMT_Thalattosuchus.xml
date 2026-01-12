@@ -76,15 +76,6 @@
 				<chanceFactor>0.1</chanceFactor>
 			</li>
 		</tools>
-		<comps>
-			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>BMT_EggThalattosuchusFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>7</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~3</eggCountRange>
-			</li>
-		</comps>
 		<race>
 			<body>BMT_FishBody</body>
 			<leatherDef>BMT_Fishskin</leatherDef>
@@ -139,49 +130,64 @@
 		<alternateGraphicChance>0.5</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
-				<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusB</texPath>
+				<texPath>BMT_Prehistoric/Animals/Thalattosuchus/ThalattosuchusB</texPath>
 			</li>
 		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/ThalattosuchusA</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_Thalattosuchus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.4</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/Dessicated_Thalattosuchus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Dessicated_Thalattosuchus</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/ThalattosuchusA</texPath>
 					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_Thalattosuchus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/Dessicated_Thalattosuchus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Dessicated_Thalattosuchus</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/ThalattosuchusA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/ThalattosuchusA</texPath>
 					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Swimming_Thalattosuchus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.4</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Thalattosuchus/Dessicated_Thalattosuchus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Thalattosuchus/Dessicated_Thalattosuchus</texPath>
 					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -207,5 +213,17 @@
 				<hatcherPawn>BMT_Thalattosuchus</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggThalattosuchusUnfertilized</defName>
+		<label>thalattosuchus egg (unfert.)</label>
+		<description>An unfertilized thalattosuchus egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>22</MarketValue>
+		</statBases>
 	</ThingDef>
 </Defs>

@@ -138,46 +138,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Icthyosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
 					<drawSize>1.0</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Swimming_Icthyosaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Icthyosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Swimming_Icthyosaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Icthyosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Icthyosaurus</texPath>
 					<drawSize>3.8</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Swimming_Icthyosaurus</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.8</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Icthyosaurus/Dessicated_Icthyosaurus</texPath>
 					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

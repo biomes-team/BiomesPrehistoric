@@ -140,33 +140,48 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/Megalodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Megalodon</texPath>
 					<drawSize>8</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Swimming_Megalodon</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>8</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/Dessicated_Megalodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Dessicated_Megalodon</texPath>
 					<color>(100,60,70)</color>
 					<drawSize>8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/Megalodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Megalodon</texPath>
 					<drawSize>10</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Swimming_Megalodon</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>10</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/Dessicated_Megalodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Dessicated_Megalodon</texPath>
 					<color>(100,60,70)</color>
 					<drawSize>10</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/Megalodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Megalodon</texPath>
 					<drawSize>16</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Swimming_Megalodon</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>16</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Megalodon/Dessicated_Megalodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Megalodon/Dessicated_Megalodon</texPath>
 					<drawSize>16</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

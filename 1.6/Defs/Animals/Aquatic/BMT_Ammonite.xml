@@ -81,6 +81,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggAmmoniteFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggAmmoniteUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>3</eggFertilizationCountMax>
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -145,7 +146,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Ammonite/Ammonite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
 					<drawSize>0.5</drawSize>
 					<color>(180,170,160)</color>
 					<shadowData>
@@ -153,14 +154,19 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Swimming_Ammonite</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Ammonite/Dessicated_Ammonite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Dessicated_Ammonite</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Ammonite/Ammonite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
 					<drawSize>1</drawSize>
 					<color>(180,170,160)</color>
 					<shadowData>
@@ -168,22 +174,32 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Swimming_Ammonite</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Ammonite/Dessicated_Ammonite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Dessicated_Ammonite</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Ammonite/Ammonite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Ammonite</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Swimming_Ammonite</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.6</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Ammonite/Dessicated_Ammonite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Ammonite/Dessicated_Ammonite</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -211,5 +227,17 @@
 			</li>
 		</comps>
 	</ThingDef>
-
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggAmmoniteUnfertilized</defName>
+		<label>ammonite egg (unfert.)</label>
+		<description>An unfertilized ammonite egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(210, 135, 226)</color>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
+	</ThingDef>
 </Defs>

@@ -141,46 +141,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Liopleurodon</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Swimming_Liopleurodon</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.0</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Dessicated_Liopleurodon</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Liopleurodon</texPath>
 					<drawSize>3.2</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Swimming_Liopleurodon</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Dessicated_Liopleurodon</texPath>
 					<drawSize>3.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Liopleurodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Liopleurodon</texPath>
 					<drawSize>4</drawSize>
 					<shadowData>
 						<volume>(1.2, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Swimming_Liopleurodon</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Liopleurodon/Dessicated_Liopleurodon</texPath>
+					<texPath>BMT_Prehistoric/Animals/Liopleurodon/Dessicated_Liopleurodon</texPath>
 					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

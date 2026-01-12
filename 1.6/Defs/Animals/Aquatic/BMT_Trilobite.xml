@@ -107,6 +107,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggTrilobiteFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggTrilobiteUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>8</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -136,40 +137,55 @@
 		<alternateGraphicChance>0.66</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
-				<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteB</texPath>
+				<texPath>BMT_Prehistoric/Animals/Trilobite/TrilobiteB</texPath>
 			</li>
 			<li>
-				<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteC</texPath>
+				<texPath>BMT_Prehistoric/Animals/Trilobite/TrilobiteC</texPath>
 			</li>
 		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/TrilobiteA</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_Trilobite</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Dessicated_Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Dessicated_Trilobite</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/TrilobiteA</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_Trilobite</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Dessicated_Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Dessicated_Trilobite</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/TrilobiteA</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/TrilobiteA</texPath>
 					<drawSize>1.5</drawSize>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_Trilobite</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.5</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Trilobite/Dessicated_Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Dessicated_Trilobite</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -194,5 +210,18 @@
 				<hatcherPawn>BMT_Trilobite</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggTrilobiteUnfertilized</defName>
+		<label>trilobite egg (unfert.)</label>
+		<description>An unfertilized trilobite egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(104,70,45)</color>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
 	</ThingDef>
 </Defs>   

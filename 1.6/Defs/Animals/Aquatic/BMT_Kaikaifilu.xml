@@ -130,43 +130,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/Kaikaifilu</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kaikaifilu/Kaikaifilu</texPath>
 					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kaikaifilu/Swimming_Kaikaifilu</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Mosasaurus/Dessicated_Mosasaurus</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/Kaikaifilu</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kaikaifilu/Kaikaifilu</texPath>
 					<drawSize>4</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kaikaifilu/Swimming_Kaikaifilu</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>4</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Mosasaurus/Dessicated_Mosasaurus</texPath>
 					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Kaikaifilu/Kaikaifilu</texPath>
+					<texPath>BMT_Prehistoric/Animals/Kaikaifilu/Kaikaifilu</texPath>
 					<drawSize>6</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Kaikaifilu/Swimming_Kaikaifilu</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>6</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Mosasaurus/Dessicated_Mosasaurus</texPath>
+					<texPath>BMT_Prehistoric/Animals/Mosasaurus/Dessicated_Mosasaurus</texPath>
 					<drawSize>6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

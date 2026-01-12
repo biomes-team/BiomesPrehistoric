@@ -61,6 +61,7 @@
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggJamoytiusFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggJamoytiusUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -118,43 +119,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius</texPath>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Jamoytius</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Swimming_Jamoytius</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.4</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Dessicated_Jamoytius</texPath>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Dessicated_Jamoytius</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius</texPath>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Jamoytius</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Swimming_Jamoytius</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.6</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Dessicated_Jamoytius</texPath>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Dessicated_Jamoytius</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Jamoytius</texPath>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Jamoytius</texPath>
 					<drawSize>1.8</drawSize>
 					<shadowData>
 						<volume>(1, 0.5, 0.2)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Swimming_Jamoytius</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.8</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Jamoytius/Dessicated_Jamoytius</texPath>
+					<texPath>BMT_Prehistoric/Animals/Jamoytius/Dessicated_Jamoytius</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -179,5 +195,17 @@
 				<hatcherPawn>BMT_Jamoytius</hatcherPawn>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggJamoytiusUnfertilized</defName>
+		<label>jamoytius egg (unfert.)</label>
+		<description>An unfertilized jamoytius egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>22</MarketValue>
+		</statBases>
 	</ThingDef>
 </Defs>

@@ -124,6 +124,7 @@
 			</li>
 			<li Class="CompProperties_EggLayer">
 				<eggFertilizedDef>BMT_EggEurypteridFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>BMT_EggEurypteridUnfertilized</eggUnfertilizedDef>
 				<eggFertilizationCountMax>2</eggFertilizationCountMax>
 				<eggLayIntervalDays>9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -141,43 +142,58 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Eurypterid</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Swimming_Eurypterid</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Dessicated_Eurypterid</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Eurypterid</texPath>
 					<drawSize>2.2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Swimming_Eurypterid</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Dessicated_Eurypterid</texPath>
 					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Eurypterid</texPath>
 					<drawSize>3.2</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<swimmingGraphicData>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Swimming_Eurypterid</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.2</drawSize>
+				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Prehistoric/Aquatic/Eurypterid/Dessicated_Eurypterid</texPath>
+					<texPath>BMT_Prehistoric/Animals/Eurypterid/Dessicated_Eurypterid</texPath>
 					<drawSize>3.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -204,4 +220,17 @@
 			</li>
 		</comps>
 	</ThingDef>
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>BMT_EggEurypteridUnfertilized</defName>
+		<label>eurypterid egg (unfert.)</label>
+		<description>An unfertilized eurypterid egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(104,70,45)</color>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
+	</ThingDef>	
 </Defs>   
