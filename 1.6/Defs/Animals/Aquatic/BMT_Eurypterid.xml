@@ -143,7 +143,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Eurypterid</texPath>
-					<drawSize>1.2</drawSize>
+					<drawSize>.75</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -152,17 +152,17 @@
 				<swimmingGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Swimming_Eurypterid</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>1.2</drawSize>
+					<drawSize>.75</drawSize>
 				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Dessicated_Eurypterid</texPath>
-					<drawSize>1.2</drawSize>
+					<drawSize>.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Eurypterid</texPath>
-					<drawSize>2.2</drawSize>
+					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -171,17 +171,17 @@
 				<swimmingGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Swimming_Eurypterid</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>2.2</drawSize>
+					<drawSize>1</drawSize>
 				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Dessicated_Eurypterid</texPath>
-					<drawSize>2.2</drawSize>
+					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Eurypterid</texPath>
-					<drawSize>3.2</drawSize>
+					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(1, 0.3, 0.1)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -190,11 +190,11 @@
 				<swimmingGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Swimming_Eurypterid</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>3.2</drawSize>
+					<drawSize>1.5</drawSize>
 				</swimmingGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>BMT_Prehistoric/Animals/Eurypterid/Dessicated_Eurypterid</texPath>
-					<drawSize>3.2</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
