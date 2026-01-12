@@ -2,7 +2,7 @@
 <Patch>
 
 	<!-- Based on Temperate Forest. Favors smaller and faster animals. No large sauropods at all. -->
-	<Operation Class="PatchOperationAdd">
+<!--	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="RG_TemperateGrassland"]/wildAnimals</xpath>
 		<value>
 			<BMT_Allosaurus>0.1</BMT_Allosaurus>
@@ -47,6 +47,6 @@
 			<BMT_Wuerhosaurus>0.4</BMT_Wuerhosaurus>
 			<BMT_Yinlong>0.4</BMT_Yinlong>
 		</value>
-	</Operation>
+	</Operation> -->
 </Patch>
 
