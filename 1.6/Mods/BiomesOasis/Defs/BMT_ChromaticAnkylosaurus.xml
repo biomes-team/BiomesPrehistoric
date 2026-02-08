@@ -15,6 +15,7 @@
 			<ArmorRating_Heat>0.10</ArmorRating_Heat>
 			<FilthRate>17</FilthRate>
 			<PawnBeauty>2</PawnBeauty>
+			<Wildness>0.20</Wildness>
 		</statBases>
 		<race>
 			<nameGenerator>BMT_NamerDino</nameGenerator>
@@ -29,7 +30,6 @@
 			<predator>false</predator>
 			<packAnimal>false</packAnimal>
 			<gestationPeriodDays>10</gestationPeriodDays>
-			<wildness>0.20</wildness>
 			<lifeExpectancy>80</lifeExpectancy>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.30</manhunterOnDamageChance>

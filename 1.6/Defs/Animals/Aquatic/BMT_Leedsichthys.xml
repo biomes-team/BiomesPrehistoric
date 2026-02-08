@@ -94,7 +94,7 @@
 			<li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
 				<isBottomFeeder>true</isBottomFeeder>
 			</li>
-			<li Class="WaterWalker.WaterWalkerExtension"/>
+			<li Class="BiomesCore.WaterWalkerExtension"/>
 		</modExtensions>
 		<race>
 			<body>BMT_FishBody</body>

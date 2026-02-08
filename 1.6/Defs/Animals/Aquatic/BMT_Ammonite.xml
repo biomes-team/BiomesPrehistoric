@@ -124,7 +124,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 	<modExtensions>
-      <li Class="WaterWalker.WaterWalkerExtension"/>
+      <li Class="BiomesCore.WaterWalkerExtension"/>
     </modExtensions>
 		<butcherProducts>
 			<BMT_Molluskshell>20</BMT_Molluskshell>
