@@ -150,7 +150,7 @@
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<swimmingGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_TrilobiteA</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>0.5</drawSize>
 				</swimmingGraphicData>
@@ -165,7 +165,7 @@
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<swimmingGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_TrilobiteA</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>1</drawSize>
 				</swimmingGraphicData>
@@ -180,7 +180,7 @@
 					<drawSize>1.5</drawSize>
 				</bodyGraphicData>
 				<swimmingGraphicData>
-					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_Trilobite</texPath>
+					<texPath>BMT_Prehistoric/Animals/Trilobite/Swimming_TrilobiteA</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>1.5</drawSize>
 				</swimmingGraphicData>
