@@ -25,6 +25,7 @@
       <topWindExposure>0.40</topWindExposure>
       <wildOrder>2</wildOrder>
       <interferesWithRoof>false</interferesWithRoof>
+      <purpose>Beauty</purpose>
     </plant>
     <ingestible />
         <modExtensions>
@@ -37,6 +38,7 @@
                 </terrainTags>
             </li>
         </modExtensions>
+
   </ThingDef>
 
 </Defs>
