@@ -67,6 +67,10 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~3</eggCountRange>
 			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Filtering</consumingFoodReportString>
+			</li>
 		</comps>
 		<race>
 			<body>BMT_FishBody</body>
@@ -107,6 +111,9 @@
 		</race>
 	<modExtensions>
       <li Class="BiomesCore.WaterWalkerExtension"/>
+	  <li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+		<isBottomFeeder>true</isBottomFeeder>
+	  </li>
     </modExtensions>
 	</ThingDef>
 

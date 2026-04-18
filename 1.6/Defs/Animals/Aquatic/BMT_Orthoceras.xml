@@ -87,6 +87,10 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~2</eggCountRange>
 			</li>
+			<li Class="BiomesCore.CompProperties_BottomFeeder">
+				<feedingTerrainTag>Water</feedingTerrainTag>
+				<consumingFoodReportString>Filtering</consumingFoodReportString>
+			</li>
 		</comps>
 		<race>
 			<herdAnimal>false</herdAnimal>
@@ -127,10 +131,14 @@
 		</race>
 	<modExtensions>
       <li Class="BiomesCore.WaterWalkerExtension"/>
+	  <li Class="BiomesCore.DefModExtensions.Biomes_AnimalControl">
+		<isBottomFeeder>true</isBottomFeeder>
+	  </li>
     </modExtensions>
 		<butcherProducts>
 			<BMT_Molluskshell>30</BMT_Molluskshell>
 		</butcherProducts>
+		
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
