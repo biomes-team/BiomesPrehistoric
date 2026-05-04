@@ -95,7 +95,7 @@ BMT_Stromatolite	-					Saltwater / Sea
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd">
+<!-- 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Glowforest"]/wildPlants</xpath>
 		<value>
 			<BMT_JungleGrass>3.0</BMT_JungleGrass>
@@ -111,12 +111,12 @@ BMT_Stromatolite	-					Saltwater / Sea
 			<BMT_MayoaPortugallica>0.15</BMT_MayoaPortugallica>
 			<BMT_Nymphaeaceae>0.3</BMT_Nymphaeaceae>
 
-			<!--BMT_Crinoid>1.0</BMT_Crinoid>
+			BMT_Crinoid>1.0</BMT_Crinoid>
 			<BMT_Gryphaea>1.0</BMT_Gryphaea>
 			<BMT_HornCorals>1.0</BMT_HornCorals>
-			<BMT_Stromatolite>1.0</BMT_Stromatolite-->
+			<BMT_Stromatolite>1.0</BMT_Stromatolite
 		</value>
-	</Operation>
+	</Operation> -->
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="Scarlands"]/wildPlants</xpath>
