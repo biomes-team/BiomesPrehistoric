@@ -37,9 +37,6 @@
       <blockAdjacentSow>false</blockAdjacentSow>
       <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
       <treeCategory>Full</treeCategory>
-      <sowTags>
-        <li>Hydroponic</li>
-      </sowTags>
       <visualSizeRange>1.7~2.5</visualSizeRange>
       <topWindExposure>0.40</topWindExposure>
       <wildOrder>3</wildOrder>
@@ -63,6 +60,57 @@
                 </terrainTags>
             </li>
         </modExtensions>
+  </ThingDef>
+  
+    <ThingDef ParentName="TreeBase">
+    <defName>BMT_NypaFruticansGrowable</defName>
+    <label>nypa palm</label>
+    <description>A palm of wet areas that produces no usable wood, but has sugar-rich stems that can be used to brew alcohol.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/NypaFruticans</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.18, 0.3, 0.15)</volume>
+            <offset>(0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <pathCost>68</pathCost>
+    <blockWind>false</blockWind>
+    <plant Inherit="False">
+      <growDays>14</growDays>
+      <wildClusterRadius>10</wildClusterRadius>
+      <wildClusterWeight>8</wildClusterWeight>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+      <fertilityMin>0.1</fertilityMin>
+      <fertilitySensitivity>0.3</fertilitySensitivity>
+      <soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <blockAdjacentSow>false</blockAdjacentSow>
+      <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+      <treeCategory>Full</treeCategory>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+      <visualSizeRange>1.7~2.5</visualSizeRange>
+      <topWindExposure>0.40</topWindExposure>
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>false</interferesWithRoof>
+      <harvestedThingDef>BMT_RawNypa</harvestedThingDef>
+      <harvestTag>Standard</harvestTag>
+      <harvestWork>200</harvestWork>
+      <harvestYield>8</harvestYield>
+    </plant>
+    <ingestible />
   </ThingDef>
 
   <ThingDef ParentName="RoughPlantBase">
