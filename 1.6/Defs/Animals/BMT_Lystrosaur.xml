@@ -41,11 +41,11 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>1.5</minAge>
+					<minAge>0.25</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>3.0</minAge>
+					<minAge>0.55</minAge>
 					<!-- <soundWounded>BMT_Lystrosaur_Wounded</soundWounded> -->
 					<!-- <soundDeath>BMT_Lystrosaur_Death</soundDeath> -->
 					<!-- <soundCall>BMT_Lystrosaur_Call</soundCall> -->
