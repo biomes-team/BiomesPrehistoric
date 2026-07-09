@@ -212,7 +212,7 @@ namespace BiomesPrehistoric
 			    (PrehistoricStatus.IsPrehistoric(plantDef) || PrehistoricStatus.AlwaysSpawn(plantDef)))
 			{
 				__result *= PrehistoricSettings.Values.plantCommonality * 0.01f;
-				Log.Error(plantDef.defName + " " + __result.ToString());
+				//Log.Error(plantDef.defName + " " + __result.ToString());
 			}
 		}
 	}
