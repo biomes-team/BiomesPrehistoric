@@ -211,8 +211,8 @@ namespace BiomesPrehistoric
 			if (PrehistoricSettings.Values.spawnOption == SpawnOption.DinoAndPlant &&
 			    (PrehistoricStatus.IsPrehistoric(plantDef) || PrehistoricStatus.AlwaysSpawn(plantDef)))
 			{
-				__result *= PrehistoricSettings.Values.plantCommonality;
-				__result /= 100.0f;
+				__result *= PrehistoricSettings.Values.plantCommonality * 0.01f;
+				Log.Error(plantDef.defName + " " + __result.ToString());
 			}
 		}
 	}
