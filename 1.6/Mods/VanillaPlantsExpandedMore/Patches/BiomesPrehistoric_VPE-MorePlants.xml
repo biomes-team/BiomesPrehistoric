@@ -11,12 +11,12 @@
 			</sowTags>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BMT_NypaFruticans"]/plant/sowTags</xpath>
-		<value>
-			<li>VCE_Sandy</li>
-			<li>VCE_Aquatic</li>
-		</value>
-	</Operation>
+	<!-- <Operation Class="PatchOperationAdd"> -->
+		<!-- <xpath>Defs/ThingDef[defName="BMT_NypaFruticans"]/plant/sowTags</xpath> -->
+		<!-- <value> -->
+			<!-- <li>VCE_Sandy</li> -->
+			<!-- <li>VCE_Aquatic</li> -->
+		<!-- </value> -->
+	<!-- </Operation> -->
 </Patch>
 
