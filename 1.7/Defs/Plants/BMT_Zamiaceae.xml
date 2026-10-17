@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>BMT_Zamiaceae</defName>
+    <label>palm cycad</label>
+    <description>A cycad with drooping fronds that resembles a palm tree, but is considerably tougher and hardier.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Zamiaceae</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>20</growDays>
+      <harvestWork>800</harvestWork>
+      <harvestYield>27</harvestYield>
+    </plant>
+  </ThingDef>
+
+</Defs>

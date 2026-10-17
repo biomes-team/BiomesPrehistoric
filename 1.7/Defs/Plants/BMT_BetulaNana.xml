@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BushBase">
+    <defName>BMT_NanaBetula</defName>
+    <label>Dwarf Birch</label>
+    <description>A short shrub. Does not typically talk.</description>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/NanaBetula</texPath>
+      <drawSize>1.15</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <plant>
+      <growDays>5</growDays>
+      <harvestWork>200</harvestWork>
+      <harvestYield>3</harvestYield>
+      <!--leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath-->
+    </plant>
+  </ThingDef>
+
+</Defs>

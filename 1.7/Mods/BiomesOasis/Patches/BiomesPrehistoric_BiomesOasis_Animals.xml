@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BMT_ChromaticOasis"]/wildAnimals</xpath>
+		<value>
+			<BMT_Amargasaurus>0.2</BMT_Amargasaurus>
+			<BMT_Ankylosaurus>0.7</BMT_Ankylosaurus>
+			<BMT_Arthropleura>0.5</BMT_Arthropleura>
+			<BMT_Baryonyx>0.03</BMT_Baryonyx>
+			<BMT_Brachiosaurus>0.5</BMT_Brachiosaurus>
+			<BMT_Chungkingosaurus>0.5</BMT_Chungkingosaurus>
+			<BMT_Compsognathus>0.75</BMT_Compsognathus>
+			<BMT_Dimetrodon>0.5</BMT_Dimetrodon>
+			<BMT_Dryosaurus>0.5</BMT_Dryosaurus>
+			<BMT_Gallimimus>0.03</BMT_Gallimimus>
+			<BMT_Iguanodon>0.4</BMT_Iguanodon>
+			<BMT_Kaprosuchus>0.3</BMT_Kaprosuchus>
+			<BMT_Kentrosaurus>0.5</BMT_Kentrosaurus>
+			<BMT_Meganeura>0.5</BMT_Meganeura>
+			<BMT_Pachycephalosaurus>0.3</BMT_Pachycephalosaurus>
+			<BMT_Parasaur>0.2</BMT_Parasaur>
+			<BMT_Protoceratops>0.5</BMT_Protoceratops>
+			<BMT_Spinosaurus>0.02</BMT_Spinosaurus>
+			<BMT_Stygimoloch>0.5</BMT_Stygimoloch>
+			<BMT_Styracosaurus>0.5</BMT_Styracosaurus>
+			<BMT_TRex>0.2</BMT_TRex>
+			<BMT_Titanoboa>0.1</BMT_Titanoboa>
+			<BMT_Triceratops>0.7</BMT_Triceratops>
+		</value>
+	</Operation>
+
+</Patch>

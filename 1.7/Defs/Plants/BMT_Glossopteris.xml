@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>BMT_Glossopteris</defName>
+    <label>tongue fern</label>
+    <description>Long considered a fern after its discovery, it was later assigned to the gymnosperms. But its relationships with other groups remain obscure.</description>
+    <minifiedDef IsNull="True" />
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Nutrition>2.0</Nutrition>
+      <Mass>100</Mass>
+    </statBases>
+    <graphicData>
+      <texPath>BMT_Prehistoric/Plant/Glossopteris/GlossopterisGrown</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.24, 0.3, 0.15)</volume>
+        <offset>(0.1,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <plant>
+      <lifespanDaysPerGrowDays>40</lifespanDaysPerGrowDays>
+      <growDays>5</growDays>
+      <leaflessGraphicPath>BMT_Prehistoric/Plant/Glossopteris/GlossopterisLeafless</leaflessGraphicPath>
+      <harvestWork>300</harvestWork>
+      <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+      <harvestYield>15</harvestYield>
+      <harvestMinGrowth>0.2</harvestMinGrowth>
+      <topWindExposure>0.08</topWindExposure>
+      <wildClusterRadius>20</wildClusterRadius>
+      <wildClusterWeight>100</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>

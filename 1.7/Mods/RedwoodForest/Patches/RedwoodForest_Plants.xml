@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="RedwoodForest"]/wildPlants</xpath>
+		<value>
+			<!-- Grasses and small bushes -->
+			<BMT_Dicroidium>0.8</BMT_Dicroidium>
+			<BMT_Polytrichaceae>0.5</BMT_Polytrichaceae>
+			<BMT_RedSphagnum>0.3</BMT_RedSphagnum>
+			<!-- Large Bushes -->
+			<BMT_Gnetum>0.1</BMT_Gnetum>
+			<BMT_HealrootFern>0.05</BMT_HealrootFern>
+			<!-- Water plants -->
+			<BMT_Horsetail>1.0</BMT_Horsetail>
+			<BMT_SwimmingBioMass>0.2</BMT_SwimmingBioMass>
+			<!-- Trees -->
+			<BMT_LeopoldaeBetula>0.4</BMT_LeopoldaeBetula>
+		</value>
+	</Operation>
+</Patch>
